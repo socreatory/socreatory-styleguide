@@ -1,0 +1,5 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+$box-shadow-down: 0px 0px 1px rgba(colors.$brand-blue, 0.25), 0px 3px 3px rgba(colors.$brand-blue, 0.25);
+
+$box-shadow-right: 3px 0 3px 0 rgba(colors.$brand-blue, 0.25);

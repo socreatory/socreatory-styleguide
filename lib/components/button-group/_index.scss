@@ -1,0 +1,12 @@
+@use "../../fundamentals/spacers" as spacings;
+
+$space-between: spacings.$spacer-xxs;
+.button-group {
+  margin: -1 * ($space-between / 2);
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin: ($space-between / 2);
+  }
+}

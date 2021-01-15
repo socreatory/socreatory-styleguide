@@ -1,0 +1,14 @@
+@use "../../fundamentals/typography" as typography;
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+h1 {
+  @extend %heading-font-heavy;
+
+  font-size: typography.$font-size-xl;
+}
+
+h2 {
+  @extend %heading-font-bold;
+
+  font-size: typography.$font-size-base;
+}

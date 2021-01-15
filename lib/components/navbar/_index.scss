@@ -1,0 +1,86 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../fundamentals/breakpoints" as breakpoints;
+@use "../../fundamentals/typography" as typography;
+@use "../../fundamentals/helpers" as helpers;
+@use "../../fundamentals/spacers" as spacers;
+
+/* Default behavior of navbar when not in the navbar-layout
+which moves the navbar to the left-hand side */
+.navbar,
+.secondary-navbar {
+  background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--hover-color);
+    }
+  }
+
+  .navbar-item {
+    display: grid;
+    grid-template-rows: var(--row-width);
+    grid-template-columns: 1fr 0;
+
+    .symbol {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .label {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      margin: 0 1rem;
+    }
+  }
+}
+
+.navbar {
+  --background-color: #{colors.$brand-blue};
+  --hover-color: #{colors.$brand-blue-75};
+  --text-color: #{colors.$brand-blue-25};
+  --row-width: 4rem;
+
+  .current {
+    .symbol {
+      background-color: colors.$brand-blue-75;
+    }
+
+    .label {
+      color: colors.$brand-red;
+    }
+  }
+
+  .brand {
+    .label {
+      @include helpers.visually-hidden();
+    }
+
+    &:hover {
+      background-color: colors.$brand-blue;
+    }
+  }
+}
+
+.secondary-navbar {
+  --background-color: #{colors.$brand-gray-75};
+  --hover-color: #{colors.$brand-gray-50};
+  --text-color: #{colors.$brand-gray-25};
+  --row-width: 3rem;
+
+  .navbar-item {
+    .label {
+      font-size: typography.$font-size-sm;
+    }
+
+    &.current {
+      color: white;
+    }
+  }
+}

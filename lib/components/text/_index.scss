@@ -1,0 +1,19 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../fundamentals/typography";
+
+%muted,
+.muted {
+  color: colors.$brand-blue-50;
+}
+
+.heavy {
+  @extend %heading-font-heavy;
+}
+
+.serif {
+  @extend %body-font-regular;
+}
+
+p {
+  font-size: typography.$font-size-md;
+}

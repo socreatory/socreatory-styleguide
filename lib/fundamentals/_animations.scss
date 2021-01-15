@@ -1,0 +1,8 @@
+// times
+$transition-time-standard: 0.5s;
+
+// easing functions
+$transition-easing-standard: ease;
+
+// some transitions
+$standard-transition: all $transition-time-standard $transition-easing-standard;

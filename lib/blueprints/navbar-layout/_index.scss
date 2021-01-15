@@ -1,0 +1,117 @@
+@use "../../fundamentals/breakpoints" as breakpoints;
+@use "../../fundamentals/spacers" as spacers;
+
+.navbar-layout {
+  display: grid;
+  /* We expect only the `main` element as a child of this component
+  apart from the navbar */
+  grid-template-rows: 1fr [secondary-navbar-start] 3rem [navbar-start] auto;
+  min-height: 100vh;
+
+  main {
+    height: 100vh;
+  }
+
+  .navbar {
+    --col-width: 0;
+    position: sticky;
+    bottom: 0;
+    grid-row-start: navbar-start;
+    z-index: 1;
+
+    .brand {
+      width: 0;
+      overflow: hidden;
+      position: absolute;
+    }
+  }
+
+  .secondary-navbar {
+    position: sticky;
+    bottom: 4rem;
+    grid-row-start: secondary-navbar-start;
+    z-index: 1;
+  }
+
+  @include breakpoints.for-tablet-portrait-up {
+    grid-template-rows: [secondary-navbar-start] 4rem auto [main-content-end];
+    grid-template-columns: [navbar-start] 4rem auto [navbar-end] 1fr;
+
+    .navbar {
+      grid-row: secondary-navbar-start / main-content-end;
+      grid-column: navbar-start / navbar-end;
+      grid-template-rows: repeat(auto-fill, 4rem);
+      grid-template-columns: 4rem var(--col-width);
+
+      &:hover {
+        --col-width: max-content;
+      }
+
+      .navbar-item {
+        grid-column: 1 / -1;
+        grid-template-columns: 4rem var(--col-width);
+        /* Since 4rem var(--col-width) is the width of the parent tracks,
+        we can use subgrid instead of repeating it here.
+        Currently only in Firefox supported, so we need both. */
+        grid-template-columns: subgrid;
+      }
+
+      .brand {
+        position: static;
+        width: auto;
+      }
+    }
+
+    .brand + .navbar-item {
+      --border-color: var(--hover-color);
+      grid-template-rows: 1px [item-start] calc(4rem - 1px);
+      &::before {
+        content: "";
+        margin: 0 spacers.$spacer-xs;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .symbol,
+      .label {
+        grid-row-start: item-start;
+      }
+    }
+
+    .brand + .current {
+      --border-color: transparent;
+    }
+
+    .secondary-navbar {
+      display: flex;
+
+      .navbar-item {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        align-items: center;
+        max-width: 15rem;
+        flex-grow: 1;
+
+        .symbol {
+          align-self: end;
+        }
+
+        .label {
+          justify-self: center;
+          align-self: start;
+        }
+      }
+
+      .navbar-item:first-child {
+        margin-left: auto;
+      }
+
+      .navbar-item:last-child {
+        margin-right: auto;
+      }
+    }
+
+    & > :not(.navbar) {
+      grid-column-start: navbar-end;
+    }
+  }
+}

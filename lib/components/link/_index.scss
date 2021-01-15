@@ -1,0 +1,26 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../fundamentals/helpers" as helpers;
+@use "../../fundamentals/spacers" as spacings;
+@use "../../fundamentals/typography" as typography;
+
+.add-link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  color: colors.$brand-red;
+  text-decoration: none;
+  font-size: typography.$font-size-sm;
+
+  .icon-add {
+    @include helpers.icon-before("icons/add.svg", colors.$brand-blue-25, 1.5rem);
+
+    margin-right: spacings.$spacer-xxs;
+  }
+}
+
+.link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  color: colors.$brand-red;
+}
