@@ -1,0 +1,36 @@
+{
+  "name": "rechnologe-styleguide",
+  "private": true,
+  "scripts": {
+    "aiur": "aiur -t ./dist",
+    "aiur:watch": "aiur -t ./dist --watch --liveserve 0.0.0.0:4001",
+    "compile": "faucet --fingerprint --compact",
+    "compile:watch": "faucet --watch",
+    "start": "npm-run-all --parallel compile:watch aiur:watch",
+    "eslint": "eslint --cache './lib/**/*.js'",
+    "stylelint": "stylelint './lib/**/*.scss'",
+    "prettier": "prettier --write './lib/**/*.js' './lib/**/*.scss'",
+    "test": "npm run eslint && npm run stylelint"
+  },
+  "devDependencies": {
+    "aiur": "^0.6.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "faucet-pipeline-js": "^2.1.7",
+    "faucet-pipeline-sass": "^1.4.0",
+    "faucet-pipeline-static": "^1.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "dependencies": {
+    "@ungap/custom-elements-builtin": "^0.6.3",
+    "innoq-styleguide": "^4.9.12",
+    "lodash": "^4.17.20",
+    "tabelle": "^0.2.0",
+    "uitil": "^2.7.1"
+  }
+}

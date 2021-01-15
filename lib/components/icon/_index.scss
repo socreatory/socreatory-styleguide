@@ -1,0 +1,8 @@
+@use "../../fundamentals/helpers" as helpers;
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.icon {
+  &.icon-add {
+    @include helpers.icon-before("icons/add.svg", inherit, 1.5rem);
+  }
+}

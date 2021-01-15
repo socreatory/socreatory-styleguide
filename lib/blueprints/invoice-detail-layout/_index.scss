@@ -1,0 +1,67 @@
+@use "../../../assets/stylesheets/breakpoints" as breakpoints;
+@use "../../../assets/stylesheets/shadows" as shadows;
+@use "../../../assets/stylesheets/spacers" as spacings;
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.invoice-detail-layout {
+  display: flex;
+  flex-wrap: wrap;
+
+  .container-main {
+    & > * {
+      margin-bottom: spacings.$spacer-md;
+    }
+  }
+  .container-sidebar {
+    background-color: colors.$brand-gray-10;
+
+    & > * {
+      margin-bottom: spacings.$spacer-md;
+    }
+
+    section {
+      & > * {
+        margin-bottom: spacings.$spacer-xs;
+      }
+
+      margin-bottom: spacings.$spacer-lg;
+    }
+  }
+
+  @include breakpoints.for-tablet-portrait-up {
+    display: grid;
+    grid-template-areas: "main sidebar";
+    grid-template-columns: 3fr 1fr;
+
+    .container-main {
+      padding: spacings.$spacer-base spacings.$spacer-lg;
+      grid-area: main;
+      box-shadow: shadows.$box-shadow-right;
+      z-index: 2;
+    }
+
+    .container-sidebar {
+      grid-area: sidebar;
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      padding: spacings.$spacer-base spacings.$spacer-md;
+
+      .add-link {
+        margin-bottom: spacings.$spacer-xs;
+        align-self: flex-end;
+      }
+    }
+
+    .invoice-container {
+      display: grid;
+      grid-template-areas: "header body";
+      grid-template-columns: 1fr 3fr;
+      gap: spacings.$spacer-xl;
+
+      h2 {
+        margin-bottom: spacings.$spacer-md;
+      }
+    }
+  }
+}

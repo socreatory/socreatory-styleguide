@@ -1,0 +1,36 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "typography" as typography;
+@use "helpers" as helpers;
+
+* {
+  margin-top: 0;
+
+  &,
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+:root {
+  --background-color: colors.$brand-gray-10;
+  font-family: typography.$font-family-sans-serif;
+}
+
+body {
+  margin: 0;
+  color: colors.$brand-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.sr-only {
+  @include helpers.visually-hidden();
+}
