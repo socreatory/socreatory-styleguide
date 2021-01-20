@@ -19,6 +19,7 @@ module.exports = {
       file: "./lib/documentation/VIEWS.md",
       children: {
         invoices_overview: "./lib/views/invoices-overview.md",
+        example: "./lib/views/example.md",
       },
     },
 
