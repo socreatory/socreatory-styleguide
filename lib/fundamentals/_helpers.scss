@@ -1,3 +1,4 @@
+// Icon helper
 @mixin icon-before($svg-path, $color, $height: 1rem) {
   &::before {
     color: $color;
@@ -13,6 +14,7 @@
   }
 }
 
+// Only visible to screen reader
 @mixin visually-hidden() {
   /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
   position: absolute !important;

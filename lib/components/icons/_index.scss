@@ -1,0 +1,6 @@
+//Example Icon CSS Code
+.icon {
+  &.icon-add {
+    @include icon-before("icons/add.svg", inherit, 1.5rem);
+  }
+}

@@ -1,5 +1,5 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "./lib/fundamentals/spacers" as spacers;
+@import "../../fundamentals/colors";
+@import "../../fundamentals/spacers";
 
 @mixin color-definition($color-name, $hex) {
   &.#{$color-name} {
@@ -9,14 +9,14 @@
       content: "#{$color-name}";
       padding: 0.25rem;
       text-align: center;
-      background-color: colors.$brand-gray-10;
+      background-color: #f7f7f7;
       grid-area: name;
     }
     &::after {
       display: block;
       content: "#{$hex}";
       text-align: center;
-      background-color: colors.$brand-gray-10;
+      background-color: #f7f7f7;
       border-radius: 0 0 0.25rem 0.25rem;
       padding: 0 0.25rem 0.25rem 0.25rem;
       grid-area: hex;
@@ -32,46 +32,31 @@ my-color {
   grid-template-rows: 8rem auto auto;
   grid-template-areas: "swatch" "name" "hex";
 
-  @each $blue, $hex in colors.$brand-blues {
-    @include color-definition($blue, $hex);
-  }
-  @each $red, $hex in colors.$brand-reds {
-    @include color-definition($red, $hex);
-  }
-  @each $green, $hex in colors.$brand-greens {
-    @include color-definition($green, $hex);
-  }
-  @each $yellow, $hex in colors.$brand-yellows {
-    @include color-definition($yellow, $hex);
-  }
-  @each $gray, $hex in colors.$brand-grays {
-    @include color-definition($gray, $hex);
-  }
+  @include color-definition("brand-green", $brand-green);
+
+  @include color-definition("brand-blue", $brand-blue);
 }
 
+// Code for swatching spacer variables
 dl.spacers {
   dt {
-    margin-top: spacers.$spacer-md;
+    margin-top: $spacer-md;
   }
 
   dd {
-    background-color: colors.$brand-green-50;
+    background-color: $brand-green;
     width: 100%;
     margin: 0;
   }
 }
 
 :root {
-  --background-color: #{colors.$brand-gray-10};
-  --brand-blue: #{colors.$brand-blue};
-  --brand-red: #{colors.$brand-red};
-
-  --spacer-xxs: #{spacers.$spacer-xxs};
-  --spacer-xs: #{spacers.$spacer-xs};
-  --spacer-sm: #{spacers.$spacer-sm};
-  --spacer-md: #{spacers.$spacer-md};
-  --spacer-base: #{spacers.$spacer-base};
-  --spacer-lg: #{spacers.$spacer-lg};
-  --spacer-xl: #{spacers.$spacer-xl};
-  --spacer-xxl: #{spacers.$spacer-xxl};
+  --spacer-xxs: #{$spacer-xxs};
+  --spacer-xs: #{$spacer-xs};
+  --spacer-sm: #{$spacer-sm};
+  --spacer-md: #{$spacer-md};
+  --spacer-base: #{$spacer-base};
+  --spacer-lg: #{$spacer-lg};
+  --spacer-xl: #{$spacer-xl};
+  --spacer-xxl: #{$spacer-xxl};
 }

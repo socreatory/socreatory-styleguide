@@ -1,23 +1,25 @@
 /*
-INNOQ Styleguide
+Fundamental Stylings
 */
-@use "innoq-styleguide/dist/sass/generic/fontfaces";
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../fundamentals/typography" as typography;
-@use "../../fundamentals/helpers" as helpers;
-@use "../../fundamentals/base" as base;
+
+@import "../../fundamentals/helpers";
+@import "../../fundamentals/base";
+@import "../../fundamentals/animations";
+@import "../../fundamentals/breakpoints";
+@import "../../fundamentals/colors";
+@import "../../fundamentals/shadows";
+@import "../../fundamentals/spacers";
+@import "../../fundamentals/typography";
 
 /*
 Application specific code
 */
 
-@use "../../components/button";
-@use "../../components/button-group";
-@use "../../components/headings";
-@use "../../components/icon";
-@use "../../components/link";
-@use "../../components/navbar";
-@use "../../components/text";
+// Components
+@import "../../components/headings";
+@import "../../components/icons";
+@import "../../components/link";
+@import "../../components/text";
 
-@use "../../blueprints/main-layout";
-@use "../../blueprints/navbar-layout";
+// Blueprints
+@import "../../blueprints/example-layout";

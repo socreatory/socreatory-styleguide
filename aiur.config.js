@@ -18,29 +18,26 @@ module.exports = {
     views: {
       file: "./lib/documentation/VIEWS.md",
       children: {
-        invoices_overview: "./lib/views/invoices-overview.md",
+        example_view: "./lib/views/example-view.md",
       },
     },
 
     blueprints: {
       file: "./lib/documentation/BLUEPRINTS.md",
       children: {
-        navbar_layout: "./lib/blueprints/navbar-layout/README.md",
-        main_layout: "./lib/blueprints/main-layout/README.md",
+        example_layout_layout: "./lib/blueprints/example-layout/README.md",
       },
     },
 
     organisms: {
       file: "./lib/documentation/ORGANISMS.md",
       children: {
-        navbar: "./lib/components/navbar/README.md",
       },
     },
 
     molecules: {
       file: "./lib/documentation/MOLECULES.md",
       children: {
-        button_group: "./lib/components/button-group/README.md",
       },
     },
 
@@ -49,13 +46,13 @@ module.exports = {
       children: {
         headings: "./lib/components/headings/README.md",
         link: "./lib/components/link/README.md",
-        button: "./lib/components/button/README.md",
-        icon: "./lib/components/icon/README.md",
+        icons: "./lib/components/icons/README.md",
         text: "./lib/components/text/README.md",
       },
     },
   },
 
+  // Don't edit the following lines
   snippetAssets: {
     js: [
       {
