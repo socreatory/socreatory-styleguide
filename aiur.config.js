@@ -18,7 +18,7 @@ module.exports = {
     views: {
       file: "./lib/documentation/VIEWS.md",
       children: {
-        example_view: "./lib/views/example-view.md",
+        example_view: "./lib/views/trainings/show.md",
       },
     },
 
