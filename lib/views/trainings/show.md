@@ -104,8 +104,15 @@ example view
                 </section>
 
             </div>
-            <div class="layout-main-with-sidebar__sidebar">
+            <div class="layout-main-with-sidebar__sidebar sidebar">
+                <div class="layout-main-with-sidebar__sidebar sidebar__block">
 
+                </div>
+                <div class="layout-main-with-sidebar sidebar__block">
+                    <h3 class="sidebar__block__heading">Inhouse Schulung</h3>
+                    <p class="sidebar__block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="sidebar__block__cta">Jetzt anfragen</a>
+                </div>
             </div>
         </div>
     </div>
