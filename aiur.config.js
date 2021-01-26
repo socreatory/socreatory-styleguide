@@ -1,7 +1,7 @@
 module.exports = {
   title: "Software Creators' Masterclass Style Guide",
   language: "en",
-  description: "Styleguide oftware Creators' Masterclass",
+  description: "Styleguide Software Creators' Masterclass",
 
   pages: {
     "": "./lib/documentation/README.md",
