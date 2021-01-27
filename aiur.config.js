@@ -75,6 +75,10 @@ module.exports = {
         source: "./lib/assets/images",
         target: "./images",
       },
+      {
+        source: "./lib/assets/fonts",
+        target: "./fonts",
+      },
     ],
   },
 

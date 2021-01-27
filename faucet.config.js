@@ -18,6 +18,10 @@ module.exports = {
       source: "./lib/assets/images",
       target: "./public/assets/images",
     },
+    {
+      source: "./lib/assets/fonts",
+      target: "./public/assets/fonts",
+    },
   ],
 
   manifest: {
