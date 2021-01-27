@@ -6,8 +6,8 @@ example view
 ```html
 <header class="header header--highlighted">
     <div class="container">
-        <h1 class="header__heading">Domain-driven Design in der Praxis</h1>
-        <p class="header__subheading">Seminar iSAQB CPSA-Advanced DDD 3 Tage</p>
+        <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
+        <p class="header__subheading">Seminar iSAQB CPSA-Advanced IMPROVE 3 Tage</p>
         <div class="pills">
             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
@@ -22,7 +22,7 @@ example view
             <div class="layout-main-with-sidebar__main">
                 <section class="section">
                     <h2 class="section__title"><span aria-hidden>-- </span>Beschreibung</h2>
-                    <h3 class="section__heading">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                    <h3 class="section__heading">Evolution und Verbesserung von Softwarearchitekturen – systematisch und nachhaltig</h3>
                     <div class="section__1col markdown">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
                         <img src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
@@ -48,6 +48,7 @@ example view
                     </div>
                 </section>
                 <section class="section">
+                    <h2 class="section__title"><span aria-hidden>-- </span>Zielgruppe</h2>
                     <div class="section__1col markdown">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim, ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa? Ipsum dolorem dolor pariatur provident esse?</p>
                     </div>
@@ -55,13 +56,11 @@ example view
                 <section class="section">
                     <h2 class="section__title"><span aria-hidden>-- </span>Lernziele</h2>
                     <div class="section__3col markdown">
-                        <p>Dieses Seminar macht Methoden, praktische Techniken und hilfreiche Sichtweisen erlebbar.</p>
-                        <p>At vero eos et molestiae non ero tibique si mihi probabis ea quae sunt vitae.</p>
-                        <p>Quid ex eo delectu rerum quem modo ista sis aequitate quam nihil oportere exquisitis.</p>
-                        <p>Dieses Seminar macht Methoden, praktische Techniken und hilfreiche Sichtweisen erlebbar.</p>
-                        <p>At vero eos et molestiae non ero tibique si mihi probabis ea quae sunt vitae.</p>
-                        <p>Quid ex eo delectu rerum quem modo ista sis aequitate quam nihil oportere exquisitis.</p>
-                        <p>Quid ex eo delectu rerum quem modo ista sis aequitate quam nihil oportere exquisitis.</p>
+                        <p>Legacy und Technische Schulden</p>
+                        <p>Praxistaugliche Analysemethoden kennen und anwenden können</p>
+                        <p>Szenario- und Metrik-basierte Bewertung</p>
+                        <p>Maßnahmen an Architekturzielen ausrichten</p>
+                        <p>Fitness Functions und evolutionäre Architektur</p>
                     </div>
                 </section>
 

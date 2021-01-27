@@ -80,10 +80,6 @@ Application specific code
   margin-left: $spacer-md;
 }
 
-.pill__label {
-  // font-size
-}
-
 .pill__number {
   display: inline-block;
   margin-left: $spacer-xs;
@@ -125,4 +121,40 @@ Application specific code
     grid-template-areas:
     "main sidebar";
   }
+}
+
+// Main
+
+.section {
+  margin-bottom: $spacer-xxl;
+}
+
+.section__title {
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+  margin-bottom: $spacer-base;
+}
+
+.section__heading {
+  // @extend %body-font-bold;
+  font-size: $font-size-xl;
+  margin-bottom: $spacer-md;
+}
+
+// Ihr Nutzen
+
+.section__3col {
+  display: grid;
+  gap: $spacer-base;
+}
+
+@include for-tablet-portrait-up {
+  .section__3col {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.section__3col p {
+  @extend %body-font-bold;
+  margin-bottom: 0;
 }
