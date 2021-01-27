@@ -34,7 +34,9 @@ h1 {
   font-size: $font-size-xxl;
 }
 
-p, ul li, ol li {
+p,
+ul li,
+ol li {
   font-size: 1.25rem;
   line-height: 1.8125rem;
 }
@@ -47,12 +49,13 @@ img {
   max-width: 100%;
 }
 
-
 // Lists
 
-ul li::marker, ol li::marker {
+ul li::marker,
+ol li::marker {
   color: $brand-blue;
 }
+
 ul li::marker {
   content: "—";
 }

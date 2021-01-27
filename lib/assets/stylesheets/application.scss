@@ -24,7 +24,6 @@ Application specific code
 // Blueprints
 @import "../../blueprints/example-layout";
 
-
 // Container
 .container {
   max-width: 100%;
@@ -49,7 +48,6 @@ Application specific code
     margin: 0 auto;
   }
 }
-
 
 // Show Training Detail
 // Header
@@ -76,7 +74,7 @@ Application specific code
   font-size: $font-size-md;
 }
 
-.pill + *{
+.pill + * {
   margin-left: $spacer-md;
 }
 
@@ -89,13 +87,6 @@ Application specific code
   background-color: $brand-green;
   text-align: center;
 }
-
-.layout-main-with-sidebar {
-  display: grid;
-  grid-template-columns: 1fr;
-
-}
-
 
 // Grid
 .layout-main-with-sidebar {
@@ -118,8 +109,7 @@ Application specific code
 @include for-tablet-landscape-up {
   .layout-main-with-sidebar {
     grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-    "main sidebar";
+    grid-template-areas: "main sidebar";
   }
 }
 
