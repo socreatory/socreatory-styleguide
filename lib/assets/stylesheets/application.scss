@@ -3,13 +3,13 @@ Fundamental Stylings
 */
 
 @import "../../fundamentals/helpers";
+@import "../../fundamentals/colors";
+@import "../../fundamentals/typography";
 @import "../../fundamentals/base";
 @import "../../fundamentals/animations";
 @import "../../fundamentals/breakpoints";
-@import "../../fundamentals/colors";
 @import "../../fundamentals/shadows";
 @import "../../fundamentals/spacers";
-@import "../../fundamentals/typography";
 
 /*
 Application specific code
@@ -23,3 +23,106 @@ Application specific code
 
 // Blueprints
 @import "../../blueprints/example-layout";
+
+
+// Container
+.container {
+  max-width: 100%;
+  margin: 0 $spacer-sm;
+}
+
+@include for-tablet-portrait-up {
+  .container {
+    margin: 0 $spacer-md;
+  }
+}
+
+@include for-tablet-landscape-up {
+  .container {
+    margin: 0 $spacer-base;
+  }
+}
+
+@include for-desktop-up {
+  .container {
+    max-width: $desktop;
+    margin: 0 auto;
+  }
+}
+
+
+// Show Training Detail
+// Header
+.header {
+  padding: $spacer-base 0;
+  margin-bottom: $spacer-xl;
+}
+
+.header--highlighted {
+  background-color: $brand-green-light;
+}
+
+.header__heading {
+  margin-bottom: $spacer-xs;
+}
+
+.header__subheading + * {
+  margin-top: $spacer-lg;
+}
+
+.pills {
+  display: flex;
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+}
+
+.pill + *{
+  margin-left: $spacer-md;
+}
+
+.pill__label {
+  // font-size
+}
+
+.pill__number {
+  display: inline-block;
+  margin-left: $spacer-xs;
+  border-radius: $spacer-sm;
+  min-width: $spacer-base;
+  padding: 0.125rem;
+  background-color: $brand-green;
+  text-align: center;
+}
+
+.layout-main-with-sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+
+// Grid
+.layout-main-with-sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6.25rem;
+  grid-template-areas:
+    "main"
+    "sidebar";
+}
+
+.layout-main-with-sidebar__main {
+  grid-area: main;
+}
+
+.layout-main-with-sidebar__sidebar {
+  grid-area: sidebar;
+}
+
+@include for-tablet-landscape-up {
+  .layout-main-with-sidebar {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "main sidebar";
+  }
+}

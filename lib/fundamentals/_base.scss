@@ -9,8 +9,14 @@
   }
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
+  color: $brand-text;
+  @extend %body-font-regular;
 }
 
 h1,
@@ -20,8 +26,17 @@ h4,
 h5,
 h6 {
   margin: 0;
+  line-height: 1;
+}
+
+h1 {
+  font-size: $font-size-xxl;
 }
 
 .sr-only {
   @include visually-hidden();
+}
+
+img {
+  max-width: 100%;
 }

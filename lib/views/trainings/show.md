@@ -7,7 +7,7 @@ example view
 <header class="header header--highlighted">
     <div class="container">
         <h1 class="header__heading">Domain-driven Design in der Praxis</h1>
-        <p class="header__subtitle">Seminar iSAQB CPSA-Advanced DDD 3 Tage</p>
+        <p class="header__subheading">Seminar iSAQB CPSA-Advanced DDD 3 Tage</p>
         <div class="pills">
             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
@@ -75,10 +75,6 @@ example view
                             <p class="section__2col-image-with-text__text"><strong>Kim Nena Duggen</strong> ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                         </div>
                     </div>
-
-
-
-                    </div>
                 </section>
 
                 <section class="section">
@@ -106,7 +102,7 @@ example view
             </div>
             <div class="layout-main-with-sidebar__sidebar sidebar">
                 <div class="layout-main-with-sidebar__sidebar sidebar__block">
-
+                    <p>Buchungswidget</p>
                 </div>
                 <div class="layout-main-with-sidebar sidebar__block">
                     <h3 class="sidebar__block__heading">Inhouse Schulung</h3>

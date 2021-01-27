@@ -11,6 +11,7 @@ $font-size-md: 0.875rem; // Add your own value here
 $font-size-base: 1.125rem; // Add your own value here
 $font-size-lg: 1.5rem; // Add your own value here
 $font-size-xl: 2rem; /// Add your own value here
+$font-size-xxl: 3.5rem; /// Add your own value here
 
 $paragraph-line-height: 1.5; // Add your own value here
 
@@ -19,25 +20,25 @@ $paragraph-line-height: 1.5; // Add your own value here
 //
 
 %body-font-regular {
-  font-family: $font-family-serif; // Add your own value here
+  font-family: $font-family-sans-serif; // Add your own value here
   font-weight: normal;
   font-style: normal;
 }
 
 %body-font-italic {
-  font-family: $font-family-serif; // Add your own value here
+  font-family: $font-family-sans-serif; // Add your own value here
   font-weight: normal;
   font-style: italic;
 }
 
 %body-font-bold {
-  font-family: $font-family-serif; // Add your own value here
+  font-family: $font-family-sans-serif; // Add your own value here
   font-weight: bold;
   font-style: normal;
 }
 
 %body-font-bold-italic {
-  font-family: $font-family-serif; // Add your own value here
+  font-family: $font-family-sans-serif; // Add your own value here
   font-weight: bold;
   font-style: italic;
 }
