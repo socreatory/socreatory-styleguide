@@ -61,7 +61,6 @@ Application specific code
 }
 
 .header__heading {
-  margin-bottom: $spacer-xs;
   font-size: $font-size-xxl;
   line-height: 1.1;
   margin-bottom: $spacer-sm;
@@ -151,3 +150,5 @@ Application specific code
   @extend %body-font-bold;
   margin-bottom: 0;
 }
+
+// Quote
