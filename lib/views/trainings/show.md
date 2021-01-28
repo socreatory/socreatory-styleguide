@@ -68,7 +68,7 @@ example view
                     <h2 class="section__title"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
                     <div class="section__2col-image-with-text">
                         <div class="section__2col-image-with-text__col1">
-                            <img class="section__2col-image-with-text__image" src="https://uploads.innoq.com/variants/x7ppi69u90q67ebwqojcy1cjjjnt/e475dfea496c07beea88a[…]47d823bc88a57b3b45e0c31dec79639763511bcba5afd09fedbf2d4a5c08"/>
+                            <img class="section__2col-image-with-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/>
                         </div>
                         <div class="section__2col-image-with-text__col2">
                             <p class="section__2col-image-with-text__text"><strong>Kim Nena Duggen</strong> ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
@@ -103,9 +103,9 @@ example view
                 <div class="layout-main-with-sidebar__sidebar sidebar__block">
                     <p>Buchungswidget</p>
                 </div>
-                <div class="layout-main-with-sidebar sidebar__block">
+                <div class="layout-main-with-sidebar__sidebar sidebar__block">
                     <h3 class="sidebar__block__heading">Inhouse Schulung</h3>
-                    <p class="sidebar__block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="sidebar__block__text">Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
                     <a href="#" class="sidebar__block__cta">Jetzt anfragen</a>
                 </div>
             </div>

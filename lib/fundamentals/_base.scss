@@ -20,12 +20,23 @@ body {
   background-color: $brand-background;
 }
 
-p,
-ul li,
-ol li {
-  font-size: 1.25rem;
-  line-height: 1.8125rem;
+p {
+  font-size: $font-size-base;
 }
+
+// Links
+p a {
+  color: $brand-text;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.25rem;
+}
+
+p a:hover {
+  // background-color: $brand-green-light;
+  text-decoration-color: $brand-green-light;
+}
+//
 
 .sr-only {
   @include visually-hidden();
@@ -33,15 +44,8 @@ ol li {
 
 img {
   max-width: 100%;
+  mix-blend-mode: multiply;
+  // filter: saturate(0);
 }
 
-// Lists
 
-ul li::marker,
-ol li::marker {
-  color: $brand-blue;
-}
-
-ul li::marker {
-  content: "—";
-}

@@ -116,7 +116,6 @@ Application specific code
 }
 
 // Main
-
 .section {
   margin-bottom: $spacer-xxl;
 }
@@ -133,8 +132,33 @@ Application specific code
   margin-bottom: $spacer-md;
 }
 
-// Ihr Nutzen
+// Main Lists
+.section__1col ul {
+  font-size: $font-size-base;
+  padding-left: 1rem;
+  // list-style-position: inside;
+}
 
+.section__1col ol {
+  font-size: $font-size-base;
+  padding-left: 1.5rem;
+}
+
+.section__1col ul li,
+.section__1col ol li {
+  padding-left: 1rem;
+}
+
+.section__1col ul li::marker,
+.section__1col ol li::marker {
+  color: $brand-blue;
+}
+
+.section__1col ul li::marker {
+  content: "—";
+}
+
+// Ihr Nutzen
 .section__3col {
   display: grid;
   gap: $spacer-base;
@@ -148,7 +172,43 @@ Application specific code
 
 .section__3col p {
   @extend %body-font-bold;
+  font-size: $font-size-base;
   margin-bottom: 0;
 }
 
+// Trainer
+.section__2col-image-with-text {
+  display: flex;
+}
+
+.section__2col-image-with-text__col1 {
+  min-width: 20%;
+  max-width: 25%;
+  margin-right: $spacer-base;
+}
+
+.section__2col-image-with-text__col1 img {
+  margin-top: 0.55rem;
+}
+
+
 // Quote
+.quote__blockquote {
+  @extend %body-font-bold;
+  font-size: $font-size-xl;
+  margin: 0 0 $spacer-base 0;
+}
+
+.quote__name {
+  @extend %body-font-bold;
+  font-size: $font-size-base;
+  margin-bottom: $spacer-xs;
+}
+
+.quote__role {
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+}
+
+
+
