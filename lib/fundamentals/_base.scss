@@ -22,6 +22,7 @@ body {
 
 p {
   font-size: $font-size-base;
+  hyphens: auto;
 }
 
 // Links
@@ -30,6 +31,7 @@ p a {
   text-decoration-color: $brand-green;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.25rem;
+  transition: all 0.2s ease-out;
 }
 
 p a:hover {

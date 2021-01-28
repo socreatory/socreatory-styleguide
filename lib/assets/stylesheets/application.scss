@@ -20,6 +20,7 @@ Application specific code
 @import "../../components/icons";
 @import "../../components/link";
 @import "../../components/text";
+@import "../../components/buttons";
 
 // Blueprints
 @import "../../blueprints/example-layout";
@@ -50,9 +51,16 @@ Application specific code
 }
 
 // Show Training Detail
+//Navbar
+.navbar {
+  display: block;
+  background-color: $brand-blue;
+  height: 4.6875rem;
+}
+
 // Header
 .header {
-  padding: $spacer-base 0;
+  padding: $spacer-lg 0;
   margin-bottom: $spacer-xl;
 }
 
@@ -67,7 +75,7 @@ Application specific code
 }
 
 .header__subheading + * {
-  margin-top: $spacer-lg;
+  margin-top: $spacer-xl;
 }
 
 .pills {
@@ -217,4 +225,54 @@ Application specific code
 
 .sidebar__block__heading {
   margin-bottom: $spacer-sm;
+}
+
+// Cards
+.cards {
+  display: grid;
+  gap: 10%;
+  grid-template-columns: 1fr;
+}
+
+@include for-tablet-landscape-up {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  background-color: $brand-green-light;
+}
+
+.card__body {
+  padding: $spacer-md;
+  height: 15rem;
+}
+
+.card__title {
+  font-size: $font-size-xl;
+  margin-bottom: $spacer-sm;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacer-md;
+  background-color: $brand-green;
+  // height: 4rem;
+}
+
+.card__footer__label {
+  font-size: 1rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.card__footer__price {
+  font-size: $font-size-base;
+  @extend %body-font-bold;
+  margin: 0;
+}
+
+.card__footer p {
+  // margin: 0;
 }
