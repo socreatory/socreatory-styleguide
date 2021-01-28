@@ -172,11 +172,11 @@ Application specific code
 
 .section__3col p {
   @extend %body-font-bold;
-  font-size: $font-size-base;
+  font-size: $font-size-lg;
   margin-bottom: 0;
 }
 
-// Trainer
+// 2Col (Trainer und Fachinfos)
 .section__2col-image-with-text {
   display: flex;
 }
@@ -191,6 +191,9 @@ Application specific code
   margin-top: 0.55rem;
 }
 
+.section__2col-image-with-text__heading {
+  margin-bottom: $spacer-sm;
+}
 
 // Quote
 .quote__blockquote {
@@ -210,5 +213,8 @@ Application specific code
   font-size: $font-size-md;
 }
 
+// Sidebar
 
-
+.sidebar__block__heading {
+  margin-bottom: $spacer-sm;
+}
