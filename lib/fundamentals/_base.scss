@@ -17,21 +17,7 @@ body {
   margin: 0;
   color: $brand-text;
   @extend %body-font-regular;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  line-height: 1;
-  @extend %body-font-bold;
-}
-
-h1 {
-  font-size: $font-size-xxl;
+  background-color: $brand-background;
 }
 
 p,

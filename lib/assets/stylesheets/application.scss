@@ -62,6 +62,9 @@ Application specific code
 
 .header__heading {
   margin-bottom: $spacer-xs;
+  font-size: $font-size-xxl;
+  line-height: 1.1;
+  margin-bottom: $spacer-sm;
 }
 
 .header__subheading + * {
@@ -121,13 +124,13 @@ Application specific code
 
 .section__title {
   @extend %monospace-font-regular;
-  font-size: $font-size-md;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+  font-size: $font-size-sm;
   margin-bottom: $spacer-base;
 }
 
 .section__heading {
-  // @extend %body-font-bold;
-  font-size: $font-size-xl;
   margin-bottom: $spacer-md;
 }
 
