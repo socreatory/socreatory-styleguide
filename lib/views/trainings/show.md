@@ -12,10 +12,10 @@ example view
         <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Schulungen</a></li>
-            <li><a href="#">Reduzierte Wartungskosten durch evolutionäre Verbesserung</a></li>
+            <li>Agile Softwarearchitektur</li>
         </ul>
         <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
-        <p class="header__subheading">Seminar iSAQB CPSA-Advanced IMPROVE — 3 Tage</p>
+        <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
         <div class="pills">
             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>

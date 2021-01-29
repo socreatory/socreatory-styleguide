@@ -99,10 +99,17 @@ Application specific code
 }
 
 // Breadcrumb
- /* Style the list */
- ul.breadcrumb {
+/* Style the list */
+ul.breadcrumb {
+  display: none;
   padding: 0 0 $spacer-base 0;
   list-style: none;
+}
+
+@include for-tablet-portrait-up {
+  ul.breadcrumb {
+    display: block;
+  }
 }
 
 /* Display list items side by side */
@@ -112,8 +119,8 @@ ul.breadcrumb li {
   font-size: $font-size-md;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
+/* Add a slash symbol (›) before/behind each list item */
+ul.breadcrumb li + li:before {
   padding: 0 $spacer-xs 0 $spacer-xxs;
   color: black;
   content: "›";
@@ -129,6 +136,9 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: $brand-text;
   text-decoration: underline;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+  transition: all 0.15s ease-out;
 }
 
 // Grid
