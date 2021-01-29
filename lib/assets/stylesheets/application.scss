@@ -184,32 +184,37 @@ ul.breadcrumb li a:hover {
 }
 
 // Main Lists
-.section__1col ul {
+ul {
   font-size: $font-size-base;
   padding-left: 1rem;
   // list-style-position: inside;
 }
 
-.section__1col ol {
+ol {
   font-size: $font-size-base;
   padding-left: 1.5rem;
 }
 
-.section__1col ul li {
+ul li {
   padding-left: 1rem;
 }
 
-.section__1col ol li {
+ol li {
   padding-left: 0.5rem;
 }
 
-.section__1col ul li::marker,
-.section__1col ol li::marker {
+ul li::marker,
+ol li::marker {
   color: $brand-blue;
 }
 
-.section__1col ul li::marker {
+ul li::marker {
   content: "—";
+}
+
+ul li + li,
+ol li + li {
+  margin-top: $spacer-xs;
 }
 
 // Ihr Nutzen
@@ -321,4 +326,12 @@ ul.breadcrumb li a:hover {
 
 .card__footer p {
   // margin: 0;
+}
+
+// Footer
+.footer {
+  margin-top: $spacer-xxl;
+  display: block;
+  background-color: $brand-green-light;
+  height: 16rem;
 }

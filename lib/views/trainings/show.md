@@ -36,8 +36,8 @@ example view
                         <img src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
                         <ul>
-                            <li>Lorem, ipsum dolor</li>
-                            <li>Lorem reiciendis error fugit</li>
+                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
+                            <li>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                         </ul>
                         <ol>
@@ -171,6 +171,9 @@ example view
         </section>
     </div>
 </aside>
-<p>&nbsp;</p>
+
+<footer class="footer">
+
+</footer>
 
 ```
