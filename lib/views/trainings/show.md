@@ -9,11 +9,13 @@ example view
 
 <header class="header header--highlighted">
     <div class="container">
-        <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Schulungen</a></li>
-            <li>Agile Softwarearchitektur</li>
-        </ul>
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
+                <li class="breadcrumb__item">Agile Softwarearchitektur</li>
+            </ul>
+        </div>
         <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
         <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
         <div class="pills">
@@ -35,10 +37,10 @@ example view
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
                         <img src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
-                        <ul>
-                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
-                            <li>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <ul class="unorderedlist">
+                            <li class="unorderedlist__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
+                            <li class="unorderedlist__item">Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
+                            <li class="unorderedlist__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                         </ul>
                         <ol>
                             <li>Lorem, ipsum dolor</li>

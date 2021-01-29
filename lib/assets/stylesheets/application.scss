@@ -184,36 +184,36 @@ ul.breadcrumb li a:hover {
 }
 
 // Main Lists
-ul {
+.section__1col ul {
   font-size: $font-size-base;
   padding-left: 1rem;
   // list-style-position: inside;
 }
 
-ol {
+.section__1col ol {
   font-size: $font-size-base;
   padding-left: 1.5rem;
 }
 
-ul li {
+.section__1col ul li {
   padding-left: 1rem;
 }
 
-ol li {
+.section__1col ol li {
   padding-left: 0.5rem;
 }
 
-ul li::marker,
-ol li::marker {
+.section__1col ul li::marker,
+.section__1col ol li::marker {
   color: $brand-blue;
 }
 
-ul li::marker {
+.section__1col ul li::marker {
   content: "—";
 }
 
-ul li + li,
-ol li + li {
+.section__1col ul li + li,
+.section__1col ol li + li {
   margin-top: $spacer-xs;
 }
 
