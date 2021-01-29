@@ -98,6 +98,39 @@ Application specific code
   text-align: center;
 }
 
+// Breadcrumb
+ /* Style the list */
+ ul.breadcrumb {
+  padding: 0 0 $spacer-base 0;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 0 $spacer-xs 0 $spacer-xxs;
+  color: black;
+  content: "›";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: $brand-text;
+  text-decoration: underline;
+}
+
 // Grid
 .layout-main-with-sidebar {
   display: grid;
@@ -152,9 +185,12 @@ Application specific code
   padding-left: 1.5rem;
 }
 
-.section__1col ul li,
-.section__1col ol li {
+.section__1col ul li {
   padding-left: 1rem;
+}
+
+.section__1col ol li {
+  padding-left: 0.5rem;
 }
 
 .section__1col ul li::marker,
@@ -230,7 +266,7 @@ Application specific code
 // Cards
 .cards {
   display: grid;
-  gap: 10%;
+  gap: 3.25rem;
   grid-template-columns: 1fr;
 }
 

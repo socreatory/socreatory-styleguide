@@ -9,6 +9,11 @@ example view
 
 <header class="header header--highlighted">
     <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schulungen</a></li>
+            <li><a href="#">Reduzierte Wartungskosten durch evolutionäre Verbesserung</a></li>
+        </ul>
         <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
         <p class="header__subheading">Seminar iSAQB CPSA-Advanced IMPROVE — 3 Tage</p>
         <div class="pills">
@@ -122,6 +127,11 @@ example view
                 <div class="card__body">
                     <h3 class="card__title">Card Title</h3>
                     <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                    </div>
                 </div>
                 <div class="card__footer">
                     <p class="card__footer__label">iSAQB Modul Flex</p>
