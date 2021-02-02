@@ -117,6 +117,7 @@ Application specific code
   padding: 0.2rem 0rem;
   background-color: $brand-green;
   text-align: center;
+  letter-spacing: 0.1rem;
 }
 
 // Breadcrumb
@@ -169,15 +170,16 @@ Application specific code
 // Grid
 .layout-main-with-sidebar {
   display: grid;
+  gap: 0;
   grid-template-columns: 1fr;
-  gap: 6.25rem;
   grid-template-areas:
-    "main"
-    "sidebar";
+  "main"
+  "sidebar";
 }
 
 @include for-tablet-landscape-up {
   .layout-main-with-sidebar {
+    gap: 6.25rem;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "main sidebar";
   }
@@ -298,6 +300,9 @@ Application specific code
 }
 
 // Sidebar
+.sidebar__block {
+  margin-bottom: $spacer-xxl;
+}
 
 .sidebar__block__heading {
   margin-bottom: $spacer-sm;
@@ -337,7 +342,7 @@ Application specific code
 
 .card__title {
   font-size: $font-size-xl;
-  margin-bottom: $spacer-sm;
+  margin-bottom: $spacer-xxs;
 }
 
 .card__footer {
