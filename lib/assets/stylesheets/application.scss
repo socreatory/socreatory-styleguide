@@ -46,6 +46,7 @@ Application specific code
 @include for-desktop-up {
   .container {
     margin: 0 auto;
+    padding: 0 $spacer-base;
     max-width: $desktop;
   }
 }
@@ -53,6 +54,7 @@ Application specific code
 @include for-desktop-xl-up {
   .container {
     max-width: $desktop-xl;
+    padding: 0 $spacer-base;
     margin: 0 auto;
   }
 }
@@ -98,7 +100,7 @@ Application specific code
 }
 
 .pill + * {
-  margin-left: $spacer-md;
+  margin-left: $spacer-sm;
 }
 
 .pill {
@@ -108,7 +110,7 @@ Application specific code
 
 .pill__number {
   display: inline-block;
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   margin-top: -0.2rem;
   border-radius: $spacer-sm;
   min-width: 1.85rem;
@@ -162,7 +164,6 @@ Application specific code
   text-decoration: underline;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
-  transition: all 0.15s ease-out;
 }
 
 // Grid

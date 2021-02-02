@@ -136,7 +136,7 @@ example view
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@ example view
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ example view
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                             <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                         </div>
                     </div>
                 </div>
