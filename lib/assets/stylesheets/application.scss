@@ -45,7 +45,14 @@ Application specific code
 
 @include for-desktop-up {
   .container {
+    margin: 0 auto;
     max-width: $desktop;
+  }
+}
+
+@include for-desktop-xl-up {
+  .container {
+    max-width: $desktop-xl;
     margin: 0 auto;
   }
 }
@@ -64,6 +71,10 @@ Application specific code
   margin-bottom: $spacer-xl;
 }
 
+.header--normal {
+  background-color: $brand-background;
+}
+
 .header--highlighted {
   background-color: $brand-green-light;
 }
@@ -78,9 +89,11 @@ Application specific code
   margin-top: $spacer-xl;
 }
 
+// Pills
 .pills {
-  display: flex;
   @extend %monospace-font-regular;
+  display: flex;
+  flex-wrap: wrap;
   font-size: $font-size-md;
 }
 
@@ -88,52 +101,63 @@ Application specific code
   margin-left: $spacer-md;
 }
 
+.pill {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .pill__number {
   display: inline-block;
-  margin-left: $spacer-xs;
+  margin-left: 0.5rem;
+  margin-top: -0.2rem;
   border-radius: $spacer-sm;
-  min-width: $spacer-base;
-  padding: 0.125rem;
+  min-width: 1.85rem;
+  padding: 0.2rem 0rem;
   background-color: $brand-green;
   text-align: center;
 }
 
 // Breadcrumb
 /* Style the list */
-ul.breadcrumb {
+.breadcrumb {
   display: none;
-  padding: 0 0 $spacer-base 0;
-  list-style: none;
 }
 
 @include for-tablet-portrait-up {
-  ul.breadcrumb {
+  .breadcrumb {
     display: block;
   }
 }
 
+.breadcrumb__list {
+  padding: 0 0 $spacer-base 0;
+  list-style: none;
+}
+
 /* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
+.breadcrumb__item {
   @extend %monospace-font-regular;
+  display: inline;
   font-size: $font-size-md;
 }
 
 /* Add a slash symbol (›) before/behind each list item */
-ul.breadcrumb li + li:before {
-  padding: 0 $spacer-xs 0 $spacer-xxs;
-  color: black;
-  content: "›";
+.breadcrumb__item {
+  +:before {
+    padding: 0 $spacer-xs 0 $spacer-xxs;
+    color: black;
+    content: "›";
+  }
 }
 
 /* Add a color to all links inside the list */
-ul.breadcrumb li a {
+.breadcrumb__item a {
   color: $brand-text;
   text-decoration: none;
 }
 
 /* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
+.breadcrumb__item a:hover {
   color: $brand-text;
   text-decoration: underline;
   text-underline-offset: 0.45rem;
@@ -151,19 +175,19 @@ ul.breadcrumb li a:hover {
     "sidebar";
 }
 
+@include for-tablet-landscape-up {
+  .layout-main-with-sidebar {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "main sidebar";
+  }
+}
+
 .layout-main-with-sidebar__main {
   grid-area: main;
 }
 
 .layout-main-with-sidebar__sidebar {
   grid-area: sidebar;
-}
-
-@include for-tablet-landscape-up {
-  .layout-main-with-sidebar {
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: "main sidebar";
-  }
 }
 
 // Main
@@ -281,11 +305,18 @@ ul.breadcrumb li a:hover {
 // Cards
 .cards {
   display: grid;
-  gap: 3.25rem;
+  gap: $spacer-lg;
   grid-template-columns: 1fr;
 }
 
 @include for-tablet-landscape-up {
+  .cards {
+    gap: 3.25rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include for-desktop-xl-up {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -296,6 +327,9 @@ ul.breadcrumb li a:hover {
 }
 
 .card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: $spacer-md;
   height: 15rem;
 }

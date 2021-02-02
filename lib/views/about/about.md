@@ -1,5 +1,5 @@
-title: Training Detail View
-description: Show Training Detail View
+title: About Us
+description: About Us
 
 example view
 
@@ -7,7 +7,7 @@ example view
 <navbar class="navbar">
 </navbar>
 
-<header class="header header--highlighted">
+<header class="header header--normal">
     <div class="container">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -16,13 +16,7 @@ example view
                 <li class="breadcrumb__item">Agile Softwarearchitektur</li>
             </ul>
         </div>
-        <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
-        <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
-        <div class="pills">
-            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-        </div>
+        <h1 class="header__heading">Wer wir sind und wenn ja, wieviele?</h1>
     </div>
 </header>
 
@@ -110,96 +104,10 @@ example view
 
             </div>
             <div class="layout-main-with-sidebar__sidebar sidebar">
-                <div class="layout-main-with-sidebar__sidebar sidebar__block">
-                    <p>Buchungswidget</p>
-                </div>
-                <div class="layout-main-with-sidebar__sidebar sidebar__block">
-                    <h3 class="sidebar__block__heading">Inhouse Schulung</h3>
-                    <p class="sidebar__block__text">Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
-                    <a href="#" class="sidebar__block__cta btn">Jetzt anfragen</a>
-                </div>
             </div>
         </div>
     </div>
 </main>
-<aside>
-    <div class="container">
-        <h2 class="section__title"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-        <section class="cards">
-            <div class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title">Card Title</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__footer__label">iSAQB Modul Flex</p>
-                    <p class="card__footer__price">ab 1.750 €</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title">Card Title</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__footer__label">iSAQB Modul Flex</p>
-                    <p class="card__footer__price">ab 1.750 €</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title">Card Title</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                            <div class="pill"><span class="pill__label">Komm.</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__footer__label">iSAQB Modul Flex</p>
-                    <p class="card__footer__price">ab 1.750 €</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title">Card Title</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__footer__label">iSAQB Modul Flex</p>
-                    <p class="card__footer__price">ab 1.750 €</p>
-                </div>
-            </div>
-        </section>
-    </div>
-</aside>
 
 <footer class="footer">
 
