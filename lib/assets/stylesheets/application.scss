@@ -142,15 +142,11 @@ Application specific code
   @extend %monospace-font-regular;
   display: inline;
   font-size: $font-size-md;
-}
-
-/* Add a slash symbol (›) before/behind each list item */
-.breadcrumb__item {
+  // Add a slash symbol (›) before/behind each list item
   +:before {
     padding: 0 $spacer-xs 0 $spacer-xxs;
     color: black;
     content: "›";
-  }
 }
 
 /* Add a color to all links inside the list */
