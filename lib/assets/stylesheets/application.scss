@@ -64,15 +64,23 @@ Application specific code
 
 // Header
 .header {
+}
+
+.header_size_home {
+  padding: $spacer-xxl 0;
+  margin-bottom: $spacer-xl;
+}
+
+.header_size_subpage {
   padding: $spacer-lg 0;
   margin-bottom: $spacer-xl;
 }
 
-.header--normal {
+.header_color_normal {
   background-color: $brand-background;
 }
 
-.header--highlighted {
+.header_color_highlighted {
   background-color: $brand-green-light;
 }
 
@@ -161,7 +169,7 @@ Application specific code
   margin-bottom: $spacer-xxl;
 }
 
-.section__title_subpage {
+.section__title_small {
   @extend %monospace-font-regular;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
@@ -231,22 +239,42 @@ Application specific code
 }
 
 // 2Col (Trainer und Fachinfos)
-.section__2col-image-with-text {
+.section__2col-odd,
+.section__2col-even {
   display: flex;
+  flex-direction: row;
 }
 
-.section__2col-image-with-text__col1 {
+@include for-tablet-landscape-up {
+  .section__2col-even {
+  flex-direction: row-reverse;
+  }
+}
+
+.section__2col-odd__col1 {
   min-width: 20%;
   max-width: 25%;
   margin-right: $spacer-lg;
 }
 
-.section__2col-image-with-text__col1 img {
+.section__2col-odd__col1 img {
   margin-top: 0.55rem;
 }
 
-.section__2col-image-with-text__heading {
+.section__2col-odd__heading {
   margin-bottom: $spacer-sm;
+}
+
+.section__2col-even__col1 {
+  width: 50%;
+}
+
+.section__2col-even__col1 img {
+  max-width: 70%;
+}
+
+.section__2col-even__col2 {
+  width: 50%;
 }
 
 // Quote
