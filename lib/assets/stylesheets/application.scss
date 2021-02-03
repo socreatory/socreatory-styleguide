@@ -270,7 +270,9 @@ Application specific code
 }
 
 .section__2col-even__col1 img {
-  max-width: 70%;
+  display: block;
+  max-width: 80%;
+  margin: auto;
 }
 
 .section__2col-even__col2 {
