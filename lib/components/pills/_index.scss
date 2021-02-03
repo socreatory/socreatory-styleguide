@@ -1,0 +1,27 @@
+.pills {
+  @extend %monospace-font-regular;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $font-size-md;
+}
+
+.pill + * {
+  margin-left: $spacer-sm;
+}
+
+.pill {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.pill__number {
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: -0.2rem;
+  border-radius: $spacer-sm;
+  min-width: 1.85rem;
+  padding: 0.2rem 0rem;
+  background-color: $brand-green;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}

@@ -2,19 +2,50 @@
   @extend %body-font-bold;
   color: $brand-text;
   font-size: $font-size-md;
-  display: block;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border: 0.25rem solid $brand-text;
   transition: all 0.15s ease-out;
   letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  margin-top: $spacer-lg;
 }
 
-.btn:hover,
-.btn:focus {
+.btn_type_primary {
   color: $brand-background;
   background-color: $brand-text;
+}
+
+.btn_type_primary:hover,
+.btn_type_primary:focus {
+  color: $brand-background;
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
+}
+
+.btn_type_secondary {
+  color: $brand-text;
+  background-color: none;
+}
+
+.btn_type_secondary:hover,
+.btn_type_secondary:focus {
+  background-color: $gray-10;
   border: 0.25rem solid $brand-text;
+}
+
+.btn_size_full {
+  display: block;
+}
+
+.btn_size_fit {
+  display: block;
+}
+
+@include for-tablet-landscape-up {
+  .btn_size_fit {
+    display: inline-block;
+  }
 }

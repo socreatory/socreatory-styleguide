@@ -18,6 +18,7 @@ module.exports = {
     views: {
       file: "./lib/documentation/VIEWS.md",
       children: {
+        home: "./lib/views/home/home.md",
         training_detail: "./lib/views/trainings/show.md",
         about_us: "./lib/views/about/about.md",
       },
