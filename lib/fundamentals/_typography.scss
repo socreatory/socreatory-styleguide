@@ -88,3 +88,7 @@ $paragraph-line-height: 1.5; // Add your own value here
 strong {
   @extend %body-font-bold;
 }
+
+em {
+  @extend %body-font-italic;
+}

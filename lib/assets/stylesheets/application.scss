@@ -85,6 +85,7 @@ Application specific code
   font-size: $font-size-xxl;
   line-height: 1.1;
   margin-bottom: $spacer-sm;
+  margin-left: -0.2rem;
 }
 
 .header__subheading + * {
@@ -142,16 +143,17 @@ Application specific code
   @extend %monospace-font-regular;
   display: inline;
   font-size: $font-size-md;
-}
-
-/* Add a slash symbol (›) before/behind each list item */
-.breadcrumb__item {
-  +:before {
+  + :before {
     padding: 0 $spacer-xs 0 $spacer-xxs;
     color: black;
     content: "›";
   }
 }
+
+/* Add a slash symbol (›) before/behind each list item */
+// .breadcrumb__item {
+
+// }
 
 /* Add a color to all links inside the list */
 .breadcrumb__item a {
@@ -173,8 +175,8 @@ Application specific code
   gap: 0;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "main"
-  "sidebar";
+    "main"
+    "sidebar";
 }
 
 @include for-tablet-landscape-up {
@@ -270,7 +272,7 @@ Application specific code
 .section__2col-image-with-text__col1 {
   min-width: 20%;
   max-width: 25%;
-  margin-right: $spacer-base;
+  margin-right: $spacer-lg;
 }
 
 .section__2col-image-with-text__col1 img {
