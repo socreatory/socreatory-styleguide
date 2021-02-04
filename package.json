@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@ungap/custom-elements-builtin": "^0.6.3",
-    "innoq-styleguide": "^4.9.12",
+    "innoq-styleguide": "^5.2.3",
     "lodash": "^4.17.20",
     "tabelle": "^0.2.0",
     "uitil": "^2.7.1"
