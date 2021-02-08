@@ -68,8 +68,11 @@ Application specific code
 }
 
 .header-size--home {
-  padding: $spacer-xxl 0;
+  padding: $spacer-xl 0 $spacer-lg 0;
   margin-bottom: $spacer-xl;
+  @include for-tablet-landscape-up {
+    margin-bottom: $spacer-xxl;
+  }
 }
 
 .header-size--subpage {
@@ -94,6 +97,10 @@ Application specific code
 
 .header__subheading + * {
   margin-top: $spacer-xl;
+}
+
+.header__aside {
+  margin-top: $spacer-xxl;
 }
 
 // Breadcrumb
@@ -167,6 +174,13 @@ Application specific code
   margin-bottom: $spacer-xxl;
 }
 
+.section--home {
+  padding-bottom: 0;
+  @include for-tablet-landscape-up {
+    padding-bottom: $spacer-lg;
+  }
+}
+
 .section__title--small {
   @extend %monospace-font-regular;
   text-transform: uppercase;
@@ -177,7 +191,8 @@ Application specific code
 
 .section__title--normal {
   @extend %heading-font-bold;
-  margin-bottom: $spacer-base;
+  font-size: $font-size-xl;
+  margin-bottom: $spacer-md;
 }
 
 .article {
@@ -280,22 +295,39 @@ Application specific code
 .teaser__column {
   width: 100%;
   @include for-tablet-landscape-up {
-    width: 50%
+    width: 50%;
   }
 }
 
 .teaser__image {
   display: block;
-  max-width: 85%;
-  margin: auto;
-  padding-bottom: 3rem;
+  max-width: 75%;
+  margin: 0 auto $spacer-lg auto;
   @include for-tablet-landscape-up {
-    max-width: 75%;
-    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.teaser__image--hero {
+  margin-top: 0;
+  max-width: 100%;
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-lg;
   }
 }
 
 // Quote
+.quote {
+}
+
+.quote--center {
+  max-width: 100%;
+  @include for-tablet-landscape-up {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
 .quote__blockquote {
   @extend %body-font-bold;
   font-size: $font-size-xl;

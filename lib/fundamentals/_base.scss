@@ -25,6 +25,10 @@ p {
   hyphens: auto;
 }
 
+.text__small {
+  font-size: $font-size-md;
+}
+
 // Links
 p a {
   color: $brand-text;
