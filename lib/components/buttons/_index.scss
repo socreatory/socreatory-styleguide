@@ -13,39 +13,36 @@
   margin-top: $spacer-lg;
 }
 
-.btn_type_primary {
+.btn_size--full {
+  display: block;
+}
+
+.btn_size--fit {
+  display: block;
+  @include for-tablet-landscape-up {
+    display: inline-block;
+  }
+}
+
+.btn_type--primary {
   color: $brand-background;
   background-color: $brand-text;
 }
 
-.btn_type_primary:hover,
-.btn_type_primary:focus {
+.btn_type--primary:hover,
+.btn_type--primary:focus {
   color: $brand-background;
   background-color: $gray-90;
   border: 0.25rem solid $gray-90;
 }
 
-.btn_type_secondary {
+.btn_type--secondary {
   color: $brand-text;
   background-color: none;
 }
 
-.btn_type_secondary:hover,
-.btn_type_secondary:focus {
+.btn_type--secondary:hover,
+.btn_type--secondary:focus {
   background-color: $gray-10;
   border: 0.25rem solid $brand-text;
-}
-
-.btn_size_full {
-  display: block;
-}
-
-.btn_size_fit {
-  display: block;
-}
-
-@include for-tablet-landscape-up {
-  .btn_size_fit {
-    display: inline-block;
-  }
 }

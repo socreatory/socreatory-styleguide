@@ -66,21 +66,21 @@ Application specific code
 .header {
 }
 
-.header-size--home {
+.header_size_home {
   padding: $spacer-xxl 0;
   margin-bottom: $spacer-xl;
 }
 
-.header-size--subpage {
+.header_size_subpage {
   padding: $spacer-lg 0;
   margin-bottom: $spacer-xl;
 }
 
-.header-color--normal {
+.header_color_normal {
   background-color: $brand-background;
 }
 
-.header-color--highlighted {
+.header_color_highlighted {
   background-color: $brand-green-light;
 }
 
@@ -169,7 +169,7 @@ Application specific code
   margin-bottom: $spacer-xxl;
 }
 
-.section__title--small {
+.section__title_small {
   @extend %monospace-font-regular;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
@@ -177,114 +177,107 @@ Application specific code
   margin-bottom: $spacer-base;
 }
 
-.section__title--normal {
+.section__title_home {
   @extend %heading-font-bold;
   margin-bottom: $spacer-base;
 }
 
-.article {}
-
-.heading {
+.section__heading {
   margin-bottom: $spacer-md;
 }
 
-// Komponente Lists
-.unordered-list {
+// Main Lists
+.section__1col ul {
   font-size: $font-size-base;
   padding-left: 1rem;
+  // list-style-position: inside;
 }
 
-.unordered-list__item {
-  padding-left: 1rem;
-}
-
-.ordered-list {
+.section__1col ol {
   font-size: $font-size-base;
   padding-left: 1.5rem;
 }
 
-.ordered-list__item {
+.section__1col ul li {
+  padding-left: 1rem;
+}
+
+.section__1col ol li {
   padding-left: 0.5rem;
 }
 
-.ordered-list__item::marker,
-.unordered-list__item::marker {
+.section__1col ul li::marker,
+.section__1col ol li::marker {
   color: $brand-blue;
 }
 
-.unordered-list__item::marker {
+.section__1col ul li::marker {
   content: "—";
 }
 
-.unordered-list__item + .unordered-list__item,
-.ordered-list__item + .ordered-list__item {
+.section__1col ul li + li,
+.section__1col ol li + li {
   margin-top: $spacer-xs;
 }
 
-
-
-// Komponente Schlagworttabelle (Ihr Nutzen)
-.texttable {
+// Ihr Nutzen
+.section__3col {
   display: grid;
   gap: $spacer-base;
-  @include for-tablet-portrait-up {
+}
+
+@include for-tablet-portrait-up {
+  .section__3col {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-.texttable__cell {
+.section__3col p {
   @extend %body-font-bold;
   font-size: $font-size-lg;
   margin-bottom: 0;
 }
 
-// Komponente Zweispaltig(2Col (Trainer und Fachinfos))
-.img-text {
+// 2Col (Trainer und Fachinfos)
+.section__2col-odd,
+.section__2col-even {
   display: flex;
   flex-direction: row;
 }
 
-// linke Spalte
-.img-text__figure {
+@include for-tablet-landscape-up {
+  .section__2col-even {
+  flex-direction: row-reverse;
+  }
+}
+
+.section__2col-odd__col1 {
   min-width: 20%;
   max-width: 25%;
   margin-right: $spacer-lg;
 }
 
-// Bild in linker Spalte
-.img-text__image {
+.section__2col-odd__col1 img {
   margin-top: 0.55rem;
 }
 
-// rechte Spalte
-.img-text__content {}
-
-.img-text__heading {
+.section__2col-odd__heading {
   margin-bottom: $spacer-sm;
 }
 
-// Komponente Teaser (2spalter auf Home)
-.teaser {
-  display: flex;
-  flex-direction: row;
-}
-
-.teaser--reverse {
-  @include for-tablet-portrait-up {
-    flex-direction: row-reverse;
-  }
-}
-
-// linke oder rechte Spalte
-.teaser__column {
+.section__2col-even__col1 {
   width: 50%;
-  // min-width: 1600px;
+  min-width: 1600px;
 }
 
-.teaser__image {
+.section__2col-even__col1 img {
   display: block;
   max-width: 80%;
   margin: auto;
+}
+
+.section__2col-even__col2 {
+  width: 50%;
 }
 
 // Quote
@@ -306,15 +299,13 @@ Application specific code
 }
 
 // Sidebar
-.sidebar__content {
+.sidebar__block {
   margin-bottom: $spacer-xxl;
 }
 
-.sidebar__heading {
-  // margin-bottom: $spacer-sm;
+.sidebar__block__heading {
+  margin-bottom: $spacer-sm;
 }
-
-.sidebar__text {}
 
 // Footer
 .footer {

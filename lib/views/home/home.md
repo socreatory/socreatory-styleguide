@@ -134,7 +134,7 @@ example view
                     </div>
                 </div>
             </section>
-            <a href="#" class="btn btn_type_primary btn_size_fit">Alle Schulungen</a>
+            <a href="#" class="btn btn_type--primary btn_size--fit">Alle Schulungen</a>
         </section>
     </div>
 </main>
