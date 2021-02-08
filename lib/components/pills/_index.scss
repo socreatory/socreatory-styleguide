@@ -6,7 +6,7 @@
 }
 
 .pill + * {
-  margin-left: $spacer-sm;
+  margin-left: $spacer-xs;
 }
 
 .pill {
@@ -23,5 +23,5 @@
   padding: 0.2rem 0rem;
   background-color: $brand-green;
   text-align: center;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.0875rem;
 }

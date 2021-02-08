@@ -13,36 +13,36 @@
   margin-top: $spacer-lg;
 }
 
-.btn_size--full {
+.btn-size--full {
   display: block;
 }
 
-.btn_size--fit {
+.btn-size--fit {
   display: block;
   @include for-tablet-landscape-up {
     display: inline-block;
   }
 }
 
-.btn_type--primary {
+.btn-type--primary {
   color: $brand-background;
   background-color: $brand-text;
 }
 
-.btn_type--primary:hover,
-.btn_type--primary:focus {
+.btn-type--primary:hover,
+.btn-type--primary:focus {
   color: $brand-background;
   background-color: $gray-90;
   border: 0.25rem solid $gray-90;
 }
 
-.btn_type--secondary {
+.btn-type--secondary {
   color: $brand-text;
   background-color: none;
 }
 
-.btn_type--secondary:hover,
-.btn_type--secondary:focus {
+.btn-type--secondary:hover,
+.btn-type--secondary:focus {
   background-color: $gray-10;
   border: 0.25rem solid $brand-text;
 }

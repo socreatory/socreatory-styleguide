@@ -115,9 +115,9 @@ example view
                     <p>Buchungswidget</p>
                 </div>
                 <div class="layout-main-with-sidebar__sidebar">
-                    <h3 class="sidebar__heading">Inhouse Schulung</h3>
-                    <p class="sidebar__text">Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
-                    <a href="#" class="btn btn_type--secondary btn_size--full">Jetzt anfragen</a>
+                    <h3>Inhouse Schulung</h3>
+                    <p>Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
+                    <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
                 </div>
             </div>
         </div>

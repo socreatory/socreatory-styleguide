@@ -8,9 +8,9 @@ example view
     <p>&nbsp;</p>
 </nav>
 
-<header class="header header_size_home header_color_highlighted">
+<header class="header header-size--home header-color--highlighted">
     <div class="container">
-        <h2 class="section__title_small">Softwarearchitektur Schulungen</h2>
+        <h2 class="section__title--small">Softwarearchitektur Schulungen</h2>
         <h1 class="header__heading">Eine Plattform für Ihre Teamentwicklung.</h1>
         <p>Mit renommierten und erfahrenen Trainern bietet Ihnen die Software Creators’ Master Class akkreditierte Kurse und weltweit anerkannte Zertifizierungen nach den Standards des iSAQB.</p>
         <p>Zwei führende Anbieter vereinen das gesamte Portfolio für Software Architekten unter einem Dach.</p>
@@ -20,11 +20,24 @@ example view
 <main>
     <div class="container">
         <section class="section">
-            <div class="section__2col-even">
-                <div class="section__2col-even__col1">
-                    <img class="section__2col-even__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/product/hero.png" alt="">
+            <div class="teaser">
+                <div class="teaser__column">
+                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/product/hero.png" alt="">
                 </div>
-                <div class="section__2col-even__col2">
+                <div class="teaser__column">
+                    <h2 class="section__title_home">Belegen Sie Ihr Wissen!</h2>
+                    <p>Zum Advanced Zertifikat mit Experten. Alle Themen aus einer Hand und passgenau für Ihr Vorhaben. So bleiben Sie und Ihr Unternehmen innovativ und konkurrenzfähig.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+        <section class="section">
+            <div class="teaser teaser--reverse">
+                <div class="teaser__column">
+                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/product/hero.png" alt="">
+                </div>
+                <div class="teaser__column">
                     <h2 class="section__title_home">Belegen Sie Ihr Wissen!</h2>
                     <p>Zum Advanced Zertifikat mit Experten. Alle Themen aus einer Hand und passgenau für Ihr Vorhaben. So bleiben Sie und Ihr Unternehmen innovativ und konkurrenzfähig.</p>
                 </div>
@@ -49,8 +62,8 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
@@ -68,8 +81,8 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul DDD</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul DDD</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
@@ -87,8 +100,8 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul FLEX</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul FLEX</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
@@ -101,8 +114,8 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul Flex</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul Flex</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
@@ -115,8 +128,8 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul Flex</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul Flex</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
@@ -129,12 +142,12 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__footer__label">iSAQB Modul Flex</p>
-                        <p class="card__footer__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul Flex</p>
+                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
             </section>
-            <a href="#" class="btn btn_type--primary btn_size--fit">Alle Schulungen</a>
+            <a href="#" class="btn btn-type--primary btn-size--fit">Alle Schulungen</a>
         </section>
     </div>
 </main>

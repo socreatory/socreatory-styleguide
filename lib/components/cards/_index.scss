@@ -29,11 +29,6 @@
   height: 15rem;
 }
 
-.card__title {
-  font-size: $font-size-xl;
-  margin-bottom: $spacer-xxs;
-}
-
 .card__footer {
   display: flex;
   justify-content: space-between;
@@ -42,17 +37,22 @@
   // height: 4rem;
 }
 
-.card__footer__label {
-  font-size: 1rem;
-  margin: 0.25rem 0 0 0;
-}
-
-.card__footer__price {
-  font-size: $font-size-base;
-  @extend %body-font-bold;
-  margin: 0;
+.card__title {
+  font-size: $font-size-xl;
+  margin-bottom: $spacer-xxs;
 }
 
 .card__text {
   font-size: $font-size-base;
+}
+
+.card__label {
+  font-size: 1rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.card__price {
+  font-size: $font-size-base;
+  @extend %body-font-bold;
+  margin: 0;
 }
