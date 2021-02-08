@@ -64,6 +64,7 @@ Application specific code
 
 // Header
 .header {
+  // leer
 }
 
 .header_size_home {
@@ -247,7 +248,7 @@ Application specific code
 
 @include for-tablet-landscape-up {
   .section__2col-even {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 
