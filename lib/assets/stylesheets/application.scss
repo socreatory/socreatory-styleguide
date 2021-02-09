@@ -316,6 +316,28 @@ Application specific code
   }
 }
 
+// Komponente 4-Bereiche
+.textcolumns {
+  display: grid;
+  gap: $spacer-base;
+  grid-template-columns: 1fr;
+  @include for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.textcolumn__heading {
+  @extend %body-font-bold;
+  font-size: $font-size-lg;
+  margin-bottom: 0;
+}
+
+.textcolumn__text {
+  // @extend %body-font-bold;
+  font-size: $font-size-base;
+  margin-bottom: 0;
+}
+
 // Quote
 .quote {
   // leer

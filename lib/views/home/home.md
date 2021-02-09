@@ -15,10 +15,10 @@ example view
                 <img class="teaser__image teaser__image--hero" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
             </div>
             <div class="teaser__column">
-                <h2 class="section__title--small">Softwarearchitektur Schulungen</h2>
-                <h1 class="header__heading">Eine Plattform für Ihre Teamentwicklung.</h1>
-                <p>Mit renommierten und erfahrenen Trainern bietet Ihnen die Software Creators’ Master Class akkreditierte Kurse und weltweit anerkannte Zertifizierungen nach den Standards des iSAQB.</p>
-                <p>Zwei führende Anbieter vereinen das gesamte Portfolio für Software Architekten unter einem Dach.</p>
+                <h2 class="section__title--small">Softwarearchitektur – Trainings und Zertifizierung</h2>
+                <h1 class="header__heading">Lernen von den Besten.</h1>
+                <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
+                <p>Willkommen bei der Software Creators Academy, eine Kollaboration von embarc und INNOQ</p>
                 <div class="header__aside">
                     <h2 class="section__title--small">Zertifizierter Partner</h2>
                     <p class="text__small">International Software Architecture Qualifikation Board</p>
@@ -37,8 +37,8 @@ example view
                     <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/product/hero.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Weltweit anerkannter Standard</h2>
-                    <p>Neue Themen und Trends sind in der Softwareentwicklung an der Tagesordnung. Bleiben Sie informiert und nutzen Sie anerkannte Ausbildungsstandards für sich und Ihre Mitarbeiter. Nutzen Sie individuelle Schwerpunkte und stellen Sie sich flexible Ausbildungsmodule zusammen - maßgeschneidert zum Advanced Zertifikat.</p>
+                    <h2 class="section__title--normal">Internationale Standards, individuelles Wissen.</h2>
+                    <p>Bei der Software-Entwicklung hört die Lernkurve niemals auf. Mit unserem Modulbaukasten nach dem Lehrplan und den hohen Qualitätsstandards des iSAQB® können Sie sich für jede Aus-und Weiterbildungsstufe das richtige Trainingsprogramm zusammenstellen – vom Einsteiger bis hin zum CPSA® Advanced Level. So können Sie individuelle Schwerpunkte für sich und Ihr Team setzen und bleiben technologisch immer auf dem neuesten Stand.</p>
                 </div>
             </div>
         </section>
@@ -150,14 +150,36 @@ example view
         </section>
 
         <section class="section section--home">
+            <h2 class="section__title--normal">Sie brauchen noch mehr Argumente?</h2>
+            <div class="textcolumns">
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
+                    <p class="textcolumn__text">Die Software Creators Academy bietet unter einem Dach das umfangreichste iSAQB-Schulungsangebot im deutschsprachigen Raum.</p>
+                </div>
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
+                    <p class="textcolumn__text">Unsere erfahrenen Trainer und Trainerinnen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
+                </div>
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
+                    <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde Wissensvermittlung. Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
+                </div>
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Faires Preismodell.</h3>
+                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus Ihrem Unternehmen zahlen Sie nur noch die Hälfte. Außerdem profitieren Sie von Early Bird-Preisen und großer Planungssicherheit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--home">
             <div class="teaser teaser--reverse">
                 <div class="teaser__column">
                     <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-features.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p>Die Software Architecture Master Class ist ein gemeinsames Angebot von Embarc und INNOQ. Uns eint der Wunsch, innovatives und wirksames Vorgehen in allen Stufen der Softwareentwicklung für unsere Kunden und ihre Vorhaben zu verankern.</p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Alle Schulungen</a>
+                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
+                    <p>Wählen Sie aus dem umfangreichsten Programm aus Schulungsmodulen, die sich klug ergänzen bzw. aufeinander aufbauen – zu allen Architekturthemen und für jedes Zertifizierungslevel.</p>
+                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr Infos</a>
                 </div>
             </div>
         </section>
@@ -173,12 +195,12 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-contact-us.png" alt="">
+                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/desktop/desktop-hero-illustration.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p>Die Software Architecture Master Class ist ein gemeinsames Angebot von Embarc und INNOQ. Uns eint der Wunsch, innovatives und wirksames Vorgehen in allen Stufen der Softwareentwicklung für unsere Kunden und ihre Vorhaben zu verankern.</p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Alle Schulungen</a>
+                    <p>Die Software Creators Academy ist ein gemeinsames Projekt von INNOQ und embarc. Wir sind nicht nur zwei der führenden Schulungsanbieter, sondern auch gefragte Technologie-Beratungsunternehmen. Tag für Tag setzen wir uns mit anspruchsvoller Software-Architektur auseinander und entwickeln für unsere Kundinnen und Kunden ebenso innovative wie alltagstaugliche Software-Lösungen.</p>
+                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
                 </div>
             </div>
         </section>
