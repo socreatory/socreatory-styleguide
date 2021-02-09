@@ -8,18 +8,21 @@ example view
     <p>&nbsp;</p>
 </nav>
 
-<header class="header header-size--home header-color--highlighted">
+<header class="hero">
     <div class="container">
-        <div class="teaser teaser--reverse">
+        <div class="hero__teaser">
             <div class="teaser__column">
-                <img class="teaser__image teaser__image--hero" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
+                <img class="hero__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
             </div>
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
-                <h1 class="header__heading">Lernen von den Besten.</h1>
+                <h1 class="hero__heading">Lernen von den Besten.</h1>
                 <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
-                <p>Willkommen bei der Software Creators Academy, eine Kollaboration von embarc und INNOQ</p>
-                <div class="header__aside">
+                <p>Willkommen bei der Software Creators Academy, eine Kollaboration von</p>
+                <div class="hero__logos">
+                    <img class="hero__logo" src="https://www.embarc.de/img/logo.svg">
+                </div>
+                <div class="hero__aside">
                     <h2 class="section__title--small">Zertifizierter Partner</h2>
                     <p class="text__small">International Software Architecture Qualifikation Board</p>
                     <img src="/lib/assets/images/logos/iSAQB_logo.svg">

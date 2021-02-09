@@ -62,18 +62,70 @@ Application specific code
   }
 }
 
-// Header
-.header {
-  // leer
-}
-
-.header-size--home {
-  padding: $spacer-xl 0 $spacer-lg 0;
+// Hero
+.hero {
+  background-color: $brand-green-light;
+  padding: $spacer-xxl 0 $spacer-lg 0;
   margin-bottom: $spacer-xl;
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xxl;
   }
 }
+
+.hero__teaser {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include for-tablet-landscape-up {
+    flex-direction: row-reverse;
+  }
+}
+
+.hero__image {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto $spacer-lg auto;
+  margin-top: 0;
+  max-width: 95%;
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-lg;
+  }
+}
+
+.hero__heading {
+  // font-size: $font-size-xxl;
+  font-size: 3.7rem;
+  line-height: 1;
+  margin-left: -0.24rem;
+  margin-bottom: $spacer-md;
+}
+
+.hero__logos {
+  display: flex;
+}
+
+.hero__logo {
+  height: 3rem;
+  margin-right: $spacer-lg;
+  filter: saturate(0);
+}
+
+.hero__aside {
+  margin-top: $spacer-xxl;
+}
+
+// Header
+.header {
+  // leer
+}
+
+// .header-size--home {
+//   padding: $spacer-xl 0 $spacer-lg 0;
+//   margin-bottom: $spacer-xl;
+//   @include for-tablet-landscape-up {
+//     margin-bottom: $spacer-xxl;
+//   }
+// }
 
 .header-size--subpage {
   padding: $spacer-lg 0;
@@ -90,17 +142,13 @@ Application specific code
 
 .header__heading {
   font-size: $font-size-xxl;
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: $spacer-sm;
   margin-left: -0.2rem;
 }
 
 .header__subheading + * {
   margin-top: $spacer-xl;
-}
-
-.header__aside {
-  margin-top: $spacer-xxl;
 }
 
 // Breadcrumb
@@ -186,6 +234,7 @@ Application specific code
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
   font-size: $font-size-sm;
+  line-height: $font-size-base;
   margin-bottom: $spacer-base;
 }
 
@@ -305,14 +354,6 @@ Application specific code
   margin: 0 auto $spacer-lg auto;
   @include for-tablet-landscape-up {
     margin: 0 auto 0 auto;
-  }
-}
-
-.teaser__image--hero {
-  margin-top: 0;
-  max-width: 95%;
-  @include for-tablet-landscape-up {
-    margin-top: $spacer-lg;
   }
 }
 
