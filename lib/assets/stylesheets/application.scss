@@ -310,10 +310,14 @@ Application specific code
 
 .teaser__image--hero {
   margin-top: 0;
-  max-width: 100%;
+  max-width: 95%;
   @include for-tablet-landscape-up {
     margin-top: $spacer-lg;
   }
+}
+
+.teaser__text {
+  margin-bottom: $spacer-base;
 }
 
 // Komponente 4-Bereiche
@@ -328,8 +332,7 @@ Application specific code
 
 .textcolumn__heading {
   @extend %body-font-bold;
-  font-size: $font-size-lg;
-  margin-bottom: 0;
+  font-size: $font-size-base;
 }
 
 .textcolumn__text {

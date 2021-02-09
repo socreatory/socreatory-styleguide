@@ -15,7 +15,7 @@ example view
                 <img class="teaser__image teaser__image--hero" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
             </div>
             <div class="teaser__column">
-                <h2 class="section__title--small">Softwarearchitektur – Trainings und Zertifizierung</h2>
+                <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
                 <h1 class="header__heading">Lernen von den Besten.</h1>
                 <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
                 <p>Willkommen bei der Software Creators Academy, eine Kollaboration von embarc und INNOQ</p>
@@ -178,7 +178,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
-                    <p>Wählen Sie aus dem umfangreichsten Programm aus Schulungsmodulen, die sich klug ergänzen bzw. aufeinander aufbauen – zu allen Architekturthemen und für jedes Zertifizierungslevel.</p>
+                    <p class="teaser__text">Wählen Sie aus dem umfangreichsten Programm aus Schulungsmodulen, die sich klug ergänzen bzw. aufeinander aufbauen – zu allen Architekturthemen und für jedes Zertifizierungslevel.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Mehr Infos</a>
                 </div>
             </div>
@@ -199,7 +199,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p>Die Software Creators Academy ist ein gemeinsames Projekt von INNOQ und embarc. Wir sind nicht nur zwei der führenden Schulungsanbieter, sondern auch gefragte Technologie-Beratungsunternehmen. Tag für Tag setzen wir uns mit anspruchsvoller Software-Architektur auseinander und entwickeln für unsere Kundinnen und Kunden ebenso innovative wie alltagstaugliche Software-Lösungen.</p>
+                    <p class="teaser__text">Die Software Creators Academy ist ein gemeinsames Projekt von INNOQ und embarc. Wir sind nicht nur zwei der führenden Schulungsanbieter, sondern auch gefragte Technologie-Beratungsunternehmen. Tag für Tag setzen wir uns mit anspruchsvoller Software-Architektur auseinander und entwickeln für unsere Kundinnen und Kunden ebenso innovative wie alltagstaugliche Software-Lösungen.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
                 </div>
             </div>
