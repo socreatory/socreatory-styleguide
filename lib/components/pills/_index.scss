@@ -2,7 +2,7 @@
   @extend %monospace-font-regular;
   display: flex;
   flex-wrap: wrap;
-  font-size: $font-size-md;
+  font-size: $font-size-sm;
 }
 
 .pill + * {

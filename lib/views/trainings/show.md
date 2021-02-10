@@ -8,22 +8,22 @@ example view
     <p>&nbsp;</p>
 </nav>
 
-<header class="header header-size--subpage header-color--highlighted">
+<header class="header header-color--highlighted">
     <div class="container">
-        <div class="breadcrumb">
-            <ul class="breadcrumb__list">
-                <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
-                <li class="breadcrumb__item">Agile Softwarearchitektur</li>
-            </ul>
-        </div>
-        <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
-        <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
-        <div class="pills">
-            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-        </div>
+            <div class="breadcrumb">
+                <ul class="breadcrumb__list">
+                    <li class="breadcrumb__item"><a href="#">Home</a></li>
+                    <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
+                    <li class="breadcrumb__item">Agile Softwarearchitektur</li>
+                </ul>
+            </div>
+            <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
+            <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
+            <div class="pills">
+                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+            </div>
     </div>
 </header>
 

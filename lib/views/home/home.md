@@ -20,13 +20,18 @@ example view
                 <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
                 <p>Willkommen bei der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">
-                    <img class="hero__logo" src="https://www.embarc.de/img/logo.svg">
+                    <img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg">
+                    <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
                 </div>
                 <div class="hero__aside">
-                    <h2 class="section__title--small">Zertifizierter Partner</h2>
-                    <p class="text__small">International Software Architecture Qualifikation Board</p>
-                    <img src="/lib/assets/images/logos/iSAQB_logo.svg">
+                    <p class="text__small"><strong>Zertifizierter Partner des</strong><br>International Software Architecture Qualifikation Board</p>
+                    <img class="hero__logo hero__logo--small" src="/snippet/images/logos/ISAQB_logo.svg">
                 </div>
+                <!-- <div class="hero__aside">
+                    <h2 class="section__title--small">Zertifizierter Partner</h2>
+                    <p >International Software Architecture Qualifikation Board</p>
+                    <img src="/snippet/images/logos/ISAQB_logo.svg">
+                </div> -->
             </div>
         </div>
     </div>

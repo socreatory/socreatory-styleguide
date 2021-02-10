@@ -105,9 +105,13 @@ Application specific code
 }
 
 .hero__logo {
-  height: 3rem;
+  height: 2.5rem;
   margin-right: $spacer-lg;
-  filter: saturate(0);
+}
+
+.hero__logo--small {
+  height: 2.5rem;
+  margin-top: -0.6rem;
 }
 
 .hero__aside {
@@ -116,18 +120,6 @@ Application specific code
 
 // Header
 .header {
-  // leer
-}
-
-// .header-size--home {
-//   padding: $spacer-xl 0 $spacer-lg 0;
-//   margin-bottom: $spacer-xl;
-//   @include for-tablet-landscape-up {
-//     margin-bottom: $spacer-xxl;
-//   }
-// }
-
-.header-size--subpage {
   padding: $spacer-lg 0;
   margin-bottom: $spacer-xl;
 }
@@ -169,7 +161,7 @@ Application specific code
 .breadcrumb__item {
   @extend %monospace-font-regular;
   display: inline;
-  font-size: $font-size-md;
+  font-size: $font-size-sm;
   + :before {
     padding: 0 $spacer-xs 0 $spacer-xxs;
     color: black;
@@ -233,9 +225,9 @@ Application specific code
   @extend %monospace-font-regular;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
-  font-size: $font-size-sm;
+  font-size: $font-size-xs;
   line-height: $font-size-base;
-  margin-bottom: $spacer-base;
+  margin-bottom: $spacer-md;
 }
 
 .section__title--normal {
