@@ -425,7 +425,7 @@ Application specific code
 }
 
 .profile {
-
+  // leer
 }
 
 .profile__name {
@@ -434,12 +434,11 @@ Application specific code
   margin-bottom: 0;
 }
 
-.profile__company, .profile__role {
+.profile__company,
+.profile__role {
   font-size: $font-size-md;
   margin-bottom: 0;
 }
-
-
 
 // Footer
 .footer {
