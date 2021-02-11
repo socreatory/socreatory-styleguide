@@ -9,7 +9,7 @@ example view
 </nav>
 
 <header class="hero">
-    <div class="container">
+    <div class="container__fullwidth">
         <div class="hero__teaser">
             <div class="teaser__column">
                 <img class="hero__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
@@ -33,7 +33,7 @@ example view
 </header>
 
 <main>
-    <div class="container">
+    <div class="container__fullwidth">
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
@@ -198,7 +198,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/desktop/desktop-hero-illustration.png" alt="">
+                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-contact-us.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>

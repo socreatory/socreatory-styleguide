@@ -28,37 +28,47 @@ Application specific code
 // Blueprints
 @import "../../blueprints/example-layout";
 
+.hero__image {
+  display: block;
+  margin: 0 auto $spacer-lg auto;
+  max-width: 95%;
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-lg;
+  }
+}
+
 // Container
-.container {
+.container__fullwidth {
   max-width: 100%;
   margin: 0 $spacer-sm;
-}
-
-@include for-tablet-portrait-up {
-  .container {
+  @include for-tablet-portrait-up {
     margin: 0 $spacer-md;
   }
-}
-
-@include for-tablet-landscape-up {
-  .container {
+  @include for-tablet-landscape-up {
     margin: 0 $spacer-base;
   }
-}
-
-@include for-desktop-up {
-  .container {
+  @include for-desktop-up {
     margin: 0 auto;
     padding: 0 $spacer-base;
     max-width: $desktop;
   }
-}
-
-@include for-desktop-xl-up {
-  .container {
+  @include for-desktop-xl-up {
     max-width: $desktop-xl;
     padding: 0 $spacer-base;
     margin: 0 auto;
+  }
+}
+
+.container__centered {
+  max-width: 100%;
+  margin: 0 $spacer-sm;
+  @include for-tablet-portrait-up {
+    margin: 0 $spacer-md;
+  }
+  @include for-tablet-landscape-up {
+    margin: 0 auto;
+    max-width: $tablet-landscape;
+    padding: 0 $spacer-base;
   }
 }
 
@@ -84,7 +94,6 @@ Application specific code
 .hero__image {
   display: block;
   margin: 0 auto $spacer-lg auto;
-  margin-top: 0;
   max-width: 95%;
   @include for-tablet-landscape-up {
     margin-top: $spacer-lg;
@@ -140,6 +149,18 @@ Application specific code
 
 .header__subheading + * {
   margin-top: $spacer-xl;
+}
+
+.header__image {
+  display: block;
+  margin: 0 auto $spacer-lg auto;
+  max-width: 90%;
+  @include for-tablet-portrait-up {
+    max-width: 70%;
+  }
+  // @include for-tablet-landscape-up {
+  //   max-width: 60%;
+  // }
 }
 
 // Breadcrumb

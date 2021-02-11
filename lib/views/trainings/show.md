@@ -9,7 +9,7 @@ example view
 </nav>
 
 <header class="header header-color--highlighted">
-    <div class="container">
+    <div class="container__fullwidth">
             <div class="breadcrumb">
                 <ul class="breadcrumb__list">
                     <li class="breadcrumb__item"><a href="#">Home</a></li>
@@ -28,7 +28,7 @@ example view
 </header>
 
 <main>
-    <div class="container">
+    <div class="container__fullwidth">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
                 <section class="section">
@@ -124,7 +124,7 @@ example view
     </div>
 </main>
 <aside>
-    <div class="container">
+    <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
         <section class="cards">
             <div class="card">
