@@ -28,15 +28,6 @@ Application specific code
 // Blueprints
 @import "../../blueprints/example-layout";
 
-.hero__image {
-  display: block;
-  margin: 0 auto $spacer-lg auto;
-  max-width: 95%;
-  @include for-tablet-landscape-up {
-    margin-top: $spacer-lg;
-  }
-}
-
 // Container
 .container__fullwidth {
   max-width: 100%;
