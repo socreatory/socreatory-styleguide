@@ -24,14 +24,9 @@ example view
                     <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
                 </div>
                 <div class="hero__aside">
-                    <p class="text__small"><strong>Zertifizierter Partner des</strong><br>International Software Architecture Qualifikation Board</p>
-                    <img class="hero__logo hero__logo--small" src="/snippet/images/logos/ISAQB_logo.svg">
+                    <p class="text__small">Wir sind zertifizierter Partner des iSAQB®</p>
+                    <!-- <img class="hero__logo hero__logo--small" src="/snippet/images/logos/ISAQB_logo.svg"> -->
                 </div>
-                <!-- <div class="hero__aside">
-                    <h2 class="section__title--small">Zertifizierter Partner</h2>
-                    <p >International Software Architecture Qualifikation Board</p>
-                    <img src="/snippet/images/logos/ISAQB_logo.svg">
-                </div> -->
             </div>
         </div>
     </div>

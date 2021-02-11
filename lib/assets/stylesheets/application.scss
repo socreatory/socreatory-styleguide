@@ -104,13 +104,13 @@ Application specific code
 }
 
 .hero__logo {
-  height: 2.5rem;
-  margin-right: $spacer-lg;
+  height: 2rem;
+  margin-right: $spacer-base;
 }
 
 .hero__logo--small {
-  height: 2.5rem;
-  margin-top: -0.6rem;
+  height: 2rem;
+  // margin-top: -0.6rem;
 }
 
 .hero__aside {
