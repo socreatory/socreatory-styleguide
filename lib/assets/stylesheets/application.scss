@@ -133,7 +133,7 @@ Application specific code
 
 .header__heading {
   font-size: $font-size-xxl;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: $spacer-sm;
   margin-left: -0.2rem;
 }
@@ -407,6 +407,39 @@ Application specific code
 .sidebar__content {
   margin-bottom: $spacer-xxl;
 }
+
+// Profiles
+.profiles {
+  display: grid;
+  gap: $spacer-base;
+  grid-template-columns: 1fr 1fr;
+  @include for-tablet-portrait-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @include for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.profile {
+
+}
+
+.profile__name {
+  @extend %body-font-bold;
+  font-size: $font-size-base;
+  margin-bottom: 0;
+}
+
+.profile__company, .profile__role {
+  font-size: $font-size-md;
+  margin-bottom: 0;
+}
+
+
 
 // Footer
 .footer {
