@@ -1,5 +1,5 @@
 {
-  "name": "rechnologe-styleguide",
+  "name": "sca-styleguide",
   "private": true,
   "scripts": {
     "aiur": "aiur -t ./dist",

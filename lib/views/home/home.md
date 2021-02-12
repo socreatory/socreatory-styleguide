@@ -198,7 +198,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-contact-us.png" alt="">
+                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/personal-features-illustration.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>

@@ -18,7 +18,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-contact-us.png" alt="">
+        <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/personal-features-illustration.png" alt="">
         <h1 class="header__heading">Wir setzen Maßstäbe in der Softwarearchitektur. Daran können Sie uns messen.</h1>
     </div>
 </header>
