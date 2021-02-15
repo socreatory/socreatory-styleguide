@@ -1,53 +1,5 @@
-// Navbar
 .navbar {
-  width: 100%;
-  background-color: $brand-blue;
-  @include for-tablet-landscape-up {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 $spacer-md;
-  }
-}
-
-.navbar__logo {
-  height: 2.5rem;
-  margin-left: $spacer-md;
-}
-
-.navbar__items {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  list-style-type: none;
-  text-transform: uppercase;
-  letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
-  @include for-tablet-landscape-up {
-    display: flex;
-  }
-}
-
-.navbar__item {
-  @extend %body-font-bold;
   display: block;
-  color: $brand-text;
-  font-size: $font-size-sm;
-  padding: 1rem 0;
-  transition: all 0.15s ease-out;
-  letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  @include for-tablet-landscape-up {
-    display: inline-block;
-    padding: $spacer-md;
-  }
-}
-
-.navbar__item:hover,
-.navbar__item:focus {
-  color: $brand-background;
-  background-color: $brand-text;
+  background-color: $brand-blue;
+  height: 4.6875rem;
 }

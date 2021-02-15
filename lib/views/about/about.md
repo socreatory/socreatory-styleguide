@@ -5,12 +5,7 @@ example view
 
 ```html
 <nav class="navbar">
-    <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
-    <ul class="navbar__items">
-        <li><a href="#" class="navbar__item">Schulungen</a></li>
-        <li><a href="#" class="navbar__item">Über uns</a></li>
-        <li><a href="#" class="navbar__item">Infos</a></li>
-    </ul>
+    <p>&nbsp;</p>
 </nav>
 
 <header class="header header-color--normal">
@@ -18,7 +13,7 @@ example view
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item">Über uns</li>
+                <li class="breadcrumb__item"><a href="#">Über uns</a></li>
             </ul>
         </div>
     </div>
