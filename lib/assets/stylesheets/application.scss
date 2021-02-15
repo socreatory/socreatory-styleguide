@@ -145,9 +145,9 @@ Application specific code
 .header__image {
   display: block;
   margin: 0 auto $spacer-lg auto;
-  max-width: 90%;
+  max-width: 70%;
   @include for-tablet-portrait-up {
-    max-width: 70%;
+    max-width: 60%;
   }
   // @include for-tablet-landscape-up {
   //   max-width: 60%;
