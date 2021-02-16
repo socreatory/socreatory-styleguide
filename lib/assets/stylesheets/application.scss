@@ -154,6 +154,88 @@ Application specific code
   // }
 }
 
+// New Navbar
+.menu {
+  // height: 70px;
+  background-color: $brand-blue;
+  // padding: 1rem 0;
+}
+.menu__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.menu__logo {
+  height: 2.5rem;
+}
+.menu__icon {
+  font-size: 2em;
+  color: $brand-text;
+  line-height: 0;
+}
+.nav {
+  position: absolute;
+  // background-color: $brand-blue;
+  background-color: $brand-green;
+  top:70px;
+  left:0;
+  width: 100%;
+  z-index: 1;
+}
+.nav__list {
+  list-style-type: none;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+  text-align: center;
+  margin-top: -2rem;
+  padding: 0 0;
+}
+.nav__item {
+  // padding: 0 15px;
+}
+.nav__item a {
+  display: block;
+  padding: $spacer-sm 0;
+  /* Add your custom styles below to change appearance of links */
+  color: $brand-text;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+.nav__item a:hover, .nav__item a:focus {
+  color: $brand-background;
+  background-color: $brand-text;
+}
+#checkbox {
+  display: none;
+}
+#checkbox:checked ~ nav ul {
+  max-height: 200px;
+  padding: 2rem 0;
+  transition: all 0.5s;
+}
+
+// @media (min-width: 768px) {
+//   .menu__icon {
+//       display: none;
+//   }
+//   .nav {
+//       position: relative;
+//       top: -10px;
+//       background-color: transparent;
+//   }
+//   .nav__list {
+//       max-height: 70px;
+//       padding: 15px 0;
+//       text-align: right;
+//   }
+//   .nav_item {
+//       display: inline-flex;
+//       // padding-left: 20px;
+//   }
+// }
+
 // Breadcrumb
 /* Style the list */
 .breadcrumb {
