@@ -45,3 +45,10 @@
   background-color: $gray-10;
   border: 0.25rem solid $brand-text;
 }
+
+.btn-anchor {
+  margin: -$spacer-base 0 $spacer-base 0;
+  @include for-tablet-landscape-up {
+    display: none;
+  }
+}

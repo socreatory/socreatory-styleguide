@@ -29,7 +29,7 @@ example view
             <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
             <div class="pills">
                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">–</div>
                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
             </div>
     </div>
@@ -39,6 +39,7 @@ example view
     <div class="container__fullwidth">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
+                <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
                     <h3 class="heading">Evolution und Verbesserung von Softwarearchitekturen – systematisch und nachhaltig</h3>
@@ -118,7 +119,7 @@ example view
                 </section>
 
             </div>
-            <div class="layout-main-with-sidebar__sidebar sidebar">
+            <div id="booking" class="layout-main-with-sidebar__sidebar sidebar">
                 <div class="layout-main-with-sidebar__sidebar">
                     <p>Buchungswidget</p>
                 </div>
