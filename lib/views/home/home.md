@@ -20,7 +20,7 @@ example view
     <div class="container__fullwidth">
         <div class="hero__teaser">
             <div class="teaser__column">
-                <img class="hero__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/templates.png" alt="">
+                <img class="hero__image" src="/snippet/images/illustrations/lernenvondenbesten.png" alt="">
             </div>
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
