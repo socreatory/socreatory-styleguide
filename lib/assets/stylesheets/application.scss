@@ -504,6 +504,14 @@ Application specific code
   height: 16rem;
 }
 
+// Booking
+#booking {
+  margin-bottom: $spacer-xxl;
+  @include for-tablet-landscape-up {
+    margin-bottom: 0;
+  }
+}
+
 // Markdown Listen
 
 .markdown {
