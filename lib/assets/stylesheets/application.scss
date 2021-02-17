@@ -504,7 +504,12 @@ Application specific code
 }
 
 // Markdown Listen
+
 .markdown {
+  li::marker {
+    color: $brand-blue;
+  }
+
   ul {
     font-size: $font-size-base;
     padding-left: 1rem;
@@ -525,10 +530,6 @@ Application specific code
     li {
       padding-left: 0.5rem;
     }
-  }
-
-  li::marker, {
-    color: $brand-blue;
   }
 
   li + li {
