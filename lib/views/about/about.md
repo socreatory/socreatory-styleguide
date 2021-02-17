@@ -4,22 +4,17 @@ description: Description
 example view
 
 ```html
-<div class="menu">
-    <div class="menu__wrap">
-        <img src="/snippet/images/logos/sca_logo.svg" class="menu__logo" alt="Logo">
-        <input type="checkbox" id="checkbox">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#">About</a></li>
-                <li class="nav__item"><a href="#">Dies</a></li>
-                <li class="nav__item"><a href="#">Das</a></li>
-            </ul>
-        </nav>
-        <label for="checkbox"><span class="menu__icon">X</span>
-            <!-- <i class="fa fa-bars menu-icon"></i> -->
-        </label>
-    </div>
-</div>
+<nav class="navbar">
+    <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
+    <input type="checkbox" id="navbar__checkbox">
+    <ul class="navbar__items">
+        <li><a href="#" class="navbar__item">Schulungen</a></li>
+        <li><a href="#" class="navbar__item">Über uns</a></li>
+        <li><a href="#" class="navbar__item">Preise</a></li>
+        <li><a href="#" class="navbar__item">Info</a></li>
+    </ul>
+    <label class="navbar__burger" for="navbar__checkbox"></label>
+</nav>
 
 <header class="header header-color--normal">
     <div class="container__fullwidth">

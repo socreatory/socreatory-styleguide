@@ -6,11 +6,14 @@ example view
 ```html
 <nav class="navbar">
         <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
+        <input type="checkbox" id="navbar__checkbox">
         <ul class="navbar__items">
             <li><a href="#" class="navbar__item">Schulungen</a></li>
             <li><a href="#" class="navbar__item">Über uns</a></li>
-            <li><a href="#" class="navbar__item">Infos</a></li>
+            <li><a href="#" class="navbar__item">Preise</a></li>
+            <li><a href="#" class="navbar__item">Info</a></li>
         </ul>
+        <label class="navbar__burger" for="navbar__checkbox"></label>
 </nav>
 
 <header class="hero">
@@ -47,6 +50,7 @@ example view
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Internationale Standards, individuelles Wissen.</h2>
                     <p>Bei der Software-Entwicklung hört die Lernkurve niemals auf. Mit unserem Modulbaukasten nach dem Lehrplan und den hohen Qualitätsstandards des iSAQB® können Sie sich für jede Aus-und Weiterbildungsstufe das richtige Trainingsprogramm zusammenstellen – vom Einsteiger bis hin zum CPSA® Advanced Level. So können Sie individuelle Schwerpunkte für sich und Ihr Team setzen und bleiben technologisch immer auf dem neuesten Stand.</p>
+                    <img class="hero__logo" src="/snippet/images/logos/isaqb_logo.svg">
                 </div>
             </div>
         </section>
@@ -161,18 +165,22 @@ example view
             <h2 class="section__title--normal">Sie brauchen noch mehr Argumente?</h2>
             <div class="textcolumns">
                 <div class="textcolumn">
+                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/product.png">
                     <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
                     <p class="textcolumn__text">Die Software Creators Academy bietet unter einem Dach das umfangreichste iSAQB-Schulungsangebot im deutschsprachigen Raum.</p>
                 </div>
                 <div class="textcolumn">
+                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/engineering.png">
                     <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
                     <p class="textcolumn__text">Unsere erfahrenen Trainer und Trainerinnen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
                 </div>
                 <div class="textcolumn">
+                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/hr.png">
                     <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
                     <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde Wissensvermittlung. Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
                 </div>
                 <div class="textcolumn">
+                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/sales.png">
                     <h3 class="textcolumn__heading">Faires Preismodell.</h3>
                     <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus Ihrem Unternehmen zahlen Sie nur noch die Hälfte. Außerdem profitieren Sie von Early Bird-Preisen und großer Planungssicherheit.</p>
                 </div>

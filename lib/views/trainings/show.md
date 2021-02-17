@@ -6,11 +6,14 @@ example view
 ```html
 <nav class="navbar">
     <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
+    <input type="checkbox" id="navbar__checkbox">
     <ul class="navbar__items">
         <li><a href="#" class="navbar__item">Schulungen</a></li>
         <li><a href="#" class="navbar__item">Über uns</a></li>
-        <li><a href="#" class="navbar__item">Infos</a></li>
+        <li><a href="#" class="navbar__item">Preise</a></li>
+        <li><a href="#" class="navbar__item">Info</a></li>
     </ul>
+    <label class="navbar__burger" for="navbar__checkbox"></label>
 </nav>
 
 <header class="header header-color--highlighted">
@@ -132,6 +135,27 @@ example view
     <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
         <section class="cards">
+            <div>
+                <div class="card">
+                    <div class="card__body">
+                        <div class="card__body__top">
+                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                        <p class="card__price">ab 1.750 €</p>
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card__body">
                     <div class="card__body__top">
@@ -150,82 +174,26 @@ example view
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     <p class="card__price">ab 1.750 €</p>
                 </div>
-            </div><div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                    <div class="card__body__top">
+                        <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                     </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
+                    <div class="card__body__bottom">
+                        <div class="pills">
+                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
+                <div class="card__footer">
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                    <p class="card__price">ab 1.750 €</p>
                 </div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
-                </div>
+            </div>
         </section>
     </div>
 </aside>
