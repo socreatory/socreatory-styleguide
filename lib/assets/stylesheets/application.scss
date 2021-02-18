@@ -104,7 +104,7 @@ Application specific code
 }
 
 .hero__logo {
-  height: 2rem;
+  height: 2.5rem;
   margin-right: $spacer-base;
 }
 
@@ -427,6 +427,32 @@ Application specific code
   display: block;
   margin: 1rem 0;
   width: 40%;
+}
+
+// Rating
+.stars {
+  margin-bottom: $spacer-sm;
+  --percent: calc(var(--rating) / 5 * 100%);
+
+  display: inline-block;
+  font-size: $font-size-base;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+
+  &::before {
+    content: "★★★★★";
+    letter-spacing: 0.25rem;
+    background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.stars__rating {
+  display: inline-block;
+  margin-left: $spacer-sm;
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
 }
 
 // Quote
