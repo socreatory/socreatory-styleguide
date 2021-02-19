@@ -432,7 +432,7 @@ Application specific code
 // Rating
 .stars {
   margin-bottom: $spacer-sm;
-  --percent: calc(var(--rating) / 5 * 100%);
+  --percent: calc(var(--rating) / 5 * 97.5%);
 
   display: inline-block;
   font-size: $font-size-base;

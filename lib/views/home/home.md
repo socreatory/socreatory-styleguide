@@ -23,7 +23,7 @@ example view
     <div class="container__fullwidth">
         <div class="hero__teaser">
             <div class="teaser__column">
-                <img class="hero__image" src="/snippet/images/illustrations/lernenvondenbesten3.jpg" alt="">
+                <img class="hero__image" src="/snippet/images/illustrations/lernenvondenbesten5.png" alt="">
             </div>
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>

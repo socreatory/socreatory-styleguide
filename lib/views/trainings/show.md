@@ -65,7 +65,7 @@ example view
 
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Teilnehmer:innen Bewertung</h2>
-                    <div class="stars" style="--rating: 4;" aria-label="Die Bewertung dieses Trainings beträgt 4 von möglichen 5."></div>
+                    <div class="stars" style="--rating: 3.5;" aria-label="Die Bewertung dieses Trainings beträgt 4 von möglichen 5."></div>
                     <p class="stars__rating">(14 Bewertungen)</p>
                     <p><strong>92%</strong> aller Teilnehmer:innen würden dieses Training weiterempfehlen</p>
                 </section>
