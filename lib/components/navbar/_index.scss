@@ -1,6 +1,6 @@
 // Navbar
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 3;
   width: 100%;
@@ -9,7 +9,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s;
   @include for-tablet-landscape-up {
+    position: fixed;
     padding: 0 $spacer-md;
   }
 }
@@ -68,6 +70,11 @@
 .navbar__item:focus {
   color: $brand-background;
   background-color: $brand-text;
+}
+
+.scrollUp {
+  // transform: translateY(-4.375rem);
+  transform: translateY(calc(-100%));
 }
 
 // Burger

@@ -4,17 +4,20 @@ description: Show Training Detail View
 example view
 
 ```html
-<nav class="navbar">
-    <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
-    <input type="checkbox" id="navbar__checkbox">
-    <ul class="navbar__items">
-        <li><a href="#" class="navbar__item">Schulungen</a></li>
-        <li><a href="#" class="navbar__item">Über uns</a></li>
-        <li><a href="#" class="navbar__item">Preise</a></li>
-        <li><a href="#" class="navbar__item">Info</a></li>
-    </ul>
-    <label class="navbar__burger" for="navbar__checkbox"></label>
-</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<scroll-nav>
+    <nav class="navbar">
+            <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
+            <input type="checkbox" id="navbar__checkbox">
+            <ul class="navbar__items">
+                <li><a href="#" class="navbar__item">Schulungen</a></li>
+                <li><a href="#" class="navbar__item">Über uns</a></li>
+                <li><a href="#" class="navbar__item">Preise</a></li>
+                <li><a href="#" class="navbar__item">Info</a></li>
+            </ul>
+            <label class="navbar__burger" for="navbar__checkbox"></label>
+    </nav>
+</scroll-nav>
 
 <header class="header header-color--highlighted">
     <div class="container__fullwidth">
@@ -29,7 +32,7 @@ example view
             <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
             <div class="pills">
                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">–</div>
+                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
             </div>
     </div>

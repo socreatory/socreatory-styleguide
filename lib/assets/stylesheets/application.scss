@@ -449,9 +449,9 @@ Application specific code
 }
 
 .stars__rating {
+  @extend %monospace-font-regular;
   display: inline-block;
   margin-left: $spacer-sm;
-  @extend %monospace-font-regular;
   font-size: $font-size-md;
 }
 
