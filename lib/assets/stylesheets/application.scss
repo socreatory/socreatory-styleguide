@@ -138,6 +138,10 @@ Application specific code
   margin-left: -0.2rem;
 }
 
+.header__heading--centered {
+  text-align: center;
+}
+
 .header__subheading + * {
   margin-top: $spacer-xl;
 }

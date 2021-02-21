@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/personal-features-illustration.png" alt="">
-        <h1 class="header__heading">Wir setzen Maßstäbe in der Softwarearchitektur. Daran können Sie uns messen.</h1>
+        <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran können Sie uns messen.</h1>
     </div>
 </header>
 

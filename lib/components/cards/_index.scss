@@ -19,7 +19,6 @@
 }
 
 .card {
-  background-color: $brand-green-light;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -28,18 +27,28 @@
 .card__body {
   display: flex;
   flex-direction: column;
-  // align-items: space-between;
+  background-color: $brand-blue-light;
   justify-content: space-between;
   padding: $spacer-md;
+  height: 100%;
   min-height: 15rem;
+}
+
+.card__body--isaqb {
+  background-color: $brand-green-light;
 }
 
 .card__footer {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding: $spacer-md;
-  background-color: $brand-green;
+  background-color: $brand-blue;
   // height: 4rem;
+}
+
+.card__footer--isaqb {
+  background-color: $brand-green;
 }
 
 .card__title {

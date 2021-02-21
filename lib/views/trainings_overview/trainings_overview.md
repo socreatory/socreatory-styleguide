@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/lernenvondenbesten2.jpg" alt="">
-        <h1 class="header__heading">Alle Schulungen im Überblick</h1>
+        <h1 class="header__heading header__heading--centered">Alle Schulungen im Überblick</h1>
     </div>
 </header>
 
@@ -40,7 +40,7 @@ example view
             <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2>
             <section class="cards">
                 <div class="card">
-                    <div class="card__body">
+                    <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title">Cloud Native Infrastruktur</h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
@@ -53,16 +53,16 @@ example view
                             </div>
                         </div>
                     </div>
-                    <div class="card__footer">
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__body">
+                    <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Domain-driven Design</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -72,16 +72,16 @@ example view
                             </div>
                         </div>
                     </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul DDD</p>
+                    <div class="card__footer card__footer--isaqb">
                         <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card__body">
+                    <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Flexible Architekturen</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -91,8 +91,21 @@ example view
                             </div>
                         </div>
                     </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <div class="card__body__top">
+                            <h3 class="card__title">Card Title</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                        </div>
+                    </div>
                     <div class="card__footer">
-                        <p class="card__label">iSAQB Modul FLEX</p>
                         <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
@@ -106,7 +119,6 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__label">iSAQB Modul Flex</p>
                         <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>
@@ -120,21 +132,6 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__label">iSAQB Modul Flex</p>
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul Flex</p>
                         <p class="card__price">ab 1.750 €</p>
                     </div>
                 </div>

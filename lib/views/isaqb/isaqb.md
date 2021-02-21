@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/remote/hero-illustration.png" alt="">
-        <h1 class="header__heading">Wie funktioniert die Ausbildung nach iSAQB?</h1>
+        <h1 class="header__heading header__heading--centered">Wie funktioniert die Ausbildung nach iSAQB?</h1>
     </div>
 </header>
 
