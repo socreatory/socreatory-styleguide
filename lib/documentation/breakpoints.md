@@ -19,6 +19,13 @@ Adapted from: [freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-8
 
 There are three Mixins provided. We follow the mobile first principle and start with the styling for smaller screens / sttyling that fits all screen sizes and add breakpoints for bigger screens whren needed. Please use breakpoints as little es possible.
 
+### Phone and greater
+
+    @include breakpoints.for-breakpoint-phone-up {
+      // Add selectors here
+
+}
+
 ### Tablet portrait and greater
 
     @include breakpoints.for-tablet-portrait-up {

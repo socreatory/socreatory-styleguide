@@ -64,7 +64,7 @@ example view
                 <div class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <h3 class="card__title">Flexible Architekturen</h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -77,7 +77,7 @@ example view
                     </div>
                     <div class="card__footer card__footer--isaqb">
                         <p class="card__price">ab 1.750 €</p>
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                        <p class="card__label">iSAQB Modul FLEX</p>
                     </div>
                 </div>
                 <div class="card">
@@ -102,7 +102,7 @@ example view
                 <div class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <h3 class="card__title">Web-Architekturen</h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -115,7 +115,7 @@ example view
                     </div>
                     <div class="card__footer card__footer--isaqb">
                         <p class="card__price">ab 1.750 €</p>
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                        <p class="card__label">iSAQB Modul WEB</p>
                     </div>
                 </div>
                 <div class="card">
