@@ -66,10 +66,11 @@ Application specific code
 // Hero
 .hero {
   background-color: $brand-green-light;
-  padding: $spacer-xxl + 4rem 0 $spacer-lg 0;
+  padding: $spacer-xxl 0 $spacer-lg 0;
   margin-bottom: $spacer-xl;
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xxl;
+    padding: $spacer-xxl + 4rem 0 $spacer-lg 0;
   }
 }
 
