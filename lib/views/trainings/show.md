@@ -102,7 +102,8 @@ example view
                             <img class="img-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/>
                         </div>
                         <div class="img-text__content">
-                            <p><strong>Kim Nena Duggen</strong> ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                            <h3 class="img-text__heading">Kim Nena Duggen</h3>
+                            <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                         </div>
                     </div>
                 </section>
@@ -147,29 +148,8 @@ example view
     <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
         <section class="cards">
-            <div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
-                </div>
-            </div>
             <div class="card">
-                <div class="card__body">
+                <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title">Cloud Native Infrastruktur</h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
@@ -177,33 +157,52 @@ example view
                     <div class="card__body__bottom">
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                             <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                         </div>
                     </div>
                 </div>
-                <div class="card__footer">
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                <div class="card__footer card__footer--isaqb">
                     <p class="card__price">ab 1.750 €</p>
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
             </div>
             <div class="card">
-                <div class="card__body">
+                <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">0</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                             <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                         </div>
                     </div>
                 </div>
-                <div class="card__footer">
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                <div class="card__footer card__footer--isaqb">
                     <p class="card__price">ab 1.750 €</p>
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__body card__body--isaqb">
+                    <div class="card__body__top">
+                        <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
+                    </div>
+                    <div class="card__body__bottom">
+                        <div class="pills">
+                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer card__footer--isaqb">
+                    <p class="card__price">ab 1.750 €</p>
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
             </div>
         </section>

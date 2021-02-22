@@ -236,12 +236,11 @@ Application specific code
     "main"
     "sidebar";
   @include for-tablet-landscape-up {
-      gap: 6.25rem;
-      grid-template-columns: 2fr 1fr;
-      grid-template-areas: "main sidebar";
+    gap: 6.25rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "main sidebar";
   }
 }
-
 
 .layout-main-with-sidebar__main {
   grid-area: main;
@@ -367,6 +366,7 @@ Application specific code
 }
 
 .img-text__heading {
+  font-size: $font-size-lg;
   margin-bottom: $spacer-sm;
 }
 
