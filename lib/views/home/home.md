@@ -13,7 +13,7 @@ example view
                 <li><a href="#" class="navbar__item">Schulungen</a></li>
                 <li><a href="#" class="navbar__item">Über uns</a></li>
                 <li><a href="#" class="navbar__item">Preise</a></li>
-                <li><a href="#" class="navbar__item">Info</a></li>
+                <li><a href="#" class="navbar__item">iSAQB</a></li>
             </ul>
             <label class="navbar__burger" for="navbar__checkbox"></label>
     </nav>

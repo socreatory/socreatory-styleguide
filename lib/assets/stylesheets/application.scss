@@ -600,3 +600,13 @@ Application specific code
     }
   }
 }
+
+
+// Trainings Overview
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}

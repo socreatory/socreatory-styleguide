@@ -38,6 +38,12 @@ example view
     <div class="container__fullwidth">
         <section class="section section--home">
             <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2>
+            <div class="filters">
+                <input type="radio" id="all" name="trainings">
+                <label for="all">Alle Schulungen</label>
+                <input type="radio" id="isaqb" name="trainings">
+                <label for="all">ISAQB Schulungen</label>
+            </div>
             <section class="cards">
                 <div class="card">
                     <div class="card__body card__body--isaqb">
