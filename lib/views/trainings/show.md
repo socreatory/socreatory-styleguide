@@ -45,7 +45,7 @@ example view
                 <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
-                    <h3 class="heading">Evolution und Verbesserung von Softwarearchitekturen – systematisch und nachhaltig</h3>
+                    <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
                     <div class="article markdown">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
                         <img src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>

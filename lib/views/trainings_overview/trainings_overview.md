@@ -45,7 +45,7 @@ example view
                 <label for="all">ISAQB Schulungen</label>
             </div>
             <section class="cards">
-                <div class="card">
+                <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title">Cloud Native Infrastruktur</h3>
