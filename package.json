@@ -1,6 +1,7 @@
 {
   "name": "sca-styleguide",
   "private": true,
+  "version": "0.1.0",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --liveserve 0.0.0.0:4001",
