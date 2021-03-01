@@ -233,8 +233,8 @@ Application specific code
   gap: 0;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "main"
-  "sidebar";
+    "main"
+    "sidebar";
   @include for-tablet-landscape-up {
     gap: 6.25rem;
     grid-template-columns: 2fr 1fr;
