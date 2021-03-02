@@ -39,16 +39,16 @@ example view
         <section class="section section--home">
             <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2>
             <div class="filters">
-                <input type="radio" id="all" name="trainings">
-                <label for="all">Alle Schulungen</label>
-                <input type="radio" id="isaqb" name="trainings">
-                <label for="all">ISAQB Schulungen</label>
+                <ul class="filters__list">
+                    <li class="filters__item filters__item--active"><a href="#">Alle Schulungen</a></li>
+                    <li class="filters__item"><a href="#">iSAQB Schulungen</a></li>
+                </ul>
             </div>
             <section class="cards">
                 <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <h3 class="card__title">Architecture Documentation</h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -61,7 +61,64 @@ example view
                     </div>
                     <div class="card__footer card__footer--isaqb">
                         <p class="card__price">ab 1.750 €</p>
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                        <p class="card__label">iSAQB Modul ARC</p>
+                    </div>
+                </div>
+                <div class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title">Agile Software Architecture</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul AGILA</p>
+                    </div>
+                </div>
+                <div class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title">Architecture Evaluation</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul ARCEVAL</p>
+                    </div>
+                </div>
+                <div class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title">Domain Driven Design</h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul DDD</p>
                     </div>
                 </div>
                 <div class="card">
