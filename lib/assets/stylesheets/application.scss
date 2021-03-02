@@ -130,8 +130,12 @@ Application specific code
   background-color: $brand-background;
 }
 
-.header-color--highlighted {
+.header-color--highlighted-1 {
   background-color: $brand-green-light;
+}
+
+.header-color--highlighted-2 {
+  background-color: $brand-blue-light;
 }
 
 .header__heading {

@@ -1,4 +1,4 @@
- title: Training Detail View
+ title: iSAQB Training Detail View
 description: Show Training Detail View
 
 example view
@@ -19,17 +19,22 @@ example view
     </nav>
 </scroll-nav>
 
-<header class="header header-color--highlighted-2">
+<header class="header header-color--highlighted-1">
     <div class="container__fullwidth">
             <div class="breadcrumb">
                 <ul class="breadcrumb__list">
                     <li class="breadcrumb__item"><a href="#">Home</a></li>
                     <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
-                    <li class="breadcrumb__item">JavaScript</li>
+                    <li class="breadcrumb__item">Agile Softwarearchitektur</li>
                 </ul>
             </div>
-            <h1 class="header__heading">JavaScript verstehen und anwenden</h1>
-            <p class="header__subheading">Accusantium doloremque Saepe quidem</p>
+            <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
+            <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
+            <div class="pills">
+                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+            </div>
     </div>
 </header>
 
@@ -40,10 +45,10 @@ example view
                 <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
-                    <h3 class="heading">Lorem ipsum dolor sit, amet consectetur adipisicing elitusto enim quia</h3>
+                    <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
                     <div class="article markdown">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
-                        <img src="https://www.innoq.com/de/trainings/isaqb/header.jpg"/>
+                        <img src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
                         <ul class="unordered-list">
                             <li class="unordered-list__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
@@ -116,7 +121,7 @@ example view
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher</h2>
                     <div class="img-text">
                         <div class="img-text__figure">
-                            <img class="img-text__image" src="https://images-na.ssl-images-amazon.com/images/I/41C55Z7cezL.jpg"/>
+                            <img class="img-text__image" src="https://www.innoq.com/de/staff/gernot-starke/Requirements-Skills-V1.png"/>
                         </div>
                         <div class="img-text__content">
                             <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>

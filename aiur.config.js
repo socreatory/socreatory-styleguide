@@ -21,6 +21,7 @@ module.exports = {
         home: "./lib/views/home/home.md",
         training_overview: "./lib/views/trainings_overview/trainings_overview.md",
         training_detail: "./lib/views/trainings/show.md",
+        training_detail_isaqb: "./lib/views/trainings/show_isaqb.md",
         about_us: "./lib/views/about/about.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
       },
