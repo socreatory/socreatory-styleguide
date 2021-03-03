@@ -152,7 +152,7 @@ example view
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
                         <div class="pills">
@@ -166,6 +166,7 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
+                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="card">
                 <div class="card__body card__body--isaqb">
@@ -185,12 +186,13 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
+                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
                         <div class="pills">
@@ -204,6 +206,7 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
+                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </section>
     </div>

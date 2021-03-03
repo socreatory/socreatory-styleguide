@@ -199,7 +199,14 @@ example view
                     </div>
                 </div>
             </section>
-            <a href="#" class="btn btn-type--primary btn-size--fit">Alle Schulungen</a>
+        </section>
+
+        <section class="section section--home">
+            <div class="quote quote--center">
+                <blockquote class="quote__blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.</blockquote>
+                <div class="quote__name">Alexander Trapp</div>
+                <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
+            </div>
         </section>
 
     </div>

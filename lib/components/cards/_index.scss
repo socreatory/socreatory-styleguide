@@ -71,3 +71,8 @@
   @extend %body-font-bold;
   margin: 0;
 }
+
+.card__appendix {
+  margin-top: $spacer-sm;
+  font-size: $font-size-md;
+}

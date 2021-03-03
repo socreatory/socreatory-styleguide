@@ -615,7 +615,6 @@ label {
   cursor: pointer;
 }
 
-
 // Filters
 .filters {
   margin: $spacer-lg 0;
@@ -627,31 +626,34 @@ label {
 }
 
 .filters__item {
-  @extend %monospace-font-regular;
   display: inline;
-  margin-right: 2rem;
+  margin-right: $spacer-base;
 }
 
-.filters__item--active {
-  text-decoration: underline;
-  text-underline-offset: 0.45rem;
-  text-decoration-thickness: 0.2rem;
+.filters__item:last-child {
+  margin-right: 0;
 }
 
 .filters__item a {
-  display: inline;
+  @extend %monospace-font-regular;
   font-size: $font-size-md;
   color: $brand-text;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
 }
 
-/* Add a color on mouse-over */
 .filters__item a:hover {
   color: $brand-text;
   text-decoration: underline;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+}
+
+.filters__item--active {
+  text-decoration: underline;
+  border: 1px solid red;
+  padding: 1rem;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
 }

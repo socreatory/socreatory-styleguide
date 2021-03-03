@@ -65,7 +65,7 @@ example view
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title">Flexible Architekturen</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                            <p class="card__text">Microservices, Self-contained Systems und Continuous Delivery.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -84,7 +84,7 @@ example view
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
+                            <p class="card__text">Infrastruktur, Container und Cloud Native.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -103,7 +103,7 @@ example view
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title">Web-Architekturen</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
+                            <p class="card__text">Für leistungsfähige und sichere webbasierte Softwaresysteme.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
