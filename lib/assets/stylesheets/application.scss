@@ -168,29 +168,6 @@ Application specific code
   // }
 }
 
-// New Navbar
-.menu {
-  // leer
-}
-.menu__wrap {
-  display: flex;
-  background-color: $brand-blue;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-}
-.menu__logo {
-  height: 2.5rem;
-}
-.menu__icon {
-  font-size: 2em;
-  color: $brand-text;
-  line-height: 0;
-  @include for-tablet-portrait-up {
-    display: none;
-  }
-}
-
 // Breadcrumb
 /* Style the list */
 .breadcrumb {

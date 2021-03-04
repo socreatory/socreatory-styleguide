@@ -7,7 +7,7 @@ example view
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <nav class="navbar">
-            <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
+            <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
             <input type="checkbox" id="navbar__checkbox">
             <ul class="navbar__items">
                 <li><a href="#" class="navbar__item">Schulungen</a></li>
