@@ -48,7 +48,7 @@ example view
                 <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Architecture Documentation</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -67,7 +67,7 @@ example view
                 <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Agile Software Architecture</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -86,7 +86,7 @@ example view
                 <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Architecture Evaluation</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaulation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -105,7 +105,7 @@ example view
                 <div class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Domain Driven Design</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Domain Driven Design</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -124,7 +124,7 @@ example view
                 <div class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -143,7 +143,7 @@ example view
                 <div class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -162,7 +162,7 @@ example view
                 <div class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -175,7 +175,7 @@ example view
                 <div class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -188,7 +188,7 @@ example view
                 <div class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">

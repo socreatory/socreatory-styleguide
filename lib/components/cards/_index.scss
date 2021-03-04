@@ -3,25 +3,34 @@
   gap: $spacer-lg;
   grid-template-columns: 1fr;
   margin-bottom: $spacer-lg;
-}
-
-@include for-tablet-landscape-up {
-  .cards {
+  @include for-tablet-landscape-up {
     gap: 3.25rem;
     grid-template-columns: 1fr 1fr;
   }
-}
-
-@include for-desktop-xl-up {
-  .cards {
+  @include for-desktop-xl-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card__link {
+  text-decoration: none;
+  color: $brand-text;
+}
+
+.card__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .card__body {

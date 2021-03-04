@@ -617,7 +617,7 @@ label {
   color: $brand-text;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.1rem;
 }
 
 .filters__item a:hover {
@@ -629,8 +629,6 @@ label {
 
 .filters__item--active {
   text-decoration: underline;
-  border: 1px solid red;
-  padding: 1rem;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
 }

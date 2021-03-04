@@ -151,7 +151,7 @@ example view
             <div class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
-                        <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
@@ -171,7 +171,7 @@ example view
             <div class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
-                        <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
@@ -191,7 +191,7 @@ example view
             <div class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
-                        <h3 class="card__title">Cloud Native Infrastruktur</h3>
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
