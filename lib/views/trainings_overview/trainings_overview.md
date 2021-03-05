@@ -44,8 +44,8 @@ example view
                     <li class="filters__item"><a href="#">iSAQB Schulungen</a></li>
                 </ul>
             </div>
-            <section class="cards">
-                <div class="card card--isaqb">
+            <ul class="cards">
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
@@ -63,8 +63,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul ARC</p>
                     </div>
-                </div>
-                <div class="card card--isaqb">
+                </li>
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
@@ -82,8 +82,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul AGILA</p>
                     </div>
-                </div>
-                <div class="card card--isaqb">
+                </li>
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Architecture Evaulation</a></h3>
@@ -101,8 +101,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul ARCEVAL</p>
                     </div>
-                </div>
-                <div class="card card--isaqb">
+                </li>
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Domain Driven Design</a></h3>
@@ -120,8 +120,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul DDD</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
@@ -139,8 +139,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
@@ -158,8 +158,8 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
@@ -171,8 +171,8 @@ example view
                     <div class="card__footer">
                         <p class="card__price">ab 1.750 €</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
@@ -184,8 +184,8 @@ example view
                     <div class="card__footer">
                         <p class="card__price">ab 1.750 €</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
@@ -197,8 +197,8 @@ example view
                     <div class="card__footer">
                         <p class="card__price">ab 1.750 €</p>
                     </div>
-                </div>
-            </section>
+                </li>
+            </ul>
         </section>
 
         <section class="section section--home">

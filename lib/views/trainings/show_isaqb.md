@@ -147,8 +147,8 @@ example view
 <aside>
     <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-        <section class="cards">
-            <div class="card">
+        <ul class="cards">
+            <li class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
@@ -167,8 +167,8 @@ example view
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
                 <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="card">
+            </li>
+            <li class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
@@ -187,8 +187,8 @@ example view
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
                 <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="card">
+            </li>
+            <li class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
@@ -207,8 +207,8 @@ example view
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
                 <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </section>
+            </li>
+        </ul>
     </div>
 </aside>
 
