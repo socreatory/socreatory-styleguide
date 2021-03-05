@@ -60,12 +60,12 @@ example view
 
         <section class="section section--home">
             <h2 class="section__title--normal">Beliebte Schulungen</h2>
-            <section class="cards">
-                <div class="card">
+            <ul class="cards">
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Flexible Architekturen</h3>
-                            <p class="card__text">Microservices, Self-contained Systems und Continuous Delivery.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -77,14 +77,52 @@ example view
                     </div>
                     <div class="card__footer card__footer--isaqb">
                         <p class="card__price">ab 1.750 €</p>
-                        <p class="card__label">iSAQB Modul FLEX</p>
+                        <p class="card__label">iSAQB Modul ARC</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title">Cloud Native Infrastruktur</h3>
-                            <p class="card__text">Infrastruktur, Container und Cloud Native.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul AGILA</p>
+                    </div>
+                </li>
+                <li class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaulation</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__label">iSAQB Modul ARCEVAL</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                         </div>
                         <div class="card__body__bottom">
                             <div class="pills">
@@ -98,30 +136,11 @@ example view
                         <p class="card__price">ab 1.750 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card__body card__body--isaqb">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Web-Architekturen</h3>
-                            <p class="card__text">Für leistungsfähige und sichere webbasierte Softwaresysteme.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
-                        <p class="card__label">iSAQB Modul WEB</p>
-                    </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -130,11 +149,11 @@ example view
                     <div class="card__footer">
                         <p class="card__price">ab 1.750 €</p>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor.</p>
                         </div>
                         <div class="card__body__bottom">
@@ -143,21 +162,8 @@ example view
                     <div class="card__footer">
                         <p class="card__price">ab 1.750 €</p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title">Card Title</h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="card__body__bottom">
-                        </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__price">ab 1.750 €</p>
-                    </div>
-                </div>
-            </section>
+                </li>
+            </ul>
             <a href="#" class="btn btn-type--primary btn-size--fit">Alle Schulungen</a>
         </section>
 
