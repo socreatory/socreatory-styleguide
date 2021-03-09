@@ -48,7 +48,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/product/hero.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen-large.jpg" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Internationale Standards, individuelles Wissen.</h2>
@@ -196,7 +196,7 @@ example view
         <section class="section section--home">
             <div class="teaser teaser--reverse">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/enterprise/enterprise-features.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/ausbildingsweg-large.jpg" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
