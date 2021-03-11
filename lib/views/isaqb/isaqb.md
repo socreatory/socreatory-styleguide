@@ -7,16 +7,16 @@ example view
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <nav class="navbar">
-            <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
-            <input type="checkbox" id="navbar__checkbox">
-            <ul class="navbar__items">
-                <li><a href="#" class="navbar__item">Schulungen</a></li>
-                <li><a href="#" class="navbar__item">Über uns</a></li>
-                <li><a href="#" class="navbar__item">Preise</a></li>
-                <li><a href="#" class="navbar__item">Info</a></li>
-            </ul>
-            <label class="navbar__burger" for="navbar__checkbox"></label>
-    </nav>
+        <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+        <input type="checkbox" id="navbar__checkbox">
+        <ul class="navbar__items">
+            <li><a href="#" class="navbar__item">Schulungen</a></li>
+            <li><a href="#" class="navbar__item">Trainer:innen</a></li>
+            <li><a href="#" class="navbar__item">Preise</a></li>
+            <li><a href="#" class="navbar__item">iSAQB</a></li>
+        </ul>
+        <label class="navbar__burger" for="navbar__checkbox"></label>
+</nav>
 </scroll-nav>
 
 <header class="header header-color--normal">
@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/remote/hero-illustration.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/ausbildingsweg-large.jpg" alt="">
         <h1 class="header__heading header__heading--centered">Wie funktioniert die Ausbildung nach iSAQB?</h1>
     </div>
 </header>
@@ -64,7 +64,7 @@ example view
             <div class="section__1col markdown">
                 <p>Die zugehörigen Lehrpläne und Prüfungsfragen für das CPSA-Programm werden in Deutschland vom International Software Architecture Qualification Board (iSAQB) entwickelt und herausgegeben. Prüfungen werden von durch das iSAQB beauftragten Zertifizierungsstellen angeboten und durchgeführt.</p>
                 <p>Die Weiterbildung zum Certified Professional for Software Architecture ist international erfolgreich. Weltweit gibt es mittlerweile mehr als 19.000 Softwarearchitekten, die über eine CPSA-Zertifizierung verfügen.</p>
-                <p>Die Prüfungsteilnehmer sind Softwarefachleute aus allen Branchen (Automobilindustrie, Finanzdienstleistung, Medizintechnik, Telekommunikation, öffentliche Verwaltung u. a.).
+                <p>Die Prüfungsteilnehmer sind Softwarefachleute aus allen Branchen (Automobilindustrie, Finanzdienstleistung, Medizintechnik, Telekommunikation, öffentliche Verwaltung u. a.).</p>
                 <p>Auch an Hochschulen werden Lehrveranstaltungen auf Basis der CPSA-Lehrpläne angeboten. Die Studenten können anschließend an die Vorlesung die Prüfung zum Certified Professional for Software Architecture, Foundation Level, ablegen.
                 </p>
             </div>

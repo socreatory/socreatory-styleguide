@@ -13,6 +13,13 @@
   }
 }
 
+.cards--centered {
+  @include for-tablet-landscape-up {
+    gap: 3.25rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .card {
   position: relative;
   display: flex;

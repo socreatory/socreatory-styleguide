@@ -7,16 +7,16 @@ example view
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <nav class="navbar">
-            <img class ="navbar__logo" src="/snippet/images/logos/sca_logo.svg" alt="Software Creators Academy Logo">
-            <input type="checkbox" id="navbar__checkbox">
-            <ul class="navbar__items">
-                <li><a href="#" class="navbar__item">Schulungen</a></li>
-                <li><a href="#" class="navbar__item">Über uns</a></li>
-                <li><a href="#" class="navbar__item">Preise</a></li>
-                <li><a href="#" class="navbar__item">Info</a></li>
-            </ul>
-            <label class="navbar__burger" for="navbar__checkbox"></label>
-    </nav>
+        <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+        <input type="checkbox" id="navbar__checkbox">
+        <ul class="navbar__items">
+            <li><a href="#" class="navbar__item">Schulungen</a></li>
+            <li><a href="#" class="navbar__item">Trainer:innen</a></li>
+            <li><a href="#" class="navbar__item">Preise</a></li>
+            <li><a href="#" class="navbar__item">iSAQB</a></li>
+        </ul>
+        <label class="navbar__burger" for="navbar__checkbox"></label>
+</nav>
 </scroll-nav>
 
 <header class="header header-color--normal">

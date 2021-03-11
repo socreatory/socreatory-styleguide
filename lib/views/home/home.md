@@ -11,7 +11,7 @@ example view
             <input type="checkbox" id="navbar__checkbox">
             <ul class="navbar__items">
                 <li><a href="#" class="navbar__item">Schulungen</a></li>
-                <li><a href="#" class="navbar__item">Über uns</a></li>
+                <li><a href="#" class="navbar__item">Trainer:innen</a></li>
                 <li><a href="#" class="navbar__item">Preise</a></li>
                 <li><a href="#" class="navbar__item">iSAQB</a></li>
             </ul>

@@ -348,7 +348,7 @@ Application specific code
 }
 
 .img-text__heading {
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
   margin-bottom: $spacer-sm;
 }
 
@@ -631,4 +631,24 @@ label {
   text-decoration: underline;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
+}
+
+// Spacers
+.spacer__md {
+  margin-bottom: $spacer-md;
+}
+.spacer__base {
+  margin-bottom: $spacer-base;
+}
+.spacer__lg {
+  margin-bottom: $spacer-lg;
+}
+.spacer__xl {
+  margin-bottom: $spacer-xl;
+}
+
+// Achtung-Box
+.achtung-box {
+  padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
+  border: solid 0.125rem $brand-blue;
 }
