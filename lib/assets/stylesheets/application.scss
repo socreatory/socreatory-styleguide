@@ -93,13 +93,13 @@ Application specific code
 }
 
 .hero__heading {
-  font-size: $font-size-xxl;
+  font-size: $font-size-xxxl;
   line-height: 1;
   margin-left: -0.24rem;
   margin-bottom: $spacer-md;
-  @include for-tablet-portrait-up {
-    font-size: 3.7rem;
-  }
+  // @include for-tablet-portrait-up {
+  //   font-size: 3.7rem;
+  // }
 }
 
 .hero__logos {
@@ -249,7 +249,7 @@ Application specific code
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
   font-size: $font-size-xs;
-  line-height: $font-size-base;
+  line-height: $font-size-lg;
   margin-bottom: $spacer-md;
 }
 
@@ -437,7 +437,8 @@ Application specific code
   --percent: calc(var(--rating) / 5 * 97.5%);
 
   display: inline-block;
-  font-size: $font-size-base;
+  // font-size: $font-size-base;
+  font-size: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
 
@@ -645,6 +646,9 @@ label {
 }
 .spacer__xl {
   margin-bottom: $spacer-xl;
+}
+.spacer__xxl {
+  margin-bottom: $spacer-xxl;
 }
 
 // Achtung-Box

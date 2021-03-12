@@ -1,4 +1,4 @@
- title: iSAQB Training Detail View
+ title: Training iSAQB Detail View
 description: Show Training Detail View
 
 example view

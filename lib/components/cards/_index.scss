@@ -27,9 +27,19 @@
   justify-content: space-between;
 }
 
+// .card:hover {
+//   opacity: .8;
+// }
+
 .card__link {
   text-decoration: none;
   color: $brand-text;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
 }
 
 .card__link::after {

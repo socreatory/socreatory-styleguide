@@ -102,7 +102,7 @@ example view
                 <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaulation</a></h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaluation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
                         </div>
                         <div class="card__body__bottom">

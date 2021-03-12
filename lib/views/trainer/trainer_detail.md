@@ -36,24 +36,22 @@ example view
         <section class="section">
             <div class="img-text">
                 <div class="img-text__figure">
-                    <img class="img-text__image" src="https://uploads.innoq.com/ak0mxu8e1vn0twgsi13wrd3xnvpc?response-content-disposition=inline%3B%20filename%3D%22michael-ploed-bw-1-web.jpg%22%3B%20filename%2A%3DUTF-8%27%27michael-ploed-bw-1-web.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T145648Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2319e0ce2ed2fec048bd3975438681ddbc3fcd84dc3f363be58cc162ba1c1c3a"/>
+                    <img class="img-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/>
                 </div>
                 <div class="img-text__content">
-                    <h1 class="img-text__heading">Michael Plöd</h1>
+                    <h3 class="img-text__heading">Kim Nena Duggen</h3>
                     <p class="profile__company">embarc</p>
                     <p class="profile__role">Rolle</p>
                     <div class="spacer__md"></div>
                     <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed earum ducimus rem vel natus voluptatem, dolorem nisi recusandae maxime iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta blanditiis itaque nulla voluptate nobis laborum maiores maxime dolores sunt voluptates neque est sint, error amet, sed tenetur quisquam animi aliquam ducimus vitae distinctio perferendis saepe. Minus iste deserunt obcaecati blanditiis.
-                    </p>
                 </div>
             </div>
         </section>
     </div>
 </main>
 
-<aside>
-    <div class="container__centered">
+<aside class="container__centered">
+    <section>
         <h2 class="section__title--small"><span aria-hidden>-- </span>Schulungen von Michael Plöd</h2>
         <ul class="cards cards--centered">
             <li class="card">
@@ -95,7 +93,20 @@ example view
                 </div>
             </li>
         </ul>
-    </div>
+    </section>
+    <div class="spacer__xxl"></div>
+    <section class="section">
+        <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
+        <div class="img-text">
+            <div class="img-text__figure">
+                <img class="img-text__image" src="https://www.innoq.com/de/staff/gernot-starke/Requirements-Skills-V1.png"/>
+            </div>
+            <div class="img-text__content">
+                <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
+                <p>Grundlage für das Seminar ist das Buch „Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean“ (Hanser Verlag, 2019) Ihres Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
+            </div>
+        </div>
+    </section>
 </aside>
 
 <footer class="footer">
