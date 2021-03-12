@@ -47,9 +47,9 @@ example view
         <section class="section">
             <h2 class="section__title--normal">Was Sie bezahlen</h2>
             <div>
-                <p>Bei öffentlichen Schulungen berechnen wir pro Teilnehmer:in einheitlich € 700,- pro Tag. Eine dreitägige Schulung kostet also € 2.100,-. Das gilt für alle Schulungen und Trainer:innen.</p>
+                <p>Bei öffentlichen Schulungen berechnen wir pro Teilnehmer:in einheitlich € 700,- pro Tag. Eine dreitägige Schulung kostet also € 2.100,—. Das gilt für alle Schulungen und Trainer:innen.</p>
                 <div class="achtung-box">
-                    <p><strong>Bitte beachten Sie:</strong> Das Foundation-Seminar schließt mit einer Prüfung ab, die wir mit einem unabhängigen Prüfungsinstitut durchführen. Die Organisation und Prüfungsanmeldung übernehmen wir für unsere Teilnehmer:innen. Die Kosten für die Prüfung betragen € 250,- Euro pro Teilnehmer (iSQI Institut / Stand: 2021) und werden ohne Aufschlag an die Prüfungsteilnehmer berechnet.</p>
+                    <p><strong>Bitte beachten Sie:</strong> Das Foundation-Seminar schließt mit einer Prüfung ab, die wir mit einem unabhängigen Prüfungsinstitut durchführen. Die Organisation und Prüfungsanmeldung übernehmen wir für unsere Teilnehmer:innen. Die Kosten für die Prüfung betragen € 250,— Euro pro Teilnehmer (iSQI Institut / Stand: 2021) und werden ohne Aufschlag an die Prüfungsteilnehmer berechnet.</p>
                 </div>
             </div>
         </section>

@@ -23,7 +23,7 @@ module.exports = {
         training_detail: "./lib/views/trainings/show.md",
         training_detail_isaqb: "./lib/views/trainings/show_isaqb.md",
         about_us: "./lib/views/about/about.md",
-        trainer: "./lib/views/about/trainer.md",
+        trainer_overview: "./lib/views/about/trainer_overview.md",
         trainer_detail: "./lib/views/about/trainer_detail.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
         prices: "./lib/views/prices/prices.md",

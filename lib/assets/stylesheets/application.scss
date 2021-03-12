@@ -652,3 +652,31 @@ label {
   padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
   border: solid 0.125rem $brand-blue;
 }
+
+// Trainer Overview
+.profile {
+  position: relative;
+  list-style: none;
+}
+
+.profile__link {
+  text-decoration: none;
+  color: $brand-text;
+}
+
+.profile__link:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
+}
+
+.profile__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
