@@ -28,7 +28,7 @@ example view
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
                 <h1 class="hero__heading">Lernen von den Besten.</h1>
-                <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
+                <p>Unsere Mission: ein Ausbildungsangebot für Softwarearchitektur, an dem wir selbst gerne teilgenommen hätten. Mit Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung weitergeben können. Mit Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen.</p>
                 <p>Willkommen bei SOCREATORY, der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">
                     <img class="hero__logo" src="/snippet/images/logos/embarc_logo_alt.svg">
@@ -36,7 +36,6 @@ example view
                 </div>
                 <div class="hero__aside">
                     <p class="text__small">Wir sind zertifizierter Partner des iSAQB®</p>
-                    <!-- <img class="hero__logo hero__logo--small" src="/snippet/images/logos/ISAQB_logo.svg"> -->
                 </div>
             </div>
         </div>
@@ -45,7 +44,7 @@ example view
 
 <main>
     <div class="container__fullwidth">
-        <section class="section section--home">
+        <!-- <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
                     <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
@@ -54,6 +53,19 @@ example view
                     <h2 class="section__title--normal">Internationale Standards, individuelles Wissen.</h2>
                     <p>Bei der Software-Entwicklung hört die Lernkurve niemals auf. Mit unserem Modulbaukasten nach dem Lehrplan und den hohen Qualitätsstandards des iSAQB® können Sie sich für jede Aus-und Weiterbildungsstufe das richtige Trainingsprogramm zusammenstellen – vom Einsteiger bis hin zum CPSA® Advanced Level. So können Sie individuelle Schwerpunkte für sich und Ihr Team setzen und bleiben technologisch immer auf dem neuesten Stand.</p>
                     <img class="hero__logo" src="/snippet/images/logos/isaqb_logo.svg">
+                </div>
+            </div>
+        </section> -->
+
+        <section class="section section--home">
+            <div class="teaser">
+                <div class="teaser__column">
+                    <img class="teaser__image" src="/snippet/images/illustrations/ausbildungs-weg.png" alt="">
+                </div>
+                <div class="teaser__column">
+                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
+                    <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stellen Sie jetzt Ihr individuelles Trainingsprogramm für sich und Ihr Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
+                    <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
                 </div>
             </div>
         </section>
@@ -173,12 +185,12 @@ example view
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/product.png">
                     <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
-                    <p class="textcolumn__text">Die Software Creators Academy bietet unter einem Dach das umfangreichste iSAQB-Schulungsangebot im deutschsprachigen Raum.</p>
+                    <p class="textcolumn__text">Wir bieten Ihnen das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
                 </div>
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/engineering.png">
                     <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
-                    <p class="textcolumn__text">Unsere erfahrenen Trainer und Trainerinnen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
+                    <p class="textcolumn__text">Unsere erfahrenen Trainer:innen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
                 </div>
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/hr.png">
@@ -188,7 +200,7 @@ example view
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/sales.png">
                     <h3 class="textcolumn__heading">Faires Preismodell.</h3>
-                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus Ihrem Unternehmen zahlen Sie nur noch die Hälfte. Außerdem profitieren Sie von Early Bird-Preisen und großer Planungssicherheit.</p>
+                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus Ihrem Unternehmen zahlen Sie nur die Hälfte. Zudem profitieren Sie von Early Bird-Preisen und großer Planungssicherheit.</p>
                 </div>
             </div>
         </section>
@@ -196,12 +208,25 @@ example view
         <section class="section section--home">
             <div class="teaser teaser--reverse">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/ausbildungs-weg.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
-                    <p class="teaser__text">Wählen Sie aus dem umfangreichsten Programm aus Schulungsmodulen, die sich klug ergänzen bzw. aufeinander aufbauen – zu allen Architekturthemen und für jedes Zertifizierungslevel.</p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr Infos</a>
+                    <h2 class="section__title--normal">Live oder Remote – gleichwertig, aber nicht gleich.</h2>
+                    <p class="teaser__text">Kann eine Online-Schulung so gut sein wie ein Vor-Ort-Seminar? Wir finden ja! Denn für jedes Format setzen wir die jeweils besten Werkzeuge ein, achten auf einen hohen Praxisanteil, ermöglichen Teamwork und den fachlichen Austausch. So oder so können Sie sich auf ein hoch-interaktives Schulungserlebnis freuen­.</p>
+                    <a href="#" class="btn btn-type--primary btn-size--fit">Jetzt anmelden</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--home">
+            <div class="teaser">
+                <div class="teaser__column">
+                    <img class="teaser__image" src="/snippet/images/illustrations/softwarearchitektur.png" alt="">
+                </div>
+                <div class="teaser__column">
+                    <h2 class="section__title--normal">Wer sind wir?</h2>
+                    <p class="teaser__text">Die SOCREATORY ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die Software Creators’ Academy.</p>
+                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
                 </div>
             </div>
         </section>
@@ -211,19 +236,6 @@ example view
                 <blockquote class="quote__blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.</blockquote>
                 <div class="quote__name">Alexander Trapp</div>
                 <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
-            </div>
-        </section>
-
-        <section class="section section--home">
-            <div class="teaser">
-                <div class="teaser__column">
-                    <img class="teaser__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/personal-features-illustration.png" alt="">
-                </div>
-                <div class="teaser__column">
-                    <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p class="teaser__text">Die Software Creators Academy ist ein gemeinsames Projekt von INNOQ und embarc. Wir sind nicht nur zwei der führenden Schulungsanbieter, sondern auch gefragte Technologie-Beratungsunternehmen. Tag für Tag setzen wir uns mit anspruchsvoller Software-Architektur auseinander und entwickeln für unsere Kundinnen und Kunden ebenso innovative wie alltagstaugliche Software-Lösungen.</p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
-                </div>
             </div>
         </section>
 
