@@ -497,7 +497,7 @@ Application specific code
   margin-bottom: $spacer-xxl;
 }
 
-// Profiles
+// Trainer Profiles
 .profiles {
   display: grid;
   gap: $spacer-base;
@@ -511,10 +511,6 @@ Application specific code
   @include for-desktop-up {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-}
-
-.profile {
-  // leer
 }
 
 .profile__name {
@@ -531,11 +527,12 @@ Application specific code
 
 // Footer
 .footer {
+  // leer
 }
 
 .footer__top {
   background-color: $brand-green-light;
-  padding: $spacer-base 0;
+  padding: $spacer-md 0 $spacer-sm 0;
 }
 
 .footer__bottom {
@@ -551,9 +548,9 @@ Application specific code
 }
 
 .footer__logo {
-  // margin: -$spacer-md $spacer-xs $spacer-base 0;
   padding-bottom: $spacer-base;
   margin-right: $spacer-base;
+  height: 4.25rem;
 }
 
 .footer__linkarea {
