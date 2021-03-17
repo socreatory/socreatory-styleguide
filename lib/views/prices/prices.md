@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/ausbildingsweg-large.jpg" alt="">
-        <h1 class="header__heading header__heading--centered">Unser Preismodell: Flexibel und transparent.
+        <h1 class="header__heading header__heading--centered">Unser Preismodell:<br>Flexibel und transparent.
 </h1>
     </div>
 </header>
@@ -128,6 +128,7 @@ example view
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainer:innen</a></li>
                         <li class="footer__link"><a href="#">Kurse</a></li>
+                        <li class="footer__link"><a href="#">Über uns</a></li>
                     </ul>
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Kontakt</a></li>

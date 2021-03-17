@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/personal-features-illustration.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/softwarearchitektur.png" alt="">
         <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran können Sie uns messen.</h1>
     </div>
 </header>
@@ -65,6 +65,7 @@ example view
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainer:innen</a></li>
                         <li class="footer__link"><a href="#">Kurse</a></li>
+                        <li class="footer__link"><a href="#">Über uns</a></li>
                     </ul>
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Kontakt</a></li>
