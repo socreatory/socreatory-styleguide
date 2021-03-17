@@ -32,11 +32,11 @@ $font-family-monospace: "Hack-Regular", "Monaco", "Courier New", monospace;
 $font-size-xs: 0.75rem; // Add your own value here
 $font-size-sm: 0.815rem; // Add your own value here
 $font-size-md: 1rem; // Add your own value here 0.875
-$font-size-base: clamp(1rem, 4vw, 1.25rem); // Add your own value here
-$font-size-lg: clamp(1.25rem, 2vw, 1.5rem); // Add your own value here
+$font-size-base: clamp(1rem, 2vw, 1.25rem); // Add your own value here
+$font-size-lg: clamp(1.25rem, 2.25vw, 1.5rem); // Add your own value here
 $font-size-xl: clamp(1.75rem, 5vw, 2rem); /// Add your own value here
-$font-size-xxl: clamp(2.5rem, 5vw, 2.85rem); /// Add your own value here
-$font-size-xxxl: clamp(2.85rem, 9vw, 3.7rem); /// Add your own value here
+$font-size-xxl: clamp(2rem, 5vw, 2.85rem); /// Add your own value here
+$font-size-xxxl: clamp(2.85rem, 6vw, 3.7rem); /// Add your own value here
 
 // $font-size-xs: 0.75rem; // Add your own value here
 // $font-size-sm: 0.815rem; // Add your own value here

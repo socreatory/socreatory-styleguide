@@ -29,7 +29,7 @@ example view
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
                 <h1 class="hero__heading">Lernen von den Besten.</h1>
                 <p>Sie wollen das komplette Trainingsspektrum für Softwarearchitektur auf einer Plattform – akkreditiert und zertifiziert vom iSAQB®? Sie und Ihr Team wollen von international renommierten Top-Experten lernen? Sie möchten nicht nur Credit Points, sondern ein interaktives Schulungserlebnis?</p>
-                <p>Willkommen bei der Software Creators Academy, eine Kollaboration von</p>
+                <p>Willkommen bei SOCREATORY, der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">
                     <img class="hero__logo" src="/snippet/images/logos/embarc_logo_alt.svg">
                     <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
@@ -231,7 +231,32 @@ example view
 </main>
 
 <footer class="footer">
-
+    <div class="footer__top">
+        <div class="container__fullwidth">
+            <div class="footer__content">
+                <img class ="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+                <div class="footer__linkarea">
+                    <ul class="footer__links">
+                        <li class="footer__link"><a href="#">Trainer:innen</a></li>
+                        <li class="footer__link"><a href="#">Kurse</a></li>
+                    </ul>
+                    <ul class="footer__links">
+                        <li class="footer__link"><a href="#">Kontakt</a></li>
+                        <li class="footer__link"><a href="#">Impressum</a></li>
+                        <li class="footer__link"><a href="#">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container__fullwidth">
+            <div class="footer__content">
+                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__copyright">©2021</div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 ```

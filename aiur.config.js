@@ -19,6 +19,7 @@ module.exports = {
       file: "./lib/documentation/VIEWS.md",
       children: {
         home: "./lib/views/home/home.md",
+        home_test: "./lib/views/home/home_test.md",
         training_overview: "./lib/views/trainings_overview/trainings_overview.md",
         training_detail: "./lib/views/trainings/show.md",
         training_detail_isaqb: "./lib/views/trainings/show_isaqb.md",
