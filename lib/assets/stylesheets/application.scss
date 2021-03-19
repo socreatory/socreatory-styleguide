@@ -87,7 +87,7 @@ Application specific code
 .hero__image {
   display: block;
   margin: 0 auto $spacer-lg auto;
-  max-width: 95%;
+  max-width: 90%;
   @include for-tablet-landscape-up {
     margin-top: $spacer-lg;
   }
@@ -244,8 +244,8 @@ Application specific code
   text-align: center;
 }
 
-.article {
-  // leer
+.article__image {
+  margin-bottom: $spacer-sm;
 }
 
 .heading {
@@ -311,6 +311,7 @@ Application specific code
   gap: $spacer-base;
   grid-template-columns: 1fr;
   grid-gap: $spacer-base;
+  margin-bottom: $spacer-lg;
   @include for-breakpoint-phone-up {
     grid-template-columns: 1fr 2fr;
     grid-gap: $spacer-lg;

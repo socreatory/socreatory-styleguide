@@ -39,9 +39,9 @@ example view
                     <img class="img-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/>
                 </div>
                 <div class="img-text__content">
-                    <h3 class="img-text__heading">Kim Nena Duggen</h3>
-                    <p class="profile__company">embarc</p>
-                    <p class="profile__role">Rolle</p>
+                    <h3 class="img-text__heading">Michael Plöd</h3>
+                    <p class="profile__company">INNOQ</p>
+                    <p class="profile__role">Fellow</p>
                     <div class="spacer__md"></div>
                     <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                 </div>
@@ -104,6 +104,15 @@ example view
             <div class="img-text__content">
                 <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
                 <p>Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) Ihres Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
+            </div>
+        </div>
+        <div class="img-text">
+            <div class="img-text__figure">
+                <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg"/>
+            </div>
+            <div class="img-text__content">
+                <h3 class="img-text__heading">Überzeugende Präsentationen – Konzeption, Technik & Design</h3>
+                <p>Wer kennt sie nicht aus seinem beruflichen Alltag: tödlich langweilige, mit Details überhäufte PowerPoint-Präsentationen, die die Zuhörer mit Bullet-Point-Wüsten in den Schlaf wiegen und primär der Selbstbeweihräucherung des Referenten dienen? Und wer ist als Entwickler schon mal mit einer Präsentation gegen eine Wand gelaufen, weil man einfach nicht die richtigen Worte fand, um das Management zu überzeugen?</p>
             </div>
         </div>
     </section>
