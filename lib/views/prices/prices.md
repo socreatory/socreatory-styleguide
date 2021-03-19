@@ -99,7 +99,7 @@ example view
                     </div>
                     <div class="textcolumn">
                         <h3 class="textcolumn__heading">Mehr Flexibilität</h3>
-                        <p class="textcolumn__text">Manchmal ist es einfach zu kompliziert einen gemeinsamen Termin zu finden. Und oft ist es schwierig das ganze Team für drei Tage am Stück zu entbehren. Da unsere öffentlichen Trainings regelmäßig stattfinden, können Sie ihr Team ganz flexibel an verschiedenen Terminen teilnehmen lassen. Sind im gewünschten Termin noch ausreichend Plätze vorhanden, ist auch die „Nachbuchung“ weiterer Teilnehmer:innen kein Problem.</p>
+                        <p class="textcolumn__text">Manchmal ist es einfach zu kompliziert einen gemeinsamen Termin zu finden. Und oft ist es schwierig das ganze Team für drei Tage am Stück zu entbehren. Da unsere öffentlichen Trainings regelmäßig stattfinden, können Sie ihr Team ganz flexibel an verschiedenen Terminen teilnehmen lassen. Sind im gewünschten Termin noch ausreichend Plätze vorhanden, ist auch die »Nachbuchung« weiterer Teilnehmer:innen kein Problem.</p>
                     </div>
                 </div>
                 <div class="spacer__xl"></div>

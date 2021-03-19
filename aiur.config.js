@@ -23,11 +23,12 @@ module.exports = {
         training_overview: "./lib/views/trainings_overview/trainings_overview.md",
         training_detail: "./lib/views/trainings/show.md",
         training_detail_isaqb: "./lib/views/trainings/show_isaqb.md",
-        about_us: "./lib/views/about/about.md",
         trainer_overview: "./lib/views/trainer/trainer_overview.md",
         trainer_detail: "./lib/views/trainer/trainer_detail.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
         prices: "./lib/views/prices/prices.md",
+        about_us: "./lib/views/about/about.md",
+        contact: "./lib/views/contact/contact.md",
       },
     },
 
@@ -41,12 +42,15 @@ module.exports = {
     organisms: {
       file: "./lib/documentation/ORGANISMS.md",
       children: {
+        navbar: "./lib/components/navbar/navbar.md",
       },
     },
 
     molecules: {
       file: "./lib/documentation/MOLECULES.md",
       children: {
+        breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
+
       },
     },
 

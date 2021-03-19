@@ -13,7 +13,7 @@ Adapted from: [freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-8
     $tablet-portrait: 40rem;
     $tablet-landscape: 60rem;
     $desktop: 75rem;
-    $desktop-xl: 80rem;
+    $desktop-xl: 90rem;
 
 ## Mixins
 

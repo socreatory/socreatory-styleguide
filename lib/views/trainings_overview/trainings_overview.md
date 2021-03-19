@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/lernenvondenbesten2.jpg" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/schulungen.png" alt="">
         <h1 class="header__heading header__heading--centered">Alle Schulungen im Überblick</h1>
     </div>
 </header>
@@ -37,7 +37,7 @@ example view
 <main>
     <div class="container__fullwidth">
         <section class="section section--home">
-            <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2>
+            <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2> -->
             <div class="filters">
                 <ul class="filters__list">
                     <li class="filters__item filters__item--active"><a href="#">Alle Schulungen</a></li>

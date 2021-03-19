@@ -46,7 +46,7 @@ example view
         <section class="section section--narrow">
             <h2 class="section__title--normal">Die Ausbildung nach iSAQB – Ein kleiner Wegweiser</h2>
             <div class="article markdown">
-                <p>Die Berufsbezeichnung „Softwarearchitekt:in“ ist nicht geschützt, die Rolle in jedem Unternehmen anders interpretiert und gelebt. Umso wichtiger ist es, eine Richtung vorzugeben – mit einer international anerkannten Zertifizierung. Daran können sich alle orientieren, ganz gleich, ob sie selbst diesen Berufsweg einschlagen wollen oder eine kompetente Verstärkung für ihr Team suchen.</p>
+                <p>Die Berufsbezeichnung »Softwarearchitekt:in« ist nicht geschützt, die Rolle in jedem Unternehmen anders interpretiert und gelebt. Umso wichtiger ist es, eine Richtung vorzugeben – mit einer international anerkannten Zertifizierung. Daran können sich alle orientieren, ganz gleich, ob sie selbst diesen Berufsweg einschlagen wollen oder eine kompetente Verstärkung für ihr Team suchen.</p>
                 <p>Das iSAQB® Certified Professional for Software Architecture-(CPSA-)Programm besteht aus zwei Ausbildungsstufen, eine dritte Stufe ist geplant:</p>
             </div>
         </section>
@@ -119,7 +119,7 @@ example view
         </section>
 
         <section class="section">
-            <p>Auf diesen Seiten finden Sie weitere <a href="https://www.isaqb.org/de/fragen-antworten/" target="_blank">FAQs</a> sowie alle <a href="https://www.isaqb.org/de/downloads/" target="_blank">Downloads</a> des iSAQB.</p>
+            <p>Auf folgenden Seiten finden Sie weitere <a href="https://www.isaqb.org/de/fragen-antworten/" target="_blank">FAQs</a> sowie alle <a href="https://www.isaqb.org/de/downloads/" target="_blank">Downloads</a> des iSAQB.</p>
         </section>
 
     </div>

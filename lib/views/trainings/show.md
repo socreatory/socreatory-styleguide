@@ -1,5 +1,5 @@
- title: Training Detail View
-description: Show Training Detail View
+title: Training Detail
+description: Show Training Detail
 
 example view
 
@@ -120,7 +120,7 @@ example view
                         </div>
                         <div class="img-text__content">
                             <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
-                            <p>Grundlage für das Seminar ist das Buch „Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean“ (Hanser Verlag, 2019) Ihres Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
+                            <p>Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) Ihres Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
                         </div>
                     </div>
                 </section>

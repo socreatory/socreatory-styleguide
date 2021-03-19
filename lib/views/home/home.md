@@ -63,7 +63,7 @@ example view
                     <img class="teaser__image" src="/snippet/images/illustrations/ausbildungs-weg.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg.</h2>
+                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg</h2>
                     <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stellen Sie jetzt Ihr individuelles Trainingsprogramm für sich und Ihr Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
                 </div>
@@ -211,7 +211,7 @@ example view
                     <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Live oder Remote – gleichwertig, aber nicht gleich.</h2>
+                    <h2 class="section__title--normal">Live oder Remote – gleichwertig, aber nicht gleich</h2>
                     <p class="teaser__text">Kann eine Online-Schulung so gut sein wie ein Vor-Ort-Seminar? Wir finden ja! Denn für jedes Format setzen wir die jeweils besten Werkzeuge ein, achten auf einen hohen Praxisanteil, ermöglichen Teamwork und den fachlichen Austausch. So oder so können Sie sich auf ein hoch-interaktives Schulungserlebnis freuen­.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Jetzt anmelden</a>
                 </div>
@@ -221,11 +221,11 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/softwarearchitektur.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/wirsindsoftwarecreatorsacademy.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p class="teaser__text">Die SOCREATORY ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die Software Creators’ Academy.</p>
+                    <p class="teaser__text">Die SOCREATORY ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die SOCREATORY.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
                 </div>
             </div>

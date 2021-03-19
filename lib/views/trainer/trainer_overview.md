@@ -29,15 +29,15 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/individ-wissen-large.jpg" alt="">
-        <h1 class="header__heading header__heading--centered">Lorem ipsum dolor Sitamet</h1>
+        <img class="header__image" src="/snippet/images/illustrations/wersindwir.png" alt="">
+        <h1 class="header__heading header__heading--centered">Ihre Trainer:innen</h1>
     </div>
 </header>
 
 <main>
     <div class="container__centered">
         <section class="section">
-            <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
+            <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2> -->
             <div class="section__1col markdown">
             <div class="section__1col markdown">
                 <p>Unsere Trainerinnen und Trainer brauchen keine Buzzwords und kein Fachchinesisch, um überzeugend zu klingen. Sie erzählen einfach aus Ihrem Alltag und teilen ihre persönlichen Erfahrungen. Sie vermitteln viel mehr als Fachwissen, sie motivieren mit ihrer Begeisterung für das jeweilige Fach. Und die Teilnehmenden profitieren nicht nur von den erworbenen Zertifikaten, sondern vor allem von dem in der Praxis erprobten Handwerkszeug, von echten Skills und hilfreichen Profi-Tipps.</p>

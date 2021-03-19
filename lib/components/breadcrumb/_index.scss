@@ -1,0 +1,39 @@
+// Breadcrumb
+/* Style the list */
+.breadcrumb {
+  display: none;
+  @include for-tablet-portrait-up {
+    display: block;
+  }
+}
+
+.breadcrumb__list {
+  padding: 0 0 $spacer-base 0;
+  list-style: none;
+}
+
+/* Display list items side by side */
+.breadcrumb__item {
+  @extend %monospace-font-regular;
+  display: inline;
+  font-size: $font-size-sm;
+  + :before {
+    padding: 0 $spacer-xs 0 $spacer-xxs;
+    color: black;
+    content: "›";
+  }
+}
+
+/* Add a color to all links inside the list */
+.breadcrumb__item a {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+.breadcrumb__item a:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+}
