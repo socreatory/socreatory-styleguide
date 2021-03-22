@@ -27,7 +27,7 @@ example view
             </div>
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
-                <h1 class="hero__heading">Lernen von den Besten.</h1>
+                <h1 class="hero__heading">Lernen von den Besten</h1>
                 <p>Unsere Mission: ein Ausbildungsangebot für Softwarearchitektur, an dem wir selbst gerne teilgenommen hätten. Mit Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung weitergeben können. Mit Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen.</p>
                 <p>Willkommen bei SOCREATORY, der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">

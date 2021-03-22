@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
-        <h1 class="header__heading header__heading--centered">iSAQB</h1>
+        <h1 class="header__heading header__heading--centered">Internationaler Standard</h1>
     </div>
 </header>
 

@@ -637,9 +637,9 @@ label {
   display: flex;
   justify-content: center;
   margin: $spacer-lg 0;
-  @include for-breakpoint-phone-up {
-    display: block;
-  }
+  // @include for-breakpoint-phone-up {
+  //   display: block;
+  // }
 }
 
 .filters__list {
