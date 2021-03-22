@@ -221,7 +221,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/wirsindsoftwarecreatorsacademy.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/wersindwir.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
