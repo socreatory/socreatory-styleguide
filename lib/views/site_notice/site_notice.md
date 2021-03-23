@@ -41,7 +41,7 @@ example view
             <p><strong>SOCREATORY GbR</strong><br>
             HR B XXXXX, Amtsgericht XXXXXX<br>
             USt-IdNr. DE XXX XXX XXX<br>
-            Geschäftsführer: Susi und Strolch</p>
+            Geschäftsführung: Susi und Strolch</p>
             <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
             <p>Krischerstraße 100<br>
             40789 Monheim am Rhein</p>
