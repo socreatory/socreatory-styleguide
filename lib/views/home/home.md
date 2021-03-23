@@ -209,7 +209,7 @@ example view
         <section class="section section--home">
             <div class="teaser teaser--reverse">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/liveoderremote.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Live oder Remote – gleichwertig, aber nicht gleich</h2>
