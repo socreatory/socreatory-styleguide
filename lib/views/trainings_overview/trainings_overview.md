@@ -60,7 +60,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                         <p class="card__label">iSAQB Modul ARC</p>
                     </div>
                 </li>
@@ -79,7 +79,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                         <p class="card__label">iSAQB Modul AGILA</p>
                     </div>
                 </li>
@@ -98,7 +98,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">1.400 €</p>
                         <p class="card__label">iSAQB Modul ARCEVAL</p>
                     </div>
                 </li>
@@ -117,7 +117,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                         <p class="card__label">iSAQB Modul DDD</p>
                     </div>
                 </li>
@@ -136,7 +136,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
                 </li>
@@ -155,7 +155,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                         <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                     </div>
                 </li>
@@ -169,7 +169,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                     </div>
                 </li>
                 <li class="card">
@@ -182,7 +182,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">1.400 €</p>
                     </div>
                 </li>
                 <li class="card">
@@ -195,7 +195,7 @@ example view
                         </div>
                     </div>
                     <div class="card__footer">
-                        <p class="card__price">ab 1.750 €</p>
+                        <p class="card__price">2.100 €</p>
                     </div>
                 </li>
             </ul>
