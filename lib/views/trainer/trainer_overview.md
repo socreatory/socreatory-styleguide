@@ -51,122 +51,201 @@ example view
     <section class="section section">
         <ul class="profiles">
             <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/ak0mxu8e1vn0twgsi13wrd3xnvpc?response-content-disposition=inline%3B%20filename%3D%22michael-ploed-bw-1-web.jpg%22%3B%20filename%2A%3DUTF-8%27%27michael-ploed-bw-1-web.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T145648Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2319e0ce2ed2fec048bd3975438681ddbc3fcd84dc3f363be58cc162ba1c1c3a">
-                <h3 class="profile__name"><a href="#" class="profile__link">Michael Plöd</a></h3>
+                <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Arne Landwehr</a></h3>
                 <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Fellow</p>
+                <p class="profile__role">Senior Consultant</p>
             </li>
             <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/48p7tk1xhc8g8uaje64q2sv2trtr?response-content-disposition=inline%3B%20filename%3D%22eberhard-wolff-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27eberhard-wolff-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150421Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a7df2d375000b8262ef2dd2e5f76d910da128c6d153c627a902039c7486e54c0">
+                <img class="profile__image" src="/snippet/images/profiles/Benjamin_Wolf.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Benjamin Wolf</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Burkhard_Neppert.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Burkhard Neppert</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Christian_Stettler.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Christian Stettler</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Senior Consultant</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Christopher_Schmidt.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Christopher Schmidt</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Daniel_Westheide.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Daniel Westheide</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Eberhard_Wolff.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Eberhard Wolff</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Falk_Sippach.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Falk Sippach</a></h3>
+                <p class="profile__company">embarc</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Gerald_Preissler.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Gerald Preissler</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Gernot_Starke.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Dr. Gernot Starke</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Gerrit_Beine.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Gerrit Beine</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Joachim_Praetorius.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Joachim Praetorius</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Johannes_Seitz.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Johannes Seitz</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Kim_Duggen.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Kim Nena Duggen</a></h3>
+                <p class="profile__company">embarc</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Lars_Hupel.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Dr. Lars Hupel</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Lisa Maria Moritz</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Lucas_Dohmen.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Lucas Dohmen</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Markus_Harrer.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Markus_Harrer</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Martin_Otten.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Martin Otten</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Michael_Krämer.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Michael Krämer</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Michael_Plöd.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Michael Plöd</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Michael_Vitz.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Michael Vitz</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Niko_Will.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Niko_Will</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Oliver_Zeigermann.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Oliver Zeigermann</a></h3>
+                <p class="profile__company">embarc</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Sascha_Selzer.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Sascha Selzer</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Sebastian_Schwaiger.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Sebastian Schwaiger</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Simon_Kölsch.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Simon Kölsch</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Stefan_Bodewig.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Stefan_Bodewig</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Stefan_Tilkov.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Stefan Tilkov</a></h3>
+                <p class="profile__company">INNOQ</p>
+                <p class="profile__role">Rolle</p>
+            </li>
+            <li class="profile">
+                <img class="profile__image" src="/snippet/images/profiles/Stefan_Toth.jpg">
                 <h3 class="profile__name"><a href="#" class="profile__link">Stefan Toth</a></h3>
                 <p class="profile__company">embarc</p>
                 <p class="profile__role">Rolle</p>
             </li>
             <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/1nus6sqbgvaoylgtjny3va7c4oi2?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150421Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=48c8e0ecf24ee24003ad734930e568318c1f236e95b6d6b868277f4b827eadc3">
-                <h3 class="profile__name"><a href="#" class="profile__link">Stefan Tilkov</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/ebqpimbhy6tz2hmoeltn245tb2qi?response-content-disposition=inline%3B%20filename%3D%22markus_harrer_innoq%20_klein.jpg%22%3B%20filename%2A%3DUTF-8%27%27markus_harrer_innoq%2520_klein.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150453Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=cca0d059bb2ea58fadca9e27d3f864529def7380e749ebbc002949eb68e3458c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Gernot Starke</a></h3>
-                <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Fellow</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/62jog2jf1ljpa8ffwv7f09t7bbe8?response-content-disposition=inline%3B%20filename%3D%22DSC03057____270mm-300dpi.jpg%22%3B%20filename%2A%3DUTF-8%27%27DSC03057____270mm-300dpi.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=eaf28a512385e59273e5c961cbfd6ab078e1fed6472618603ce366ddacf873d8">
+                <img class="profile__image" src="/snippet/images/profiles/Stefan_Zörner.jpg">
                 <h3 class="profile__name"><a href="#" class="profile__link">Stefan Zörner</a></h3>
                 <p class="profile__company">embarc</p>
                 <p class="profile__role">Rolle</p>
             </li>
             <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/cpjievmfqa820by25e2u6czzjolw?response-content-disposition=inline%3B%20filename%3D%22IMG_0723.jpg%22%3B%20filename%2A%3DUTF-8%27%27IMG_0723.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d05150158d5f9291fdeaab2d86ea00f08dfb5bd36099c9d5d2ee93a3d3a522cb">
-                <h3 class="profile__name"><a href="#" class="profile__link">Lucas Dohmen</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/bmm4e3xy51myoqu4rn2dmbr1ommf?response-content-disposition=inline%3B%20filename%3D%22johannes-seitz-ava.png%22%3B%20filename%2A%3DUTF-8%27%27johannes-seitz-ava.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150928Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bade95e9cc25dfda6ab9926a1429cca2d93c8b7d2ba5117a9fa302b01c65c536">
-                <h3 class="profile__name"><a href="#" class="profile__link">Nina Duggen</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/k81zm99thnf02apy2ivniy62la42?response-content-disposition=inline%3B%20filename%3D%22dimitrij-drus-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27dimitrij-drus-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=22ab9f0f84f48c383c0bbd7bb7d48ac5921c7b91ec4ffa2d6ca9b6464b5d360c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Michael Plöd</a></h3>
+                <img class="profile__image" src="/snippet/images/profiles/Sven_Johann.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Sven_Johann</a></h3>
                 <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Senior Consultant</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/l7fgjhf9fe4iutcp9ueegbaca3k4?response-content-disposition=inline%3B%20filename%3D%22lisa-moritz-ava-2020-02.jpg%22%3B%20filename%2A%3DUTF-8%27%27lisa-moritz-ava-2020-02.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150857Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=0f74c556e9417d19f8dfa59305fb45a255b8506ab12637ccf26aef37d938c9c2">
-                <h3 class="profile__name"><a href="#" class="profile__link">Lisa-Maria Moritz</a></h3>
-                <p class="profile__company">embarc</p>
                 <p class="profile__role">Rolle</p>
             </li>
             <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/73l3mfbcidszajre4rmkbh37yobl?response-content-disposition=inline%3B%20filename%3D%22lars-hupel-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27lars-hupel-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150857Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b4f76501e135de779b14635a32844e8d00c456d567e5a2423c24c14e8632908c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Dr. Lars Hupel</a></h3>
+                <img class="profile__image" src="/snippet/images/profiles/Till_Schulte_Coerne.jpg">
+                <h3 class="profile__name"><a href="#" class="profile__link">Till Schulte-Coerne</a></h3>
                 <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Consultant</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/ak0mxu8e1vn0twgsi13wrd3xnvpc?response-content-disposition=inline%3B%20filename%3D%22michael-ploed-bw-1-web.jpg%22%3B%20filename%2A%3DUTF-8%27%27michael-ploed-bw-1-web.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T145648Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2319e0ce2ed2fec048bd3975438681ddbc3fcd84dc3f363be58cc162ba1c1c3a">
-                <h3 class="profile__name"><a href="#" class="profile__link">Michael Plöd</a></h3>
-                <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Fellow</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/48p7tk1xhc8g8uaje64q2sv2trtr?response-content-disposition=inline%3B%20filename%3D%22eberhard-wolff-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27eberhard-wolff-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150421Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a7df2d375000b8262ef2dd2e5f76d910da128c6d153c627a902039c7486e54c0">
-                <h3 class="profile__name"><a href="#" class="profile__link">Stefan Toth</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/1nus6sqbgvaoylgtjny3va7c4oi2?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150421Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=48c8e0ecf24ee24003ad734930e568318c1f236e95b6d6b868277f4b827eadc3">
-                <h3 class="profile__name"><a href="#" class="profile__link">Stefan Tilkov</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/ebqpimbhy6tz2hmoeltn245tb2qi?response-content-disposition=inline%3B%20filename%3D%22markus_harrer_innoq%20_klein.jpg%22%3B%20filename%2A%3DUTF-8%27%27markus_harrer_innoq%2520_klein.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150453Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=cca0d059bb2ea58fadca9e27d3f864529def7380e749ebbc002949eb68e3458c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Gernot Starke</a></h3>
-                <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Fellow</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/cpjievmfqa820by25e2u6czzjolw?response-content-disposition=inline%3B%20filename%3D%22IMG_0723.jpg%22%3B%20filename%2A%3DUTF-8%27%27IMG_0723.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d05150158d5f9291fdeaab2d86ea00f08dfb5bd36099c9d5d2ee93a3d3a522cb">
-                <h3 class="profile__name"><a href="#" class="profile__link">Lucas Dohmen</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/62jog2jf1ljpa8ffwv7f09t7bbe8?response-content-disposition=inline%3B%20filename%3D%22DSC03057____270mm-300dpi.jpg%22%3B%20filename%2A%3DUTF-8%27%27DSC03057____270mm-300dpi.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=eaf28a512385e59273e5c961cbfd6ab078e1fed6472618603ce366ddacf873d8">
-                <h3 class="profile__name"><a href="#" class="profile__link">Stefan Zörner</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/bmm4e3xy51myoqu4rn2dmbr1ommf?response-content-disposition=inline%3B%20filename%3D%22johannes-seitz-ava.png%22%3B%20filename%2A%3DUTF-8%27%27johannes-seitz-ava.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150928Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bade95e9cc25dfda6ab9926a1429cca2d93c8b7d2ba5117a9fa302b01c65c536">
-                <h3 class="profile__name"><a href="#" class="profile__link">Nina Duggen</a></h3>
-                <p class="profile__company">embarc</p>
-                <p class="profile__role">Rolle</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/73l3mfbcidszajre4rmkbh37yobl?response-content-disposition=inline%3B%20filename%3D%22lars-hupel-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27lars-hupel-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150857Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b4f76501e135de779b14635a32844e8d00c456d567e5a2423c24c14e8632908c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Dr. Lars Hupel</a></h3>
-                <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Consultant</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/k81zm99thnf02apy2ivniy62la42?response-content-disposition=inline%3B%20filename%3D%22dimitrij-drus-ava.jpg%22%3B%20filename%2A%3DUTF-8%27%27dimitrij-drus-ava.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150517Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=22ab9f0f84f48c383c0bbd7bb7d48ac5921c7b91ec4ffa2d6ca9b6464b5d360c">
-                <h3 class="profile__name"><a href="#" class="profile__link">Michael Plöd</a></h3>
-                <p class="profile__company">INNOQ</p>
-                <p class="profile__role">Senior Consultant</p>
-            </li>
-            <li class="profile">
-                <img class="profile__image" src="https://uploads.innoq.com/l7fgjhf9fe4iutcp9ueegbaca3k4?response-content-disposition=inline%3B%20filename%3D%22lisa-moritz-ava-2020-02.jpg%22%3B%20filename%2A%3DUTF-8%27%27lisa-moritz-ava-2020-02.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210211T150857Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=0f74c556e9417d19f8dfa59305fb45a255b8506ab12637ccf26aef37d938c9c2">
-                <h3 class="profile__name"><a href="#" class="profile__link">Lisa-Maria Moritz</a></h3>
-                <p class="profile__company">embarc</p>
                 <p class="profile__role">Rolle</p>
             </li>
         </ul>

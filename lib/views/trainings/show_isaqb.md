@@ -99,13 +99,14 @@ example view
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
                     <div class="img-text">
                         <div class="img-text__figure">
-                            <img class="img-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/>
+                            <a href="#"><img class="img-text__image" src="https://uploads.innoq.com/variants/jzYaUpasLWC34wmKfDPmixSa/c6102565cc763bd8b0970e3abe89d48675dd7c8c3124b0570a295b43def26f57?response-content-disposition=inline%3B%20filename%3D%22niko-will-expert.png%22%3B%20filename%2A%3DUTF-8%27%27niko-will-expert.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHA5PEZW3OX32LYA%2F20210128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210128T142050Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=416c8deba427cf14ca0c619afae1f2fbbc9bf50805d81e7f2b862c898b4a5eea"/></a>
                         </div>
                         <div class="img-text__content">
-                            <h3 class="img-text__heading">Kim Nena Duggen</h3>
+                            <h3 class="img-text__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
                             <p class="profile__company">embarc</p>
                             <p class="profile__role">Rolle</p>
                             <div class="spacer__md"></div>
+
                             <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                         </div>
                     </div>
