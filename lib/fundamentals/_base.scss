@@ -31,6 +31,8 @@ p {
 
 img {
   max-width: 100%;
-  mix-blend-mode: multiply;
-  // filter: saturate(0);
+  // mix-blend-mode: multiply;
 }
+
+::-moz-selection { background: $brand-blue; color: $brand-text; }
+::selection { background: $brand-blue; color: $brand-text; }

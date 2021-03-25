@@ -513,7 +513,9 @@ Application specific code
 
 // Footer
 .footer {
-  // leer
+  // position: absolute;
+  // bottom: 0;
+  // width: 100%;
 }
 
 .footer__top {
@@ -733,4 +735,55 @@ label {
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+// Form
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__field {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: $spacer-md;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__input {
+  @extend %body-font-regular;
+  font-size: $font-size-base;
+  padding: $spacer-xs;
+  border: none;
+  border-bottom: solid 0.2rem $brand-text;
+  width: 100%;
+}
+
+.field__size--full {
+  width: 100%;
+}
+
+.field__size--half {
+  width: 100%;
+  @include for-tablet-portrait-up {
+    width: 47%;
+  }
+}
+
+.form__input:focus {
+  outline: none;
+  // border-bottom: solid 0.2rem $brand-blue;
+  background-color: $brand-background;
+}
+
+.form__textarea {
+  resize: none;
+}
+
+.form__field--invisible {
+  display: none;
 }
