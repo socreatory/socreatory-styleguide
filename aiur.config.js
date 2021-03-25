@@ -30,6 +30,7 @@ module.exports = {
         about_us: "./lib/views/about/about.md",
         contact: "./lib/views/contact/contact.md",
         site_notice: "./lib/views/site_notice/site_notice.md",
+        privacy: "./lib/views/privacy/privacy.md",
       },
     },
 

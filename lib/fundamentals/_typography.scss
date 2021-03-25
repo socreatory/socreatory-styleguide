@@ -125,3 +125,15 @@ p a:hover {
   color: $brand-text;
   text-decoration: none;
 }
+
+.paragraph__h2 {
+  font-size: $font-size-xl;
+}
+
+.paragraph__h3 {
+  font-size: $font-size-lg;
+}
+
+.paragraph__h4 {
+  font-size: $font-size-base;
+}

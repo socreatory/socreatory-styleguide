@@ -37,7 +37,7 @@ example view
 <main>
     <div class="container__centered">
         <section class="section section--narrow">
-            <h2>Angaben gemäß § 5 TMG</h2>
+            <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
             <p><strong>SOCREATORY GbR</strong><br>
             HR B XXXXX, Amtsgericht XXXXXX<br>
             USt-IdNr. DE XXX XXX XXX<br>
@@ -51,14 +51,14 @@ example view
         </section>
 
         <section class="section section--narrow">
-            <h2>Datenschutz</h2>
+            <h2 class="paragraph__h2">Datenschutz</h2>
             <p>Grundsätzlich gilt für die SOCREATORY GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum Datenschutz für uns selbstverständlich. Darüber hinaus ist es uns wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.</p>
             <p>Wir sichern Ihnen zu, dass Ihre Angaben entsprechend den geltenden deutschen datenschutzrechtlichen Bestimmungen vertraulich behandelt werden.</p>
             <p>Mehr dazu finden Sie in unseren <a href="#">Datenschutzhinweisen.</a></p>
         </section>
 
         <section class="section">
-            <h2>EU-Streitschlichtung</h2>
+            <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
             <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist <a href="mailto:info@socreatory.com">info@socreatory.com</a>.</p>
         </section>
     </div>
