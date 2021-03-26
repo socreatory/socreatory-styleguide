@@ -37,17 +37,17 @@ example view
 <main>
     <div class="container__centered">
         <section class="section section--narrow">
-            <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
-            <p><strong>SOCREATORY GbR</strong><br>
+            <h2 class="paragraph__h2 markdown">Angaben gemäß § 5 TMG</h2>
+            <p class="markdown"><strong>SOCREATORY GbR</strong><br>
             HR B XXXXX, Amtsgericht XXXXXX<br>
             USt-IdNr. DE XXX XXX XXX<br>
             Geschäftsführung: Susi und Strolch</p>
-            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
-            <p>Krischerstraße 100<br>
+            <p class="markdown">Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
+            <p class="markdown">Krischerstraße 100<br>
             40789 Monheim am Rhein</p>
-            <p>Telefon +49 2173 3366 0<br>
+            <p class="markdown">Telefon +49 2173 3366 0<br>
             Fax +49 2173 3366 222</p>
-            <p>E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
+            <p class="markdown">E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
         </section>
 
         <section class="section section--narrow">

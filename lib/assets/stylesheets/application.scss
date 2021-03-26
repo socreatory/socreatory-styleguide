@@ -422,18 +422,16 @@ Application specific code
 
 // Rating
 .stars {
-  margin-bottom: $spacer-sm;
-  --percent: calc(var(--rating) / 5 * 97.5%);
+  --percent: calc(var(--rating) / 5 * 100%);
 
   display: inline-block;
-  // font-size: $font-size-base;
-  font-size: 1.25rem;
+  font-size: $font-size-xl;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
-
+  position: relative;
+  top: 0.075rem;
   &::before {
     content: "★★★★★";
-    letter-spacing: 0.25rem;
     background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -583,7 +581,7 @@ Application specific code
   }
 }
 
-// Markdown Listen
+// Markdown Listen und Text
 
 .markdown {
   li::marker {
@@ -749,6 +747,16 @@ label {
   width: 100%;
   margin-bottom: $spacer-md;
 }
+
+.form__field--is-invalid {
+  // @extend %body-font-bold;
+  color: $brand-error;
+}
+
+.form__text {
+  // leer
+}
+
 
 .form__label {
   display: block;
