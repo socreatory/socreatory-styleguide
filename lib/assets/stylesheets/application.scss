@@ -761,7 +761,14 @@ label {
   border: none;
   border-bottom: solid 0.2rem $brand-text;
   width: 100%;
-  background-color: #ece9de;
+  background-color: $brand-background-dark;
+  transition: all 0.15s ease-out;
+}
+
+.form__input:focus {
+  outline: none;
+  // border-bottom: solid 0.2rem $brand-green;
+  background-color: $brand-background;
 }
 
 .field__size--full {
@@ -773,12 +780,6 @@ label {
   @include for-tablet-portrait-up {
     width: 47%;
   }
-}
-
-.form__input:focus {
-  outline: none;
-  // border-bottom: solid 0.2rem $brand-blue;
-  background-color: $brand-background;
 }
 
 .form__textarea {
