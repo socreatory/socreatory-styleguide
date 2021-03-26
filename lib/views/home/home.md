@@ -51,7 +51,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Gehe deinen eigenen Ausbildungsweg</h2>
-                    <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stelle dir jetzt dein individuelles Trainingsprogramm für dich und dein Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
+                    <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen, war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stelle dir jetzt dein individuelles Trainingsprogramm für dich und dein Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
                     <p><img class="hero__logo" src="/snippet/images/logos/isaqb_logo.svg"></p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
                 </div>
