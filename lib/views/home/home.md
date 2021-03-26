@@ -44,27 +44,14 @@ example view
 
 <main>
     <div class="container__fullwidth">
-        <!-- <section class="section section--home">
-            <div class="teaser">
-                <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
-                </div>
-                <div class="teaser__column">
-                    <h2 class="section__title--normal">Internationale Standards, individuelles Wissen.</h2>
-                    <p>Bei der Software-Entwicklung hört die Lernkurve niemals auf. Mit unserem Modulbaukasten nach dem Lehrplan und den hohen Qualitätsstandards des iSAQB® können Sie sich für jede Aus-und Weiterbildungsstufe das richtige Trainingsprogramm zusammenstellen – vom Einsteiger bis hin zum CPSA® Advanced Level. So können Sie individuelle Schwerpunkte für sich und Ihr Team setzen und bleiben technologisch immer auf dem neuesten Stand.</p>
-                    <img class="hero__logo" src="/snippet/images/logos/isaqb_logo.svg">
-                </div>
-            </div>
-        </section> -->
-
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
                     <img class="teaser__image" src="/snippet/images/illustrations/ausbildungs-weg.png" alt="">
                 </div>
                 <div class="teaser__column">
-                    <h2 class="section__title--normal">Gehen Sie Ihren eigenen Ausbildungsweg</h2>
-                    <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stellen Sie jetzt Ihr individuelles Trainingsprogramm für sich und Ihr Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
+                    <h2 class="section__title--normal">Gehe deinen eigenen Ausbildungsweg</h2>
+                    <p class="teaser__text">Unser intelligenter Modulbaukasten enthält Trainings zu sämtlichen Architekturthemen und für jedes Zertifizierungslevel. Dass sich die Schulungsmodule dabei klug ergänzen bzw. aufeinander aufbauen war uns ebenso wichtig wie die höchsten Qualitätsstandards des iSAQB®. Stelle dir jetzt dein individuelles Trainingsprogramm für dich und dein Team zusammen – vom Einsteiger- bis hin zum CPSA® Advanced Level.</p>
                     <p><img class="hero__logo" src="/snippet/images/logos/isaqb_logo.svg"></p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
                 </div>
@@ -181,12 +168,12 @@ example view
         </section>
 
         <section class="section section--home">
-            <h2 class="section__title--normal">Sie brauchen noch mehr Argumente?</h2>
+            <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
             <div class="textcolumns">
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/product.png">
                     <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
-                    <p class="textcolumn__text">Wir bieten Ihnen das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
+                    <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
                 </div>
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/engineering.png">
@@ -201,7 +188,7 @@ example view
                 <div class="textcolumn">
                     <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/sales.png">
                     <h3 class="textcolumn__heading">Faires Preismodell.</h3>
-                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus Ihrem Unternehmen zahlen Sie nur die Hälfte. Zudem profitieren Sie von Early Bird-Preisen und großer Planungssicherheit.</p>
+                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus deinem Unternehmen zahlst du nur die Hälfte. Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
                 </div>
             </div>
         </section>
@@ -213,7 +200,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Live oder Remote – gleichwertig, aber nicht gleich</h2>
-                    <p class="teaser__text">Kann eine Online-Schulung so gut sein wie ein Vor-Ort-Seminar? Wir finden ja! Denn für jedes Format setzen wir die jeweils besten Werkzeuge ein, achten auf einen hohen Praxisanteil, ermöglichen Teamwork und den fachlichen Austausch. So oder so können Sie sich auf ein hoch-interaktives Schulungserlebnis freuen­.</p>
+                    <p class="teaser__text">Kann eine Online-Schulung so gut sein wie ein Vor-Ort-Seminar? Wir finden ja! Denn für jedes Format setzen wir die jeweils besten Werkzeuge ein, achten auf einen hohen Praxisanteil, ermöglichen Teamwork und den fachlichen Austausch. So oder so kannst du dich auf ein hoch-interaktives Schulungserlebnis freuen­.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Jetzt anmelden</a>
                 </div>
             </div>
