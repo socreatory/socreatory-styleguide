@@ -171,22 +171,22 @@ example view
             <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
             <div class="textcolumns">
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/product.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/einzigartigevielfalt.png">
                     <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
                     <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/engineering.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/geballteitkompetenz.png">
                     <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
                     <p class="textcolumn__text">Unsere erfahrenen Trainer:innen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/hr.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/praxisnaheserlebnis.png">
                     <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
                     <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde Wissensvermittlung. Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/sales.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/fairprice.png">
                     <h3 class="textcolumn__heading">Faires Preismodell.</h3>
                     <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus deinem Unternehmen zahlst du nur die Hälfte. Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
                 </div>
@@ -221,7 +221,7 @@ example view
 
         <section class="section section--home">
             <div class="quote quote--center">
-                <blockquote class="quote__blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.</blockquote>
+                <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.«</blockquote>
                 <div class="quote__name">Alexander Trapp</div>
                 <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
             </div>

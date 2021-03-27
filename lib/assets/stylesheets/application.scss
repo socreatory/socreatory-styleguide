@@ -70,7 +70,7 @@ Application specific code
   padding: $spacer-xxl 0 $spacer-lg 0;
   margin-bottom: $spacer-xl;
   @include for-tablet-landscape-up {
-    margin-bottom: $spacer-xxl*1.25;
+    margin-bottom: $spacer-xxl * 1.25;
     padding: $spacer-xxl + 4rem 0 $spacer-lg 0;
   }
 }
@@ -416,8 +416,11 @@ Application specific code
 
 .textcolumn__img {
   display: block;
-  margin: 1rem 0;
+  margin: 1rem auto;
   width: 40%;
+  @include for-tablet-landscape-up {
+    width: 50%;
+  }
 }
 
 // Rating
@@ -754,7 +757,6 @@ label {
 .form__text {
   // leer
 }
-
 
 .form__label {
   display: block;

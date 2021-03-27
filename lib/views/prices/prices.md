@@ -29,9 +29,8 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/ausbildingsweg-large.jpg" alt="">
-        <h1 class="header__heading header__heading--centered">Unser Preismodell:<br>Flexibel und transparent.
-</h1>
+        <img class="header__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
+        <h1 class="header__heading header__heading--centered">Unser Preismodell:<br>Flexibel und transparent</h1>
     </div>
 </header>
 
@@ -69,17 +68,17 @@ example view
             <h2 class="section__title--normal">Wie du sparst</h2>
             <div class="textcolumns">
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/product.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/teamrabatt.png">
                     <h3 class="textcolumn__heading">1. Unser Teamrabatt</h3>
                     <p class="textcolumn__text">Du willst mehr als eine Person schulen lassen? Bereits ab zwei Teilnehmenden aus deinem Unternehmen sparst du deutlich: für jede weitere Person zahlst du nur 50% des regulären Preises. <em>Der Rabatt ist nicht mit anderen Rabatten kombinierbar.</em></p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/engineering.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/earlybird.png">
                     <h3 class="textcolumn__heading">2. Unser Early Bird-Rabatt</h3>
                     <p class="textcolumn__text">Frühzeitige Buchungen erleichtern dir und uns die Planung. Eine verbindliche Buchung bis zu drei Monate vor Trainingsbeginn honorieren wir mit 10% Rabatt für jeden Platz. <em>Der Rabatt ist nicht mit anderen Rabatten kombinierbar.</em></p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/illustrations/use-case-objects/hr.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/loyaltyrabatt.png">
                     <h3 class="textcolumn__heading">3. Unser Loyalty-Rabatt</h3>
                     <p class="textcolumn__text">Du möchtest ein weiteres Training bei uns besuchen? Wir freuen uns über deine Treue und senken deinen Trainingspreis für Folgebuchungen um 20%. <em>Der Rabatt ist nicht mit anderen Rabatten kombinierbar oder übertragbar und gilt max. 2 Jahre nach Beendigung eines unserer Trainings.</em></p>
                 </div>
@@ -89,7 +88,7 @@ example view
         <section class="section">
             <div class="section__1col markdown">
                 <h2 class="header__heading header__heading--centered">Unsere Trainingsmodelle:<br>
-                    Alles hat seine Vorteile.</h2>
+                    Alles hat seine Vorteile</h2>
                 <div class="spacer__xl"></div>
                 <h3>Öffentliche Trainings</h3>
                 <div class="textcolumns">

@@ -25,11 +25,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all 250ms ease;
 }
 
-// .card:hover {
-//   opacity: .8;
-// }
+.card:hover {
+  // box-shadow: 0 1.9rem 3.8rem (rgba(0,0,0,0.1), 0 1.5rem 1.2rem rgba(0,0,0,0.04));
+  // transform: translate(0, -0.2rem);
+}
 
 .card__link {
   text-decoration: none;

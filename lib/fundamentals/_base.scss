@@ -41,5 +41,12 @@ img {
   max-width: 100%;
 }
 
-::-moz-selection { background: $brand-blue; color: $brand-text; }
-::selection { background: $brand-blue; color: $brand-text; }
+::-moz-selection {
+  background: $brand-blue;
+  color: $brand-text;
+}
+
+::selection {
+  background: $brand-blue;
+  color: $brand-text;
+}
