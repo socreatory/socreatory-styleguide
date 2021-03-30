@@ -115,7 +115,7 @@ example view
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Unsere Kund:innen sagen</h2>
                     <div class="quote">
-                        <blockquote class="quote__blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.</blockquote>
+                        <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.«</blockquote>
                         <div class="quote__name">Alexander Trapp</div>
                         <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
                     </div>
@@ -224,7 +224,7 @@ example view
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainer:innen</a></li>
-                        <li class="footer__link"><a href="#">Kurse</a></li>
+                        <li class="footer__link"><a href="#">Trainings</a></li>
                         <li class="footer__link"><a href="#">Über uns</a></li>
                     </ul>
                     <ul class="footer__links">
