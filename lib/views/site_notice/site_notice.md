@@ -38,7 +38,7 @@ example view
     <div class="container__centered">
         <section class="section section--narrow">
             <h2 class="paragraph__h2 markdown">Angaben gemäß § 5 TMG</h2>
-            <p class="markdown"><strong>SOCREATORY GbR</strong><br>
+            <p class="markdown"><strong>socreatory GbR</strong><br>
             HR B XXXXX, Amtsgericht XXXXXX<br>
             USt-IdNr. DE XXX XXX XXX<br>
             Geschäftsführung: Susi und Strolch</p>
@@ -52,7 +52,7 @@ example view
 
         <section class="section section--narrow">
             <h2 class="paragraph__h2">Datenschutz</h2>
-            <p>Grundsätzlich gilt für die SOCREATORY GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum Datenschutz für uns selbstverständlich. Darüber hinaus ist es uns wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.</p>
+            <p>Grundsätzlich gilt für die socreatory GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum Datenschutz für uns selbstverständlich. Darüber hinaus ist es uns wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.</p>
             <p>Wir sichern Ihnen zu, dass Ihre Angaben entsprechend den geltenden deutschen datenschutzrechtlichen Bestimmungen vertraulich behandelt werden.</p>
             <p>Mehr dazu finden Sie in unseren <a href="#">Datenschutzhinweisen.</a></p>
         </section>
@@ -87,7 +87,7 @@ example view
     <div class="footer__bottom">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
                 <div class="footer__copyright">©2021</div>
             </div>
         </div>

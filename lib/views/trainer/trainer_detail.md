@@ -141,7 +141,7 @@ example view
     <div class="footer__bottom">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
                 <div class="footer__copyright">©2021</div>
             </div>
         </div>

@@ -73,9 +73,9 @@ example view
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Ihr Nutzen</h2>
                     <div class="texttable markdown">
-                        <p class="texttable__cell">Dieses Seminar macht Methoden, praktische Techniken und hilfreiche Sichtweisen erlebbar.</p>
-                        <p class="texttable__cell">At vero eos et molestiae non ero tibique si mihi probabis ea quae sunt vitae.</p>
-                        <p class="texttable__cell">Quid ex eo delectu rerum quem modo ista sis aequitate quam nihil oportere exquisitis.</p>
+                        <p class="texttable__cell">Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei Moderni&shy;sierungs&shy;vorhaben gewachsener Systeme als auch beim Design neuer Systeme auf der »grünen Wiese«</p>
+                        <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen bis zur kontinuierlichen Auslieferung</p>
+                        <p class="texttable__cell">Anwendbar in allen Aufgabenfeldern der Softwarearchitektur unabhängig von Technologien und Sprachen</p>
                     </div>
                 </section>
                 <section class="section">
@@ -239,7 +239,7 @@ example view
     <div class="footer__bottom">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
                 <div class="footer__copyright">©2021</div>
             </div>
         </div>

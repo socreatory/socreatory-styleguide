@@ -39,7 +39,7 @@ example view
             <h2 class="paragraph__h2">EU-DSGVO konforme Datenschutzerklärung</h2>
             <h2 class="paragraph__h2">Datenschutzerklärung, BLINDTEXT</h2>
             <p>(Stand: 29. Dezember 2020)</p>
-            <p>Uns (im Folgenden: „SOCREATORY“, „wir“) ist der Datenschutz sehr wichtig.</p>
+            <p>Uns (im Folgenden: „socreatory“, „wir“) ist der Datenschutz sehr wichtig.</p>
             <p>Als Verantwortlicher i.S.d. geltenden Datenschutzgesetze ergreifen wir alle nach geltendem Datenschutzrecht erforderlichen Maßnahmen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten.</p>
             <p>Bei allen Fragen bezüglich der Datenverarbeitung bei INNOQ (sowohl innoQ Deutschland GmbH als auch innoQ Schweiz GmbH) und die Wahrnehmung Ihrer Rechte können Sie sich auch kostenlos an unseren Datenschutzbeauftragten wenden.</p>
             <p>INNOQ<br>
@@ -96,7 +96,7 @@ example view
     <div class="footer__bottom">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
                 <div class="footer__copyright">©2021</div>
             </div>
         </div>

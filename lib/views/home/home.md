@@ -29,7 +29,7 @@ example view
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
                 <h1 class="hero__heading">Lernen von den Besten</h1>
                 <p>Unsere Mission: ein Ausbildungsangebot für Softwarearchitektur, an dem wir selbst gerne teilgenommen hätten. Mit Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung weitergeben können. Mit Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen.</p>
-                <p>Willkommen bei SOCREATORY, der Software Creators Academy, eine Kollaboration von</p>
+                <p>Willkommen bei socreatory, der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">
                     <img class="hero__logo" src="/snippet/images/logos/embarc_logo_alt.svg">
                     <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
@@ -213,7 +213,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p class="teaser__text">Die SOCREATORY ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die SOCREATORY.</p>
+                    <p class="teaser__text">Die socreatory ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die socreatory.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Mehr über uns</a>
                 </div>
             </div>
@@ -253,7 +253,7 @@ example view
     <div class="footer__bottom">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <div class="footer__company">SOCREATORY — The Software Creators’ Academy</div>
+                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
                 <div class="footer__copyright">©2021</div>
             </div>
         </div>
