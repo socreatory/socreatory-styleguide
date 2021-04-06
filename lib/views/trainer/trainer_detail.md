@@ -41,7 +41,7 @@ example view
                 <div class="img-text__content">
                     <h3 class="img-text__heading">Michael Plöd</h3>
                     <p class="profile__company">INNOQ</p>
-                    <p class="profile__role">Fellow</p>
+                    <p class="profile__focus">Domain Driven Design</p>
                     <div class="spacer__md"></div>
                     <p class="markdown">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                 </div>

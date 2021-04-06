@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/individ-wissen.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/unserepreise.png" alt="">
         <h1 class="header__heading header__heading--centered">Unser Preismodell:<br>Flexibel und transparent</h1>
     </div>
 </header>
@@ -46,9 +46,9 @@ example view
         <section class="section">
             <h2 class="section__title--normal">Was du bezahlst</h2>
             <div>
-                <p>Bei öffentlichen Trainings berechnen wir pro Teilnehmer:in einheitlich € 700,- pro Tag. Ein dreitägiges Training kostet also € 2.100,-. Das gilt für alle Trainings und Trainer:innen.</p>
+                <p>Bei öffentlichen Trainings berechnen wir pro Teilnehmer:in einheitlich € 700,— pro Tag. Ein dreitägiges Training kostet also € 2.100,—. Das gilt für alle Trainings und Trainer:innen.</p>
                 <div class="achtung-box">
-                    <p><strong>Bitte beachte: </strong>Das Foundation-Seminar schließt mit einer Prüfung ab, die wir mit einem unabhängigen Prüfungsinstitut durchführen. Die Organisation und Prüfungsanmeldung übernehmen wir für unsere Teilnehmer:innen. Die Kosten für die Prüfung betragen € 250,- Euro pro Teilnehmer:in (iSQI Institut / Stand: 2021) und werden ohne Aufschlag an die Prüfungsteilnehmer berechnet.</p>
+                    <p><strong>Bitte beachte: </strong>Das Foundation-Seminar schließt mit einer Prüfung ab, die wir mit einem unabhängigen Prüfungsinstitut durchführen. Die Organisation und Prüfungsanmeldung übernehmen wir für unsere Teilnehmer:innen. Die Kosten für die Prüfung betragen € 250,— Euro pro Teilnehmer:in (iSQI Institut / Stand: 2021) und werden ohne Aufschlag an die Prüfungsteilnehmer berechnet.</p>
                 </div>
             </div>
         </section>
