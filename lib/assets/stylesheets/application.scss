@@ -666,7 +666,7 @@ label {
   margin-top: 2rem;
 }
 
-.filters__item a {
+.filters__item__link {
   @extend %monospace-font-regular;
   font-size: $font-size-md;
   color: $brand-text;
@@ -675,7 +675,7 @@ label {
   letter-spacing: 0.1rem;
 }
 
-.filters__item a:hover {
+.filters__item__link:hover {
   color: $brand-text;
   text-decoration: underline;
   text-underline-offset: 0.45rem;
