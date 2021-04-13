@@ -814,8 +814,7 @@ label {
   grid-template-columns: 1fr;
   margin-bottom: $spacer-lg;
   padding-left: 0;
-  @include for-tablet-landscape-up {
-    // gap: 3.25rem;
+  @include for-breakpoint-phone-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
   @include for-desktop-xl-up {
