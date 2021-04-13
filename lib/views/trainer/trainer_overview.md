@@ -48,39 +48,53 @@ example view
             <ul class="features">
                 <li class="feature">
                     <div class="feature__body">
-                        <div class="feature__image"></div>
                         <div class="feature__top">
+                            <img class="feature__image" src="/snippet/images/profiles/Stefan_Toth.jpg"></img>
                             <h3 class="feature__title"><a href="#" class="feature__link">Stefan Toth</a></h3>
                             <p class="feature__text">Domain Driven Design</p>
                         </div>
                         <div class="feature__bottom">
+                            <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                                <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
+                                <p class="feature__location">München ist ein langer Name<br>
+                                3.–5. August 2021</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="feature__footer">
-
-                    </div>
-                    <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
                     </div>
                 </li>
                 <li class="feature">
                     <div class="feature__body">
-                        <div class="feature__image"></div>
                         <div class="feature__top">
-                            <h3 class="feature__title"><a href="#" class="feature__link">Arne Landwehr</a></h3>
+                            <img class="feature__image" src="/snippet/images/profiles/Kim_Duggen.jpg"></img>
+                            <h3 class="feature__title"><a href="#" class="feature__link">Kim Nena Duggen</a></h3>
                             <p class="feature__text">Domain Driven Design</p>
                         </div>
                         <div class="feature__bottom">
+                            <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                                <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
+                                <p class="feature__location">München ist ein langer Name<br>
+                                3.–5. August 2021</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="feature__footer">
-
-                    </div>
-                    <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
                     </div>
                 </li>
                 <li class="feature">
+                    <div class="feature__body">
+                        <div class="feature__top">
+                            <img class="feature__image" src="/snippet/images/profiles/Joachim_Praetorius.jpg"></img>
+                            <h3 class="feature__title"><a href="#" class="feature__link">Joachim Praetorius</a></h3>
+                            <p class="feature__text">Domain Driven Design</p>
+                        </div>
+                        <div class="feature__bottom">
+                            <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                                <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
+                                <p class="feature__location">München ist ein langer Name<br>
+                                3.–5. August 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="feature">
                     <div class="feature__body">
                         <div class="feature__image"></div>
                         <div class="feature__top">
@@ -94,9 +108,9 @@ example view
 
                     </div>
                     <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
+                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, reprehenderit.</p>
                     </div>
-                </li>
+                </li> -->
             </ul>
         </section>
     </div>

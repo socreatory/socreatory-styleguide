@@ -827,17 +827,16 @@ label {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   transition: all 250ms ease;
 }
 
 .feature__image {
   display: block;
-  background: url("/snippet/images/profiles/Benjamin_Wolf.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
   height: 20rem;
-  // margin: 0 -2rem 0 -2rem;
+  width: 100%;
 }
 
 .feature__link {
@@ -864,25 +863,19 @@ label {
 .feature__body {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
-  justify-content: flex-start;
-  height: 100%;
+  justify-content: space-between;
+  // height: 19rem;
 }
 
-.feature__top {
-  // background-color: $brand-blue-light;
-  padding-top: $spacer-md;
-}
-
-.feature__footer {
-  // padding: $spacer-md;
-  // background-color: $brand-blue;
+.feature__top,
+.feature__bottom {
+  position: relative;
 }
 
 .feature__title {
   font-size: $font-size-xl;
   line-height: 1.2;
-  margin-bottom: $spacer-xxs;
+  margin: $spacer-xs 0 0 0;
 }
 
 .feature__text {
@@ -895,13 +888,15 @@ label {
   margin: 0.25rem 0 0 0;
 }
 
-.feature__date {
+.feature__training {
+  @extend %body-font-regular;
+  font-size: $font-size-md;
+  // margin: 0 0 $spacer-md 0;
+}
+
+.feature__location {
   @extend %body-font-regular;
   font-size: $font-size-md;
   margin: 0;
-}
-
-.feature__appendix {
-  margin-top: $spacer-sm;
-  font-size: $font-size-md;
+  padding: 0;
 }
