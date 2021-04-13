@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/trainerinnen.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/Trainer_innen.png" alt="">
         <h1 class="header__heading header__heading--centered">Deine Trainer:innen</h1>
     </div>
 </header>
@@ -42,10 +42,75 @@ example view
                 <p>Unsere Trainerinnen und Trainer brauchen keine Buzzwords und kein Fachchinesisch, um überzeugend zu klingen. Sie erzählen einfach aus Ihrem Alltag und teilen ihre persönlichen Erfahrungen. Sie vermitteln viel mehr als Fachwissen, sie motivieren mit ihrer Begeisterung für das jeweilige Fach. Und die Teilnehmenden profitieren nicht nur von den erworbenen Zertifikaten, sondern vor allem von dem in der Praxis erprobten Handwerkszeug, von echten Skills und hilfreichen Profi-Tipps.</p>
             </div>
         </section>
+
+        <section class="section section--home">
+            <h2 class="section__title--small"><span aria-hidden>-- </span>Trainer:innen im Feature</h2>
+            <ul class="features">
+                <li class="feature">
+                    <div class="feature__body">
+                        <div class="feature__image"></div>
+                        <div class="feature__top">
+                            <h3 class="feature__title"><a href="#" class="feature__link">Stefan Toth</a></h3>
+                            <p class="feature__text">Domain Driven Design</p>
+                        </div>
+                        <div class="feature__bottom">
+                        </div>
+                    </div>
+                    <div class="feature__footer">
+
+                    </div>
+                    <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
+                    </div>
+                </li>
+                <li class="feature">
+                    <div class="feature__body">
+                        <div class="feature__image"></div>
+                        <div class="feature__top">
+                            <h3 class="feature__title"><a href="#" class="feature__link">Arne Landwehr</a></h3>
+                            <p class="feature__text">Domain Driven Design</p>
+                        </div>
+                        <div class="feature__bottom">
+                        </div>
+                    </div>
+                    <div class="feature__footer">
+
+                    </div>
+                    <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
+                    </div>
+                </li>
+                <li class="feature">
+                    <div class="feature__body">
+                        <div class="feature__image"></div>
+                        <div class="feature__top">
+                            <h3 class="feature__title"><a href="#" class="feature__link">Joachim Praetorius</a></h3>
+                            <p class="feature__text">Domain Driven Design</p>
+                        </div>
+                        <div class="feature__bottom">
+                        </div>
+                    </div>
+                    <div class="feature__footer">
+
+                    </div>
+                    <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
+                        <p class="feature__date">AGILA Seminar - München · 3.–5. August 2021</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </div>
 
     <div class="container__fullwidth">
+        <section class="section section--home">
+            <div class="quote quote--center">
+                <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.«</blockquote>
+                <div class="quote__name">Alexander Trapp</div>
+                <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
+            </div>
+        </section>
         <section class="section section">
+            <h2 class="section__title--small container__centered"><span aria-hidden>-- </span>Trainer:innen Übersicht</h2>
             <ul class="profiles">
                 <li class="profile">
                     <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">

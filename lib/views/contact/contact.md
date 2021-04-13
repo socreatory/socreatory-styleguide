@@ -29,7 +29,6 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <!-- <img class="header__image" src="/snippet/images/illustrations/softwarearchitektur.png" alt=""> -->
         <h1 class="header__heading header__heading--centered">Nimm Kontakt zu uns auf</h1>
     </div>
 </header>

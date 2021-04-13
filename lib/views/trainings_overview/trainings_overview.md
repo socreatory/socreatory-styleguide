@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/schulungen.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
         <h1 class="header__heading header__heading--centered">Alle Schulungen im Überblick</h1>
     </div>
 </header>

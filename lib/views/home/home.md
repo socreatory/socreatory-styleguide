@@ -23,7 +23,7 @@ example view
     <div class="container__fullwidth">
         <div class="hero__teaser">
             <div class="teaser__column">
-                <img class="hero__image" src="/snippet/images/illustrations/softwarearchitektur.png" alt="">
+                <img class="hero__image" src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="">
             </div>
             <div class="teaser__column">
                 <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
@@ -47,7 +47,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/ausbildungs-weg.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/Ausbildungsweg.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Gehe deinen eigenen Ausbildungsweg</h2>
@@ -171,22 +171,22 @@ example view
             <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
             <div class="textcolumns">
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/einzigartigevielfalt.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconeinzigartigevielfalt.png">
                     <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
                     <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/geballteitkompetenz.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconITkompetenz.png">
                     <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
                     <p class="textcolumn__text">Unsere erfahrenen Trainer:innen sind bekannte Größen in der Branche und haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/praxisnaheserlebnis.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconpraxisnah.png">
                     <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
                     <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde Wissensvermittlung. Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/fairprice.png">
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconfairprices.png">
                     <h3 class="textcolumn__heading">Faires Preismodell.</h3>
                     <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus deinem Unternehmen zahlst du nur die Hälfte. Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
                 </div>
@@ -209,7 +209,7 @@ example view
         <section class="section section--home">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/wersindwir.png" alt="">
+                    <img class="teaser__image" src="/snippet/images/illustrations/Wersindwir.png" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>

@@ -68,9 +68,9 @@ example view
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Ihr Nutzen</h2>
                     <div class="texttable markdown">
-                        <p class="texttable__cell">Dieses Seminar macht Methoden, praktische Techniken und hilfreiche Sichtweisen erlebbar.</p>
-                        <p class="texttable__cell">At vero eos et molestiae non ero tibique si mihi probabis ea quae sunt vitae.</p>
-                        <p class="texttable__cell">Quid ex eo delectu rerum quem modo ista sis aequitate quam nihil oportere exquisitis.</p>
+                        <p class="texttable__cell">Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei Moderni&shy;sierung&shy;svor&shy;haben gewachsener Systeme als auch beim Design neuer Systeme auf der »grünen Wiese«</p>
+                        <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen bis zur konti&shy;nuier&shy;lichen Auslieferung</p>
+                        <p class="texttable__cell">Anwendbar in allen Auf&shy;gabenfeldern der Softwarearchitektur unabhängig von Technologien und Sprachen</p>
                     </div>
                 </section>
                 <section class="section">
@@ -82,11 +82,19 @@ example view
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Lernziele</h2>
                     <div class="texttable markdown">
-                        <p class="texttable__cell">Legacy und Technische Schulden</p>
-                        <p class="texttable__cell">Praxistaugliche Analysemethoden kennen und anwenden können</p>
-                        <p class="texttable__cell">Szenario- und Metrik-basierte Bewertung</p>
-                        <p class="texttable__cell">Maßnahmen an Architekturzielen ausrichten</p>
-                        <p class="texttable__cell">Fitness Functions und evolutionäre Architektur</p>
+                        <p class="texttable__cell">Motivation: Schnelle IT als Wettbewerbsfaktor</p>
+                        <p class="texttable__cell">Gesetz von Conway: Software-Architekturen und Organisation</p>
+                        <p class="texttable__cell">Microservices und Self-contained Systems</p>
+                        <p class="texttable__cell">Domain-driven Design für Modularisierung: Bounded Context und Context Maps</p>
+                        <p class="texttable__cell">Selbstorganisation und Architektur: Mikro- und Makro-Architekturen</p>
+                        <p class="texttable__cell">Kommunikation: REST und Messaging</p>
+                        <p class="texttable__cell">Event-driven Front-End-Integration</p>
+                        <p class="texttable__cell">Datenreplikation</p>
+                        <p class="texttable__cell">Verteilte Sicherheitsmechanismen</p>
+                        <p class="texttable__cell">Moderne Infrastrukturen mit IaaS, PaaS und Container</p>
+                        <p class="texttable__cell">Continuous Delivery, Delivery Pipelines und Software-Architektur</p>
+                        <p class="texttable__cell">Metriken und Logging</p>
+                        <p class="texttable__cell">Ausblick: Konsistenzmodelle und Resilience</p>
                     </div>
                 </section>
 

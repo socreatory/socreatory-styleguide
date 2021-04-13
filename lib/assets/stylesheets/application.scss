@@ -53,14 +53,12 @@ Application specific code
 
 .container__centered {
   max-width: 100%;
-  margin: 0 $spacer-sm;
+  padding: 0 $spacer-md;
   @include for-tablet-portrait-up {
-    margin: 0 $spacer-md;
   }
   @include for-tablet-landscape-up {
     margin: 0 auto;
     max-width: $tablet-landscape;
-    padding: 0 $spacer-base;
   }
 }
 
@@ -290,7 +288,7 @@ Application specific code
   display: grid;
   gap: $spacer-base;
   @include for-tablet-portrait-up {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -455,6 +453,7 @@ Application specific code
 
 .quote--center {
   max-width: 100%;
+  padding: 0 $spacer-md;
   @include for-tablet-landscape-up {
     max-width: 70%;
     margin: auto;
@@ -486,6 +485,7 @@ Application specific code
 
 // Trainer Profiles
 .profiles {
+  padding: 0;
   display: grid;
   gap: $spacer-base;
   grid-template-columns: 1fr 1fr;
@@ -708,7 +708,12 @@ label {
 // Achtung-Box
 .achtung-box {
   padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
-  border: solid 0.125rem $brand-blue;
+  border: solid 0.25rem $brand-blue;
+}
+
+.achtung-box--narrow {
+  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+  // border: solid 0.25rem $brand-green;
 }
 
 // Trainer Overview
@@ -799,4 +804,104 @@ label {
 
 .form__field--invisible {
   display: none;
+}
+
+
+// Feature Trainer:in
+.features {
+  display: grid;
+  gap: $spacer-base;
+  grid-template-columns: 1fr;
+  margin-bottom: $spacer-lg;
+  padding-left: 0;
+  @include for-tablet-landscape-up {
+    // gap: 3.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include for-desktop-xl-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.feature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 250ms ease;
+}
+
+.feature__image {
+  display: block;
+  background: url("/snippet/images/profiles/Benjamin_Wolf.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  // margin: 0 -2rem 0 -2rem;
+}
+
+.feature__link {
+  text-decoration: none;
+  color: $brand-text;
+}
+
+.feature__link:hover {
+  text-decoration: underline;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
+}
+
+.feature__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.feature__body {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.feature__top {
+  // background-color: $brand-blue-light;
+  padding-top: $spacer-md;
+}
+
+.feature__footer {
+  // padding: $spacer-md;
+  // background-color: $brand-blue;
+}
+
+.feature__title {
+  font-size: $font-size-xl;
+  line-height: 1.2;
+  margin-bottom: $spacer-xxs;
+}
+
+.feature__text {
+  font-size: $font-size-md;
+}
+
+.feature__label {
+  @extend %body-font-bold;
+  font-size: $font-size-md;
+  margin: 0.25rem 0 0 0;
+}
+
+.feature__date {
+  @extend %body-font-regular;
+  font-size: $font-size-md;
+  margin: 0;
+}
+
+.feature__appendix {
+  margin-top: $spacer-sm;
+  font-size: $font-size-md;
 }

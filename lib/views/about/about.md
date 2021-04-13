@@ -29,7 +29,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/wersindwir.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="">
         <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran kannst du uns messen.</h1>
     </div>
 </header>
