@@ -40,8 +40,8 @@ example view
             <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2> -->
             <div class="filters">
                 <ul class="filters__list">
-                    <li class="filters__item filters__item--active"><a href="#">Alle Schulungen</a></li>
-                    <li class="filters__item"><a href="#">iSAQB Schulungen</a></li>
+                    <li class="filters__item filters__item--active"><a href="#" class="filter__item__link">Alle Schulungen</a></li>
+                    <li class="filters__item"><a href="#" class="filter__item__link">iSAQB Schulungen</a></li>
                 </ul>
             </div>
             <ul class="cards">
