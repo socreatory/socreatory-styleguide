@@ -54,8 +54,6 @@ Application specific code
 .container__centered {
   max-width: 100%;
   padding: 0 $spacer-md;
-  @include for-tablet-portrait-up {
-  }
   @include for-tablet-landscape-up {
     margin: 0 auto;
     max-width: $tablet-landscape;
@@ -805,7 +803,6 @@ label {
 .form__field--invisible {
   display: none;
 }
-
 
 // Feature Trainer:in
 .features {
