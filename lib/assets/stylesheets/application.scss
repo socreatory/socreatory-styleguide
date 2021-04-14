@@ -652,6 +652,10 @@ label {
 .filters__item {
   display: block;
   text-align: center;
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   @include for-breakpoint-phone-up {
     display: inline;
     text-align: left;
@@ -664,16 +668,12 @@ label {
   margin-top: 2rem;
 }
 
-.filters__item__link {
-  @extend %monospace-font-regular;
-  font-size: $font-size-md;
+.filters__link {
   color: $brand-text;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
 }
 
-.filters__item__link:hover {
+.filters__item:hover {
   color: $brand-text;
   text-decoration: underline;
   text-underline-offset: 0.45rem;
