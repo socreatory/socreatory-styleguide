@@ -107,7 +107,7 @@ em {
 }
 
 // Links
-p a {
+p a, {
   color: $brand-text;
   text-decoration-color: $brand-green;
   text-underline-offset: 0.25rem;
@@ -122,6 +122,13 @@ p a:hover {
 .heading__link {
   color: $brand-text;
   text-decoration: none;
+}
+
+.heading__link:hover {
+  text-decoration: underline;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
 }
 
 .paragraph__h2 {
