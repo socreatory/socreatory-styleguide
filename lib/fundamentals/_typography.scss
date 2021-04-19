@@ -94,7 +94,8 @@ $paragraph-line-height: 1.5; // Add your own value here
   font-style: normal;
 }
 
-strong {
+strong,
+b {
   @extend %body-font-bold;
 }
 
