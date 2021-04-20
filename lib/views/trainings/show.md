@@ -46,9 +46,15 @@ example view
                         <img class="article__image" src="https://www.innoq.com/de/trainings/isaqb/header.jpg"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
                         <ul class="unordered-list">
-                            <li class="unordered-list__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
-                            <li class="unordered-list__item">Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
-                            <li class="unordered-list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li class="unordered-list__item"><p>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p></li>
+                            <li class="unordered-list__item"><p>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                            <li class="unordered-list__item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                            <li class="unordered-list__item"><p>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p></li>
+                            <li class="unordered-list__item"><p>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                            <li class="unordered-list__item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                            <li class="unordered-list__item"><p>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p></li>
+                            <li class="unordered-list__item"><p>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+                            <li class="unordered-list__item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
                         </ul>
                         <ol class="ordered-list">
                             <li class="ordered-list__item">Lorem, ipsum dolor</li>

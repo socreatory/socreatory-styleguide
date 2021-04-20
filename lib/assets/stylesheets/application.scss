@@ -278,7 +278,7 @@ Application specific code
 
 .unordered-list__item + .unordered-list__item,
 .ordered-list__item + .ordered-list__item {
-  margin-top: $spacer-xs;
+  // margin-top: $spacer-base;
 }
 
 // Komponente Schlagworttabelle (Ihr Nutzen)
