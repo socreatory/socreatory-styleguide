@@ -30,7 +30,7 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Ausbildungnachisaqb.png" alt="">
-        <h1 class="header__heading header__heading--centered">International anerkannte Ausbildung für Software-Architektur</h1>
+        <h1 class="header__heading header__heading--centered">International anerkannte Weiterbildung für Menschen, die an Software arbeiten</h1>
     </div>
 </header>
 
