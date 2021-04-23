@@ -36,10 +36,6 @@
   font-size: $font-size-base;
 }
 
-.pretix-widget-item-title {
-  font-size: $font-size-sm;
-}
-
 .pretix-widget-item-description p {
   font-size: $font-size-sm;
 }
@@ -62,8 +58,20 @@
   width: 100%;
 }
 
+.pretix-widget-item-title {
+  font-size: $font-size-md;
+}
+
 .pretix-widget-pricebox {
   font-size: $font-size-lg;
+}
+
+.pretix-widget-pricebox-new-price {
+  text-decoration: none;
+}
+
+.pretix-widget-pricebox-original-price {
+  font-size: $font-size-md;
 }
 
 // Pretix Achtung Box
@@ -157,7 +165,7 @@
 
 // Link
 .pretix-widget-attribution {
-  // margin-top: -$spacer-sm;
+  text-align: right;
 }
 
 .pretix-widget-attribution a {
@@ -165,13 +173,13 @@
   color: $brand-text;
   text-decoration: none;
   text-decoration-color: $brand-green;
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 1.25rem;
   transition: all 0.1s ease-out;
 }
 
 .pretix-widget-attribution a:hover {
   text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
   text-decoration-color: $brand-green;
 }
 
