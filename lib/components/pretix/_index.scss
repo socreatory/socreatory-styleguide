@@ -1,0 +1,196 @@
+.pretix-widget-wrapper {
+  margin-bottom: $spacer-lg;
+  // padding: 0;
+}
+
+.resize-observer {
+  height: 0;
+}
+
+.pretix-widget-event-list-entry {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: $spacer-md;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Termin Name
+.pretix-widget-event-list-entry-name,
+.pretix-widget-event-header,
+.pretix-widget-category-name {
+  @extend %body-font-bold;
+  font-size: $font-size-base;
+}
+
+// Termin Datum und Uhrzeit
+.pretix-widget-event-list-entry-date,
+.pretix-widget-event-details {
+  font-size: $font-size-base;
+}
+
+// Termin Ort
+.pretix-widget-event-list-entry-location {
+  padding-bottom: $spacer-xs;
+  font-size: $font-size-base;
+}
+
+.pretix-widget-item-title {
+  font-size: $font-size-sm;
+}
+
+.pretix-widget-item-description p {
+  font-size: $font-size-sm;
+}
+
+.pretix-widget-item-row {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: $spacer-md;
+}
+
+.pretix-widget-item-price-col {
+}
+
+.pretix-widget-item-availability-col {
+  // width: 7rem;
+}
+
+.pretix-widget-item-title-and-description {
+  display: block;
+  width: 100%;
+}
+
+.pretix-widget-pricebox {
+  font-size: $font-size-lg;
+}
+
+// Pretix Achtung Box
+.pretix-widget-info-message {
+  display: flex;
+  flex-direction: column-reverse;
+  border: solid 0.25rem $brand-blue;
+  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+  margin: $spacer-md 0;
+}
+
+.pretix-widget-resume-button {
+  display: block;
+  width: 100%;
+  @extend %body-font-bold;
+  font-size: $font-size-sm;
+  color: $brand-text;
+  background-color: $brand-background;
+  padding: 1rem 2rem;
+  margin-top: $spacer-md;
+  border: 0.25rem solid $brand-text;
+  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pretix-widget-resume-button:hover,
+.pretix-widget-resume-button:focus {
+  background-color: $brand-background-dark;
+  border: 0.25rem solid $brand-text;
+  cursor: pointer;
+}
+
+// Input Feld Anzahl
+.pretix-widget-item-count-multiple {
+  color: $brand-text;
+  margin: 0;
+  padding: $spacer-xl;
+  font-size: $font-size-base;
+}
+
+.pretix-widget-item-count-multiple {
+  @extend %body-font-regular;
+  font-size: $font-size-base;
+  padding: $spacer-xs;
+  border: none;
+  border-bottom: solid 0.2rem $brand-text;
+  width: 100%;
+  background-color: $brand-background-dark;
+  transition: all 0.15s ease-out;
+}
+
+.pretix-widget-item-count-multiple:focus {
+  outline: none;
+  background-color: $brand-background;
+}
+
+
+// Button
+.pretix-widget-event-list-entry-availability,
+.pretix-widget-action button {
+  display: block;
+  width: 100%;
+  @extend %body-font-bold;
+  font-size: $font-size-sm;
+  color: $brand-background;
+  background-color: $brand-text;
+  padding: 1rem 2rem;
+  border: 0.25rem solid $brand-text;
+  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pretix-widget-event-list-entry-availability:hover,
+.pretix-widget-event-list-entry-availability:focus {
+  color: $brand-background;
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
+  cursor: pointer;
+}
+
+// Button in den Warenkorb
+.pretix-widget-action {}
+
+// Link
+.pretix-widget-attribution {
+  // margin-top: -$spacer-sm;
+}
+
+.pretix-widget-attribution a {
+  font-size: $font-size-xs;
+  color: $brand-text;
+  text-decoration: none;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 1.25rem;
+  transition: all 0.1s ease-out;
+}
+
+.pretix-widget-attribution a:hover {
+  text-decoration: underline;
+  text-decoration-color: $brand-green;
+}
+
+// Back Button
+.pretix-widget-event-list-back {
+  @extend %monospace-font-regular;
+  font-size: $font-size-sm;
+  display: inline-block;
+  margin-bottom: $spacer-sm;
+}
+
+.pretix-widget-event-list-back a {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+.pretix-widget-event-list-back a:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+}

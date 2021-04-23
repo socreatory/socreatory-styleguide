@@ -25,6 +25,7 @@ Application specific code
 @import "../../components/breadcrumb";
 @import "../../components/pills";
 @import "../../components/cards";
+@import "../../components/pretix";
 
 // Blueprints
 @import "../../blueprints/example-layout";
@@ -121,7 +122,7 @@ Application specific code
 .header {
   padding: $spacer-lg + 4rem 0 $spacer-lg 0;
   margin-bottom: $spacer-sm;
-  @include for-tablet-portrait-up {
+  @include for-tablet-landscape-up {
     margin-bottom: $spacer-xl;
   }
 }

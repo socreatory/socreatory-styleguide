@@ -146,11 +146,48 @@ example view
             </div>
             <div id="booking" class="layout-main-with-sidebar__sidebar sidebar">
                 <div class="layout-main-with-sidebar__sidebar">
-                    <p>Buchungswidget</p>
+                    <h3>Termine</h3>
+                    <!-- Pretix Widget -->
+                    <div class="pretix-widget-wrapper" event="https://pretix.eu/socreatory/adoc/">
+                        <div class="pretix-widget pretix-widget-mobile">
+                            <div data-v-b329ee4c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1"
+                                    type="text/html" data="about:blank"></object></div>
+                            <div class="pretix-widget-loading" style="display: none;"><svg width="128" height="128" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm512-109v222q0 12-8 23t-20 13l-185 28q-19 54-39 91 35 50 107 138 10 12 10 25t-9 23q-27 37-99 108t-94 71q-12 0-26-9l-138-108q-44 23-91 38-16 136-29 186-7 28-36 28h-222q-14 0-24.5-8.5t-11.5-21.5l-28-184q-49-16-90-37l-141 107q-10 9-25 9-14 0-25-11-126-114-165-168-7-10-7-23 0-12 8-23 15-21 51-66.5t54-70.5q-27-50-41-99l-183-27q-13-2-21-12.5t-8-23.5v-222q0-12 8-23t19-13l186-28q14-46 39-92-40-57-107-138-10-12-10-24 0-10 9-23 26-36 98.5-107.5t94.5-71.5q13 0 26 10l138 107q44-23 91-38 16-136 29-186 7-28 36-28h222q14 0 24.5 8.5t11.5 21.5l28 184q49 16 90 37l142-107q9-9 24-9 13 0 25 10 129 119 165 170 7 8 7 22 0 12-8 23-15 21-51 66.5t-54 70.5q26 50 41 98l183 28q13 2 21 12.5t8 23.5z"
+                                        class="pretix-widget-primary-color"></path>
+                                </svg></div>
+                            <!---->
+                            <!---->
+                            <div class="pretix-widget-event-list">
+                                <!---->
+                                <!---->
+                                <!----><a
+                                    class="pretix-widget-event-list-entry pretix-widget-event-availability-green pretix-widget-event-availability-ok">
+                                    <div class="pretix-widget-event-list-entry-name">ADOC - Stefan Zörner</div>
+                                    <div class="pretix-widget-event-list-entry-date">26.–27. Juli 2021 09:30</div>
+                                    <div class="pretix-widget-event-list-entry-location">Online</div>
+                                    <div class="pretix-widget-event-list-entry-availability"><span>Jetzt buchen</span></div>
+                                </a><a
+                                    class="pretix-widget-event-list-entry pretix-widget-event-availability-green pretix-widget-event-availability-ok">
+                                    <div class="pretix-widget-event-list-entry-name">ADOC</div>
+                                    <div class="pretix-widget-event-list-entry-date">3.–4. November 2021 09:30</div>
+                                    <div class="pretix-widget-event-list-entry-location">Online</div>
+                                    <div class="pretix-widget-event-list-entry-availability"><span>Jetzt buchen</span></div>
+                                </a>
+                            </div>
+                            <!---->
+                            <!---->
+                            <div class="pretix-widget-clear"></div>
+                            <div class="pretix-widget-attribution"><a href="https://pretix.eu" target="_blank"
+                                    rel="noopener">Event-Ticketing-Software von pretix</a></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="layout-main-with-sidebar__sidebar">
-                    <h3>Inhouse Schulung</h3>
-                    <p>Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
+                    <h3>Inhouse Training</h3>
+                    <p>Sie können diese Training auch als inhouse-Training exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
                     <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
                 </div>
             </div>
