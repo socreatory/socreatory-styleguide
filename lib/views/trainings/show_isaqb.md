@@ -333,7 +333,7 @@ example view
                 </div>
                 <div class="layout-main-with-sidebar__sidebar">
                     <h3>Inhouse Schulung</h3>
-                    <p>Sie können diese Schulung auch als inhouse Schulung exklusiv bei Ihnen buchen. Bitte nutzen Sie dafür unser Anfrage-Formular.</p>
+                    <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
                     <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
                 </div>
             </div>
