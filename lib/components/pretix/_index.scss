@@ -40,17 +40,35 @@
   font-size: $font-size-sm;
 }
 
+.pretix-widget-item {
+  margin-bottom: $spacer-xs;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .pretix-widget-item-row {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: $spacer-md;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: $spacer-md;
+  row-gap: $spacer-xs;
+}
+
+.pretix-widget-item-info-col {
+  grid-column: 1 / -1;
+  grid-row: 2;
 }
 
 .pretix-widget-item-price-col {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
 }
 
 .pretix-widget-item-availability-col {
-  // width: 7rem;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .pretix-widget-item-title-and-description {
@@ -110,20 +128,16 @@
 
 // Input Feld Anzahl
 .pretix-widget-item-count-multiple {
-  color: $brand-text;
   margin: 0;
-  padding: $spacer-xl;
-  font-size: $font-size-base;
-}
-
-.pretix-widget-item-count-multiple {
-  @extend %body-font-regular;
-  font-size: $font-size-base;
   padding: $spacer-xs;
+  color: $brand-text;
+  background-color: $brand-background-dark;
+  @extend %body-font-regular;
+  font-size: $font-size-lg;
+  text-align: center;
   border: none;
   border-bottom: solid 0.2rem $brand-text;
   width: 100%;
-  background-color: $brand-background-dark;
   transition: all 0.15s ease-out;
 }
 
@@ -131,7 +145,6 @@
   outline: none;
   background-color: $brand-background;
 }
-
 
 // Button
 .pretix-widget-event-list-entry-availability,
