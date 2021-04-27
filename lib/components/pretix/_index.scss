@@ -76,7 +76,9 @@
   color: $brand-text;
 }
 
-.pretix-widget .pretix-widget-event-list-entry:hover, .pretix-widget .pretix-widget-event-list-entry:active, .pretix-widget .pretix-widget-event-list-entry:focus {
+.pretix-widget .pretix-widget-event-list-entry:hover,
+.pretix-widget .pretix-widget-event-list-entry:active,
+.pretix-widget .pretix-widget-event-list-entry:focus {
   background-color: $brand-background;
 }
 
@@ -85,9 +87,15 @@
 .pretix-widget .pretix-widget-event-header,
 .pretix-widget .pretix-widget-item-title {
   @extend %heading-font-bold;
-  font-size: $font-size-base;
+  font-size: $font-size-lg;
   padding: 0;
   text-align: left;
+}
+
+.pretix-widget-item-title-and-description {
+  display: block;
+  padding: 0;
+  margin-bottom: -$spacer-xxs * 0.7;
 }
 
 // Training Uhrzeit
@@ -129,19 +137,38 @@
   text-align: left;
 }
 
-.pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col, .pretix-widget.pretix-widget-mobile .pretix-widget-item-availability-col {
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col,
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-availability-col {
   width: 100%;
+}
+
+// Preis
+.pretix-widget-pricebox {
+  font-size: $font-size-lg;
+}
+.pretix-widget-pricebox span {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: baseline;
 }
 
 // Preis ungültig
 .pretix-widget del.pretix-widget-pricebox-original-price {
   color: $gray-50;
+  font-size: $font-size-base;
+  margin-left: $spacer-sm;
 }
 
 // Preis gültig
 .pretix-widget ins.pretix-widget-pricebox-new-price {
   @extend %heading-font-regular;
-  font-size: $font-size-xl;
+  font-size: $font-size-lg;
+}
+
+// MwSt.
+.pretix-widget .pretix-widget-pricebox-tax {
+  font-size: $font-size-sm;
 }
 
 .pretix-widget .pretix-widget-item-availability-col {
@@ -154,16 +181,25 @@
   display: none;
 }
 
+//  Description
+.pretix-widget .pretix-widget-item-description p,
+.pretix-widget-item-meta small {
+  font-size: $font-size-sm;
+}
+
 // Input Feld
-.pretix-widget input[type="text"], .pretix-widget input[type="number"], .pretix-widget-alert-box input[type="text"], .pretix-widget-alert-box input[type="number"] {
-  width: 6rem;
+.pretix-widget input[type="text"],
+.pretix-widget input[type="number"],
+.pretix-widget-alert-box input[type="text"],
+.pretix-widget-alert-box input[type="number"] {
+  width: 4rem;
   height: 4rem;
   // padding-left: 1.5rem;
   margin: 0;
   color: $brand-text;
   background-color: $brand-background-dark;
   @extend %body-font-regular;
-  font-size: $font-size-xl;
+  font-size: $font-size-lg;
   text-align: center;
   border: none;
   border-radius: 0;
@@ -171,6 +207,77 @@
   transition: all 0.15s ease-out;
   box-shadow: none;
 }
+
+.pretix-widget input[type="text"]:focus,
+.pretix-widget input[type="number"]:focus,
+.pretix-widget-alert-box input[type="text"]:focus,
+.pretix-widget-alert-box input[type="number"]:focus,
+.pretix-widget input[type="text"]:active,
+.pretix-widget input[type="number"]:active,
+.pretix-widget-alert-box input[type="text"]:active,
+.pretix-widget-alert-box input[type="number"]:active, {
+  box-shadow: none;
+  border-bottom: solid 0.2rem $brand-text;
+  background-color: $brand-background;
+}
+
+// Checkbox
+.pretix-widget .pretix-widget-item-count-single-label input {
+
+}
+ input[type="checkbox"] {
+  -moz-appearance: None;
+  -webkit-appearance: none;
+  width: 4rem;
+  height: 4rem;
+  background-color: $brand-background-dark;
+  // background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2518%2FPNG%2F512%2Fcheckbox_icon_151467.png&sp=1619553329T3ccd5fb48dd225be75a6c21c69fd77d2cd2a73eedba7d4f20cf25c44cd7e256b);
+  background-size: 4rem 4rem;
+  background-position: Center Center;
+  vertical-align: Middle;
+  // outline: none;
+  // border-radius: 1.5rem;
+  border: solid 0.2rem $brand-text;
+  vertical-align: Middle;
+  transition: all 0.15s ease-out;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F8c%2FWhite_check_mark_in_dark_green_rounded_square.svg%2F600px-White_check_mark_in_dark_green_rounded_square.svg.png&sp=1619555791T1ecee36d3d5c76fd738f350ce3798346b0171bd783d8d34af0e2d5e66ee1b050);
+  // background-color: $brand-green;
+ }
+
+// Button
+.pretix-widget .pretix-widget-action {
+  padding: 0;
+}
+
+.pretix-widget .pretix-widget-action button {
+  display: block;
+  width: 100%;
+  @extend %body-font-bold;
+  font-size: $font-size-sm;
+  color: $brand-background;
+  background-color: $brand-text;
+  padding: 1rem 2rem;
+  margin-top: $spacer-md;
+  border: 0.25rem solid $brand-text;
+  border-radius: 0;
+  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pretix-widget .pretix-widget-action button:hover,
+.pretix-widget .pretix-widget-action button:focus {
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
+  cursor: pointer;
+}
+
 
 // .pretix-widget-item-description p {
 //   font-size: $font-size-sm;
@@ -188,18 +295,9 @@
 //   grid-row: 1;
 // }
 
-// .pretix-widget-item-title-and-description {
-//   display: block;
-//   width: 100%;
-// }
-
 // .pretix-widget-item-title {
 //   font-size: $font-size-base;
 //   line-height: $font-size-md;
-// }
-
-// .pretix-widget-pricebox {
-//   font-size: $font-size-lg;
 // }
 
 // .pretix-widget-pricebox-new-price {
