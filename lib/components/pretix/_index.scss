@@ -1,187 +1,317 @@
 .pretix-widget-wrapper {
   margin-bottom: $spacer-lg;
-  // padding: 0;
 }
 
-.resize-observer {
-  height: 0;
+.pretix-widget {
+  border: 0;
+  padding: 0;
 }
 
+//  Termin Wrapper
 .pretix-widget-event-list-entry {
   display: inline-block;
   width: 100%;
-  margin-bottom: $spacer-md;
+  padding: 0;
+  margin-bottom: $spacer-base;
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+// Einzelner Termin
+.pretix-widget .pretix-widget-event-list {
+  padding: 0;
 }
 
 // Termin Name
-.pretix-widget-event-list-entry-name,
-.pretix-widget-event-header,
-.pretix-widget-category-name {
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
   @extend %body-font-bold;
   font-size: $font-size-base;
+  padding: 0;
 }
 
-// Termin Datum und Uhrzeit
-.pretix-widget-event-list-entry-date,
-.pretix-widget-event-details {
+// Termin Datum
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
+  padding: 0;
   font-size: $font-size-base;
 }
 
-// Termin Ort
-.pretix-widget-event-list-entry-location {
-  padding-bottom: $spacer-xs;
+// Termin Location
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-location {
+  display: inline;
+  padding: 0;
   font-size: $font-size-base;
 }
 
-.pretix-widget-item-description p {
-  font-size: $font-size-sm;
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
+  background-color: $brand-background;
+  border: 0;
+  padding: 0;
+  text-align: left;
 }
 
-.pretix-widget-item {
-  margin-bottom: $spacer-xs;
-  &:last-child {
-    margin-bottom: 0;
-  }
+// Link Jetzt buchen
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span {
+  @extend %heading-font-regular;
+  font-size: $font-size-base;
+  letter-spacing: 0;
+  padding: 0;
+  color: $brand-text;
+  background-color: $brand-background;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: $spacer-xs;
+  text-decoration-color: $brand-green;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
+  transition: all 0.1s ease-out;
 }
 
-.pretix-widget-item-row {
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span:hover {
+  text-decoration-color: $brand-green-light;
+}
+
+// Termin Hover ausschalten
+.pretix-widget a:hover {
+  color: $brand-text;
+}
+
+.pretix-widget .pretix-widget-event-list-entry:hover, .pretix-widget .pretix-widget-event-list-entry:active, .pretix-widget .pretix-widget-event-list-entry:focus {
+  background-color: $brand-background;
+}
+
+// // // // Part2
+// Training Titel
+.pretix-widget .pretix-widget-event-header,
+.pretix-widget .pretix-widget-item-title {
+  @extend %heading-font-bold;
+  font-size: $font-size-base;
+  padding: 0;
+  text-align: left;
+}
+
+// Training Uhrzeit
+.pretix-widget .pretix-widget-event-details {
+  @extend %heading-font-regular;
+  font-size: $font-size-base;
+  padding: 0;
+  text-align: left;
+  margin-bottom: $spacer-base;
+}
+
+// Preise und Beschreibungen innerhalb des Termins
+// Grid
+.pretix-widget .pretix-widget-item-row {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 1fr;
   column-gap: $spacer-md;
-  row-gap: $spacer-xs;
+  row-gap: 0;
 }
 
-.pretix-widget-item-info-col {
+.pretix-widget .pretix-widget-item-info-col {
+  padding: 0;
   grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-info-col {
+  margin: 0;
+}
+
+.pretix-widget .pretix-widget-item-price-col {
+  padding: 0;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+}
+
+.pretix-widget .pretix-widget-item-price-col {
+  text-align: left;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col, .pretix-widget.pretix-widget-mobile .pretix-widget-item-availability-col {
+  width: 100%;
+}
+
+// Preis ungültig
+.pretix-widget del.pretix-widget-pricebox-original-price {
+  color: $gray-50;
+}
+
+// Preis gültig
+.pretix-widget ins.pretix-widget-pricebox-new-price {
+  @extend %heading-font-regular;
+  font-size: $font-size-xl;
+}
+
+.pretix-widget .pretix-widget-item-availability-col {
+  padding: 0;
+  grid-column: 2;
   grid-row: 2;
 }
 
-.pretix-widget-item-price-col {
-  grid-column: 1;
-  grid-row: 1;
-  display: flex;
-  align-items: center;
+.pretix-widget .pretix-widget-category-name {
+  display: none;
 }
 
-.pretix-widget-item-availability-col {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.pretix-widget-item-title-and-description {
-  display: block;
-  width: 100%;
-}
-
-.pretix-widget-item-title {
-  font-size: $font-size-base;
-  line-height: $font-size-md;
-}
-
-.pretix-widget-pricebox {
-  font-size: $font-size-lg;
-}
-
-.pretix-widget-pricebox-new-price {
-  text-decoration: none;
-}
-
-.pretix-widget-pricebox-original-price {
-  font-size: $font-size-md;
-}
-
-// Pretix Achtung Box
-.pretix-widget-info-message {
-  display: flex;
-  flex-direction: column-reverse;
-  border: solid 0.25rem $brand-blue;
-  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
-  margin: $spacer-md 0;
-}
-
-.pretix-widget-resume-button {
-  display: block;
-  width: 100%;
-  @extend %body-font-bold;
-  font-size: $font-size-sm;
-  color: $brand-text;
-  background-color: $brand-background;
-  padding: 1rem 2rem;
-  margin-top: $spacer-md;
-  border: 0.25rem solid $brand-text;
-  transition: all 0.15s ease-out;
-  letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.pretix-widget-resume-button:hover,
-.pretix-widget-resume-button:focus {
-  background-color: $brand-background-dark;
-  border: 0.25rem solid $brand-text;
-  cursor: pointer;
-}
-
-// Input Feld Anzahl
-.pretix-widget-item-count-multiple {
+// Input Feld
+.pretix-widget input[type="text"], .pretix-widget input[type="number"], .pretix-widget-alert-box input[type="text"], .pretix-widget-alert-box input[type="number"] {
+  width: 6rem;
+  height: 4rem;
+  // padding-left: 1.5rem;
   margin: 0;
-  padding: $spacer-xs;
   color: $brand-text;
   background-color: $brand-background-dark;
   @extend %body-font-regular;
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
   text-align: center;
   border: none;
+  border-radius: 0;
   border-bottom: solid 0.2rem $brand-text;
-  width: 100%;
   transition: all 0.15s ease-out;
+  box-shadow: none;
 }
 
-.pretix-widget-item-count-multiple:focus {
-  outline: none;
-  background-color: $brand-background;
+// .pretix-widget-item-description p {
+//   font-size: $font-size-sm;
+// }
+
+// .pretix-widget-item {
+//   margin-bottom: $spacer-xs;
+//   &:last-child {
+//     margin-bottom: 0;
+//   }
+// }
+
+// .pretix-widget-item-availability-col {
+//   grid-column: 2;
+//   grid-row: 1;
+// }
+
+// .pretix-widget-item-title-and-description {
+//   display: block;
+//   width: 100%;
+// }
+
+// .pretix-widget-item-title {
+//   font-size: $font-size-base;
+//   line-height: $font-size-md;
+// }
+
+// .pretix-widget-pricebox {
+//   font-size: $font-size-lg;
+// }
+
+// .pretix-widget-pricebox-new-price {
+//   text-decoration: none;
+// }
+
+// .pretix-widget-pricebox-original-price {
+//   font-size: $font-size-md;
+// }
+
+// // Pretix Achtung Box
+// .pretix-widget-info-message {
+//   display: flex;
+//   flex-direction: column-reverse;
+//   border: solid 0.25rem $brand-blue;
+//   padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+//   margin: $spacer-md 0;
+// }
+
+// .pretix-widget-resume-button {
+//   display: block;
+//   width: 100%;
+//   @extend %body-font-bold;
+//   font-size: $font-size-sm;
+//   color: $brand-text;
+//   background-color: $brand-background;
+//   padding: 1rem 2rem;
+//   margin-top: $spacer-md;
+//   border: 0.25rem solid $brand-text;
+//   transition: all 0.15s ease-out;
+//   letter-spacing: 0.12rem;
+//   word-spacing: 0.25rem;
+//   text-align: center;
+//   text-transform: uppercase;
+//   text-decoration: none;
+// }
+
+// .pretix-widget-resume-button:hover,
+// .pretix-widget-resume-button:focus {
+//   background-color: $brand-background-dark;
+//   border: 0.25rem solid $brand-text;
+//   cursor: pointer;
+// }
+
+// // Input Feld Anzahl
+// .pretix-widget-item-count-multiple {
+//   margin: 0;
+//   padding: $spacer-xs;
+//   color: $brand-text;
+//   background-color: $brand-background-dark;
+//   @extend %body-font-regular;
+//   font-size: $font-size-lg;
+//   text-align: center;
+//   border: none;
+//   border-bottom: solid 0.2rem $brand-text;
+//   width: 100%;
+//   transition: all 0.15s ease-out;
+// }
+
+// .pretix-widget-item-count-multiple:focus {
+//   outline: none;
+//   background-color: $brand-background;
+// }
+
+// // Button
+// .pretix-widget-event-list-entry-availability,
+// .pretix-widget-action button {
+//   display: block;
+//   width: 100%;
+//   @extend %body-font-bold;
+//   font-size: $font-size-sm;
+//   color: $brand-background;
+//   background-color: $brand-text;
+//   padding: 1rem 2rem;
+//   border: 0.25rem solid $brand-text;
+//   transition: all 0.15s ease-out;
+//   letter-spacing: 0.12rem;
+//   word-spacing: 0.25rem;
+//   text-align: center;
+//   text-transform: uppercase;
+//   text-decoration: none;
+// }
+
+// .pretix-widget-event-list-entry-availability:hover,
+// .pretix-widget-event-list-entry-availability:focus {
+//   color: $brand-background;
+//   background-color: $gray-90;
+//   border: 0.25rem solid $gray-90;
+//   cursor: pointer;
+// }
+
+// // Button in den Warenkorb
+// .pretix-widget-action {
+//   // empty
+// }
+
+// Loading Icon
+.pretix-widget-primary-color {
+  fill: $brand-blue;
 }
 
-// Button
-.pretix-widget-event-list-entry-availability,
-.pretix-widget-action button {
-  display: block;
+.pretix-widget .pretix-widget-loading {
+  background: $brand-background;
   width: 100%;
-  @extend %body-font-bold;
-  font-size: $font-size-sm;
-  color: $brand-background;
-  background-color: $brand-text;
-  padding: 1rem 2rem;
-  border: 0.25rem solid $brand-text;
-  transition: all 0.15s ease-out;
-  letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.pretix-widget-event-list-entry-availability:hover,
-.pretix-widget-event-list-entry-availability:focus {
-  color: $brand-background;
-  background-color: $gray-90;
-  border: 0.25rem solid $gray-90;
-  cursor: pointer;
-}
-
-// Button in den Warenkorb
-.pretix-widget-action {
-  // empty
 }
 
 // Link
-.pretix-widget-attribution {
-  text-align: right;
+.pretix-widget .pretix-widget-attribution {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  text-align: left;
 }
 
 .pretix-widget-attribution a {
@@ -204,12 +334,13 @@
   @extend %monospace-font-regular;
   font-size: $font-size-sm;
   display: inline-block;
-  margin-bottom: $spacer-sm;
+  margin-bottom: $spacer-base;
 }
 
 .pretix-widget-event-list-back a {
   color: $brand-text;
   text-decoration: none;
+  text-align: left;
 }
 
 .pretix-widget-event-list-back a:hover {

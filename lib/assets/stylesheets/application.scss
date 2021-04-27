@@ -10,6 +10,7 @@ Fundamental Stylings
 @import "../../fundamentals/breakpoints";
 @import "../../fundamentals/shadows";
 @import "../../fundamentals/spacers";
+@import "https://pretix.eu/socreatory/adoc/widget/v1.css";
 
 /*
 Application specific code
@@ -423,7 +424,6 @@ Application specific code
 // Rating
 .stars {
   --percent: calc(var(--rating) / 5 * 100%);
-
   display: inline-block;
   font-size: $font-size-xl;
   font-family: Arial, Helvetica, sans-serif;

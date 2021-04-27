@@ -1,9 +1,10 @@
- title: Training Detail iSAQB
+title: Training Detail iSAQB
 description: Show Training Detail iSAQB
 
 example view
 
 ```html
+<script type="text/javascript" src="https://pretix.eu/widget/v1.de.js" async></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <nav class="navbar">
@@ -137,200 +138,11 @@ example view
             </div>
             <div id="booking" class="layout-main-with-sidebar__sidebar sidebar">
                 <div class="layout-main-with-sidebar__sidebar">
+                    <h3>Termine & Buchung</h3>
                     <!-- Pretix Widget -->
-                    <div class="pretix-widget-wrapper" event="https://pretix.eu/socreatory/adoc/">
-                        <div class="pretix-widget pretix-widget-mobile">
-                            <div data-v-b329ee4c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1"
-                                    type="text/html" data="about:blank"></object></div>
-                            <div class="pretix-widget-loading" style="display: none;"><svg width="128" height="128" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm512-109v222q0 12-8 23t-20 13l-185 28q-19 54-39 91 35 50 107 138 10 12 10 25t-9 23q-27 37-99 108t-94 71q-12 0-26-9l-138-108q-44 23-91 38-16 136-29 186-7 28-36 28h-222q-14 0-24.5-8.5t-11.5-21.5l-28-184q-49-16-90-37l-141 107q-10 9-25 9-14 0-25-11-126-114-165-168-7-10-7-23 0-12 8-23 15-21 51-66.5t54-70.5q-27-50-41-99l-183-27q-13-2-21-12.5t-8-23.5v-222q0-12 8-23t19-13l186-28q14-46 39-92-40-57-107-138-10-12-10-24 0-10 9-23 26-36 98.5-107.5t94.5-71.5q13 0 26 10l138 107q44-23 91-38 16-136 29-186 7-28 36-28h222q14 0 24.5 8.5t11.5 21.5l28 184q49 16 90 37l142-107q9-9 24-9 13 0 25 10 129 119 165 170 7 8 7 22 0 12-8 23-15 21-51 66.5t-54 70.5q26 50 41 98l183 28q13 2 21 12.5t8 23.5z"
-                                        class="pretix-widget-primary-color"></path>
-                                </svg></div>
-                            <!---->
-                            <div class="pretix-widget-event-form">
-                                <div class="pretix-widget-event-list-back">
-                                    <!----><a href="#">‹ Anderen Termin auswählen</a>
-                                </div>
-                                <div class="pretix-widget-event-header"><strong>ADOC - Stefan Zörner</strong></div>
-                                <div class="pretix-widget-event-details">26.–27. Juli 2021 09:30</div>
-                                <!---->
-                                <form method="post"
-                                    action="https://pretix.eu/socreatory/adoc/w/60pdNeqJclHhCwnm/cart/add?iframe=1&amp;next=%2Fsocreatory%2Fadoc%2Fw%2F60pdNeqJclHhCwnm%2F&amp;take_cart_id=60pdNeqJclHhCwnmhByW8fSHP2choaSBfhIzY5HXsosxQrzE@kra4vasrb6jgukjh183v1snvp8cjdg6i"
-                                    target="_blank">
-                                    <!----><input type="hidden" name="subevent" value="1198840"><input type="hidden" name="widget_data"
-                                        value="{&quot;referer&quot;:&quot;https://preview.socreatory.com/trainings/72023cf40def-adoc&quot;}">
-                                    <!---->
-                                    <div class="pretix-widget-info-message pretix-widget-clickable"><button type="button"
-                                            class="pretix-widget-resume-button">Kauf fortsetzen</button>Sie haben einen aktiven Warenkorb
-                                        für diese Veranstaltung. Wenn Sie mehr Produkte auswählen, werden diese zu Ihrem Warenkorb
-                                        hinzugefügt.<div class="pretix-widget-clear"></div>
-                                    </div>
-                                    <!---->
-                                    <div class="pretix-widget-category">
-                                        <h3 class="pretix-widget-category-name">2-Tages-Training</h3>
-                                        <!---->
-                                        <div class="pretix-widget-category-items">
-                                            <div class="pretix-widget-item">
-                                                <div class="pretix-widget-item-row pretix-widget-main-item-row">
-                                                    <div class="pretix-widget-item-info-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-item-title-and-description"><strong
-                                                                class="pretix-widget-item-title">Teilnahmegebühr (Online) -
-                                                                EUaußerD</strong>
-                                                            <div class="pretix-widget-item-description">
-                                                                <p>Dieses Ticket gilt für Buchungen von Online-Veranstaltungen von
-                                                                    Teilnehmern aus dem EU-Raum, außerhalb Deutschlands.</p>
-                                                            </div>
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-item-price-col">
-                                                        <div class="pretix-widget-pricebox"><span>EUR 1.400,00</span>
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                        <!---->
-                                                        <!---->
-                                                    </div>
-                                                    <div class="pretix-widget-item-availability-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-availability-box">
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <div class="pretix-widget-availability-available">
-                                                                <!----><input type="number" placeholder="0" min="0" max="10"
-                                                                    name="item_108000" class="pretix-widget-item-count-multiple">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-clear"></div>
-                                                </div>
-                                                <!---->
-                                            </div>
-                                            <div class="pretix-widget-item">
-                                                <div class="pretix-widget-item-row pretix-widget-main-item-row">
-                                                    <div class="pretix-widget-item-info-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-item-title-and-description"><strong
-                                                                class="pretix-widget-item-title">Teilnahmegebühr Loyalty (Online) -
-                                                                EUaußerD</strong>
-                                                            <div class="pretix-widget-item-description">
-                                                                <p>Dieses Ticket gilt für Buchungen von Online-Veranstaltungen von
-                                                                    Teilnehmern aus dem EU-Raum, außerhalb Deutschlands.<br>
-                                                                    Wir freuen uns über Ihre Treue und senken Ihren Schulungspreis für
-                                                                    Folgebuchungen um 20%. Der Rabatt ist nicht mit anderen Rabatten
-                                                                    kombinierbar oder übertragbar und gilt max. 2 Jahre nach Beendigung
-                                                                    einer unserer Schulungen.<br>
-                                                                    Die Gewährung dieser Teilnahmegebühr erfolgt erst nach manueller
-                                                                    Prüfung.</p>
-                                                            </div>
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-item-price-col">
-                                                        <div class="pretix-widget-pricebox">
-                                                            <!----><span><del class="pretix-widget-pricebox-original-price">EUR
-                                                                    1.400,00</del> <ins class="pretix-widget-pricebox-new-price">EUR
-                                                                    1.120,00</ins></span>
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                        <!---->
-                                                        <!---->
-                                                    </div>
-                                                    <div class="pretix-widget-item-availability-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-availability-box">
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <div class="pretix-widget-availability-available">
-                                                                <!----><input type="number" placeholder="0" min="0" max="10"
-                                                                    name="item_108003" class="pretix-widget-item-count-multiple">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-clear"></div>
-                                                </div>
-                                                <!---->
-                                            </div>
-                                            <div class="pretix-widget-item">
-                                                <div class="pretix-widget-item-row pretix-widget-main-item-row">
-                                                    <div class="pretix-widget-item-info-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-item-title-and-description"><strong
-                                                                class="pretix-widget-item-title">Teilnahmegebühr Team (Online) -
-                                                                EUaußerD</strong>
-                                                            <div class="pretix-widget-item-description">
-                                                                <p>Dieses Ticket gilt für Buchungen von Online-Veranstaltungen von
-                                                                    Teilnehmern aus dem EU-Raum, außerhalb Deutschlands.<br>
-                                                                    Bereits ab zwei Teilnehmern aus Ihrem Unternehmen sparen Sie deutlich:
-                                                                    für jede weitere Person zahlen Sie nur 50% des regulären Preises. <br>
-                                                                    Der Rabatt ist nicht mit anderen Rabatten kombinierbar oder
-                                                                    übertragbar.<br>
-                                                                    Die Gewährung dieser Teilnahmegebühr erfolgt erst nach manueller
-                                                                    Prüfung.</p>
-                                                            </div>
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-item-price-col">
-                                                        <div class="pretix-widget-pricebox">
-                                                            <!----><span><del class="pretix-widget-pricebox-original-price">EUR
-                                                                    1.400,00</del> <ins class="pretix-widget-pricebox-new-price">EUR
-                                                                    700,00</ins></span>
-                                                            <!---->
-                                                            <!---->
-                                                        </div>
-                                                        <!---->
-                                                        <!---->
-                                                    </div>
-                                                    <div class="pretix-widget-item-availability-col">
-                                                        <!---->
-                                                        <div class="pretix-widget-availability-box">
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <!---->
-                                                            <div class="pretix-widget-availability-available">
-                                                                <!----><input type="number" placeholder="0" min="0" max="10"
-                                                                    name="item_108005" class="pretix-widget-item-count-multiple">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="pretix-widget-clear"></div>
-                                                </div>
-                                                <!---->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="pretix-widget-action"><button type="submit" disabled="disabled">In den Warenkorb</button>
-                                    </div>
-                                </form>
-                                <!---->
-                            </div>
-                            <!---->
-                            <!---->
-                            <!---->
-                            <div class="pretix-widget-clear"></div>
-                            <div class="pretix-widget-attribution"><a href="https://pretix.eu" target="_blank"
-                                    rel="noopener">Event-Ticketing-Software von pretix</a></div>
-                        </div>
-                    </div>
-
-
-
-
+                    <pretix-widget event="https://pretix.eu/socreatory/adoc/"></pretix-widget>
                 </div>
+
                 <div class="layout-main-with-sidebar__sidebar">
                     <h3>Inhouse Schulung</h3>
                     <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>

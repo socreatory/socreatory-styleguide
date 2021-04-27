@@ -1,0 +1,31 @@
+// Quote
+.quote {
+  // leer
+}
+
+.quote--center {
+  max-width: 100%;
+  padding: 0 $spacer-md;
+  @include for-tablet-landscape-up {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
+.quote__blockquote {
+  @extend %body-font-bold;
+  font-size: $font-size-xl;
+  margin: 0 0 $spacer-base 0;
+  line-height: 1.4;
+}
+
+.quote__name {
+  @extend %body-font-bold;
+  font-size: $font-size-base;
+  margin-bottom: $spacer-xs;
+}
+
+.quote__role {
+  @extend %monospace-font-regular;
+  font-size: $font-size-md;
+}

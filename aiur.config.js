@@ -52,6 +52,8 @@ module.exports = {
       file: "./lib/documentation/MOLECULES.md",
       children: {
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
+        rating: "./lib/components/rating/rating.md",
+        quote: "./lib/components/quote/quote.md",
 
       },
     },
@@ -63,6 +65,7 @@ module.exports = {
         link: "./lib/components/link/README.md",
         icons: "./lib/components/icons/README.md",
         text: "./lib/components/text/README.md",
+        buttons: "./lib/components/buttons/buttons.md",
       },
     },
   },
