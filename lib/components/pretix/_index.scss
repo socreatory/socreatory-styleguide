@@ -77,7 +77,8 @@
 }
 
 .pretix-widget-item-title {
-  font-size: $font-size-md;
+  font-size: $font-size-base;
+  line-height: $font-size-md;
 }
 
 .pretix-widget-pricebox {
