@@ -208,6 +208,13 @@
   box-shadow: none;
 }
 
+.pretix-widget input[type="text"]::placeholder,
+.pretix-widget input[type="number"]::placeholder,
+.pretix-widget-alert-box input[type="text"]::placeholder,
+.pretix-widget-alert-box input[type="number"]::placeholder {
+  color: $brand-text;
+}
+
 .pretix-widget input[type="text"]:focus,
 .pretix-widget input[type="number"]:focus,
 .pretix-widget-alert-box input[type="text"]:focus,
