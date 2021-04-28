@@ -238,8 +238,9 @@
   width: 4rem;
   height: 4rem;
   background-color: $brand-background-dark;
-  // background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2518%2FPNG%2F512%2Fcheckbox_icon_151467.png&sp=1619553329T3ccd5fb48dd225be75a6c21c69fd77d2cd2a73eedba7d4f20cf25c44cd7e256b);
-  background-size: 4rem 4rem;
+  background-image: none;
+  // background-image: url("/lib/assets/images/profiles/Eberhard_Wolff.jpg");
+  background-size: 5rem 5rem;
   background-position: Center Center;
   vertical-align: Middle;
   // outline: none;
@@ -250,7 +251,8 @@
 }
 
 input[type="checkbox"]:checked {
-  background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F8c%2FWhite_check_mark_in_dark_green_rounded_square.svg%2F600px-White_check_mark_in_dark_green_rounded_square.svg.png&sp=1619555791T1ecee36d3d5c76fd738f350ce3798346b0171bd783d8d34af0e2d5e66ee1b050);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Checked.svg/80px-Checked.svg.png);
+  // background-image: url("/lib/assets/images/illustrations/iconteamrabatt.png");
   // background-color: $brand-green;
  }
 
@@ -285,6 +287,7 @@ input[type="checkbox"]:checked {
   cursor: pointer;
 }
 
+//
 
 // .pretix-widget-item-description p {
 //   font-size: $font-size-sm;
