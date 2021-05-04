@@ -10,7 +10,7 @@ example view
         <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
         <input type="checkbox" id="navbar__checkbox">
         <ul class="navbar__items">
-            <li><a href="#" class="navbar__item">Schulungen</a></li>
+            <li><a href="#" class="navbar__item">Trainings</a></li>
             <li><a href="#" class="navbar__item">Trainer:innen</a></li>
             <li><a href="#" class="navbar__item">Preise</a></li>
             <li><a href="#" class="navbar__item">iSAQB</a></li>
@@ -24,13 +24,13 @@ example view
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item">Schulungen</li>
+                <li class="breadcrumb__item">Trainings</li>
             </ul>
         </div>
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
-        <h1 class="header__heading header__heading--centered">Alle Schulungen im Überblick</h1>
+        <h1 class="header__heading header__heading--centered">Alle Trainings im Überblick</h1>
     </div>
 </header>
 
@@ -40,7 +40,7 @@ example view
             <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2> -->
             <div class="filters">
                 <ul class="filters__list">
-                    <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle Schulungen</a></li>
+                    <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle Trainings</a></li>
                     <li class="filters__item"><a href="#" class="filters__link">iSAQB Schulungen</a></li>
                 </ul>
             </div>

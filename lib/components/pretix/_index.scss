@@ -26,7 +26,7 @@
 // Termin Name
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
   @extend %body-font-bold;
-  font-size: $font-size-base;
+  font-size: $font-size-lg;
   padding: 0;
 }
 
@@ -34,6 +34,10 @@
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
   padding: 0;
   font-size: $font-size-base;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
+  width: 100%;
 }
 
 // Termin Location
@@ -48,6 +52,7 @@
   border: 0;
   padding: 0;
   text-align: left;
+  margin-top: 0;
 }
 
 // Link Jetzt buchen
@@ -60,7 +65,7 @@
   background-color: $brand-background;
   text-decoration: underline;
   display: inline-block;
-  margin-top: $spacer-xs;
+  margin: 0.5*$spacer-xs 0 $spacer-md 0;
   text-decoration-color: $brand-green;
   text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.25rem;
@@ -84,10 +89,16 @@
 
 // // // // Part2
 // Training Titel
-.pretix-widget .pretix-widget-event-header,
-.pretix-widget .pretix-widget-item-title {
+.pretix-widget .pretix-widget-event-header {
   @extend %heading-font-bold;
   font-size: $font-size-lg;
+  padding: 0;
+  text-align: left;
+}
+
+.pretix-widget .pretix-widget-item-title {
+  @extend %heading-font-bold;
+  font-size: $font-size-base;
   padding: 0;
   text-align: left;
 }
@@ -131,10 +142,8 @@
   grid-column: 1;
   grid-row: 2;
   align-self: center;
-}
-
-.pretix-widget .pretix-widget-item-price-col {
   text-align: left;
+  width: 100%;
 }
 
 .pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col,
@@ -145,6 +154,7 @@
 // Preis
 .pretix-widget-pricebox {
   font-size: $font-size-lg;
+  line-height: 1;
 }
 .pretix-widget-pricebox span {
   display: flex;
@@ -169,6 +179,7 @@
 // MwSt.
 .pretix-widget .pretix-widget-pricebox-tax {
   font-size: $font-size-sm;
+  margin-top: $spacer-xxs;
 }
 
 .pretix-widget .pretix-widget-item-availability-col {
@@ -185,6 +196,10 @@
 .pretix-widget .pretix-widget-item-description p,
 .pretix-widget-item-meta small {
   font-size: $font-size-sm;
+}
+
+.pretix-widget .pretix-widget-item-meta {
+  margin-top: -$spacer-xs;
 }
 
 // Input Feld
@@ -230,9 +245,9 @@
 
 // Checkbox
 .pretix-widget .pretix-widget-item-count-single-label input {
-
 }
- input[type="checkbox"] {
+
+input[type="checkbox"] {
   -moz-appearance: None;
   -webkit-appearance: none;
   width: 4rem;
@@ -285,6 +300,8 @@ input[type="checkbox"]:checked {
   background-color: $gray-90;
   border: 0.25rem solid $gray-90;
   cursor: pointer;
+  margin-left: 0;
+  width: 100%;
 }
 
 //

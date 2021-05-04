@@ -140,7 +140,7 @@ example view
                 <div class="layout-main-with-sidebar__sidebar">
                     <h3>Termine & Buchung</h3>
                     <!-- Pretix Widget -->
-                    <pretix-widget event="https://pretix.eu/socreatory/adoc/"></pretix-widget>
+                    <pretix-widget event="https://pretix.eu/socreatory/adoc/" style="list"></pretix-widget>
                 </div>
 
                 <div class="layout-main-with-sidebar__sidebar">
@@ -155,11 +155,31 @@ example view
 <aside>
     <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-        <ul class="cards">
+        <ul class="cards cards--appendix">
             <li class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor sit.</a></h3>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos sed eum repudiandae sit deleniti repellendus blanditiis amet quos aliquid!</p>
+                    </div>
+                    <div class="card__body__bottom">
+                        <div class="pills">
+                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer card__footer--isaqb">
+                    <p class="card__price">ab 1.750 €</p>
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                </div>
+                <p class="card__appendix">Vertieft Kommunikations-Kompetenz, um Anforderungen an die Dokumentation klar zu vermitteln oder unterschiedliche Stakeholderinteressen konstruktiv zu klären.</p>
+            </li>
+            <li class="card">
+                <div class="card__body card__body--isaqb">
+                    <div class="card__body__top">
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor sit.</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
@@ -174,7 +194,7 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
-                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card__appendix">Kundenorientierung und Flexibilität konzeptionell umsetzen</p>
             </li>
             <li class="card">
                 <div class="card__body card__body--isaqb">
@@ -194,27 +214,7 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
-                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">ab 1.750 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                </div>
-                <p class="card__appendix">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
             </li>
         </ul>
     </div>

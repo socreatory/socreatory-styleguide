@@ -26,6 +26,7 @@
   flex-direction: column;
   justify-content: space-between;
   transition: all 250ms ease;
+  min-height: 100%;
 }
 
 .card:hover {
@@ -60,7 +61,7 @@
   justify-content: space-between;
   padding: $spacer-md;
   height: 100%;
-  min-height: 15rem;
+  // min-height: 15rem;
 }
 
 .card__body--isaqb {
@@ -102,6 +103,9 @@
 }
 
 .card__appendix {
+  display: block;
+  // position: absolute;
+  top: 100%;
   margin-top: $spacer-sm;
-  font-size: $font-size-md;
+  font-size: $font-size-base;
 }
