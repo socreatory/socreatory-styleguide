@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  // align-content: center;
+  align-content: center;
   transition: all 0.5s;
   @include for-tablet-landscape-up {
     position: fixed;
@@ -24,8 +24,6 @@
 .navbar__logo {
   height: 2.25rem;
   margin: $spacer-sm 0 $spacer-sm $spacer-md;
-  @include for-tablet-landscape-up {
-  }
 }
 
 .navbar__items {
@@ -33,11 +31,13 @@
   padding: 0;
   text-align: center;
   list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
   width: 100%;
   @include for-tablet-landscape-up {
-    // display: flex;
+    display: flex;
     width: auto;
-    // align-items: center;
   }
 }
 
@@ -58,13 +58,13 @@
   transition: all 0.15s ease-out;
   letter-spacing: 0.12rem;
   word-spacing: 0.25rem;
-  // text-align: center;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   @include for-tablet-landscape-up {
-    // display: inline-block;
-    padding: $spacer-base*0.75;
-    // height: 100%;
+    display: inline-block;
+    padding: $spacer-base*0.75 $spacer-base*0.75 $spacer-base*0.85 $spacer-base*0.75;
+    height: 100%;
     font-size: $font-size-sm;
   }
 }
