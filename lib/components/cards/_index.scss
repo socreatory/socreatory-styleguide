@@ -40,11 +40,11 @@
   grid-template-rows: minmax(5rem, auto) 5rem minmax(0rem, auto);
   gap: 0;
   // min-height: 100%;
-  grid-template-rows: subgrid;
+  // grid-template-rows: subgrid;
   transition: all 250ms ease;
   @include for-breakpoint-phone-up {
     grid-template-rows: minmax(20rem, auto) 5rem minmax(0rem, auto);
-    grid-template-rows: subgrid;
+    // grid-template-rows: subgrid;
     align-content: start;
   }
 }
