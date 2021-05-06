@@ -113,14 +113,14 @@
 }
 
 .card__label {
-  font-size: 1rem;
-  margin: 0.25rem 0 0 0;
+  font-size: $font-size-base;
+  margin-top: $spacer-xxs*0.3;
 }
 
 .card__price {
   font-size: $font-size-base;
   @extend %body-font-bold;
-  margin: 0;
+  margin-top: $spacer-xxs*0.3;
 }
 
 .card__appendix {
