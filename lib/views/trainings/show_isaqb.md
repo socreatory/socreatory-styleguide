@@ -51,12 +51,6 @@ example view
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
                         <img class="article__image" src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <h2 class="section__title--small"><span aria-hidden>-- </span>Agenda</h2>
-                    <div class="article markdown">
                         <ul class="unordered-list">
                             <li class="unordered-list__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
                             <li class="unordered-list__item">Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
@@ -161,31 +155,11 @@ example view
 <aside>
     <div class="container__fullwidth">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-        <ul class="cards cards--appendix">
+        <ul class="cards">
             <li class="card">
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor sit.</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos sed eum repudiandae sit deleniti repellendus blanditiis amet quos aliquid!</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">ab 1.750 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                </div>
-                <p class="card__appendix">Vertieft Kommunikations-Kompetenz, um Anforderungen an die Dokumentation klar zu vermitteln oder unterschiedliche Stakeholderinteressen konstruktiv zu klären.</p>
-            </li>
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor sit.</a></h3>
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
                     </div>
                     <div class="card__body__bottom">
@@ -200,7 +174,27 @@ example view
                     <p class="card__price">ab 1.750 €</p>
                     <p class="card__label">iSAQB Modul CLOUDINFRA</p>
                 </div>
-                <p class="card__appendix">Kundenorientierung und Flexibilität konzeptionell umsetzen</p>
+                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen.</p>
+            </li>
+            <li class="card">
+                <div class="card__body card__body--isaqb">
+                    <div class="card__body__top">
+                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, alias.</p>
+                    </div>
+                    <div class="card__body__bottom">
+                        <div class="pills">
+                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__footer card__footer--isaqb">
+                    <p class="card__price">ab 1.750 €</p>
+                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                </div>
+                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
             </li>
             <li class="card">
                 <div class="card__body card__body--isaqb">
