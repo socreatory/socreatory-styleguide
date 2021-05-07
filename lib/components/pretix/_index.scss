@@ -96,6 +96,10 @@
   text-align: left;
 }
 
+.pretix-widget-item {
+  position: relative;
+}
+
 .pretix-widget .pretix-widget-item-title {
   @extend %heading-font-bold;
   font-size: $font-size-base;
@@ -125,6 +129,7 @@
   grid-template-columns: 5fr 1fr;
   column-gap: $spacer-md;
   row-gap: 0;
+  justify-content: space-between;
 }
 
 .pretix-widget .pretix-widget-item-info-col {
@@ -143,7 +148,7 @@
   grid-row: 2;
   align-self: center;
   text-align: left;
-  width: 100%;
+  // width: 100%;
 }
 
 .pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col,
@@ -156,6 +161,7 @@
   font-size: $font-size-lg;
   line-height: 1;
   margin-top: $spacer-xxs;
+  min-width: 100%;
 }
 .pretix-widget-pricebox span {
   display: flex;
@@ -184,9 +190,11 @@
 }
 
 .pretix-widget .pretix-widget-item-availability-col {
+  margin: 0;
   padding: 0;
   grid-column: 2;
   grid-row: 2;
+  justify-self: end;
 }
 
 .pretix-widget .pretix-widget-category-name {
@@ -254,10 +262,10 @@ input[type="checkbox"] {
   width: 2.5rem;
   height: 2.5rem;
   margin-top: $spacer-xxs;
+  margin-right: 0;
   background-color: $brand-background-dark;
   background-image: none;
-  // background-image: url("/lib/assets/images/profiles/Eberhard_Wolff.jpg");
-  background-size: 3rem 3rem;
+  background-size: 2.5rem 2.5rem;
   background-position: Center Center;
   vertical-align: Middle;
   border: solid 0.2rem $brand-text;
@@ -266,10 +274,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  // background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Checked.svg/80px-Checked.svg.png);
-  // background-image: url("/lib/assets/images/icons/check.svg");
-  background-image: url("/lib/assets/images/icons/check.svg");
-  background-color: $brand-blue;
+  background-image: url("/snippet/images/icons/check.svg");
  }
 
 // Button
@@ -302,6 +307,12 @@ input[type="checkbox"]:checked {
   border: 0.25rem solid $gray-90;
   cursor: pointer;
   margin-left: 0;
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-action {
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
