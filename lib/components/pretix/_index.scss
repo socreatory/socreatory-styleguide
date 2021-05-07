@@ -155,6 +155,7 @@
 .pretix-widget-pricebox {
   font-size: $font-size-lg;
   line-height: 1;
+  margin-top: $spacer-xxs;
 }
 .pretix-widget-pricebox span {
   display: flex;
@@ -250,25 +251,25 @@
 input[type="checkbox"] {
   -moz-appearance: None;
   -webkit-appearance: none;
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: $spacer-xxs;
   background-color: $brand-background-dark;
   background-image: none;
   // background-image: url("/lib/assets/images/profiles/Eberhard_Wolff.jpg");
-  background-size: 5rem 5rem;
+  background-size: 3rem 3rem;
   background-position: Center Center;
   vertical-align: Middle;
-  // outline: none;
-  // border-radius: 1.5rem;
   border: solid 0.2rem $brand-text;
   vertical-align: Middle;
   transition: all 0.15s ease-out;
 }
 
 input[type="checkbox"]:checked {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Checked.svg/80px-Checked.svg.png);
-  // background-image: url("/lib/assets/images/illustrations/iconteamrabatt.png");
-  // background-color: $brand-green;
+  // background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Checked.svg/80px-Checked.svg.png);
+  // background-image: url("/lib/assets/images/icons/check.svg");
+  background-image: url("/lib/assets/images/icons/check.svg");
+  background-color: $brand-blue;
  }
 
 // Button
