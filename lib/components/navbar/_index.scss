@@ -23,7 +23,7 @@
 
 .navbar__logo {
   height: 2.25rem;
-  margin: $spacer-sm*1.25 0 $spacer-sm $spacer-md;
+  margin: $spacer-sm 0 $spacer-sm $spacer-md;
 }
 
 .navbar__items {
@@ -63,7 +63,7 @@
   text-decoration: none;
   @include for-tablet-landscape-up {
     display: inline-block;
-    padding: $spacer-base*0.75 $spacer-base*0.75 $spacer-base*0.85 $spacer-base*0.75;
+    padding: $spacer-base*0.75;
     height: 100%;
     font-size: $font-size-sm;
   }

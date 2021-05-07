@@ -474,3 +474,36 @@ input[type="checkbox"]:checked {
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
 }
+
+// Overlay
+// .pretix-widget-overlay {
+//   display: none;
+// }
+
+.pretix-widget-alert-holder .pretix-widget-alert-box {
+  border-radius: 0;
+}
+
+.pretix-widget button, .pretix-widget input[type="button"], .pretix-widget-alert-box button, .pretix-widget-alert-box input[type="button"] {
+
+}
+
+.pretix-widget-alert-holder .pretix-widget-alert-icon {
+  display: block;
+  width: 100%;
+  @extend %body-font-bold;
+  font-size: $font-size-sm;
+  color: $brand-background;
+  background-color: $brand-text;
+  padding: 1rem 2rem;
+  margin-top: $spacer-md;
+  border: 0.25rem solid $brand-text;
+  border-radius: 0;
+  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
