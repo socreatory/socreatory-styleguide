@@ -484,7 +484,10 @@ input[type="checkbox"]:checked {
   border-radius: 0;
 }
 
-.pretix-widget button, .pretix-widget input[type="button"], .pretix-widget-alert-box button, .pretix-widget-alert-box input[type="button"] {
+.pretix-widget button,
+.pretix-widget input[type="button"],
+.pretix-widget-alert-box button,
+.pretix-widget-alert-box input[type="button"] {
   display: block;
   width: 100%;
   @extend %body-font-bold;
@@ -501,6 +504,19 @@ input[type="checkbox"]:checked {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.pretix-widget button:hover,
+.pretix-widget input[type="button"]:hover,
+.pretix-widget-alert-box button:hover,
+.pretix-widget-alert-box input[type="button"]:hover,
+.pretix-widget button:focus,
+.pretix-widget input[type="button"]:focus,
+.pretix-widget-alert-box button:focus,
+.pretix-widget-alert-box input[type="button"]:focus {
+  color: $brand-background;
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
 }
 
 .pretix-widget-alert-holder .pretix-widget-alert-icon {
