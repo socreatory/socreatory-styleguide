@@ -161,7 +161,7 @@
   font-size: $font-size-lg;
   line-height: 1;
   margin-top: $spacer-xxs;
-  min-width: 100%;
+  width: 100%;
 }
 .pretix-widget-pricebox span {
   display: flex;
@@ -195,6 +195,7 @@
   grid-column: 2;
   grid-row: 2;
   justify-self: end;
+  width: 100%;
 }
 
 .pretix-widget .pretix-widget-category-name {
@@ -262,7 +263,7 @@ input[type="checkbox"] {
   width: 2.5rem;
   height: 2.5rem;
   margin-top: $spacer-xxs;
-  margin-right: 0;
+  // margin-right: 0;
   background-color: $brand-background-dark;
   background-image: none;
   background-size: 2.5rem 2.5rem;
