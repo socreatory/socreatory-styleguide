@@ -540,9 +540,9 @@ input[type="checkbox"]:checked {
   background-color: $brand-background;
   color: $brand-text;
   border: solid 0.25rem $brand-blue;
-  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+  padding: $spacer-md $spacer-xs $spacer-sm $spacer-xs;
 }
 
 .pretix-widget .pretix-widget-resume-button {
-  margin: 0 0 $spacer-base 0;
+  margin: 0 0 $spacer-sm 0;
 }
