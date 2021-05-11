@@ -535,3 +535,10 @@ input[type="checkbox"]:checked {
 .pretix-widget-alert-holder .pretix-widget-alert-icon {
 }
 
+// Warenkorb Hinweis
+.pretix-widget .pretix-widget-info-message {
+  background-color: $brand-background;
+  color: $brand-text;
+  border: solid 0.25rem $brand-blue;
+  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+}
