@@ -542,3 +542,7 @@ input[type="checkbox"]:checked {
   border: solid 0.25rem $brand-blue;
   padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
 }
+
+.pretix-widget .pretix-widget-resume-button {
+  margin: 0 0 $spacer-base 0;
+}
