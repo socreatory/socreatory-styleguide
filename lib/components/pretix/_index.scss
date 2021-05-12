@@ -275,7 +275,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-image: url("/snippet/images/icons/check.svg");
+  background-image: asset-url("/snippet/images/icons/check.svg");
  }
 
 // Button
@@ -316,123 +316,6 @@ input[type="checkbox"]:checked {
   padding: 0;
   width: 100%;
 }
-
-//
-
-// .pretix-widget-item-description p {
-//   font-size: $font-size-sm;
-// }
-
-// .pretix-widget-item {
-//   margin-bottom: $spacer-xs;
-//   &:last-child {
-//     margin-bottom: 0;
-//   }
-// }
-
-// .pretix-widget-item-availability-col {
-//   grid-column: 2;
-//   grid-row: 1;
-// }
-
-// .pretix-widget-item-title {
-//   font-size: $font-size-base;
-//   line-height: $font-size-md;
-// }
-
-// .pretix-widget-pricebox-new-price {
-//   text-decoration: none;
-// }
-
-// .pretix-widget-pricebox-original-price {
-//   font-size: $font-size-md;
-// }
-
-// // Pretix Achtung Box
-// .pretix-widget-info-message {
-//   display: flex;
-//   flex-direction: column-reverse;
-//   border: solid 0.25rem $brand-blue;
-//   padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
-//   margin: $spacer-md 0;
-// }
-
-// .pretix-widget-resume-button {
-//   display: block;
-//   width: 100%;
-//   @extend %body-font-bold;
-//   font-size: $font-size-sm;
-//   color: $brand-text;
-//   background-color: $brand-background;
-//   padding: 1rem 2rem;
-//   margin-top: $spacer-md;
-//   border: 0.25rem solid $brand-text;
-//   transition: all 0.15s ease-out;
-//   letter-spacing: 0.12rem;
-//   word-spacing: 0.25rem;
-//   text-align: center;
-//   text-transform: uppercase;
-//   text-decoration: none;
-// }
-
-// .pretix-widget-resume-button:hover,
-// .pretix-widget-resume-button:focus {
-//   background-color: $brand-background-dark;
-//   border: 0.25rem solid $brand-text;
-//   cursor: pointer;
-// }
-
-// // Input Feld Anzahl
-// .pretix-widget-item-count-multiple {
-//   margin: 0;
-//   padding: $spacer-xs;
-//   color: $brand-text;
-//   background-color: $brand-background-dark;
-//   @extend %body-font-regular;
-//   font-size: $font-size-lg;
-//   text-align: center;
-//   border: none;
-//   border-bottom: solid 0.2rem $brand-text;
-//   width: 100%;
-//   transition: all 0.15s ease-out;
-// }
-
-// .pretix-widget-item-count-multiple:focus {
-//   outline: none;
-//   background-color: $brand-background;
-// }
-
-// // Button
-// .pretix-widget-event-list-entry-availability,
-// .pretix-widget-action button {
-//   display: block;
-//   width: 100%;
-//   @extend %body-font-bold;
-//   font-size: $font-size-sm;
-//   color: $brand-background;
-//   background-color: $brand-text;
-//   padding: 1rem 2rem;
-//   border: 0.25rem solid $brand-text;
-//   transition: all 0.15s ease-out;
-//   letter-spacing: 0.12rem;
-//   word-spacing: 0.25rem;
-//   text-align: center;
-//   text-transform: uppercase;
-//   text-decoration: none;
-// }
-
-// .pretix-widget-event-list-entry-availability:hover,
-// .pretix-widget-event-list-entry-availability:focus {
-//   color: $brand-background;
-//   background-color: $gray-90;
-//   border: 0.25rem solid $gray-90;
-//   cursor: pointer;
-// }
-
-// // Button in den Warenkorb
-// .pretix-widget-action {
-//   // empty
-// }
 
 // Loading Icon
 .pretix-widget-primary-color {
