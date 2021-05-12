@@ -49,7 +49,6 @@
   }
 }
 
-
 .card:hover {
   // box-shadow: 0 1.9rem 3.8rem (rgba(0,0,0,0.1), 0 1.5rem 1.2rem rgba(0,0,0,0.04));
   // transform: translate(0, -0.2rem);
@@ -114,128 +113,15 @@
 
 .card__label {
   font-size: $font-size-base;
-  margin-top: $spacer-xxs*0.3;
+  margin-top: $spacer-xxs * 0.3;
 }
 
 .card__price {
   font-size: $font-size-base;
   @extend %body-font-bold;
-  margin-top: $spacer-xxs*0.3;
+  margin-top: $spacer-xxs * 0.3;
 }
 
 .card__appendix {
   margin: $spacer-sm 0 0 0;
 }
-
-
-// .cards {
-//   display: grid;
-//   gap: $spacer-lg;
-//   grid-template-columns: 1fr;
-//   margin-bottom: $spacer-lg;
-//   padding-left: 0;
-//   @include for-tablet-landscape-up {
-//     gap: 3.25rem;
-//     grid-template-columns: 1fr 1fr;
-//   }
-//   @include for-desktop-xl-up {
-//     grid-template-columns: 1fr 1fr 1fr;
-//   }
-// }
-
-// .cards--centered {
-//   @include for-tablet-landscape-up {
-//     gap: 3.25rem;
-//     grid-template-columns: 1fr 1fr;
-//   }
-// }
-
-// .card {
-//   position: relative;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   transition: all 250ms ease;
-//   min-height: 100%;
-// }
-
-// .card:hover {
-//   // box-shadow: 0 1.9rem 3.8rem (rgba(0,0,0,0.1), 0 1.5rem 1.2rem rgba(0,0,0,0.04));
-//   // transform: translate(0, -0.2rem);
-// }
-
-// .card__link {
-//   text-decoration: none;
-//   color: $brand-text;
-// }
-
-// .card__link:hover {
-//   text-decoration: underline;
-//   text-underline-offset: 0.25rem;
-//   text-decoration-thickness: 0.25rem;
-// }
-
-// .card__link::after {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-// }
-
-// .card__body {
-//   display: flex;
-//   flex-direction: column;
-//   background-color: $brand-blue-light;
-//   justify-content: space-between;
-//   padding: $spacer-md;
-//   height: 100%;
-//   // min-height: 15rem;
-// }
-
-// .card__body--isaqb {
-//   background-color: $brand-green-light;
-// }
-
-// .card__footer {
-//   display: flex;
-//   flex-direction: row-reverse;
-//   justify-content: space-between;
-//   padding: $spacer-md;
-//   background-color: $brand-blue;
-//   // height: 4rem;
-// }
-
-// .card__footer--isaqb {
-//   background-color: $brand-green;
-// }
-
-// .card__title {
-//   font-size: $font-size-xl;
-//   line-height: 1.2;
-//   margin-bottom: $spacer-xxs;
-// }
-
-// .card__text {
-//   font-size: $font-size-base;
-// }
-
-// .card__label {
-//   font-size: 1rem;
-//   margin: 0.25rem 0 0 0;
-// }
-
-// .card__price {
-//   font-size: $font-size-base;
-//   @extend %body-font-bold;
-//   margin: 0;
-// }
-
-// .card__appendix {
-//   display: block;
-//   // position: absolute;
-//   top: 100%;
-//   margin-top: $spacer-sm;
-//   font-size: $font-size-base;
-// }

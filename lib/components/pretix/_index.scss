@@ -65,7 +65,7 @@
   background-color: $brand-background;
   text-decoration: underline;
   display: inline-block;
-  margin: 0.5*$spacer-xs 0 $spacer-md 0;
+  margin: 0.5 * $spacer-xs 0 $spacer-md 0;
   text-decoration-color: $brand-green;
   text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.25rem;
@@ -247,16 +247,13 @@
 .pretix-widget input[type="text"]:active,
 .pretix-widget input[type="number"]:active,
 .pretix-widget-alert-box input[type="text"]:active,
-.pretix-widget-alert-box input[type="number"]:active, {
+.pretix-widget-alert-box input[type="number"]:active {
   box-shadow: none;
   border-bottom: solid 0.2rem $brand-text;
   background-color: $brand-background;
 }
 
 // Checkbox
-.pretix-widget .pretix-widget-item-count-single-label input {
-}
-
 input[type="checkbox"] {
   -moz-appearance: None;
   -webkit-appearance: none;
@@ -270,13 +267,12 @@ input[type="checkbox"] {
   background-position: Center Center;
   vertical-align: Middle;
   border: solid 0.2rem $brand-text;
-  vertical-align: Middle;
   transition: all 0.15s ease-out;
 }
 
 input[type="checkbox"]:checked {
   background-image: asset-url("icons/check.svg");
- }
+}
 
 // Button
 .pretix-widget .pretix-widget-action {
@@ -413,9 +409,6 @@ input[type="checkbox"]:checked {
   color: $brand-background;
   background-color: $gray-90;
   border: 0.25rem solid $gray-90;
-}
-
-.pretix-widget-alert-holder .pretix-widget-alert-icon {
 }
 
 // Warenkorb Hinweis

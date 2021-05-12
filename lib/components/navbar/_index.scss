@@ -63,7 +63,7 @@
   text-decoration: none;
   @include for-tablet-landscape-up {
     display: inline-block;
-    padding: $spacer-base*0.75;
+    padding: $spacer-base * 0.75;
     height: 100%;
     font-size: $font-size-sm;
   }
