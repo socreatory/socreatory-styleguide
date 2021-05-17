@@ -134,16 +134,16 @@ example view
                         </div>
                     </div>
                 </section>
-
             </div>
-            <div id="booking" class="layout-main-with-sidebar__sidebar sidebar">
-                <div class="layout-main-with-sidebar__sidebar">
+
+            <div id="booking" class="layout-main-with-sidebar__sidebar">
+                <div>
                     <h3>Termine & Buchung</h3>
                     <!-- Pretix Widget -->
                     <pretix-widget event="https://pretix.eu/socreatory/adoc/" style="list"></pretix-widget>
                 </div>
 
-                <div class="layout-main-with-sidebar__sidebar">
+                <div>
                     <h3>Inhouse Schulung</h3>
                     <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
                     <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>

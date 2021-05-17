@@ -192,6 +192,18 @@ Application specific code
 
 .layout-main-with-sidebar__sidebar {
   grid-area: sidebar;
+  overflow: hidden;
+}
+
+// Booking
+#booking {
+  margin-bottom: $spacer-xxl;
+  position: relative;
+  @include for-tablet-landscape-up {
+    position: sticky;
+    top: $spacer-xl * 1.4;
+    height: max-content;
+  }
 }
 
 // Main
@@ -477,11 +489,6 @@ Application specific code
   font-size: $font-size-md;
 }
 
-// Sidebar
-.sidebar {
-  margin-bottom: $spacer-xxl;
-}
-
 // Trainer Profiles
 .profiles {
   padding: 0;
@@ -573,14 +580,6 @@ Application specific code
   @extend %monospace-font-regular;
   font-size: $font-size-xs;
   padding-bottom: $spacer-md;
-}
-
-// Booking
-#booking {
-  margin-bottom: $spacer-xxl;
-  @include for-tablet-landscape-up {
-    margin-bottom: 0;
-  }
 }
 
 // Markdown Listen und Text
