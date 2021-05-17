@@ -145,7 +145,7 @@ example view
 
                 <div>
                     <h3>Inhouse Schulung</h3>
-                    <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
+                    <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
                     <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
                 </div>
             </div>

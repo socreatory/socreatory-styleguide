@@ -201,7 +201,7 @@ Application specific code
   position: relative;
   @include for-tablet-landscape-up {
     position: sticky;
-    top: $spacer-xl * 1.4;
+    top: $spacer-xl * 1.33;
     height: max-content;
   }
 }
