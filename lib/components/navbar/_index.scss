@@ -23,7 +23,7 @@
 
 .navbar__logo {
   height: 2.25rem;
-  margin: $spacer-sm 0 $spacer-sm $spacer-md;
+  margin: $spacer-sm*1.25 0 $spacer-sm $spacer-md;
 }
 
 .navbar__items {
@@ -63,7 +63,7 @@
   text-decoration: none;
   @include for-tablet-landscape-up {
     display: inline-block;
-    padding: $spacer-base * 0.75;
+    padding: $spacer-base * 0.8;
     height: 100%;
     font-size: $font-size-sm;
   }
@@ -82,7 +82,7 @@
 
 // Burger
 .navbar__burger {
-  top: $spacer-md * 0.25;
+  top: $spacer-md * 0.4;
   position: absolute;
   right: $spacer-md * 0.75;
   cursor: pointer;
