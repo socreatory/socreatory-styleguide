@@ -258,6 +258,11 @@ Application specific code
   margin-bottom: $spacer-sm;
 }
 
+// Bilder innerhalb von Markdown einfärben
+.article.markdown img {
+  mix-blend-mode: multiply;
+}
+
 .heading {
   // leer
 }
