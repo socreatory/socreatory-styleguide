@@ -140,7 +140,8 @@ example view
                 <div>
                     <h3>Termine & Buchung</h3>
                     <!-- Pretix Widget -->
-                    <pretix-widget event="https://pretix.eu/socreatory/adoc/" style="list"></pretix-widget>
+                    <!-- <pretix-widget event="https://pretix.eu/socreatory/adoc/" style="list"></pretix-widget> -->
+                    <pretix-widget event="https://pretix.eu/socreatory/" filter="attr[website_slug]=adoc" style="list" disable-vouchers></pretix-widget>
                 </div>
 
                 <div>
