@@ -200,8 +200,8 @@ Application specific code
   margin-bottom: $spacer-xxl;
   position: relative;
   @include for-tablet-landscape-up {
-    position: sticky;
-    top: $spacer-xl * 1.33;
+    // position: sticky;
+    // top: $spacer-xl * 1.33;
     height: max-content;
   }
 }

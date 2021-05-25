@@ -26,7 +26,7 @@
 // Termin Name
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
   @extend %body-font-bold;
-  font-size: $font-size-lg;
+  font-size: $font-size-base;
   padding: 0;
 }
 
@@ -65,7 +65,7 @@
   background-color: $brand-background;
   text-decoration: underline;
   display: inline-block;
-  margin: 0.5 * $spacer-xs 0 $spacer-md 0;
+  margin: 0 0 $spacer-sm 0;
   text-decoration-color: $brand-green;
   text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.25rem;
@@ -332,27 +332,32 @@ input[type="checkbox"]:checked {
 }
 
 // Link
+.link-attribution {
+  font-size: $font-size-xs;
+}
+
 .pretix-widget .pretix-widget-attribution {
-  display: inline-block;
+  // display: inline-block;
+  display: none;
   padding: 0;
   width: 100%;
   text-align: left;
 }
 
-.pretix-widget-attribution a {
-  font-size: $font-size-xs;
-  color: $brand-text;
-  text-decoration: none;
-  text-decoration-color: $brand-green;
-  transition: all 0.1s ease-out;
-}
+// .pretix-widget-attribution a {
+//   font-size: $font-size-xs;
+//   color: $brand-text;
+//   text-decoration: none;
+//   text-decoration-color: $brand-green;
+//   transition: all 0.1s ease-out;
+// }
 
-.pretix-widget-attribution a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 0.25rem;
-  text-decoration-color: $brand-green;
-}
+// .pretix-widget-attribution a:hover {
+//   text-decoration: underline;
+//   text-underline-offset: 0.25rem;
+//   text-decoration-thickness: 0.25rem;
+//   text-decoration-color: $brand-green;
+// }
 
 // Back Button
 .pretix-widget-event-list-back,

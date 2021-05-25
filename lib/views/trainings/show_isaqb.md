@@ -138,10 +138,11 @@ example view
 
             <div id="booking" class="layout-main-with-sidebar__sidebar">
                 <div>
-                    <h3>Termine & Buchung</h3>
-                    <!-- Pretix Widget -->
-                    <!-- <pretix-widget event="https://pretix.eu/socreatory/adoc/" style="list"></pretix-widget> -->
-                    <pretix-widget event="https://pretix.eu/socreatory/" filter="attr[website_slug]=adoc" style="list" disable-vouchers></pretix-widget>
+                    <h3>Online-Termine</h3>
+                    <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list"></pretix-widget>
+                    <h3>Vor-Ort-Termine</h3>
+<pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list"></pretix-widget>
+                <p><a href="https://pretix.eu/socreatory/" class="link-attribution" target="_blank">Event-Ticketing-Software von pretix</a></p>
                 </div>
 
                 <div>
