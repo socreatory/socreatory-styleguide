@@ -492,6 +492,7 @@ Application specific code
 .quote__role {
   @extend %monospace-font-regular;
   font-size: $font-size-md;
+  line-height: 1.4;
 }
 
 // Trainer Profiles
