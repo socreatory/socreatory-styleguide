@@ -170,6 +170,39 @@ Application specific code
   // }
 }
 
+.header__logogrid {
+  // display: flex;
+  // justify-content: flex-start;
+  // @include for-tablet-landscape-up {
+  //   justify-content: flex-end;
+  // }
+  display: grid;
+  gap: $spacer-md;
+  grid-template-columns: 1fr;
+  align-items: center;
+  grid-template-areas:
+    "left"
+    "right";
+  @include for-tablet-landscape-up {
+    gap: 6.25rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "left right";
+  }
+}
+
+.logogrid__left {
+  grid-area: left;
+}
+
+.logogrid__right {
+  grid-area: right;
+}
+
+.header__logo {
+  height: 1.5rem;
+  margin-right: $spacer-base * 0.7;
+}
+
 // Grid
 .layout-main-with-sidebar {
   display: grid;

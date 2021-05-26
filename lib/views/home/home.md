@@ -31,7 +31,7 @@ example view
                 <p>Unsere Mission: ein Ausbildungsangebot für Softwarearchitektur, an dem wir selbst gerne teilgenommen hätten. Mit Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung weitergeben können. Mit Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen.</p>
                 <p>Willkommen bei socreatory, der Software Creators Academy, eine Kollaboration von</p>
                 <div class="hero__logos">
-                    <img class="hero__logo" src="/snippet/images/logos/embarc_logo_alt.svg">
+                    <img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg">
                     <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
                 </div>
                 <div class="hero__aside">

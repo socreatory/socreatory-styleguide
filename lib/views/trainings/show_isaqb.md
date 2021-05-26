@@ -22,20 +22,30 @@ example view
 
 <header class="header header-color--highlighted-1">
     <div class="container__fullwidth">
-            <div class="breadcrumb">
-                <ul class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="#">Home</a></li>
-                    <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
-                    <li class="breadcrumb__item">Agile Softwarearchitektur</li>
-                </ul>
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
+                <li class="breadcrumb__item">Agile Softwarearchitektur</li>
+            </ul>
+        </div>
+        <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
+        <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
+        <div class="header__logogrid">
+            <div class="logogrid__left">
+                <div class="pills">
+                    <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                    <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                    <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                </div>
             </div>
-            <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
-            <p class="header__subheading">Seminar iSAQB CPSA-Advanced AGILA — 3 Tage</p>
-            <div class="pills">
-                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+            <div class="logogrid__right">
+                <div class="header__logos">
+                    <img class="header__logo" src="/snippet/images/logos/embarc_logo.svg">
+                    <img class="header__logo" src="/snippet/images/logos/innoq_logo.svg">
+                </div>
             </div>
+        </div>
     </div>
 </header>
 
