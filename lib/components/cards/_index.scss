@@ -57,6 +57,7 @@
 .card__link {
   text-decoration: none;
   color: $brand-text;
+  hyphens: auto;
 }
 
 .card__link:hover {
@@ -105,6 +106,7 @@
   font-size: $font-size-xl;
   line-height: 1.2;
   margin-bottom: $spacer-xxs;
+  hyphens: auto;
 }
 
 .card__text {
