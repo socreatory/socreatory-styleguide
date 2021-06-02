@@ -37,7 +37,8 @@ p {
   @include visually-hidden();
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
