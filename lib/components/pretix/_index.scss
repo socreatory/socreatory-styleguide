@@ -335,6 +335,16 @@ input[type="checkbox"]:checked {
 // Link
 .link-attribution {
   font-size: $font-size-xs;
+  text-decoration: none;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+}
+
+.link-attribution:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.45rem;
+  text-decoration-thickness: 0.2rem;
+
 }
 
 .pretix-widget .pretix-widget-attribution {
