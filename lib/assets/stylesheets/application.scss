@@ -291,6 +291,17 @@ Application specific code
   margin-bottom: $spacer-sm;
 }
 
+// Logos in Artikel
+.article__logos {
+  // display: flex;
+  // justify-content: center;
+}
+
+.article__logo {
+  height: 2.5rem;
+  margin: $spacer-md $spacer-base $spacer-xl 0;
+}
+
 // Bilder innerhalb von Markdown einfärben
 .article.markdown img {
   mix-blend-mode: multiply;
