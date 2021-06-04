@@ -93,7 +93,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: $spacer-md;
+  padding: $spacer-md * 0.8;
   background-color: $brand-blue;
   height: 5rem;
 }
