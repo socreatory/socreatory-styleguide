@@ -377,9 +377,9 @@ Application specific code
 // }
 .img-text {
   display: grid;
-  gap: $spacer-base;
+  // gap: $spacer-base;
   grid-template-columns: 1fr;
-  grid-gap: $spacer-base;
+  grid-gap: $spacer-xxs;
   margin-bottom: $spacer-lg;
   @include for-breakpoint-phone-up {
     grid-template-columns: 1fr 2fr;
