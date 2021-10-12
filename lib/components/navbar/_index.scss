@@ -80,6 +80,59 @@
   transform: translateY(calc(-100%));
 }
 
+// Language Switch
+.language__items {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: -$spacer-md * 0.5;
+  text-align: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  width: 100%;
+  @include for-tablet-landscape-up {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: auto;
+  }
+}
+
+.language__item {
+  @extend %monospace-font-regular;
+  display: inline-block;
+  color: $brand-text;
+  font-size: $font-size-base;
+  padding: $spacer-md 0;
+  width: 100%;
+  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  &:last-child {
+    padding-left: $spacer-md;
+  }
+  @include for-tablet-landscape-up {
+    display: inline-block;
+    padding: 0 $spacer-xxs;
+    height: 100%;
+    font-size: $font-size-sm;
+  }
+}
+
+.language__item:hover,
+.language__item:focus {
+  color: $brand-text;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.2rem;
+}
+
 // Burger
 .navbar__burger {
   top: $spacer-md * 0.4;
