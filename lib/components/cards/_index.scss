@@ -115,6 +115,22 @@
 }
 
 // Module Kit
+.modulekitheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $spacer-base;
+}
+
+.modulekitheading {
+}
+
+.modulekitpoints {
+  font-size: $font-size-xxxl;
+  // text-align: center;
+  margin: -1rem 0;
+}
+
 .modulekitgrid {
   display: grid;
   gap: $spacer-sm;
@@ -186,7 +202,7 @@
 
 .modulekitcard__subtitle {
   color: $brand-text;
-  font-size: $font-size-sm;
+  font-size: $font-size-md;
   line-height: 1.35;
   margin: $spacer-xxs 0 0 0;
 }
@@ -256,7 +272,7 @@
   color: $brand-text;
   text-decoration: none;
   text-align: center;
-  font-size: $font-size-sm;
+  font-size: $font-size-md;
   list-style-type: none;
   border: 1px solid $brand-sand;
   background-color: none;

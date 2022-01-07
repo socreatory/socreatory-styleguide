@@ -51,8 +51,16 @@ example view
     </div>
     <div class="container__fullwidth">
         <section class="section section--supernarrow">
-            <div class="modulekitgrid__points">
+            <div class="modulekitheader">
                 <h3 class="modulekitkombis__heading">Punkte für deine Auswahl</h3>
+                <h4 class="modulekitpoints">60</h4>
+                <div>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number pill__number--modulekit">—</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number pill__number--modulekit">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number pill__number--modulekit">—</div>
+                    </div>
+                </div>
             </div>
             <ul class="modulekitgrid">
                 <li class="modulekitcard modulekitcard--disabled">
@@ -234,6 +242,9 @@ example view
                     </div>
                 </li>
             </ul>
+            <div class="flex-center">
+                <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zu den gewählten Modulen</a>
+            </div>
         </section>
     </div>
 
@@ -252,9 +263,6 @@ example view
                     <li><a href="#" class="modulekitkombis__pill">Architekturen dokumentieren und kommunizieren</a></li>
                     <li><a href="#" class="modulekitkombis__pill">Moderne Architekturstile bauen und betreiben</a></li>
                 </ul>
-            </div>
-            <div class="flex-center">
-                <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zu den gewählten Modulen</a>
             </div>
         </section>
         <section class="section section--home">
