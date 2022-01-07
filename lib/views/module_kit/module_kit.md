@@ -285,7 +285,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Das volle Programm</h2>
-                    <p class="teaser__text">Wir bieten dir alles, was du brauchst, um erfolgreich deine iSAQB® CPSA-A (Advanced-Level) Prüfung ablegen zu können. Darüberhinaus kannst du bei uns aber auch weitere spannende Trainings besuchen, in denen du zwar keine iSAQB<sup>®</sup>-Punkte erwirbst, dafür aber jede Menge Praxiswissen für deinen Karriereweg.</p>
+                    <p class="teaser__text">Wir bieten dir alles, was du brauchst, um erfolgreich deine iSAQB® CPSA-A (Advanced-Level) Prüfung ablegen zu können. Darüberhinaus kannst du bei uns aber auch weitere spannende Trainings besuchen, in denen du zwar keine iSAQB<sup>®</sup>-Punkte erwirbst, dafür aber jede Menge Praxiswissen.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Alle Trainings</a>
                 </div>
             </div>
