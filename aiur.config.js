@@ -31,6 +31,7 @@ module.exports = {
         contact: "./lib/views/contact/contact.md",
         site_notice: "./lib/views/site_notice/site_notice.md",
         privacy: "./lib/views/privacy/privacy.md",
+        module_kit: "./lib/views/module_kit/module_kit.md",
       },
     },
 

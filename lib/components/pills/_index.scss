@@ -16,6 +16,7 @@
   margin: 0 $spacer-sm * 0.9 $spacer-xs 0;
 }
 
+
 .pill__number {
   display: inline-block;
   margin-left: 0.4rem;
@@ -26,4 +27,13 @@
   background-color: $brand-green;
   text-align: center;
   letter-spacing: 0.0875rem;
+}
+
+.pill--modulekit {
+  margin: 0 $spacer-sm * 0.9 0 0;
+}
+
+.pill__number--modulekit {
+  background-color: $brand-sand;
+  transition: all 250ms ease;
 }

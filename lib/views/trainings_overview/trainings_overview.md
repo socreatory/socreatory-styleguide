@@ -45,7 +45,8 @@ example view
             <div class="filters">
                 <ul class="filters__list">
                     <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle Trainings</a></li>
-                    <li class="filters__item"><a href="#" class="filters__link">iSAQB Trainings</a></li>
+                    <li class="filters__item "><a href="#" class="filters__link">iSAQB Trainings</a></li>
+                    <li class="filters__item filters__item--inactive">Deine Auswahl</li>
                 </ul>
             </div>
             <ul class="cards">

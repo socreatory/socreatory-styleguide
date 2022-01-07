@@ -747,6 +747,12 @@ label {
   text-decoration-thickness: 0.2rem;
 }
 
+.filters__item--inactive,
+.filters__item--inactive:hover {
+  color: $brand-sand;
+  text-decoration: none;
+}
+
 // Spacers
 .spacer__md {
   margin-bottom: $spacer-md;
