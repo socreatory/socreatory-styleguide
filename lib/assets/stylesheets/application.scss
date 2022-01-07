@@ -256,6 +256,10 @@ Application specific code
   margin-bottom: $spacer-xl;
 }
 
+.section--supernarrow {
+  margin-bottom: $spacer-md;
+}
+
 .section__title--small {
   @extend %monospace-font-regular;
   text-transform: uppercase;

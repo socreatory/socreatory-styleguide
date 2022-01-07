@@ -49,6 +49,12 @@
   border: 0.25rem solid $brand-text;
 }
 
+.btn-state--disabled {
+  color: $brand-background;
+  background-color: $brand-background-dark;
+  border: 0.25rem solid $brand-background-dark;
+}
+
 .btn-anchor {
   margin: $spacer-md 0 $spacer-base 0;
   @include for-tablet-landscape-up {

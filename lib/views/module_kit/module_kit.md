@@ -50,10 +50,12 @@ example view
         </section>
     </div>
     <div class="container__fullwidth">
-        <section class="section section--home">
-            <h2 class="section__title--normal">Punkte für deine Auswahl</h2>
+        <section class="section section--supernarrow">
+            <div class="modulekitgrid__points">
+                <h3 class="modulekitkombis__heading">Punkte für deine Auswahl</h3>
+            </div>
             <ul class="modulekitgrid">
-                <li class="modulekitcard modulekitcard--inactive">
+                <li class="modulekitcard modulekitcard--disabled">
                     <a href="#" class="modulekitcard__body">
                         <h3 class="modulekitcard__title">Agila</h3>
                         <p class="modulekitcard__subtitle">Agile Software Architektur</p>
@@ -234,7 +236,27 @@ example view
             </ul>
         </section>
     </div>
+
     <div class="container__centered">
+        <section class="section section--home">
+            <div class="modulekit__info">
+                <div class="achtung-box"><p class="modulekit__infotext"><strong>Gut zu wissen:</strong> Zwischen den Modulen FLEX und CLOUDINFRA gibt es eine Überschneidung. FLEX beinhaltet ebenfalls das Bauen skalierbarer Anwendungen.</p></div>
+            </div>
+            <div class="modulekitkombis">
+                <h3 class="modulekitkombis__heading">Wir empfehlen dir auch folgende Kombinationen</h3>
+                <ul class="modulekitkombis__pills">
+                    <li><a href="#" class="modulekitkombis__pill">Lösungen mit mehreren Teams bauen</a></li>
+                    <li><a href="#" class="modulekitkombis__pill">Sicher und gekonnt durchs Web</a></li>
+                    <li><a href="#" class="modulekitkombis__pill">Legacy Softwaresysteme modernisieren</a></li>
+                    <li><a href="#" class="modulekitkombis__pill">Anforderungen erarbeiten und Moderationsfähigkeit verbessern</a></li>
+                    <li><a href="#" class="modulekitkombis__pill">Architekturen dokumentieren und kommunizieren</a></li>
+                    <li><a href="#" class="modulekitkombis__pill">Moderne Architekturstile bauen und betreiben</a></li>
+                </ul>
+            </div>
+            <div class="flex-center">
+                <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zu den gewählten Modulen</a>
+            </div>
+        </section>
         <section class="section section--home">
             <div class="img-text">
                 <div class="img-text__figure">

@@ -121,6 +121,7 @@
   grid-template-columns: 1fr;
   padding-left: 0;
   grid-auto-rows: 1fr;
+  margin-bottom: $spacer-lg;
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr;
   }
@@ -163,7 +164,7 @@
   }
 }
 
-.modulekitcard--inactive {
+.modulekitcard--disabled {
   background-color: rgba($brand-background-dark, 0.4);
   .modulekitcard__title,
   .modulekitcard__subtitle,
@@ -219,7 +220,6 @@
   right: $spacer-sm;
   z-index: 1;
   transition: all 250ms ease;
-
   @extend %monospace-font-regular;
   color: $brand-text;
   background-color: $brand-sand;
@@ -229,4 +229,57 @@
   padding: 0.2rem 0.6rem;
   text-align: center;
   // letter-spacing: 0.0875rem;
+}
+
+.modulekitkombis {
+  // display: block;
+  // flex-direction: column;
+  // margin-top: $spacer-lg;
+}
+
+.modulekitkombis__heading {
+  font-size: $font-size-base;
+  text-align: center;
+}
+
+.modulekitkombis__pills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.modulekitkombis__pill {
+  display: block;
+  color: $brand-text;
+  text-decoration: none;
+  text-align: center;
+  font-size: $font-size-sm;
+  list-style-type: none;
+  border: 1px solid $brand-sand;
+  background-color: none;
+  margin: $spacer-xxs*0.7 $spacer-xxs*0.4;
+  padding: $spacer-xxs*0.5 $spacer-xs;
+  border-radius: 2rem;
+}
+
+.modulekitkombis__pill:hover {
+  background-color: $brand-green-light;
+  border: 1px solid $brand-green-light;
+}
+
+.modulekit__info {
+  display: block;
+  max-width: $tablet-landscape;
+  margin: 0 auto $spacer-md auto;
+}
+
+.modulekit__infotext {
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
