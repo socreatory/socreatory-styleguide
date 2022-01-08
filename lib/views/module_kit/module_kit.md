@@ -44,7 +44,7 @@ example view
         <section class="section section--home">
             <h2 class="section__title--normal">Die Module — viele Wege führen nach Rom</h2>
             <div class="article markdown">
-                <p>Wie du möglichst schnell deine Punkte sammelst und so die Kriterien zur Anmeldung zur iSAQB<sup>®</sup> CPSA-A (Advanced-Level) Prüfung erfüllst, kannst du mit unserem Socreatory-Modulbaukasten herausfinden. Finde deine eigenen Kombination – oder klicke dich durch unsere Empfehlungen. So siehst du, welche Module du kombinieren kannst, um deine Ziele zu erreichen.</p>
+                <p>Wie du möglichst schnell deine Punkte sammelst und so die Kriterien zur Anmeldung zur iSAQB<sup>®</sup> CPSA-A (Advanced-Level) Prüfung erfüllst, kannst du mit unserem Socreatory-Modulbaukasten herausfinden. Finde deine eigene Kombination – oder klicke dich durch unsere Empfehlungen. So siehst du, welche Module du kombinieren kannst, um deine Ziele zu erreichen.</p>
                 <div class="achtung-box"><p>Um die Prüfung antreten zu können, werden <strong>insgesamt min. 70 Punkte</strong> sowie <strong>min. 10 Punkte</strong> in jedem Schwerpunkt benötigt</p></div>
             </div>
         </section>
