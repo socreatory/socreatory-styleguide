@@ -159,7 +159,7 @@
 
 .modulekitcard:hover {
   background-color: $brand-green-light;
-  .pill__number--modulekit {
+  .pill__number--zero {
     background-color: $brand-green;
   }
   .modulekitcard__overlay,
@@ -175,7 +175,7 @@
 
 .modulekitcard--active {
   background-color: $brand-green-light;
-  .pill__number--modulekit {
+  .pill__number--zero {
     background-color: $brand-green;
   }
 }

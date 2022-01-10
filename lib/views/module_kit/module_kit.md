@@ -53,12 +53,12 @@ example view
         <section class="section section--supernarrow">
             <div class="modulekitheader">
                 <h3 class="modulekitkombis__heading">Punkte für deine Auswahl</h3>
-                <h4 class="modulekitpoints">60</h4>
+                <h4 class="modulekitpoints">30</h4>
                 <div>
                     <div class="pills">
-                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number pill__number--modulekit">—</div>
-                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number pill__number--modulekit">—</div>
-                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number pill__number--modulekit">—</div>
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number pill__number--zero">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                     </div>
                 </div>
             </div>
@@ -70,9 +70,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -88,9 +88,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -104,9 +104,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -120,9 +120,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -136,9 +136,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -152,9 +152,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -168,9 +168,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -184,9 +184,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -200,9 +200,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -216,9 +216,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
@@ -232,9 +232,9 @@ example view
                     </a>
                     <div>
                         <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--modulekit">20</div>
-                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--modulekit">—</div>
-                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--modulekit">10</div>
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--zero">20</div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--zero">—</div>
+                            <div class="pill"><span class="pill__label">K</span><span class="pill__number pill__number--zero">10</div>
                         </div>
                     </div>
                     <div class="modulekitcard__overlay">
