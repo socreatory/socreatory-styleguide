@@ -50,9 +50,11 @@
 }
 
 .btn-state--disabled {
-  color: $brand-background;
-  background-color: $brand-background-dark;
-  border: 0.25rem solid $brand-background-dark;
+  background-color: $gray-50;
+  border-color: $gray-50;
+  // color: $brand-background;
+  // background-color: $brand-background-dark;
+  // border: 0.25rem solid $brand-background-dark;
 }
 
 .btn-anchor {
