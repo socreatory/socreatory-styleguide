@@ -63,7 +63,7 @@ example view
                         <div class="modulekitheader__pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                     </div>
                     <div class="flex-center">
-                        <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zur Modul-Auswahl</a>
+                        <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zur Auswahl</a>
                     </div>
                 </div>
             </div>
