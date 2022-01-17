@@ -118,8 +118,28 @@
 .modulekitheader {
   display: flex;
   flex-direction: column;
+  margin: $spacer-base 0;
+  padding: $spacer-xs 0;
   align-items: center;
-  margin-bottom: $spacer-base;
+  gap: $spacer-md;
+  // @include for-breakpoint-phone-up {
+    //   padding: $spacer-xs 0;
+    // }
+    @include for-tablet-landscape-up {
+      flex-direction: row;
+      justify-content: space-between;
+      margin: $spacer-xl auto $spacer-base auto;
+      align-items: center;
+      // padding: $spacer-xs 2rem;
+      max-width: 56rem;
+  }
+}
+
+.modulekitsticky {
+  position: sticky;
+  top: 0;
+  background-color: $brand-background;
+  z-index: 2;
 }
 
 .modulekitheading {
@@ -204,7 +224,7 @@
   color: $brand-text;
   font-size: $font-size-md;
   line-height: 1.35;
-  margin: $spacer-xxs 0 0 0;
+  margin: $spacer-xxs 0 $spacer-xs 0;
 }
 
 .modulekitcard__overlay {

@@ -3,19 +3,18 @@
   display: flex;
   flex-wrap: wrap;
   font-size: $font-size-sm;
-  margin-top: $spacer-md;
+  // margin-top: $spacer-sm;
+  // justify-content: center;
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-md;
+  }
 }
-
-// .pill + * {
-//   margin-left: $spacer-sm;
-// }
 
 .pill {
   display: flex;
   flex-wrap: nowrap;
   margin: 0 $spacer-sm * 0.9 $spacer-xs 0;
 }
-
 
 .pill__number {
   display: inline-block;
@@ -29,11 +28,40 @@
   letter-spacing: 0.0875rem;
 }
 
-// .pill--modulekit {
-//   margin: 0 $spacer-sm * 0.9 0 0;
-// }
+.pill__number--big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-left: 0.4rem;
+  // margin-top: 0.5rem;
+  // padding: 0.5rem 1rem;
+  border-radius: $spacer-xl;
+  min-width: 5rem;
+  background-color: $brand-sand;
+  font-size: 2rem;
+}
 
 .pill__number--zero {
   background-color: $brand-sand;
   transition: all 250ms ease;
+}
+
+.modulekitheader__pills {
+  @extend %monospace-font-regular;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $font-size-sm;
+  justify-content: center;
+  gap: 0.5rem;
+  // margin-top: $spacer-sm;
+  @include for-tablet-landscape-up {
+    // margin-top: $spacer-md;
+  }
+}
+
+.modulekitheader__pill {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 $spacer-sm * 0.9 0 0;
+  align-items: center;
 }

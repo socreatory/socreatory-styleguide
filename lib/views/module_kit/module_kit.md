@@ -51,14 +51,19 @@ example view
     </div>
     <div class="container__fullwidth">
         <section class="section section--supernarrow">
-            <div class="modulekitheader">
-                <h3 class="modulekitkombis__heading">Punkte für deine Auswahl</h3>
-                <h4 class="modulekitpoints">30</h4>
-                <div>
-                    <div class="pills">
-                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number pill__number--zero">—</div>
-                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+            <h2 class="header__heading header__heading--centered">Unser Modulbaukasten</h2>
+            <div class="modulekitsticky">
+                <div class="modulekitheader">
+                    <div class="modulekitheader__pills">
+                        <div class="modulekitheader__pill"><span class="pill__label">Punkte</span><span class="pill__number pill__number--big">20</div>
+                    </div>
+                    <div class="modulekitheader__pills">
+                        <div class="modulekitheader__pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="modulekitheader__pill"><span class="pill__label">Methodik</span><span class="pill__number pill__number--zero">—</div>
+                        <div class="modulekitheader__pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                    </div>
+                    <div class="flex-center">
+                        <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zur Modul-Auswahl</a>
                     </div>
                 </div>
             </div>
@@ -242,9 +247,6 @@ example view
                     </div>
                 </li>
             </ul>
-            <div class="flex-center">
-                <a href="#" class="btn btn-type--primary btn-size--fit btn-state--disabled">Zu den gewählten Modulen</a>
-            </div>
         </section>
     </div>
 
