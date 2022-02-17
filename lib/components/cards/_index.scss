@@ -240,12 +240,12 @@
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: asset-url("/snippet/images/icons/link.svg");
+  background-image: asset-url("icons/link.svg");
   background-size: cover;
 }
 
 .modulekitcard__link:hover {
-  background-image: asset-url("/snippet/images/icons/link--hover.svg");
+  background-image: asset-url("icons/link--hover.svg");
 }
 
 .modulekitcard__zuwenigpunkte {
