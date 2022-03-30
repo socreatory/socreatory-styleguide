@@ -7,3 +7,15 @@ $spacer-lg: 3rem; // Add your own value here
 $spacer-xl: 3.875rem; // Add your own value here
 $spacer-xxl: 8rem; // Add your own value here
 $spacer-xxxl: 16rem; // Add your own value here
+
+.gap-1 {
+  gap: $spacer-sm;
+}
+
+.gap-2 {
+  gap: $spacer-md;
+}
+
+.column-gap-1 {
+  column-gap: $spacer-sm;
+}

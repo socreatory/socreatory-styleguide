@@ -50,9 +50,11 @@
   @extend %monospace-font-regular;
   display: flex;
   flex-wrap: wrap;
-  font-size: $font-size-sm;
   justify-content: center;
-  gap: 0.5rem;
+  align-items: center;
+  font-size: $font-size-sm;
+  column-gap: 1.5rem;
+  row-gap: .5rem;
   // margin-top: $spacer-sm;
   @include for-tablet-landscape-up {
     // margin-top: $spacer-md;
@@ -62,6 +64,21 @@
 .modulekitheader__pill {
   display: flex;
   flex-wrap: nowrap;
-  margin: 0 $spacer-sm * 0.9 0 0;
+  // margin: 0 $spacer-sm * 0.9 0 0;
   align-items: center;
+}
+
+.modulekitheader__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.modulekitheader__info {
+  display: block;
+  margin: 0;
+  padding: 0;
+  @extend %body-font-regular;
+  font-size: $font-size-sm;
+  text-align: center;
 }

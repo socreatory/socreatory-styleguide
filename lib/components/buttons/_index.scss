@@ -2,7 +2,7 @@
   @extend %body-font-bold;
   color: $brand-text;
   font-size: $font-size-sm;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border: 0.25rem solid $brand-text;
   transition: all 0.15s ease-out;
   letter-spacing: 0.12rem;
@@ -10,6 +10,7 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  text-wrap: none;
 }
 
 .btn-size--full {
