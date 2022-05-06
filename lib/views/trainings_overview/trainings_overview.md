@@ -204,6 +204,7 @@ example view
                     </div>
                 </li>
             </ul>
+            <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
         </section>
 
         <section class="section section--home">
