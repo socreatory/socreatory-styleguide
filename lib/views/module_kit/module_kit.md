@@ -35,16 +35,18 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Ausbildungsweg.png" alt="">
-        <h1 class="header__heading header__heading--centered">Dein Ausbildungsweg</h1>
+        <h1 class="header__heading header__heading--centered">Bau Dir Deinen Ausbildungsweg</h1>
     </div>
 </header>
 
 <main>
     <div class="container__centered">
         <section class="section section--home">
-            <h2 class="section__title--normal">Die Module — viele Wege führen nach Rom</h2>
+            <h2 class="section__title--normal">Mit unserem Modulbaukasten zum Advanced Level</h2>
             <div class="article markdown">
-                <p>Wie du möglichst schnell deine Punkte sammelst und so die Kriterien zur Anmeldung zur iSAQB<sup>®</sup> CPSA-A (Advanced-Level) Prüfung erfüllst, kannst du mit unserem Socreatory-Modulbaukasten herausfinden. Finde deine eigene Kombination – oder klicke dich durch unsere Empfehlungen. So siehst du, welche Module du kombinieren kannst, um deine Ziele zu erreichen.</p>
+                <p>Als Softwarearchitekt:in bist Du es gewohnt, Dich mit komplexen Systemen zu beschäftigen. Trotzdem möchten wir es Dir so einfach wie möglich machen. Mit unserem Modulbaukasten stellst Du Dir mit wenigen Klicks ein Trainingsprogramm zusammen, das ideal ineinandergreift und alle Voraussetzungen für Deine Teilnahme an der Prüfung zum <a href="https://www.isaqb.org/de/zertifizierungen/zertifizierungen-uebersicht/cpsa-advanced-level/" target="_blank">Certified Professional for Software Architecture – Advanced Level (CPSA-A)</a> erfüllt.
+                </p>
+                <p>Du siehst auf einen Blick, wie viele Credit Points Du mit Deiner Auswahl erreichst, welche Themenbereiche Du bereits belegt hast und welche Module noch dazu passen könnten. Selbstverständlich kannst Du die Trainingseinheiten frei kombinieren und Deine eigenen Schwerpunkte setzen. Du hast keine Muße, Dir sämtliche Modulbeschreibungen einzeln durchzulesen? Nutze einfach unsere Empfehlungen, um Dich zu orientieren. Sie basieren auf den Erfahrungswerten unserer Trainer:innen und die müssen es ja wissen.</p>
                 <div class="achtung-box"><p>Um die Prüfung antreten zu können, werden <strong>insgesamt min. 70 Punkte</strong> sowie <strong>min. 10 Punkte</strong> in jedem Schwerpunkt benötigt</p></div>
             </div>
         </section>
@@ -274,12 +276,26 @@ example view
         <section class="section section--home">
             <div class="img-text">
                 <div class="img-text__figure">
-                    <img class="img-text__image" src="/snippet/images/profiles/Stefan_Toth.jpg">
+                    <img class="img-text__image" src="/snippet/images/illustrations/Kontakt.png">
                 </div>
                 <div class="img-text__content">
                     <h3 class="img-text__heading">Du hast noch Fragen?</h3>
-                    <p class="markdown">Sehr gerne beraten wir dich auch persönlich und sprechen mit dir über deine Wünsche und Möglichkeiten. Schreibe uns einfach eine E-Mail und vereinbare bei Bedarf einen Telefontermin. Dein Ansprechpartner ist Stefan Toth von embarc.</p>
-                    <p>E-Mail: <a href="mailto:stefan.toth@embarc.de">stefan.toth@embarc.de</a></p>
+                    <p class="markdown">Sehr gerne beraten wir Dich auch persönlich und sprechen mit Dir über Deine Wünsche und Möglichkeiten. Schreibe uns einfach eine E-Mail und vereinbare bei Bedarf einen Telefontermin.</p>
+                    <p>E-Mail: <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--home">
+            <div class="teaser teaser--reverse">
+                <!-- <div class="teaser__column">
+                    <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
+                </div> -->
+                <div class="">
+                    <h2 class="section__title--normal">Prüfungsvorbereitung Meetup</h2>
+                    <p class="teaser__text">Du möchtest keine FAQs wälzen, sondern würdest Deine Fragen zum iSAQB<sup>®</sup> Advanced Level und zur Prüfung lieber direkt stellen? Nutze das regelmäßig stattfindende Meetup unseres Trainers Gerrit Beine, um Dich über die iSAQB<sup>®</sup> Advanced Level Prüfungsvorbereitung zu informieren. Hier geht es darum, wie die Prüfung formal abläuft, wie Du Dich darauf vorbereiten kannst und worauf Du achten solltest. Deine Teilnahme ist kostenfrei, es gelten die in der Meetup-Gruppe beschriebenen Regeln.
+                    <p><a href="https://www.meetup.com/de-DE/isaqb-cpsa-advanced-examination-cpsa-a/events/284842444/?isFirstPublish=true" target="_blank">Jetzt zum nächsten Termin anmelden</a></p>
+                    <!-- <a href="#" class="btn btn-type--primary btn-size--fit">Alle Trainings</a> -->
                 </div>
             </div>
         </section>
@@ -291,7 +307,8 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Das volle Programm</h2>
-                    <p class="teaser__text">Wir bieten dir alles, was du brauchst, um erfolgreich deine iSAQB® CPSA-A (Advanced-Level) Prüfung ablegen zu können. Darüberhinaus kannst du bei uns aber auch weitere spannende Trainings besuchen, in denen du zwar keine iSAQB<sup>®</sup>-Punkte erwirbst, dafür aber jede Menge Praxiswissen.</p>
+                    <p class="teaser__text">Mit der Software Creators’ Academy bieten wir Dir alles, was Du brauchst, um erfolgreich Deine iSAQB<sup>®</sup> CPSA Advanced Level Prüfung abzulegen. Zusätzlich bieten wir Dir noch viele andere spannende Trainings. Damit erwirbst Du zwar keine iSAQB<sup>®</sup>-Punkte, aber jede Menge Praxiswissen für den Alltag. Und damit kann man schließlich auch punkten.
+                    </p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Alle Trainings</a>
                 </div>
             </div>
@@ -304,7 +321,7 @@ example view
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Die Ausbildung nach iSAQB<sup>®</sup></h2>
-                    <p class="teaser__text">Erfahre mehr zum iSAQB<sup>®</sup>, seinen verschiedenen Ausbildungsstufen und dem Credit Point System. Auf die Fragen, die dann noch offen sind, geben dir unsere FAQs die richtigen Antworten.</p>
+                    <p class="teaser__text">Erfahre mehr über das ISAQB<sup>®</sup>, die verschiedenen Ausbildungsstufen und das Credit Point System. Sollten dann noch Fragen offen sein, helfen Dir wahrscheinlich <a href="https://www.socreatory.com/de/isaqb">unsere FAQs</a> weiter.</p>
                     <a href="#" class="btn btn-type--primary btn-size--fit">Mehr Infos zum iSAQB<sup>®</sup></a>
                 </div>
             </div>
