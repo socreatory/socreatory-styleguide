@@ -37,6 +37,7 @@
   color: $brand-background;
   background-color: $gray-90;
   border: 0.25rem solid $gray-90;
+  cursor: pointer;
 }
 
 .btn-type--secondary {
@@ -48,6 +49,7 @@
 .btn-type--secondary:focus {
   background-color: $brand-background-dark;
   border: 0.25rem solid $brand-text;
+  cursor: pointer;
 }
 
 .btn-state--disabled {
