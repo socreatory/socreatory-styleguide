@@ -67,11 +67,11 @@ Application specific code
 // Hero
 .hero {
   background-color: $brand-green-light;
-  padding: $spacer-xxl 0 $spacer-lg 0;
+  padding: $spacer-lg 0 $spacer-lg 0;
   margin-bottom: $spacer-xl;
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xxl * 1.25;
-    padding: $spacer-xxl + 4rem 0 $spacer-lg 0;
+    padding: $spacer-lg + 4rem 0 $spacer-lg 0;
   }
 }
 
@@ -123,7 +123,7 @@ Application specific code
 
 // Header
 .header {
-  padding: $spacer-lg + 4rem 0 $spacer-lg 0;
+  padding: $spacer-lg 0 $spacer-lg 0;
   margin-bottom: $spacer-sm;
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xl;
