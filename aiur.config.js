@@ -55,6 +55,7 @@ module.exports = {
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
         rating: "./lib/components/rating/rating.md",
         quote: "./lib/components/quote/quote.md",
+        announcement: "./lib/components/announcement/announcement.md"
 
       },
     },

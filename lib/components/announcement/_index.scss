@@ -1,0 +1,15 @@
+.announcement {
+  width: 100%;
+  padding: $spacer-md;
+  background-color: $gray-90;
+  color: $brand-background;
+  text-align: center;
+
+  &__text {
+    margin: 0;
+  }
+
+  &__link {
+    color: $brand-background;
+  }
+}

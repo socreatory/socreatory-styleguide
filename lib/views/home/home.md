@@ -23,6 +23,12 @@ example view
     </nav>
 </scroll-nav>
 
+<div class="announcement">
+    <p class="announcement__text">
+        🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a>
+    </p>
+</div>
+
 <header class="hero">
     <div class="container__fullwidth">
         <div class="hero__teaser">
