@@ -714,6 +714,13 @@ label {
 .filters__list {
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: $spacer-base;
+
+  @include for-breakpoint-phone-up {
+    display: block;
+  }
 }
 
 .filters__item {
@@ -732,7 +739,7 @@ label {
 
 .filters__item:last-child {
   margin-right: 0;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 
 .filters__link {
