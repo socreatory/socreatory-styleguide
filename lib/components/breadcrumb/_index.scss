@@ -17,11 +17,11 @@
   @extend %monospace-font-regular;
   display: inline;
   font-size: $font-size-sm;
-  + :before {
-    padding: 0 $spacer-xs 0 $spacer-xxs;
-    color: black;
-    content: "›";
-  }
+}
+
+.breadcrumb__arrow {
+  padding: 0 $spacer-xs 0 $spacer-xxs;
+  color: black;
 }
 
 /* Add a color to all links inside the list */

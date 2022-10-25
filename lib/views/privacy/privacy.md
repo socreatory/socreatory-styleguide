@@ -28,7 +28,7 @@ example view
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item">Datenschutz</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Datenschutz</li>
             </ul>
         </div>
     </div>

@@ -27,8 +27,8 @@ example view
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
-                <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item">Trainings</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Trainings</li>
             </ul>
         </div>
     </div>

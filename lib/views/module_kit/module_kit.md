@@ -28,8 +28,8 @@ example view
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item">iSAQB</li>
-                <li class="breadcrumb__item">Ausbildungsweg</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> iSAQB</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Ausbildungsweg</li>
             </ul>
         </div>
     </div>

@@ -29,8 +29,8 @@ example view
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><a href="#">Schulungen</a></li>
-                <li class="breadcrumb__item">Agile Softwarearchitektur</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#"> Schulungen</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Agile Softwarearchitektur</li>
             </ul>
         </div>
         <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
