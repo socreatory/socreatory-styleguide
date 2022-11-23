@@ -43,8 +43,8 @@ example view
         <section class="section">
             <div class="news__block">
                 <div class="news__item">
-                    <time datetime="23-02-14">
-                        <span class="news__newsdate">14.02.2023</span>
+                    <time class="news__newsdate" datetime="23-02-14">
+                        14.02.2023
                     </time>
                     <h2 class="news__newsheadline"><a href="#">
                         socreatory weiß wo es langgeht
