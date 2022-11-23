@@ -90,7 +90,7 @@
 
 // // // // Part2
 // Training Titel
- .pretix-widget .pretix-widget-event-header {
+.pretix-widget .pretix-widget-event-header {
   @extend %heading-font-bold;
   font-size: $font-size-lg;
   padding: 0;
@@ -286,6 +286,8 @@ input[type="checkbox"]:checked {
 // Button
 .pretix-widget .pretix-widget-action {
   padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .pretix-widget .pretix-widget-action button {
@@ -316,12 +318,6 @@ input[type="checkbox"]:checked {
   width: 100%;
 }
 
-.pretix-widget .pretix-widget-action {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 // Loading Icon
 .pretix-widget-primary-color {
   fill: $brand-blue;
@@ -344,7 +340,6 @@ input[type="checkbox"]:checked {
   text-decoration: underline;
   text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
-
 }
 
 .pretix-widget .pretix-widget-attribution {
