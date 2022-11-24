@@ -14,7 +14,7 @@
     "test": "npm run eslint && npm run stylelint"
   },
   "devDependencies": {
-    "aiur": "^0.6.0",
+    "aiur": "^0.8.0",
     "eslint": "^8.14.0",
     "eslint-plugin-prettier": "^3.1.2",
     "faucet-pipeline-js": "^2.1.7",
