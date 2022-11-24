@@ -4,37 +4,41 @@
 @mixin color-definition($color-name, $hex) {
   &.#{$color-name} {
     background-color: $hex;
+
     &::before {
       display: block;
-      content: "#{$color-name}";
       padding: 0.25rem;
-      text-align: center;
+      /* stylelint-disable-next-line color-no-hex */
       background-color: #f7f7f7;
+      content: "#{$color-name}";
       grid-area: name;
+      text-align: center;
     }
+
     &::after {
       display: block;
-      content: "#{$hex}";
-      text-align: center;
-      background-color: #f7f7f7;
+      padding: 0 0.25rem 0.25rem;
       border-radius: 0 0 0.25rem 0.25rem;
-      padding: 0 0.25rem 0.25rem 0.25rem;
+      /* stylelint-disable-next-line color-no-hex */
+      background-color: #f7f7f7;
+      content: "#{$hex}";
       grid-area: hex;
+      text-align: center;
     }
   }
 }
 
 my-color {
+  @include color-definition("brand-green", $brand-green);
+
+  @include color-definition("brand-blue", $brand-blue);
+
   display: inline-grid;
   min-width: 8rem;
   border-radius: 0.25rem 0.25rem 0.5rem 0.5rem;
   margin: 0.125rem;
-  grid-template-rows: 8rem auto auto;
   grid-template-areas: "swatch" "name" "hex";
-
-  @include color-definition("brand-green", $brand-green);
-
-  @include color-definition("brand-blue", $brand-blue);
+  grid-template-rows: 8rem auto auto;
 }
 
 // Code for swatching spacer variables
@@ -44,9 +48,9 @@ dl.spacers {
   }
 
   dd {
-    background-color: $brand-green;
     width: 100%;
     margin: 0;
+    background-color: $brand-green;
   }
 }
 

@@ -1,4 +1,5 @@
 // Breadcrumb
+
 /* Style the list */
 .breadcrumb {
   display: none;
@@ -15,13 +16,14 @@
 /* Display list items side by side */
 .breadcrumb__item {
   @extend %monospace-font-regular;
+
   display: inline;
   font-size: $font-size-sm;
 }
 
 .breadcrumb__arrow {
   padding: 0 $spacer-xs 0 $spacer-xxs;
-  color: black;
+  color: $brand-text;
 }
 
 /* Add a color to all links inside the list */
@@ -34,6 +36,6 @@
 .breadcrumb__item a:hover {
   color: $brand-text;
   text-decoration: underline;
-  text-underline-offset: 0.45rem;
   text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.45rem;
 }

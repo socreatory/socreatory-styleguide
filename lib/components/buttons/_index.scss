@@ -1,16 +1,17 @@
 .btn {
   @extend %body-font-bold;
-  color: $brand-text;
-  font-size: $font-size-sm;
+
   padding: 1rem 1.5rem;
   border: 0.25rem solid $brand-text;
-  transition: all 0.15s ease-out;
+  color: $brand-text;
+  font-size: $font-size-sm;
   letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
   text-wrap: none;
+  transition: all 0.15s ease-out;
+  word-spacing: 0.25rem;
 }
 
 .btn-size--full {
@@ -28,33 +29,33 @@
 }
 
 .btn-type--primary {
-  color: $brand-background;
   background-color: $brand-text;
+  color: $brand-background;
 }
 
 .btn-type--primary:hover,
 .btn-type--primary:focus {
-  color: $brand-background;
-  background-color: $gray-90;
   border: 0.25rem solid $gray-90;
+  background-color: $gray-90;
+  color: $brand-background;
   cursor: pointer;
 }
 
 .btn-type--secondary {
-  color: $brand-text;
   background-color: none;
+  color: $brand-text;
 }
 
 .btn-type--secondary:hover,
 .btn-type--secondary:focus {
-  background-color: $brand-background-dark;
   border: 0.25rem solid $brand-text;
+  background-color: $brand-background-dark;
   cursor: pointer;
 }
 
 .btn-state--disabled {
-  background-color: $gray-50;
   border-color: $gray-50;
+  background-color: $gray-50;
   // color: $brand-background;
   // background-color: $brand-background-dark;
   // border: 0.25rem solid $brand-background-dark;

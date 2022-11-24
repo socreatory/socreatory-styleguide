@@ -1,22 +1,25 @@
 // Rating
 .stars {
   --percent: calc(var(--rating) / 5 * 100%);
-  display: inline-block;
-  font-size: $font-size-xl;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1;
+
   position: relative;
   top: 0.075rem;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $font-size-xl;
+  line-height: 1;
+
   &::before {
-    content: "★★★★★";
     background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
-    -webkit-background-clip: text;
+    background-clip: text;
+    content: "★★★★★";
     -webkit-text-fill-color: transparent;
   }
 }
 
 .stars__rating {
   @extend %monospace-font-regular;
+
   display: inline-block;
   margin-left: $spacer-sm;
   font-size: $font-size-md;

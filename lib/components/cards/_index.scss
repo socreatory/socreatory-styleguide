@@ -1,9 +1,9 @@
 .cards {
   display: grid;
+  padding-left: 0;
+  margin-bottom: $spacer-lg;
   gap: $spacer-lg;
   grid-template-columns: 1fr;
-  margin-bottom: $spacer-lg;
-  padding-left: 0;
   @include for-tablet-landscape-up {
     gap: 3.25rem;
     grid-template-columns: 1fr 1fr;
@@ -27,48 +27,44 @@
 .card {
   position: relative;
   display: grid;
-  grid-row: span 3;
-  grid-template-rows: minmax(5rem, auto) 5rem minmax(0rem, auto);
   gap: 0;
-  // min-height: 100%;
-  // grid-template-rows: subgrid;
+  grid-row: span 3;
+  grid-template-rows: minmax(5rem, auto) 5rem minmax(0, auto);
   transition: all 250ms ease;
   @include for-breakpoint-phone-up {
-    grid-template-rows: minmax(20rem, auto) 5rem minmax(0rem, auto);
-    // grid-template-rows: subgrid;
     align-content: start;
+    grid-template-rows: minmax(20rem, auto) 5rem minmax(0, auto);
   }
 }
 
 .card__link {
-  text-decoration: none;
   color: $brand-text;
   hyphens: auto;
+  text-decoration: none;
 }
 
 .card__link:hover {
   text-decoration: underline;
-  text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
 }
 
 .card__link::after {
-  content: "";
   position: absolute;
-  left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+  content: "";
 }
 
 .card__body {
   display: flex;
+  min-height: 18rem;
   flex-direction: column;
-  background-color: $brand-blue-light;
   justify-content: space-between;
   padding: $spacer-md * 0.8;
-  // height: 100%;
-  min-height: 18rem;
+  background-color: $brand-blue-light;
 }
 
 .card__body--isaqb {
@@ -77,11 +73,11 @@
 
 .card__footer {
   display: flex;
+  height: 5rem;
   flex-direction: row-reverse;
   justify-content: space-between;
   padding: $spacer-md * 0.8;
   background-color: $brand-blue;
-  height: 5rem;
 }
 
 .card__footer--isaqb {
@@ -89,10 +85,10 @@
 }
 
 .card__title {
-  font-size: $font-size-xl;
-  line-height: 1.2;
   margin-bottom: $spacer-xxs;
+  font-size: $font-size-xl;
   hyphens: auto;
+  line-height: 1.2;
 }
 
 .card__text {
@@ -100,14 +96,15 @@
 }
 
 .card__label {
-  font-size: $font-size-base;
   margin-top: $spacer-xxs * 0.3;
+  font-size: $font-size-base;
 }
 
 .card__price {
-  font-size: $font-size-base;
   @extend %body-font-bold;
+
   margin-top: $spacer-xxs * 0.3;
+  font-size: $font-size-base;
 }
 
 .card__appendix {
@@ -117,51 +114,35 @@
 // Module Kit
 .modulekitheader {
   display: grid;
+  padding: $spacer-xs 0;
+  margin: $spacer-xl auto $spacer-base auto;
   grid-template-rows: repeat (3, auto);
   row-gap: 1rem;
-  margin: $spacer-xl auto $spacer-base auto;
-  // display: flex;
-  // flex-direction: column;
-  // margin: $spacer-base 0;
-  padding: $spacer-xs 0;
-  // align-items: center;
-  // gap: $spacer-md;
-  // @include for-breakpoint-phone-up {
-  //   padding: $spacer-xs 0;
-  // }
   @include for-tablet-landscape-up {
-    grid-template-columns: auto 1fr auto;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-items: center;
-    // // padding: $spacer-xs 2rem;
     max-width: 56rem;
+    grid-template-columns: auto 1fr auto;
   }
 }
 
 .modulekitsticky {
   position: sticky;
+  z-index: 2;
   top: 0;
   background-color: $brand-background;
-  z-index: 2;
 }
 
-// .modulekitheading {
-// }
-
 .modulekitpoints {
-  font-size: $font-size-xxxl;
-  // text-align: center;
   margin: -1rem 0;
+  font-size: $font-size-xxxl;
 }
 
 .modulekitgrid {
   display: grid;
-  gap: $spacer-sm;
-  grid-template-columns: 1fr;
   padding-left: 0;
-  grid-auto-rows: 1fr;
   margin-bottom: $spacer-lg;
+  gap: $spacer-sm;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr;
   }
@@ -172,26 +153,29 @@
 
 .modulekitcard {
   position: relative;
-  list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: $brand-background-dark;
   padding: $spacer-sm * 0.5 $spacer-sm * 0.7 $spacer-xs * 0.3 $spacer-sm * 0.7;
+  background-color: $brand-background-dark;
+  list-style: none;
   transition: all 250ms ease;
 }
 
 .modulekitcard:hover {
   background-color: $brand-green-light;
+
   .pill__number--zero {
     background-color: $brand-green;
   }
+
   .modulekitcard__overlay,
   .modulekitcard__title,
   .modulekitcard__subtitle,
   .pills {
     opacity: 1;
   }
+
   .modulekitcard__zuwenigpunkte {
     background-color: $brand-green;
   }
@@ -199,6 +183,7 @@
 
 .modulekitcard--active {
   background-color: $brand-green-light;
+
   .pill__number--zero {
     background-color: $brand-green;
   }
@@ -206,6 +191,7 @@
 
 .modulekitcard--disabled {
   background-color: rgba($brand-background-dark, 0.4);
+
   .modulekitcard__title,
   .modulekitcard__subtitle,
   .pills {
@@ -218,25 +204,25 @@
 }
 
 .modulekitcard__title {
+  margin: 0 0 -0.3rem;
   color: $brand-text;
   font-size: $font-size-lg;
   text-transform: uppercase;
-  margin: 0 0 -0.3rem 0;
 }
 
 .modulekitcard__subtitle {
+  margin: $spacer-xxs 0 $spacer-xs 0;
   color: $brand-text;
   font-size: $font-size-md;
   line-height: 1.35;
-  margin: $spacer-xxs 0 $spacer-xs 0;
 }
 
 .modulekitcard__overlay {
-  opacity: 0;
   position: absolute;
+  z-index: 1;
   top: $spacer-xs * 1.2;
   right: $spacer-xs * 1.2;
-  z-index: 1;
+  opacity: 0;
   transition: all 250ms ease;
 }
 
@@ -253,28 +239,21 @@
 }
 
 .modulekitcard__zuwenigpunkte {
-  // opacity: 0;
-  position: absolute;
-  display: inline-block;
-  bottom: 0.1rem;
-  right: $spacer-sm;
-  z-index: 1;
-  transition: all 250ms ease;
   @extend %monospace-font-regular;
-  color: $brand-text;
+
+  position: absolute;
+  z-index: 1;
+  right: $spacer-sm;
+  bottom: 0.1rem;
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: $spacer-sm;
   background-color: $brand-sand;
+  color: $brand-text;
   font-size: $font-size-sm;
   letter-spacing: -0.1;
-  border-radius: $spacer-sm;
-  padding: 0.2rem 0.6rem;
   text-align: center;
-  // letter-spacing: 0.0875rem;
-}
-
-.modulekitkombis {
-  // display: block;
-  // flex-direction: column;
-  // margin-top: $spacer-lg;
+  transition: all 250ms ease;
 }
 
 .modulekitkombis__heading {
@@ -284,30 +263,31 @@
 
 .modulekitkombis__pills {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  /* stylelint-disable-next-line */
+  flex-wrap: wrap;
   justify-content: center;
-  list-style-type: none;
   padding: 0;
+  list-style-type: none;
 }
 
 .modulekitkombis__pill {
   display: block;
+  padding: $spacer-xxs * 0.5 $spacer-xs;
+  border: 1px solid $brand-sand;
+  border-radius: 2rem;
+  margin: $spacer-xxs * 0.7 $spacer-xxs * 0.4;
+  background-color: none;
   color: $brand-text;
-  text-decoration: none;
-  text-align: center;
   font-size: $font-size-md;
   list-style-type: none;
-  border: 1px solid $brand-sand;
-  background-color: none;
-  margin: $spacer-xxs * 0.7 $spacer-xxs * 0.4;
-  padding: $spacer-xxs * 0.5 $spacer-xs;
-  border-radius: 2rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 .modulekitkombis__pill:hover {
-  background-color: $brand-green-light;
   border: 1px solid $brand-green-light;
+  background-color: $brand-green-light;
 }
 
 .modulekit__info {
@@ -325,8 +305,9 @@
 }
 
 button.modulekitcard__body {
-  background: none;
+  /* stylelint-disable-next-line */
   border: none;
+  background: none;
   text-align: inherit;
 }
 

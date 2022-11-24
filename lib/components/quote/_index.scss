@@ -14,19 +14,22 @@
 
 .quote__blockquote {
   @extend %body-font-bold;
-  font-size: $font-size-xl;
+
   margin: 0 0 $spacer-base 0;
-  line-height: 1.4;
+  font-size: $font-size-xl;
   hyphens: auto;
+  line-height: 1.4;
 }
 
 .quote__name {
   @extend %body-font-bold;
-  font-size: $font-size-base;
+
   margin-bottom: $spacer-xs;
+  font-size: $font-size-base;
 }
 
 .quote__role {
   @extend %monospace-font-regular;
+
   font-size: $font-size-md;
 }
