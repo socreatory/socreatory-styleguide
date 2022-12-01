@@ -35,6 +35,11 @@ example view
     </div>
     <div class="container__centered">
         <h1 class="header__heading header__heading--centered">News Detail</h1>
+        <div class="news__item">
+            <time class="news__newsdetaildate" datetime="23-02-14">
+                14.02.2023
+            </time>
+        </div>
     </div>
 </header>
 
@@ -42,12 +47,10 @@ example view
     <div class="container__centered">
         <section class="section">
             <div class="news__detail">
-                <p>
-                    <figure>
-                        <img src="https://res.cloudinary.com/socreatory/image/upload/c_limit,f_auto,q_auto,w_auto:100:1690/v1/production/pinhwn4z5q36a284dfvmqyk2yoex" alt="Was auf dem Bild zu sehen ist">
-                        <figcaption>Dies und das</figcaption>
-                    </figure>
-                </p>
+                <figure>
+                    <img src="https://res.cloudinary.com/socreatory/image/upload/c_limit,f_auto,q_auto,w_auto:100:1690/v1/production/pinhwn4z5q36a284dfvmqyk2yoex" alt="Was auf dem Bild zu sehen ist">
+                    <figcaption>Dies und das</figcaption>
+                </figure>
                 <p>
                     Lorem iipsum dolor sit amet consectetur. Id faucibus vitae in consectetur ornare. Quis nunc volutpat sit in mi in. Arcu leo metus fermentum orci nisl pellentesque mattis. Magnis faucibus molestie tellus molestie hendrerit nibh bibendum potenti. Ligula elementum orci ut pellentesque suspendisse dui egestas. Tellus nec enim cursus ut. Sapien massa sem hac tortor morbi amet morbi bibendum. Nibh pellentesque volutpat vestibulum sapien nunc facilisi egestas venenatis rutrum. Nulla ut diam praesent dui. Gravida ornare sem tincidunt tortor facilisis metus. Vitae placerat quis duis vel cursus. Mauris velit pharetra cum elit adipiscing mauris elementum sapien mi.
                 </p>

@@ -504,7 +504,6 @@ Application specific code
 
 .stars__rating {
   @extend %monospace-font-regular;
-
   display: inline-block;
   margin-left: $spacer-sm;
   font-size: $font-size-md;
@@ -1009,8 +1008,19 @@ label {
 // News Detail
 .header__news {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .news__detail {
+  margin-bottom: $spacer-xl;
+}
+
+.news__newsdetaildate {
+  @extend %monospace-font-regular;
+  margin: auto;
+}
+
+figcaption {
+  @extend %monospace-font-regular;
   margin-bottom: $spacer-xl;
 }
