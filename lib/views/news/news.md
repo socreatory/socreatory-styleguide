@@ -33,7 +33,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/Preismodell.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/news.png" alt="">
         <h1 class="header__heading header__heading--centered">Unsere News</h1>
     </div>
 </header>
