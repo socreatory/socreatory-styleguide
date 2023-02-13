@@ -75,6 +75,7 @@
   display: flex;
   height: 5rem;
   flex-direction: row-reverse;
+  align-items: baseline;
   justify-content: space-between;
   padding: $spacer-md * 0.8;
   background-color: $brand-blue;
@@ -97,7 +98,7 @@
 
 .card__label {
   margin-top: $spacer-xxs * 0.3;
-  font-size: $font-size-base;
+  font-size: $font-size-md;
 }
 
 .card__price {

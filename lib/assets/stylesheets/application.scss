@@ -974,25 +974,24 @@ label {
 // News
 .news__item {
   display: flex;
-  margin-bottom: 3rem;
   flex-direction: column;
+  margin-bottom: 3rem;
   gap: 0;
   @include for-breakpoint-phone-up {
-    gap: 2rem;
     flex-direction: row;
     align-items: center;
-  }
-  @include for-desktop-xl-up {
+    gap: 2rem;
   }
 }
 
 .news__newsdate {
   @extend %body-font-bold;
+
+  min-width: 10rem;
   padding: 0;
   margin: 0;
   color: $brand-text;
   font-size: $font-size-xl;
-  min-width: 10rem;
 }
 
 .news__newsheadline {
