@@ -34,19 +34,28 @@ example view
     </div>
     <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
-        <h1 class="header__heading header__heading--centered">Alle Trainings im Überblick</h1>
+        <h1 class="header__heading header__heading--centered">Unsere Trainings im Überblick</h1>
     </div>
 </header>
 
 <main>
+    <div class="container__centered">
+        <section class="section">
+            <div class="section__1col markdown">
+                <p>Die Trainingsübersicht bietet Dir den Rundumblick über unser komplettes Angebot. Wenn Du speziell an unseren iSAQB®-Trainings interessiert bist, hilft Dir unser Modulbaukasten. Mit wenigen Klicks stellst Du Dir dort ein Trainingsprogramm zusammen, das ideal ineinandergreift. Probier’ ihn einfach mal aus.</p>
+                <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
+            </div>
+        </section>
+    </div>
     <div class="container__fullwidth">
         <section class="section section--home">
             <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2> -->
             <div class="filters">
                 <ul class="filters__list">
-                    <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle Trainings</a></li>
-                    <li class="filters__item "><a href="#" class="filters__link">iSAQB Trainings</a></li>
-                    <li class="filters__item filters__item--inactive">Deine Auswahl</li>
+                    <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle</a></li>
+                    <li class="filters__item "><a href="#" class="filters__link filters__link--isaqb">iSAQB Trainings</a></li>
+                    <li class="filters__item "><a href="#" class="filters__link filters__link--power">Powerworkshops</a></li>
+                    <li class="filters__item filters__item--inactive">Auswahl Modulbaukasten</li>
                 </ul>
             </div>
             <ul class="cards">
@@ -55,156 +64,154 @@ example view
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
                             <div class="pills">
                                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                                 <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">2.100 €</p>
-                        <p class="card__label">iSAQB Modul ARC</p>
+                        <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
+                            <div>
+                                <p class="card__label">iSAQB® Modul ARC</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
                             <div class="pills">
                                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                                 <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">2.100 €</p>
-                        <p class="card__label">iSAQB Modul AGILA</p>
+                        <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
+                            <div>
+                                <p class="card__label">iSAQB® Modul ARC</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaulation</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
+                            <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von Softwarearchitekturen</a></h3>
+                            <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte entwerfen.</p>
                             <div class="pills">
                                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                                 <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">1.400 €</p>
-                        <p class="card__label">iSAQB Modul ARCEVAL</p>
+                        <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
+                            <div>
+                                <p class="card__label">iSAQB® Modul ARC</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li class="card card--isaqb">
                     <div class="card__body card__body--isaqb">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Domain Driven Design</a></h3>
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="card__body__bottom">
                             <div class="pills">
                                 <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
                                 <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
                                 <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">2.100 €</p>
-                        <p class="card__label">iSAQB Modul DDD</p>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="card__body card__body--isaqb">
-                        <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
-                        </div>
                         <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            <div>
+                                <p class="card__price">ab 2.100 €</p>
+                            </div>
+                            <div>
+                                <p class="card__label">iSAQB® Modul ARC</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">2.100 €</p>
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                    </div>
                 </li>
-                <li class="card">
-                    <div class="card__body card__body--isaqb">
+                <li class="card card--power">
+                    <div class="card__body card__body--power">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a></h3>
+                            <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
                         </div>
                         <div class="card__body__bottom">
-                            <div class="pills">
-                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            <div>
+                                <p class="card__price">700 €</p>
+                            </div>
+                            <div>
+                                <p class="card__label">Powerworkshop</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card__footer card__footer--isaqb">
-                        <p class="card__price">2.100 €</p>
-                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                </li>
+                <li class="card">
+                    <div class="card__body">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von Softwarearchitekturen</a></h3>
+                            <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte entwerfen.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Docker und Kubernetes Hands-On</a></h3>
+                            <p class="card__text">Technische Hintergründe und Konzepte hinter Docker und Kubernetes</p>
                         </div>
                         <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__price">2.100 €</p>
                     </div>
                 </li>
                 <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Data Mesh: Einführung</a></h3>
+                            <p class="card__text">Training für Softwarearchitekt:innen und Datenexpert:innen</p>
                         </div>
                         <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">auf Anfrage</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__price">1.400 €</p>
                     </div>
                 </li>
                 <li class="card">
                     <div class="card__body">
                         <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                            <h3 class="card__title"><a href="#" class="card__link">Advanced Product Owner</a></h3>
+                            <p class="card__text">Verantwortung für den vollen Produktzyklus</p>
                         </div>
                         <div class="card__body__bottom">
+                            <div>
+                                <p class="card__price">2.100 €</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card__footer">
-                        <p class="card__price">2.100 €</p>
                     </div>
                 </li>
             </ul>
-            <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
         </section>
 
         <section class="section section--home">

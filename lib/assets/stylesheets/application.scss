@@ -142,6 +142,10 @@ Application specific code
   background-color: $brand-blue-light;
 }
 
+.header-color--highlighted-3 {
+  background-color: $brand-yellow-light;
+}
+
 .header__heading {
   margin-bottom: $spacer-sm;
   margin-left: -0.2rem;
@@ -706,30 +710,26 @@ label {
   padding: 0;
   gap: $spacer-base;
   list-style: none;
-
-  @include for-breakpoint-phone-up {
-    display: block;
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    gap: $spacer-xl;
+    // display: block;
   }
 }
 
 .filters__item {
   @extend %monospace-font-regular;
-
   display: block;
+  position: relative;
   font-size: $font-size-md;
   letter-spacing: 0.1rem;
   text-align: center;
   text-transform: uppercase;
-  @include for-breakpoint-phone-up {
+  @include for-tablet-landscape-up {
     display: inline;
-    margin-right: $spacer-base;
     text-align: left;
+    padding-bottom: 0;
   }
-}
-
-.filters__item:last-child {
-  margin-right: 0;
-  // margin-top: 2rem;
 }
 
 .filters__link {
@@ -754,6 +754,40 @@ label {
 .filters__item--inactive:hover {
   color: $inactive;
   text-decoration: none;
+}
+
+.filters__link--isaqb,
+.filters__link--power {
+  margin-left: 0;
+  @include for-tablet-landscape-up {
+    margin-left: $spacer-md;
+  }
+
+}
+
+.filters__link--isaqb::before,
+.filters__link--power::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  top: 0px;
+  margin-left: -$spacer-md;
+  background: $brand-green-light;
+  @include for-tablet-landscape-up {
+    top: 2px;
+    // position: absolute;
+  }
+}
+
+.filters__link--isaqb::before {
+  background: $brand-green-light;
+}
+
+.filters__link--power::before {
+  background: $brand-yellow-light;
 }
 
 // Spacers

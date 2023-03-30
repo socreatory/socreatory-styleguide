@@ -1,11 +1,12 @@
 .cards {
   display: grid;
   padding-left: 0;
-  margin-bottom: $spacer-lg;
-  gap: $spacer-lg;
+  gap: $spacer-md;
   grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  align-content: stretch;
   @include for-tablet-landscape-up {
-    gap: 3.25rem;
+    gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
   }
   @include for-desktop-xl-up {
@@ -13,9 +14,13 @@
   }
 }
 
+.cards--withappendix {
+  align-items: start;
+}
+
 .cards--centered {
   @include for-tablet-landscape-up {
-    gap: 3.25rem;
+    gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -27,17 +32,18 @@
 .card {
   position: relative;
   display: grid;
+  // align-content: start;
   gap: 0;
   grid-row: span 3;
-  grid-template-rows: minmax(5rem, auto) 5rem minmax(0, auto);
   transition: all 250ms ease;
   @include for-breakpoint-phone-up {
-    align-content: start;
-    grid-template-rows: minmax(20rem, auto) 5rem minmax(0, auto);
+    // align-content: start;
+    grid-auto-rows: auto;
   }
 }
 
 .card__link {
+  font-size: $font-size-lg;
   color: $brand-text;
   hyphens: auto;
   text-decoration: none;
@@ -60,56 +66,76 @@
 
 .card__body {
   display: flex;
-  min-height: 18rem;
   flex-direction: column;
   justify-content: space-between;
-  padding: $spacer-md * 0.8;
+  height: auto;
+  min-height: 14rem;
+  padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
   background-color: $brand-blue-light;
+}
+
+.card__body__bottom {
+  // display: flex;
+  // align-items: baseline;
+  // justify-content: space-between;
+  // justify-content: flex-end;
+  display: flex;
+  height: 2rem;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  justify-content: space-between;
+  // padding: $spacer-sm * 0.8;
 }
 
 .card__body--isaqb {
   background-color: $brand-green-light;
 }
 
+.card__body--power {
+  background-color: $brand-yellow-light;
+}
+
 .card__footer {
   display: flex;
-  height: 5rem;
+  // height: 30rem;
   flex-direction: row-reverse;
   align-items: baseline;
   justify-content: space-between;
-  padding: $spacer-md * 0.8;
-  background-color: $brand-blue;
+  padding: $spacer-sm * 0.8;
+  background-color: $brand-blue-light;
 }
 
 .card__footer--isaqb {
-  background-color: $brand-green;
+  background-color: $brand-green-light;
 }
 
 .card__title {
   margin-bottom: $spacer-xxs;
   font-size: $font-size-xl;
   hyphens: auto;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .card__text {
-  font-size: $font-size-base;
+  font-size: $font-size-md;
 }
 
 .card__label {
-  margin-top: $spacer-xxs * 0.3;
+  // margin-top: $spacer-xxs * 0.3;
+  line-height: 1;
   font-size: $font-size-md;
 }
 
 .card__price {
   @extend %body-font-bold;
-
-  margin-top: $spacer-xxs * 0.3;
+  line-height: 1;
+  // margin-top: $spacer-xxs * 0.3;
   font-size: $font-size-base;
+  margin-left: auto;
 }
 
 .card__appendix {
-  margin: $spacer-sm 0 0 0;
+  // margin: $spacer-sm 0 0 0;
 }
 
 // Module Kit
