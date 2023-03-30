@@ -719,16 +719,17 @@ label {
 
 .filters__item {
   @extend %monospace-font-regular;
-  display: block;
+
   position: relative;
+  display: block;
   font-size: $font-size-md;
   letter-spacing: 0.1rem;
   text-align: center;
   text-transform: uppercase;
   @include for-tablet-landscape-up {
     display: inline;
-    text-align: left;
     padding-bottom: 0;
+    text-align: left;
   }
 }
 
@@ -767,15 +768,15 @@ label {
 
 .filters__link--isaqb::before,
 .filters__link--power::before {
-  content: '';
   position: absolute;
+  top: 0;
   display: inline-block;
   width: 1rem;
   height: 1rem;
   border-radius: 1rem;
-  top: 0px;
   margin-left: -$spacer-md;
   background: $brand-green-light;
+  content: '';
   @include for-tablet-landscape-up {
     top: 2px;
     // position: absolute;

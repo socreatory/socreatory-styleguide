@@ -1,10 +1,10 @@
 .cards {
   display: grid;
+  align-content: stretch;
   padding-left: 0;
   gap: $spacer-md;
-  grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  align-content: stretch;
+  grid-template-columns: 1fr;
   @include for-tablet-landscape-up {
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
@@ -43,8 +43,8 @@
 }
 
 .card__link {
-  font-size: $font-size-lg;
   color: $brand-text;
+  font-size: $font-size-lg;
   hyphens: auto;
   text-decoration: none;
 }
@@ -66,10 +66,10 @@
 
 .card__body {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: auto;
   min-height: 14rem;
+  flex-direction: column;
+  justify-content: space-between;
   padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
   background-color: $brand-blue-light;
 }
@@ -122,16 +122,16 @@
 
 .card__label {
   // margin-top: $spacer-xxs * 0.3;
-  line-height: 1;
   font-size: $font-size-md;
+  line-height: 1;
 }
 
 .card__price {
   @extend %body-font-bold;
-  line-height: 1;
   // margin-top: $spacer-xxs * 0.3;
-  font-size: $font-size-base;
   margin-left: auto;
+  font-size: $font-size-base;
+  line-height: 1;
 }
 
 .card__appendix {
