@@ -42,8 +42,8 @@ example view
     <div class="container__centered">
         <section class="section">
             <div class="section__1col markdown">
-                <p>Die Trainingsübersicht bietet Dir den Rundumblick über unser komplettes Angebot. Wenn Du speziell an unseren iSAQB®-Trainings interessiert bist, hilft Dir unser Modulbaukasten. Mit wenigen Klicks stellst Du Dir dort ein Trainingsprogramm zusammen, das ideal ineinandergreift. Probier’ ihn einfach mal aus.</p>
-                <a href="#" class="btn btn-type--primary btn-size--fit">Zum Modulbaukasten</a>
+                <p>Hier findest Du unser komplettes Angebot. Wenn Du speziell an iSAQB®-Trainings interessiert bist, hilft Dir <a href="#">unser praktischer Modulbaukasten:</a> Mit wenigen Klicks stellst Du Dir dort Dein individuelles Trainingsprogramm zusammen.
+                </p>
             </div>
         </section>
     </div>
