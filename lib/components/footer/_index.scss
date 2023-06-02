@@ -1,0 +1,63 @@
+// Footer
+.footer {
+  padding-top: $spacer-xl;
+}
+
+.footer__top {
+  padding: $spacer-md 0 $spacer-sm 0;
+  background-color: $brand-green-light;
+}
+
+.footer__bottom {
+  padding-top: $spacer-md;
+  background-color: $brand-green;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  height: 4.25rem;
+  padding-bottom: $spacer-base;
+  margin-right: $spacer-base;
+}
+
+.footer__linkarea {
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+}
+
+.footer__links {
+  padding-left: 0;
+}
+
+.footer__link {
+  font-size: $font-size-md;
+  list-style: none;
+}
+
+.footer__link a {
+  color: $brand-text;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.footer__link a:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.25rem;
+}
+
+.footer__company,
+.footer__copyright {
+  @extend %monospace-font-regular;
+
+  padding-bottom: $spacer-md;
+  font-size: $font-size-xs;
+}

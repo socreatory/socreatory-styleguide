@@ -49,6 +49,7 @@ module.exports = {
       file: "./lib/documentation/ORGANISMS.md",
       children: {
         navbar: "./lib/components/navbar/navbar.md",
+        footer: "./lib/components/footer/footer.md",
       },
     },
 
