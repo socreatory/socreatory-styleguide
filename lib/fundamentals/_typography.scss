@@ -1,26 +1,26 @@
 @import url("//hello.myfonts.net/count/3d13ba");
 
 @font-face {
-  font-display: swap;
   font-family: SofiaPro-Bold;
+  font-display: swap;
   src: asset-url("sofia-pro-bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap;
   font-family: SofiaPro-Regular;
+  font-display: swap;
   src: asset-url("sofia-pro-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap;
   font-family: SofiaPro-RegularItalic;
+  font-display: swap;
   src: asset-url("sofia-pro-regular-italic.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap;
   font-family: Hack-Regular;
+  font-display: swap;
   src: asset-url("hack-regular.woff2") format("woff2");
 }
 
@@ -55,44 +55,44 @@ $paragraph-line-height: 1.5; // Add your own value here
 
 %body-font-regular {
   font-family: $font-family-sans-serif; // Add your own value here
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
 }
 
 %body-font-italic {
   font-family: $font-family-sans-serif; // Add your own value here
-  font-style: italic;
   font-weight: normal;
+  font-style: italic;
 }
 
 %body-font-bold {
   font-family: $font-family-sans-serif-bold; // Add your own value here
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
 }
 
 %body-font-bold-italic {
   font-family: $font-family-sans-serif; // Add your own value here
-  font-style: italic;
   font-weight: normal;
+  font-style: italic;
 }
 
 %heading-font-regular {
   font-family: $font-family-sans-serif; // Add your own value here
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
 }
 
 %heading-font-bold {
   font-family: $font-family-sans-serif-bold; // Add your own value here
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
 }
 
 %monospace-font-regular {
   font-family: $font-family-monospace; // Add your own value here
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
 }
 
 strong,
@@ -114,6 +114,7 @@ p a {
   text-decoration-color: $brand-green;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
+
   transition: all 0.1s ease-out;
 }
 

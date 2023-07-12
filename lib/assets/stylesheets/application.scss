@@ -34,63 +34,70 @@ Application specific code
 
 // Container
 .container__fullwidth {
-  max-width: 100%;
-  margin: 0 $spacer-sm;
   @include for-tablet-portrait-up {
     margin: 0 $spacer-md;
   }
+
   @include for-tablet-landscape-up {
     margin: 0 $spacer-base;
   }
+
   @include for-desktop-up {
     max-width: $desktop;
-    padding: 0 $spacer-base;
     margin: 0 auto;
+    padding: 0 $spacer-base;
   }
+
   @include for-desktop-xl-up {
     max-width: $desktop-xl;
-    padding: 0 $spacer-base;
     margin: 0 auto;
+    padding: 0 $spacer-base;
   }
+
+  max-width: 100%;
+  margin: 0 $spacer-sm;
 }
 
 .container__centered {
-  max-width: 100%;
-  padding: 0 $spacer-md;
   @include for-tablet-landscape-up {
     max-width: $tablet-landscape;
     margin: 0 auto;
   }
+
+  max-width: 100%;
+  padding: 0 $spacer-md;
 }
 
 // Hero
 .hero {
-  padding: $spacer-lg 0 $spacer-lg 0;
-  margin-bottom: $spacer-xl;
-  background-color: $brand-green-light;
   @include for-tablet-landscape-up {
-    padding: $spacer-lg + 4rem 0 $spacer-lg 0;
     margin-bottom: $spacer-xxl * 1.25;
+    padding: $spacer-lg + 4rem 0 $spacer-lg 0;
   }
+
+  margin-bottom: $spacer-xl;
+  padding: $spacer-lg 0 $spacer-lg 0;
+  background-color: $brand-green-light;
 }
 
 .hero__teaser {
-  display: flex;
-  flex-direction: row;
-  /* stylelint-disable-next-line */
-  flex-wrap: wrap;
   @include for-tablet-landscape-up {
     flex-direction: row-reverse;
   }
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .hero__image {
-  display: block;
-  max-width: 90%;
-  margin: 0 auto $spacer-lg auto;
   @include for-tablet-landscape-up {
     margin-top: $spacer-lg;
   }
+
+  display: block;
+  max-width: 90%;
+  margin: 0 auto $spacer-lg auto;
 }
 
 .hero__heading {
@@ -98,9 +105,6 @@ Application specific code
   margin-left: -0.24rem;
   font-size: $font-size-xxxl;
   line-height: 1;
-  // @include for-tablet-portrait-up {
-  //   font-size: 3.7rem;
-  // }
 }
 
 .hero__logos {
@@ -123,11 +127,12 @@ Application specific code
 
 // Header
 .header {
-  padding: $spacer-lg 0 $spacer-lg 0;
-  margin-bottom: $spacer-sm;
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xl;
   }
+
+  margin-bottom: $spacer-sm;
+  padding: $spacer-lg 0 $spacer-lg 0;
 }
 
 .header-color--normal {
@@ -151,9 +156,6 @@ Application specific code
   margin-left: -0.2rem;
   font-size: $font-size-xxl;
   line-height: 1.2;
-  // @include for-tablet-portrait-up {
-  //   font-size: $font-size-xxl;
-  // }
 }
 
 .header__heading--centered {
@@ -165,35 +167,29 @@ Application specific code
 }
 
 .header__image {
-  display: block;
-  max-width: 70%;
-  margin: 0 auto $spacer-lg auto;
   @include for-tablet-portrait-up {
     max-width: 60%;
   }
-  // @include for-tablet-landscape-up {
-  //   max-width: 60%;
-  // }
+
+  display: block;
+  max-width: 70%;
+  margin: 0 auto $spacer-lg auto;
 }
 
 .header__logogrid {
-  // display: flex;
-  // justify-content: flex-start;
-  // @include for-tablet-landscape-up {
-  //   justify-content: flex-end;
-  // }
+  @include for-tablet-landscape-up {
+    grid-template-areas: "left right";
+    grid-template-columns: 2fr 1fr;
+    gap: 6.25rem;
+  }
+
   display: grid;
-  align-items: center;
-  gap: $spacer-md;
   grid-template-areas:
     "left"
     "right";
   grid-template-columns: 1fr;
-  @include for-tablet-landscape-up {
-    gap: 6.25rem;
-    grid-template-areas: "left right";
-    grid-template-columns: 2fr 1fr;
-  }
+  gap: $spacer-md;
+  align-items: center;
 }
 
 .logogrid__left {
@@ -211,17 +207,18 @@ Application specific code
 
 // Grid
 .layout-main-with-sidebar {
+  @include for-tablet-landscape-up {
+    grid-template-areas: "main sidebar";
+    grid-template-columns: 2fr 1fr;
+    gap: 6.25rem;
+  }
+
   display: grid;
-  gap: 0;
   grid-template-areas:
     "main"
     "sidebar";
   grid-template-columns: 1fr;
-  @include for-tablet-landscape-up {
-    gap: 6.25rem;
-    grid-template-areas: "main sidebar";
-    grid-template-columns: 2fr 1fr;
-  }
+  gap: 0;
 }
 
 .layout-main-with-sidebar__main {
@@ -237,11 +234,12 @@ Application specific code
 // Booking
 /* stylelint-disable-next-line */
 #booking {
-  position: relative;
-  margin-bottom: $spacer-xxl;
   @include for-tablet-landscape-up {
     height: max-content;
   }
+
+  position: relative;
+  margin-bottom: $spacer-xxl;
 }
 
 // Main
@@ -251,10 +249,11 @@ Application specific code
 }
 
 .section--home {
-  padding-bottom: 0;
   @include for-tablet-landscape-up {
     padding-bottom: $spacer-xl;
   }
+
+  padding-bottom: 0;
 }
 
 .section--narrow {
@@ -269,10 +268,11 @@ Application specific code
   @extend %monospace-font-regular;
 
   margin-bottom: $spacer-md;
+
   font-size: $font-size-xs;
-  letter-spacing: 0.1875rem;
   line-height: $font-size-lg;
   text-transform: uppercase;
+  letter-spacing: 0.1875rem;
 }
 
 .section__title--normal {
@@ -294,6 +294,7 @@ Application specific code
 .section__title--bigcentered {
   margin-bottom: $spacer-sm;
   margin-left: -0.2rem;
+
   font-size: $font-size-xxl;
   line-height: 1.2;
   text-align: center;
@@ -305,23 +306,23 @@ Application specific code
 
 // Logos in Artikel
 .article__logos {
-  display: flex;
-  justify-content: space-between;
-  // height: 2.5rem;
-  margin-bottom: $spacer-lg * 0.875;
   @include for-breakpoint-phone-up {
     justify-content: flex-start;
   }
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $spacer-lg * 0.875;
 }
 
 .article__logo {
-  // height: 100%;
-  max-height: 2.5rem;
-  margin-right: 0;
   @include for-breakpoint-phone-up {
     justify-content: flex-start;
     margin-right: $spacer-lg;
   }
+
+  max-height: 2.5rem;
+  margin-right: 0;
 }
 
 // Bilder innerhalb von Markdown einfärben
@@ -359,35 +360,32 @@ Application specific code
 
 // Komponente Schlagworttabelle (Ihr Nutzen)
 .texttable {
-  display: grid;
-  gap: $spacer-base;
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr;
   }
+
+  display: grid;
+  gap: $spacer-base;
 }
 
 .texttable__cell {
   @extend %body-font-bold;
-  // line-height: 1.5;
+
   margin-bottom: 0;
   font-size: $font-size-lg;
 }
 
 // Komponente zweispaltig Bild&Text
-// .img-text {
-//   display: flex;
-//   flex-direction: row;
-// }
 .img-text {
-  display: grid;
-  margin-bottom: $spacer-lg;
-  grid-gap: $spacer-xxs;
-  // gap: $spacer-base;
-  grid-template-columns: 1fr;
   @include for-breakpoint-phone-up {
     grid-gap: $spacer-lg;
     grid-template-columns: 1fr 2fr;
   }
+
+  display: grid;
+  grid-gap: $spacer-xxs;
+  grid-template-columns: 1fr;
+  margin-bottom: $spacer-lg;
 }
 
 .img-text__image {
@@ -401,23 +399,25 @@ Application specific code
 
 // Komponente zweispaltig Text&Text
 .text-text {
-  display: grid;
-  gap: $spacer-base;
-  grid-gap: 0;
-  grid-template-columns: 1fr;
   @include for-tablet-landscape-up {
     grid-gap: $spacer-md;
     grid-template-columns: 1fr 2fr;
   }
+
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr;
+  gap: $spacer-base;
 }
 
 .text-text__headline {
-  padding-top: $spacer-base;
-  margin-top: 0.15rem;
-  font-size: $font-size-lg;
   @include for-tablet-landscape-up {
     padding-top: 0;
   }
+
+  margin-top: 0.15rem;
+  padding-top: $spacer-base;
+  font-size: $font-size-lg;
 }
 
 // Komponente Teaser (2spalter auf Home)
@@ -436,19 +436,17 @@ Application specific code
 
 // linke oder rechte Spalte
 .teaser__column {
-  width: 100%;
   @include for-tablet-landscape-up {
     width: 50%;
   }
+
+  width: 100%;
 }
 
 .teaser__image {
   display: block;
   max-width: 75%;
   margin: 0 auto $spacer-lg auto;
-  @include for-tablet-landscape-up {
-    // margin: 0 auto;
-  }
 }
 
 .teaser__text {
@@ -457,13 +455,14 @@ Application specific code
 
 // Komponente 4-Bereiche
 .textcolumns {
-  display: grid;
-  gap: $spacer-base;
-  grid-template-columns: 1fr;
   @include for-tablet-landscape-up {
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
   }
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacer-base;
 }
 
 .textcolumn__heading {
@@ -474,17 +473,17 @@ Application specific code
 
 .textcolumn__text {
   margin-bottom: 0;
-  // @extend %body-font-bold;
   font-size: $font-size-base;
 }
 
 .textcolumn__img {
-  display: block;
-  width: 40%;
-  margin: 1rem auto;
   @include for-tablet-landscape-up {
     width: 50%;
   }
+
+  display: block;
+  width: 40%;
+  margin: 1rem auto;
 }
 
 // Rating
@@ -493,15 +492,18 @@ Application specific code
 
   position: relative;
   top: 0.075rem;
+
   display: inline-block;
+
   font-family: Arial, Helvetica, sans-serif;
   font-size: $font-size-xl;
   line-height: 1;
 
   &::before {
+    content: "★★★★★";
     background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
     background-clip: text;
-    content: "★★★★★";
+
     -webkit-text-fill-color: transparent;
   }
 }
@@ -516,12 +518,13 @@ Application specific code
 
 // Quote
 .quote--center {
-  max-width: 100%;
-  padding: 0 $spacer-md;
   @include for-tablet-landscape-up {
     max-width: 70%;
     margin: auto;
   }
+
+  max-width: 100%;
+  padding: 0 $spacer-md;
 }
 
 .quote__blockquote {
@@ -529,8 +532,8 @@ Application specific code
 
   margin: 0 0 $spacer-base 0;
   font-size: $font-size-xl;
-  hyphens: auto;
   line-height: 1.4;
+  hyphens: auto;
 }
 
 .quote__name {
@@ -549,19 +552,22 @@ Application specific code
 
 // Trainer Profiles
 .profiles {
-  display: grid;
-  padding: 0;
-  gap: $spacer-base;
-  grid-template-columns: 1fr 1fr;
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   @include for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   @include for-desktop-up {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacer-base;
+  padding: 0;
 }
 
 .profile__name {
@@ -602,14 +608,14 @@ Application specific code
 
 .footer__logo {
   height: 4.25rem;
-  padding-bottom: $spacer-base;
   margin-right: $spacer-base;
+  padding-bottom: $spacer-base;
 }
 
 .footer__linkarea {
   display: flex;
-  width: 15rem;
   justify-content: space-between;
+  width: 15rem;
 }
 
 .footer__links {
@@ -622,8 +628,8 @@ Application specific code
 }
 
 .footer__link a {
-  color: $brand-text;
   line-height: 2;
+  color: $brand-text;
   text-decoration: none;
 }
 
@@ -643,7 +649,6 @@ Application specific code
 }
 
 // Markdown Listen und Text
-
 .markdown {
   li::marker {
     color: $brand-blue;
@@ -678,7 +683,7 @@ Application specific code
   &.texttable {
     p {
       @extend %body-font-bold;
-      // font-size: $font-size-base;
+
       margin-bottom: 0;
       font-size: $font-size-lg;
     }
@@ -699,38 +704,40 @@ label {
   display: flex;
   justify-content: center;
   margin: $spacer-lg 0;
-  // @include for-breakpoint-phone-up {
-  //   display: block;
-  // }
 }
 
 .filters__list {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  gap: $spacer-base;
-  list-style: none;
   @include for-tablet-landscape-up {
     flex-direction: row;
     gap: $spacer-xl;
-    // display: block;
   }
+
+  display: flex;
+  flex-direction: column;
+  gap: $spacer-base;
+
+  padding: 0;
+
+  list-style: none;
 }
 
 .filters__item {
   @extend %monospace-font-regular;
 
-  position: relative;
-  display: block;
-  font-size: $font-size-md;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  text-transform: uppercase;
   @include for-tablet-landscape-up {
     display: inline;
     padding-bottom: 0;
     text-align: left;
   }
+
+  position: relative;
+
+  display: block;
+
+  font-size: $font-size-md;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .filters__link {
@@ -759,28 +766,32 @@ label {
 
 .filters__link--isaqb,
 .filters__link--power {
-  margin-left: 0;
   @include for-tablet-landscape-up {
     margin-left: $spacer-md;
   }
 
+  margin-left: 0;
 }
 
 .filters__link--isaqb::before,
 .filters__link--power::before {
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 1rem;
-  margin-left: -$spacer-md;
-  background: $brand-green-light;
-  content: '';
   @include for-tablet-landscape-up {
     top: 2px;
-    // position: absolute;
   }
+
+  content: "";
+
+  position: absolute;
+  top: 0;
+
+  display: inline-block;
+
+  width: 1rem;
+  height: 1rem;
+  margin-left: -$spacer-md;
+
+  background: $brand-green-light;
+  border-radius: 1rem;
 }
 
 .filters__link--isaqb::before {
@@ -820,7 +831,6 @@ label {
 
 .achtung-box--narrow {
   padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
-  // border: solid 0.25rem $brand-green;
 }
 
 // Trainer Overview
@@ -843,12 +853,13 @@ label {
 }
 
 .profile__link::after {
+  content: "";
+
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  content: "";
 }
 
 // Form
@@ -877,11 +888,13 @@ label {
 
   width: 100%;
   padding: $spacer-xs;
-  /* stylelint-disable-next-line */
-  border: none;
-  border-bottom: solid 0.2rem $brand-text;
-  background-color: $brand-background-dark;
+
   font-size: $font-size-base;
+
+  background-color: $brand-background-dark;
+  border: 0;
+  border-bottom: solid 0.2rem $brand-text;
+
   transition: all 0.15s ease-out;
 }
 
@@ -895,10 +908,11 @@ label {
 }
 
 .field__size--half {
-  width: 100%;
   @include for-tablet-portrait-up {
     width: 47%;
   }
+
+  width: 100%;
 }
 
 .form__textarea {
@@ -911,31 +925,38 @@ label {
 
 // Feature Trainer:in
 .features {
-  display: grid;
-  padding-left: 0;
-  margin-bottom: $spacer-lg;
-  gap: $spacer-base;
-  grid-template-columns: 1fr;
   @include for-breakpoint-phone-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   @include for-desktop-xl-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacer-base;
+
+  margin-bottom: $spacer-lg;
+  padding-left: 0;
 }
 
 .feature {
   position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
   transition: all 250ms ease;
 }
 
 .feature__image {
   display: block;
+
   width: 100%;
   height: 20rem;
+
   object-fit: cover;
   object-position: center;
 }
@@ -954,19 +975,19 @@ label {
 }
 
 .feature__link::after {
+  content: "";
+
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  content: "";
 }
 
 .feature__body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // height: 19rem;
 }
 
 .feature__top,
@@ -995,45 +1016,46 @@ label {
   @extend %body-font-regular;
 
   font-size: $font-size-md;
-  // margin: 0 0 $spacer-md 0;
 }
 
 .feature__location {
   @extend %body-font-regular;
 
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-size: $font-size-md;
 }
 
 // News
 .news__item {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-  gap: 0;
   @include for-breakpoint-phone-up {
     flex-direction: row;
-    align-items: center;
     gap: 2rem;
+    align-items: center;
   }
+
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 3rem;
 }
 
 .news__newsdate {
   @extend %body-font-bold;
 
   min-width: 10rem;
-  padding: 0;
   margin: 0;
-  color: $brand-text;
+  padding: 0;
+
   font-size: $font-size-xl;
+  color: $brand-text;
 }
 
 .news__newsheadline {
   @extend %body-font-bold;
 
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-size: $font-size-xl;
 }
 
@@ -1051,8 +1073,8 @@ label {
 
 // News Detail
 .header__news {
-  padding-bottom: 0;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .news__detail {

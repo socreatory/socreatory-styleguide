@@ -11,8 +11,8 @@
 .pretix-widget-event-list-entry {
   display: inline-block;
   width: 100%;
-  padding: 0;
   margin-bottom: $spacer-sm;
+  padding: 0;
 
   &:last-child {
     margin-bottom: 0;
@@ -50,11 +50,13 @@
 }
 
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
-  padding: 0;
-  border: 0;
   margin-top: 0;
-  background-color: $brand-background;
+  padding: 0;
+
   text-align: left;
+
+  background-color: $brand-background;
+  border: 0;
 }
 
 // Link Jetzt buchen
@@ -62,18 +64,23 @@
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span {
   @extend %heading-font-regular;
 
-  display: inline-block;
-  padding: 0;
-  margin: 0 0 $spacer-sm 0;
-  background-color: $brand-background;
-  color: $brand-text;
   cursor: pointer;
+
+  display: inline-block;
+
+  margin: 0 0 $spacer-sm 0;
+  padding: 0;
+
   font-size: $font-size-base;
-  letter-spacing: 0;
+  color: $brand-text;
   text-decoration: underline;
   text-decoration-color: $brand-green;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
+  letter-spacing: 0;
+
+  background-color: $brand-background;
+
   transition: all 0.1s ease-out;
 }
 
@@ -122,16 +129,16 @@
 
 .pretix-widget-item-title-and-description {
   display: block;
-  padding: 0;
   margin-bottom: -$spacer-xxs * 0.7;
+  padding: 0;
 }
 
 // Training Uhrzeit
 .pretix-widget .pretix-widget-event-details {
   @extend %heading-font-regular;
 
-  padding: 0;
   margin-bottom: $spacer-base;
+  padding: 0;
   font-size: $font-size-base;
   text-align: left;
 }
@@ -140,17 +147,18 @@
 // Grid
 .pretix-widget .pretix-widget-item-row {
   display: grid;
-  justify-content: space-between;
-  margin-bottom: $spacer-sm;
-  column-gap: $spacer-md;
   grid-template-columns: 5fr 1fr;
   row-gap: 0;
+  column-gap: $spacer-md;
+  justify-content: space-between;
+
+  margin-bottom: $spacer-sm;
 }
 
 .pretix-widget .pretix-widget-item-info-col {
-  padding: 0;
   grid-column: 1 / -1;
   grid-row: 1;
+  padding: 0;
 }
 
 .pretix-widget.pretix-widget-mobile .pretix-widget-item-info-col {
@@ -158,10 +166,12 @@
 }
 
 .pretix-widget .pretix-widget-item-price-col {
-  align-self: center;
-  padding: 0;
   grid-column: 1;
   grid-row: 2;
+  align-self: center;
+
+  padding: 0;
+
   text-align: left;
 }
 
@@ -188,8 +198,8 @@
 // Preis ungültig
 .pretix-widget del.pretix-widget-pricebox-original-price {
   margin-left: $spacer-sm;
-  color: $gray-50;
   font-size: $font-size-base;
+  color: $gray-50;
 }
 
 // Preis gültig
@@ -206,12 +216,13 @@
 }
 
 .pretix-widget .pretix-widget-item-availability-col {
-  width: 100%;
-  padding: 0;
-  margin: 0;
   grid-column: 2;
   grid-row: 2;
   justify-self: end;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .pretix-widget .pretix-widget-category-name {
@@ -239,16 +250,20 @@
 
   width: 4rem;
   height: 4rem;
+  margin: 0;
+
+  font-size: $font-size-lg;
+  color: $brand-text;
+  text-align: center;
+
+  background-color: $brand-background-dark;
+
   /* stylelint-disable-next-line */
   border: none;
-  border-radius: 0;
   border-bottom: solid 0.2rem $brand-text;
-  margin: 0;
-  background-color: $brand-background-dark;
+  border-radius: 0;
   box-shadow: none;
-  color: $brand-text;
-  font-size: $font-size-lg;
-  text-align: center;
+
   transition: all 0.15s ease-out;
 }
 
@@ -267,8 +282,8 @@
 .pretix-widget input[type="number"]:active,
 .pretix-widget-alert-box input[type="text"]:active,
 .pretix-widget-alert-box input[type="number"]:active {
-  border-bottom: solid 0.2rem $brand-text;
   background-color: $brand-background;
+  border-bottom: solid 0.2rem $brand-text;
   box-shadow: none;
 }
 
@@ -276,16 +291,18 @@
 input[type="checkbox"] {
   width: 2.5rem;
   height: 2.5rem;
-  border: solid 0.2rem $brand-text;
   margin-top: $spacer-xxs;
+
+  vertical-align: middle;
+
   appearance: none;
-  // margin-right: 0;
   background-color: $brand-background-dark;
   background-image: none;
   background-position: center center;
   background-size: 2.5rem 2.5rem;
+  border: solid 0.2rem $brand-text;
+
   transition: all 0.15s ease-out;
-  vertical-align: middle;
 }
 
 input[type="checkbox"]:checked {
@@ -295,37 +312,43 @@ input[type="checkbox"]:checked {
 // Button
 .pretix-widget .pretix-widget-action {
   width: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .pretix-widget .pretix-widget-action button {
   @extend %body-font-bold;
 
   display: block;
+
   width: 100%;
-  padding: 1rem 2rem;
-  border: 0.25rem solid $brand-text;
-  border-radius: 0;
   margin-top: $spacer-md;
-  background-color: $brand-text;
-  color: $brand-background;
+  padding: 1rem 2rem;
+
   font-size: $font-size-sm;
-  letter-spacing: 0.12rem;
+  color: $brand-background;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
   word-spacing: 0.25rem;
+
+  background-color: $brand-text;
+  border: 0.25rem solid $brand-text;
+  border-radius: 0;
+
+  transition: all 0.15s ease-out;
 }
 
 .pretix-widget .pretix-widget-action button:hover,
 .pretix-widget .pretix-widget-action button:focus {
-  width: 100%;
-  border: 0.25rem solid $gray-90;
-  margin-left: 0;
-  background-color: $gray-90;
   cursor: pointer;
+
+  width: 100%;
+  margin-left: 0;
+
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
 }
 
 // Loading Icon
@@ -416,20 +439,24 @@ input[type="checkbox"]:checked {
   @extend %body-font-bold;
 
   display: block;
+
   width: 100%;
-  padding: 1rem 2rem;
-  border: 0.25rem solid $brand-text;
-  border-radius: 0;
   margin-top: $spacer-md;
-  background-color: $brand-text;
-  color: $brand-background;
+  padding: 1rem 2rem;
+
   font-size: $font-size-sm;
-  letter-spacing: 0.12rem;
+  color: $brand-background;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
   word-spacing: 0.25rem;
+
+  background-color: $brand-text;
+  border: 0.25rem solid $brand-text;
+  border-radius: 0;
+
+  transition: all 0.15s ease-out;
 }
 
 .pretix-widget button:hover,
@@ -440,18 +467,20 @@ input[type="checkbox"]:checked {
 .pretix-widget input[type="button"]:focus,
 .pretix-widget-alert-box button:focus,
 .pretix-widget-alert-box input[type="button"]:focus {
-  border: 0.25rem solid $gray-90;
-  background-color: $gray-90;
   color: $brand-background;
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
 }
 
 // Warenkorb Hinweis
 .pretix-widget .pretix-widget-info-message {
-  padding: $spacer-md $spacer-xs $spacer-sm $spacer-xs;
-  border: solid 0.25rem $brand-blue;
   margin-bottom: $spacer-md;
-  background-color: $brand-background;
+  padding: $spacer-md $spacer-xs $spacer-sm $spacer-xs;
+
   color: $brand-text;
+
+  background-color: $brand-background;
+  border: solid 0.25rem $brand-blue;
 }
 
 .pretix-widget .pretix-widget-resume-button {

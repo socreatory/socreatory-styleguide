@@ -1,18 +1,23 @@
 // Navbar
 .navbar {
+  @include for-tablet-landscape-up {
+    padding: 0 $spacer-md;
+  }
+
   z-index: 3;
   top: 0;
+
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-between;
+
+  width: 100%;
+
   background-color: $brand-blue;
+
   transition: all 0.5s;
-  @include for-tablet-landscape-up {
-    padding: 0 $spacer-md;
-  }
 }
 
 /* stylelint-disable-next-line */
@@ -26,54 +31,60 @@
 }
 
 .navbar__items {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 0.12rem;
-  list-style-type: none;
-  text-align: center;
-  text-transform: uppercase;
-  word-spacing: 0.25rem;
   @include for-tablet-landscape-up {
     display: flex;
     width: auto;
   }
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  list-style-type: none;
 }
 
 /* stylelint-disable-next-line */
 #navbar__checkbox:not(:checked) + .navbar__items {
-  display: none;
   @include for-tablet-landscape-up {
     display: flex;
   }
+
+  display: none;
 }
 
 .navbar__item {
   @extend %body-font-bold;
 
-  display: inline-block;
-  width: 100%;
-  padding: $spacer-md 0;
-  color: $brand-text;
-  font-size: $font-size-base;
-  letter-spacing: 0.12rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.15s ease-out;
-  word-spacing: 0.25rem;
   @include for-tablet-landscape-up {
-    display: inline-block;
     height: 100%;
     padding: $spacer-base * 0.825;
     font-size: $font-size-sm;
   }
+
+  display: inline-block;
+
+  width: 100%;
+  padding: $spacer-md 0;
+
+  font-size: $font-size-base;
+  color: $brand-text;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+
+  transition: all 0.15s ease-out;
 }
 
 .navbar__item:hover,
 .navbar__item:focus {
-  background-color: $brand-text;
   color: $brand-background;
+  background-color: $brand-text;
 }
 
 .scrollUp {
@@ -82,45 +93,51 @@
 
 // Language Switch
 .language__items {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding-left: 0;
-  margin-top: 0;
-  margin-left: -$spacer-md * 0.5;
-  letter-spacing: 0.12rem;
-  list-style-type: none;
-  text-align: center;
-  text-transform: uppercase;
-  word-spacing: 0.25rem;
   @include for-tablet-landscape-up {
-    display: flex;
-    width: auto;
     align-items: center;
+    width: auto;
     padding-left: 20px;
   }
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 0;
+  margin-left: -$spacer-md * 0.5;
+  padding-left: 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+  list-style-type: none;
 }
 
 .language__item {
   @extend %monospace-font-regular;
 
-  display: inline-block;
-  width: 100%;
-  padding: $spacer-md 0;
-  color: $brand-text;
-  font-size: $font-size-base;
-  letter-spacing: 0.12rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.15s ease-out;
-  word-spacing: 0.25rem;
   @include for-tablet-landscape-up {
     display: inline-block;
     height: 100%;
     padding: 0 $spacer-xxs;
     font-size: $font-size-sm;
   }
+
+  display: inline-block;
+
+  width: 100%;
+  padding: $spacer-md 0;
+
+  font-size: $font-size-base;
+  color: $brand-text;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.25rem;
+
+  transition: all 0.15s ease-out;
 
   &:last-child {
     padding-left: $spacer-md;
@@ -137,25 +154,32 @@
 
 // Burger
 .navbar__burger {
-  position: absolute;
-  top: $spacer-md * 0.4;
-  right: $spacer-md * 0.75;
-  display: block;
-  width: 24px;
-  margin: 1rem;
-  cursor: pointer;
   @include for-tablet-landscape-up {
     display: none;
   }
+
+  cursor: pointer;
+
+  position: absolute;
+  top: $spacer-md * 0.4;
+  right: $spacer-md * 0.75;
+
+  display: block;
+
+  width: 24px;
+  margin: 1rem;
 }
 
 .navbar__burger::before,
 .navbar__burger::after {
-  display: block;
-  height: 0.25rem;
-  background-color: $brand-text;
-  // content: '';
   content: "";
+
+  display: block;
+
+  height: 0.25rem;
+
+  background-color: $brand-text;
+
   transition: all 200ms ease-in-out;
 }
 
@@ -166,8 +190,8 @@
 
 /* stylelint-disable-next-line */
 #navbar__checkbox:checked ~ .navbar__burger::before {
-  box-shadow: 0 0 0 $brand-text;
   transform: translateY(10px) rotate(45deg);
+  box-shadow: 0 0 0 $brand-text;
 }
 
 /* stylelint-disable-next-line */

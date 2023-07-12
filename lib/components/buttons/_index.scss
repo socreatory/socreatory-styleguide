@@ -2,16 +2,19 @@
   @extend %body-font-bold;
 
   padding: 1rem 1.5rem;
-  border: 0.25rem solid $brand-text;
-  color: $brand-text;
+
   font-size: $font-size-sm;
-  letter-spacing: 0.12rem;
+  color: $brand-text;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   text-wrap: none;
-  transition: all 0.15s ease-out;
+  letter-spacing: 0.12rem;
   word-spacing: 0.25rem;
+
+  border: 0.25rem solid $brand-text;
+
+  transition: all 0.15s ease-out;
 }
 
 .btn-size--full {
@@ -20,50 +23,52 @@
 }
 
 .btn-size--fit {
-  display: block;
-  width: 100%;
   @include for-tablet-landscape-up {
     display: inline-block;
     width: auto;
   }
+
+  display: block;
+  width: 100%;
 }
 
 .btn-type--primary {
-  background-color: $brand-text;
   color: $brand-background;
+  background-color: $brand-text;
 }
 
 .btn-type--primary:hover,
 .btn-type--primary:focus {
-  border: 0.25rem solid $gray-90;
-  background-color: $gray-90;
-  color: $brand-background;
   cursor: pointer;
+  color: $brand-background;
+  background-color: $gray-90;
+  border: 0.25rem solid $gray-90;
 }
 
 .btn-type--secondary {
-  background-color: none;
   color: $brand-text;
+  background-color: none;
 }
 
 .btn-type--secondary:hover,
 .btn-type--secondary:focus {
-  border: 0.25rem solid $brand-text;
-  background-color: $brand-background-dark;
   cursor: pointer;
+  background-color: $brand-background-dark;
+  border: 0.25rem solid $brand-text;
 }
 
 .btn-state--disabled {
-  border-color: $gray-50;
   background-color: $gray-50;
+  border-color: $gray-50;
   // color: $brand-background;
   // background-color: $brand-background-dark;
   // border: 0.25rem solid $brand-background-dark;
 }
 
 .btn-anchor {
-  margin: $spacer-md 0 $spacer-base 0;
   @include for-tablet-landscape-up {
     display: none;
   }
+
+  margin: $spacer-md 0 $spacer-base 0;
 }

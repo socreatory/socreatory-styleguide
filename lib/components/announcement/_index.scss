@@ -1,9 +1,11 @@
 .announcement {
   width: 100%;
   padding: $spacer-md;
-  background-color: $brand-text;
+
   color: $brand-background;
   text-align: center;
+
+  background-color: $brand-text;
 
   &__text {
     margin: 0;

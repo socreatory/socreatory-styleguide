@@ -1,17 +1,20 @@
 .cards {
-  display: grid;
-  align-content: stretch;
-  padding-left: 0;
-  gap: $spacer-md;
-  grid-auto-rows: auto;
-  grid-template-columns: 1fr;
   @include for-tablet-landscape-up {
-    gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
+
   @include for-desktop-xl-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr;
+  gap: $spacer-md;
+  align-content: stretch;
+
+  padding-left: 0;
 }
 
 .cards--withappendix {
@@ -20,8 +23,8 @@
 
 .cards--centered {
   @include for-tablet-landscape-up {
-    gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
 }
 
@@ -30,22 +33,23 @@
 }
 
 .card {
-  position: relative;
-  display: grid;
-  // align-content: start;
-  gap: 0;
-  grid-row: span 3;
-  transition: all 250ms ease;
   @include for-breakpoint-phone-up {
-    // align-content: start;
     grid-auto-rows: auto;
   }
+
+  position: relative;
+
+  display: grid;
+  grid-row: span 3;
+  gap: 0;
+
+  transition: all 250ms ease;
 }
 
 .card__link {
-  color: $brand-text;
   font-size: $font-size-lg;
   hyphens: auto;
+  color: $brand-text;
   text-decoration: none;
 }
 
@@ -56,35 +60,34 @@
 }
 
 .card__link::after {
+  content: "";
+
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  content: "";
 }
 
 .card__body {
   display: flex;
-  height: auto;
-  min-height: 14rem;
   flex-direction: column;
   justify-content: space-between;
+
+  height: auto;
+  min-height: 14rem;
   padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
+
   background-color: $brand-blue-light;
 }
 
 .card__body__bottom {
-  // display: flex;
-  // align-items: baseline;
-  // justify-content: space-between;
-  // justify-content: flex-end;
   display: flex;
-  height: 2rem;
   flex-direction: row-reverse;
   align-items: baseline;
   justify-content: space-between;
-  // padding: $spacer-sm * 0.8;
+
+  height: 2rem;
 }
 
 .card__body--isaqb {
@@ -97,11 +100,12 @@
 
 .card__footer {
   display: flex;
-  // height: 30rem;
   flex-direction: row-reverse;
   align-items: baseline;
   justify-content: space-between;
+
   padding: $spacer-sm * 0.8;
+
   background-color: $brand-blue-light;
 }
 
@@ -112,8 +116,8 @@
 .card__title {
   margin-bottom: $spacer-xxs;
   font-size: $font-size-xl;
-  hyphens: auto;
   line-height: 1;
+  hyphens: auto;
 }
 
 .card__text {
@@ -121,34 +125,31 @@
 }
 
 .card__label {
-  // margin-top: $spacer-xxs * 0.3;
   font-size: $font-size-md;
   line-height: 1;
 }
 
 .card__price {
   @extend %body-font-bold;
-  // margin-top: $spacer-xxs * 0.3;
+
   margin-left: auto;
   font-size: $font-size-base;
   line-height: 1;
 }
 
-.card__appendix {
-  // margin: $spacer-sm 0 0 0;
-}
-
 // Module Kit
 .modulekitheader {
+  @include for-tablet-landscape-up {
+    grid-template-columns: auto 1fr auto;
+    max-width: 56rem;
+  }
+
   display: grid;
-  padding: $spacer-xs 0;
-  margin: $spacer-xl auto $spacer-base auto;
   grid-template-rows: repeat (3, auto);
   row-gap: 1rem;
-  @include for-tablet-landscape-up {
-    max-width: 56rem;
-    grid-template-columns: auto 1fr auto;
-  }
+
+  margin: $spacer-xl auto $spacer-base auto;
+  padding: $spacer-xs 0;
 }
 
 .modulekitsticky {
@@ -164,28 +165,36 @@
 }
 
 .modulekitgrid {
-  display: grid;
-  padding-left: 0;
-  margin-bottom: $spacer-lg;
-  gap: $spacer-sm;
-  grid-auto-rows: 1fr;
-  grid-template-columns: 1fr;
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr;
   }
+
   @include for-desktop-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: $spacer-sm;
+
+  margin-bottom: $spacer-lg;
+  padding-left: 0;
 }
 
 .modulekitcard {
   position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   padding: $spacer-sm * 0.5 $spacer-sm * 0.7 $spacer-xs * 0.3 $spacer-sm * 0.7;
-  background-color: $brand-background-dark;
+
   list-style: none;
+
+  background-color: $brand-background-dark;
+
   transition: all 250ms ease;
 }
 
@@ -232,16 +241,16 @@
 
 .modulekitcard__title {
   margin: 0 0 -0.3rem;
-  color: $brand-text;
   font-size: $font-size-lg;
+  color: $brand-text;
   text-transform: uppercase;
 }
 
 .modulekitcard__subtitle {
   margin: $spacer-xxs 0 $spacer-xs 0;
-  color: $brand-text;
   font-size: $font-size-md;
   line-height: 1.35;
+  color: $brand-text;
 }
 
 .modulekitcard__overlay {
@@ -249,14 +258,18 @@
   z-index: 1;
   top: $spacer-xs * 1.2;
   right: $spacer-xs * 1.2;
+
   opacity: 0;
+
   transition: all 250ms ease;
 }
 
 .modulekitcard__link {
   display: inline-block;
+
   width: 1.5rem;
   height: 1.5rem;
+
   background-image: asset-url("icons/link.svg");
   background-size: cover;
 }
@@ -272,14 +285,19 @@
   z-index: 1;
   right: $spacer-sm;
   bottom: 0.1rem;
+
   display: inline-block;
+
   padding: 0.2rem 0.6rem;
-  border-radius: $spacer-sm;
-  background-color: $brand-sand;
-  color: $brand-text;
+
   font-size: $font-size-sm;
-  letter-spacing: -0.1;
+  color: $brand-text;
   text-align: center;
+  letter-spacing: -0.1;
+
+  background-color: $brand-sand;
+  border-radius: $spacer-sm;
+
   transition: all 250ms ease;
 }
 
@@ -294,27 +312,32 @@
   /* stylelint-disable-next-line */
   flex-wrap: wrap;
   justify-content: center;
+
   padding: 0;
+
   list-style-type: none;
 }
 
 .modulekitkombis__pill {
   display: block;
-  padding: $spacer-xxs * 0.5 $spacer-xs;
-  border: 1px solid $brand-sand;
-  border-radius: 2rem;
+
   margin: $spacer-xxs * 0.7 $spacer-xxs * 0.4;
-  background-color: none;
-  color: $brand-text;
+  padding: $spacer-xxs * 0.5 $spacer-xs;
+
   font-size: $font-size-md;
-  list-style-type: none;
+  color: $brand-text;
   text-align: center;
   text-decoration: none;
+  list-style-type: none;
+
+  background-color: none;
+  border: 1px solid $brand-sand;
+  border-radius: 2rem;
 }
 
 .modulekitkombis__pill:hover {
-  border: 1px solid $brand-green-light;
   background-color: $brand-green-light;
+  border: 1px solid $brand-green-light;
 }
 
 .modulekit__info {
@@ -323,19 +346,17 @@
   margin: 0 auto $spacer-md auto;
 }
 
-// .modulekit__infotext {
-// }
-
 .flex-center {
   display: flex;
   justify-content: center;
 }
 
 button.modulekitcard__body {
+  text-align: inherit;
+  background: none;
+
   /* stylelint-disable-next-line */
   border: none;
-  background: none;
-  text-align: inherit;
 }
 
 button.modulekitkombis__pill {

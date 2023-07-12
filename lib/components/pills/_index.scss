@@ -1,14 +1,14 @@
 .pills {
   @extend %monospace-font-regular;
-
-  display: flex;
-  flex-wrap: wrap;
-  font-size: $font-size-sm;
   // margin-top: $spacer-sm;
   // justify-content: center;
   @include for-tablet-landscape-up {
     // margin-top: $spacer-md;
   }
+
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $font-size-sm;
 }
 
 .pill {
@@ -19,27 +19,31 @@
 
 .pill__number {
   display: inline-block;
+
   min-width: 1.85rem;
-  padding: 0.2rem 0;
-  border-radius: $spacer-sm;
   margin-top: -0.2rem;
   margin-left: 0.4rem;
-  background-color: $brand-green;
-  letter-spacing: 0.0875rem;
+  padding: 0.2rem 0;
+
   text-align: center;
+  letter-spacing: 0.0875rem;
+
+  background-color: $brand-green;
+  border-radius: $spacer-sm;
 }
 
 .pill__number--big {
   display: flex;
-  min-width: 5rem;
   align-items: center;
   justify-content: center;
+
+  min-width: 5rem;
+  // background-color: $brand-sand;
+  font-size: 2rem;
   // margin-left: 0.4rem;
   // margin-top: 0.5rem;
   // padding: 0.5rem 1rem;
   border-radius: $spacer-xl;
-  // background-color: $brand-sand;
-  font-size: 2rem;
 }
 
 .pill__number--zero {
@@ -49,18 +53,19 @@
 
 .modulekitheader__pills {
   @extend %monospace-font-regular;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  column-gap: 1.5rem;
-  font-size: $font-size-sm;
-  row-gap: 0.5rem;
   // margin-top: $spacer-sm;
   @include for-tablet-landscape-up {
     // margin-top: $spacer-md;
   }
+
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  column-gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+
+  font-size: $font-size-sm;
 }
 
 .modulekitheader__pill {
@@ -80,8 +85,10 @@
   @extend %body-font-regular;
 
   display: block;
-  padding: 0;
+
   margin: 0;
+  padding: 0;
+
   font-size: $font-size-sm;
   text-align: center;
 }

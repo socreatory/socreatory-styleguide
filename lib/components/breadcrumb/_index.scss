@@ -2,10 +2,11 @@
 
 /* Style the list */
 .breadcrumb {
-  display: none;
   @include for-tablet-portrait-up {
     display: block;
   }
+
+  display: none;
 }
 
 .breadcrumb__list {

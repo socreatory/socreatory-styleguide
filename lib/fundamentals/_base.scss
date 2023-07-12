@@ -17,12 +17,14 @@ body {
   @extend %body-font-regular;
 
   display: flex;
+  flex-direction: column;
   // Experiment
   min-height: 100vh;
-  flex-direction: column;
   margin: 0;
-  background-color: $brand-background;
+
   color: $brand-text;
+
+  background-color: $brand-background;
 }
 
 main {
@@ -44,6 +46,6 @@ video {
 }
 
 ::selection {
-  background: $brand-blue;
   color: $brand-text;
+  background: $brand-blue;
 }

@@ -22,14 +22,14 @@
 
 .footer__logo {
   height: 4.25rem;
-  padding-bottom: $spacer-base;
   margin-right: $spacer-base;
+  padding-bottom: $spacer-base;
 }
 
 .footer__linkarea {
   display: flex;
-  width: 15rem;
   justify-content: space-between;
+  width: 15rem;
 }
 
 .footer__links {
@@ -42,8 +42,8 @@
 }
 
 .footer__link a {
-  color: $brand-text;
   line-height: 2;
+  color: $brand-text;
   text-decoration: none;
 }
 

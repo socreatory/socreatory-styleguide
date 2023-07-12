@@ -1,12 +1,17 @@
 // Icon helper
 @mixin icon-before($svg-path, $color, $height: 1rem) {
   &::before {
+    content: " ";
+
     display: block;
+
     width: $height;
     height: $height;
-    background-color: currentcolor;
+
     color: $color;
-    content: " ";
+
+    background-color: currentcolor;
+
     mask-image: asset-url($svg-path);
     mask-position: center;
     mask-repeat: no-repeat;
@@ -19,9 +24,12 @@
   /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
   /* stylelint-disable-next-line declaration-no-important */
   position: absolute !important;
+
   overflow: hidden;
+
   width: 1px;
   height: 1px;
+
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }

@@ -12,21 +12,25 @@ $desktop-xl: 90rem;
     @content;
   }
 }
+
 @mixin for-tablet-portrait-up {
   @media (min-width: $tablet-portrait) {
     @content;
   }
 }
+
 @mixin for-tablet-landscape-up {
   @media (min-width: $tablet-landscape) {
     @content;
   }
 }
+
 @mixin for-desktop-up {
   @media (min-width: $desktop) {
     @content;
   }
 }
+
 @mixin for-desktop-xl-up {
   @media (min-width: $desktop-xl) {
     @content;

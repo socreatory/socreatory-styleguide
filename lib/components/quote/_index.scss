@@ -4,12 +4,13 @@
 }
 
 .quote--center {
-  max-width: 100%;
-  padding: 0 $spacer-md;
   @include for-tablet-landscape-up {
     max-width: 70%;
     margin: auto;
   }
+
+  max-width: 100%;
+  padding: 0 $spacer-md;
 }
 
 .quote__blockquote {
@@ -17,8 +18,8 @@
 
   margin: 0 0 $spacer-base 0;
   font-size: $font-size-xl;
-  hyphens: auto;
   line-height: 1.4;
+  hyphens: auto;
 }
 
 .quote__name {
