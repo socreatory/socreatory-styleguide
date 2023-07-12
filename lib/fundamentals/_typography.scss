@@ -1,3 +1,4 @@
+/* stylelint-disable scss/dollar-variable-colon-space-after */
 @import url("//hello.myfonts.net/count/3d13ba");
 
 @font-face {
@@ -24,9 +25,39 @@
   src: asset-url("hack-regular.woff2") format("woff2");
 }
 
-$font-family-sans-serif: "SofiaPro-Regular", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
-$font-family-sans-serif-bold: "SofiaPro-Bold", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
-$font-family-sans-serif-italic: "SofiaPro-RegularItalic", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
+$font-family-sans-serif:
+  "SofiaPro-Regular",
+  -apple-system,
+  blinkmacsystemfont,
+  "Segoe UI",
+  roboto,
+  oxygen-sans,
+  ubuntu,
+  cantarell,
+  "Helvetica Neue",
+  sans-serif;
+$font-family-sans-serif-bold:
+  "SofiaPro-Bold",
+  -apple-system,
+  blinkmacsystemfont,
+  "Segoe UI",
+  roboto,
+  oxygen-sans,
+  ubuntu,
+  cantarell,
+  "Helvetica Neue",
+  sans-serif;
+$font-family-sans-serif-italic:
+  "SofiaPro-RegularItalic",
+  -apple-system,
+  blinkmacsystemfont,
+  "Segoe UI",
+  roboto,
+  oxygen-sans,
+  ubuntu,
+  cantarell,
+  "Helvetica Neue",
+  sans-serif;
 $font-family-monospace: "Hack-Regular", "Monaco", "Courier New", monospace;
 
 $font-size-xxs: 0.5rem; // Add your own value here
