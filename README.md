@@ -20,3 +20,11 @@ npm start
 ```
 
 Visit http://localhost:4001 to visit the pattern library.
+
+## Run all the tests
+
+`npm run test` runs eslint and stylelint
+
+`npm run prettier` runs prettier
+
+`stylelint './lib/**/*.scss' --fix` autofixes stylelint errors if possible
