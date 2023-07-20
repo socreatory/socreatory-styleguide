@@ -2,19 +2,68 @@
 
 $brand-green: #2ae78b;
 $brand-green-light: #92ffb2;
+
+$brand-greens: (
+  brand-green: $brand-green,
+  brand-green-light: $brand-green-light,
+);
+
 $brand-blue: #00d7f7;
 $brand-blue-light: #91f0ff;
-$brand-yellow: #ffd80a;
-// $brand-yellow-light: #E2DBFC;
-$brand-yellow-light: #fff0a4;
-$brand-red: #f00;
-$brand-text: #000;
-$brand-background: #faf8f2;
-$brand-background-dark: #ece9de;
-$brand-sand: #d4cfc5;
-$brand-error: #ff5107;
-$gray-90: #3d3b34;
-$gray-50: #696969;
-$gray-10: #ede8dd;
 
-$inactive: #939089;
+$brand-blues: (
+  brand-blue: $brand-blue,
+  brand-blue-light: $brand-blue-light,
+);
+
+$brand-yellow: #ffd80a;
+$brand-yellow-light: #fff0a4;
+
+$brand-yellows: (
+  brand-yellow: $brand-yellow,
+  brand-yellow-light: $brand-yellow-light,
+);
+
+$brand-red: #f00;
+$brand-red-1: #ff5107;
+
+$brand-reds: (
+  brand-red: $brand-red,
+  brand-red-1: $brand-red-1,
+);
+
+$brand-black: #000;
+
+$brand-blacks: (
+  brand-black: $brand-black,
+);
+
+$brand-white: #faf8f2;
+$brand-white-1: #ece9de;
+
+$brand-whites: (
+  brand-white: $brand-white,
+  brand-white-1: $brand-white-1,
+);
+
+$brand-sand: #d4cfc5;
+
+$brand-sands: (
+  brand-sand: $brand-sand,
+);
+
+$brand-gray: #3d3b34;
+$brand-gray-1: #696969;
+$brand-gray-2: #939089;
+
+$brand-grays: (
+  brand-gray: $brand-gray,
+  brand-gray-1: $brand-gray-1,
+  brand-gray-2: $brand-gray-2,
+);
+
+$brand-error: $brand-red-1;
+$brand-text: $brand-black;
+$brand-background: $brand-white;
+$brand-background-dark: $brand-white-1;
+$brand-inactive: $brand-gray-2;

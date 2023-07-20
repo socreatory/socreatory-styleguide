@@ -41,8 +41,8 @@
 .btn-type--primary:focus {
   cursor: pointer;
   color: $brand-background;
-  background-color: $gray-90;
-  border: 0.25rem solid $gray-90;
+  background-color: $brand-gray;
+  border: 0.25rem solid $brand-gray;
 }
 
 .btn-type--secondary {
@@ -58,8 +58,8 @@
 }
 
 .btn-state--disabled {
-  background-color: $gray-50;
-  border-color: $gray-50;
+  background-color: $brand-gray-1;
+  border-color: $brand-gray-1;
   // color: $brand-background;
   // background-color: $brand-background-dark;
   // border: 0.25rem solid $brand-background-dark;

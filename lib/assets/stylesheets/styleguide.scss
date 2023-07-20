@@ -35,10 +35,6 @@
 }
 
 my-color {
-  @include color-definition("brand-green", $brand-green);
-
-  @include color-definition("brand-blue", $brand-blue);
-
   display: inline-grid;
   grid-template-areas: "swatch" "name" "hex";
   grid-template-rows: 8rem auto auto;
@@ -47,6 +43,38 @@ my-color {
   margin: 0.125rem;
 
   border-radius: 0.25rem 0.25rem 0.5rem 0.5rem;
+
+  @each $blue, $hex in $brand-blues {
+    @include color-definition($blue, $hex);
+  }
+
+  @each $red, $hex in $brand-reds {
+    @include color-definition($red, $hex);
+  }
+
+  @each $green, $hex in $brand-greens {
+    @include color-definition($green, $hex);
+  }
+
+  @each $yellow, $hex in $brand-yellows {
+    @include color-definition($yellow, $hex);
+  }
+
+  @each $gray, $hex in $brand-grays {
+    @include color-definition($gray, $hex);
+  }
+
+  @each $gray, $hex in $brand-blacks {
+    @include color-definition($gray, $hex);
+  }
+
+  @each $gray, $hex in $brand-whites {
+    @include color-definition($gray, $hex);
+  }
+
+  @each $gray, $hex in $brand-sands {
+    @include color-definition($gray, $hex);
+  }
 }
 
 // Code for swatching spacer variables

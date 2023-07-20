@@ -199,7 +199,7 @@
 .pretix-widget del.pretix-widget-pricebox-original-price {
   margin-left: $spacer-sm;
   font-size: $font-size-base;
-  color: $gray-50;
+  color: $brand-gray-1;
 }
 
 // Preis gültig
@@ -347,8 +347,8 @@ input[type="checkbox"]:checked {
   width: 100%;
   margin-left: 0;
 
-  background-color: $gray-90;
-  border: 0.25rem solid $gray-90;
+  background-color: $brand-gray;
+  border: 0.25rem solid $brand-gray;
 }
 
 // Loading Icon
@@ -468,8 +468,8 @@ input[type="checkbox"]:checked {
 .pretix-widget-alert-box button:focus,
 .pretix-widget-alert-box input[type="button"]:focus {
   color: $brand-background;
-  background-color: $gray-90;
-  border: 0.25rem solid $gray-90;
+  background-color: $brand-gray;
+  border: 0.25rem solid $brand-gray;
 }
 
 // Warenkorb Hinweis
