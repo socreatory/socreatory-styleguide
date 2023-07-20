@@ -19,3 +19,24 @@ $spacer-xxxl: 16rem; // Add your own value here
 .column-gap-1 {
   column-gap: $spacer-sm;
 }
+
+// Spacers
+.spacer__md {
+  margin-bottom: $spacer-md;
+}
+
+.spacer__base {
+  margin-bottom: $spacer-base;
+}
+
+.spacer__lg {
+  margin-bottom: $spacer-lg;
+}
+
+.spacer__xl {
+  margin-bottom: $spacer-xl;
+}
+
+.spacer__xxl {
+  margin-bottom: $spacer-xxl;
+}

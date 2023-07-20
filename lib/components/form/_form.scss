@@ -1,0 +1,69 @@
+// Form
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__field {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: $spacer-md;
+}
+
+.form__field--is-invalid {
+  color: $brand-error;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__input {
+  @extend %body-font-regular;
+
+  width: 100%;
+  padding: $spacer-xs;
+
+  font-size: $font-size-base;
+
+  background-color: $brand-background-dark;
+  border: 0;
+  border-bottom: solid 0.2rem $brand-text;
+
+  transition: all 0.15s ease-out;
+}
+
+.form__input:focus {
+  background-color: $brand-background;
+  outline: none;
+}
+
+.field__size--full {
+  width: 100%;
+}
+
+.field__size--half {
+  @include for-tablet-portrait-up {
+    width: 47%;
+  }
+
+  width: 100%;
+}
+
+.form__textarea {
+  resize: none;
+}
+
+.form__field--invisible {
+  display: none;
+}
+
+// Trainings Overview
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}

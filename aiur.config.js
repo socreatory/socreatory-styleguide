@@ -41,7 +41,7 @@ module.exports = {
     blueprints: {
       file: "./lib/documentation/BLUEPRINTS.md",
       children: {
-        example_layout_layout: "./lib/blueprints/example-layout/README.md",
+        example_layout_layout: "./lib/blueprints/example-layout/example-layout.md",
       },
     },
 

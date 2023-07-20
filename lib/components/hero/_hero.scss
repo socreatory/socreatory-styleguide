@@ -1,0 +1,56 @@
+// Hero
+.hero {
+  @include for-tablet-landscape-up {
+    margin-bottom: $spacer-xxl * 1.25;
+    padding: $spacer-lg + 4rem 0 $spacer-lg 0;
+  }
+
+  margin-bottom: $spacer-xl;
+  padding: $spacer-lg 0 $spacer-lg 0;
+  background-color: $brand-primary-light;
+}
+
+.hero__teaser {
+  @include for-tablet-landscape-up {
+    flex-direction: row-reverse;
+  }
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hero__image {
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-lg;
+  }
+
+  display: block;
+  max-width: 90%;
+  margin: 0 auto $spacer-lg auto;
+}
+
+.hero__heading {
+  margin-bottom: $spacer-md;
+  margin-left: -0.24rem;
+  font-size: $font-size-xxxl;
+  line-height: 1;
+}
+
+.hero__logos {
+  display: flex;
+}
+
+.hero__logo {
+  height: 2.5rem;
+  margin-right: $spacer-base;
+}
+
+.hero__logo--small {
+  height: 2rem;
+  // margin-top: -0.6rem;
+}
+
+.hero__aside {
+  margin-top: $spacer-xxl;
+}

@@ -1,0 +1,13 @@
+/* stylelint-disable-next-line */
+#booking {
+  @include for-tablet-landscape-up {
+    height: max-content;
+  }
+
+  position: relative;
+  margin-bottom: $spacer-xxl;
+}
+
+.article__image {
+  margin-bottom: $spacer-sm;
+}

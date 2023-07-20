@@ -20,12 +20,6 @@
   justify-content: space-between;
 }
 
-.footer__logo {
-  height: 4.25rem;
-  margin-right: $spacer-base;
-  padding-bottom: $spacer-base;
-}
-
 .footer__linkarea {
   display: flex;
   justify-content: space-between;
@@ -60,4 +54,10 @@
 
   padding-bottom: $spacer-md;
   font-size: $font-size-xs;
+}
+
+.footer__logo {
+  height: 4.25rem;
+  margin-right: $spacer-base;
+  padding-bottom: $spacer-base;
 }

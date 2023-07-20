@@ -1,0 +1,9 @@
+// Achtung-Box
+.achtung-box {
+  padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
+  border: solid 0.25rem $brand-secondary;
+}
+
+.achtung-box--narrow {
+  padding: $spacer-xs $spacer-xs $spacer-sm $spacer-xs;
+}

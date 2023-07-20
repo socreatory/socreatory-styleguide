@@ -1,0 +1,27 @@
+// Komponente Lists
+.unordered-list {
+  padding-left: 1rem;
+  font-size: $font-size-base;
+}
+
+.unordered-list__item {
+  padding-left: 1rem;
+}
+
+.ordered-list {
+  padding-left: 1.5rem;
+  font-size: $font-size-base;
+}
+
+.ordered-list__item {
+  padding-left: 0.5rem;
+}
+
+.ordered-list__item::marker,
+.unordered-list__item::marker {
+  color: $brand-secondary;
+}
+
+.unordered-list__item::marker {
+  content: "—";
+}

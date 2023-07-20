@@ -1,0 +1,20 @@
+// Logos in Artikel
+.article__logos {
+  @include for-breakpoint-phone-up {
+    justify-content: flex-start;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $spacer-lg * 0.875;
+}
+
+.article__logo {
+  @include for-breakpoint-phone-up {
+    justify-content: flex-start;
+    margin-right: $spacer-lg;
+  }
+
+  max-height: 2.5rem;
+  margin-right: 0;
+}

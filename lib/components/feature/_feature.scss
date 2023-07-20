@@ -1,0 +1,102 @@
+// Feature Trainer:in
+.features {
+  @include for-breakpoint-phone-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include for-desktop-xl-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacer-base;
+
+  margin-bottom: $spacer-lg;
+  padding-left: 0;
+}
+
+.feature {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition: all 250ms ease;
+}
+
+.feature__image {
+  display: block;
+
+  width: 100%;
+  height: 20rem;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.feature__link {
+  color: $brand-text;
+  text-decoration: none;
+  text-decoration-color: $brand-primary;
+}
+
+.feature__link:hover {
+  text-decoration: underline;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+}
+
+.feature__link::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.feature__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature__top,
+.feature__bottom {
+  position: relative;
+}
+
+.feature__title {
+  margin: $spacer-xs 0 0 0;
+  font-size: $font-size-xl;
+  line-height: 1.2;
+}
+
+.feature__text {
+  font-size: $font-size-md;
+}
+
+.feature__label {
+  @extend %body-font-bold;
+
+  margin: 0.25rem 0 0;
+  font-size: $font-size-md;
+}
+
+.feature__training {
+  @extend %body-font-regular;
+
+  font-size: $font-size-md;
+}
+
+.feature__location {
+  @extend %body-font-regular;
+
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-md;
+}

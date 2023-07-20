@@ -1,0 +1,102 @@
+// Filters
+.filters {
+  display: flex;
+  justify-content: center;
+  margin: $spacer-lg 0;
+}
+
+.filters__list {
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    gap: $spacer-xl;
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: $spacer-base;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.filters__item {
+  @extend %monospace-font-regular;
+
+  @include for-tablet-landscape-up {
+    display: inline;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  position: relative;
+
+  display: block;
+
+  font-size: $font-size-md;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.filters__link {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+.filters__item:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.45rem;
+}
+
+.filters__item--active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.45rem;
+}
+
+.filters__item--inactive,
+.filters__item--inactive:hover {
+  color: $brand-inactive;
+  text-decoration: none;
+}
+
+.filters__link--isaqb,
+.filters__link--power {
+  @include for-tablet-landscape-up {
+    margin-left: $spacer-md;
+  }
+
+  margin-left: 0;
+}
+
+.filters__link--isaqb::before,
+.filters__link--power::before {
+  @include for-tablet-landscape-up {
+    top: 2px;
+  }
+
+  content: "";
+
+  position: absolute;
+  top: 0;
+
+  display: inline-block;
+
+  width: 1rem;
+  height: 1rem;
+  margin-left: -$spacer-md;
+
+  background: $brand-primary-light;
+  border-radius: 1rem;
+}
+
+.filters__link--isaqb::before {
+  background: $brand-primary-light;
+}
+
+.filters__link--power::before {
+  background: $brand-tertiary-light;
+}

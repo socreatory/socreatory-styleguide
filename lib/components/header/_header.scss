@@ -1,0 +1,79 @@
+// Header
+.header {
+  @include for-tablet-landscape-up {
+    margin-bottom: $spacer-xl;
+  }
+
+  margin-bottom: $spacer-sm;
+  padding: $spacer-lg 0 $spacer-lg 0;
+}
+
+.header-color--normal {
+  background-color: $brand-background;
+}
+
+.header-color--highlighted-1 {
+  background-color: $brand-primary-light;
+}
+
+.header-color--highlighted-2 {
+  background-color: $brand-secondary-light;
+}
+
+.header-color--highlighted-3 {
+  background-color: $brand-tertiary-light;
+}
+
+.header__heading {
+  margin-bottom: $spacer-sm;
+  margin-left: -0.2rem;
+  font-size: $font-size-xxl;
+  line-height: 1.2;
+}
+
+.header__heading--centered {
+  text-align: center;
+}
+
+.header__subheading + * {
+  margin-top: $spacer-xl;
+}
+
+.header__image {
+  @include for-tablet-portrait-up {
+    max-width: 60%;
+  }
+
+  display: block;
+  max-width: 70%;
+  margin: 0 auto $spacer-lg auto;
+}
+
+.header__logogrid {
+  @include for-tablet-landscape-up {
+    grid-template-areas: "left right";
+    grid-template-columns: 2fr 1fr;
+    gap: 6.25rem;
+  }
+
+  display: grid;
+  grid-template-areas:
+    "left"
+    "right";
+  grid-template-columns: 1fr;
+  gap: $spacer-md;
+  align-items: center;
+}
+
+.logogrid__left {
+  grid-area: left;
+}
+
+.logogrid__right {
+  grid-area: right;
+}
+
+.header__logo {
+  height: 1.5rem;
+  margin-right: $spacer-base * 0.7;
+}

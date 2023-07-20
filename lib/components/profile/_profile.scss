@@ -1,0 +1,62 @@
+// Trainer Profiles
+.profiles {
+  @include for-tablet-portrait-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  @include for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacer-base;
+  padding: 0;
+}
+
+.profile__name {
+  @extend %body-font-bold;
+
+  margin-bottom: 0;
+  font-size: $font-size-base;
+}
+
+.profile__company,
+.profile__role,
+.profile__focus {
+  margin-bottom: 0;
+  font-size: $font-size-md;
+}
+
+// Trainer Overview
+.profile {
+  position: relative;
+  list-style: none;
+}
+
+.profile__link {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+.profile__link:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+}
+
+.profile__link::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

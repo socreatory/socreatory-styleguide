@@ -1,0 +1,21 @@
+// Main
+.section {
+  position: relative;
+  margin-bottom: $spacer-xxl;
+}
+
+.section--home {
+  @include for-tablet-landscape-up {
+    padding-bottom: $spacer-xl;
+  }
+
+  padding-bottom: 0;
+}
+
+.section--narrow {
+  margin-bottom: $spacer-xl;
+}
+
+.section--supernarrow {
+  margin-bottom: $spacer-md;
+}

@@ -1,0 +1,32 @@
+// Komponente Teaser (2spalter auf Home)
+.teaser {
+  display: flex;
+  flex-direction: row;
+  /* stylelint-disable-next-line */
+  flex-wrap: wrap;
+}
+
+.teaser--reverse {
+  @include for-tablet-landscape-up {
+    flex-direction: row-reverse;
+  }
+}
+
+// linke oder rechte Spalte
+.teaser__column {
+  @include for-tablet-landscape-up {
+    width: 50%;
+  }
+
+  width: 100%;
+}
+
+.teaser__image {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto $spacer-lg auto;
+}
+
+.teaser__text {
+  margin-bottom: $spacer-base;
+}
