@@ -59,18 +59,17 @@ module.exports = {
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
         rating: "./lib/components/rating/rating.md",
         quote: "./lib/components/quote/quote.md",
-        announcement: "./lib/components/announcement/announcement.md"
-
+        announcement: "./lib/components/announcement/announcement.md",
       },
     },
 
     atoms: {
       file: "./lib/documentation/ATOMS.md",
       children: {
-        headings: "./lib/components/headings/README.md",
-        link: "./lib/components/link/README.md",
-        icons: "./lib/components/icons/README.md",
-        text: "./lib/components/text/README.md",
+        headings: "./lib/components/headings/headings.md",
+        link: "./lib/components/link/link.md",
+        icons: "./lib/components/icons/icons.md",
+        text: "./lib/components/text/text.md",
         buttons: "./lib/components/buttons/buttons.md",
       },
     },

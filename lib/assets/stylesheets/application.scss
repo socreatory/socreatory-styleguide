@@ -17,17 +17,20 @@ Application specific code
 */
 
 // Components
+@import "../../components/announcement";
+@import "../../components/breadcrumb";
+@import "../../components/buttons";
+@import "../../components/cards";
+@import "../../components/footer";
 @import "../../components/headings";
 @import "../../components/icons";
 @import "../../components/link";
-@import "../../components/text";
-@import "../../components/buttons";
 @import "../../components/navbar";
-@import "../../components/breadcrumb";
 @import "../../components/pills";
-@import "../../components/cards";
-@import "../../components/announcement";
 @import "../../components/pretix";
+@import "../../components/quote";
+@import "../../components/rating";
+@import "../../components/text";
 
 // Blueprints
 @import "../../blueprints/example-layout";

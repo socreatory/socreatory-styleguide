@@ -1,4 +1,4 @@
-title: Organism
+title: Organisms
 description: Complex components
 
 An organism is composed of molecules or organisms which are composed together.
