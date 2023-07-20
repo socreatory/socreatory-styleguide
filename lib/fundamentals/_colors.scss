@@ -12,16 +12,16 @@ $brand-blue: #00d7f7;
 $brand-blue-light: #91f0ff;
 
 $brand-blue: (
-  brand-blue: $brand-secondary,
-  brand-blue-light: $brand-secondary-light,
+  brand-blue: $brand-blue,
+  brand-blue-light: $brand-blue-light,
 );
 
 $brand-yellow: #ffd80a;
 $brand-yellow-light: #fff0a4;
 
 $brand-tertiarys: (
-  brand-yellow: $brand-tertiary,
-  brand-yellow-light: $brand-tertiary-light,
+  brand-yellow: $brand-yellow,
+  brand-yellow-light: $brand-yellow-light,
 );
 
 $brand-red: #f00;
