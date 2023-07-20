@@ -13,7 +13,7 @@
 
   &::before {
     content: "★★★★★";
-    background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
+    background: linear-gradient(90deg, $brand-secondary var(--percent), $brand-text var(--percent));
     background-clip: text;
 
     -webkit-text-fill-color: transparent;

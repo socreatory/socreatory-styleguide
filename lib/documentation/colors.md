@@ -5,7 +5,7 @@ The colors listed here can be used as an SCSS Variable.
 
 ```
 .my-selector {
-  color: $brand-green;
+  color: $brand-primary;
 }
 ```
 

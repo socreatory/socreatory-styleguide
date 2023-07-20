@@ -78,7 +78,7 @@
   min-height: 14rem;
   padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
 
-  background-color: $brand-blue-light;
+  background-color: $brand-secondary-light;
 }
 
 .card__body__bottom {
@@ -91,11 +91,11 @@
 }
 
 .card__body--isaqb {
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 }
 
 .card__body--power {
-  background-color: $brand-yellow-light;
+  background-color: $brand-tertiary-light;
 }
 
 .card__footer {
@@ -106,11 +106,11 @@
 
   padding: $spacer-sm * 0.8;
 
-  background-color: $brand-blue-light;
+  background-color: $brand-secondary-light;
 }
 
 .card__footer--isaqb {
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 }
 
 .card__title {
@@ -199,10 +199,10 @@
 }
 
 .modulekitcard:hover {
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 
   .pill__number--zero {
-    background-color: $brand-green;
+    background-color: $brand-primary;
   }
 
   .modulekitcard__overlay,
@@ -213,15 +213,15 @@
   }
 
   .modulekitcard__zuwenigpunkte {
-    background-color: $brand-green;
+    background-color: $brand-primary;
   }
 }
 
 .modulekitcard--active {
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 
   .pill__number--zero {
-    background-color: $brand-green;
+    background-color: $brand-primary;
   }
 }
 
@@ -336,8 +336,8 @@
 }
 
 .modulekitkombis__pill:hover {
-  background-color: $brand-green-light;
-  border: 1px solid $brand-green-light;
+  background-color: $brand-primary-light;
+  border: 1px solid $brand-primary-light;
 }
 
 .modulekit__info {

@@ -11,17 +11,17 @@ $brand-greens: (
 $brand-blue: #00d7f7;
 $brand-blue-light: #91f0ff;
 
-$brand-blues: (
-  brand-blue: $brand-blue,
-  brand-blue-light: $brand-blue-light,
+$brand-blue: (
+  brand-blue: $brand-secondary,
+  brand-blue-light: $brand-secondary-light,
 );
 
 $brand-yellow: #ffd80a;
 $brand-yellow-light: #fff0a4;
 
-$brand-yellows: (
-  brand-yellow: $brand-yellow,
-  brand-yellow-light: $brand-yellow-light,
+$brand-tertiarys: (
+  brand-yellow: $brand-tertiary,
+  brand-yellow-light: $brand-tertiary-light,
 );
 
 $brand-red: #f00;
@@ -61,6 +61,16 @@ $brand-grays: (
   brand-gray-1: $brand-gray-1,
   brand-gray-2: $brand-gray-2,
 );
+
+// Variables to use
+$brand-primary: $brand-green;
+$brand-primary-light: $brand-primary-light;
+
+$brand-secondary: $brand-blue;
+$brand-secondary-light: $brand-blue-light;
+
+$brand-tertiary: $brand-yellow;
+$brand-tertiary-light: $brand-yellow-light;
 
 $brand-error: $brand-red-1;
 $brand-text: $brand-black;

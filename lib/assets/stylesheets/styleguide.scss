@@ -44,7 +44,7 @@ my-color {
 
   border-radius: 0.25rem 0.25rem 0.5rem 0.5rem;
 
-  @each $blue, $hex in $brand-blues {
+  @each $blue, $hex in $brand-secondarys {
     @include color-definition($blue, $hex);
   }
 
@@ -52,11 +52,11 @@ my-color {
     @include color-definition($red, $hex);
   }
 
-  @each $green, $hex in $brand-greens {
+  @each $green, $hex in $brand-primarys {
     @include color-definition($green, $hex);
   }
 
-  @each $yellow, $hex in $brand-yellows {
+  @each $yellow, $hex in $brand-tertiarys {
     @include color-definition($yellow, $hex);
   }
 
@@ -86,7 +86,7 @@ dl.spacers {
   dd {
     width: 100%;
     margin: 0;
-    background-color: $brand-green;
+    background-color: $brand-primary;
   }
 }
 

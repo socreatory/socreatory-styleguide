@@ -74,7 +74,7 @@
   font-size: $font-size-base;
   color: $brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-green;
+  text-decoration-color: $brand-primary;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
   letter-spacing: 0;
@@ -86,7 +86,7 @@
 
 /* stylelint-disable-next-line */
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span:hover {
-  text-decoration-color: $brand-green-light;
+  text-decoration-color: $brand-primary-light;
 }
 
 // Termin Hover ausschalten
@@ -353,7 +353,7 @@ input[type="checkbox"]:checked {
 
 // Loading Icon
 .pretix-widget-primary-color {
-  fill: $brand-blue;
+  fill: $brand-secondary;
 }
 
 .pretix-widget .pretix-widget-loading {
@@ -387,7 +387,7 @@ input[type="checkbox"]:checked {
 //   font-size: $font-size-xs;
 //   color: $brand-text;
 //   text-decoration: none;
-//   text-decoration-color: $brand-green;
+//   text-decoration-color: $brand-primary;
 //   transition: all 0.1s ease-out;
 // }
 
@@ -395,7 +395,7 @@ input[type="checkbox"]:checked {
 //   text-decoration: underline;
 //   text-underline-offset: 0.25rem;
 //   text-decoration-thickness: 0.25rem;
-//   text-decoration-color: $brand-green;
+//   text-decoration-color: $brand-primary;
 // }
 
 // Back Button
@@ -480,7 +480,7 @@ input[type="checkbox"]:checked {
   color: $brand-text;
 
   background-color: $brand-background;
-  border: solid 0.25rem $brand-blue;
+  border: solid 0.25rem $brand-secondary;
 }
 
 .pretix-widget .pretix-widget-resume-button {

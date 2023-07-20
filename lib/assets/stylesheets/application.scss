@@ -77,7 +77,7 @@ Application specific code
 
   margin-bottom: $spacer-xl;
   padding: $spacer-lg 0 $spacer-lg 0;
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 }
 
 .hero__teaser {
@@ -140,15 +140,15 @@ Application specific code
 }
 
 .header-color--highlighted-1 {
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 }
 
 .header-color--highlighted-2 {
-  background-color: $brand-blue-light;
+  background-color: $brand-secondary-light;
 }
 
 .header-color--highlighted-3 {
-  background-color: $brand-yellow-light;
+  background-color: $brand-tertiary-light;
 }
 
 .header__heading {
@@ -351,7 +351,7 @@ Application specific code
 
 .ordered-list__item::marker,
 .unordered-list__item::marker {
-  color: $brand-blue;
+  color: $brand-secondary;
 }
 
 .unordered-list__item::marker {
@@ -501,7 +501,7 @@ Application specific code
 
   &::before {
     content: "★★★★★";
-    background: linear-gradient(90deg, $brand-blue var(--percent), $brand-text var(--percent));
+    background: linear-gradient(90deg, $brand-secondary var(--percent), $brand-text var(--percent));
     background-clip: text;
 
     -webkit-text-fill-color: transparent;
@@ -591,12 +591,12 @@ Application specific code
 
 .footer__top {
   padding: $spacer-md 0 $spacer-sm 0;
-  background-color: $brand-green-light;
+  background-color: $brand-primary-light;
 }
 
 .footer__bottom {
   padding-top: $spacer-md;
-  background-color: $brand-green;
+  background-color: $brand-primary;
 }
 
 .footer__content {
@@ -651,7 +651,7 @@ Application specific code
 // Markdown Listen und Text
 .markdown {
   li::marker {
-    color: $brand-blue;
+    color: $brand-secondary;
   }
 
   ul {
@@ -790,16 +790,16 @@ label {
   height: 1rem;
   margin-left: -$spacer-md;
 
-  background: $brand-green-light;
+  background: $brand-primary-light;
   border-radius: 1rem;
 }
 
 .filters__link--isaqb::before {
-  background: $brand-green-light;
+  background: $brand-primary-light;
 }
 
 .filters__link--power::before {
-  background: $brand-yellow-light;
+  background: $brand-tertiary-light;
 }
 
 // Spacers
@@ -826,7 +826,7 @@ label {
 // Achtung-Box
 .achtung-box {
   padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
-  border: solid 0.25rem $brand-blue;
+  border: solid 0.25rem $brand-secondary;
 }
 
 .achtung-box--narrow {
@@ -847,7 +847,7 @@ label {
 .profile__link:hover {
   color: $brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-green;
+  text-decoration-color: $brand-primary;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
 }
@@ -964,12 +964,12 @@ label {
 .feature__link {
   color: $brand-text;
   text-decoration: none;
-  text-decoration-color: $brand-green;
+  text-decoration-color: $brand-primary;
 }
 
 .feature__link:hover {
   text-decoration: underline;
-  text-decoration-color: $brand-green;
+  text-decoration-color: $brand-primary;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
 }
@@ -1062,13 +1062,13 @@ label {
 .news__newsheadline a {
   color: $brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-green;
+  text-decoration-color: $brand-primary;
   text-decoration-thickness: 0.3rem;
   text-underline-offset: 0.3rem;
 }
 
 .news__newsheadline a:hover {
-  text-decoration-color: $brand-green-light;
+  text-decoration-color: $brand-primary-light;
 }
 
 // News Detail
