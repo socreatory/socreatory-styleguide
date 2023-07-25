@@ -1,14 +1,12 @@
 title: About
 description: Description
 
-example view
-
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <scroll-nav>
     <nav class="navbar">
-        <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
-        <input type="checkbox" id="navbar__checkbox">
+        <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+        <input type="checkbox" id="navbar__checkbox" />
         <ul class="navbar__items">
             <li><a href="#" class="navbar__item">Trainings</a></li>
             <li><a href="#" class="navbar__item">Trainer:innen</a></li>
@@ -33,7 +31,7 @@ example view
         </div>
     </div>
     <div class="container__centered">
-        <img class="header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="">
+        <img class="header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
         <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran kannst du uns messen.</h1>
     </div>
 </header>
@@ -44,13 +42,24 @@ example view
             <h2 class="section__title--small"><span aria-hidden>-- </span>Zwei Anbieter, eine Academy</h2>
             <h3 class="heading">Zusammen, um Wissen zu teilen.</h3>
             <div class="article__logos">
-                <img class="article__logo" src="/snippet/images/logos/embarc_logo.svg">
-                <img class="article__logo" src="/snippet/images/logos/innoq_logo.svg">
+                <img class="article__logo" src="/snippet/images/logos/embarc_logo.svg" />
+                <img class="article__logo" src="/snippet/images/logos/innoq_logo.svg" />
             </div>
             <div class="article markdown">
-                <p>Wir sind ausnahmslos Expert:innen, die Ihr Wissen täglich in der Praxis anwenden. Wir sind erfahrene Trainer:innen, die die international anerkannten Standards nicht nur weitergeben, sondern aktiv mitgestalten. Wir sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben. Wir sind embarc und INNOQ. Zusammen sind wir socreatory.</p>
-                <p>Als zwei der der führenden Trainings-Anbieter für Softwarearchitektur sind wir seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB). Viele von uns sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach aktuellstem Stand.</p>
-                <p>Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare Zertifizierungslevel nach den iSAQB-Standards umfasst.</p>
+                <p>
+                    Wir sind ausnahmslos Expert:innen, die Ihr Wissen täglich in der Praxis anwenden. Wir sind erfahrene Trainer:innen, die die international anerkannten Standards nicht nur
+                    weitergeben, sondern aktiv mitgestalten. Wir sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben. Wir sind embarc und
+                    INNOQ. Zusammen sind wir socreatory.
+                </p>
+                <p>
+                    Als zwei der der führenden Trainings-Anbieter für Softwarearchitektur sind wir seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB). Viele
+                    von uns sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach
+                    aktuellstem Stand.
+                </p>
+                <p>
+                    Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare
+                    Zertifizierungslevel nach den iSAQB-Standards umfasst.
+                </p>
                 <a href="#" class="btn btn-type--primary btn-size--fit">Unsere Trainer:innen</a>
             </div>
         </section>
@@ -58,7 +67,10 @@ example view
         <section class="section">
             <h2 class="section__title--small"><span aria-hidden>-- </span>Unsere Philosophie</h2>
             <div class="quote">
-                <blockquote class="quote__blockquote">Ein Gesellschaftsspiel lernt man am besten von Menschen, die es schon oft gespielt haben. Die interessantesten Insider-Tipps bekommt man nicht in Stadtführern, sondern von Einheimischen. Und die Standards der Softwarearchitektur lernt man idealerweise von denen, die die Standards mitentwickeln und definieren.</blockquote>
+                <blockquote class="quote__blockquote">
+                    Ein Gesellschaftsspiel lernt man am besten von Menschen, die es schon oft gespielt haben. Die interessantesten Insider-Tipps bekommt man nicht in Stadtführern, sondern von
+                    Einheimischen. Und die Standards der Softwarearchitektur lernt man idealerweise von denen, die die Standards mitentwickeln und definieren.
+                </blockquote>
             </div>
         </section>
     </div>
@@ -68,7 +80,7 @@ example view
     <div class="footer__top">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <img class ="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -95,5 +107,4 @@ example view
         </div>
     </div>
 </footer>
-
 ```

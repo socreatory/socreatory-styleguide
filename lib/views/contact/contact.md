@@ -1,14 +1,12 @@
 title: Kontakt
 description: Description
 
-example view
-
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <scroll-nav>
     <nav class="navbar">
-        <img class ="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
-        <input type="checkbox" id="navbar__checkbox">
+        <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+        <input type="checkbox" id="navbar__checkbox" />
         <ul class="navbar__items">
             <li><a href="#" class="navbar__item">Trainings</a></li>
             <li><a href="#" class="navbar__item">Trainer:innen</a></li>
@@ -41,7 +39,10 @@ example view
     <div class="container__centered">
         <section class="section">
             <div class="section__1col markdown">
-                <p>Du hast Fragen zu unseren Leistungen oder bist auf der Suche nach einer individuellen Unterstützung? Für Fragen oder Wünsche nutze den direkten Kontakt über unser Kontaktformular. Wir melden uns bei dir!</p>
+                <p>
+                    Du hast Fragen zu unseren Leistungen oder bist auf der Suche nach einer individuellen Unterstützung? Für Fragen oder Wünsche nutze den direkten Kontakt über unser Kontaktformular.
+                    Wir melden uns bei dir!
+                </p>
             </div>
         </section>
     </div>
@@ -49,36 +50,36 @@ example view
         <section class="section">
             <h2 class="paragraph__h2">Deine Nachricht an uns</h2>
             <form class="form" id="new_contact_form" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
-                <input type="hidden" name="authenticity_token" value="tPXLZMbkf1Q1ql0crdbMM0sWjRiEePOcopgX4Uxd4ekO70UI7Mn4dAhL_lp7Uwx_VXPL_g9j7iOWZQcuRmqrlw">
+                <input type="hidden" name="authenticity_token" value="tPXLZMbkf1Q1ql0crdbMM0sWjRiEePOcopgX4Uxd4ekO70UI7Mn4dAhL_lp7Uwx_VXPL_g9j7iOWZQcuRmqrlw" />
 
                 <div class="form__field field__size--half form__field--is-invalid">
-                  <label class="form__label form__label--required" for="contact_form_name">Name <abbr title="Pflichtfeld">*</abbr></label>
-                  <input class="form__input" type="text" name="contact_form[name]" id="contact_form_name">
-                  <small class="form__text">Dieses Feld darf nicht leer sein</small>
+                    <label class="form__label form__label--required" for="contact_form_name">Name <abbr title="Pflichtfeld">*</abbr></label>
+                    <input class="form__input" type="text" name="contact_form[name]" id="contact_form_name" />
+                    <small class="form__text">Dieses Feld darf nicht leer sein</small>
                 </div>
 
                 <div class="form__field field__size--half">
-                  <label class="form__label form__label--required" for="contact_form_email">Email <abbr title="Pflichtfeld">*</abbr></label>
-                  <input class="form__input" type="email" name="contact_form[email]" id="contact_form_email">
+                    <label class="form__label form__label--required" for="contact_form_email">Email <abbr title="Pflichtfeld">*</abbr></label>
+                    <input class="form__input" type="email" name="contact_form[email]" id="contact_form_email" />
                 </div>
 
                 <div class="form__field field__size--full">
-                  <label class="form__label form__label--optional" for="contact_form_subject">Betreff</label>
-                  <input class="form__input" type="text" name="contact_form[subject]" id="contact_form_subject">
+                    <label class="form__label form__label--optional" for="contact_form_subject">Betreff</label>
+                    <input class="form__input" type="text" name="contact_form[subject]" id="contact_form_subject" />
                 </div>
 
                 <div class="form__field field__size--full">
-                  <label class="form__label form__label--required" for="contact_form_message">Nachricht <abbr title="Pflichtfeld">*</abbr></label>
-                  <textarea rows="8" class="form__input form__textarea" type="text" name="contact_form[message]" id="contact_form_message"></textarea>
+                    <label class="form__label form__label--required" for="contact_form_message">Nachricht <abbr title="Pflichtfeld">*</abbr></label>
+                    <textarea rows="8" class="form__input form__textarea" type="text" name="contact_form[message]" id="contact_form_message"></textarea>
                 </div>
 
                 <div class="form__field form__field--invisible field__size--full ">
-                  <label class="form__label form__label--optional" for="contact_form_nickname">Nickname</label>
-                  <input class="form__input" type="text" name="contact_form[nickname]" id="contact_form_nickname">
+                    <label class="form__label form__label--optional" for="contact_form_nickname">Nickname</label>
+                    <input class="form__input" type="text" name="contact_form[nickname]" id="contact_form_nickname" />
                 </div>
 
-                <input type="submit" name="commit" value="Nachricht abschicken" class="btn btn-type--primary btn-size--fit" data-disable-with="Contact form erstellen">
-              </form>
+                <input type="submit" name="commit" value="Nachricht abschicken" class="btn btn-type--primary btn-size--fit" data-disable-with="Contact form erstellen" />
+            </form>
         </section>
     </div>
 </main>
@@ -87,7 +88,7 @@ example view
     <div class="footer__top">
         <div class="container__fullwidth">
             <div class="footer__content">
-                <img class ="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -114,5 +115,4 @@ example view
         </div>
     </div>
 </footer>
-
 ```

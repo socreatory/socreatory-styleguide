@@ -1,8 +1,6 @@
 title: Training Detail Powerworkshop
 description: Show Training Detail Powerworkshop
 
-example view
-
 ```html
 <script type="text/javascript" src="https://pretix.eu/widget/v1.de.js" async></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
