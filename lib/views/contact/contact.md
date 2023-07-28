@@ -1,4 +1,4 @@
-title: Kontakt
+title: Contact
 description: Description
 
 ```html
