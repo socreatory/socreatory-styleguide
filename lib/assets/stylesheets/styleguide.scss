@@ -15,7 +15,7 @@
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
-      background-color: #f7f7f7;
+      background-color: #f2f2f2;
     }
 
     &::after {
@@ -28,7 +28,7 @@
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
-      background-color: #f7f7f7;
+      background-color: #f2f2f2;
       border-radius: 0 0 0.25rem 0.25rem;
     }
   }
@@ -36,8 +36,8 @@
 
 my-color {
   display: inline-grid;
-  grid-template-areas: "swatch" "name" "hex";
-  grid-template-rows: 8rem auto auto;
+  grid-template-areas: "swatch" "name" "hex" "cmyk";
+  grid-template-rows: 8rem auto auto auto;
 
   min-width: 8rem;
   margin: 0.125rem;
@@ -75,6 +75,18 @@ my-color {
   @each $gray, $hex in $brand-sands {
     @include color-definition($gray, $hex);
   }
+}
+
+.brand-cmyk {
+  grid-area: cmyk;
+  padding: 0 0.25rem 0.25rem;
+  text-align: center;
+  /* stylelint-disable-next-line color-no-hex */
+  background-color: #f2f2f2;
+}
+
+.my-color-swatches {
+  background-color: #f2f2f2;
 }
 
 // Code for swatching spacer variables

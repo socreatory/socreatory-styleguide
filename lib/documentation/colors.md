@@ -12,17 +12,21 @@ The colors listed here can be used as an SCSS Variable.
 ## Green
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-green"></my-color>
-    <my-color class="brand-green-light"></my-color>
+    <my-color class="brand-green-light">
+        <span class="brand-cmyk">CMYK 41 0 58 0</span>
+    </my-color>
 </div>
 ```
 
 ## Blue
 
 ```html
-<div>
-    <my-color class="brand-blue"></my-color>
+<div class="my-color-swatches">
+    <my-color class="brand-blue">
+        <span class="brand-cmyk">CMYK 48 0 0 0</span>
+    </my-color>
     <my-color class="brand-blue-light"></my-color>
 </div>
 ```
@@ -30,8 +34,10 @@ The colors listed here can be used as an SCSS Variable.
 ## Yellow
 
 ```html
-<div>
-    <my-color class="brand-yellow"></my-color>
+<div class="my-color-swatches">
+    <my-color class="brand-yellow">
+        <span class="brand-cmyk">CMYK 15 0 90 0</span>
+    </my-color>
     <my-color class="brand-yellow-light"></my-color>
 </div>
 ```
@@ -39,7 +45,7 @@ The colors listed here can be used as an SCSS Variable.
 ## Red
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-red"></my-color>
     <my-color class="brand-red-1"></my-color>
 </div>
@@ -48,7 +54,7 @@ The colors listed here can be used as an SCSS Variable.
 ## Black
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-black"></my-color>
 </div>
 ```
@@ -56,7 +62,7 @@ The colors listed here can be used as an SCSS Variable.
 ## White
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-white"></my-color>
     <my-color class="brand-white-1"></my-color>
 </div>
@@ -65,7 +71,7 @@ The colors listed here can be used as an SCSS Variable.
 ## Sand
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-sand"></my-color>
 </div>
 ```
@@ -73,7 +79,7 @@ The colors listed here can be used as an SCSS Variable.
 ## Gray
 
 ```html
-<div>
+<div class="my-color-swatches">
     <my-color class="brand-gray"></my-color>
     <my-color class="brand-gray-1"></my-color>
     <my-color class="brand-gray-2"></my-color>
