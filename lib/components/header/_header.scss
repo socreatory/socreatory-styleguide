@@ -26,9 +26,8 @@
 
 .header__heading {
   margin-bottom: $spacer-sm;
-  margin-left: -0.2rem;
   font-size: $font-size-xxl;
-  line-height: 1.2;
+  line-height: $heading-line-height;
 }
 
 .header__heading--centered {

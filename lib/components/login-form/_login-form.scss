@@ -1,0 +1,26 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25rem;
+}
+
+.login-form__image {
+  width: 10rem;
+}
+
+.login-form__headline {
+  font-size: $font-size-xl;
+  line-height: $heading-line-height;
+}
+
+.login-form__text {
+  margin-bottom: $spacer-base;
+  font-size: $font-size-md;
+}
+
+.login-form__text--success {
+  padding: $spacer-sm $spacer-md;
+  font-size: $font-size-md;
+  border: 4px solid $brand-secondary;
+}

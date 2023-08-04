@@ -1,8 +1,6 @@
 title: Breadcrumb
 description: Breadcrumb
 
-Breadcrumb
-
 ```html
 <div class="breadcrumb">
     <ul class="breadcrumb__list">
@@ -11,5 +9,4 @@ Breadcrumb
         <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Megageiles Training</li>
     </ul>
 </div>
-
 ```

@@ -73,7 +73,7 @@
 .feature__title {
   margin: $spacer-xs 0 0 0;
   font-size: $font-size-xl;
-  line-height: 1.2;
+  line-height: $heading-line-height;
 }
 
 .feature__text {

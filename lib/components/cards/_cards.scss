@@ -116,7 +116,7 @@
 .card__title {
   margin-bottom: $spacer-xxs;
   font-size: $font-size-xl;
-  line-height: 1;
+  line-height: $heading-line-height-sm;
   hyphens: auto;
 }
 
@@ -126,7 +126,7 @@
 
 .card__label {
   font-size: $font-size-md;
-  line-height: 1;
+  line-height: $heading-line-height-sm;
 }
 
 .card__price {
@@ -134,7 +134,7 @@
 
   margin-left: auto;
   font-size: $font-size-base;
-  line-height: 1;
+  line-height: $heading-line-height-sm;
 }
 
 // Module Kit
@@ -249,7 +249,7 @@
 .modulekitcard__subtitle {
   margin: $spacer-xxs 0 $spacer-xs 0;
   font-size: $font-size-md;
-  line-height: 1.35;
+  line-height: $paragraph-line-height-sm;
   color: $brand-text;
 }
 

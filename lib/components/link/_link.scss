@@ -1,1 +1,24 @@
-// Your code goes here
+p a {
+  color: $brand-text;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+
+  transition: all 0.1s ease-out;
+}
+
+p a:hover {
+  text-decoration-color: $brand-primary-light;
+}
+
+.heading__link {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+.heading__link:hover {
+  text-decoration: underline;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+}

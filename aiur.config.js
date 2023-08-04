@@ -24,6 +24,7 @@ module.exports = {
         home_test: "./lib/views/home/home_test.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
         login_page: "./lib/views/login_page/login_page.md",
+        login_page_success: "./lib/views/login_page_success/login_page_success.md",
         module_kit: "./lib/views/module_kit/module_kit.md",
         news: "./lib/views/news/news.md",
         news_detail: "./lib/views/news/news_detail.md",
@@ -51,6 +52,8 @@ module.exports = {
       children: {
         navbar: "./lib/components/navbar/navbar.md",
         footer: "./lib/components/footer/footer.md",
+        form: "./lib/components/form/form.md",
+        login_form: "./lib/components/login-form/login-form.md",
       },
     },
 

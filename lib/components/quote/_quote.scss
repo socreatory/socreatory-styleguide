@@ -13,7 +13,7 @@
 
   margin: 0 0 $spacer-base 0;
   font-size: $font-size-xl;
-  line-height: 1.4;
+  line-height: $paragraph-line-height;
   hyphens: auto;
 }
 
@@ -28,5 +28,5 @@
   @extend %monospace-font-regular;
 
   font-size: $font-size-md;
-  line-height: 1.4;
+  line-height: $paragraph-line-height;
 }

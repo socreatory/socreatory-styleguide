@@ -9,7 +9,7 @@
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: $font-size-xl;
-  line-height: 1;
+  line-height: $heading-line-height-sm;
 
   &::before {
     content: "★★★★★";

@@ -1,5 +1,5 @@
-title: Login Page
-description: This view shows how the login page should look like
+title: Login Page Successs
+description: This view shows how the login page should look like after sending the magic link
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@ description: This view shows how the login page should look like
     </nav>
 </scroll-nav>
 
-<main class="login-page">
+<main>
     <header class="header header-color--normal">
         <div class="container__fullwidth">
             <div class="breadcrumb">
@@ -36,17 +36,7 @@ description: This view shows how the login page should look like
         <div class="login-form">
             <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
             <h1 class="login-form__headline">Socreatory Login</h1>
-            <p class="login-form__text">Logge dich mit deiner E-Mail-Adresse ein.</p>
-
-            <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
-                <input type="hidden" name="authenticity_token" value="tPXLZMbkf1Q1ql0crdbMM0sWjRiEePOcopgX4Uxd4ekO70UI7Mn4dAhL_lp7Uwx_VXPL_g9j7iOWZQcuRmqrlw" />
-                <div class="form__field field__size--full form__field--is-invalid">
-                    <label class="form__label form__label--required" for="contact_form_name">Email <abbr title="Pflichtfeld">*</abbr></label>
-                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
-                    <small class="form__text">Dieses Feld darf nicht leer sein</small>
-                </div>
-                <input type="submit" name="commit" value="Fortfahren mit Email" class="btn btn-type--primary btn-size--full" data-disable-with="Contact form erstellen" />
-            </form>
+            <p class="login-form__text--success">Vielen Dank, wir haben eine email an deine Adresse geschickt.</p>
         </div>
     </div>
 </main>

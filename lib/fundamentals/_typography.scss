@@ -36,6 +36,7 @@ $font-family-sans-serif:
   cantarell,
   "Helvetica Neue",
   sans-serif;
+
 $font-family-sans-serif-bold:
   "SofiaPro-Bold",
   -apple-system,
@@ -47,6 +48,7 @@ $font-family-sans-serif-bold:
   cantarell,
   "Helvetica Neue",
   sans-serif;
+
 $font-family-sans-serif-italic:
   "SofiaPro-RegularItalic",
   -apple-system,
@@ -58,73 +60,54 @@ $font-family-sans-serif-italic:
   cantarell,
   "Helvetica Neue",
   sans-serif;
+
 $font-family-monospace: "Hack-Regular", "Monaco", "Courier New", monospace;
-
-$font-size-xxs: 0.5rem; // Add your own value here
-$font-size-xs: 0.75rem; // Add your own value here
-$font-size-sm: 0.815rem; // Add your own value here
-$font-size-md: clamp(0.875rem, 2vw, 1rem); // Add your own value here 1
-$font-size-base: clamp(1rem, 2vw, 1.25rem); // Add your own value here
-$font-size-lg: clamp(1.25rem, 2.25vw, 1.5rem); // Add your own value here
-$font-size-xl: clamp(1.75rem, 5vw, 2rem); /// Add your own value here
-$font-size-xxl: clamp(2rem, 5vw, 2.85rem); /// Add your own value here
-$font-size-xxxl: clamp(2.85rem, 6vw, 3.7rem); /// Add your own value here
-
-// $font-size-xs: 0.75rem; // Add your own value here
-// $font-size-sm: 0.815rem; // Add your own value here
-// $font-size-md: 1rem; // Add your own value here 0.875
-// $font-size-base: clamp(1rem, 2vw, 1.25rem); // Add your own value here
-// $font-size-lg: 1.5rem; // Add your own value here
-// $font-size-xl: 2rem; /// Add your own value here
-// $font-size-xxl: 2.85rem; /// Add your own value here
-
-$paragraph-line-height: 1.5; // Add your own value here
 
 //
 // Font-family helpers
 //
-
-%body-font-regular {
-  font-family: $font-family-sans-serif; // Add your own value here
-  font-weight: normal;
-  font-style: normal;
-}
-
-%body-font-italic {
-  font-family: $font-family-sans-serif; // Add your own value here
-  font-weight: normal;
-  font-style: italic;
-}
-
-%body-font-bold {
-  font-family: $font-family-sans-serif-bold; // Add your own value here
-  font-weight: normal;
-  font-style: normal;
-}
-
-%body-font-bold-italic {
-  font-family: $font-family-sans-serif; // Add your own value here
-  font-weight: normal;
-  font-style: italic;
-}
-
+%body-font-regular,
 %heading-font-regular {
-  font-family: $font-family-sans-serif; // Add your own value here
+  font-family: $font-family-sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
+%body-font-italic,
+%body-font-bold-italic {
+  font-family: $font-family-sans-serif-italic;
+  font-weight: normal;
+  font-style: normal;
+}
+
+%body-font-bold,
 %heading-font-bold {
-  font-family: $font-family-sans-serif-bold; // Add your own value here
+  font-family: $font-family-sans-serif-bold;
   font-weight: normal;
   font-style: normal;
 }
 
 %monospace-font-regular {
-  font-family: $font-family-monospace; // Add your own value here
+  font-family: $font-family-monospace;
   font-weight: normal;
   font-style: normal;
 }
+
+$font-size-xxs: 0.5rem;
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.815rem;
+$font-size-md: clamp(0.875rem, 2vw, 1rem);
+$font-size-base: clamp(1rem, 2vw, 1.25rem);
+$font-size-lg: clamp(1.25rem, 2.25vw, 1.5rem);
+$font-size-xl: clamp(1.75rem, 5vw, 2rem);
+$font-size-xxl: clamp(2rem, 5vw, 2.85rem);
+$font-size-xxxl: clamp(2.85rem, 6vw, 3.7rem);
+
+$paragraph-line-height: 1.5;
+$paragraph-line-height-sm: 1.3;
+
+$heading-line-height: 1.2;
+$heading-line-height-sm: 1.07;
 
 strong,
 b {
@@ -137,32 +120,6 @@ em {
 
 .text__small {
   font-size: $font-size-md;
-}
-
-// Links
-p a {
-  color: $brand-text;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
-
-  transition: all 0.1s ease-out;
-}
-
-p a:hover {
-  text-decoration-color: $brand-primary-light;
-}
-
-.heading__link {
-  color: $brand-text;
-  text-decoration: none;
-}
-
-.heading__link:hover {
-  text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
 }
 
 .paragraph__h2 {
