@@ -21,7 +21,7 @@ description: This view shows how the login page should look like after sending t
     </nav>
 </scroll-nav>
 
-<main>
+<main class="login-page">
     <header class="header header-color--normal">
         <div class="container__fullwidth">
             <div class="breadcrumb">
