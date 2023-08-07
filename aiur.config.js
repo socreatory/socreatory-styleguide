@@ -60,10 +60,11 @@ module.exports = {
     molecules: {
       file: "./lib/documentation/MOLECULES.md",
       children: {
-        breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
-        rating: "./lib/components/rating/rating.md",
-        quote: "./lib/components/quote/quote.md",
         announcement: "./lib/components/announcement/announcement.md",
+        breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
+        offer_box: "./lib/components/offer-box/offer-box.md",
+        quote: "./lib/components/quote/quote.md",
+        rating: "./lib/components/rating/rating.md",
       },
     },
 

@@ -1,0 +1,42 @@
+.offer-box {
+  position: relative;
+
+  margin-bottom: $spacer-lg;
+  padding: $spacer-md;
+
+  background-color: $brand-secondary-light;
+  border: 10px solid $brand-secondary;
+}
+
+.offer-box__title {
+  @extend %heading-font-bold;
+
+  font-size: $font-size-lg;
+}
+
+.offer-box__text {
+  @extend %body-font-regular;
+
+  font-size: $font-size-base;
+  color: $brand-text;
+}
+
+.offer-box__link {
+  @extend %body-font-bold;
+
+  font-size: $font-size-md;
+  color: $brand-text;
+  text-decoration-color: $brand-secondary;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

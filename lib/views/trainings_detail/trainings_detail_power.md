@@ -51,7 +51,12 @@ description: Show Training Detail Powerworkshop
     <div class="container__fullwidth">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
-                <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
+                <div class="offer-box">
+                    <h2 class="offer-box__title">Achtung Achtung! Wichtige Ankündigung!</h2>
+                    <p class="offer-box__text">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p>
+                    <a href="#" class="offer-box__link">Link zum Angebot</a>
+                </div>
+                <a href="#" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
                     <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
@@ -147,9 +152,9 @@ description: Show Training Detail Powerworkshop
             <div id="booking" class="layout-main-with-sidebar__sidebar">
                 <div>
                     <h3>Online-Termine</h3>
-                    <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list"></pretix-widget>
+                    <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list,"></pretix-widget>
                     <h3>Vor-Ort-Termine</h3>
-<pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list"></pretix-widget>
+<pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
                 <p><a href="https://pretix.eu/socreatory/" class="link-attribution" target="_blank">Event-Ticketing-Software von pretix</a></p>
                 </div>
 

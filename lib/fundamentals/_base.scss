@@ -31,11 +31,6 @@ main {
   flex: 1;
 }
 
-p {
-  font-size: $font-size-base;
-  hyphens: auto;
-}
-
 .sr-only {
   @include visually-hidden();
 }
