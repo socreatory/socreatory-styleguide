@@ -1,28 +1,66 @@
 .offer-box {
+  @include for-tablet-portrait-up {
+    padding: $spacer-md;
+  }
+
+  @include for-desktop-up {
+    grid-template-areas:
+      "title title"
+      "image text"
+      "link link";
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    gap: $spacer-md;
+  }
+
   position: relative;
 
+  display: grid;
+  grid-template-areas:
+    "image"
+    "title"
+    "text"
+    "link";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: $spacer-sm;
+
   margin-bottom: $spacer-lg;
-  padding: $spacer-md;
+  padding: $spacer-sm;
 
   background-color: $brand-secondary-light;
   border: 10px solid $brand-secondary;
+
+  > * {
+    margin-bottom: 0;
+  }
+}
+
+.offer-box__image {
+  grid-area: image;
+  justify-self: center;
+  max-width: 8rem;
 }
 
 .offer-box__title {
   @extend %heading-font-bold;
 
+  grid-area: title;
   font-size: $font-size-lg;
 }
 
 .offer-box__text {
   @extend %body-font-regular;
 
+  grid-area: text;
   font-size: $font-size-base;
   color: $brand-text;
 }
 
 .offer-box__link {
   @extend %body-font-bold;
+
+  grid-area: link;
 
   font-size: $font-size-md;
   color: $brand-text;
