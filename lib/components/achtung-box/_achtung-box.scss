@@ -1,7 +1,7 @@
 // Achtung-Box
 .achtung-box {
   padding: $spacer-base $spacer-base $spacer-sm $spacer-base;
-  border: solid 0.25rem $brand-secondary;
+  border: solid $spacer-3xs $brand-secondary;
 }
 
 .achtung-box--narrow {

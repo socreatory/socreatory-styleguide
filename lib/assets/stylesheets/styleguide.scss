@@ -11,7 +11,7 @@
       display: block;
       grid-area: name;
 
-      padding: 0.25rem;
+      padding: $spacer-3xs;
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
@@ -24,12 +24,12 @@
       display: block;
       grid-area: hex;
 
-      padding: 0 0.25rem 0.25rem;
+      padding: 0 $spacer-3xs $spacer-3xs;
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
       background-color: #f2f2f2;
-      border-radius: 0 0 0.25rem 0.25rem;
+      border-radius: 0 0 $spacer-3xs $spacer-3xs;
     }
   }
 }
@@ -42,7 +42,7 @@ my-color {
   min-width: 8rem;
   margin: 0.125rem;
 
-  border-radius: 0.25rem 0.25rem 0.5rem 0.5rem;
+  border-radius: $spacer-3xs $spacer-3xs 0.5rem 0.5rem;
 
   @each $blue, $hex in $brand-blues {
     @include color-definition($blue, $hex);
@@ -79,7 +79,7 @@ my-color {
 
 .brand-cmyk {
   grid-area: cmyk;
-  padding: 0 0.25rem 0.25rem;
+  padding: 0 $spacer-3xs $spacer-3xs;
   text-align: center;
   /* stylelint-disable-next-line color-no-hex */
   background-color: #f2f2f2;
@@ -104,12 +104,12 @@ dl.spacers {
 }
 
 :root {
-  --spacer-xxs: #{$spacer-xxs};
+  --spacer-xxs: #{$spacer-2xs};
   --spacer-xs: #{$spacer-xs};
   --spacer-sm: #{$spacer-sm};
   --spacer-md: #{$spacer-md};
   --spacer-base: #{$spacer-base};
   --spacer-lg: #{$spacer-lg};
   --spacer-xl: #{$spacer-xl};
-  --spacer-xxl: #{$spacer-xxl};
+  --spacer-xxl: #{$spacer-2xl};
 }

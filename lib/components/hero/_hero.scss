@@ -1,7 +1,7 @@
 // Hero
 .hero {
   @include for-tablet-landscape-up {
-    margin-bottom: $spacer-xxl * 1.25;
+    margin-bottom: $spacer-2xl * 1.25;
     padding: $spacer-lg + 4rem 0 $spacer-lg 0;
   }
 
@@ -52,5 +52,5 @@
 }
 
 .hero__aside {
-  margin-top: $spacer-xxl;
+  margin-top: $spacer-2xl;
 }

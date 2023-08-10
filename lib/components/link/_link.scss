@@ -1,8 +1,8 @@
 p a {
   color: $brand-text;
   text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
 
   transition: all 0.1s ease-out;
 }
@@ -19,6 +19,6 @@ p a:hover {
 .heading__link:hover {
   text-decoration: underline;
   text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
 }

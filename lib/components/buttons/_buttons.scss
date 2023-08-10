@@ -10,9 +10,9 @@
   text-transform: uppercase;
   text-wrap: none;
   letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
+  word-spacing: $spacer-3xs;
 
-  border: 0.25rem solid $brand-text;
+  border: $spacer-3xs solid $brand-text;
 
   transition: all 0.15s ease-out;
 }
@@ -42,7 +42,7 @@
   cursor: pointer;
   color: $brand-background;
   background-color: $brand-gray;
-  border: 0.25rem solid $brand-gray;
+  border: $spacer-3xs solid $brand-gray;
 }
 
 .btn-type--secondary {
@@ -54,7 +54,7 @@
 .btn-type--secondary:focus {
   cursor: pointer;
   background-color: $brand-background-dark;
-  border: 0.25rem solid $brand-text;
+  border: $spacer-3xs solid $brand-text;
 }
 
 .btn-state--disabled {
@@ -62,7 +62,7 @@
   border-color: $brand-gray-1;
   // color: $brand-background;
   // background-color: $brand-background-dark;
-  // border: 0.25rem solid $brand-background-dark;
+  // border: $spacer-3xs solid $brand-background-dark;
 }
 
 .btn-anchor {

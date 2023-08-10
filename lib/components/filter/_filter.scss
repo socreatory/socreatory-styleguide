@@ -48,13 +48,13 @@
   color: $brand-text;
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-underline-offset: $spacer-2xs;
 }
 
 .filters__item--active {
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-underline-offset: $spacer-2xs;
 }
 
 .filters__item--inactive,

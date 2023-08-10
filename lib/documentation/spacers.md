@@ -9,7 +9,7 @@ You can use the spacing variables in your SCSS as in the following example:
 
 ```html
 <dl class="spacers">
-    <dt>$spacer-xxs</dt>
+    <dt>$spacer-2xs</dt>
     <dd style="height: var(--spacer-xxs);"></dd>
     <dt>$spacer-xs</dt>
     <dd style="height: var(--spacer-xs);"></dd>
@@ -23,7 +23,7 @@ You can use the spacing variables in your SCSS as in the following example:
     <dd style="height: var(--spacer-lg);"></dd>
     <dt>$spacer-xl</dt>
     <dd style="height: var(--spacer-xl);"></dd>
-    <dt>$spacer-xxl</dt>
+    <dt>$spacer-2xl</dt>
     <dd style="height: var(--spacer-xxl);"></dd>
 </dl>
 ```

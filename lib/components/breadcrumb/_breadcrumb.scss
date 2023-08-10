@@ -23,7 +23,7 @@
 }
 
 .breadcrumb__arrow {
-  padding: 0 $spacer-xs 0 $spacer-xxs;
+  padding: 0 $spacer-xs 0 $spacer-2xs;
   color: $brand-text;
 }
 
@@ -37,6 +37,6 @@
 .breadcrumb__item a:hover {
   color: $brand-text;
   text-decoration: underline;
-  text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-2xs;
 }

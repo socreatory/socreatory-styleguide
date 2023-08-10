@@ -1,12 +1,13 @@
-$spacer-xxs: 0.444rem; // Add your own value here
-$spacer-xs: 0.667rem; // Add your own value here
-$spacer-sm: 1rem; // Add your own value here
-$spacer-md: 1.5rem; // Add your own value here
-$spacer-base: 2.25rem; // Add your own value here
-$spacer-lg: 3rem; // Add your own value here
-$spacer-xl: 3.875rem; // Add your own value here
-$spacer-xxl: 8rem; // Add your own value here
-$spacer-xxxl: 16rem; // Add your own value here
+$spacer-3xs: 0.25rem;
+$spacer-2xs: 0.444rem;
+$spacer-xs: 0.667rem;
+$spacer-sm: 1rem;
+$spacer-md: 1.5rem;
+$spacer-base: 2.25rem;
+$spacer-lg: 3rem;
+$spacer-xl: 3.875rem;
+$spacer-2xl: 8rem;
+$spacer-3xl: 16rem;
 
 .gap-1 {
   gap: $spacer-sm;
@@ -38,5 +39,5 @@ $spacer-xxxl: 16rem; // Add your own value here
 }
 
 .spacer__xxl {
-  margin-bottom: $spacer-xxl;
+  margin-bottom: $spacer-2xl;
 }

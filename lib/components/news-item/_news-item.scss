@@ -35,8 +35,8 @@
   color: $brand-text;
   text-decoration: underline;
   text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.3rem;
-  text-underline-offset: 0.3rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
 }
 
 .news__newsheadline a:hover {

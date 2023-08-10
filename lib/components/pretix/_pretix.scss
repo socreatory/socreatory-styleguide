@@ -75,8 +75,8 @@
   color: $brand-text;
   text-decoration: underline;
   text-decoration-color: $brand-primary;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
   letter-spacing: 0;
 
   background-color: $brand-background;
@@ -129,7 +129,7 @@
 
 .pretix-widget-item-title-and-description {
   display: block;
-  margin-bottom: -$spacer-xxs * 0.7;
+  margin-bottom: -$spacer-2xs * 0.7;
   padding: 0;
 }
 
@@ -183,7 +183,7 @@
 // Preis
 .pretix-widget-pricebox {
   width: 100%;
-  margin-top: $spacer-xxs;
+  margin-top: $spacer-2xs;
   font-size: $font-size-lg;
   line-height: $heading-line-height-sm;
 }
@@ -211,7 +211,7 @@
 
 // MwSt.
 .pretix-widget .pretix-widget-pricebox-tax {
-  margin-top: $spacer-xxs;
+  margin-top: $spacer-2xs;
   font-size: $font-size-sm;
 }
 
@@ -291,7 +291,7 @@
 input[type="checkbox"] {
   width: 2.5rem;
   height: 2.5rem;
-  margin-top: $spacer-xxs;
+  margin-top: $spacer-2xs;
 
   vertical-align: middle;
 
@@ -331,10 +331,10 @@ input[type="checkbox"]:checked {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
+  word-spacing: $spacer-3xs;
 
   background-color: $brand-text;
-  border: 0.25rem solid $brand-text;
+  border: $spacer-3xs solid $brand-text;
   border-radius: 0;
 
   transition: all 0.15s ease-out;
@@ -348,7 +348,7 @@ input[type="checkbox"]:checked {
   margin-left: 0;
 
   background-color: $brand-gray;
-  border: 0.25rem solid $brand-gray;
+  border: $spacer-3xs solid $brand-gray;
 }
 
 // Loading Icon
@@ -366,13 +366,13 @@ input[type="checkbox"]:checked {
   font-size: $font-size-xs;
   text-decoration: none;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-underline-offset: $spacer-2xs;
 }
 
 .link-attribution:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-underline-offset: $spacer-2xs;
 }
 
 .pretix-widget .pretix-widget-attribution {
@@ -393,8 +393,8 @@ input[type="checkbox"]:checked {
 
 // .pretix-widget-attribution a:hover {
 //   text-decoration: underline;
-//   text-underline-offset: 0.25rem;
-//   text-decoration-thickness: 0.25rem;
+//   text-underline-offset: $spacer-3xs;
+//   text-decoration-thickness: $spacer-3xs;
 //   text-decoration-color: $brand-primary;
 // }
 
@@ -420,7 +420,7 @@ input[type="checkbox"]:checked {
   color: $brand-text;
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.45rem;
+  text-underline-offset: $spacer-2xs;
 }
 
 // Overlay
@@ -450,10 +450,10 @@ input[type="checkbox"]:checked {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: 0.25rem;
+  word-spacing: $spacer-3xs;
 
   background-color: $brand-text;
-  border: 0.25rem solid $brand-text;
+  border: $spacer-3xs solid $brand-text;
   border-radius: 0;
 
   transition: all 0.15s ease-out;
@@ -469,7 +469,7 @@ input[type="checkbox"]:checked {
 .pretix-widget-alert-box input[type="button"]:focus {
   color: $brand-background;
   background-color: $brand-gray;
-  border: 0.25rem solid $brand-gray;
+  border: $spacer-3xs solid $brand-gray;
 }
 
 // Warenkorb Hinweis
@@ -480,7 +480,7 @@ input[type="checkbox"]:checked {
   color: $brand-text;
 
   background-color: $brand-background;
-  border: solid 0.25rem $brand-secondary;
+  border: solid $spacer-3xs $brand-secondary;
 }
 
 .pretix-widget .pretix-widget-resume-button {

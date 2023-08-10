@@ -55,8 +55,8 @@
 
 .card__link:hover {
   text-decoration: underline;
-  text-decoration-thickness: 0.25rem;
-  text-underline-offset: 0.25rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
 }
 
 .card__link::after {
@@ -114,7 +114,7 @@
 }
 
 .card__title {
-  margin-bottom: $spacer-xxs;
+  margin-bottom: $spacer-2xs;
   font-size: $font-size-xl;
   line-height: $heading-line-height-sm;
   hyphens: auto;
@@ -247,7 +247,7 @@
 }
 
 .modulekitcard__subtitle {
-  margin: $spacer-xxs 0 $spacer-xs 0;
+  margin: $spacer-2xs 0 $spacer-xs 0;
   font-size: $font-size-md;
   line-height: $paragraph-line-height-sm;
   color: $brand-text;
@@ -321,8 +321,8 @@
 .modulekitkombis__pill {
   display: block;
 
-  margin: $spacer-xxs * 0.7 $spacer-xxs * 0.4;
-  padding: $spacer-xxs * 0.5 $spacer-xs;
+  margin: $spacer-2xs * 0.7 $spacer-2xs * 0.4;
+  padding: $spacer-2xs * 0.5 $spacer-xs;
 
   font-size: $font-size-md;
   color: $brand-text;

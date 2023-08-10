@@ -44,8 +44,8 @@
 .footer__link a:hover {
   color: $brand-text;
   text-decoration: underline;
-  text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.25rem;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
 }
 
 .footer__company,
