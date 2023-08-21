@@ -13,8 +13,6 @@
     gap: $spacer-md;
   }
 
-  position: relative;
-
   display: grid;
   grid-template-areas:
     "image"
@@ -37,6 +35,10 @@
 }
 
 .offer-box__image {
+  @include for-desktop-up {
+    justify-self: left;
+  }
+
   grid-area: image;
   justify-self: center;
   max-width: 8rem;
