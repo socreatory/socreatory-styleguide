@@ -52,7 +52,6 @@ description: Description
     </div>
     <div class="container__fullwidth">
         <section class="section section--home">
-            <!-- <h2 class="section__title--small"><span aria-hidden>-- </span>Beliebte Schulungen</h2> -->
             <div class="filters">
                 <ul class="filters__list">
                     <li class="filters__item filters__item--active"><a href="#" class="filters__link">Alle</a></li>

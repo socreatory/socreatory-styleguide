@@ -137,6 +137,39 @@
   line-height: $heading-line-height-sm;
 }
 
+.card__details {
+  margin-top: $spacer-sm;
+
+  > * + * {
+    margin-top: $spacer-xs;
+  }
+}
+
+.card__details__date {
+  @extend %heading-font-bold;
+
+  margin-bottom: 0;
+  font-size: $font-size-base;
+}
+
+.card__details__link {
+  @extend %body-font-regular;
+
+  display: block;
+
+  font-size: $font-size-base;
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-2xs;
+}
+
+.card__details__caption {
+  margin-bottom: 0;
+  font-size: $font-size-md;
+}
+
 // Module Kit
 .modulekitheader {
   @include for-tablet-landscape-up {
