@@ -62,6 +62,7 @@ module.exports = {
       file: "./lib/documentation/MOLECULES.md",
       children: {
         announcement: "./lib/components/announcement/announcement.md",
+        cards: "./lib/components/cards/cards.md",
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
         offer_box: "./lib/components/offer-box/offer-box.md",
         quote: "./lib/components/quote/quote.md",

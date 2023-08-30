@@ -15,10 +15,8 @@
   align-content: stretch;
 
   padding-left: 0;
-}
 
-.cards--withappendix {
-  align-items: start;
+  list-style-type: none;
 }
 
 .cards--centered {
@@ -26,10 +24,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
-}
-
-.cardwrapper {
-  list-style-type: none;
 }
 
 .card {
@@ -163,6 +157,12 @@
   text-decoration-color: $brand-primary;
   text-decoration-thickness: $spacer-3xs;
   text-underline-offset: $spacer-2xs;
+
+  transition: all 0.1s ease-out;
+
+  &:hover {
+    text-decoration-color: $brand-primary-light;
+  }
 }
 
 .card__details__caption {
