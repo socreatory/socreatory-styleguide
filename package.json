@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "aiur": "^0.10.0",
-    "eslint": "^8.45.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-prettier": "^5.0.0-alpha.1",
     "faucet-pipeline-js": "^3.0.0",
     "faucet-pipeline-sass": "^1.4.0",
