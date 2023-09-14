@@ -25,11 +25,12 @@ description: This view shows how the login page should look like after sending t
             </div>
             <label class="navbar__burger" for="navbar__checkbox"></label>
         </div>
-        <div class="announcement">
-            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-        </div>
     </nav>
 </scroll-nav>
+
+<div class="announcement">
+    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+</div>
 
 <main class="login-page">
     <header class="header header-color--normal">
