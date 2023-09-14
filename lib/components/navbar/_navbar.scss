@@ -1,4 +1,12 @@
-scroll-nav {
+scroll-nav + * {
+  margin-top: 8rem;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  transition: all 300ms ease;
   background-color: $brand-secondary;
 }
 
@@ -126,8 +134,12 @@ scroll-nav {
   background-color: $brand-text;
 }
 
-.scrollUp {
+.scroll-down {
   transform: translateY(calc(-100%));
+}
+
+.scroll-up {
+  transform: translateY(0);
 }
 
 .navigation-meta {
