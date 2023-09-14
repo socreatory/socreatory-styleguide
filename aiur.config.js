@@ -20,6 +20,8 @@ module.exports = {
       children: {
         about_us: "./lib/views/about/about.md",
         contact: "./lib/views/contact/contact.md",
+        customer_trainings_page: "./lib/views/customer-pages/customer-trainings-page/customer-trainings-page.md",
+        customer_setting_page: "./lib/views/customer-pages/customer-settings-page/customer-settings-page.md",
         home: "./lib/views/home/home.md",
         home_test: "./lib/views/home/home_test.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
@@ -30,8 +32,6 @@ module.exports = {
         news_detail: "./lib/views/news/news_detail.md",
         prices: "./lib/views/prices/prices.md",
         privacy: "./lib/views/privacy/privacy.md",
-        profile_index_page: "./lib/views/profile-pages/profile-index-page/profile-index-page.md",
-        profile_setting_page: "./lib/views/profile-pages/profile-settings-page/profile-settings-page.md",
         site_notice: "./lib/views/site_notice/site_notice.md",
         trainings_overview: "./lib/views/trainings_overview/trainings_overview.md",
         trainings_detail: "./lib/views/trainings_detail/trainings_detail.md",

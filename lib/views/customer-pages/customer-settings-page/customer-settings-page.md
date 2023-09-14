@@ -1,5 +1,7 @@
-title: Profile Setting Page
-description: Profile Setting Page
+title: Customer Setting Page
+description: Customer Setting Page
+
+# Achtung! Ist noch WIP!!!
 
 ```html
 <scroll-nav>
@@ -31,7 +33,7 @@ description: Profile Setting Page
     <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
 </div>
 
-<main class="profile-setting-page">
+<main class="customer-setting-page">
     <header class="header header-color--normal">
         <div class="container__fullwidth">
             <div class="breadcrumb">

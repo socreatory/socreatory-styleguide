@@ -1,5 +1,5 @@
-title: Profile Index Page
-description: Profile Index Page
+title: Customer Trainings Page
+description: Customer Trainings Page
 
 ```html
 <scroll-nav>
@@ -34,7 +34,7 @@ description: Profile Index Page
     </nav>
 </scroll-nav>
 
-<main class="profile-index-page">
+<main>
     <header class="header header-color--normal">
         <div class="container__fullwidth">
             <div class="breadcrumb">
