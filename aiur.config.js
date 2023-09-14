@@ -31,6 +31,7 @@ module.exports = {
         prices: "./lib/views/prices/prices.md",
         privacy: "./lib/views/privacy/privacy.md",
         profile_index_page: "./lib/views/profile-pages/profile-index-page/profile-index-page.md",
+        profile_setting_page: "./lib/views/profile-pages/profile-settings-page/profile-settings-page.md",
         site_notice: "./lib/views/site_notice/site_notice.md",
         trainings_overview: "./lib/views/trainings_overview/trainings_overview.md",
         trainings_detail: "./lib/views/trainings_detail/trainings_detail.md",

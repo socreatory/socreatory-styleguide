@@ -2,14 +2,11 @@ scroll-nav + * {
   margin-top: 8rem;
 }
 
-.navbar-wrapper-wrapper {
+.navbar-wrapper {
   position: fixed;
   z-index: 5;
   width: 100%;
   transition: all 300ms ease;
-}
-
-.navbar-wrapper {
   background-color: $brand-secondary;
 }
 
