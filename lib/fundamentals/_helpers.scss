@@ -1,24 +1,3 @@
-// Icon helper
-@mixin icon-before($svg-path, $color, $height: 1rem) {
-  &::before {
-    content: " ";
-
-    display: block;
-
-    width: $height;
-    height: $height;
-
-    color: $color;
-
-    background-color: currentcolor;
-
-    mask-image: asset-url($svg-path);
-    mask-position: center;
-    mask-repeat: no-repeat;
-    mask-size: contain;
-  }
-}
-
 // Only visible to screen reader
 @mixin visually-hidden() {
   /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
@@ -29,7 +8,11 @@
 
   width: 1px;
   height: 1px;
+  padding: 0;
 
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  border: 0;
 }

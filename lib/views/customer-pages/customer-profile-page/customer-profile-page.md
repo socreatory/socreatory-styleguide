@@ -1,6 +1,10 @@
 title: Customer Profile Page
 description: Customer Profile Page
 
+## Alerts
+
+See [All available alert styles](https://styleguide.socreatory.com/molecules/alert)
+
 ```html
 <scroll-nav>
     <nav class="navbar-wrapper">
@@ -50,6 +54,13 @@ description: Customer Profile Page
 
 <main class="customer-profile-page">
     <section class="container container--md">
+        <div class="alert alert--info">
+            <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
+            <button class="alert__btn" type="button">
+                <span class="icon--close"></span>
+                <span class="sr-only">Schließen</span>
+            </button>
+        </div>
         <dl>
             <dt>Name</dt>
             <dd>Mareike Müller</dd>

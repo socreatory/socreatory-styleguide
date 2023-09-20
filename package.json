@@ -1,7 +1,7 @@
 {
   "name": "socreatory-styleguide",
   "private": true,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --liveserve 0.0.0.0:4001",
@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@ungap/custom-elements-builtin": "^0.6.3",
-    "innoq-styleguide": "^14.0.0",
     "lodash": "^4.17.20",
     "tabelle": "^0.2.0",
     "uitil": "^2.7.1"

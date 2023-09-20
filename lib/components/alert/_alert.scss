@@ -1,0 +1,42 @@
+.alert {
+  @extend %heading-font-regular;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: $spacer-xs;
+
+  font-size: $font-size-base;
+  color: $brand-text;
+
+  &--info {
+    background-color: $brand-primary-light;
+  }
+
+  &--warn {
+    background-color: $brand-tertiary-light;
+  }
+
+  &--error {
+    background-color: $brand-error;
+  }
+}
+
+.alert__text {
+  margin-bottom: 0;
+}
+
+.alert__btn {
+  @extend %base-button;
+
+  color: inherit;
+  background-color: transparent;
+}
+
+@include for-tablet-landscape-up {
+  .alert {
+    padding: $spacer-sm;
+  }
+}

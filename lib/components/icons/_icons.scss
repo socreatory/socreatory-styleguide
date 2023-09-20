@@ -1,5 +1,65 @@
-.icon {
-  &.icon-add {
-    @include icon-before("icons/add.svg", inherit, 1.5rem);
+// Icon helper
+@mixin icon-before($svg-path, $color, $height: 1rem) {
+  &::before {
+    content: " ";
+
+    display: block;
+
+    width: $height;
+    height: $height;
+
+    color: $color;
+
+    background-color: currentcolor;
+
+    mask-image: asset-url($svg-path);
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
   }
+}
+
+.icon--add {
+  @include icon-before("icons/add.svg", 1.5rem);
+}
+
+.icon--close {
+  @include icon-before("icons/close.svg", inherit, 1rem);
+}
+
+//Sizes
+.icon--small {
+  width: $spacer-sm;
+  height: $spacer-sm;
+}
+
+.icon--medium {
+  width: $spacer-lg;
+  height: $spacer-lg;
+}
+
+.icon--big {
+  width: $spacer-xl;
+  height: $spacer-xl;
+}
+
+// Colors
+.icon--brand-primary {
+  background: $brand-primary;
+}
+
+.icon--brand-secondary {
+  background: $brand-secondary;
+}
+
+.icon--brand-white {
+  background: $brand-white;
+}
+
+.icon--brand-black {
+  background: $brand-black;
+}
+
+.icon-close {
+  mask-image: asset-url("icons/close.svg");
 }

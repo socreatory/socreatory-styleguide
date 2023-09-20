@@ -1,3 +1,27 @@
+%base-button {
+  cursor: pointer;
+  user-select: none;
+
+  position: relative;
+
+  display: inline-block;
+
+  text-decoration: none;
+  white-space: nowrap;
+
+  background: none;
+  border: 0;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
 .btn {
   @extend %body-font-bold;
 

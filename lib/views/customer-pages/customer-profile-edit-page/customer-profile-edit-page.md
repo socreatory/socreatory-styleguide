@@ -1,6 +1,10 @@
 title: Customer Proflie Edit Page
 description: Customer Proflie Edit Page
 
+## Alerts
+
+See [All available alert styles](https://styleguide.socreatory.com/molecules/alert)
+
 ```html
 <scroll-nav>
     <nav class="navbar-wrapper">
@@ -49,7 +53,14 @@ description: Customer Proflie Edit Page
 </header>
 
 <main class="customer-profile-edit-page">
-    <section class="container">
+    <section class="container container--md">
+        <div class="alert alert--info">
+            <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
+            <button class="alert__btn" type="button">
+                <span class="icon--close"></span>
+                <span class="sr-only">Schließen</span>
+            </button>
+        </div>
         <div class="login-form">
             <h1 class="login-form__headline">Profil bearbeiten</h1>
             <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">

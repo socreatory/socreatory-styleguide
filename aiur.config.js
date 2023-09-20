@@ -63,6 +63,7 @@ module.exports = {
     molecules: {
       file: "./lib/documentation/MOLECULES.md",
       children: {
+        alert: "./lib/components/alert/alert.md",
         announcement: "./lib/components/announcement/announcement.md",
         cards: "./lib/components/cards/cards.md",
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
