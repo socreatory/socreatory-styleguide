@@ -25,3 +25,20 @@
 .unordered-list__item::marker {
   content: "—";
 }
+
+dt {
+  @extend %heading-font-bold;
+
+  margin-top: $spacer-xs;
+  font-size: $font-size-base;
+  line-height: $heading-line-height;
+  color: $brand-primary;
+}
+
+dd {
+  @extend %body-font-regular;
+
+  margin: 0;
+  font-size: $font-size-base;
+  line-height: $heading-line-height;
+}

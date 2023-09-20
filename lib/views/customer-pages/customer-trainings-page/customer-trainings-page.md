@@ -9,7 +9,13 @@ description: Customer Trainings Page
                 <a href="#" class="navbar__brand-link">
                     <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
                 </a>
-                <a href="#" class="navigation-login">Login</a>
+            <input type="checkbox" id="profile__checkbox" />
+            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Meine Trainings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <label class="profile-label" for="profile__checkbox">Mein Name</label>
                 <input type="checkbox" id="navbar__checkbox" />
                 <div class="navigation-main">
                     <ul role="list" aria-label="Seitennavigation" class="navbar__items">
@@ -34,17 +40,18 @@ description: Customer Trainings Page
     </nav>
 </scroll-nav>
 
-<main>
-    <header class="header header-color--normal">
-        <div class="container__fullwidth">
-            <div class="breadcrumb">
-                <ul class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="#">Home</a></li>
-                    <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
-                </ul>
-            </div>
+<header class="header header-color--normal">
+    <div class="container__fullwidth">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+            </ul>
         </div>
-    </header>
+    </div>
+</header>
+
+<main>
     <section class="container container--xl">
         <h1 class="header__heading">Deine Trainings</h1>
         <ul class="cards">

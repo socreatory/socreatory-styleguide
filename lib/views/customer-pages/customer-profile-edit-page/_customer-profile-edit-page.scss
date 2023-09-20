@@ -1,0 +1,9 @@
+.customer-profile-edit-page {
+  > * + * {
+    @include for-tablet-landscape-up {
+      margin-top: $spacer-2xl;
+    }
+
+    margin-top: $spacer-xl;
+  }
+}

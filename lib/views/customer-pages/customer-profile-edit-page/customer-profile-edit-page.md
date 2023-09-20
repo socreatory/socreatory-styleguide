@@ -1,15 +1,20 @@
-title: Login Page
-description: This view shows how the login page should look like
+title: Customer Proflie Edit Page
+description: Customer Proflie Edit Page
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             </a>
-            <a href="#" class="navigation-login">Login</a>
+            <input type="checkbox" id="profile__checkbox" />
+            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Meine Trainings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <label class="profile-label" for="profile__checkbox">Mein Name</label>
             <input type="checkbox" id="navbar__checkbox" />
             <div class="navigation-main">
                 <ul role="list" aria-label="Seitennavigation" class="navbar__items">
@@ -37,32 +42,50 @@ description: This view shows how the login page should look like
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil bearbeiten</li>
             </ul>
         </div>
     </div>
 </header>
 
-<main class="login-page">
-    <div class="container">
+<main class="customer-profile-edit-page">
+    <section class="container">
         <div class="login-form">
-            <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
-            <h1 class="login-form__headline">Socreatory Login</h1>
-            <p class="login-form__text">Logge dich mit deiner E-Mail-Adresse ein.</p>
-
+            <h1 class="login-form__headline">Profil bearbeiten</h1>
             <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
-                <input type="hidden" name="authenticity_token" value="tPXLZMbkf1Q1ql0crdbMM0sWjRiEePOcopgX4Uxd4ekO70UI7Mn4dAhL_lp7Uwx_VXPL_g9j7iOWZQcuRmqrlw" />
-                <div class="form__field field__size--full form__field--is-invalid">
-                    <label class="form__label form__label--required" for="contact_form_name">Email <abbr title="Pflichtfeld">*</abbr></label>
+                <input type="hidden" name="authenticity_token" value="" />
+                <div class="form__field field__size--full">
+                    <label class="form__label for="contact_form_name">Email</label>
                     <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
-                    <small class="form__text">Dieses Feld darf nicht leer sein</small>
                 </div>
-                <input type="submit" name="commit" value="Fortfahren mit Email" class="btn btn-type--primary btn-size--full" data-disable-with="Contact form erstellen" />
+                <div class="form__field field__size--full">
+                    <label class="form__label" for="contact_form_name">Firmenname</label>
+                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+                </div>
+                <div class="form__field field__size--full">
+                    <label class="form__label" for="contact_form_name">Vorname</label>
+                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+                </div>
+                <div class="form__field field__size--full">
+                    <label class="form__label" for="contact_form_name">Nachname</label>
+                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+                </div>
+                <div class="button-group">
+                    <input type="submit" name="commit" value="Speichern" class="btn btn-type--primary" data-disable-with="Contact form erstellen" />
+                    <button type="reset" class="btn btn-type--secondary">Abbrechen</button>
+                </div>
             </form>
         </div>
+    </section>
+    <div class="container container--md">
+        <h2 class="login-form__headline">Profil löschen</h2>
+        <p>
+            Du kannst dein Profil bei uns ganz einfach löschen. Natürlich hast du danach keinen Zugriff mehr auf bereits absolvierte Trainings und die dazu gehörigen Zertifikate. Diese kannst du aber
+            weiterhin auch anfordern unter kontakt@socreatory.com
+        </p>
+        <button type="reset" class="btn btn-type--primary">Profil löschen</button>
     </div>
 </main>
-
 <footer class="footer">
     <div class="footer__top">
         <div class="container__fullwidth">

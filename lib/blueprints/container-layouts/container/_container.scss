@@ -15,6 +15,10 @@
   > * + * {
     margin-top: $spacer-base;
   }
+
+  > * {
+    margin-bottom: 0;
+  }
 }
 
 .container--xl {

@@ -1,7 +1,5 @@
-title: Customer Setting Page
-description: Customer Setting Page
-
-# Achtung! Ist noch WIP!!!
+title: Customer Profile Page
+description: Customer Profile Page
 
 ```html
 <scroll-nav>
@@ -10,7 +8,13 @@ description: Customer Setting Page
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             </a>
-            <a href="#" class="navigation-login">Login</a>
+            <input type="checkbox" id="profile__checkbox" />
+            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Meine Trainings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <label class="profile-label" for="profile__checkbox">Mein Name</label>
             <input type="checkbox" id="navbar__checkbox" />
             <div class="navigation-main">
                 <ul role="list" aria-label="Seitennavigation" class="navbar__items">
@@ -33,26 +37,30 @@ description: Customer Setting Page
     <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
 </div>
 
-<main class="customer-setting-page">
-    <header class="header header-color--normal">
-        <div class="container__fullwidth">
-            <div class="breadcrumb">
-                <ul class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="#">Home</a></li>
-                    <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil</li>
-                </ul>
-            </div>
+<header class="header header-color--normal">
+    <div class="container__fullwidth">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil</li>
+            </ul>
         </div>
-    </header>
+    </div>
+</header>
 
+<main class="customer-profile-page">
     <section class="container container--md">
-        <span>mareike.mueller@versicherung.de</span>
-        <a href="#">Profil bearbeiten</a>
-        <p>
-            Du kannst dein Profil bei uns ganz einfach löschen. Natürlich hast du danach keinen Zugriff mehr auf bereits absolvierte Trainings und die dazu gehörigen Zertifikate. Diese kannst du aber
-            weiterhin auch anfordern unter kontakt@socreatory.com
-        </p>
-        <button>Profil löschen</button>
+        <dl>
+            <dt>Name</dt>
+            <dd>Mareike Müller</dd>
+
+            <dt>Firma</dt>
+            <dd>Superfirma</dd>
+
+            <dt>Email</dt>
+            <dd>mareike.mueller@versicherung.de</dd>
+        </dl>
+        <a href="#" class="btn btn-type--primary">Profil bearbeiten</a>
     </section>
 
     <footer class="footer">

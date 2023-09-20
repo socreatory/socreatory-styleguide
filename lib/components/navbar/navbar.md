@@ -45,7 +45,13 @@ description: Navbar
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             </a>
-            <a href="#" class="navigation-login">Login</a>
+            <input type="checkbox" id="profile__checkbox" />
+            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
+                <li><a href="#">Profil verwalten</a></li>
+                <li><a href="#">Meine Trainings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <label class="profile-label" for="profile__checkbox">Profil</label>
             <input type="checkbox" id="navbar__checkbox" />
             <div class="navigation-main">
                 <ul role="list" aria-label="Seitennavigation" class="navbar__items">
@@ -113,7 +119,13 @@ description: Navbar
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             </a>
-            <a href="#" class="navigation-login">Login</a>
+            <input type="checkbox" id="profile__checkbox" />
+            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
+                <li><a href="#">Profil verwalten</a></li>
+                <li><a href="#">Meine Trainings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <label class="profile-label" for="profile__checkbox">Profil</label>
             <input type="checkbox" id="navbar__checkbox" />
             <div class="navigation-main">
                 <ul role="list" aria-label="Seitennavigation" class="navbar__items">
