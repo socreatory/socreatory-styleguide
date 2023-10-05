@@ -1,0 +1,36 @@
+.status {
+  display: inline-block;
+  font-size: $font-size-md;
+  line-height: 1;
+
+  &::before {
+    content: "";
+
+    display: inline-block;
+
+    width: 11px;
+    height: 11px;
+    margin-right: $spacer-3xs;
+
+    background-color: $brand-green;
+    border-radius: 50%;
+  }
+}
+
+.status--green {
+  &::before {
+    background-color: $brand-green;
+  }
+}
+
+.status--red {
+  &::before {
+    background-color: $brand-red;
+  }
+}
+
+.status--yellow {
+  &::before {
+    background-color: $brand-yellow;
+  }
+}

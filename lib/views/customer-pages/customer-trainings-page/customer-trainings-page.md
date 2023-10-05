@@ -31,21 +31,22 @@ description: Customer Trainings Page
                 </div>
                 <label class="navbar__burger" for="navbar__checkbox"></label>
             </div>
-            <div class="announcement">
-                <p class="announcement__text">
-                🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a>
-                </p>
-            </div>
         </div>
     </nav>
 </scroll-nav>
+
+<div class="announcement">
+    <p class="announcement__text">
+    🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a>
+    </p>
+</div>
 
 <header class="header header-color--normal">
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Meine Trainings</li>
             </ul>
         </div>
     </div>

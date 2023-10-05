@@ -45,6 +45,8 @@ Application specific code
 @import "../../components/profile/profile";
 @import "../../components/quote/quote";
 @import "../../components/rating/rating";
+@import "../../components/table/table";
+@import "../../components/status/status";
 @import "../../components/teaser/teaser";
 @import "../../components/text/text";
 
@@ -57,3 +59,4 @@ Application specific code
 // Views
 @import "../../views/login_page/login-page";
 @import "../../views/customer-pages/customer-profile-edit-page/customer-profile-edit-page";
+@import "../../views/trainer_pages/trainer_trainings_overview_page/trainer_trainings_overview_page";

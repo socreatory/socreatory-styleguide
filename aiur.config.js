@@ -40,6 +40,7 @@ module.exports = {
         trainings_detail_power: "./lib/views/trainings_detail/trainings_detail_power.md",
         trainer_overview: "./lib/views/trainer/trainer_overview.md",
         trainer_detail: "./lib/views/trainer/trainer_detail.md",
+        trainer_trainings_overview: "./lib/views/trainer_pages/trainer_trainings_overview_page/trainer_trainings_overview_page.md",
       },
     },
 
@@ -53,10 +54,11 @@ module.exports = {
     organisms: {
       file: "./lib/documentation/ORGANISMS.md",
       children: {
-        navbar: "./lib/components/navbar/navbar.md",
-        footer: "./lib/components/footer/footer.md",
-        form: "./lib/components/form/form.md",
         login_form: "./lib/components/login-form/login-form.md",
+        footer: "./lib/components/footer/footer.md",
+        header: "./lib/components/header/header.md",
+        form: "./lib/components/form/form.md",
+        navbar: "./lib/components/navbar/navbar.md",
       },
     },
 
@@ -65,8 +67,8 @@ module.exports = {
       children: {
         alert: "./lib/components/alert/alert.md",
         announcement: "./lib/components/announcement/announcement.md",
-        cards: "./lib/components/cards/cards.md",
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
+        cards: "./lib/components/cards/cards.md",
         offer_box: "./lib/components/offer-box/offer-box.md",
         quote: "./lib/components/quote/quote.md",
         rating: "./lib/components/rating/rating.md",
@@ -76,11 +78,13 @@ module.exports = {
     atoms: {
       file: "./lib/documentation/ATOMS.md",
       children: {
-        headings: "./lib/components/headings/headings.md",
-        link: "./lib/components/link/link.md",
-        icons: "./lib/components/icons/icons.md",
-        text: "./lib/components/text/text.md",
         buttons: "./lib/components/buttons/buttons.md",
+        headings: "./lib/components/headings/headings.md",
+        icons: "./lib/components/icons/icons.md",
+        link: "./lib/components/link/link.md",
+        status: "./lib/components/status/status.md",
+        table: "./lib/components/table/table.md",
+        text: "./lib/components/text/text.md",
       },
     },
   },

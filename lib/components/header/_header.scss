@@ -1,4 +1,4 @@
-// Header
+//TODO: Refactor
 .header {
   @include for-tablet-landscape-up {
     margin-bottom: $spacer-xl;
@@ -6,26 +6,38 @@
 
   margin-bottom: $spacer-sm;
   padding: $spacer-lg 0 $spacer-lg 0;
+
+  > * + * {
+    /* stylelint-disable-next-line declaration-no-important */
+    margin-top: $spacer-base !important;
+  }
+
+  .container__fullwidth {
+    > * {
+      margin-bottom: 0;
+    }
+    /* stylelint-disable-next-line selector-max-compound-selectors */
+    > * + * {
+      margin-top: $spacer-sm;
+    }
+  }
 }
 
-.header-color--normal {
-  background-color: $brand-background;
-}
+.header--breadcrumb {
+  padding: $spacer-lg 0 $spacer-lg 0;
 
-.header-color--highlighted-1 {
-  background-color: $brand-primary-light;
-}
-
-.header-color--highlighted-2 {
-  background-color: $brand-secondary-light;
-}
-
-.header-color--highlighted-3 {
-  background-color: $brand-tertiary-light;
+  .container__fullwidth {
+    > * {
+      margin-bottom: 0;
+    }
+    /* stylelint-disable-next-line selector-max-compound-selectors */
+    > * + * {
+      margin-top: $spacer-sm;
+    }
+  }
 }
 
 .header__heading {
-  margin-bottom: $spacer-sm;
   font-size: $font-size-xxl;
   line-height: $heading-line-height;
 }
@@ -34,8 +46,8 @@
   text-align: center;
 }
 
-.header__subheading + * {
-  margin-top: $spacer-xl;
+.header__subheading {
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -62,6 +74,8 @@
   grid-template-columns: 1fr;
   gap: $spacer-md;
   align-items: center;
+  /* stylelint-disable-next-line declaration-no-important */
+  margin-top: $spacer-xl !important;
 }
 
 .logogrid__left {
@@ -75,4 +89,20 @@
 .header__logo {
   height: 1.5rem;
   margin-right: $spacer-base * 0.7;
+}
+
+.header-color--normal {
+  background-color: $brand-background;
+}
+
+.header-color--highlighted-1 {
+  background-color: $brand-primary-light;
+}
+
+.header-color--highlighted-2 {
+  background-color: $brand-secondary-light;
+}
+
+.header-color--highlighted-3 {
+  background-color: $brand-tertiary-light;
 }

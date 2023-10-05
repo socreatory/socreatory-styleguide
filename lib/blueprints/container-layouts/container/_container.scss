@@ -21,11 +21,13 @@
   }
 }
 
-.container--xl {
+.container--xl,
+%container--xl {
   max-width: $desktop-xl;
 }
 
-.container--md {
+.container--md,
+%container--md {
   max-width: $tablet-landscape;
 }
 

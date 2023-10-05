@@ -1,0 +1,59 @@
+.table {
+  @include for-breakpoint-phone-down {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+  }
+
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+
+  thead,
+  tfoot {
+    @extend %heading-font-regular;
+
+    font-size: $font-size-sm;
+    line-height: $heading-line-height;
+    color: $brand-text;
+
+    th {
+      padding: 0 $spacer-xs $spacer-xs $spacer-xs;
+      text-align: left;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid $brand-gray-2;
+
+      &:nth-child(odd) {
+        background-color: $brand-white-1;
+      }
+    }
+  }
+
+  td {
+    @extend %heading-font-regular;
+
+    padding: $spacer-xs;
+    font-size: $font-size-md;
+    line-height: $paragraph-line-height;
+    vertical-align: top;
+  }
+}
+
+.table__link {
+  @extend %heading-font-bold;
+
+  color: $brand-text;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $brand-text;
+    text-decoration-thickness: 3px;
+    text-underline-offset: $spacer-3xs;
+  }
+}
