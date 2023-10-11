@@ -41,8 +41,8 @@ description: Customer Trainings Page
     </p>
 </div>
 
-<header class="header header-color--normal">
-    <div class="container__fullwidth">
+<header class="header--breadcrumb header-color--normal">
+    <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
@@ -52,8 +52,9 @@ description: Customer Trainings Page
     </div>
 </header>
 
+
 <main>
-    <section class="container container--xl">
+    <section class="container container--xl container--centered">
         <h1 class="header__heading">Deine Trainings</h1>
         <ul class="cards">
             <li>

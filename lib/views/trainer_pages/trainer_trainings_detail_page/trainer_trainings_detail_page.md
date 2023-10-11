@@ -1,5 +1,5 @@
-title: Trainer:innen Trainings Overview Page
-description: Backend-View for Trainers shows a list of all training a trainer is giving
+title: Trainer:innen Trainings Detail Page
+description: Backend-View for Trainers shows details of a specific training
 
 ```html
 <scroll-nav>
@@ -38,45 +38,47 @@ description: Backend-View for Trainers shows a list of all training a trainer is
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Meine Trainings</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Training</li>
             </ul>
         </div>
-        <h1>Meine Trainings</h1>
+        <h1>TRAINING - 10.-12.1.2030</h1>
+        <p>öffentlich</p>
     </div>
 </header>
 
 <main class="trainer-trainings-overview-page">
+    <h2>Teilnehmer:innen</h2>
     <table class="table">
         <thead>
             <tr>
+                <th>#</th>
                 <th>Name</th>
-                <th>Datum</th>
-                <th>Art</th>
-                <th>Anmeldungen</th>
-                <th>Status</th>
+                <th>Email</th>
+                <th>Datum der Anmeldung</th>
+                <th>Bereits besucht</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><a href="#" class="table__link">TRAINING</a></td>
-                <td>1.1.2030 - 3.1.2030</td>
-                <td>online</td>
-                <td>7</td>
-                <td><span class="status status--green">findet online statt</span></td>
+                <td>1</td>
+                <td>Hans Wurst</td>
+                <td>hans.wurst@example.com</td>
+                <td>1.1.2022</td>
+                <td>TRAINING1, TRAINING2, TRAINING3</td>
             </tr>
             <tr>
-                <td><a href="#" class="table__link">TRAINING</a></td>
-                <td>1.1.2030 - 3.1.2030</td>
-                <td>online</td>
-                <td>0</td>
-                <td><span class="status status--red">abgesagt</span></td>
+                <td>2</td>
+                <td>Hans Wurst</td>
+                <td>hans.wurst@example.com</td>
+                <td>1.1.2022</td>
+                <td>TRAINING</td>
             </tr>
             <tr>
-                <td><a href="#" class="table__link">TRAINING</a></td>
-                <td>1.1.2030 - 3.1.2030</td>
-                <td>online</td>
-                <td>0</td></td>
-                <td><span class="status status--yellow">wartet auf anmeldung</span></td>
+                <td>3</td>
+                <td>Hans Wurst</td>
+                <td>hans.wurst@example.com</td>
+                <td>1.1.2022</td>
+                <td>TRAINING</td>
             </tr>
         </tbody>
     </table>

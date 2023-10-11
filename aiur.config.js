@@ -41,6 +41,7 @@ module.exports = {
         trainer_overview: "./lib/views/trainer/trainer_overview.md",
         trainer_detail: "./lib/views/trainer/trainer_detail.md",
         trainer_trainings_overview: "./lib/views/trainer_pages/trainer_trainings_overview_page/trainer_trainings_overview_page.md",
+        trainer_trainings_detail: "./lib/views/trainer_pages/trainer_trainings_detail_page/trainer_trainings_detail_page.md",
       },
     },
 

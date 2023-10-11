@@ -41,19 +41,19 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
     <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
 </div>
 
-<header class="header header-color--normal">
-    <div class="container__fullwidth">
+<header class="header--breadcrumb header-color--normal">
+    <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Msin Profil</li>
             </ul>
         </div>
     </div>
 </header>
 
 <main class="customer-profile-page">
-    <section class="container container--md">
+    <section class="container container--md container--centered">
         <div class="alert alert--info">
             <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
             <button class="alert__btn" type="button">

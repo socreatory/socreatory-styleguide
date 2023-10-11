@@ -41,8 +41,8 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
     <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
 </div>
 
-<header class="header header-color--normal">
-    <div class="container__fullwidth">
+<header class="header--breadcrumb header-color--normal">
+    <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
@@ -53,7 +53,7 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
 </header>
 
 <main class="customer-profile-edit-page">
-    <section class="container container--md">
+    <section class="container container--md container--centered">
         <div class="alert alert--info">
             <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
             <button class="alert__btn" type="button">
@@ -88,7 +88,7 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
             </form>
         </div>
     </section>
-    <div class="container container--md">
+    <div class="container container--md container--centered">
         <h2 class="login-form__headline">Profil löschen</h2>
         <p>
             Du kannst dein Profil bei uns ganz einfach löschen. Natürlich hast du danach keinen Zugriff mehr auf bereits absolvierte Trainings und die dazu gehörigen Zertifikate. Diese kannst du aber
