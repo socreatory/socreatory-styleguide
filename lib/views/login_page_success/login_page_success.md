@@ -32,18 +32,19 @@ description: This view shows how the login page should look like after sending t
     <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
 </div>
 
-<main class="login-page">
-    <header class="header header-color--normal">
-        <div class="container__fullwidth">
-            <div class="breadcrumb">
-                <ul class="breadcrumb__list">
-                    <li class="breadcrumb__item"><a href="#">Home</a></li>
-                    <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
-                </ul>
-            </div>
+<header class="header header-color--normal">
+    <div class="container__fullwidth">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+            </ul>
         </div>
-    </header>
-    <div class="container">
+    </div>
+</header>
+
+<main class="login-page">
+    <div class="container container--centered">
         <div class="login-form">
             <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
             <h1 class="login-form__headline">Socreatory Login</h1>

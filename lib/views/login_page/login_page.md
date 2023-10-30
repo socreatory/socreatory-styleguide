@@ -44,7 +44,7 @@ description: This view shows how the login page should look like
 </header>
 
 <main class="login-page">
-    <div class="container">
+    <div class="container container--centered">
         <div class="login-form">
             <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
             <h1 class="login-form__headline">Socreatory Login</h1>
