@@ -13,6 +13,8 @@
     gap: $spacer-md;
   }
 
+  position: relative;
+
   display: grid;
   grid-template-areas:
     "image"
