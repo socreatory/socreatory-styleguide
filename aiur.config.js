@@ -58,6 +58,7 @@ module.exports = {
         login_form: "./lib/components/login-form/login-form.md",
         footer: "./lib/components/footer/footer.md",
         header: "./lib/components/header/header.md",
+        hero: "./lib/components/hero/hero.md",
         form: "./lib/components/form/form.md",
         navbar: "./lib/components/navbar/navbar.md",
       },

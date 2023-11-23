@@ -1,6 +1,26 @@
 p {
   font-size: $font-size-base;
   hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.marker-highlight {
+  position: relative;
+
+  &::before {
+    content: " ";
+
+    position: absolute;
+    z-index: -1;
+    top: 65%;
+    left: 0;
+
+    width: 100%;
+    height: 20%;
+
+    background-color: $brand-secondary;
+  }
 }
 
 // Bilder innerhalb von Markdown einfärben

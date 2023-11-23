@@ -33,24 +33,25 @@ description: Homepage
 </div>
 
 <header class="hero">
-    <div class="container__fullwidth">
-        <div class="hero__teaser">
-            <div class="teaser__column">
-                <img class="hero__image" src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="">
-            </div>
-            <div class="teaser__column">
-                <h2 class="section__title--small">Softwarearchitektur — Trainings und Zertifizierung</h2>
-                <h1 class="hero__heading">Lernen von den Besten</h1>
-                <p>Unsere Mission: ein Ausbildungsangebot für Softwarearchitektur, an dem wir selbst gerne teilgenommen hätten. Mit Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung weitergeben können. Mit Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen.</p>
-                <p>Willkommen bei socreatory, der Software Creators Academy, eine Kollaboration von</p>
-                <div class="hero__logos">
-                    <img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg">
-                    <img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg">
-                </div>
-                <div class="hero__aside">
-                    <p class="text__small">Wir sind zertifizierter Partner des iSAQB®</p>
-                </div>
-            </div>
+    <div class="hero_grid-wrapper">
+        <h1 class="hero__heading">Unsere Mission: <span class="marker-highlight">Softwarearchitektur</span> von den Besten lernen!</h1>
+        <p class="hero__text">
+            Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen. Wir sind Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung an euch
+            weitergeben können. Wir sind Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Willkommen bei socreatory, der Software Creator’s Academy.
+        </p>
+        <div class="hero__isaqb__wrapper">
+            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb_logo.svg" /></a>
+            <span class="hero__logos__caption">akkreditierter Partner</span>
+        </div>
+        <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
+    </div>
+
+    <div class="hero_grid-wrapper">
+        <img class="hero__image" src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="" />
+        <div class="hero__logos">
+            <span class="hero__logos__caption"> Eine Kooperation von</span>
+            <a href="#"><img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg" /></a>
+            <a href="#"><img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg" /></a>
         </div>
     </div>
 </header>

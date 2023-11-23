@@ -24,69 +24,58 @@
 
 .btn {
   @extend %body-font-bold;
+  @extend %base-button;
 
-  padding: 1rem 1.5rem;
+  width: auto;
+  padding: $spacer-sm $spacer-md;
 
   font-size: $font-size-sm;
   color: $brand-text;
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
   text-wrap: none;
   letter-spacing: 0.12rem;
   word-spacing: $spacer-3xs;
 
-  border: $spacer-3xs solid $brand-text;
-
   transition: all 0.15s ease-out;
-}
-
-.btn-size--full {
-  display: block;
-  width: 100%;
-}
-
-.btn-size--fit {
-  @include for-tablet-landscape-up {
-    display: inline-block;
-    width: auto;
-  }
-
-  display: block;
-  width: 100%;
 }
 
 .btn-type--primary {
   color: $brand-background;
   background-color: $brand-text;
-}
 
-.btn-type--primary:hover,
-.btn-type--primary:focus {
-  cursor: pointer;
-  color: $brand-background;
-  background-color: $brand-gray;
-  border: $spacer-3xs solid $brand-gray;
+  &:hover,
+  &:focus {
+    color: $brand-text;
+    background-color: $brand-primary-light;
+  }
 }
 
 .btn-type--secondary {
   color: $brand-text;
   background-color: transparent;
+  border: $spacer-3xs solid $brand-text;
+
+  &:hover,
+  &:focus {
+    background-color: $brand-secondary-light;
+  }
 }
 
-.btn-type--secondary:hover,
-.btn-type--secondary:focus {
-  cursor: pointer;
-  background-color: $brand-background-dark;
-  border: $spacer-3xs solid $brand-text;
+.btn--cta {
+  color: $brand-text;
+  background-color: $brand-primary;
+
+  &:hover,
+  &:focus {
+    color: $brand-background;
+    background-color: $brand-text;
+  }
 }
 
 .btn-state--disabled {
   background-color: $brand-gray-1;
   border-color: $brand-gray-1;
-  // color: $brand-background;
-  // background-color: $brand-background-dark;
-  // border: $spacer-3xs solid $brand-background-dark;
 }
 
 .btn-anchor {
@@ -97,11 +86,35 @@
   margin: $spacer-md 0 $spacer-base 0;
 }
 
+// Button sizes
+.btn--lg {
+  padding: $spacer-sm $spacer-base;
+  font-size: $font-size-md;
+}
+
 .button-group {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 
+  width: 100%;
+}
+
+// TODO Remove
+.btn-size--full {
+  //TODO Obsolete class
+  display: block;
+  width: 100%;
+}
+
+.btn-size--fit {
+  //TODO Obsolete Class
+  @include for-tablet-landscape-up {
+    display: inline-block;
+    width: auto;
+  }
+
+  display: block;
   width: 100%;
 }

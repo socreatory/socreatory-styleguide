@@ -15,7 +15,8 @@ h3 {
   font-size: $font-size-xl;
 }
 
-.section__title--small {
+.section__title--small,
+%section__title--small {
   @extend %monospace-font-regular;
 
   margin-bottom: $spacer-md;

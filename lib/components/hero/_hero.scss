@@ -1,56 +1,98 @@
-// Hero
 .hero {
   @include for-tablet-landscape-up {
-    margin-bottom: $spacer-2xl * 1.25;
-    padding: $spacer-lg + 4rem 0 $spacer-lg 0;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacer-xl;
+    padding: $spacer-xl $spacer-base $spacer-xl $spacer-base;
   }
 
-  margin-bottom: $spacer-xl;
-  padding: $spacer-lg 0 $spacer-lg 0;
-  background-color: $brand-primary-light;
+  display: grid;
+  gap: $spacer-md;
+
+  width: 100%;
+  max-width: $desktop-xl;
+  margin: 0 auto;
+  padding: $spacer-lg $spacer-xs $spacer-lg $spacer-xs;
 }
 
-.hero__teaser {
+.hero_grid-wrapper {
   @include for-tablet-landscape-up {
-    flex-direction: row-reverse;
+    align-items: flex-start;
   }
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  .btn {
+    margin-top: $spacer-md;
+  }
+}
+
+.hero__heading {
+  @include for-tablet-portrait-up {
+    font-size: $font-size-xxxl;
+  }
+
+  @include for-breakpoint-phone-up {
+    font-size: $font-size-xxl;
+  }
+
+  margin-bottom: 0; // TODO
+  font-size: $font-size-xl;
+  line-height: $heading-line-height-sm;
+}
+
+.hero__text {
+  margin-top: $spacer-md;
+  margin-bottom: 0;
 }
 
 .hero__image {
   @include for-tablet-landscape-up {
-    margin-top: $spacer-lg;
+    display: block;
+    align-self: flex-start;
+    width: 70%;
   }
 
-  display: block;
-  max-width: 90%;
-  margin: 0 auto $spacer-lg auto;
-}
-
-.hero__heading {
-  margin-bottom: $spacer-md;
-  margin-left: -0.24rem;
-  font-size: $font-size-xxxl;
-  line-height: $heading-line-height-sm;
+  display: none;
 }
 
 .hero__logos {
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-md;
+  }
+
   display: flex;
+  flex-wrap: wrap;
+  gap: $spacer-sm $spacer-md;
+  align-items: flex-end;
+}
+
+.hero__logos__caption {
+  line-height: 1;
 }
 
 .hero__logo {
-  height: 2.5rem;
-  margin-right: $spacer-base;
-}
+  @include for-tablet-landscape-up {
+    height: 2.5rem;
+  }
 
-.hero__logo--small {
+  display: block;
   height: 2rem;
-  // margin-top: -0.6rem;
 }
 
-.hero__aside {
-  margin-top: $spacer-2xl;
+.hero__isaqb {
+  @include for-tablet-landscape-up {
+    height: 4rem;
+  }
+
+  display: inline-block;
+  height: 3rem;
+  margin-top: $spacer-sm;
+}
+
+.hero__isaqb__wrapper {
+  display: flex;
+  gap: $spacer-xs;
+  align-items: center;
 }
