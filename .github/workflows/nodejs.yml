@@ -56,6 +56,8 @@ jobs:
         run: npm install
       - name: Build with aiur
         run: npm run aiur
+      - name: Add robots.txt
+        run: cp lib/robots.txt dist/robots.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
