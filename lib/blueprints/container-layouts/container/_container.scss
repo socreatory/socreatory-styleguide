@@ -1,6 +1,7 @@
 .container,
 %container {
   @include for-tablet-landscape-up {
+    align-items: baseline;
     padding: 0 $spacer-base;
   }
 
@@ -34,6 +35,41 @@
   align-items: center;
 }
 
+// Vertical Spacing
+.container-vertical-spacing-2xl,
+%container-vertical-spacing-2xl {
+  @include for-tablet-landscape-up {
+    padding-top: $spacer-2xl;
+    padding-bottom: $spacer-2xl;
+  }
+
+  padding-top: $spacer-xl;
+  padding-bottom: $spacer-xl;
+}
+
+.container-vertical-spacing-xl,
+%container-vertical-spacing-xl {
+  @include for-tablet-landscape-up {
+    padding-top: $spacer-xl;
+    padding-bottom: $spacer-xl;
+  }
+
+  padding-top: $spacer-lg;
+  padding-bottom: $spacer-lg;
+}
+
+.container-vertical-spacing-lg,
+%container-vertical-spacing-lg {
+  @include for-tablet-landscape-up {
+    padding-top: $spacer-lg;
+    padding-bottom: $spacer-lg;
+  }
+
+  padding-top: $spacer-base;
+  padding-bottom: $spacer-base;
+}
+
+// Deprecated Class TODO Replace everywhere
 .container__fullwidth {
   @include for-tablet-landscape-up {
     padding: 0 $spacer-base;
