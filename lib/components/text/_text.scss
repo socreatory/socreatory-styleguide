@@ -7,17 +7,18 @@ p {
 
 .marker-highlight {
   position: relative;
+  display: inline-block;
 
   &::before {
     content: " ";
 
     position: absolute;
     z-index: -1;
-    top: 65%;
+    top: 70%;
     left: 0;
 
     width: 100%;
-    height: 20%;
+    height: 27%;
 
     background-color: $brand-secondary;
   }
