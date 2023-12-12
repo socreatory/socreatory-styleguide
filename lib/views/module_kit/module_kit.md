@@ -301,14 +301,10 @@ description: Description
 
         <section class="section section--home">
             <div class="teaser teaser--reverse">
-                <!-- <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
-                </div> -->
                 <div class="">
                     <h2 class="section__title--normal">Prüfungsvorbereitung Meetup</h2>
                     <p class="teaser__text">Du möchtest keine FAQs wälzen, sondern würdest Deine Fragen zum iSAQB<sup>®</sup> Advanced Level und zur Prüfung lieber direkt stellen? Nutze das regelmäßig stattfindende Meetup unseres Trainers Gerrit Beine, um Dich über die iSAQB<sup>®</sup> Advanced Level Prüfungsvorbereitung zu informieren. Hier geht es darum, wie die Prüfung formal abläuft, wie Du Dich darauf vorbereiten kannst und worauf Du achten solltest. Deine Teilnahme ist kostenfrei, es gelten die in der Meetup-Gruppe beschriebenen Regeln.
                     <p><a href="https://www.meetup.com/de-DE/isaqb-cpsa-advanced-examination-cpsa-a/events/284842444/?isFirstPublish=true" target="_blank">Jetzt zum nächsten Termin anmelden</a></p>
-                    <!-- <a href="#" class="btn btn-type--primary btn-size--fit">Alle Trainings</a> -->
                 </div>
             </div>
         </section>
