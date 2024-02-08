@@ -1,0 +1,89 @@
+.timetable-simple {
+  @extend %list-unstyled;
+
+  > * + * {
+    margin-top: $spacer-sm;
+  }
+
+  /* stylelint-disable-next-line order/order */
+  @include for-tablet-landscape-up {
+    > * + * {
+      margin-top: $spacer-md;
+    }
+  }
+}
+
+.timetable-simple__item {
+  display: grid;
+  grid-column-gap: $spacer-md;
+  grid-template-areas:
+    "date timeslot"
+    "x text";
+  grid-template-columns: auto 2fr; //magic numbers
+  grid-template-rows: auto;
+}
+
+.timetable-simple__item__date {
+  @extend %heading-font-bold;
+
+  grid-area: date;
+  font-size: $font-size-base;
+}
+
+.timetable-simple__item__timeslot {
+  grid-area: timeslot;
+  font-size: $font-size-base;
+}
+
+.timetable-simple__item__text {
+  grid-area: text;
+}
+
+.resources-list {
+  @extend %list-unstyled;
+
+  padding-left: 1rem;
+
+  > * + * {
+    margin-top: $spacer-sm;
+  }
+
+  /* stylelint-disable-next-line order/order */
+  @include for-tablet-landscape-up {
+    > * + * {
+      margin-top: $spacer-md;
+    }
+  }
+}
+
+.resources-list__item {
+  @extend %heading-font-regular;
+
+  padding-left: 1rem;
+  font-size: $font-size-base;
+
+  &::marker {
+    content: "—";
+    color: $brand-secondary;
+  }
+
+  a {
+    color: $brand-text;
+    text-decoration-color: $brand-primary;
+    text-decoration-thickness: 0.3rem; //magic number
+    text-underline-offset: $spacer-xs;
+
+    transition: all 0.1s ease-out;
+  }
+
+  a:hover {
+    text-decoration-color: $brand-primary-light;
+  }
+}
+
+.tile-grid-md {
+  display: grid;
+  grid-gap: $spacer-base;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+  width: 100%;
+}

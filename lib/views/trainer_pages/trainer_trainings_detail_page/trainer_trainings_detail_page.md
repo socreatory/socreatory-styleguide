@@ -82,6 +82,45 @@ description: Backend-View for Trainers shows details of a specific training
             </tr>
         </tbody>
     </table>
+    <section class="tile-grid-md">
+        <div>
+            <h2>Zeitplan</h2>
+            <ul class="timetable-simple">
+                <li class="timetable-simple__item">
+                    <span class="timetable-simple__item__date">DI 13.9.</span>
+                    <span class="timetable-simple__item__timeslot">9 — 13 Uhr und 14 — 17:30 Uhr</span>
+                    <span class="timetable-simple__item__text">Lorem ipsoem</span>
+                </li>
+                <li class="timetable-simple__item">
+                    <span class="timetable-simple__item__date">DI 13.9.</span>
+                    <span class="timetable-simple__item__timeslot">9 — 13 Uhr und 14 — 17:30 Uhr</span>
+                    <span class="timetable-simple__item__text">Lorem ipsoem</span>
+                </li>
+                <li class="timetable-simple__item">
+                    <span class="timetable-simple__item__date">DI 13.9.</span>
+                    <span class="timetable-simple__item__timeslot">9 — 13 Uhr und 14 — 17:30 Uhr</span>
+                    <span class="timetable-simple__item__text">Lorem ipsoem</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Wichtige Links</h2>
+            <ul class="resources-list">
+                <li class="resources-list__item"><a href="#">Lorem ipsoem</a></li>
+                <li class="resources-list__item"><a href="#">Lorem ipsoem</a></li>
+                <li class="resources-list__item"><a href="#">Lorem ipsoem</a></li>
+                <li class="resources-list__item"><a href="#">Lorem ipsoem</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Hinweise</h2>
+            <p>Du wirst nach dem Training ein Teilnahmezertifikat bekommen. Voraussetzung dafür ist, dass Du min. 75% der Zeit anwesend warst. Du kannst es dann auf dieser Seite herunterladen.</p>
+        </div>
+        <div>
+            <h2>Zoom Link</h2>
+            <p>Wichter toller Zoom Link</p>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <div class="footer__top">
