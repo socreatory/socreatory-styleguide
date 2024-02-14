@@ -9,7 +9,7 @@ description: Footer
         <div class="footer__top__content">
             <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             <h2>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen.</h2>
-            <form class="form" action="https://seu2.cleverreach.com/f/348862-374205/wcs/" method="post" target="_blank">
+            <form class="form" action="#" method="post" target="_blank">
                 <div class="form__field">
                     <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
                     <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
