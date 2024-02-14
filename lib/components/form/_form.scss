@@ -3,12 +3,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  > * + * {
+    margin-top: $spacer-sm;
+  }
 }
 
 .form__field {
   display: inline-block;
   width: 100%;
-  margin-bottom: $spacer-md;
+
+  > * + * {
+    margin-top: $spacer-2xs;
+  }
 }
 
 .form__field--is-invalid {

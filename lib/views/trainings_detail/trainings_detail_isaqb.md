@@ -249,34 +249,87 @@ description: Show Training Detail iSAQB
     </div>
 </aside>
 
-<footer class="footer">
-    <div class="footer__top">
-        <div class="container__fullwidth">
-            <div class="footer__content">
-                <img class ="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
-                <div class="footer__linkarea">
-                    <ul class="footer__links">
-                        <li class="footer__link"><a href="#">Trainings</a></li>
-                        <li class="footer__link"><a href="#">Trainer:innen</a></li>
-                        <li class="footer__link"><a href="#">Modulbaukasten</a></li>
-                        <li class="footer__link"><a href="#">News</a></li>
-                    </ul>
-                    <ul class="footer__links">
-                        <li class="footer__link"><a href="#">Impressum</a></li>
-                        <li class="footer__link"><a href="#">Datenschutz</a></li>
-                        <li class="footer__link"><a href="#">AGB</a></li>
-                        <li class="footer__link"><a href="#">Kontakt</a></li>
-                    </ul>
+<section class="newsletter-section">
+    <div class="container container--md container-vertical-spacing-2xl">
+        <h2>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen.</h2>
+        <form class="simple_form form newsletter" action="https://seu2.cleverreach.com/f/348862-374205/wcs/" method="post" target="_blank">
+            <div class="form__field string required contact_form_name field__size--full">
+                <label class="form__label string required" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                <input class="form__input string required" type="text" name="1121423" id="cr_form-input--text8475472" />
+            </div>
+            <div class="form__field email required contact_form_email field__size--full">
+                <label class="form__label email required" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
+                <input class="form__input string email required" type="email" name="email" id="text8475487" />
+            </div>
+            <div id="8475490" rel="recaptcha" class="cr_ipe_item ui-sortable musthave">
+                <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+                <br />
+                <div id="recaptcha_v2_widget" class="g-recaptcha" data-theme="light" data-size="normal" data-sitekey="6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD">
+                    <div style="width: 304px; height: 78px;">
+                        <div>
+                            <iframe
+                                title="reCAPTCHA"
+                                width="304"
+                                height="78"
+                                role="presentation"
+                                name="a-nwh5b1sfealh"
+                                frameborder="0"
+                                scrolling="no"
+                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD&amp;co=aHR0cHM6Ly93d3cuc29jcmVhdG9yeS5jb206NDQz&amp;hl=de&amp;v=x5WWoE57Fv0d6ATKsLDIAKnt&amp;theme=light&amp;size=normal&amp;cb=lo75yrtn1di5"
+                            ></iframe>
+                        </div>
+                        <textarea
+                            id="g-recaptcha-response"
+                            name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"
+                        ></textarea>
+                    </div>
+                    <iframe style="display: none;"></iframe>
                 </div>
+                <br />
+                <button type="submit" class="btn btn btn-type--primary btn-size--fit">Anmelden</button>
+                <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer__top">
+        <div class="footer__top__content">
+            <img class ="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo">
+            <h2>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen.</h2>
+            <form class="form" action="https://seu2.cleverreach.com/f/348862-374205/wcs/" method="post" target="_blank">
+                <div class="form__field">
+                    <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                    <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
+                </div>
+                <div class="form__field">
+                    <label class="form__label" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
+                    <input class="form__input" type="email" name="email" id="text8475487" />
+                </div>
+            </form>
+            <div class="footer__linkarea">
+                <ul class="footer__links">
+                    <li class="footer__link"><a href="#">Trainings</a></li>
+                    <li class="footer__link"><a href="#">Trainer:innen</a></li>
+                    <li class="footer__link"><a href="#">Modulbaukasten</a></li>
+                    <li class="footer__link"><a href="#">News</a></li>
+                </ul>
+                <ul class="footer__links">
+                    <li class="footer__link"><a href="#">Impressum</a></li>
+                    <li class="footer__link"><a href="#">Datenschutz</a></li>
+                    <li class="footer__link"><a href="#">AGB</a></li>
+                    <li class="footer__link"><a href="#">Kontakt</a></li>
+                </ul>
             </div>
         </div>
     </div>
     <div class="footer__bottom">
-        <div class="container__fullwidth">
-            <div class="footer__content">
-                <div class="footer__company">socreatory — The Software Creators’ Academy</div>
-                <div class="footer__copyright">©2023</div>
-            </div>
+        <div class="footer__bottom__content">
+            <span class="footer__company">socreatory — The Software Creators’ Academy</span>
+            <span class="footer__copyright">©2023</span>
         </div>
     </div>
 </footer>

@@ -1,41 +1,88 @@
 // Footer
-.footer {
-  padding-top: $spacer-xl;
-}
-
 .footer__top {
-  padding: $spacer-md 0 $spacer-sm 0;
+  @extend %container-vertical-spacing-xl;
+
   background-color: $brand-primary-light;
 }
 
 .footer__bottom {
-  padding-top: $spacer-md;
+  padding: $spacer-md 0;
   background-color: $brand-primary;
 }
 
-.footer__content {
+.footer__top__content {
+  max-width: $desktop-xl;
+  margin: 0 auto;
+  padding: 0 $spacer-xs;
+
+  > * + * {
+    margin-top: $spacer-base;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
+
+  /* stylelint-disable-next-line order/order */
+  @include for-tablet-landscape-up {
+    display: grid;
+    grid-column-gap: $spacer-base;
+    grid-template-areas:
+      "left-1 right"
+      "left-2 right"
+      "left-3 right";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+
+    padding: 0 $spacer-base;
+
+    h2 {
+      grid-area: left-2;
+    }
+
+    form {
+      grid-area: left-3;
+    }
+  }
+}
+
+.footer__bottom__content {
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 $spacer-base;
+  }
+
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: $spacer-md;
+  align-items: center;
+  justify-content: center;
+
+  max-width: $desktop-xl;
+  margin: 0 auto;
+  padding: 0 $spacer-xs;
+}
+
+.footer__logo {
+  grid-area: left-1;
+  height: 3rem;
 }
 
 .footer__linkarea {
   display: flex;
-  justify-content: space-between;
-  width: 15rem;
+  grid-area: right;
+  gap: $spacer-base;
+  justify-self: center;
 }
 
 .footer__links {
   padding-left: 0;
-}
-
-.footer__link {
-  font-size: $font-size-md;
   list-style: none;
 }
 
 .footer__link a {
+  font-size: $font-size-base;
   line-height: 2;
   color: $brand-text;
   text-decoration: none;
@@ -52,12 +99,7 @@
 .footer__copyright {
   @extend %monospace-font-regular;
 
-  padding-bottom: $spacer-md;
+  display: block;
   font-size: $font-size-xs;
-}
-
-.footer__logo {
-  height: 4.25rem;
-  margin-right: $spacer-base;
-  padding-bottom: $spacer-base;
+  color: $brand-text;
 }
