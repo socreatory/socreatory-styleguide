@@ -114,7 +114,7 @@ description: Description
     </div>
 </main>
 
-<footer class="footer">
+<footer>
     <div class="footer__top">
         <div class="container__fullwidth">
             <div class="footer__content">
