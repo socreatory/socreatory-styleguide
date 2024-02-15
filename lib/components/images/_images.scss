@@ -1,0 +1,22 @@
+.customer-logo {
+  display: block;
+  width: 10rem;
+}
+
+.custommer-logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacer-lg;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.customer-logo--large {
+  width: 16rem;
+}
+
+.customer-logo--medium {
+  width: 8rem;
+}
