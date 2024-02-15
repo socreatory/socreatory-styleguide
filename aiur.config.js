@@ -71,6 +71,7 @@ module.exports = {
         announcement: "./lib/components/announcement/announcement.md",
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
         cards: "./lib/components/cards/cards.md",
+        image_tile_square: "./lib/components/image_tile_square/image_tile_square.md",
         offer_box: "./lib/components/offer-box/offer-box.md",
         quote: "./lib/components/quote/quote.md",
         rating: "./lib/components/rating/rating.md",
