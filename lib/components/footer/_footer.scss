@@ -31,10 +31,16 @@
   grid-area: right;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
 
   > * + * {
     margin-top: $spacer-md;
+  }
+
+  /* stylelint-disable-next-line order/order */
+  @include for-tablet-landscape-up {
+    > * + * {
+      margin-top: $spacer-2xl;
+    }
   }
 }
 
