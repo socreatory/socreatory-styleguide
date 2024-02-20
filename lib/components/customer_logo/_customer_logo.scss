@@ -1,0 +1,43 @@
+.custommer-logo-grid {
+  @include for-tablet-landscape-up {
+    row-gap: $spacer-xl;
+    column-gap: $spacer-2xl;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacer-lg;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.customer-logo {
+  @include for-tablet-landscape-up {
+    width: 10rem;
+  }
+
+  display: block;
+  width: 6rem;
+}
+
+.customer-logo--large {
+  @include for-tablet-landscape-up {
+    width: 16rem;
+  }
+
+  width: 12rem;
+}
+
+.customer-logo--tracetronic {
+  @include for-tablet-landscape-up {
+    width: 8rem;
+  }
+}
+
+.customer-logo--zuehlke {
+  @include for-tablet-landscape-up {
+    width: 7rem;
+  }
+}
