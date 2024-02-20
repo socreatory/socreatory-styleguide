@@ -40,7 +40,7 @@ description: Homepage
             weitergeben können. Wir sind Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben. Willkommen bei socreatory, der Software Creator’s Academy.
         </p>
         <div class="hero__isaqb__wrapper">
-            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb_logo.svg" /></a>
+            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
             <span class="hero__logos__caption">akkreditierter Partner</span>
         </div>
         <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
