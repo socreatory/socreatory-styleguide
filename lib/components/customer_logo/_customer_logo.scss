@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+.container .custommer-logo-grid {
+  @include for-tablet-landscape-up {
+    margin-top: $spacer-xl;
+  }
+}
+
 .customer-logo {
   display: block;
 }
