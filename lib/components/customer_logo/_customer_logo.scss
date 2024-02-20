@@ -1,5 +1,5 @@
 .custommer-logo-grid {
-  @include for-tablet-landscape-up {
+  @include for-tablet-portrait-up {
     row-gap: $spacer-xl;
     column-gap: $spacer-2xl;
   }
@@ -14,15 +14,11 @@
 }
 
 .customer-logo {
-  @include for-tablet-landscape-up {
-    width: 10rem;
-  }
-
   display: block;
-  width: 6rem;
 }
 
-.customer-logo--large {
+.customer-logo--provinzial,
+.customer-logo--businessdecision {
   @include for-tablet-landscape-up {
     width: 16rem;
   }
@@ -30,14 +26,34 @@
   width: 12rem;
 }
 
+.customer-logo--ituc {
+  @include for-tablet-landscape-up {
+    width: 9rem;
+  }
+
+  width: 7rem;
+}
+
+.customer-logo--idealo {
+  @include for-tablet-landscape-up {
+    width: 10rem;
+  }
+
+  width: 8rem;
+}
+
 .customer-logo--tracetronic {
   @include for-tablet-landscape-up {
     width: 8rem;
   }
+
+  width: 6rem;
 }
 
 .customer-logo--zuehlke {
   @include for-tablet-landscape-up {
     width: 7rem;
   }
+
+  width: 5rem;
 }

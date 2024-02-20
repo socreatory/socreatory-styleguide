@@ -169,10 +169,10 @@ description: Homepage
         <section class="container container--xl container-vertical-spacing-2xl container--centered">
             <h2 class="section__title--normal">Unsere Kunden</h2>
             <div class="custommer-logo-grid">
-                <a href="#" class="customer-logo customer-logo--large"><img src="/snippet/images/logos/business&decision.svg" alt="Firmenlogo business&decision"></a>
-                <a href="#" class="customer-logo customer-logo--large"><img src="/snippet/images/logos/provinzial.svg" alt="Firmenlogo Provinzial"></a>
-                <a href="#" class="customer-logo"><img src="/snippet/images/logos/ITUC.svg" alt="Firmenlogo ITUC"></a>
-                <a href="#" class="customer-logo"><img src="/snippet/images/logos/idealo.svg" alt="Firmenlogo idealo"></a>
+                <a href="#" class="customer-logo customer-logo--businessdecision"><img src="/snippet/images/logos/business&decision.svg" alt="Firmenlogo business&decision"></a>
+                <a href="#" class="customer-logo customer-logo--provinzial"><img src="/snippet/images/logos/provinzial.svg" alt="Firmenlogo Provinzial"></a>
+                <a href="#" class="customer-logo--ituc"><img src="/snippet/images/logos/ITUC.svg" alt="Firmenlogo ITUC"></a>
+                <a href="#" class="customer-logo--idealo"><img src="/snippet/images/logos/idealo.svg" alt="Firmenlogo idealo"></a>
                 <a href="#" class="customer-logo customer-logo--tracetronic"><img src="/snippet/images/logos/tracetronic.svg" alt="Firmenlogo tracetronic"></a>
                 <a href="#" class="customer-logo customer-logo--zuehlke"><img src="/snippet/images/logos/zuehlke.svg" alt="Firmenlogo Zuehlke"></a>
             </div>
