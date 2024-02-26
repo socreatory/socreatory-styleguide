@@ -1,7 +1,8 @@
 // Komponente Teaser (2spalter auf Home)
 .teaser {
   @include for-tablet-landscape-up {
-    gap: $spacer-lg;
+    row-gap: $spacer-md;
+    column-gap: $spacer-2xl;
   }
 
   display: flex;

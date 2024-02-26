@@ -57,113 +57,132 @@ description: Homepage
 </header>
 
 <main>
+    <div class="stripe stripe--white-1">
+        <section class="container container--xl container-vertical-spacing-xl">
+            <h2 class="section__title--normal">Beliebte Schulungen</h2>
+            <ul class="cards">
+                <li class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">2.100 €</p>
+                        <p class="card__label">iSAQB Modul ARC</p>
+                    </div>
+                </li>
+                <li class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">2.100 €</p>
+                        <p class="card__label">iSAQB Modul AGILA</p>
+                    </div>
+                </li>
+                <li class="card card--isaqb">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Architecture Evaluation</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">2.100 €</p>
+                        <p class="card__label">iSAQB Modul ARCEVAL</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__body card__body--isaqb">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                                <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                                <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer card__footer--isaqb">
+                        <p class="card__price">2.100 €</p>
+                        <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__body">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <p class="card__price">1.400 €</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__body">
+                        <div class="card__body__top">
+                            <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
+                            <p class="card__text">Card Text Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="card__body__bottom">
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <p class="card__price">2.100 €</p>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-type--primary">Alle Schulungen</a>
+        </section>
+    </div>
+
     <section class="container container--xl container-vertical-spacing-2xl">
-        <h2 class="section__title--normal">Beliebte Schulungen</h2>
-        <ul class="cards">
-            <li class="card card--isaqb">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">2.100 €</p>
-                    <p class="card__label">iSAQB Modul ARC</p>
-                </div>
-            </li>
-            <li class="card card--isaqb">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Agile Software-Architektur</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">2.100 €</p>
-                    <p class="card__label">iSAQB Modul AGILA</p>
-                </div>
-            </li>
-            <li class="card card--isaqb">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Architecture Evaluation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">2.100 €</p>
-                    <p class="card__label">iSAQB Modul ARCEVAL</p>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">2.100 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__price">1.400 €</p>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Card Title</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                    </div>
-                </div>
-                <div class="card__footer">
-                    <p class="card__price">2.100 €</p>
-                </div>
-            </li>
-        </ul>
-        <a href="#" class="btn btn-type--primary">Alle Schulungen</a>
+        <div class="teaser">
+            <div class="teaser__column">
+                <h2 class="section__title--normal">Deine Trainer:innen</h2>
+                <p class="teaser__text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                </p>
+                <a href="#" class="btn btn--cta">Alle Trainer:innen ansehen</a>
+            </div>
+            <div class="teaser__column">
+                <a href="#">
+                    <img class="" src="/snippet/images/trainerinnenkachel.webp" />
+                </a>
+            </div>
+        </div>
     </section>
     <div class="stripe stripe--white-1">
         <section class="container container--xl container-vertical-spacing-2xl container--centered">
@@ -211,7 +230,9 @@ description: Homepage
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p class="teaser__text">Die socreatory ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die socreatory.</p>
+                    <p class="teaser__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    </p>
                     <a href="#" class="btn btn--cta">Mehr über uns</a>
                 </div>
             </div>
@@ -257,5 +278,4 @@ description: Homepage
         </div>
     </div>
 </footer>
-
 ```

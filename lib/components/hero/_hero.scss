@@ -2,7 +2,7 @@
   @include for-tablet-landscape-up {
     grid-template-columns: 1.3fr 1fr;
     gap: $spacer-sm;
-    padding: $spacer-2xl $spacer-base 0 $spacer-base;
+    padding: $spacer-2xl $spacer-base $spacer-2xl $spacer-base;
   }
 
   display: grid;
@@ -11,7 +11,7 @@
   width: 100%;
   max-width: $desktop-xl;
   margin: 0 auto;
-  padding: $spacer-lg $spacer-xs 0 $spacer-xs;
+  padding: $spacer-lg $spacer-xs $spacer-lg $spacer-xs;
 }
 
 .hero_grid-wrapper {
