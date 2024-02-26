@@ -227,37 +227,17 @@ description: Homepage
             <div class="teaser">
                 <div class="teaser__column">
                     <img src="/snippet/images/ueber_uns.jpg" alt="">
-        <section class="container container--xl container-vertical-spacing-xl">
-            <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
-            <div class="textcolumns">
-                <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconeinzigartigevielfalt.png">
-                    <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
-                    <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für Softwarearchitektur im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
-                    <p class="teaser__text">Die socreatory ist ein gemeinsames Projekt von INNOQ und embarc. Hauptberuflich sind wir Technologie-Beratungsunternehmen. Doch wenn wir nicht gerade anspruchsvolle Softwarearchitektur und Software-Lösungen für unsere Kundinnen und Kunden entwickeln, geben wir unser Wissen sehr gerne weiter. So sind wir zu zwei der führenden Schulungsanbieter geworden, die jetzt eine gemeinsame Mission haben: die socreatory.</p>
+                    <p class="teaser__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    </p>
                     <a href="#" class="btn btn--cta">Mehr über uns</a>
                 </div>
             </div>
         </section>
     </div>
-
-    <section class="container container--xl container-vertical-spacing-2xl">
-        <div class="teaser">
-            <div class="teaser__column">
-                <img src="/snippet/images/ueber_uns.jpg" alt="">
-            </div>
-            <div class="teaser__column">
-                <h2 class="section__title--normal">Wer sind wir?</h2>
-                <p class="teaser__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                </p>
-                <a href="#" class="btn btn--cta">Mehr über uns</a>
-            </div>
-        </div>
-    </section>
 </main>
 
 <footer>
@@ -298,5 +278,4 @@ description: Homepage
         </div>
     </div>
 </footer>
-
 ```
