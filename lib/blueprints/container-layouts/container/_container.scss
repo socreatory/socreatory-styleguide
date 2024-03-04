@@ -2,7 +2,7 @@
 %container {
   @include for-tablet-landscape-up {
     align-items: baseline;
-    padding: 0 $spacer-base;
+    padding: 0 $spacer-md;
   }
 
   display: flex;
