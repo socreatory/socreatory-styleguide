@@ -181,72 +181,82 @@ description: Show Training Detail iSAQB
         </div>
     </div>
 </main>
-<aside>
-    <div class="container__fullwidth">
-        <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-        <ul class="cards">
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur Lorem ipsum dolor</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
+<aside class="container container--xl container-vertical-spacing-xl">
+    <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
+    <ul class="cards cards--withappendix">
+        <li class="card card--isaqb">
+            <div class="card__body card__body--isaqb">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
+                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                     </div>
                 </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">ab 1.750 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                </div>
-                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen.</p>
-            </li>
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, alias.</p>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">2.100 €</p>
                     </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
+                    <div>
+                        <p class="card__label">iSAQB® Modul ARC</p>
                     </div>
                 </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">ab 1.750 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
-                </div>
-                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
-            </li>
-            <li class="card">
-                <div class="card__body card__body--isaqb">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Cloud Native Infrastruktur</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
+            </div>
+            <div class="card__appendix">
+            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen.</p>
+            </div>
+        </li>
+        <li class="card card--isaqb">
+            <div class="card__body card__body--isaqb">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
+                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit. Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
                     </div>
                 </div>
-                <div class="card__footer card__footer--isaqb">
-                    <p class="card__price">ab 1.750 €</p>
-                    <p class="card__label">iSAQB Modul CLOUDINFRA</p>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">2.100 €</p>
+                    </div>
+                    <div>
+                        <p class="card__label">iSAQB® Modul ARC</p>
+                    </div>
                 </div>
-                <p class="card__appendix">Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
-            </li>
-        </ul>
-    </div>
+            </div>
+            <div class="card__appendix">
+            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
+            </div>
+        </li>
+        <li class="card card--isaqb">
+            <div class="card__body card__body--isaqb">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation lorem Ipsum in vino veritas</a></h3>
+                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                    </div>
+                </div>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">2.100 €</p>
+                    </div>
+                    <div>
+                        <p class="card__label">iSAQB® Modul ARC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card__appendix">
+            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
+            </div>
+        </li>
+    </ul>
 </aside>
 <footer>
     <div class="footer__top">
