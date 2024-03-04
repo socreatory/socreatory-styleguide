@@ -42,3 +42,46 @@ dd {
   font-size: $font-size-base;
   line-height: $heading-line-height;
 }
+
+ul:not([class]) {
+  padding-left: 1rem;
+  font-size: $font-size-base;
+
+  li {
+    padding-left: 1rem;
+
+    &::marker {
+      content: "—";
+      color: $brand-secondary;
+    }
+  }
+}
+
+ol:not([class]) {
+  padding-left: 1.5rem;
+  font-size: $font-size-base;
+
+  li {
+    padding-left: 0.5rem;
+  }
+}
+
+ul:not([class]),
+ol:not([class]) {
+  > * + * {
+    margin-top: $spacer-2xs;
+  }
+
+  a:not([class]) {
+    color: $brand-text;
+    text-decoration-color: $brand-primary;
+    text-decoration-thickness: $spacer-3xs;
+    text-underline-offset: $spacer-3xs;
+
+    transition: all 0.1s ease-out;
+  }
+
+  :hover {
+    text-decoration-color: $brand-primary-light;
+  }
+}

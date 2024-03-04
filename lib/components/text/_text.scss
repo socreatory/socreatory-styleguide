@@ -126,36 +126,6 @@ p {
 
 // Markdown Listen und Text
 .markdown {
-  li::marker {
-    color: $brand-secondary;
-  }
-
-  ul {
-    padding-left: 1rem;
-    font-size: $font-size-base;
-
-    li {
-      padding-left: 1rem;
-
-      &::marker {
-        content: "—";
-      }
-    }
-  }
-
-  ol {
-    padding-left: 1.5rem;
-    font-size: $font-size-base;
-
-    li {
-      padding-left: 0.5rem;
-    }
-  }
-
-  li + li {
-    margin-top: $spacer-xs;
-  }
-
   &.texttable {
     p {
       @extend %body-font-bold;

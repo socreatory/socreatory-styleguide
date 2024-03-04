@@ -70,18 +70,18 @@ description: Show Training Detail
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Agenda</h2>
                     <div class="article markdown">
-                        <ul class="unordered-list">
-                            <li class="unordered-list__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
-                            <li class="unordered-list__item">
+                        <ul>
+                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
+                            <li>
                                 Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
                                 veniam, numquam architecto voluptate.
                             </li>
-                            <li class="unordered-list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
                         </ul>
-                        <ol class="ordered-list">
-                            <li class="ordered-list__item">Lorem, ipsum dolor</li>
-                            <li class="ordered-list__item">Lorem reiciendis error fugit</li>
-                            <li class="ordered-list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <ol>
+                            <li>Lorem, ipsum dolor</li>
+                            <li>Lorem reiciendis error fugit</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                         </ol>
                     </div>
                 </section>
