@@ -102,7 +102,7 @@ description: Description
             <div class="section__1col markdown">
                 <p>Mehr Details findest Du unter <a href="https://isaqb.org">isaqb.org</a></p>
             </div>
-            <a href="#" class="btn btn-type--primary btn-size--fit">Zu den Ausbildungsmodulen</a>
+            <a href="#" class="btn btn-type--primary ">Zu den Ausbildungsmodulen</a>
         </section>
 
         <section class="section section--home">

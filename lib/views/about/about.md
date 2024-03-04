@@ -71,7 +71,7 @@ description: Description
                     Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare
                     Zertifizierungslevel nach den iSAQB-Standards umfasst.
                 </p>
-                <a href="#" class="btn btn-type--primary btn-size--fit">Unsere Trainer:innen</a>
+                <a href="#" class="btn btn-type--primary ">Unsere Trainer:innen</a>
             </div>
         </section>
 

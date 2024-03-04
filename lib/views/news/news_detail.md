@@ -75,7 +75,7 @@ description: Description
                     molestie.
                 </p>
             </div>
-            <a class="btn btn-type--primary btn-size--fit" href="#">Zur News Übersicht</a>
+            <a class="btn btn-type--primary " href="#">Zur News Übersicht</a>
         </section>
     </div>
 </main>

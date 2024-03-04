@@ -89,7 +89,7 @@ description: Description
                     <input class="form__input" type="text" name="contact_form[nickname]" id="contact_form_nickname" />
                 </div>
 
-                <input type="submit" name="commit" value="Nachricht abschicken" class="btn btn-type--primary btn-size--fit" data-disable-with="Contact form erstellen" />
+                <input type="submit" name="commit" value="Nachricht abschicken" class="btn btn-type--primary " data-disable-with="Contact form erstellen" />
             </form>
         </section>
     </div>

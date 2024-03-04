@@ -72,7 +72,7 @@ description: Show Training Detail Powerworkshop
                     <p class="offer-box__text">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p>
                     <a href="#" class="offer-box__link">Link zum Angebot</a>
                 </div>
-                <a href="#" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
+                <a href="#" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
                     <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
@@ -170,14 +170,14 @@ description: Show Training Detail Powerworkshop
                     <h3>Online-Termine</h3>
                     <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list,"></pretix-widget>
                     <h3>Vor-Ort-Termine</h3>
-<pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
-                <p><a href="https://pretix.eu/socreatory/" class="link-attribution" target="_blank">Event-Ticketing-Software von pretix</a></p>
+                    <pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
+                    <p><a href="https://pretix.eu/socreatory/" class="link-attribution" target="_blank">Event-Ticketing-Software von pretix<a><p>
                 </div>
 
                 <div>
                     <h3>Inhouse Schulung</h3>
                     <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
-                    <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
+                    <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
                 </div>
             </div>
         </div>
