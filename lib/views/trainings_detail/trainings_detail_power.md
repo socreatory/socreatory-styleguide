@@ -80,15 +80,15 @@ description: Show Training Detail Powerworkshop
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
                         <img class="article__image" src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
-                        <ul class="unordered-list">
-                            <li class="unordered-list__item">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
-                            <li class="unordered-list__item">Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
-                            <li class="unordered-list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <ul>
+                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
+                            <li>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
+                            <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
                         </ul>
-                        <ol class="ordered-list">
-                            <li class="ordered-list__item">Lorem, ipsum dolor</li>
-                            <li class="ordered-list__item">Lorem reiciendis error fugit</li>
-                            <li class="ordered-list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <ol>
+                            <li>Lorem, ipsum dolor</li>
+                            <li>Lorem reiciendis error fugit</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                         </ol>
                     </div>
                 </section>
