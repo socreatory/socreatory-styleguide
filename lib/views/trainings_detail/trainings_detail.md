@@ -50,7 +50,7 @@ description: Show Training Detail
     <div class="container__fullwidth">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
-                <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
+                <a href="#booking" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
                     <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
@@ -219,7 +219,7 @@ description: Show Training Detail
                 <div class="layout-main-with-sidebar__sidebar">
                     <h3>Inhouse Training</h3>
                     <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
-                    <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
+                    <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
                 </div>
             </div>
         </div>

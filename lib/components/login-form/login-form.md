@@ -14,7 +14,7 @@ description: Login Form
             <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
             <small class="form__text">Dieses Feld darf nicht leer sein</small>
         </div>
-        <input type="submit" name="commit" value="Fortfahren mit Email" class="btn btn-type--primary btn-size--full" data-disable-with="Contact form erstellen" />
+        <input type="submit" name="commit" value="Fortfahren mit Email" class="btn btn-type--primary " data-disable-with="Contact form erstellen" />
     </form>
 </div>
 ```

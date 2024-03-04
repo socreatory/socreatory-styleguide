@@ -318,7 +318,7 @@ description: Description
                     <h2 class="section__title--normal">Das volle Programm</h2>
                     <p class="teaser__text">Mit der Software Creators’ Academy bieten wir Dir alles, was Du brauchst, um erfolgreich Deine iSAQB<sup>®</sup> CPSA Advanced Level Prüfung abzulegen. Zusätzlich bieten wir Dir noch viele andere spannende Trainings. Damit erwirbst Du zwar keine iSAQB<sup>®</sup>-Punkte, aber jede Menge Praxiswissen für den Alltag. Und damit kann man schließlich auch punkten.
                     </p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Alle Trainings</a>
+                    <a href="#" class="btn btn-type--primary ">Alle Trainings</a>
                 </div>
             </div>
         </section>
@@ -331,7 +331,7 @@ description: Description
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Die Ausbildung nach iSAQB<sup>®</sup></h2>
                     <p class="teaser__text">Erfahre mehr über das ISAQB<sup>®</sup>, die verschiedenen Ausbildungsstufen und das Credit Point System. Sollten dann noch Fragen offen sein, helfen Dir wahrscheinlich <a href="https://www.socreatory.com/de/isaqb">unsere FAQs</a> weiter.</p>
-                    <a href="#" class="btn btn-type--primary btn-size--fit">Mehr Infos zum iSAQB<sup>®</sup></a>
+                    <a href="#" class="btn btn-type--primary ">Mehr Infos zum iSAQB<sup>®</sup></a>
                 </div>
             </div>
         </section>

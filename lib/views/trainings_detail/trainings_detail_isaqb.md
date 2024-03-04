@@ -70,7 +70,7 @@ description: Show Training Detail iSAQB
     <div class="container__fullwidth">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
-                <a href="#booking" class="btn btn-type--secondary btn-size--full btn-anchor">Termine und Buchung</a>
+                <a href="#booking" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
                     <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
@@ -175,7 +175,7 @@ description: Show Training Detail iSAQB
                 <div>
                     <h3>Inhouse Schulung</h3>
                     <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
-                    <a href="#" class="btn btn-type--secondary btn-size--full">Jetzt anfragen</a>
+                    <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
                 </div>
             </div>
         </div>
@@ -248,53 +248,6 @@ description: Show Training Detail iSAQB
         </ul>
     </div>
 </aside>
-
-<section class="newsletter-section">
-    <div class="container container--md container-vertical-spacing-2xl">
-        <h2>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen.</h2>
-        <form class="simple_form form newsletter" action="#" method="post" target="_blank">
-            <div class="form__field string required contact_form_name field__size--full">
-                <label class="form__label string required" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
-                <input class="form__input string required" type="text" name="1121423" id="cr_form-input--text8475472" />
-            </div>
-            <div class="form__field email required contact_form_email field__size--full">
-                <label class="form__label email required" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
-                <input class="form__input string email required" type="email" name="email" id="text8475487" />
-            </div>
-            <div id="8475490" rel="recaptcha" class="cr_ipe_item ui-sortable musthave">
-                <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
-                <br />
-                <div id="recaptcha_v2_widget" class="g-recaptcha" data-theme="light" data-size="normal" data-sitekey="6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD">
-                    <div style="width: 304px; height: 78px;">
-                        <div>
-                            <iframe
-                                title="reCAPTCHA"
-                                width="304"
-                                height="78"
-                                role="presentation"
-                                name="a-nwh5b1sfealh"
-                                frameborder="0"
-                                scrolling="no"
-                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfhcd0SAAAAAOBEHmAVEHJeRnrH8T7wPvvNzEPD&amp;co=aHR0cHM6Ly93d3cuc29jcmVhdG9yeS5jb206NDQz&amp;hl=de&amp;v=x5WWoE57Fv0d6ATKsLDIAKnt&amp;theme=light&amp;size=normal&amp;cb=lo75yrtn1di5"
-                            ></iframe>
-                        </div>
-                        <textarea
-                            id="g-recaptcha-response"
-                            name="g-recaptcha-response"
-                            class="g-recaptcha-response"
-                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"
-                        ></textarea>
-                    </div>
-                    <iframe style="display: none;"></iframe>
-                </div>
-                <br />
-                <button type="submit" class="btn btn btn-type--primary btn-size--fit">Anmelden</button>
-                <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
-            </div>
-        </form>
-    </div>
-</section>
 <footer>
     <div class="footer__top">
         <div class="footer__top__content">

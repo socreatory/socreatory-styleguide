@@ -100,21 +100,3 @@
 
   width: 100%;
 }
-
-// TODO Remove
-.btn-size--full {
-  //TODO Obsolete class
-  display: block;
-  width: 100%;
-}
-
-.btn-size--fit {
-  //TODO Obsolete Class
-  @include for-tablet-landscape-up {
-    display: inline-block;
-    width: auto;
-  }
-
-  display: block;
-  width: 100%;
-}
