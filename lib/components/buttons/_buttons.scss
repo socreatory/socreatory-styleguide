@@ -86,6 +86,13 @@
   margin: $spacer-md 0 $spacer-base 0;
 }
 
+.btn--icon {
+  @extend %base-button;
+
+  padding: $spacer-2xs;
+  background-color: $brand-primary;
+}
+
 // Button sizes
 .btn--lg {
   padding: $spacer-sm $spacer-base;
