@@ -14,3 +14,13 @@ Buttons
 ```html
 <a href="#" class="btn btn--cta">CTA Button</a>
 ```
+
+```html
+<div>
+    <a href="#" class="btn--icon">
+        <span class="icon--link--primary"></span>
+        <span class="sr-only">Link</span>
+    </a>
+</div>
+
+```
