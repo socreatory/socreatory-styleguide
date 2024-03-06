@@ -5,6 +5,9 @@ description: Description
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <scroll-nav>
     <nav class="navbar-wrapper">
+        <div class="announcement">
+            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+        </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
@@ -27,10 +30,6 @@ description: Description
         </div>
     </nav>
 </scroll-nav>
-
-<div class="announcement">
-    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-</div>
 
 <header class="header header-color--normal">
     <div class="container__fullwidth">

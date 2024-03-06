@@ -8,17 +8,17 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
 ```html
 <scroll-nav>
     <nav class="navbar-wrapper">
+        <div class="announcement">
+            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link"
+                    href="/de/topics/data-mesh-workshop/">Get
+                    ice cream for free</a></p>
+        </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
-                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
             </a>
-            <input type="checkbox" id="profile__checkbox" />
-            <ul role="list" aria-label="Profilbereich" class="navigation-profile">
-                <li><a href="#">Profil</a></li>
-                <li><a href="#">Meine Trainings</a></li>
-                <li><a href="#">Logout</a></li>
-            </ul>
-            <label class="profile-label" for="profile__checkbox">Mein Name</label>
+            <a href="#" class="navigation-login">Login</a>
             <input type="checkbox" id="navbar__checkbox" />
             <div class="navigation-main">
                 <ul role="list" aria-label="Seitennavigation" class="navbar__items">
@@ -28,18 +28,16 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
                     <li><a href="#" class="navbar__item">iSAQB</a></li>
                 </ul>
                 <ul class="navigation-meta" role="list" aria-label="Verfügbare Sprachen">
-                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" class="navigation-meta__item">DE</a></li>
-                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English" aria-current="true" class="navigation-meta__item">EN</a></li>
+                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln"
+                            class="navigation-meta__item">DE</a></li>
+                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English"
+                            aria-current="true" class="navigation-meta__item">EN</a></li>
                 </ul>
             </div>
             <label class="navbar__burger" for="navbar__checkbox"></label>
         </div>
     </nav>
 </scroll-nav>
-
-<div class="announcement">
-    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-</div>
 
 <header class="header--breadcrumb header-color--normal">
     <div class="container container--xl">
