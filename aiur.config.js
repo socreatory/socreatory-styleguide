@@ -74,6 +74,7 @@ module.exports = {
         offer_box: "./lib/components/offer-box/offer-box.md",
         quote: "./lib/components/quote/quote.md",
         rating: "./lib/components/rating/rating.md",
+        testimonial: "./lib/components/testimonial/testimonial.md",
       },
     },
 
