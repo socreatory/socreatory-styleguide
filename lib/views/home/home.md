@@ -23,6 +23,7 @@ description: Homepage
                     <li><a href="#" class="navbar__item">Trainer:innen</a></li>
                     <li><a href="#" class="navbar__item">Preise</a></li>
                     <li><a href="#" class="navbar__item">iSAQB</a></li>
+                    <li><a href="#" class="navbar__item">Über uns</a></li>
                 </ul>
                 <ul class="navigation-meta" role="list" aria-label="Verfügbare Sprachen">
                     <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln"

@@ -91,11 +91,12 @@ scroll-nav + * {
     gap: $spacer-2xl;
     justify-content: space-between;
     width: auto;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   grid-area: nav;
-  margin-bottom: $spacer-md;
+  padding-bottom: $spacer-md;
+  background-color: $brand-secondary;
 }
 
 .navbar__items {
@@ -136,6 +137,7 @@ scroll-nav + * {
   text-transform: uppercase;
   letter-spacing: 0.12rem;
   word-spacing: $spacer-3xs;
+  white-space: nowrap;
 
   transition: all 0.15s ease-out;
 }
