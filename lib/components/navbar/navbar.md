@@ -8,6 +8,9 @@ description: Navbar
 ```html
 <scroll-nav>
     <nav class="navbar-wrapper">
+        <div class="announcement">
+            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+        </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
@@ -30,10 +33,6 @@ description: Navbar
         </div>
     </nav>
 </scroll-nav>
-
-<div class="announcement">
-    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-</div>
 ```
 
 ### Eingeloggt
@@ -82,6 +81,9 @@ description: Navbar
 ```html height=300 width=400
 <scroll-nav>
     <nav class="navbar-wrapper">
+        <div class="announcement">
+            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+        </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
                 <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
@@ -104,10 +106,6 @@ description: Navbar
         </div>
     </nav>
 </scroll-nav>
-
-<div class="announcement">
-    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-</div>
 ```
 
 ### eingeloggt

@@ -1,16 +1,21 @@
 scroll-nav + * {
   @include for-tablet-landscape-up {
-    margin-top: 5rem;
+    margin-top: 8.25rem;
   }
 
-  margin-top: 4rem;
+  margin-top: 7.75rem;
 }
 
 .navbar-wrapper {
+  @include for-tablet-landscape-up {
+    height: 8.25rem;
+  }
+
   position: fixed;
   z-index: 5;
 
   width: 100%;
+  height: 7.75rem;
 
   background-color: $brand-secondary;
 
