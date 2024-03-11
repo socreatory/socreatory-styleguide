@@ -212,7 +212,7 @@ description: Homepage
         </div>
     </section>
     <div class="stripe stripe--primary-light">
-        <section class="container container--xl container-vertical-spacing-xl">
+        <section class="container container--md container-vertical-spacing-xl">
             <blockquote class="testimonial" itemscope itemtype="http://schema.org/Person">
                 <p class="testimonial__text">
                     Obwohl in der agilen Softwareentwicklung das Big Upfront Design glücklicherweise der Vergangenheit
@@ -256,7 +256,11 @@ description: Homepage
                     alt="Firmenlogo Zuehlke"></a>
         </div>
     </section>
-    <div class="stripe stripe--white-1">
+
+    <img class="eyecatcher" itemprop="photo" src="/snippet/images/eyecatcher.webp" alt="Eyecatcher" />
+
+
+    <div class="Bilder, die zur Illustration dienen. Man sieht Menschen bei einer Schuulung">
         <section class="container container--xl container-vertical-spacing-2xl">
             <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
             <div class="textcolumns">
