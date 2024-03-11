@@ -6,9 +6,11 @@ description: Homepage
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="announcement">
-            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link"
-                    href="/de/topics/data-mesh-workshop/">Get
-                    ice cream for free</a></p>
+            <p class="announcement__text">Diesen Juli haben wir ein Trainings-Spezialevent in der Therme Erding für euch
+                – Mehr dazu
+                <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get
+                    ice cream for free</a>
+            </p>
         </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
