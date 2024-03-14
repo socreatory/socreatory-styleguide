@@ -259,8 +259,7 @@ description: Homepage
 
     <img class="eyecatcher" itemprop="photo" src="/snippet/images/eyecatcher.webp" alt="Eyecatcher" />
 
-
-    <div class="Bilder, die zur Illustration dienen. Man sieht Menschen bei einer Schuulung">
+    <div class="stripe stripe--white-1">
         <section class="container container--xl container-vertical-spacing-2xl">
             <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
             <div class="textcolumns">
