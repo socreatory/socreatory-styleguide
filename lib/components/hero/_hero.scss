@@ -2,7 +2,7 @@
   @include for-tablet-landscape-up {
     grid-template-columns: 1.3fr 1fr;
     gap: $spacer-sm;
-    padding: $spacer-2xl $spacer-base $spacer-2xl $spacer-base;
+    padding: $spacer-xl $spacer-base $spacer-xl $spacer-base;
   }
 
   display: grid;
