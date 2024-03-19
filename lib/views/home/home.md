@@ -256,61 +256,59 @@ description: Homepage
                     alt="Firmenlogo Zuehlke"></a>
         </div>
     </section>
-
     <img class="eyecatcher" itemprop="photo" src="/snippet/images/eyecatcher.webp" alt="Eyecatcher" />
-
+    <section class="container container--xl container-vertical-spacing-2xl">
+        <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
+        <div class="textcolumns">
+            <div class="textcolumn">
+                <img class="textcolumn__img" src="/snippet/images/illustrations/iconeinzigartigevielfalt.png">
+                <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
+                <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für
+                    Softwarearchitektur
+                    im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
+            </div>
+            <div class="textcolumn">
+                <img class="textcolumn__img" src="/snippet/images/illustrations/iconITkompetenz.png">
+                <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
+                <p class="textcolumn__text">Unsere erfahrenen Trainer:innen sind bekannte Größen in der Branche und
+                    haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
+            </div>
+            <div class="textcolumn">
+                <img class="textcolumn__img" src="/snippet/images/illustrations/iconpraxisnah.png">
+                <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
+                <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde
+                    Wissensvermittlung.
+                    Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
+            </div>
+            <div class="textcolumn">
+                <img class="textcolumn__img" src="/snippet/images/illustrations/iconfairprices.png">
+                <h3 class="textcolumn__heading">Faires Preismodell.</h3>
+                <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus deinem Unternehmen zahlst du nur die
+                    Hälfte.
+                    Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
+            </div>
+        </div>
+    </section>
     <div class="stripe stripe--white-1">
         <section class="container container--xl container-vertical-spacing-2xl">
-            <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
-            <div class="textcolumns">
-                <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconeinzigartigevielfalt.png">
-                    <h3 class="textcolumn__heading">Einzigartige Vielfalt.</h3>
-                    <p class="textcolumn__text">Wir bieten dir das umfangreichste Schulungsangebot für
-                        Softwarearchitektur
-                        im deutschsprachigen Raum – akkreditiert und zertifiziert vom iSAQB®.</p>
+            <div class="teaser">
+                <div class="teaser__column">
+                    <img src="/snippet/images/ueber_uns.jpg" alt="">
                 </div>
-                <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconITkompetenz.png">
-                    <h3 class="textcolumn__heading">Geballte IT-Kompetenz.</h3>
-                    <p class="textcolumn__text">Unsere erfahrenen Trainer:innen sind bekannte Größen in der Branche und
-                        haben 80 Prozent der Modul-Lehrpläne inhaltlich wie didaktisch mitentwickelt.</p>
-                </div>
-                <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconpraxisnah.png">
-                    <h3 class="textcolumn__heading">Praxisnahes Lern-Erlebnis.</h3>
-                    <p class="textcolumn__text">Wir legen größten Wert auf interaktive und begeisternde
-                        Wissensvermittlung.
-                        Damit alle Teilnehmenden das Erlernte direkt in die Praxis umsetzen können.</p>
-                </div>
-                <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconfairprices.png">
-                    <h3 class="textcolumn__heading">Faires Preismodell.</h3>
-                    <p class="textcolumn__text">Schon ab zwei Teilnehmenden aus deinem Unternehmen zahlst du nur die
-                        Hälfte.
-                        Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
+                <div class="teaser__column">
+                    <h2 class="section__title--normal">Wer sind wir?</h2>
+                    <p class="teaser__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                        quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    </p>
+                    <a href="#" class="btn btn--cta">Mehr über uns</a>
                 </div>
             </div>
         </section>
     </div>
-    <section class="container container--xl container-vertical-spacing-2xl">
-        <div class="teaser">
-            <div class="teaser__column">
-                <img src="/snippet/images/ueber_uns.jpg" alt="">
-            </div>
-            <div class="teaser__column">
-                <h2 class="section__title--normal">Wer sind wir?</h2>
-                <p class="teaser__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-                    quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                </p>
-                <a href="#" class="btn btn--cta">Mehr über uns</a>
-            </div>
-        </div>
-    </section>
 
 </main>
 
