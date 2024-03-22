@@ -1,7 +1,8 @@
 .status {
   display: inline-block;
-  font-size: $font-size-md;
+  font-size: $font-size-sm;
   line-height: 1;
+  white-space: nowrap;
 
   &::before {
     content: "";

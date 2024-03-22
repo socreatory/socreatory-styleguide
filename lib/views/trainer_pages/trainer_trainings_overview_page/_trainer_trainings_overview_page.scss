@@ -1,4 +1,6 @@
 .trainer-trainings-overview-page {
   @extend %container;
   @extend %container--xl;
+
+  margin-bottom: $spacer-lg;
 }
