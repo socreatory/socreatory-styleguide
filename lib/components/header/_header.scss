@@ -24,17 +24,7 @@
 }
 
 .header--breadcrumb {
-  padding: $spacer-lg 0 $spacer-lg 0;
-
-  .container__fullwidth {
-    > * {
-      margin-bottom: 0;
-    }
-    /* stylelint-disable-next-line selector-max-compound-selectors */
-    > * + * {
-      margin-top: $spacer-sm;
-    }
-  }
+  padding: $spacer-md 0 $spacer-md 0;
 }
 
 .header__heading {

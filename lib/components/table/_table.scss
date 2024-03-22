@@ -1,14 +1,17 @@
-.table {
+.table,
+.table-backend {
   @include for-breakpoint-phone-down {
-    overflow-x: auto;
     display: block;
-    width: 100%;
   }
 
+  overflow-x: auto;
   border-collapse: collapse;
+
   width: 100%;
+
   text-align: left;
-  white-space: nowrap;
+  overflow-wrap: break-word;
+  white-space: normal;
 
   thead,
   tfoot {
@@ -38,8 +41,8 @@
     @extend %heading-font-regular;
 
     padding: $spacer-xs;
-    font-size: $font-size-md;
-    line-height: $paragraph-line-height;
+    font-size: $font-size-sm;
+    line-height: $heading-line-height;
     vertical-align: top;
   }
 }
