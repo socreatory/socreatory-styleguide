@@ -14,6 +14,7 @@
   gap: $spacer-md;
   align-content: stretch;
 
+  width: 100%;
   padding-left: 0;
 
   list-style-type: none;
@@ -27,15 +28,13 @@
 }
 
 .card {
-  @include for-breakpoint-phone-up {
-    grid-auto-rows: auto;
-  }
-
   position: relative;
 
   display: grid;
   grid-row: span 3;
   gap: 0;
+
+  background-color: $brand-white-1;
 
   transition: all 250ms ease;
 }
@@ -72,7 +71,7 @@
   min-height: 14rem;
   padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
 
-  background-color: $brand-secondary-light;
+  border-left: 10px solid $brand-secondary;
 }
 
 .card__body__bottom {
@@ -85,26 +84,11 @@
 }
 
 .card__body--isaqb {
-  background-color: $brand-primary-light;
+  border-left: 10px solid $brand-primary;
 }
 
 .card__body--power {
-  background-color: $brand-tertiary-light;
-}
-
-.card__footer {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: baseline;
-  justify-content: space-between;
-
-  padding: $spacer-sm * 0.8;
-
-  background-color: $brand-secondary-light;
-}
-
-.card__footer--isaqb {
-  background-color: $brand-primary-light;
+  border-left: 10px solid $brand-tertiary;
 }
 
 .card__title {

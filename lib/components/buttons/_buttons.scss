@@ -43,6 +43,7 @@
 .btn-type--primary {
   color: $brand-background;
   background-color: $brand-text;
+  border: $spacer-3xs solid $brand-text;
 
   &:hover,
   &:focus {

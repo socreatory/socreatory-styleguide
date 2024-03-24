@@ -42,8 +42,10 @@ description: Show Training Detail Powerworkshop
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#"> Schulungen</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Agile Softwarearchitektur</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
+                        href="#"> Schulungen</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
+                    Agile Softwarearchitektur</li>
             </ul>
         </div>
         <h1 class="header__heading">Reduzierte Wartungskosten durch evolutionäre Verbesserung</h1>
@@ -67,22 +69,34 @@ description: Show Training Detail Powerworkshop
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
                 <div class="offer-box">
-                    <img class ="offer-box__image" src="/snippet/images/illustrations/megaphonemitlady.png" alt="Lady mit Megaphon">
+                    <img class="offer-box__image" src="/snippet/images/illustrations/megaphonemitlady.png"
+                        alt="Lady mit Megaphon">
                     <h2 class="offer-box__title">Achtung Achtung! Wichtige Ankündigung!</h2>
-                    <p class="offer-box__text">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</p>
+                    <p class="offer-box__text">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Praesentium, atque?</p>
                     <a href="#" class="offer-box__link">Link zum Angebot</a>
                 </div>
                 <a href="#" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
-                    <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und nachhaltig</h3>
+                    <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und
+                        nachhaltig</h3>
                     <div class="article markdown">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
-                        <img class="article__image" src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg" alt="Dr. Lars Hupel im Einsatz"/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia aliquam eos nam.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi non,
+                            <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem illum!</p>
+                        <img class="article__image"
+                            src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg"
+                            alt="Dr. Lars Hupel im Einsatz" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem
+                                ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt et,
+                            porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia
+                            aliquam eos nam.</p>
                         <ul>
-                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, atque?</li>
-                            <li>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam, numquam architecto voluptate.</li>
+                            <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                                atque?</li>
+                            <li>Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod veniam,
+                                numquam architecto voluptate.</li>
                             <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
                         </ul>
                         <ol>
@@ -95,7 +109,8 @@ description: Show Training Detail Powerworkshop
 
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Teilnehmer:innen Bewertung</h2>
-                    <div class="stars" style="--rating: 3.5;" aria-label="Die Bewertung dieses Trainings beträgt 3,5 von möglichen 5."></div>
+                    <div class="stars" style="--rating: 3.5;"
+                        aria-label="Die Bewertung dieses Trainings beträgt 3,5 von möglichen 5."></div>
                     <p class="stars__rating">(14 Bewertungen)</p>
                     <p><strong>92%</strong> aller Teilnehmer:innen würden dieses Training weiterempfehlen</p>
                 </section>
@@ -103,15 +118,21 @@ description: Show Training Detail Powerworkshop
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Ihr Nutzen</h2>
                     <div class="texttable markdown">
-                        <p class="texttable__cell">Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei Moderni&shy;sierungs&shy;vorhaben gewachsener Systeme als auch beim Design neuer Systeme auf der »grünen Wiese«</p>
-                        <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen bis zur kontinuierlichen Auslieferung</p>
-                        <p class="texttable__cell">Anwendbar in allen Aufgabenfeldern der Softwarearchitektur unabhängig von Technologien und Sprachen</p>
+                        <p class="texttable__cell">Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei
+                            Moderni&shy;sierungs&shy;vorhaben gewachsener Systeme als auch beim Design neuer Systeme auf
+                            der »grünen Wiese«</p>
+                        <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen
+                            bis zur kontinuierlichen Auslieferung</p>
+                        <p class="texttable__cell">Anwendbar in allen Aufgabenfeldern der Softwarearchitektur unabhängig
+                            von Technologien und Sprachen</p>
                     </div>
                 </section>
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Zielgruppe</h2>
                     <div class="section__1col markdown">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim, ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa? Ipsum dolorem dolor pariatur provident esse?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim,
+                            ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa? Ipsum
+                            dolorem dolor pariatur provident esse?</p>
                     </div>
                 </section>
                 <section class="section">
@@ -129,7 +150,8 @@ description: Show Training Detail Powerworkshop
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
                     <div class="img-text">
                         <div class="img-text__figure">
-                            <a href="#"><img class="img-text__image" src="/snippet/images/profiles/Oliver_Zeigermann.jpg"/></a>
+                            <a href="#"><img class="img-text__image"
+                                    src="/snippet/images/profiles/Oliver_Zeigermann.jpg" /></a>
                         </div>
                         <div class="img-text__content">
                             <h3 class="img-text__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
@@ -137,7 +159,9 @@ description: Show Training Detail Powerworkshop
                             <p class="profile__role">Rolle</p>
                             <div class="spacer__md"></div>
 
-                            <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                            <p>Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation
+                                und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
+                                als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
                         </div>
                     </div>
                 </section>
@@ -145,7 +169,8 @@ description: Show Training Detail Powerworkshop
                 <section class="section">
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Unsere Kund:innen sagen</h2>
                     <div class="quote">
-                        <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum possimus corrupti amet.«</blockquote>
+                        <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Nostrum possimus corrupti amet.«</blockquote>
                         <div class="quote__name">Alexander Trapp</div>
                         <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
                     </div>
@@ -155,11 +180,15 @@ description: Show Training Detail Powerworkshop
                     <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher</h2>
                     <div class="img-text">
                         <div class="img-text__figure">
-                            <img class="img-text__image" src="https://www.innoq.com/de/staff/gernot-starke/Requirements-Skills-V1.png"/>
+                            <img class="img-text__image"
+                                src="https://www.innoq.com/de/staff/gernot-starke/Requirements-Skills-V1.png" />
                         </div>
                         <div class="img-text__content">
                             <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
-                            <p>Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) Ihres Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
+                            <p>Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur:
+                                Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) Ihres
+                                Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten
+                                (Gebundene Ausgabe und eBook).</p>
                         </div>
                     </div>
                 </section>
@@ -171,12 +200,15 @@ description: Show Training Detail Powerworkshop
                     <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list,"></pretix-widget>
                     <h3>Vor-Ort-Termine</h3>
                     <pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
-                    <p><a href="https://pretix.eu/socreatory/" class="link-attribution" target="_blank">Event-Ticketing-Software von pretix<a><p>
+                    <p><a href="https://pretix.eu/socreatory/" class="link-attribution"
+                            target="_blank">Event-Ticketing-Software von pretix<a>
+                                <p>
                 </div>
 
                 <div>
                     <h3>Inhouse Schulung</h3>
-                    <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür unser Anfrage-Formular.</p>
+                    <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür
+                        unser Anfrage-Formular.</p>
                     <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
                 </div>
             </div>
@@ -185,16 +217,20 @@ description: Show Training Detail Powerworkshop
 </main>
 <aside class="container container--xl container-vertical-spacing-xl">
     <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
-    <ul class="cards cards--withappendix">
+    <ul class="cards">
         <li class="card card--isaqb">
             <div class="card__body card__body--isaqb">
                 <div class="card__body__top">
                     <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                    </p>
                     <div class="pills">
-                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
+                        </div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—
+                        </div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10
+                        </div>
                     </div>
                 </div>
                 <div class="card__body__bottom">
@@ -206,19 +242,55 @@ description: Show Training Detail Powerworkshop
                     </div>
                 </div>
             </div>
-            <div class="card__appendix">
-            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen. Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen.</p>
+            </div>
+        </li>
+        <li class="card card--power">
+            <div class="card__body card__body--power">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige
+                            Architekturdokumentation</a>
+                    </h3>
+                    <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
+                </div>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">700 €</p>
+                    </div>
+                    <div>
+                        <p class="card__label">Powerworkshop</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card__body">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von
+                            Softwarearchitekturen</a></h3>
+                    <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas
+                        AI-Produkte
+                        entwerfen.</p>
+                </div>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">2.100 €</p>
+                    </div>
+                </div>
             </div>
         </li>
         <li class="card card--isaqb">
             <div class="card__body card__body--isaqb">
                 <div class="card__body__top">
                     <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit. Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
+                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                    </p>
                     <div class="pills">
-                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
+                        </div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—
+                        </div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10
+                        </div>
                     </div>
                 </div>
                 <div class="card__body__bottom">
@@ -230,32 +302,40 @@ description: Show Training Detail Powerworkshop
                     </div>
                 </div>
             </div>
-            <div class="card__appendix">
-            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
             </div>
         </li>
-        <li class="card card--isaqb">
-            <div class="card__body card__body--isaqb">
+        <li class="card card--power">
+            <div class="card__body card__body--power">
                 <div class="card__body__top">
-                    <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation lorem Ipsum in vino veritas</a></h3>
-                    <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                    <div class="pills">
-                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                    <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige
+                            Architekturdokumentation</a>
+                    </h3>
+                    <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
+                </div>
+                <div class="card__body__bottom">
+                    <div>
+                        <p class="card__price">700 €</p>
                     </div>
+                    <div>
+                        <p class="card__label">Powerworkshop</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card__body">
+                <div class="card__body__top">
+                    <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von
+                            Softwarearchitekturen</a></h3>
+                    <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas
+                        AI-Produkte
+                        entwerfen.</p>
                 </div>
                 <div class="card__body__bottom">
                     <div>
                         <p class="card__price">2.100 €</p>
                     </div>
-                    <div>
-                        <p class="card__label">iSAQB® Modul ARC</p>
-                    </div>
                 </div>
-            </div>
-            <div class="card__appendix">
-            <p>Mehr vernetzte und gemeinschaftliche Sicht von Architekturarbeit unterstützen</p>
             </div>
         </li>
     </ul>
@@ -265,7 +345,8 @@ description: Show Training Detail Powerworkshop
     <div class="footer__top">
         <div class="footer__top__content">
             <div class="footer__top__content__right">
-                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -283,10 +364,12 @@ description: Show Training Detail Powerworkshop
             </div>
             <div class="footer__top__content__left">
                 <h2>Newsletter</h2>
-                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen</p>
+                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
+                    erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
                     <div class="form__field">
-                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr
+                                title="required">*</abbr></label>
                         <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
                     </div>
                     <div class="form__field">
