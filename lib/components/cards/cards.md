@@ -9,11 +9,12 @@ description: Cards Molecule
                 <div class="card__body__top">
                     <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                     <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                </div>
-                <div class="pills">
-                    <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                    <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                    <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
+                    <div class="pills">
+                        <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
+                        <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
+                        <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10
+                        </div>
+                    </div>
                 </div>
                 <div class="card__body__bottom">
                     <div>
@@ -35,7 +36,8 @@ description: Cards Molecule
         <div class="card card--power">
             <div class="card__body card__body--power">
                 <div class="card__body__top">
-                    <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a></h3>
+                    <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a>
+                    </h3>
                     <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
                 </div>
                 <div class="card__body__bottom">
@@ -58,8 +60,10 @@ description: Cards Molecule
         <div class="card">
             <div class="card__body">
                 <div class="card__body__top">
-                    <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von Softwarearchitekturen</a></h3>
-                    <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte entwerfen.</p>
+                    <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von
+                            Softwarearchitekturen</a></h3>
+                    <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte
+                        entwerfen.</p>
                 </div>
                 <div class="card__body__bottom">
                     <div>
