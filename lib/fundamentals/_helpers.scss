@@ -16,3 +16,16 @@
   clip-path: inset(50%);
   border: 0;
 }
+
+/* stylelint-disable declaration-no-important */
+.m-t-lg {
+  margin-top: $spacer-lg !important;
+}
+
+.m-t-xl {
+  margin-top: $spacer-xl !important;
+}
+
+.m-t-2xl {
+  margin-top: $spacer-2xl !important;
+}

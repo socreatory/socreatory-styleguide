@@ -73,7 +73,8 @@ description: Homepage
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                            sisit.
                         </p>
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
@@ -93,7 +94,6 @@ description: Homepage
                             <p class="card__label">iSAQB® Modul ARC</p>
                         </div>
                     </div>
-                </div>
                 </div>
             </li>
             <li class="card card--power">
@@ -134,7 +134,8 @@ description: Homepage
                 <div class="card__body card__body--isaqb">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                            sisit.
                         </p>
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
@@ -154,7 +155,6 @@ description: Homepage
                             <p class="card__label">iSAQB® Modul ARC</p>
                         </div>
                     </div>
-                </div>
                 </div>
             </li>
             <li class="card card--power">
@@ -192,11 +192,76 @@ description: Homepage
                 </div>
             </li>
         </ul>
-        <a href="#" class="btn btn-type--primary">Alle Schulungen</a>
-    </section>
-
-    <section class="container container--xl container-vertical-spacing-2xl">
-        <div class="teaser">
+        <a href="#" class="btn btn--cta">Alle Schulungen</a>
+        <div class="container--2-col m-t-lg">
+            <div class="event-stripe__wrapper">
+                <h2 class="section__title--normal">Early Birds</h2>
+                <ul class="event-stripe__list">
+                    <li class="event-stripe event-stripe--isaqb">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class=" event-stripe__location"></span>In Wursthausen mit Hans Wurst</span>
+                    </li>
+                    <li class="event-stripe">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                    </li>
+                    <li class="event-stripe event-stripe--power">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--cta">Alle Early Birds</a>
+            </div>
+            <div class="event-stripe__wrapper">
+                <h2 class="section__title--normal">Nächste Termine</h2>
+                <ul class="event-stripe__list">
+                    <li class="event-stripe event-stripe--isaqb">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                    </li>
+                    <li class="event-stripe">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                    </li>
+                    <li class="event-stripe event-stripe--power">
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                        <div class="event-stripe__date">
+                            <time datetime="2024-03-12">12.</time> -
+                            <time datetime="2024-03-14">14.3.2024</time>
+                        </div>
+                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--cta">Alle Early Birds</a>
+            </div>
+        </div>
+        <div class="teaser m-t-2xl">
             <div class="teaser__column">
                 <h2 class="section__title--normal">Deine Trainer:innen</h2>
                 <p class="teaser__text">
@@ -313,7 +378,6 @@ description: Homepage
             </div>
         </section>
     </div>
-
 </main>
 
 <footer>
@@ -351,6 +415,7 @@ description: Homepage
                         <label class="form__label" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
                         <input class="form__input" type="email" name="email" id="text8475487" />
                     </div>
+                    <button class="btn btn-type--primary">Anmelden</button>
                 </form>
             </div>
         </div>

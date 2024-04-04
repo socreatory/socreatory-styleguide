@@ -66,7 +66,7 @@ ISAQB Training Header
 ## Header mit Image
 
 ```html
-<header class="header header-color--normal">
+<header class="header ">
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -85,7 +85,7 @@ ISAQB Training Header
 ## Header Simpel
 
 ```html
-<header class="header header-color--normal">
+<header class="header ">
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -103,7 +103,7 @@ ISAQB Training Header
 ## Breadcrumb Header
 
 ```html
-<header class="header--breadcrumb header-color--normal">
+<header class="header--breadcrumb ">
     <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">

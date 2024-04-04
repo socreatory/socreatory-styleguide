@@ -64,8 +64,7 @@ description: Show Training Detail Powerworkshop
     </div>
 </header>
 
-<main>
-    <div class="container__fullwidth">
+<main class="container container--xl container-vertical-spacing-xl">
         <div class="layout-main-with-sidebar">
             <div class="layout-main-with-sidebar__main">
                 <div class="offer-box">
@@ -213,7 +212,6 @@ description: Show Training Detail Powerworkshop
                 </div>
             </div>
         </div>
-    </div>
 </main>
 <aside class="container container--xl container-vertical-spacing-xl">
     <h2 class="section__title--small"><span aria-hidden>-- </span>Relevante weitere Schulungen</h2>
@@ -376,6 +374,7 @@ description: Show Training Detail Powerworkshop
                         <label class="form__label" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
                         <input class="form__input" type="email" name="email" id="text8475487" />
                     </div>
+                    <button class="btn btn-type--primary">Anmelden</button>
                 </form>
             </div>
         </div>

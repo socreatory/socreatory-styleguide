@@ -1,11 +1,8 @@
-title: Customer Proflie Edit Page
-description: Customer Proflie Edit Page
-
-## Alerts
-
-See [All available alert styles](https://styleguide.socreatory.com/molecules/alert)
+title: Training Dates Overview
+description: Description
 
 ```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="announcement">
@@ -39,67 +36,62 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb ">
-    <div class="container container--xl">
+<header class="header ">
+    <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil bearbeiten</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
+                    Early Bird Angebote</li>
             </ul>
         </div>
     </div>
+    <div class="container__centered">
+        <img class="header__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
+        <h1 class="header__heading header__heading--centered">Unsere Early Bird Angebote</h1>
+    </div>
 </header>
 
-<main class="customer-profile-edit-page">
-    <section class="container container--md container--centered">
-        <div class="alert alert--info">
-            <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
-            <button class="alert__btn" type="button">
-                <span class="icon--close"></span>
-                <span class="sr-only">Schließen</span>
-            </button>
-        </div>
-        <div class="login-form">
-            <h1 class="login-form__headline">Profil bearbeiten</h1>
-            <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
-                <input type="hidden" name="authenticity_token" value="" />
-                <div class="form__field field__size--full">
-                    <label class="form__label for="contact_form_name">Email</label>
-                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+<main>
+    <section class="container container--md container-vertical-spacing-xl">
+        <ul class="event-stripe__list">
+            <li class="event-stripe event-stripe--isaqb">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
-                <div class="form__field field__size--full">
-                    <label class="form__label" for="contact_form_name">Firmenname</label>
-                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class=" event-stripe__location"></span>In Wursthausen mit Hans Wurst</span>
+            </li>
+            <li class="event-stripe">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
-                <div class="form__field field__size--full">
-                    <label class="form__label" for="contact_form_name">Vorname</label>
-                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+            </li>
+            <li class="event-stripe event-stripe--power">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
-                <div class="form__field field__size--full">
-                    <label class="form__label" for="contact_form_name">Nachname</label>
-                    <input class="form__input" type="text" name="contact_form[email]" id="contact_form_email" />
-                </div>
-                <div class="button-group">
-                    <input type="submit" name="commit" value="Speichern" class="btn btn-type--primary" data-disable-with="Contact form erstellen" />
-                    <button type="reset" class="btn btn-type--secondary">Abbrechen</button>
-                </div>
-            </form>
-        </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+            </li>
+        </ul>
     </section>
-    <div class="container container--md container--centered">
-        <h2 class="login-form__headline">Profil löschen</h2>
-        <p>
-            Du kannst dein Profil bei uns ganz einfach löschen. Natürlich hast du danach keinen Zugriff mehr auf bereits absolvierte Trainings und die dazu gehörigen Zertifikate. Diese kannst du aber
-            weiterhin auch anfordern unter kontakt@socreatory.com
-        </p>
-        <button type="reset" class="btn btn-type--primary">Profil löschen</button>
-    </div>
 </main>
+
 <footer>
     <div class="footer__top">
         <div class="footer__top__content">
             <div class="footer__top__content__right">
-                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -117,10 +109,12 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
             </div>
             <div class="footer__top__content__left">
                 <h2>Newsletter</h2>
-                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen</p>
+                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
+                    erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
                     <div class="form__field">
-                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr
+                                title="required">*</abbr></label>
                         <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
                     </div>
                     <div class="form__field">
@@ -138,4 +132,5 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
         </div>
     </div>
 </footer>
+
 ```

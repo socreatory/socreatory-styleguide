@@ -2,6 +2,7 @@
 Fundamental Stylings
 */
 
+@import "../../fundamentals/spacers";
 @import "../../fundamentals/helpers";
 @import "../../fundamentals/colors";
 @import "../../fundamentals/typography";
@@ -9,7 +10,6 @@ Fundamental Stylings
 @import "../../fundamentals/animations";
 @import "../../fundamentals/breakpoints";
 @import "../../fundamentals/shadows";
-@import "../../fundamentals/spacers";
 @import "https://pretix.eu/socreatory/widget/v1.css";
 
 /*
@@ -26,6 +26,7 @@ Application specific code
 @import "../../components/buttons/buttons";
 @import "../../components/cards/cards";
 @import "../../components/customer_logo/customer_logo";
+@import "../../components/event-stripe/event-stripe";
 @import "../../components/feature/feature";
 @import "../../components/filter/filter";
 @import "../../components/footer/footer";

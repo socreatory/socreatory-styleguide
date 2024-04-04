@@ -35,6 +35,7 @@ module.exports = {
         privacy: "./lib/views/privacy/privacy.md",
         site_notice: "./lib/views/site_notice/site_notice.md",
         trainings_overview: "./lib/views/trainings_overview/trainings_overview.md",
+        trainings_dates: "./lib/views/trainings_dates/trainings_dates.md",
         trainings_detail: "./lib/views/trainings_detail/trainings_detail.md",
         trainings_detail_isaqb: "./lib/views/trainings_detail/trainings_detail_isaqb.md",
         trainings_detail_power: "./lib/views/trainings_detail/trainings_detail_power.md",

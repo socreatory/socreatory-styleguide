@@ -13,7 +13,7 @@
   padding: 0 $spacer-xs;
 
   > * + * {
-    margin-top: $spacer-base;
+    margin-top: $spacer-md;
   }
 
   > * {
@@ -67,6 +67,27 @@
 
   padding-top: $spacer-base;
   padding-bottom: $spacer-base;
+}
+
+.container--2-col,
+%container--2-col {
+  @include for-tablet-landscape-up {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: $spacer-base;
+
+    > div {
+      margin-top: 0;
+    }
+  }
+
+  width: 100%;
+
+  > * + * {
+    margin-top: $spacer-base;
+  }
 }
 
 // Deprecated Class TODO Replace everywhere

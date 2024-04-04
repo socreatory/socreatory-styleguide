@@ -34,7 +34,7 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb header-color--normal">
+<header class="header--breadcrumb ">
     <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -46,7 +46,7 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
 </header>
 
 <main class="customer-profile-page">
-    <section class="container container--md container--centered">
+    <section class="container container--md container--centered container-vertical-spacing-xl">
         <div class="alert alert--info">
             <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
             <button class="alert__btn" type="button">

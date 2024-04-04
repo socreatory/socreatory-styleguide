@@ -1,7 +1,7 @@
 .cards {
   @include for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    gap: $spacer-md;
   }
 
   @include for-desktop-xl-up {
@@ -11,7 +11,7 @@
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: 1fr;
-  gap: $spacer-md;
+  gap: $spacer-xs;
   align-content: stretch;
 
   width: 100%;
@@ -29,19 +29,18 @@
 
 .card {
   position: relative;
-
-  display: grid;
-  grid-row: span 3;
-  gap: 0;
-
   background-color: $brand-white-1;
-
   transition: all 250ms ease;
 }
 
-.card__link {
+.card__title {
+  margin-bottom: $spacer-2xs;
   font-size: $font-size-lg;
+  line-height: $heading-line-height-sm;
   hyphens: auto;
+}
+
+.card__link {
   color: $brand-text;
   text-decoration: none;
 }
@@ -91,15 +90,9 @@
   border-left: 10px solid $brand-tertiary;
 }
 
-.card__title {
-  margin-bottom: $spacer-2xs;
-  font-size: $font-size-xl;
-  line-height: $heading-line-height-sm;
-  hyphens: auto;
-}
-
 .card__text {
   font-size: $font-size-md;
+  line-height: $heading-line-height-sm;
 }
 
 .card__label {

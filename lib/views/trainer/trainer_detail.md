@@ -36,7 +36,7 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header header-color--normal">
+<header class="header ">
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -223,7 +223,8 @@ description: Description
     <div class="footer__top">
         <div class="footer__top__content">
             <div class="footer__top__content__right">
-                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -241,16 +242,19 @@ description: Description
             </div>
             <div class="footer__top__content__left">
                 <h2>Newsletter</h2>
-                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen</p>
+                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
+                    erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
                     <div class="form__field">
-                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr
+                                title="required">*</abbr></label>
                         <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
                     </div>
                     <div class="form__field">
                         <label class="form__label" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
                         <input class="form__input" type="email" name="email" id="text8475487" />
                     </div>
+                    <button class="btn btn-type--primary">Anmelden</button>
                 </form>
             </div>
         </div>

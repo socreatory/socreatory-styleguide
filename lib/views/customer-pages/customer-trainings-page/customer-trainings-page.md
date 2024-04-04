@@ -35,7 +35,7 @@ description: Customer Trainings Page
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb header-color--normal">
+<header class="header--breadcrumb ">
     <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">

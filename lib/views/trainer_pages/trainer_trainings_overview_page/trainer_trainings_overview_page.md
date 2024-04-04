@@ -38,7 +38,7 @@ description: Backend-View for Trainers shows a list of all training a trainer is
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb header-color--normal">
+<header class="header--breadcrumb ">
     <div class="container container--xl">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
@@ -127,6 +127,7 @@ description: Backend-View for Trainers shows a list of all training a trainer is
                         <label class="form__label" for="text8475487">E-Mail <abbr title="required">*</abbr></label>
                         <input class="form__input" type="email" name="email" id="text8475487" />
                     </div>
+                    <button class="btn btn-type--primary">Anmelden</button>
                 </form>
             </div>
         </div>

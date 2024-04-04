@@ -1,10 +1,5 @@
 //TODO: Refactor
 .header {
-  @include for-tablet-landscape-up {
-    margin-bottom: $spacer-xl;
-  }
-
-  margin-bottom: $spacer-sm;
   padding: $spacer-lg 0 $spacer-lg 0;
 
   > * + * {
@@ -79,10 +74,6 @@
 .header__logo {
   height: 1.5rem;
   margin-right: $spacer-base * 0.7;
-}
-
-.header-color--normal {
-  background-color: $brand-background;
 }
 
 .header-color--highlighted-1 {
