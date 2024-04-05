@@ -148,12 +148,13 @@
 .card__appendix {
   display: flex;
   flex-direction: row;
-  background-color: $brand-primary-light;
-  padding: $spacer-xs;
-  margin-top: $spacer-3xs;
   gap: $spacer-xs;
-  justify-content: center;
   align-items: center;
+
+  margin-top: $spacer-3xs;
+  padding: $spacer-xs;
+
+  background-color: $brand-primary-light;
 }
 
 .card__appendix__text {
