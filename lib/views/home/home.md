@@ -199,12 +199,9 @@ description: Homepage
                 <ul class="event-stripe__list">
                     <li class="event-stripe event-stripe--isaqb">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
-                        </div>
+                        <div class="event-stripe__date">12. - 14.3.2022</div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class=" event-stripe__location"></span>In Wursthausen mit Hans Wurst</span>
+                        <spam class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                     </li>
                     <li class="event-stripe">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -213,7 +210,7 @@ description: Homepage
                             <time datetime="2024-03-14">14.3.2024</time>
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                     </li>
                     <li class="event-stripe event-stripe--power">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -222,7 +219,7 @@ description: Homepage
                             <time datetime="2024-03-14">14.3.2024</time>
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                     </li>
                 </ul>
                 <a href="#" class="btn btn--cta">Alle Early Birds</a>
@@ -237,7 +234,7 @@ description: Homepage
                             <time datetime="2024-03-14">14.3.2024</time>
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
                     </li>
                     <li class="event-stripe">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -246,7 +243,7 @@ description: Homepage
                             <time datetime="2024-03-14">14.3.2024</time>
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
                     </li>
                     <li class="event-stripe event-stripe--power">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -255,7 +252,7 @@ description: Homepage
                             <time datetime="2024-03-14">14.3.2024</time>
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location"></span>Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
                     </li>
                 </ul>
                 <a href="#" class="btn btn--cta">Alle Early Birds</a>

@@ -88,22 +88,22 @@
   }
 }
 
-.event-stripe__location {
-  display: block;
-  grid-column: 2;
-  grid-row: 2;
-
-  font-size: $font-size-md;
-  line-height: $heading-line-height-sm;
-}
-
 .event-stripe__date {
   @extend %heading-font-bold;
 
   grid-column: 2;
   grid-row: 2;
+  align-self: center;
 
-  margin-top: $spacer-2xs;
+  font-size: $font-size-md;
+  line-height: $heading-line-height-sm;
+}
+
+.event-stripe__location {
+  display: block;
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
 
   font-size: $font-size-md;
   line-height: $heading-line-height-sm;
