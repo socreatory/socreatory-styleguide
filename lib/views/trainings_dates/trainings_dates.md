@@ -41,6 +41,7 @@ description: Description
         </div>
     </div>
     <div class="container__centered">
+        <img class="textcolumn__img" src="/snippet/images/illustrations/iconearlybird.png" />
         <h1 class="header__heading header__heading--centered">Unsere Early Bird Angebote</h1>
     </div>
 </header>
