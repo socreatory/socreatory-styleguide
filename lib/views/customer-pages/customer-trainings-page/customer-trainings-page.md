@@ -53,7 +53,7 @@ description: Customer Trainings Page
         <ul class="cards">
             <li>
                 <div class="card card--isaqb">
-                    <div class="card__body card__body--isaqb">
+                    <div class="card__body ">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                             <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
@@ -73,7 +73,7 @@ description: Customer Trainings Page
             </li>
             <li>
                 <div class="card card--power">
-                    <div class="card__body card__body--power">
+                    <div class="card__body ">
                         <div class="card__body__top">
                             <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a></h3>
                             <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>

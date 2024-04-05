@@ -5,7 +5,7 @@ description: Cards Molecule
 <ul class="cards">
     <li>
         <div class="card card--isaqb">
-            <div class="card__body card__body--isaqb">
+            <div class="card__body ">
                 <div class="card__body__top">
                     <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                     <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
@@ -17,14 +17,19 @@ description: Cards Molecule
                     </div>
                 </div>
                 <div class="card__body__bottom">
-                    <div>
-                        <p class="card__price">2.100 €</p>
-                    </div>
-                    <div>
-                        <p class="card__label">iSAQB® Modul ARC</p>
-                    </div>
+                    <p class="card__price">2.100 €</p>
+                    <p class="card__label">iSAQB® Modul ARC</p>
                 </div>
             </div>
+        </div>
+        <div class="card__appendix">
+            <span class="icon icon--idea" role="presentation"></span>
+            <p class="card__appendix__text"><b>TIPP</b> Dieser Worksho bitete dir: Fachliche Strukturierung und
+                Kundenabgleich
+                in
+                der
+                Tiefe. Teilweise Überschneidungen.
+            </p>
         </div>
         <div class="card__details">
             <h3 class="card__details__date">13.-15. September 2023</h3>
@@ -34,21 +39,26 @@ description: Cards Molecule
     </li>
     <li>
         <div class="card card--power">
-            <div class="card__body card__body--power">
+            <div class="card__body ">
                 <div class="card__body__top">
                     <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a>
                     </h3>
                     <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
                 </div>
                 <div class="card__body__bottom">
-                    <div>
-                        <p class="card__price">700 €</p>
-                    </div>
-                    <div>
-                        <p class="card__label">Powerworkshop</p>
-                    </div>
+                    <p class="card__price">700 €</p>
+                    <p class="card__label">Powerworkshop</p>
                 </div>
             </div>
+        </div>
+        <div class="card__appendix">
+            <span class="icon icon--idea" role="presentation"></span>
+            <p class="card__appendix__text"><b>TIPP</b> Dieser Worksho bitete dir: Fachliche Strukturierung und
+                Kundenabgleich
+                in
+                der
+                Tiefe. Teilweise Überschneidungen.
+            </p>
         </div>
         <div class="card__details">
             <h3 class="card__details__date">13.-15. September 2023</h3>
@@ -66,11 +76,18 @@ description: Cards Molecule
                         entwerfen.</p>
                 </div>
                 <div class="card__body__bottom">
-                    <div>
-                        <p class="card__price">2.100 €</p>
-                    </div>
+                    <p class="card__price">2.100 €</p>
                 </div>
             </div>
+        </div>
+        <div class="card__appendix">
+            <span class="icon icon--idea" role="presentation"></span>
+            <p class="card__appendix__text"><b>TIPP</b> Dieser Worksho bitete dir: Fachliche Strukturierung und
+                Kundenabgleich
+                in
+                der
+                Tiefe. Teilweise Überschneidungen.
+            </p>
         </div>
         <div class="card__details">
             <h3 class="card__details__date">13.-15. September 2023</h3>

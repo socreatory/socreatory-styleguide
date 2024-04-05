@@ -30,3 +30,7 @@
 .icon--link--primary {
   @include icon-before("icons/box-arrow-up-right.svg", $brand-black, 1rem);
 }
+
+.icon--idea {
+  @include icon-before("icons/light-bulb-shine.svg", $brand-black, 2rem);
+}

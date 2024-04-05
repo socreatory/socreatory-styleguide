@@ -30,7 +30,33 @@
 .card {
   position: relative;
   background-color: $brand-white-1;
+  border-left: 10px solid $brand-secondary;
   transition: all 250ms ease;
+}
+
+.card--isaqb {
+  border-left: 10px solid $brand-primary;
+}
+
+.card--power {
+  border-left: 10px solid $brand-tertiary;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: auto;
+  min-height: 14rem;
+  padding: $spacer-xs;
+}
+
+.card__body__bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .card__title {
@@ -61,41 +87,13 @@
   left: 0;
 }
 
-.card__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  height: auto;
-  min-height: 14rem;
-  padding: $spacer-sm * 0.8 $spacer-sm * 0.8 0 $spacer-sm * 0.8;
-
-  border-left: 10px solid $brand-secondary;
-}
-
-.card__body__bottom {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: baseline;
-  justify-content: space-between;
-
-  height: 2rem;
-}
-
-.card__body--isaqb {
-  border-left: 10px solid $brand-primary;
-}
-
-.card__body--power {
-  border-left: 10px solid $brand-tertiary;
-}
-
 .card__text {
   font-size: $font-size-md;
   line-height: $heading-line-height-sm;
 }
 
 .card__label {
+  margin-bottom: 0;
   font-size: $font-size-md;
   line-height: $heading-line-height-sm;
 }
@@ -103,7 +101,7 @@
 .card__price {
   @extend %body-font-bold;
 
-  margin-left: auto;
+  margin-bottom: 0;
   font-size: $font-size-base;
   line-height: $heading-line-height-sm;
 }
@@ -145,6 +143,23 @@
 .card__details__caption {
   margin-bottom: 0;
   font-size: $font-size-md;
+}
+
+.card__appendix {
+  display: flex;
+  flex-direction: row;
+  background-color: $brand-primary-light;
+  padding: $spacer-xs;
+  margin-top: $spacer-3xs;
+  gap: $spacer-xs;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__appendix__text {
+  font-size: $font-size-sm;
+  line-height: $paragraph-line-height-sm;
+  margin-bottom: 0;
 }
 
 // Module Kit

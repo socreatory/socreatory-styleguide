@@ -70,7 +70,7 @@ description: Homepage
         <h2 class="section__title--normal">Beliebte Schulungen</h2>
         <ul class="cards">
             <li class="card card--isaqb">
-                <div class="card__body card__body--isaqb">
+                <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
@@ -97,7 +97,7 @@ description: Homepage
                 </div>
             </li>
             <li class="card card--power">
-                <div class="card__body card__body--power">
+                <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige
                                 Architekturdokumentation</a>
@@ -131,7 +131,7 @@ description: Homepage
                 </div>
             </li>
             <li class="card card--isaqb">
-                <div class="card__body card__body--isaqb">
+                <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
                         <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
@@ -158,7 +158,7 @@ description: Homepage
                 </div>
             </li>
             <li class="card card--power">
-                <div class="card__body card__body--power">
+                <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige
                                 Architekturdokumentation</a>
