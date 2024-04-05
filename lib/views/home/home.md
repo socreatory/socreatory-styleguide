@@ -201,7 +201,12 @@ description: Homepage
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
                         <div class="event-stripe__date">12. - 14.3.2022</div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <spam class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+                        <span class="event_stripe__earlybird">
+                            bis 9.April
+                            <img class="event-stripe__earlybird__image"
+                                src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                     <li class="event-stripe">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -211,6 +216,11 @@ description: Homepage
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
                         <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+                        <span class="event_stripe__earlybird">
+                            bis 9.April
+                            <img class="event-stripe__earlybird__image"
+                                src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                     <li class="event-stripe event-stripe--power">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
@@ -220,6 +230,11 @@ description: Homepage
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
                         <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+                        <span class="event_stripe__earlybird">
+                            bis 9.April
+                            <img class="event-stripe__earlybird__image"
+                                src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                 </ul>
                 <a href="#" class="btn btn--cta">Alle Early Birds</a>
