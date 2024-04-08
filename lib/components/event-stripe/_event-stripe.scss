@@ -110,15 +110,19 @@
 }
 
 .event_stripe__earlybird {
+  @extend %heading-font-bold;
+
   display: flex;
   grid-column: 3;
   grid-row: 2/4;
   gap: $spacer-2xs;
-  align-items: flex-end;
+  align-items: end;
   align-self: end;
   justify-self: end;
 
-  font-size: $font-size-md;
+  margin-bottom: 0;
+
+  font-size: $font-size-sm;
 }
 
 .event-stripe__earlybird__image {

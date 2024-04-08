@@ -71,7 +71,7 @@
 
 .container--2-col,
 %container--2-col {
-  @include for-tablet-landscape-up {
+  @include for-desktop-up {
     display: grid;
     grid-template-areas: "left right";
     grid-template-columns: 1fr 1fr;

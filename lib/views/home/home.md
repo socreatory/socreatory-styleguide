@@ -203,7 +203,7 @@ description: Homepage
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
                         <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                         <span class="event_stripe__earlybird">
-                            bis 9.April
+                             Rabatt bis 9.April
                             <img class="event-stripe__earlybird__image"
                                 src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
@@ -216,8 +216,8 @@ description: Homepage
                         </div>
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
                         <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
-                        <span class="event_stripe__earlybird">
-                            bis 9.April
+                         <span class="event_stripe__earlybird">
+                             Rabatt bis 9.April
                             <img class="event-stripe__earlybird__image"
                                 src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
@@ -231,7 +231,7 @@ description: Homepage
                         <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
                         <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                         <span class="event_stripe__earlybird">
-                            bis 9.April
+                             Rabatt bis 9.April
                             <img class="event-stripe__earlybird__image"
                                 src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
