@@ -22,7 +22,7 @@
 
   display: grid;
   grid-column-gap: $spacer-xs;
-  grid-template-columns: $spacer-lg auto auto;
+  grid-template-columns: $spacer-lg 2fr 1fr;
   grid-template-rows: auto;
 
   width: 100%;
