@@ -36,7 +36,7 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header ">
+<header class="header">
     <div class="container__fullwidth">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
