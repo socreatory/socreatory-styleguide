@@ -2,6 +2,7 @@
   "name": "socreatory-styleguide",
   "private": true,
   "version": "5.7.6",
+  "type": "module",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --liveserve 0.0.0.0:4001",
@@ -10,21 +11,22 @@
     "start": "npm-run-all --parallel compile:watch aiur:watch",
     "eslint": "eslint --cache './lib/**/*.js'",
     "stylelint": "stylelint './lib/**/*.scss'",
-    "prettier": "prettier --write './lib/**/*.js' './lib/**/*.scss'",
+    "prettier": "prettier --write '*.js' './lib/**/*.js' './lib/**/*.scss'",
     "test": "npm run eslint && npm run stylelint"
   },
   "devDependencies": {
     "aiur": "^0.10.0",
-    "eslint": "^8.52.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
     "faucet-pipeline-js": "^3.0.0",
     "faucet-pipeline-sass": "^1.4.0",
     "faucet-pipeline-static": "^2.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.1.0",
-    "stylelint": "^15.10.3",
+    "stylelint": "^16.3.1",
     "stylelint-config-clean-order": "^5.0.0",
-    "stylelint-config-sass-guidelines": "^10.0.0",
-    "stylelint-config-standard": "^34.0.0"
+    "stylelint-config-sass-guidelines": "^11.1.0",
+    "stylelint-config-standard": "^36.0.0"
   }
 }

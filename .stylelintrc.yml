@@ -22,7 +22,6 @@ rules:
     - true
     - ignore:
         - custom-elements
-  string-quotes: null
 
 overrides:
   - files: ["**/*.scss"]
