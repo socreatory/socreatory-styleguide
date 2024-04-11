@@ -17,7 +17,11 @@
   tfoot {
     @extend %heading-font-regular;
 
-    font-size: $font-size-sm;
+    @include for-tablet-portrait-up {
+      font-size: $font-size-sm;
+    }
+
+    font-size: $font-size-md;
     line-height: $heading-line-height;
     color: $brand-text;
 
@@ -40,8 +44,12 @@
   td {
     @extend %heading-font-regular;
 
+    @include for-tablet-portrait-up {
+      font-size: $font-size-sm;
+    }
+
     padding: $spacer-xs;
-    font-size: $font-size-sm;
+    font-size: $font-size-md;
     line-height: $heading-line-height;
     vertical-align: top;
   }

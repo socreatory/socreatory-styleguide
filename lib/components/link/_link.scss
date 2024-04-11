@@ -1,14 +1,15 @@
-p a {
+p a,
+a:not([class]) {
   color: $brand-text;
   text-decoration-color: $brand-primary;
   text-decoration-thickness: $spacer-3xs;
   text-underline-offset: $spacer-3xs;
 
   transition: all 0.1s ease-out;
-}
 
-p a:hover {
-  text-decoration-color: $brand-primary-light;
+  &:hover {
+    text-decoration-color: $brand-primary-light;
+  }
 }
 
 .heading__link {

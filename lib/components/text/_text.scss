@@ -5,6 +5,10 @@ p {
   overflow-wrap: break-word;
 }
 
+.paragraph--medium {
+  font-size: $font-size-md;
+}
+
 .marker-highlight {
   position: relative;
   display: inline-block;

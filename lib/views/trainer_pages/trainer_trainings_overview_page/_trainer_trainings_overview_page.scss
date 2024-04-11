@@ -2,4 +2,107 @@
   @extend %container;
 
   margin-bottom: $spacer-lg;
+
+  .section__title--sub {
+    margin-bottom: 0;
+  }
+}
+
+.tuple-list {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+
+  > * + * {
+    @include for-tablet-portrait-up {
+      margin-top: $spacer-md;
+    }
+
+    margin-top: $spacer-sm;
+  }
+}
+
+.tuple-list__label {
+  @extend %heading-font-bold;
+
+  display: block;
+  color: $brand-text;
+  text-transform: uppercase;
+}
+
+.tuple-list__value {
+  @extend %heading-font-regular;
+
+  display: block;
+  line-height: $paragraph-line-height-sm;
+}
+
+@include for-tablet-portrait-up {
+  .tuple-list__entry {
+    display: grid;
+    grid-template-areas: "label value";
+    grid-template-columns: 14% auto;
+    grid-template-rows: auto;
+    gap: $spacer-md;
+  }
+
+  .tuple-list__label {
+    grid-area: label;
+  }
+
+  .tuple-list__value {
+    grid-area: value;
+  }
+}
+
+.tile-grid--sm,
+.tile-grid--md {
+  display: grid;
+  grid-column-gap: $spacer-md;
+  grid-row-gap: $spacer-base;
+  width: 100%;
+}
+
+.tile-grid--sm {
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+}
+
+.tile-grid--md {
+  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+}
+
+.tile-grid__wrapper {
+  > * + * {
+    margin-top: $spacer-xs;
+  }
+
+  > * {
+    display: block;
+    margin-bottom: 0; //TODO Refactor
+  }
+}
+
+.title-with-link {
+  display: flex;
+  gap: $spacer-2xs;
+  align-items: center;
+
+  a {
+    font-size: $font-size-sm;
+  }
+}
+
+.resource-list {
+  padding-left: 1rem;
+  font-size: $font-size-md;
+
+  li {
+    padding-left: 1rem;
+
+    &::marker {
+      content: "—";
+      color: $brand-secondary;
+    }
+  }
 }

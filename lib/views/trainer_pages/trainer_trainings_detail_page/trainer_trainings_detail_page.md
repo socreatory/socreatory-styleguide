@@ -6,7 +6,8 @@ description: Backend-View for Trainers shows details of a specific training
     <nav class="navbar-wrapper">
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
-                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
             </a>
             <input type="checkbox" id="profile__checkbox" />
             <ul role="list" aria-label="Profilbereich" class="navigation-profile">
@@ -24,8 +25,10 @@ description: Backend-View for Trainers shows details of a specific training
                     <li><a href="#" class="navbar__item">iSAQB</a></li>
                 </ul>
                 <ul class="navigation-meta" role="list" aria-label="Verfügbare Sprachen">
-                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" class="navigation-meta__item">DE</a></li>
-                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English" aria-current="true" class="navigation-meta__item">EN</a></li>
+                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln"
+                            class="navigation-meta__item">DE</a></li>
+                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English"
+                            aria-current="true" class="navigation-meta__item">EN</a></li>
                 </ul>
             </div>
             <label class="navbar__burger" for="navbar__checkbox"></label>
@@ -34,11 +37,12 @@ description: Backend-View for Trainers shows details of a specific training
 </scroll-nav>
 
 <header class="header--breadcrumb ">
-    <div class="container container--xl">
+    <div class="container">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Training</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow"
+                        aria-label="Pfeil nach rechts">›</span>Training</li>
             </ul>
         </div>
         <h1>TRAINING - 10.-12.1.2030</h1>
@@ -47,7 +51,7 @@ description: Backend-View for Trainers shows details of a specific training
 </header>
 
 <main class="trainer-trainings-overview-page">
-    <h2>Teilnehmer:innen</h2>
+    <h2 class="section__title--sub">Teilnehmer:innen</h2>
     <table class="table">
         <thead>
             <tr>
@@ -82,12 +86,76 @@ description: Backend-View for Trainers shows details of a specific training
             </tr>
         </tbody>
     </table>
+    <section class="tile-grid--sm m-t-xl">
+        <div class="tile-grid__wrapper">
+            <div class="title-with-link">
+                <h2 class=" section__title--sub">Zeitplan</h2>
+                <a href="">Bearbeiten</a>
+            </div>
+            <ul class="tuple-list">
+                <li class="tuple-list__entry">
+                    <span class="tuple-list__label">MO 22.12.</span>
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br>
+                        <small>kurze Pausen ca. jede Stunde</small>
+                    </span>
+                </li>
+                <li class="tuple-list__entry">
+                    <span class="tuple-list__label">DI 14.9</span>
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br>
+                        <small>kurze Pausen ca. jede Stunde</small>
+                    </span>
+                </li>
+                <li class="tuple-list__entry">
+                    <span class="tuple-list__label">Mi 15.9.</span>
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br>
+                        <small>kurze Pausen ca. jede Stunde</small>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="tile-grid__wrapper">
+            <div class="title-with-link">
+                <h2 class="section__title--sub">Wichtige Links</h2>
+                <a href="">Bearbeiten</a>
+            </div>
+            <ul class="resource-list">
+                <li>
+                    <a href="#">Wichtiger Link</a>
+                </li>
+                <li>
+                    <a href="#">Wichtiger Link</a>
+                </li>
+                <li>
+                    <a href="#">Wichtiger Link</a>
+                </li>
+                <li>
+                    <a href="#">Wichtiger Link</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tile-grid__wrapper">
+            <div class="title-with-link">
+                <h2 class="section__title--sub">Hinweise</h2>
+                <a href="">Bearbeiten</a>
+            </div>
+            <p class="paragraph--medium">Hier steht ein Freitext, der weitere Hinweise enthält, die man ausfüllen kann.
+                Oder auch nicht.</p>
+        </div>
+        <div class="tile-grid__wrapper">
+            <div class="title-with-link">
+                <h2 class="section__title--sub">Zoom Link</h2>
+                <a href="">Bearbeiten</a>
+            </div>
+            <a href="">Linkslinkrechts</a>
+        </div>
+    </section>
 </main>
 <footer>
     <div class="footer__top">
         <div class="footer__top__content">
             <div class="footer__top__content__right">
-                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -105,10 +173,12 @@ description: Backend-View for Trainers shows details of a specific training
             </div>
             <div class="footer__top__content__left">
                 <h2>Newsletter</h2>
-                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen</p>
+                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
+                    erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
                     <div class="form__field">
-                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr
+                                title="required">*</abbr></label>
                         <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
                     </div>
                     <div class="form__field">
