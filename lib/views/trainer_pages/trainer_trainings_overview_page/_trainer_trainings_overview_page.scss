@@ -60,7 +60,7 @@
 .tile-grid--md {
   display: grid;
   grid-column-gap: $spacer-md;
-  grid-row-gap: $spacer-base;
+  grid-row-gap: $spacer-lg;
   width: 100%;
 }
 
@@ -94,6 +94,88 @@
 }
 
 .resource-list {
+  margin-bottom: 0;
+  padding-left: 1rem;
+  font-size: $font-size-md;
+
+  li {
+    padding-left: 1rem;
+
+    &::marker {
+      content: "—";
+      color: $brand-secondary;
+    }
+  }
+}
+
+.training-checklist {
+  counter-reset: counter;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.training-checklist__item {
+  counter-increment: counter;
+  display: flex;
+  padding: $spacer-xs;
+  border: 2px solid $brand-sand;
+
+  &::before {
+    content: counter(counter);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: $spacer-base;
+    height: $spacer-base;
+    margin-right: $spacer-sm;
+
+    font-size: $font-size-base;
+    line-height: 1;
+    color: $brand-white;
+
+    background-color: $brand-text;
+    border-radius: 50%;
+  }
+}
+
+.training-checklist__item__wrapper {
+  margin-top: $spacer-2xs;
+}
+
+.training-checklist__item__title {
+  @extend %heading-font-regular;
+
+  margin-bottom: 0;
+  font-size: $font-size-base;
+}
+
+.training-checklist__item__caption {
+  margin-top: $spacer-2xs;
+  margin-bottom: 0;
+  font-size: $font-size-md;
+}
+
+.training-checklist__item__link {
+  margin-top: $spacer-sm;
+
+  color: $brand-text;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
+
+  transition: all 0.1s ease-out;
+
+  &:hover {
+    text-decoration-color: $brand-primary-light;
+  }
+}
+
+.training-checklist__item__list {
+  margin-top: $spacer-sm;
+  margin-bottom: 0;
   padding-left: 1rem;
   font-size: $font-size-md;
 

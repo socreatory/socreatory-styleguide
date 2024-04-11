@@ -149,6 +149,30 @@ description: Backend-View for Trainers shows details of a specific training
             <a href="">Linkslinkrechts</a>
         </div>
     </section>
+    <div class="title-with-link m-t-lg">
+        <h2 class="section__title--sub">Vorab-Checkliste</h2>
+        <a href="">Bearbeiten</a>
+    </div>
+    <ol class="tile-grid--sm training-checklist">
+        <li class="training-checklist__item">
+            <div class="training-checklist__item__wrapper">
+                <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
+                <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
+                <a href="#" class="training-checklist__item__link">Link</a>
+            </div>
+        </li>
+        <li class="training-checklist__item">
+            <div class="training-checklist__item__wrapper">
+                <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
+                <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
+                <ul class="training-checklist__item__list">
+                    <li class="training-checklist__item__list__item">Node</li>
+                    <li class="training-checklist__item__list__item">Git</li>
+                    <li class="training-checklist__item__list__item">kaffee</li>
+                </ul>
+            </div>
+        </li>
+    </ol>
 </main>
 <footer>
     <div class="footer__top">
