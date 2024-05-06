@@ -10,9 +10,7 @@
 }
 
 .breadcrumb__list {
-  margin-bottom: 0;
-  padding: 0;
-  list-style: none;
+  @extend %list-unstyled;
 }
 
 /* Display list items side by side */

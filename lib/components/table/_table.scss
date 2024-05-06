@@ -68,3 +68,11 @@
     text-underline-offset: $spacer-3xs;
   }
 }
+
+.table__list--unstyled {
+  @extend %list-unstyled;
+
+  > * + * {
+    margin-top: $spacer-3xs;
+  }
+}
