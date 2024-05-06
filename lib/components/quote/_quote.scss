@@ -11,7 +11,7 @@
 .quote__blockquote {
   @extend %body-font-bold;
 
-  margin: 0 0 $spacer-base 0;
+  margin: 0 0 $spacer-base;
   font-size: $font-size-xl;
   line-height: $paragraph-line-height;
   hyphens: auto;
