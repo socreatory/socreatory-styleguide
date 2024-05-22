@@ -74,3 +74,12 @@ input[type="radio"] {
 label {
   cursor: pointer;
 }
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: $spacer-xs;
+
+  font-size: $font-size-md;
+}

@@ -74,6 +74,20 @@
   }
 }
 
+.btn--form {
+  @extend %base-button;
+
+  font-size: $font-size-md;
+  color: $brand-text;
+  background-color: $brand-primary;
+
+  &:hover,
+  &:focus {
+    color: $brand-background;
+    background-color: $brand-text;
+  }
+}
+
 .btn-state--disabled {
   background-color: $brand-gray-1;
   border-color: $brand-gray-1;

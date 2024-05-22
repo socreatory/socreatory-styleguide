@@ -41,8 +41,8 @@
 @include for-tablet-portrait-up {
   .tuple-list__entry {
     display: grid;
-    grid-template-areas: "label value";
-    grid-template-columns: 14% auto;
+    grid-template-areas: "label value edit";
+    grid-template-columns: 16% auto auto;
     grid-template-rows: auto;
     gap: $spacer-md;
   }
@@ -53,6 +53,10 @@
 
   .tuple-list__value {
     grid-area: value;
+  }
+
+  .form-control {
+    grid-area: edit;
   }
 }
 
@@ -78,7 +82,6 @@
   }
 
   > * {
-    display: block;
     margin-bottom: 0; //TODO Refactor
   }
 }
@@ -106,6 +109,12 @@
       color: $brand-secondary;
     }
   }
+}
+
+.resource-list__item {
+  display: flex;
+  flex-direction: row;
+  gap: $spacer-md;
 }
 
 .training-checklist {
@@ -143,6 +152,10 @@
 
 .training-checklist__item__wrapper {
   margin-top: $spacer-2xs;
+
+  .form-control {
+    margin-top: $spacer-lg;
+  }
 }
 
 .training-checklist__item__title {
