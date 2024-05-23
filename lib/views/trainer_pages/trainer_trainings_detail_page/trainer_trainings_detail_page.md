@@ -208,7 +208,6 @@ description: Backend-View for Trainers shows details of a specific training
                     <button class="btn--form" type="submit">Delete</button>
                 </form>
             </div>
-            <a href="#">Edit</a>
         </div>
     </section>
     <h2 class="section__title--sub m-t-lg">Vorab-Checkliste</h2>
@@ -234,21 +233,22 @@ description: Backend-View for Trainers shows details of a specific training
             <div class="training-checklist__item__wrapper">
                 <div class="training-checklist__item__body">
                     <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                    <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
-                    <ul class="training-checklist__item__list">
-                        <li class="training-checklist__item__list__item">Node</li>
-                        <li class="training-checklist__item__list__item">Git</li>
-                        <li class="training-checklist__item__list__item">kaffee</li>
+                    <p>Wichtiger Hinweis-Text</p>
+                    <ul>
+                        <li>Node</li>
+                        <li>Git</li>
+                        <li>kaffee</li>
                     </ul>
-                    <div class="training-checklist__item__footer">
-                        <div class="form-control">
-                            <a href="#">Edit</a>
-                            <form class="button_to" method="post" action="#">
-                                <button class="btn--form" type="submit">Delete</button>
-                            </form>
-                        </div>
+                </div>
+                <div class="training-checklist__item__footer">
+                    <div class="form-control">
+                        <a href="#">Edit</a>
+                        <form class="button_to" method="post" action="#">
+                            <button class="btn--form" type="submit">Delete</button>
+                        </form>
                     </div>
                 </div>
+            </div>
             </div>
         </li>
     </ol>

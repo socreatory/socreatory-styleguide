@@ -91,20 +91,14 @@
   }
 }
 
-.title-with-link {
-  display: flex;
-  gap: $spacer-2xs;
-  align-items: center;
-
-  a {
-    font-size: $font-size-sm;
-  }
-}
-
 .resource-list {
   margin-bottom: 0;
   padding-left: 1rem;
   font-size: $font-size-md;
+
+  > * + * {
+    margin-top: $spacer-xs;
+  }
 
   li {
     padding-left: 1rem;
@@ -159,6 +153,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: $spacer-sm;
   margin-top: $spacer-2xs;
 }
 
@@ -169,39 +164,41 @@
   font-size: $font-size-base;
 }
 
-.training-checklist__item__caption {
-  margin-top: $spacer-2xs;
-  margin-bottom: 0;
-  font-size: $font-size-md;
-}
-
-.training-checklist__item__link {
-  margin-top: $spacer-sm;
-
-  color: $brand-text;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
-
-  transition: all 0.1s ease-out;
-
-  &:hover {
-    text-decoration-color: $brand-primary-light;
+.training-checklist__item__body {
+  p {
+    margin-top: $spacer-2xs;
+    margin-bottom: 0;
+    font-size: $font-size-md;
   }
-}
 
-.training-checklist__item__list {
-  margin-top: $spacer-sm;
-  margin-bottom: 0;
-  padding-left: 1rem;
-  font-size: $font-size-md;
+  a {
+    margin-top: $spacer-sm;
 
-  li {
+    color: $brand-text;
+    text-decoration-color: $brand-primary;
+    text-decoration-thickness: $spacer-3xs;
+    text-underline-offset: $spacer-3xs;
+
+    transition: all 0.1s ease-out;
+
+    &:hover {
+      text-decoration-color: $brand-primary-light;
+    }
+  }
+
+  ul {
+    margin-top: $spacer-sm;
+    margin-bottom: 0;
     padding-left: 1rem;
+    font-size: $font-size-md;
 
-    &::marker {
-      content: "—";
-      color: $brand-secondary;
+    li {
+      padding-left: 1rem;
+
+      &::marker {
+        content: "—";
+        color: $brand-secondary;
+      }
     }
   }
 }
