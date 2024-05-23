@@ -152,8 +152,9 @@
 .training-checklist__item__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: $spacer-sm;
+  justify-content: space-between;
+
   margin-top: $spacer-2xs;
 }
 
