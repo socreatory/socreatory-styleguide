@@ -84,6 +84,11 @@
   > * {
     margin-bottom: 0; //TODO Refactor
   }
+
+  > a {
+    display: block;
+    margin-top: $spacer-sm;
+  }
 }
 
 .title-with-link {
@@ -151,11 +156,10 @@
 }
 
 .training-checklist__item__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: $spacer-2xs;
-
-  .form-control {
-    margin-top: $spacer-lg;
-  }
 }
 
 .training-checklist__item__title {

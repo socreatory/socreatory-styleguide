@@ -133,6 +133,7 @@ description: Backend-View for Trainers shows details of a specific training
                     </div>
                 </li>
             </ul>
+            <a href="#">Edit</a>
         </div>
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Wichtige Links</h2>
@@ -182,11 +183,15 @@ description: Backend-View for Trainers shows details of a specific training
                     </div>
                 </li>
             </ul>
+            <a href="#">Edit</a>
         </div>
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Hinweise</h2>
-            <p class="paragraph--medium">Hier steht ein Freitext, der weitere Hinweise enthält, die man ausfüllen kann.
-                Oder auch nicht.</p>
+            <div class="markdown-text--medium">
+                <p>Hier steht ein Freitext, der weitere Hinweise enthält, die man ausfüllen
+                    kann.
+                    Oder auch nicht.</p>
+            </div>
             <div class="form-control">
                 <a href="#">Edit</a>
                 <form class="button_to" method="post" action="#">
@@ -203,41 +208,51 @@ description: Backend-View for Trainers shows details of a specific training
                     <button class="btn--form" type="submit">Delete</button>
                 </form>
             </div>
+            <a href="#">Edit</a>
         </div>
     </section>
     <h2 class="section__title--sub m-t-lg">Vorab-Checkliste</h2>
     <ol class="tile-grid--sm training-checklist">
         <li class="training-checklist__item">
             <div class="training-checklist__item__wrapper">
-                <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
-                <a href="#" class="training-checklist__item__link">Link</a>
-                <div class="form-control">
-                    <a href="#">Edit</a>
-                    <form class="button_to" method="post" action="#">
-                        <button class="btn--form" type="submit">Delete</button>
-                    </form>
+                <div class="training-checklist__item__body">
+                    <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
+                    <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
+                    <a href="#" class="training-checklist__item__link">Link</a>
+                </div>
+                <div class="training-checklist__item__footer">
+                    <div class="form-control">
+                        <a href="#">Edit</a>
+                        <form class="button_to" method="post" action="#">
+                            <button class="btn--form" type="submit">Delete</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </li>
         <li class="training-checklist__item">
             <div class="training-checklist__item__wrapper">
-                <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
-                <ul class="training-checklist__item__list">
-                    <li class="training-checklist__item__list__item">Node</li>
-                    <li class="training-checklist__item__list__item">Git</li>
-                    <li class="training-checklist__item__list__item">kaffee</li>
-                </ul>
-                <div class="form-control">
-                    <a href="#">Edit</a>
-                    <form class="button_to" method="post" action="#">
-                        <button class="btn--form" type="submit">Delete</button>
-                    </form>
+                <div class="training-checklist__item__body">
+                    <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
+                    <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
+                    <ul class="training-checklist__item__list">
+                        <li class="training-checklist__item__list__item">Node</li>
+                        <li class="training-checklist__item__list__item">Git</li>
+                        <li class="training-checklist__item__list__item">kaffee</li>
+                    </ul>
+                    <div class="training-checklist__item__footer">
+                        <div class="form-control">
+                            <a href="#">Edit</a>
+                            <form class="button_to" method="post" action="#">
+                                <button class="btn--form" type="submit">Delete</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </li>
     </ol>
+    <a href="#">Edit</a>
 </main>
 <footer>
     <div class="footer__top">

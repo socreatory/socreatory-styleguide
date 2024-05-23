@@ -135,3 +135,9 @@ p {
     }
   }
 }
+
+.markdown-text--medium {
+  > * {
+    font-size: $font-size-md;
+  }
+}
