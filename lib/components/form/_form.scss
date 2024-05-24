@@ -9,6 +9,12 @@
   }
 }
 
+.form--spacing-sm {
+  > * + * {
+    margin-top: $spacer-3xs;
+  }
+}
+
 .form__field {
   display: inline-block;
   width: 100%;
@@ -18,8 +24,37 @@
   }
 }
 
+.form__field--sm {
+  display: inline-block;
+  width: 100%;
+
+  // > * + * {
+  //   margin-top: $spacer-3xs;
+  // }
+}
+
 .form__field--is-invalid {
   color: $brand-error;
+}
+
+.field__size--full {
+  width: 100%;
+}
+
+.field__size--half {
+  @include for-tablet-portrait-up {
+    width: 47%;
+  }
+
+  width: 100%;
+}
+
+.form__field--invisible {
+  display: none;
+}
+
+label {
+  cursor: pointer;
 }
 
 .form__label {
@@ -41,29 +76,19 @@
   transition: all 0.15s ease-out;
 }
 
+.form__input--small {
+  padding: $spacer-3xs;
+  font-size: $font-size-md;
+}
+
 .form__input:focus {
   background-color: $brand-background;
   outline: none;
 }
 
-.field__size--full {
-  width: 100%;
-}
-
-.field__size--half {
-  @include for-tablet-portrait-up {
-    width: 47%;
-  }
-
-  width: 100%;
-}
-
 .form__textarea {
   resize: none;
-}
-
-.form__field--invisible {
-  display: none;
+  width: 100%;
 }
 
 // Trainings Overview
@@ -71,10 +96,7 @@ input[type="radio"] {
   display: none;
 }
 
-label {
-  cursor: pointer;
-}
-
+//Button Group
 .form-control {
   display: flex;
   flex-direction: row;
@@ -82,4 +104,8 @@ label {
   gap: $spacer-xs;
 
   font-size: $font-size-md;
+
+  form {
+    display: flex;
+  }
 }

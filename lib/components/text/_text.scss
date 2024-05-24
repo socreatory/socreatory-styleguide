@@ -138,6 +138,11 @@ p {
 
 .markdown-text--medium {
   > * {
+    margin-bottom: 0;
     font-size: $font-size-md;
+  }
+
+  > * + * {
+    margin-top: $spacer-xs;
   }
 }

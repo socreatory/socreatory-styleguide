@@ -27,6 +27,7 @@
   @extend %heading-font-bold;
 
   display: block;
+  grid-area: label;
   color: $brand-text;
   text-transform: uppercase;
 }
@@ -35,29 +36,22 @@
   @extend %heading-font-regular;
 
   display: block;
+  grid-area: value;
+  font-size: $font-size-md;
   line-height: $paragraph-line-height-sm;
 }
 
-@include for-tablet-portrait-up {
-  .tuple-list__entry {
-    display: grid;
-    grid-template-areas: "label value edit";
-    grid-template-columns: 16% auto auto;
-    grid-template-rows: auto;
-    gap: $spacer-md;
-  }
+.tuple-list__entry {
+  display: grid;
+  grid-template-areas: "label value edit";
+  grid-template-columns: 16% auto auto;
+  grid-template-rows: auto;
+  gap: $spacer-md;
+  align-items: baseline;
+}
 
-  .tuple-list__label {
-    grid-area: label;
-  }
-
-  .tuple-list__value {
-    grid-area: value;
-  }
-
-  .form-control {
-    grid-area: edit;
-  }
+.form-control {
+  grid-area: edit;
 }
 
 .tile-grid--sm,
@@ -78,7 +72,7 @@
 
 .tile-grid__wrapper {
   > * + * {
-    margin-top: $spacer-xs;
+    margin-top: $spacer-sm;
   }
 
   > * {
@@ -87,7 +81,7 @@
 
   > a {
     display: block;
-    margin-top: $spacer-sm;
+    margin-top: $spacer-xs;
   }
 }
 

@@ -102,9 +102,9 @@ description: Backend-View for Trainers shows details of a specific training
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                     <div class="form-control">
-                        <a href="#">Edit</a>
+                        <a href="#" class="btn--form btn--form--secondary">Edit</a>
                         <form class="button_to" method="post" action="#">
-                            <button class="btn--form" type="submit">Delete</button>
+                            <button class="btn--form btn--form--black" type="submit">Delete</button>
                         </form>
                     </div>
                 </li>
@@ -114,9 +114,9 @@ description: Backend-View for Trainers shows details of a specific training
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                     <div class="form-control">
-                        <a href="#">Edit</a>
+                        <a href="#" class="btn--form btn--form--secondary">Edit</a>
                         <form class="button_to" method="post" action="#">
-                            <button class="btn--form" type="submit">Delete</button>
+                            <button class="btn--form btn--form--black" type="submit">Delete</button>
                         </form>
                     </div>
                 </li>
@@ -126,14 +126,55 @@ description: Backend-View for Trainers shows details of a specific training
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                     <div class="form-control">
-                        <a href="#">Edit</a>
+                        <a href="#" class="btn--form btn--form--secondary">Edit</a>
                         <form class="button_to" method="post" action="#">
-                            <button class="btn--form" type="submit">Delete</button>
+                            <button class="btn--form btn--form--black type=" submit">Delete</button>
                         </form>
                     </div>
                 </li>
             </ul>
             <a href="#">Edit</a>
+            <form class="form form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
+                action="/admin/events/77135c78eded/checklist_items/1?locale=de" accept-charset="UTF-8" method="post">
+                <input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden"
+                    name="authenticity_token"
+                    value="43xW4wq5K9aKYNfYtZPUR2QuTGrOv6yW8fsaZQI-bBNymXjxLWaum-3gfxQnWijvewEwvR8l-_0Z4_lK83FyjQ"
+                    autocomplete="off" />
+                <div class="form__field--sm">
+                    <input class="form__input form__input--small" autocomplete="off" type="hidden" value="534854"
+                        name="checklist_item[event_id]" id="checklist_item_event_id" />
+                </div>
+                <div class="form__field--sm">
+                    <label class="form__label" for="checklist_item_item_title_de">Item title (DE)</label>
+                    <input class="form__input form__input--small" type="text" value="Meine Liste"
+                        name="checklist_item[item_title_de]" id="checklist_item_item_title_de" />
+                </div>
+                <div class="form__field--sm">
+                    <label class="form__label" for="checklist_item_item_title_en">Item title (EN)</label>
+                    <input class="form__input form__input--small" type="text" value="My List"
+                        name="checklist_item[item_title_en]" id="checklist_item_item_title_en" />
+                </div>
+                <div class="form__field--sm">
+                    <label class="form__label" for="checklist_item_item_description_de">Item description (DE)</label>
+                    <textarea class="form__textarea form__input form__input--small" rows="4"
+                        name="checklist_item[item_description_de]"
+                        id="checklist_item_item_description_de">Test</textarea>
+                </div>
+                <div class="form__field--sm">
+                    <label class="form__label" for="checklist_item_item_description_en">Item description
+                        (EN)</label>
+                    <textarea class="form__textarea form__input form__input--small" rows="4"
+                        name="checklist_item[item_description_en]"
+                        id="checklist_item_item_description_en">Test</textarea>
+                </div>
+                <div class="form-control">
+                    <a class="btn--form btn--form--black" href="" #"">Abbrechen</a>
+                    <form class="button_to" method="post" action="#">
+                        <input type="submit" name="commit" value="Aktualisieren" class="btn--form btn--form--secondary"
+                            data-disable-with="Aktuaelisieren" />
+                    </form>
+                </div>
+            </form>
         </div>
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Wichtige Links</h2>
@@ -142,9 +183,9 @@ description: Backend-View for Trainers shows details of a specific training
                     <div class="resource-list__item">
                         <a href="#">Wichtiger Link</a>
                         <div class="form-control">
-                            <a href="#">Edit</a>
+                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
                             <form class="button_to" method="post" action="#">
-                                <button class="btn--form" type="submit">Delete</button>
+                                <button class="btn--form btn--form--black" type="submit">Delete</button>
                             </form>
                         </div>
                     </div>
@@ -153,9 +194,9 @@ description: Backend-View for Trainers shows details of a specific training
                     <div class="resource-list__item">
                         <a href="#">Wichtiger Link</a>
                         <div class="form-control">
-                            <a href="#">Edit</a>
+                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
                             <form class="button_to" method="post" action="#">
-                                <button class="btn--form" type="submit">Delete</button>
+                                <button class="btn--form btn--form--black" type="submit">Delete</button>
                             </form>
                         </div>
                     </div>
@@ -164,9 +205,9 @@ description: Backend-View for Trainers shows details of a specific training
                     <div class="resource-list__item">
                         <a href="#">Wichtiger Link</a>
                         <div class="form-control">
-                            <a href="#">Edit</a>
+                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
                             <form class="button_to" method="post" action="#">
-                                <button class="btn--form" type="submit">Delete</button>
+                                <button class="btn--form btn--form--black" type="submit">Delete</button>
                             </form>
                         </div>
                     </div>
@@ -175,9 +216,9 @@ description: Backend-View for Trainers shows details of a specific training
                     <div class="resource-list__item">
                         <a href="#">Wichtiger Link</a>
                         <div class="form-control">
-                            <a href="#">Edit</a>
+                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
                             <form class="button_to" method="post" action="#">
-                                <button class="btn--form" type="submit">Delete</button>
+                                <button class="btn--form btn--form--black" type="submit">Delete</button>
                             </form>
                         </div>
                     </div>
@@ -193,9 +234,9 @@ description: Backend-View for Trainers shows details of a specific training
                     Oder auch nicht.</p>
             </div>
             <div class="form-control">
-                <a href="#">Edit</a>
+                <a href="#" class="btn--form btn--form--secondary">Edit</a>
                 <form class="button_to" method="post" action="#">
-                    <button class="btn--form" type="submit">Delete</button>
+                    <button class="btn--form btn--form--black" type="submit">Delete</button>
                 </form>
             </div>
         </div>
@@ -203,9 +244,9 @@ description: Backend-View for Trainers shows details of a specific training
             <h2 class="section__title--sub">Zoom Link</h2>
             <a href="">Linkslinkrechts</a>
             <div class="form-control">
-                <a href="#">Edit</a>
+                <a href="#" class="btn--form btn--form--secondary">Edit</a>
                 <form class="button_to" method="post" action="#">
-                    <button class="btn--form" type="submit">Delete</button>
+                    <button class="btn--form btn--form--black" type="submit">Delete</button>
                 </form>
             </div>
         </div>
@@ -221,9 +262,9 @@ description: Backend-View for Trainers shows details of a specific training
                 </div>
                 <div class="training-checklist__item__footer">
                     <div class="form-control">
-                        <a href="#">Edit</a>
+                        <a href="#" class="btn--form btn--form--secondary">Edit</a>
                         <form class="button_to" method="post" action="#">
-                            <button class="btn--form" type="submit">Delete</button>
+                            <button class="btn--form btn--form--black" type="submit">Delete</button>
                         </form>
                     </div>
                 </div>
@@ -242,9 +283,9 @@ description: Backend-View for Trainers shows details of a specific training
                 </div>
                 <div class="training-checklist__item__footer">
                     <div class="form-control">
-                        <a href="#">Edit</a>
+                        <a href="#" class="btn--form btn--form--secondary">Edit</a>
                         <form class="button_to" method="post" action="#">
-                            <button class="btn--form" type="submit">Delete</button>
+                            <button class="btn--form btn--form--black" type="submit">Delete</button>
                         </form>
                     </div>
                 </div>
