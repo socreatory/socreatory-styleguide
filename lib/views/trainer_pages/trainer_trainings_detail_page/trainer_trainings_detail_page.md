@@ -133,8 +133,7 @@ description: Backend-View for Trainers shows details of a specific training
                     </div>
                 </li>
             </ul>
-            <a href="#">Edit</a>
-            <form class="form form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
+            <form class="form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
                 action="/admin/events/77135c78eded/checklist_items/1?locale=de" accept-charset="UTF-8" method="post">
                 <input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden"
                     name="authenticity_token"
@@ -169,12 +168,11 @@ description: Backend-View for Trainers shows details of a specific training
                 </div>
                 <div class="form-control">
                     <a class="btn--form btn--form--black" href="" #"">Abbrechen</a>
-                    <form class="button_to" method="post" action="#">
-                        <input type="submit" name="commit" value="Aktualisieren" class="btn--form btn--form--secondary"
-                            data-disable-with="Aktuaelisieren" />
-                    </form>
+                    <input type="submit" name="commit" value="Aktualisieren" class="btn--form btn--form--secondary"
+                        data-disable-with="Aktuaelisieren" />
                 </div>
             </form>
+            <a href="#">Edit</a>
         </div>
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Wichtige Links</h2>
