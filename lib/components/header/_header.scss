@@ -1,33 +1,39 @@
 //TODO: Refactor
 .header {
-  padding: $spacer-lg 0 $spacer-lg 0;
-
-  > * + * {
-    /* stylelint-disable-next-line declaration-no-important */
-    margin-top: $spacer-base !important;
-  }
-
-  .container__fullwidth {
-    > * {
-      margin-bottom: 0;
-    }
-    /* stylelint-disable-next-line selector-max-compound-selectors */
-    > * + * {
-      margin-top: $spacer-sm;
-    }
-  }
+  background-color: $brand-white;
 }
 
-.header--breadcrumb {
-  padding: $spacer-md 0 $spacer-md 0;
+.header-color--highlighted-1 {
+  background-color: $brand-primary-light;
 }
 
-.header__heading {
+.header-color--highlighted-2 {
+  background-color: $brand-secondary-light;
+}
+
+.header-color--highlighted-3 {
+  background-color: $brand-tertiary-light;
+}
+
+.header__wrapper {
+  @extend %container;
+  @extend %container--xl;
+  @extend %container-vertical-spacing-lg;
+}
+
+h1.header__heading {
+  @include for-tablet-portrait-up {
+    margin-top: $spacer-xl;
+  }
+
   font-size: $font-size-xxl;
   line-height: $heading-line-height;
 }
 
 .header__heading--centered {
+  @extend %container--md;
+
+  align-self: center;
   text-align: center;
 }
 
@@ -35,32 +41,37 @@
   margin-bottom: 0;
 }
 
+.header__date {
+  @extend %heading-font-bold;
+
+  font-size: $font-size-xl;
+  line-height: $heading-line-height;
+}
+
 .header__image {
   @include for-tablet-portrait-up {
-    max-width: 60%;
+    max-width: 30%;
   }
 
   display: block;
-  max-width: 70%;
-  margin: 0 auto $spacer-lg;
+  align-self: center;
+  max-width: 50%;
 }
 
 .header__logogrid {
   @include for-tablet-landscape-up {
-    grid-template-areas: "left right";
-    grid-template-columns: 2fr 1fr;
-    gap: 6.25rem;
+    flex-direction: row;
+    gap: $spacer-base;
+    align-items: baseline;
+    justify-content: space-between;
   }
 
-  display: grid;
-  grid-template-areas:
-    "left"
-    "right";
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: $spacer-md;
-  align-items: center;
-  /* stylelint-disable-next-line declaration-no-important */
-  margin-top: $spacer-xl !important;
+
+  width: 100%;
+  margin-top: $spacer-xl;
 }
 
 .logogrid__left {
@@ -74,16 +85,4 @@
 .header__logo {
   height: 1.5rem;
   margin-right: $spacer-base * 0.7;
-}
-
-.header-color--highlighted-1 {
-  background-color: $brand-primary-light;
-}
-
-.header-color--highlighted-2 {
-  background-color: $brand-secondary-light;
-}
-
-.header-color--highlighted-3 {
-  background-color: $brand-tertiary-light;
 }

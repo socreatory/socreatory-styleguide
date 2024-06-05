@@ -31,16 +31,14 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header ">
-    <div class="container__fullwidth">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> iSAQB</li>
             </ul>
         </div>
-    </div>
-    <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Ausbildungnachisaqb.png" alt="" />
         <h1 class="header__heading header__heading--centered">International anerkannte Weiterbildung für Menschen, die an Software arbeiten</h1>
     </div>

@@ -1,3 +1,14 @@
+sup,
+sub {
+  position: relative;
+  top: -0.4em;
+  vertical-align: baseline;
+}
+
+sub {
+  top: 0.4em;
+}
+
 p {
   font-size: $font-size-base;
   hyphens: auto;
@@ -26,6 +37,10 @@ p {
 
     background-color: $brand-secondary;
   }
+}
+
+.paragraph__pre {
+  white-space: break-spaces;
 }
 
 // Bilder innerhalb von Markdown einfärben
@@ -83,7 +98,6 @@ p {
   display: grid;
   grid-gap: $spacer-2xs;
   grid-template-columns: 1fr;
-  margin-bottom: $spacer-lg;
 }
 
 .img-text__image {

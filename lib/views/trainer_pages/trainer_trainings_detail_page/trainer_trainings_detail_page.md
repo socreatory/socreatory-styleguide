@@ -36,8 +36,8 @@ description: Backend-View for Trainers shows details of a specific training
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb ">
-    <div class="container">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>

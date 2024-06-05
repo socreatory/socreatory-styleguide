@@ -31,16 +31,14 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header ">
-    <div class="container__fullwidth">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Über uns</li>
             </ul>
         </div>
-    </div>
-    <div class="container__centered">
         <img class="header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
         <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran kannst du uns messen.</h1>
     </div>

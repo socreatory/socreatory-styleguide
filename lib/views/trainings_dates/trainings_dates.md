@@ -32,15 +32,13 @@ description: Description
 </scroll-nav>
 
 <header class="header">
-    <div class="container__fullwidth">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Early Bird Angebote</li>
             </ul>
         </div>
-    </div>
-    <div class="container__centered">
         <img class="textcolumn__img" src="/snippet/images/illustrations/iconearlybird.png" />
         <h1 class="header__heading header__heading--centered">Unsere Early Bird Angebote</h1>
     </div>

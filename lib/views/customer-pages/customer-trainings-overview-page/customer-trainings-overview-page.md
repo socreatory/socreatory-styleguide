@@ -1,5 +1,5 @@
-title: Customer Trainings Page
-description: Customer Trainings Page
+title: Customer Trainings Overview Page
+description: Customer Trainings Overview Page
 
 ```html
 <scroll-nav>
@@ -35,8 +35,8 @@ description: Customer Trainings Page
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb ">
-    <div class="container container--xl">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>

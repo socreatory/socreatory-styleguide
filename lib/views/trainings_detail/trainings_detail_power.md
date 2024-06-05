@@ -38,7 +38,7 @@ description: Show Training Detail Powerworkshop
 </scroll-nav>
 
 <header class="header header-color--highlighted-3">
-    <div class="container__fullwidth">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>

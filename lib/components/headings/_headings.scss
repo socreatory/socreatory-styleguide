@@ -7,7 +7,7 @@ h6 {
   @extend %heading-font-bold;
 
   margin: 0;
-  margin-bottom: $spacer-sm;
+  margin-bottom: 0;
   line-height: $heading-line-height;
 }
 
@@ -44,9 +44,6 @@ h3 {
 }
 
 .section__title--bigcentered {
-  margin-bottom: $spacer-sm;
-  margin-left: -0.2rem;
-
   font-size: $font-size-xxl;
   line-height: $heading-line-height;
   text-align: center;

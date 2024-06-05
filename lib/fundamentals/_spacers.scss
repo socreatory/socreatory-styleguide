@@ -9,18 +9,6 @@ $spacer-xl: 3.875rem;
 $spacer-2xl: 8rem;
 $spacer-3xl: 16rem;
 
-.gap-1 {
-  gap: $spacer-sm;
-}
-
-.gap-2 {
-  gap: $spacer-md;
-}
-
-.column-gap-1 {
-  column-gap: $spacer-sm;
-}
-
 // Spacers
 .spacer__md {
   margin-bottom: $spacer-md;

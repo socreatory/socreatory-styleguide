@@ -34,8 +34,8 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
     </nav>
 </scroll-nav>
 
-<header class="header--breadcrumb ">
-    <div class="container container--xl">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>

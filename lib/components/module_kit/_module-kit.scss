@@ -1,0 +1,241 @@
+.modulekitsticky {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: $brand-background;
+}
+
+.modulekitheader {
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    gap: $spacer-lg;
+    justify-content: space-between;
+
+    max-width: $tablet-landscape;
+    margin-top: $spacer-sm;
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: $spacer-md;
+  align-items: center;
+}
+
+.modulekitheader__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modulekitheader__info {
+  @extend %body-font-regular;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: $font-size-sm;
+  text-align: center;
+}
+
+.modulekitpoints {
+  margin: -1rem 0;
+  font-size: $font-size-xxxl;
+}
+
+.modulekitgrid {
+  @include for-tablet-portrait-up {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: $spacer-sm;
+
+  width: 100%;
+  margin-bottom: $spacer-lg;
+  padding-left: 0;
+}
+
+.modulekitcard {
+  position: relative;
+
+  padding: $spacer-sm;
+
+  list-style: none;
+
+  background-color: $brand-background-dark;
+
+  transition: all 250ms ease;
+}
+
+.modulekitcard:hover {
+  background-color: $brand-primary-light;
+
+  .pill__number--zero {
+    background-color: $brand-primary;
+  }
+
+  .modulekitcard__overlay,
+  .modulekitcard__title,
+  .modulekitcard__subtitle,
+  .pills {
+    opacity: 1;
+  }
+
+  .modulekitcard__zuwenigpunkte {
+    background-color: $brand-primary;
+  }
+}
+
+.modulekitcard--active {
+  background-color: $brand-primary-light;
+
+  .pill__number--zero {
+    background-color: $brand-primary;
+  }
+}
+
+.modulekitcard--disabled {
+  background-color: rgba($brand-background-dark, 0.4);
+
+  .modulekitcard__title,
+  .modulekitcard__subtitle,
+  .pills {
+    opacity: 0.2;
+  }
+}
+
+.modulekitcard__form {
+  height: 100%;
+}
+
+.modulekitcard__body {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+
+  text-decoration: none;
+
+  background: none;
+  border: 0;
+
+  .pills {
+    margin-top: $spacer-sm;
+  }
+}
+
+.modulekitcard__title {
+  font-size: $font-size-lg;
+  color: $brand-text;
+  text-transform: uppercase;
+}
+
+.modulekitcard__subtitle {
+  margin: $spacer-2xs 0;
+  font-size: $font-size-md;
+  line-height: $paragraph-line-height-sm;
+  color: $brand-text;
+}
+
+.modulekitcard__overlay {
+  position: absolute;
+  z-index: 1;
+  top: $spacer-xs * 1.2;
+  right: $spacer-xs * 1.2;
+
+  opacity: 0;
+
+  transition: all 250ms ease;
+}
+
+.modulekitcard__link {
+  display: inline-block;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  background-image: asset-url("icons/link.svg");
+  background-size: cover;
+}
+
+.modulekitcard__link:hover {
+  background-image: asset-url("icons/link--hover.svg");
+}
+
+.modulekitcard__zuwenigpunkte {
+  @extend %monospace-font-regular;
+
+  position: absolute;
+  z-index: 1;
+  right: $spacer-sm;
+  bottom: $spacer-sm;
+
+  display: inline-block;
+
+  margin-bottom: 0;
+  padding: 0.2rem 0.6rem;
+
+  font-size: $font-size-sm;
+  color: $brand-text;
+  text-align: center;
+  letter-spacing: -0.1;
+
+  background-color: $brand-sand;
+  border-radius: $spacer-sm;
+
+  transition: all 250ms ease;
+}
+
+.modulekitkombis__heading {
+  font-size: $font-size-base;
+  text-align: center;
+}
+
+.modulekitkombis__pills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: $spacer-sm;
+  justify-content: center;
+
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.modulekitkombis__pill {
+  @extend %body-font-regular;
+
+  cursor: pointer;
+
+  display: block;
+
+  padding: $spacer-3xs $spacer-xs;
+
+  font-size: $font-size-md;
+  color: $brand-text;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+
+  background: none;
+  border: 1px solid $brand-sand;
+  border-radius: 2rem;
+}
+
+.modulekitkombis__pill:hover {
+  background-color: $brand-primary-light;
+  border: 1px solid $brand-primary-light;
+}

@@ -31,8 +31,8 @@ description: This view shows how the login page should look like
     </nav>
 </scroll-nav>
 
-<header class="header ">
-    <div class="container__fullwidth">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>

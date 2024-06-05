@@ -31,8 +31,8 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header  header__news">
-    <div class="container__fullwidth">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
@@ -40,12 +40,8 @@ description: Description
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>News Detail</li>
             </ul>
         </div>
-    </div>
-    <div class="container__centered">
         <h1 class="header__heading header__heading--centered">News Detail</h1>
-        <div class="news__item">
-            <time class="news__newsdetaildate" datetime="23-02-14"> 14.02.2023 </time>
-        </div>
+        <time class="news__newsdetaildate" datetime="23-02-14"> 14.02.2023 </time>
     </div>
 </header>
 

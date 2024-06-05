@@ -29,3 +29,20 @@
 .m-t-2xl {
   margin-top: $spacer-2xl !important;
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: $spacer-sm;
+}
+
+.gap-2 {
+  gap: $spacer-md;
+}
+
+.column-gap-1 {
+  column-gap: $spacer-sm;
+}
