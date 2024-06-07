@@ -21,6 +21,11 @@
   @extend %container-vertical-spacing-lg;
 }
 
+.header__wrapper--fullwidth {
+  @extend %container;
+  @extend %container-vertical-spacing-lg;
+}
+
 h1.header__heading {
   @include for-tablet-portrait-up {
     margin-top: $spacer-xl;
