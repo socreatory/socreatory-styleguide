@@ -189,7 +189,7 @@ description: Description
             <li><a href="#" class="modulekitkombis__pill">Moderne Architekturstile bauen und betreiben</a></li>
         </ul>
     </div>
-    <section class="container container--xl container-vertical-spacing-xl">
+    <section class="container container--xl container-vertical-spacing-lg">
         <div class="teaser">
             <div class="teaser__column">
                 <img class="teaser__image" src="/snippet/images/illustrations/Kontakt.png">
@@ -203,67 +203,67 @@ description: Description
             </div>
         </div>
     </section>
-    <div class="stripe">
-        <section class="container container--xl container-vertical-spacing-xl">
-            <div class="teaser">
-                <div class="teaser__column">
-                    <h2 class="section__title--normal">Prüfungsvorbereitung Meetup</h2>
-                    <p class="teaser__text">Du möchtest keine FAQs wälzen, sondern würdest Deine Fragen zum
-                        iSAQB<sup>®</sup> Advanced Level und zur Prüfung lieber direkt stellen? Nutze das regelmäßig
-                        stattfindende Meetup unseres Trainers Gerrit Beine, um Dich über die iSAQB<sup>®</sup> Advanced
-                        Level Prüfungsvorbereitung zu informieren. Hier geht es darum, wie die Prüfung formal abläuft,
-                        wie Du Dich darauf vorbereiten kannst und worauf Du achten solltest. Deine Teilnahme ist
-                        kostenfrei, es gelten die in der Meetup-Gruppe beschriebenen Regeln.
-                    <p><a href="https://www.meetup.com/de-DE/isaqb-cpsa-advanced-examination-cpsa-a/events/284842444/?isFirstPublish=true"
-                            target="_blank">Jetzt zum nächsten Termin anmelden</a></p>
-                </div>
-                <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
-                </div>
+
+    <section class="container container--xl container-vertical-spacing-lg">
+        <div class="teaser teaser--reverse">
+            <div class="teaser__column">
+                <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
             </div>
-        </section>
-    </div>
-    <div class="stripe stripe--white-1">
-        <section class="container container--xl container-vertical-spacing-xl">
-            <div class="teaser teaser--reverse">
-                <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
-                </div>
-                <div class="teaser__column">
-                    <h2 class="section__title--normal">Das volle Programm</h2>
-                    <p class="teaser__text">Mit der Software Creators’ Academy bieten wir Dir alles, was Du
-                        brauchst, um
-                        erfolgreich Deine iSAQB<sup>®</sup> CPSA Advanced Level Prüfung abzulegen. Zusätzlich
-                        bieten wir
-                        Dir noch viele andere spannende Trainings. Damit erwirbst Du zwar keine
-                        iSAQB<sup>®</sup>-Punkte, aber jede Menge Praxiswissen für den Alltag. Und damit kann
-                        man
-                        schließlich auch punkten.
-                    </p>
-                    <a href="#" class="btn btn-type--primary ">Alle Trainings</a>
-                </div>
+            <div class="teaser__column">
+                <h2 class="section__title--normal">Prüfungsvorbereitung Meetup</h2>
+                <p class="teaser__text">Du möchtest keine FAQs wälzen, sondern würdest Deine Fragen zum
+                    iSAQB<sup>®</sup> Advanced Level und zur Prüfung lieber direkt stellen? Nutze das regelmäßig
+                    stattfindende Meetup unseres Trainers Gerrit Beine, um Dich über die iSAQB<sup>®</sup> Advanced
+                    Level Prüfungsvorbereitung zu informieren. Hier geht es darum, wie die Prüfung formal abläuft,
+                    wie Du Dich darauf vorbereiten kannst und worauf Du achten solltest. Deine Teilnahme ist
+                    kostenfrei, es gelten die in der Meetup-Gruppe beschriebenen Regeln.
+                <p><a href="https://www.meetup.com/de-DE/isaqb-cpsa-advanced-examination-cpsa-a/events/284842444/?isFirstPublish=true"
+                        target="_blank">Jetzt zum nächsten Termin anmelden</a></p>
             </div>
-        </section>
-    </div>
-    <div class="stripe">
-        <section class="container container--xl container-vertical-spacing-xl">
-            <div class="teaser">
-                <div class="teaser__column">
-                    <img class="teaser__image" src="/snippet/images/illustrations/Ausbildungnachisaqb.png" alt="">
-                </div>
-                <div class="teaser__column">
-                    <h2 class="section__title--normal">Die Ausbildung nach iSAQB<sup>®</sup></h2>
-                    <p class="teaser__text">Erfahre mehr über das ISAQB<sup>®</sup>, die verschiedenen
-                        Ausbildungsstufen
-                        und das Credit Point System. Sollten dann noch Fragen offen sein, helfen Dir
-                        wahrscheinlich
-                        <a href="https://www.socreatory.com/de/isaqb">unsere FAQs</a> weiter.
-                    </p>
-                    <a href="#" class="btn btn-type--primary ">Mehr Infos zum iSAQB<sup>®</sup></a>
-                </div>
+        </div>
+    </section>
+
+
+    <section class="container container--xl container-vertical-spacing-lg">
+        <div class="teaser">
+            <div class="teaser__column">
+                <img class="teaser__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="">
             </div>
-        </section>
-    </div>
+            <div class="teaser__column">
+                <h2 class="section__title--normal">Das volle Programm</h2>
+                <p class="teaser__text">Mit der Software Creators’ Academy bieten wir Dir alles, was Du
+                    brauchst, um
+                    erfolgreich Deine iSAQB<sup>®</sup> CPSA Advanced Level Prüfung abzulegen. Zusätzlich
+                    bieten wir
+                    Dir noch viele andere spannende Trainings. Damit erwirbst Du zwar keine
+                    iSAQB<sup>®</sup>-Punkte, aber jede Menge Praxiswissen für den Alltag. Und damit kann
+                    man
+                    schließlich auch punkten.
+                </p>
+                <a href="#" class="btn btn-type--primary ">Alle Trainings</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container container--xl container-vertical-spacing-lg">
+        <div class="teaser teaser--reverse">
+            <div class="teaser__column">
+                <img class="teaser__image" src="/snippet/images/illustrations/Ausbildungnachisaqb.png" alt="">
+            </div>
+            <div class="teaser__column">
+                <h2 class="section__title--normal">Die Ausbildung nach iSAQB<sup>®</sup></h2>
+                <p class="teaser__text">Erfahre mehr über das ISAQB<sup>®</sup>, die verschiedenen
+                    Ausbildungsstufen
+                    und das Credit Point System. Sollten dann noch Fragen offen sein, helfen Dir
+                    wahrscheinlich
+                    <a href="https://www.socreatory.com/de/isaqb">unsere FAQs</a> weiter.
+                </p>
+                <a href="#" class="btn btn-type--primary ">Mehr Infos zum iSAQB<sup>®</sup></a>
+            </div>
+        </div>
+    </section>
+
 </main>
 <footer>
     <div class="footer__top">

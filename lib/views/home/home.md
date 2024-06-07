@@ -374,7 +374,7 @@ description: Homepage
         <section class="container container--xl container-vertical-spacing-2xl">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img src="/snippet/images/ueber_uns.jpg" alt="">
+                    <img class="" src="/snippet/images/ueber_uns.jpg" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>

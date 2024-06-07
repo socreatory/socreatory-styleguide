@@ -5,11 +5,13 @@ description: Customer Trainings Detail Page
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="announcement">
-            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+            <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link"
+                    href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
         </div>
         <div class="navbar">
             <a href="#" class="navbar__brand-link">
-                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
             </a>
             <a href="#" class="navigation-login">Login</a>
             <input type="checkbox" id="navbar__checkbox" />
@@ -21,8 +23,10 @@ description: Customer Trainings Detail Page
                     <li><a href="#" class="navbar__item">iSAQB</a></li>
                 </ul>
                 <ul class="navigation-meta" role="list" aria-label="Verfügbare Sprachen">
-                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" class="navigation-meta__item">DE</a></li>
-                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English" aria-current="true" class="navigation-meta__item">EN</a></li>
+                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln"
+                            class="navigation-meta__item">DE</a></li>
+                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English"
+                            aria-current="true" class="navigation-meta__item">EN</a></li>
                 </ul>
             </div>
             <label class="navbar__burger" for="navbar__checkbox"></label>
@@ -30,17 +34,35 @@ description: Customer Trainings Detail Page
     </nav>
 </scroll-nav>
 
-<header class="header">
+<header class="header-color--highlighted-1">
     <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Trainingsname</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
+                        href="#"> Trainingsname</a></li>
             </ul>
+        </div>
+        <h1 class="header__heading">Ich bin eine Headline</h1>
+        <p class="header__subheading">Ich bin eine Subheadline</p>
+        <p class="header__date">1.1. bis 12.2. 2024</p>
+        <div class="header__logogrid">
+            <div class="logogrid__left">
+                <div class="pills">
+                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">20</div>
+                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">—</div>
+                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">10</div>
+                </div>
+            </div>
+            <div class="logogrid__right">
+                <div class="header__logos">
+                    <img class="header__logo" src="/snippet/images/logos/embarc_logo.svg">
+                    <img class="header__logo" src="/snippet/images/logos/innoq_logo.svg">
+                </div>
+            </div>
         </div>
     </div>
 </header>
-
 <main class="container container--xl container-vertical-spacing-lg">
     <h2 class="section__title--sub">Vorab-Checkliste</h2>
     <ol class="tile-grid--sm training-checklist">
@@ -73,22 +95,19 @@ description: Customer Trainings Detail Page
             <ul class="tuple-list">
                 <li class="tuple-list__entry">
                     <span class="tuple-list__label">MO 22.12.</span>
-                    <span class="tuple-list__value"
-                        >9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                 </li>
                 <li class="tuple-list__entry">
                     <span class="tuple-list__label">DI 14.9</span>
-                    <span class="tuple-list__value"
-                        >9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                 </li>
                 <li class="tuple-list__entry">
                     <span class="tuple-list__label">Mi 15.9.</span>
-                    <span class="tuple-list__value"
-                        >9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
                         <small>kurze Pausen ca. jede Stunde</small>
                     </span>
                 </li>
@@ -131,24 +150,23 @@ description: Customer Trainings Detail Page
         </div>
     </section>
     <h2 class="section__title--sub m-t-lg">Deiner Trainer:innen</h2>
-    <div class="profiles">
-        <div class="profile">
-            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg" />
+    <ul class="profiles">
+        <li class="profile">
+            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">
             <h3 class="profile__name"><a href="#" class="profile__link">Arne Landwehr</a></h3>
-            <a href="#">Email schreibenk</a>
-        </div>
-        <div class="profile">
-            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg" />
+            <p class="profile__focus">Java & Flexible Architekturen</p>
+        <li class="profile">
+            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">
             <h3 class="profile__name"><a href="#" class="profile__link">Arne Landwehr</a></h3>
-            <a href="#">Email schreiben</a>
-        </div>
-    </div>
+            <p class="profile__focus">Java & Flexible Architekturen</p>
+    </ul>
 </main>
 <footer>
     <div class="footer__top">
         <div class="footer__top__content">
             <div class="footer__top__content__right">
-                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+                <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
+                    alt="Software Creators Academy Logo" />
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -166,10 +184,12 @@ description: Customer Trainings Detail Page
             </div>
             <div class="footer__top__content__left">
                 <h2>Newsletter</h2>
-                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als erste(r) von neuen Angeboten und Themen</p>
+                <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
+                    erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
                     <div class="form__field">
-                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr title="required">*</abbr></label>
+                        <label class="form__label" for="cr_form-input--text8475472">Wie heißt Du? <abbr
+                                title="required">*</abbr></label>
                         <input class="form__input" type="text" name="1121423" id="cr_form-input--text8475472" />
                     </div>
                     <div class="form__field">

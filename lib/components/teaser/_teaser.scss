@@ -1,13 +1,13 @@
 // Komponente Teaser (2spalter auf Home)
 .teaser {
   @include for-tablet-landscape-up {
+    flex-direction: row;
     row-gap: $spacer-md;
     column-gap: $spacer-2xl;
   }
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: $spacer-md;
 }
 
@@ -19,11 +19,11 @@
 
 // linke oder rechte Spalte
 .teaser__column {
-  @include for-tablet-landscape-up {
-    width: 45%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
 
-  flex-grow: 1;
   width: 100%;
 
   > * {
@@ -36,7 +36,11 @@
 }
 
 .teaser__image {
+  @include for-tablet-portrait-up {
+    width: 20rem;
+  }
+
   display: block;
-  max-width: 75%;
+  width: 15rem;
   margin: 0 auto;
 }

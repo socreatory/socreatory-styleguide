@@ -39,11 +39,6 @@
   text-align: center;
 }
 
-.modulekitpoints {
-  margin: -1rem 0;
-  font-size: $font-size-xxxl;
-}
-
 .modulekitgrid {
   @include for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr;
@@ -59,7 +54,6 @@
   gap: $spacer-sm;
 
   width: 100%;
-  margin-bottom: $spacer-lg;
   padding-left: 0;
 }
 
