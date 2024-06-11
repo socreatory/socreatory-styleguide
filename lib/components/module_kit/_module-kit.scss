@@ -60,6 +60,7 @@
 .modulekitcard {
   position: relative;
 
+  min-height: 11rem;
   padding: $spacer-sm;
 
   list-style: none;
@@ -125,7 +126,15 @@
 
   background: none;
   border: 0;
+}
 
+.modulekitcard__body__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modulekitcard__body__footer {
   .pills {
     margin-top: $spacer-sm;
   }
@@ -141,9 +150,12 @@
   @extend %body-font-regular;
 
   margin-top: $spacer-2xs;
+  margin-bottom: 0;
+
   font-size: $font-size-md;
   line-height: $paragraph-line-height-sm;
   color: $brand-text;
+  text-align: left;
 }
 
 .modulekitcard__overlay {

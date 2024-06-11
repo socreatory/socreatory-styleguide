@@ -124,6 +124,10 @@
   list-style: none;
 }
 
+.training-checklist__frame {
+  width: 100%;
+}
+
 .training-checklist__item {
   counter-increment: counter;
   display: flex;

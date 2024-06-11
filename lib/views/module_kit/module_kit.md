@@ -106,18 +106,22 @@ description: Description
         <ul class="modulekitgrid">
             <li class="modulekitcard modulekitcard--disabled">
                 <form class="modulekitcard__form">
-                    <button class="modulekitcard__body">
-                        <h3 class="modulekitcard__title">Agila</h3>
-                        <p class="modulekitcard__subtitle">Agile Software Architektur</p>
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span
-                                    class="pill__number pill__number--zero">20
-                            </div>
-                            <div class="pill"><span class="pill__label">M</span><span
-                                    class="pill__number pill__number--zero">—
-                            </div>
-                            <div class="pill"><span class="pill__label">K</span><span
-                                    class="pill__number pill__number--zero">10
+                      <button class="modulekitcard__body">
+                        <div class="modulekitcard__body__header">
+                            <h3 class="modulekitcard__title">Agila</h3>
+                            <p class="modulekitcard__subtitle">Agile Software Architektur Architektur</p>
+                        </div>
+                        <div class="modulekitcard__body__footer">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">T</span><span
+                                        class="pill__number pill__number--zero">20
+                                </div>
+                                <div class="pill"><span class="pill__label">M</span><span
+                                        class="pill__number pill__number--zero">—
+                                </div>
+                                <div class="pill"><span class="pill__label">K</span><span
+                                        class="pill__number pill__number--zero">10
+                                </div>
                             </div>
                         </div>
                     </button>
@@ -131,17 +135,21 @@ description: Description
             <li class="modulekitcard modulekitcard--active">
                 <form class="modulekitcard__form">
                     <button class="modulekitcard__body">
-                        <h3 class="modulekitcard__title">Agila</h3>
-                        <p class="modulekitcard__subtitle">Agile Software Architektur</p>
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span
-                                    class="pill__number pill__number--zero">20
-                            </div>
-                            <div class="pill"><span class="pill__label">M</span><span
-                                    class="pill__number pill__number--zero">—
-                            </div>
-                            <div class="pill"><span class="pill__label">K</span><span
-                                    class="pill__number pill__number--zero">10
+                        <div class="modulekitcard__body__header">
+                            <h3 class="modulekitcard__title">Agila</h3>
+                            <p class="modulekitcard__subtitle">Agile Software Architektur Agile Architektur</p>
+                        </div>
+                        <div class="modulekitcard__body__footer">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">T</span><span
+                                        class="pill__number pill__number--zero">20
+                                </div>
+                                <div class="pill"><span class="pill__label">M</span><span
+                                        class="pill__number pill__number--zero">—
+                                </div>
+                                <div class="pill"><span class="pill__label">K</span><span
+                                        class="pill__number pill__number--zero">10
+                                </div>
                             </div>
                         </div>
                     </button>
@@ -153,17 +161,21 @@ description: Description
             <li class="modulekitcard">
                 <form class="modulekitcard__form">
                     <button class="modulekitcard__body">
-                        <h3 class="modulekitcard__title">Agila</h3>
-                        <p class="modulekitcard__subtitle">Agile Software Architektur</p>
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">T</span><span
-                                    class="pill__number pill__number--zero">20
-                            </div>
-                            <div class="pill"><span class="pill__label">M</span><span
-                                    class="pill__number pill__number--zero">—
-                            </div>
-                            <div class="pill"><span class="pill__label">K</span><span
-                                    class="pill__number pill__number--zero">10
+                        <div class="modulekitcard__body__header">
+                            <h3 class="modulekitcard__title">Agila</h3>
+                            <p class="modulekitcard__subtitle">Agile Software Architektur Agile Software Architektur Agile Software Architektur</p>
+                        </div>
+                        <div class="modulekitcard__body__footer">
+                            <div class="pills">
+                                <div class="pill"><span class="pill__label">T</span><span
+                                        class="pill__number pill__number--zero">20
+                                </div>
+                                <div class="pill"><span class="pill__label">M</span><span
+                                        class="pill__number pill__number--zero">—
+                                </div>
+                                <div class="pill"><span class="pill__label">K</span><span
+                                        class="pill__number pill__number--zero">10
+                                </div>
                             </div>
                         </div>
                     </button>
