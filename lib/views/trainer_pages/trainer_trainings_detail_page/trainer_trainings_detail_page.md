@@ -97,41 +97,47 @@ description: Backend-View for Trainers shows details of a specific training
             <h2 class="section__title--sub">Zeitplan</h2>
             <turbo-frame>
                 <ul class="tuple-list">
-                    <li class="tuple-list__entry">
-                        <span class="tuple-list__label">MO 22.12.</span>
-                        <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                            <small>kurze Pausen ca. jede Stunde</small>
-                        </span>
-                        <div class="form-control">
-                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
-                            <form class="button_to" method="post" action="#">
-                                <button class="btn--form btn--form--black" type="submit">Delete</button>
-                            </form>
-                        </div>
+                    <li>
+                        <turbo-frame class="tuple-list__entry">
+                            <span class="tuple-list__label">MO 22.12.</span>
+                            <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                                <small>kurze Pausen ca. jede Stunde</small>
+                            </span>
+                            <div class="form-control">
+                                <a href="#" class="btn--form btn--form--secondary">Edit</a>
+                                <form class="button_to" method="post" action="#">
+                                    <button class="btn--form btn--form--black" type="submit">Delete</button>
+                                </form>
+                            </div>
+                        </turbo-frame>
                     </li>
-                    <li class="tuple-list__entry">
-                        <span class="tuple-list__label">DI 14.9</span>
-                        <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                            <small>kurze Pausen ca. jede Stunde</small>
-                        </span>
-                        <div class="form-control">
-                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
-                            <form class="button_to" method="post" action="#">
-                                <button class="btn--form btn--form--black" type="submit">Delete</button>
-                            </form>
-                        </div>
+                    <li>
+                        <turbo-frame class="tuple-list__entry">
+                            <span class="tuple-list__label">MO 22.12.</span>
+                            <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                                <small>kurze Pausen ca. jede Stunde</small>
+                            </span>
+                            <div class="form-control">
+                                <a href="#" class="btn--form btn--form--secondary">Edit</a>
+                                <form class="button_to" method="post" action="#">
+                                    <button class="btn--form btn--form--black" type="submit">Delete</button>
+                                </form>
+                            </div>
+                        </turbo-frame>
                     </li>
-                    <li class="tuple-list__entry">
-                        <span class="tuple-list__label">Mi 15.9.</span>
-                        <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                            <small>kurze Pausen ca. jede Stunde</small>
-                        </span>
-                        <div class="form-control">
-                            <a href="#" class="btn--form btn--form--secondary">Edit</a>
-                            <form class="button_to" method="post" action="#">
-                                <button class="btn--form btn--form--black type=" submit">Delete</button>
-                            </form>
-                        </div>
+                    <li>
+                        <turbo-frame class="tuple-list__entry">
+                            <span class="tuple-list__label">MO 22.12.</span>
+                            <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
+                                <small>kurze Pausen ca. jede Stunde</small>
+                            </span>
+                            <div class="form-control">
+                                <a href="#" class="btn--form btn--form--secondary">Edit</a>
+                                <form class="button_to" method="post" action="#">
+                                    <button class="btn--form btn--form--black" type="submit">Delete</button>
+                                </form>
+                            </div>
+                        </turbo-frame>
                     </li>
                 </ul>
                 <form class="form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
@@ -185,18 +191,18 @@ description: Backend-View for Trainers shows details of a specific training
             <turbo-frame>
                 <ul class="resource-list">
                     <li>
-                        <div class="resource-list__item">
-                            <a href="#">Wichtiger Link</a>
+                        <turbo-frame class="resource-list__item">
+                            <a href="#">Wichtiger Link Wichtig</a>
                             <div class="form-control">
                                 <a href="#" class="btn--form btn--form--secondary">Edit</a>
                                 <form class="button_to" method="post" action="#">
                                     <button class="btn--form btn--form--black" type="submit">Delete</button>
                                 </form>
                             </div>
-                        </div>
+                        </turbo-frame>
                     </li>
                     <li>
-                        <div class="resource-list__item">
+                        <turbo-frame class="resource-list__item">
                             <a href="#">Wichtiger Link</a>
                             <div class="form-control">
                                 <a href="#" class="btn--form btn--form--secondary">Edit</a>
@@ -204,10 +210,10 @@ description: Backend-View for Trainers shows details of a specific training
                                     <button class="btn--form btn--form--black" type="submit">Delete</button>
                                 </form>
                             </div>
-                        </div>
+                        </turbo-frame>
                     </li>
                     <li>
-                        <div class="resource-list__item">
+                        <turbo-frame class="resource-list__item">
                             <a href="#">Wichtiger Link</a>
                             <div class="form-control">
                                 <a href="#" class="btn--form btn--form--secondary">Edit</a>
@@ -215,10 +221,10 @@ description: Backend-View for Trainers shows details of a specific training
                                     <button class="btn--form btn--form--black" type="submit">Delete</button>
                                 </form>
                             </div>
-                        </div>
+                        </turbo-frame>
                     </li>
                     <li>
-                        <div class="resource-list__item">
+                        <turbo-frame class="resource-list__item">
                             <a href="#">Wichtiger Link</a>
                             <div class="form-control">
                                 <a href="#" class="btn--form btn--form--secondary">Edit</a>
@@ -226,7 +232,7 @@ description: Backend-View for Trainers shows details of a specific training
                                     <button class="btn--form btn--form--black" type="submit">Delete</button>
                                 </form>
                             </div>
-                        </div>
+                        </turbo-frame>
                     </li>
                 </ul>
                 <turbo-frame>
@@ -243,7 +249,7 @@ description: Backend-View for Trainers shows details of a specific training
                         kann.
                         Oder auch nicht.</p>
                 </div>
-                <div class="form-control">
+                <div class="form-control m-t-sm">
                     <a href="#" class="btn--form btn--form--secondary">Edit</a>
                     <form class="button_to" method="post" action="#">
                         <button class="btn--form btn--form--black" type="submit">Delete</button>
@@ -255,7 +261,7 @@ description: Backend-View for Trainers shows details of a specific training
             <h2 class="section__title--sub">Zoom Link</h2>
             <turbo-frame>
                 <a href="">Linkslinkrechts</a>
-                <div class="form-control">
+                <div class="form-control m-t-sm">
                     <a href="#" class="btn--form btn--form--secondary">Edit</a>
                     <form class="button_to" method="post" action="#">
                         <button class="btn--form btn--form--black" type="submit">Delete</button>
@@ -265,14 +271,13 @@ description: Backend-View for Trainers shows details of a specific training
         </div>
     </section>
     <h2 class="section__title--sub m-t-lg">Vorab-Checkliste</h2>
-    <turbo-frame>
+    <turbo-frame class="training-checklist__frame">
         <ol class="training-checklist">
             <li class="training-checklist__item">
-                <div class="training-checklist__item__wrapper">
+                <turbo-frame class="training-checklist__item__wrapper">
                     <div class="training-checklist__item__body">
                         <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                        <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
-                        <a href="#" class="training-checklist__item__link">Link</a>
+                        <p>Wichtiger Hinweis-Text</p>
                     </div>
                     <div class="training-checklist__item__footer">
                         <div class="form-control">
@@ -282,10 +287,10 @@ description: Backend-View for Trainers shows details of a specific training
                             </form>
                         </div>
                     </div>
-                </div>
+                </turbo-frame>
             </li>
             <li class="training-checklist__item">
-                <div class="training-checklist__item__wrapper">
+                <turbo-frame class="training-checklist__item__wrapper">
                     <div class="training-checklist__item__body">
                         <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
                         <p>Wichtiger Hinweis-Text</p>
@@ -303,11 +308,10 @@ description: Backend-View for Trainers shows details of a specific training
                             </form>
                         </div>
                     </div>
-                </div>
-                </div>
+                </turbo-frame>
             </li>
             <li class="training-checklist__item">
-                <div class="training-checklist__item__wrapper">
+                <turbo-frame class="training-checklist__item__wrapper">
                     <div class="training-checklist__item__body">
                         <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
                         <p>Wichtiger Hinweis-Text</p>
@@ -325,11 +329,10 @@ description: Backend-View for Trainers shows details of a specific training
                             </form>
                         </div>
                     </div>
-                </div>
-                </div>
+                </turbo-frame>
             </li>
             <li class="training-checklist__item">
-                <div class="training-checklist__item__wrapper">
+                <turbo-frame class="training-checklist__item__wrapper">
                     <div class="training-checklist__item__body">
                         <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
                         <p>Wichtiger Hinweis-Text</p>
@@ -347,8 +350,7 @@ description: Backend-View for Trainers shows details of a specific training
                             </form>
                         </div>
                     </div>
-                </div>
-                </div>
+                </turbo-frame>
             </li>
         </ol>
         <turbo-frame>

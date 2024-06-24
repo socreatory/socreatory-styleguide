@@ -97,8 +97,7 @@ turbo-frame {
   }
 
   turbo-frame {
-    /* stylelint-disable-next-line selector-max-compound-selectors */
-    > * + * {
+    turbo-frame {
       margin-top: $spacer-sm;
     }
   }
@@ -127,6 +126,8 @@ turbo-frame {
   display: flex;
   flex-direction: row;
   gap: $spacer-md;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .training-checklist {
@@ -152,7 +153,7 @@ turbo-frame {
   width: 100%;
 
   > * + * {
-    margin-top: $spacer-2xs;
+    margin-top: $spacer-sm;
   }
 }
 
@@ -236,4 +237,9 @@ turbo-frame {
       }
     }
   }
+}
+
+.training-checklist__item__footer {
+  display: flex;
+  justify-content: flex-end;
 }

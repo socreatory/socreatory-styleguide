@@ -18,6 +18,10 @@
 }
 
 /* stylelint-disable declaration-no-important */
+.m-t-sm {
+  margin-top: $spacer-sm !important;
+}
+
 .m-t-lg {
   margin-top: $spacer-lg !important;
 }
