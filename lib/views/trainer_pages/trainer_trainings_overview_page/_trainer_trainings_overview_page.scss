@@ -8,6 +8,11 @@
   }
 }
 
+turbo-frame {
+  display: block;
+  width: 100%;
+}
+
 .tuple-list {
   width: 100%;
   margin-bottom: 0;
@@ -90,6 +95,13 @@
     display: block;
     margin-top: $spacer-xs;
   }
+
+  turbo-frame {
+    /* stylelint-disable-next-line selector-max-compound-selectors */
+    > * + * {
+      margin-top: $spacer-sm;
+    }
+  }
 }
 
 .resource-list {
@@ -118,14 +130,30 @@
 }
 
 .training-checklist {
+  @include for-tablet-portrait-up {
+    grid-row-gap: $spacer-lg;
+  }
+
   counter-reset: counter;
+
+  display: grid;
+  grid-column-gap: $spacer-md;
+  grid-row-gap: $spacer-md;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+
+  width: 100%;
   margin-bottom: 0;
   padding: 0;
+
   list-style: none;
 }
 
 .training-checklist__frame {
   width: 100%;
+
+  > * + * {
+    margin-top: $spacer-2xs;
+  }
 }
 
 .training-checklist__item {
@@ -137,13 +165,14 @@
   &::before {
     content: counter(counter);
 
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
     width: $spacer-base;
     height: $spacer-base;
     margin-right: $spacer-sm;
+    padding: 1.25rem;
 
     font-size: $font-size-base;
     line-height: 1;
