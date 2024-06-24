@@ -92,6 +92,28 @@ description: Backend-View for Trainers shows details of a specific training
             </tr>
         </tbody>
     </table>
+    <form class="form--spacing-sm" id="new_copy_event_info" novalidate="novalidate"
+        action="/admin/copy_event_info?locale=de" accept-charset="UTF-8" method="post">
+        <input type="hidden" name="authenticity_token"
+            value="9dtszcFXzhXlpjqaiEmwLFyflpErfZplvh6UWItNkb2GyVhl4dCc6LVV09NbEv5P7LQTnwMM4oBLUrAymZSSQg"
+            autocomplete="off">
+        <input class="form__input form__input--small" autocomplete="off" type="hidden" value="eadbc3869f1d"
+            name="copy_event_info[event_uid]" id="copy_event_info_event_uid">
+        <p>Kopiere Wichtige Links, Hinweise und Vorab-Checkliste aus einem vorigen Training</p>
+        <div class="form__field--sm">
+            <label class="form__label" for="copy_event_info_event_template_uid">Vorlage</label><select
+                class="form-control is-valid select optional" name="copy_event_info[event_template_uid]"
+                id="copy_event_info_event_template_uid">
+                <option value="" label=" "></option>
+                <option selected="selected" value="caa40a78adee">Legacy Software absichern 11.11.2024 - 11.11.2024
+                </option>
+                <option value="b265d2751c64">OWASP Top Ten in der Praxis 03.12.2024 - 04.12.2024</option>
+            </select>
+        </div>
+        <input type="submit" name="commit" value="Kopieren" class="btn--form btn--form--secondary"
+            data-disable-with="Kopieren">
+    </form>
+
     <section class="tile-grid--sm m-t-xl">
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Zeitplan</h2>
@@ -143,14 +165,83 @@ description: Backend-View for Trainers shows details of a specific training
                 <form class="form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
                     action="/admin/events/77135c78eded/checklist_items/1?locale=de" accept-charset="UTF-8"
                     method="post">
-                    <input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden"
-                        name="authenticity_token"
-                        value="43xW4wq5K9aKYNfYtZPUR2QuTGrOv6yW8fsaZQI-bBNymXjxLWaum-3gfxQnWijvewEwvR8l-_0Z4_lK83FyjQ"
-                        autocomplete="off" />
                     <div class="form__field--sm">
                         <input class="form__input form__input--small" autocomplete="off" type="hidden" value="534854"
                             name="checklist_item[event_id]" id="checklist_item_event_id" />
                     </div>
+                    <div class="form__field--sm">
+                        <label class="form__label" for="checklist_item_item_title_de">Datum</label>
+                        <div class="form-group">
+                            <input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden"
+                                name="authenticity_token"
+                                value="43xW4wq5K9aKYNfYtZPUR2QuTGrOv6yW8fsaZQI-bBNymXjxLWaum-3gfxQnWijvewEwvR8l-_0Z4_lK83FyjQ"
+                                autocomplete="off" />
+                            <select id="time_table_date_3i" name="time_table[date(3i)]"
+                                class="form-control mx-1 date required">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24" selected="selected">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select id="time_table_date_2i" name="time_table[date(2i)]"
+                                class="form-control mx-1 date required">
+                                <option value="1">Januar</option>
+                                <option value="2">Februar</option>
+                                <option value="3">März</option>
+                                <option value="4">April</option>
+                                <option value="5">Mai</option>
+                                <option value="6" selected="selected">Juni</option>
+                                <option value="7">Juli</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">Oktober</option>
+                                <option value="11">November</option>
+                                <option value="12">Dezember</option>
+                            </select>
+                            <select id="time_table_date_1i" name="time_table[date(1i)]"
+                                class="form-control mx-1 date required">
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024" selected="selected">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div class="form__field--sm">
                         <label class="form__label" for="checklist_item_item_title_de">Item title (DE)</label>
                         <input class="form__input form__input--small" type="text" value="Meine Liste"

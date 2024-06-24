@@ -11,7 +11,11 @@
 
 .form--spacing-sm {
   > * + * {
-    margin-top: $spacer-2xs;
+    margin-top: $spacer-xs;
+  }
+
+  > * {
+    margin-bottom: 0;
   }
 }
 
@@ -25,7 +29,8 @@
 }
 
 .form__field--sm {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -104,4 +109,15 @@ input[type="radio"] {
   form {
     display: flex;
   }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: $spacer-xs;
+}
+
+select {
+  background-color: $brand-background-dark;
 }
