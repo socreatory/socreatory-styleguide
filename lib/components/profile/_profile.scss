@@ -60,3 +60,57 @@
   bottom: 0;
   left: 0;
 }
+
+// Trainerprofil zweispaltig Bild&Text
+.trainer-profile {
+  @include for-breakpoint-phone-up {
+    grid-gap: $spacer-lg;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  display: grid;
+  grid-gap: $spacer-2xs;
+  grid-template-columns: 1fr;
+}
+
+.trainer-profile__heading {
+  margin-bottom: $spacer-sm;
+  font-size: $font-size-xl;
+}
+
+.trainer-profile__text {
+  @extend %body-font-regular;
+
+  margin-top: $spacer-sm;
+  margin-bottom: 0;
+  font-size: $font-size-base;
+  line-height: $paragraph-line-height;
+}
+
+.img-text {
+  @include for-breakpoint-phone-up {
+    grid-gap: $spacer-lg;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  display: grid;
+  grid-gap: $spacer-2xs;
+  grid-template-columns: 1fr;
+}
+
+.img-text__heading {
+  @extend %heading-font-bold;
+
+  margin-bottom: 0;
+  font-size: $font-size-xl;
+  line-height: $heading-line-height-sm;
+}
+
+.img-text__text {
+  @extend %body-font-regular;
+
+  margin-top: $spacer-sm;
+  margin-bottom: 0;
+  font-size: $font-size-base;
+  line-height: $paragraph-line-height;
+}

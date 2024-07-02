@@ -41,41 +41,45 @@ description: Description
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#">Trainer:innen</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Michael Plöd</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
+                        href="#">Trainer:innen</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
+                    Michael Plöd</li>
             </ul>
         </div>
-    </div>
-</header>
-
-<main>
-    <div class="container__centered">
-        <section class="section">
-            <div class="img-text">
-                <div class="img-text__figure">
-                    <img class="img-text__image" src="/snippet/images/profiles/Michael_Plöd.jpg">
-                </div>
-                <div class="img-text__content">
-                    <h3 class="img-text__heading">Michael Plöd</h3>
+        <section class="container container--md">
+            <div class="trainer-profile">
+                <img class="trainer-profile__image" src="/snippet/images/profiles/Michael_Plöd.jpg">
+                <div class="trainer-profile_content">
+                    <h1 class="trainer-profile__heading">Michael Plöd</h1>
                     <p class="profile__company">INNOQ</p>
                     <p class="profile__focus">Domain Driven Design</p>
-                    <div class="spacer__md"></div>
-                    <p class="markdown">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament. Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament. Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                    <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New
+                        Work,
+                        Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr
+                        Einsatz als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament. Kim Nena
+                        Duggen ist als Organisationsentwicklerin im Bereich New Work, Selbstorganisation und
+                        (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin
+                        im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament. Kim Nena Duggen ist als
+                        Organisationsentwicklerin im Bereich New Work, Selbstorganisation und (IT-)Strategie in ihrem
+                        Element. Erfahrungen im Prozessmanagement und ihr Einsatz als Trainerin im Bereich EAM, RE, Soft
+                        Skills, New Work sind ihr Fundament.</p>
                 </div>
             </div>
         </section>
     </div>
-</main>
+</header>
 
-<aside class="container__centered">
-    <section>
+<main>
+    <section class="container container--xl container-vertical-spacing-lg">
         <h2 class="section__title--small"><span aria-hidden>-- </span>Schulungen von Michael Plöd</h2>
-        <ul class="cards cards--centered">
+        <ul class="cards">
             <li class="card card--isaqb">
                 <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                            sisit.
                         </p>
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
@@ -136,7 +140,8 @@ description: Description
                 <div class="card__body ">
                     <div class="card__body__top">
                         <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.
+                        <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                            sisit.
                         </p>
                         <div class="pills">
                             <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20
@@ -194,30 +199,61 @@ description: Description
                 </div>
             </li>
         </ul>
-    </section>
-    <div class="spacer__xxl"></div>
-    <section class="section">
-        <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
+        <h2 class="section__title--small m-t-xl"><span aria-hidden>--</span>Nächste Termine</h2>
+        <ul class="event-stripe__list">
+            <li class="event-stripe event-stripe--isaqb">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
+                </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+            </li>
+            <li class="event-stripe">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
+                </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+            </li>
+            <li class="event-stripe event-stripe--power">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
+                </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+            </li>
+        </ul>
+        <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
         <div class="img-text">
-            <div class="img-text__figure">
-                <img class="img-text__image" src="https://www.innoq.com/de/staff/gernot-starke/Requirements-Skills-V1.png"/>
-            </div>
+            <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg" />
             <div class="img-text__content">
                 <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
-                <p>Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur: Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) deines Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
+                <p class="img-text__text">Grundlage für das Seminar ist das Buch »Vorgehensmuster für
+                    Softwarearchitektur: Kombinierbare
+                    Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) deines Trainers Stefan Toth. Das
+                    Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
             </div>
         </div>
         <div class="img-text">
-            <div class="img-text__figure">
-                <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg"/>
-            </div>
+            <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg" />
             <div class="img-text__content">
                 <h3 class="img-text__heading">Überzeugende Präsentationen – Konzeption, Technik & Design</h3>
-                <p>Wer kennt sie nicht aus seinem beruflichen Alltag: tödlich langweilige, mit Details überhäufte PowerPoint-Präsentationen, die die Zuhörer mit Bullet-Point-Wüsten in den Schlaf wiegen und primär der Selbstbeweihräucherung des Referenten dienen? Und wer ist als Entwickler schon mal mit einer Präsentation gegen eine Wand gelaufen, weil man einfach nicht die richtigen Worte fand, um das Management zu überzeugen?</p>
+                <p class="img-text__text">Wer kennt sie nicht aus seinem beruflichen Alltag: tödlich langweilige, mit
+                    Details überhäufte
+                    PowerPoint-Präsentationen, die die Zuhörer mit Bullet-Point-Wüsten in den Schlaf wiegen und
+                    primär der Selbstbeweihräucherung des Referenten dienen? Und wer ist als Entwickler schon mal
+                    mit einer Präsentation gegen eine Wand gelaufen, weil man einfach nicht die richtigen Worte
+                    fand, um das Management zu überzeugen?</p>
             </div>
         </div>
     </section>
-</aside>
+</main>
 
 <footer>
     <div class="footer__top">

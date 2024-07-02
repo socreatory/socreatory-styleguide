@@ -171,18 +171,14 @@ description: Show Training Detail iSAQB
 
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
-                <div class="img-text">
-                    <div class="img-text__figure">
-                        <a href="#"><img class="img-text__image"
-                                src="/snippet/images/profiles/Oliver_Zeigermann.jpg" /></a>
-                    </div>
-                    <div class="img-text__content">
-                        <h3 class="img-text__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
+                <div class="trainer-profile">
+                    <a href="#"><img class="trainer-profile__image"
+                            src="/snippet/images/profiles/Oliver_Zeigermann.jpg" /></a>
+                    <div class="trainer-profile__content">
+                        <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
                         <p class="profile__company">embarc</p>
                         <p class="profile__role">Rolle</p>
-                        <div class="spacer__md"></div>
-
-                        <p>
+                        <p class="trainer-profile__text">
                             Kim Nena Duggen ist als Organisationsentwicklerin im Bereich New Work,
                             Selbstorganisation und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement
                             und ihr
@@ -203,20 +199,16 @@ description: Show Training Detail iSAQB
             </section>
 
             <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher</h2>
+                <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
                 <div class="img-text">
-                    <div class="img-text__figure">
-                        <img class="img-text__image"
-                            src="https://images-na.ssl-images-amazon.com/images/I/41C55Z7cezL.jpg" />
-                    </div>
+                    <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg" />
                     <div class="img-text__content">
                         <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
-                        <p>
-                            Grundlage für das Seminar ist das Buch »Vorgehensmuster für Softwarearchitektur:
-                            Kombinierbare Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) Ihres
-                            Trainers Stefan Toth. Das Buch ist für jeden Teilnehmer im Seminarpreis enthalten
-                            (Gebundene Ausgabe und eBook).
-                        </p>
+                        <p class="img-text__text">Grundlage für das Seminar ist das Buch »Vorgehensmuster für
+                            Softwarearchitektur: Kombinierbare
+                            Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) deines Trainers Stefan Toth.
+                            Das
+                            Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
                     </div>
                 </div>
             </section>
