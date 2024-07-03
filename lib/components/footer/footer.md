@@ -37,7 +37,7 @@ description: Footer
                         </a>
                     </li>
                 </ul>
-                <div class="footer__linkarea m-t-lg">
+                <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
                         <li class="footer__link"><a href="#">Trainer:innen</a></li>
