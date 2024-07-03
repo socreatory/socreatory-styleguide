@@ -1,0 +1,16 @@
+.social-media-bar {
+  @extend %list-unstyled;
+
+  display: grid;
+  grid-gap: $spacer-sm;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: center;
+}
+
+.social-media-bar__item {
+  display: inline-block;
+}
+
+.social-media-bar__link {
+  @extend %link-unstyled;
+}

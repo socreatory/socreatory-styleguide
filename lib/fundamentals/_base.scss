@@ -34,10 +34,6 @@ main {
   flex: 1;
 }
 
-.sr-only {
-  @include visually-hidden();
-}
-
 img,
 video {
   max-width: 100%;

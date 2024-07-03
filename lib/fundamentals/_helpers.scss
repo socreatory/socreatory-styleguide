@@ -17,6 +17,10 @@
   border: 0;
 }
 
+.sr-only {
+  @include visually-hidden();
+}
+
 /* stylelint-disable declaration-no-important */
 .m-t-sm {
   margin-top: $spacer-sm !important;

@@ -34,3 +34,23 @@
 .icon--idea {
   @include icon-before("icons/light-bulb-shine.svg", $brand-black, 2rem);
 }
+
+.icon--linkedin {
+  @include icon-before("icons/social-linkedin.svg", $brand-black, 1.5rem);
+}
+
+.icon--mastodon {
+  @include icon-before("icons/social-mastodon.svg", $brand-black, 1.5rem);
+}
+
+.icon--youtube {
+  @include icon-before("icons/social-youtube.svg", $brand-black, 1.5rem);
+}
+
+.icon--twitter {
+  @include icon-before("icons/social-x.svg", $brand-black, 1.5rem);
+}
+
+.icon--bsky {
+  @include icon-before("icons/social-bsky.svg", $brand-black, 1.6rem);
+}

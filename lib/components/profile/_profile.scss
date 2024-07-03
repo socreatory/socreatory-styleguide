@@ -98,6 +98,10 @@
   grid-template-columns: 1fr;
 }
 
+.img-text__image {
+  max-width: 50%;
+}
+
 .img-text__heading {
   @extend %heading-font-bold;
 
