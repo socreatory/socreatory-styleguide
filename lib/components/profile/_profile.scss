@@ -78,6 +78,19 @@
   font-size: $font-size-xl;
 }
 
+.trainer-profile__link {
+  color: $brand-text;
+  text-decoration: none;
+}
+
+.trainer-profile__link:hover {
+  color: $brand-text;
+  text-decoration: underline;
+  text-decoration-color: $brand-primary;
+  text-decoration-thickness: $spacer-3xs;
+  text-underline-offset: $spacer-3xs;
+}
+
 .trainer-profile__text {
   @extend %body-font-regular;
 
