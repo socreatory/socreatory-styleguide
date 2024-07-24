@@ -22,9 +22,9 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
@@ -42,16 +42,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
           cache-dependency-path: package-lock.json
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Install dependencies
         run: npm install
       - name: Build with aiur
