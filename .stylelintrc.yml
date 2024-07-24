@@ -1,28 +1,17 @@
 extends:
-  - stylelint-config-standard
-  - stylelint-config-sass-guidelines
+  - stylelint-config-standard-scss
   - stylelint-config-clean-order
+  - stylelint-prettier/recommended
 rules:
-  alpha-value-notation: null
   color-no-hex: true
-  color-function-notation: null
   declaration-block-no-redundant-longhand-properties: null
   declaration-no-important: true
-  function-no-unknown: null
   import-notation: null
   max-nesting-depth: 3
-  media-query-no-invalid: null
   no-descending-specificity: null
-  no-empty-source: null
-  order/properties-alphabetical-order: null
   scss/percent-placeholder-pattern: null
   selector-class-pattern: null
-  selector-no-qualifying-type: null
   selector-type-no-unknown:
     - true
     - ignore:
         - custom-elements
-
-overrides:
-  - files: ["**/*.scss"]
-    customSyntax: "postcss-scss"

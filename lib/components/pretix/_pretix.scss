@@ -376,27 +376,11 @@ input[type="checkbox"]:checked {
 }
 
 .pretix-widget .pretix-widget-attribution {
-  // display: inline-block;
   display: none;
   width: 100%;
   padding: 0;
   text-align: left;
 }
-
-// .pretix-widget-attribution a {
-//   font-size: $font-size-xs;
-//   color: $brand-text;
-//   text-decoration: none;
-//   text-decoration-color: $brand-primary;
-//   transition: all 0.1s ease-out;
-// }
-
-// .pretix-widget-attribution a:hover {
-//   text-decoration: underline;
-//   text-underline-offset: $spacer-3xs;
-//   text-decoration-thickness: $spacer-3xs;
-//   text-decoration-color: $brand-primary;
-// }
 
 // Back Button
 .pretix-widget-event-list-back,
@@ -422,11 +406,6 @@ input[type="checkbox"]:checked {
   text-decoration-thickness: 0.2rem;
   text-underline-offset: $spacer-2xs;
 }
-
-// Overlay
-// .pretix-widget-overlay {
-//   display: none;
-// }
 
 .pretix-widget-alert-holder .pretix-widget-alert-box {
   border-radius: 0;

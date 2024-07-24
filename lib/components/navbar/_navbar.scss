@@ -23,7 +23,7 @@ scroll-nav + * {
     grid-template-areas:
       "logo nav login"
       "x x profile";
-    grid-template-columns: 10rem auto 15rem; //magic numbers
+    grid-template-columns: 10rem auto 15rem; // magic numbers
     grid-template-rows: auto;
 
     padding: 0 $spacer-sm;

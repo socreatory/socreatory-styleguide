@@ -18,7 +18,7 @@
 }
 
 .sr-only {
-  @include visually-hidden();
+  @include visually-hidden;
 }
 
 /* stylelint-disable declaration-no-important */
