@@ -35,6 +35,15 @@ h1.header__heading {
   line-height: $heading-line-height;
 }
 
+.header__heading--medium {
+  @include for-tablet-portrait-up {
+    margin-top: $spacer-lg;
+  }
+
+  font-size: $font-size-xl;
+  line-height: $heading-line-height;
+}
+
 .header__heading--centered {
   @extend %container--md;
 

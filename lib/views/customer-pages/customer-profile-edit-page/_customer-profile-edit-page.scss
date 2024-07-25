@@ -1,9 +1,8 @@
-.customer-profile-edit-page {
-  > * + * {
-    @include for-tablet-landscape-up {
-      margin-top: $spacer-2xl;
-    }
+.customer-profile-page {
+  @extend %container;
+  @extend %container--md;
 
-    margin-top: $spacer-xl;
-  }
+  align-items: center;
+  min-height: 70vh;
+  margin-bottom: $spacer-lg;
 }

@@ -43,66 +43,37 @@ description: Customer Trainings Overview Page
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Meine Trainings</li>
             </ul>
         </div>
+        <h1 class="header__heading header__heading--centered">Deine Trainings</h1>
     </div>
 </header>
 
 
-<main>
-    <section class="container container--xl container--centered">
-        <h1 class="header__heading">Deine Trainings</h1>
-        <ul class="cards">
-            <li>
-                <div class="card card--isaqb">
-                    <div class="card__body ">
-                        <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Architecture Documentation</a></h3>
-                            <p class="card__text">Card Text Lorem, ipsum dolor Lorem ipsum dolor Lorem ipsum dolor sisit.</p>
-                        </div>
-                        <div class="pills">
-                            <div class="pill"><span class="pill__label">Technik</span><span class="pill__number">20</div>
-                            <div class="pill"><span class="pill__label">Methodik</span><span class="pill__number">—</div>
-                            <div class="pill"><span class="pill__label">Kommunikation</span><span class="pill__number">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__details">
-                    <h3 class="card__details__date">13.-15. September 2023</h3>
-                    <a href="#" class="card__details__link">Trainingsdetails ansehen</a>
-                    <p class="card__details__caption">Dein Zertifikat ist da</p>
-                </div>
-            </li>
-            <li>
-                <div class="card card--power">
-                    <div class="card__body ">
-                        <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a></h3>
-                            <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__details">
-                    <h3 class="card__details__date">13.-15. September 2023</h3>
-                    <a href="#" class="card__details__link">Trainingsdetails ansehen</a>
-                    <p class="card__details__caption">Dein Zertifikat ist da</p>
-                </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__body">
-                        <div class="card__body__top">
-                            <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von Softwarearchitekturen</a></h3>
-                            <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte entwerfen.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__details">
-                    <h3 class="card__details__date">13.-15. September 2023</h3>
-                    <a href="#" class="card__details__link">Trainingsdetails ansehen</a>
-                    <p class="card__details__caption">Dein Zertifikat ist da</p>
-                </div>
-            </li>
-        </ul>
-    </section>
+<main class="customer-profile-page">
+    <ul class="event-stripe__list">
+        <li class="event-stripe event-stripe--isaqb">
+            <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+            <div class="event-stripe__date">12. - 14.3.2022</div>
+            <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+            <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+        </li>
+        <li class="event-stripe">
+            <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+            <div class="event-stripe__date">
+                <time datetime="2024-03-12">12.</time> -
+                <time datetime="2024-03-14">14.3.2024</time>
+            </div>
+            <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+        </li>
+        <li class="event-stripe event-stripe--power">
+            <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+            <div class="event-stripe__date">
+                <time datetime="2024-03-12">12.</time> -
+                <time datetime="2024-03-14">14.3.2024</time>
+            </div>
+            <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+            <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+        </li>
+    </ul>
 </main>
 <footer>
     <div class="footer__top">

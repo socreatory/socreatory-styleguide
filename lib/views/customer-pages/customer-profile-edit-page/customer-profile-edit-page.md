@@ -47,11 +47,11 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Profil bearbeiten</li>
             </ul>
         </div>
+        <h1 class="header__heading--medium header__heading--centered">Profil bearbeiten</h1>
     </div>
 </header>
 
-<main class="customer-profile-edit-page">
-    <section class="container container--md container--centered">
+<main class="customer-profile-page">
         <div class="alert alert--info">
             <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
             <button class="alert__btn" type="button">
@@ -60,7 +60,6 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
             </button>
         </div>
         <div class="login-form">
-            <h1 class="login-form__headline">Profil bearbeiten</h1>
             <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
                 <input type="hidden" name="authenticity_token" value="" />
                 <div class="form__field field__size--full">
@@ -85,15 +84,12 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
                 </div>
             </form>
         </div>
-    </section>
-    <div class="container container--md container--centered">
-        <h2 class="login-form__headline">Profil löschen</h2>
+        <h2 class="section__title--normal m-t-2xl">Profil löschen</h2>
         <p>
             Du kannst dein Profil bei uns ganz einfach löschen. Natürlich hast du danach keinen Zugriff mehr auf bereits absolvierte Trainings und die dazu gehörigen Zertifikate. Diese kannst du aber
             weiterhin auch anfordern unter kontakt@socreatory.com
         </p>
         <button type="reset" class="btn btn-type--primary">Profil löschen</button>
-    </div>
 </main>
 <footer>
     <div class="footer__top">

@@ -2,16 +2,6 @@ title: Login Page
 description: This view shows how the login page should look like
 
 ```html
-<header class="header">
-    <div class="header__wrapper">
-        <div class="breadcrumb">
-            <ul class="breadcrumb__list">
-                <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
-            </ul>
-        </div>
-    </div>
-</header>
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="announcement">
@@ -44,11 +34,21 @@ description: This view shows how the login page should look like
         </div>
     </nav>
 </scroll-nav>
+<header class="header">
+    <div class="header__wrapper">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+            </ul>
+        </div>
+        <img class="header__image" src="/snippet/images/illustrations/socreatory-navigator.svg" alt="" />
+        <h1 class="header__heading--medium header__heading--centered">socreatory Navigator Login</h1>
+    </div>
+</header>
 <main class="login-page">
     <div class="container container--centered">
         <div class="login-form">
-            <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
-            <h1 class="login-form__headline">Socreatory Login</h1>
             <p class="login-form__text">Logge dich mit deiner E-Mail-Adresse ein.</p>
             <form class="form" id="#" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">
                 <input type="hidden" name="authenticity_token" value="tPXLZMbkf1Q1ql0crdbMM0sWjRiEePOcopgX4Uxd4ekO70UI7Mn4dAhL_lp7Uwx_VXPL_g9j7iOWZQcuRmqrlw" />

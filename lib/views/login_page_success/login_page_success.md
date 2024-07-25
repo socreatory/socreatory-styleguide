@@ -2,16 +2,6 @@ title: Login Page Successs
 description: This view shows how the login page should look like after sending the magic link
 
 ```html
-<header class="header">
-    <div class="header__wrapper">
-        <div class="breadcrumb">
-            <ul class="breadcrumb__list">
-                <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
-            </ul>
-        </div>
-    </div>
-</header>
 <scroll-nav>
     <nav class="navbar-wrapper">
         <div class="announcement">
@@ -44,11 +34,21 @@ description: This view shows how the login page should look like after sending t
         </div>
     </nav>
 </scroll-nav>
+<header class="header">
+    <div class="header__wrapper">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#">Home</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
+            </ul>
+        </div>
+        <img class="header__image" src="/snippet/images/illustrations/socreatory-navigator.svg" alt="" />
+        <h1 class="header__heading--medium header__heading--centered">socreatory Navigator Login</h1>
+    </div>
+</header>
 <main class="login-page">
     <div class="container container--centered">
         <div class="login-form">
-            <img class="login-form__image" src="/snippet/images/illustrations/iconteamrabatt.png" alt="" />
-            <h1 class="login-form__headline">socreatory Login</h1>
             <p class="login-form__text login-form__text--success">Vielen Dank, wir haben eine email an deine Adresse geschickt.</p>
         </div>
     </div>

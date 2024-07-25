@@ -42,18 +42,12 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Msin Profil</li>
             </ul>
         </div>
+        <h1 class="header__heading--medium header__heading--centered">Mein Profil</h1>
     </div>
 </header>
 
 <main class="customer-profile-page">
-    <section class="container container--md container--centered container-vertical-spacing-xl">
-        <div class="alert alert--info">
-            <p class="alert__text"><strong>Erfolg!</strong> Vielen Dank.</p>
-            <button class="alert__btn" type="button">
-                <span class="icon--close"></span>
-                <span class="sr-only">Schließen</span>
-            </button>
-        </div>
+    <section class="container container--md container--centered">
         <dl>
             <dt>Name</dt>
             <dd>Mareike Müller</dd>
