@@ -167,6 +167,33 @@ description: Customer Trainings Detail Page
             <div class="footer__top__content__right">
                 <img class="footer__logo" src="/snippet/images/logos/soc_logo.svg"
                     alt="Software Creators Academy Logo" />
+                <h2 class="footer__headline">Folge uns auf</h2>
+                <ul class="social-media-bar">
+                    <li class="social-media-bar__item">
+                        <a href="#" class="social-media-bar__link" title="Twitter">
+                            <span class="icon icon--twitter icon--brand-primary"></span>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="social-media-bar__item">
+                        <a href="#" class="social-media-bar__link" title="Mastodon">
+                            <span class="icon icon--mastodon icon--brand-primary"></span>
+                            <span class="sr-only">Mastodon/span>
+                        </a>
+                    </li>
+                    <li class="social-media-bar__item">
+                        <a href="#" class="social-media-bar__link" title="Linkedin">
+                            <span class="icon icon--linkedin icon--brand-primary"></span>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="social-media-bar__item">
+                        <a href="#" class="social-media-bar__link" title="Bsky">
+                            <span class="icon icon--bsky icon--brand-primary"></span>
+                            <span class="sr-only">Bluesky</span>
+                        </a>
+                    </li>
+                </ul>
                 <div class="footer__linkarea">
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">Trainings</a></li>
@@ -183,7 +210,7 @@ description: Customer Trainings Detail Page
                 </div>
             </div>
             <div class="footer__top__content__left">
-                <h2>Newsletter</h2>
+                <h2 class="footer__headline">Newsletter</h2>
                 <p>Frische Architektur direkt in deinem Postfach. Melde dich jetzt an und erfahre alle zwei Monate als
                     erste(r) von neuen Angeboten und Themen</p>
                 <form class="form" action="#" method="post" target="_blank">
