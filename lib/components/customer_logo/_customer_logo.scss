@@ -32,6 +32,7 @@
   width: 12rem;
 }
 
+.customer-logo--idealo,
 .customer-logo--ituc {
   @include for-tablet-landscape-up {
     width: 9rem;
@@ -40,7 +41,7 @@
   width: 7rem;
 }
 
-.customer-logo--idealo {
+.customer-logo--enbw {
   @include for-tablet-landscape-up {
     width: 10rem;
   }
