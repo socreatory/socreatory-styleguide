@@ -330,6 +330,8 @@ description: Homepage
                     alt="Firmenlogo EnbW"></a>
             <a href="#" class="customer-logo--idealo"><img src="/snippet/images/logos/idealo.svg"
                 alt="Firmenlogo idealo"></a>
+            <a href="#" class="customer-logo--idealo"><img src="/snippet/images/logos/iteratec.svg"
+                alt="Firmenlogo iteratec"></a>
             <a href="#" class="customer-logo--ituc"><img src="/snippet/images/logos/ITUC.svg" alt="Firmenlogo ITUC"></a>
             <a href="#" class="customer-logo customer-logo--tracetronic"><img
                     src="/snippet/images/logos/tracetronic.svg" alt="Firmenlogo tracetronic"></a>

@@ -26,37 +26,38 @@
 .customer-logo--provinzial,
 .customer-logo--businessdecision {
   @include for-tablet-landscape-up {
-    width: 16rem;
+    width: 14rem;
   }
 
   width: 12rem;
 }
 
 .customer-logo--idealo,
-.customer-logo--ituc {
+.customer-logo--ituc,
+.customer-logo--iteratec {
   @include for-tablet-landscape-up {
-    width: 9rem;
+    width: 8rem;
   }
 
   width: 7rem;
 }
 
+.customer-logo--ituc {
+  width: 7rem;
+}
+
 .customer-logo--enbw {
   @include for-tablet-landscape-up {
-    width: 10rem;
+    width: 9rem;
   }
 
   width: 8rem;
 }
 
 .customer-logo--tracetronic {
-  width: 20rem;
+  width: 18rem;
 }
 
 .customer-logo--zuehlke {
-  @include for-tablet-landscape-up {
-    width: 7rem;
-  }
-
   width: 5rem;
 }
