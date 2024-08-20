@@ -2,7 +2,8 @@
 %container {
   @include for-tablet-landscape-up {
     align-items: baseline;
-    padding: 0 $spacer-md;
+    padding-right: $spacer-md;
+    padding-left: $spacer-md;
   }
 
   display: flex;
@@ -10,7 +11,8 @@
 
   width: 100%;
   margin: 0 auto;
-  padding: 0 $spacer-xs;
+  padding-right: $spacer-xs;
+  padding-left: $spacer-xs;
 
   > * + * {
     margin-top: $spacer-md;

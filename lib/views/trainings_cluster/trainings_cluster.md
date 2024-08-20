@@ -1,5 +1,5 @@
-title: Training Overview
-description: Description
+title: Training Cluster Page
+description: Training Cluster Page
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,42 +36,29 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="hero">
-    <div class="hero_grid-wrapper">
+<header class="header">
+    <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Trainings</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Architekturdokumentation</li>
             </ul>
         </div>
-        <h1 class="hero__heading m-t-lg">Trainings für <span class="marker-highlight">Softwarearchitektur</span> und <span class="marker-highlight">-entwicklung</span>, Präsenz und Online.</h1>
-        <p class="hero__text">
-            Hier findest Du unser komplettes Angebot. Wenn Du speziell an iSAQB®-Trainings interessiert bist, hilft Dir <a href="#">unser praktischer Modulbaukasten:</a> Mit wenigen Klicks stellst Du Dir dort Dein individuelles Trainingsprogramm zusammen.
+        <h1 class="header__heading header__heading--centered">Unsere Trainings zu Architekturdokumentation</h1>
+        <p class="header_intro">
+            Die Dokumentation von Softwarearchitektur ist von entscheidender Bedeutung, um komplexe Softwaresysteme klar
+            zu verstehen und zu kommunizieren. Durch gezieltes Training können Softwarearchitekten lernen, diese Dokumentation mit
+            Freude zu erstellen und anzuwenden. Indem sie Techniken wie Diagrammerstellung, klare Beschreibungen und strukturiertes
+            Denken beherrschen, können sie nicht nur ihre eigenen Entwürfe besser dokumentieren, sondern auch effektiver mit
+            anderen Entwicklern kommunizieren und so zu erfolgreichen Softwareprojekten beitragen.
         </p>
-        <div class="hero__isaqb__wrapper">
-            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
-            <span class="hero__logos__caption">akkreditierter Partner</span>
-        </div>
-    </div>
-    <div class="hero_grid-wrapper">
-        <img class="hero__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="" />
     </div>
 </header>
 
 <main>
-    <section class="container container--xl container-vertical-spacing-xl container--centered">
-        <auto-submit-form>
-            <form class="filter-dropdown">
-                <label class="filter-dropdown-label" for="filter">Thema wählen:</label>
-                <select name="filter-dropdown" id="filter" class="filter-dropdown-select">
-                    <option value="all">Alles</option>
-                    <option value="category1">Category 1</option>
-                    <option value="category2">Category 2</option>
-                    <option value="category3">Category 3</option>
-                </select>
-                <button type="submit" class="btn btn--xsmall">Filtern</button>
-            </form>
-        </auto-submit-form>
+    <section class="container container--xl container-vertical-spacing-xl">
+        <h2 class="section__title--normal">Trainingsangebot</h2>
         <ul class="legend__list">
             <li class="legend__item legend__item--socreatory">Socreatory Training</li>
             <li class="legend__item legend__item--isaqb">iSAQB Trainings</li>
@@ -162,91 +149,82 @@ description: Description
                     </div>
                 </div>
             </li>
-            <li class="card card--power">
-                <div class="card__body ">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Leichtgewichtige Architekturdokumentation</a></h3>
-                        <p class="card__text">Softwarearchitekturen festhalten und kommunizieren</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div>
-                            <p class="card__price">700 €</p>
-                        </div>
-                        <div>
-                            <p class="card__label">Powerworkshop</p>
-                        </div>
-                    </div>
+        </ul>
+        <h2 class="section__title--normal m-t-xl">Termine</h2>
+        <ul class="event-stripe__list">
+            <li class="event-stripe event-stripe--isaqb">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class=" event-stripe__location">In Wursthausen mit Hans Wurst</span>
             </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Evolution und Verbesserung von Softwarearchitekturen</a></h3>
-                        <p class="card__text">Mit Domain-driven Design, Event Storming und ML Design Canvas AI-Produkte entwerfen.</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div>
-                            <p class="card__price">2.100 €</p>
-                        </div>
-                    </div>
+            <li class="event-stripe">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
             </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Docker und Kubernetes Hands-On</a></h3>
-                        <p class="card__text">Technische Hintergründe und Konzepte hinter Docker und Kubernetes</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div>
-                            <p class="card__price">2.100 €</p>
-                        </div>
-                    </div>
+            <li class="event-stripe event-stripe--power">
+                <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
+                <div class="event-stripe__date">
+                    <time datetime="2024-03-12">12.</time> -
+                    <time datetime="2024-03-14">14.3.2024</time>
                 </div>
-            </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Data Mesh: Einführung</a></h3>
-                        <p class="card__text">Training für Softwarearchitekt:innen und Datenexpert:innen</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div>
-                            <p class="card__price">auf Anfrage</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card__body">
-                    <div class="card__body__top">
-                        <h3 class="card__title"><a href="#" class="card__link">Advanced Product Owner</a></h3>
-                        <p class="card__text">Verantwortung für den vollen Produktzyklus</p>
-                    </div>
-                    <div class="card__body__bottom">
-                        <div>
-                            <p class="card__price">2.100 €</p>
-                        </div>
-                    </div>
-                </div>
+                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
             </li>
         </ul>
-        <div class="teaser m-t-2xl">
-            <div class="teaser__column">
-                <h2 class="section__title--normal">Deine Trainer:innen</h2>
-                <p class="teaser__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-                    quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                </p>
-                <a href="#" class="btn btn--cta">Alle Trainer:innen ansehen</a>
+        <h2 class="section__title--normal m-t-xl">Deine Trainer:innen</h2>
+        <div class="tile-grid--md">
+            <div class="trainer-profile">
+                <a href="#"><img class="trainer-profile__image"
+                        src="/snippet/images/profiles/Kim_Duggen.jpg" /></a>
+                <div class="trainer-profile__content">
+                    <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
+                    <p class="profile__company">embarc</p>
+                    <p class="profile__role">Rolle</p>
+                    <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich
+                        New Work, Selbstorganisation
+                        und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
+                        als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                </div>
             </div>
-            <div class="teaser__column">
-                <a href="#">
-                    <img class="" src="/snippet/images/trainerinnenkachel.webp" />
-                </a>
+            <div class="trainer-profile">
+                <a href="#"><img class="trainer-profile__image"
+                        src="/snippet/images/profiles/Kim_Duggen.jpg" /></a>
+                <div class="trainer-profile__content">
+                    <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
+                    <p class="profile__company">embarc</p>
+                    <p class="profile__role">Rolle</p>
+                    <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich
+                        New Work, Selbstorganisation
+                        und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
+                        als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                </div>
+            </div>
+            <div class="trainer-profile">
+                <a href="#"><img class="trainer-profile__image"
+                        src="/snippet/images/profiles/Kim_Duggen.jpg" /></a>
+                <div class="trainer-profile__content">
+                    <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
+                    <p class="profile__company">embarc</p>
+                    <p class="profile__role">Rolle</p>
+                    <ul class="trainer-profile__trainings">
+                        <li class="trainer-profile__training trainer-profile__training--power">Risikomanagement für Softwarearchitekt:innen</li>
+                        <li class="trainer-profile__training trainer-profile__training--isaqb">CPSA Foundation-Level</li>
+                        <li class="trainer-profile__training trainer-profile__training--socreatory">OWASP Top Ten in der Praxis</li>
+                    </ul>
+                    <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich
+                        New Work, Selbstorganisation
+                        und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
+                        als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                </div>
             </div>
         </div>
     </section>

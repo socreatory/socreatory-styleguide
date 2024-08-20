@@ -26,7 +26,7 @@
   @extend %container-vertical-spacing-lg;
 }
 
-h1.header__heading {
+.header__heading {
   @include for-tablet-portrait-up {
     margin-top: $spacer-xl;
   }
@@ -52,6 +52,10 @@ h1.header__heading {
 }
 
 .header__subheading {
+  margin-bottom: 0;
+}
+
+.header_intro {
   margin-bottom: 0;
 }
 

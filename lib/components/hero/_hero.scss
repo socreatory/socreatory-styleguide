@@ -2,7 +2,7 @@
   @include for-tablet-landscape-up {
     grid-template-columns: 1.3fr 1fr;
     gap: $spacer-sm;
-    padding: $spacer-xl $spacer-base $spacer-xl $spacer-base;
+    padding: $spacer-xl $spacer-base 0 $spacer-base;
   }
 
   display: grid;
@@ -12,7 +12,7 @@
   max-width: $desktop-xl;
   margin-right: auto;
   margin-left: auto;
-  padding: $spacer-lg $spacer-xs $spacer-lg $spacer-xs;
+  padding: $spacer-lg $spacer-xs $spacer-base $spacer-xs;
 }
 
 .hero_grid-wrapper {
@@ -23,9 +23,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   .btn {
     margin-top: $spacer-md;
+  }
+
+  .breadcrumb {
+    align-self: flex-start;
   }
 }
 
@@ -52,7 +57,11 @@
   @include for-tablet-landscape-up {
     display: block;
     align-self: flex-end;
-    width: 75%;
+    width: 100%;
+  }
+
+  @include for-desktop-up {
+    width: 80%;
   }
 
   display: none;
@@ -72,6 +81,12 @@
 
 .hero__logos__caption {
   line-height: 1;
+}
+
+.hero__logos__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: $spacer-sm;
 }
 
 .hero__logo {

@@ -1,0 +1,51 @@
+.legend__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: $spacer-sm;
+  column-gap: $spacer-lg;
+  align-self: flex-end;
+
+  padding: 0;
+  padding-left: $spacer-md;
+
+  list-style: none;
+}
+
+.legend__item {
+  @extend %monospace-font-regular;
+
+  position: relative;
+
+  display: block;
+
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.legend__item--isaqb::before,
+.legend__item--power::before,
+.legend__item--socreatory::before {
+  content: "";
+
+  position: absolute;
+
+  width: $spacer-sm;
+  height: $spacer-sm;
+  margin-left: -$spacer-md;
+
+  border-radius: 1rem;
+}
+
+.legend__item--isaqb::before {
+  background: $brand-primary;
+}
+
+.legend__item--power::before {
+  background: $brand-tertiary;
+}
+
+.legend__item--socreatory::before {
+  background: $brand-secondary;
+}

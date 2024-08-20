@@ -59,8 +59,10 @@ description: Homepage
         <img class="hero__image" src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="" />
         <div class="hero__logos">
             <span class="hero__logos__caption"> Eine Kooperation von</span>
-            <a href="#"><img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg" /></a>
-            <a href="#"><img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg" /></a>
+            <div class="hero__logos__wrapper">
+                <a href="#"><img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg" /></a>
+                <a href="#"><img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg" /></a>
+            </div>
         </div>
     </div>
 </header>
@@ -68,7 +70,12 @@ description: Homepage
 <main>
     <section class="container container--xl container-vertical-spacing-xl">
         <h2 class="section__title--normal">Beliebte Schulungen</h2>
-        <ul class="cards">
+        <ul class="legend__list">
+            <li class="legend__item legend__item--socreatory">Socreatory Training</li>
+            <li class="legend__item legend__item--isaqb">iSAQB Trainings</li>
+            <li class="legend__item legend__item--power">Powerworkshop</li>
+        </ul>
+        <ul class="cards m-t-sm">
             <li class="card card--isaqb">
                 <div class="card__body">
                     <div class="card__body__top">

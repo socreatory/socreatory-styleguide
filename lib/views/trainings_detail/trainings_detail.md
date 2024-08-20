@@ -156,7 +156,7 @@ description: Show Training Detail
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
                 <div class="trainer-profile">
                     <a href="#"><img class="trainer-profile__image"
-                            src="/snippet/images/profiles/Oliver_Zeigermann.jpg" /></a>
+                            src="/snippet/images/profiles/kim_Duggen.jpg" /></a>
                     <div class="trainer-profile__content">
                         <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
                         <p class="profile__company">embarc</p>

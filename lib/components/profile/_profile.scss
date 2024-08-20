@@ -91,39 +91,43 @@
   text-underline-offset: $spacer-3xs;
 }
 
-.trainer-profile__text {
-  @extend %body-font-regular;
-
+.trainer-profile__trainings {
   margin-top: $spacer-sm;
   margin-bottom: 0;
-  font-size: $font-size-base;
-  line-height: $paragraph-line-height;
-}
+  padding-left: 0;
+  list-style: none;
 
-.img-text {
-  @include for-breakpoint-phone-up {
-    grid-gap: $spacer-lg;
-    grid-template-columns: 1fr 2fr;
+  > * + * {
+    margin-top: $spacer-2xs;
   }
-
-  display: grid;
-  grid-gap: $spacer-2xs;
-  grid-template-columns: 1fr;
 }
 
-.img-text__image {
-  max-width: 50%;
+.trainer-profile__training {
+  @extend %monospace-font-regular;
+
+  display: inline-block;
+
+  padding: 2px $spacer-2xs;
+
+  font-size: $font-size-sm;
+  text-wrap: nowrap;
+
+  border-radius: 1rem;
 }
 
-.img-text__heading {
-  @extend %heading-font-bold;
-
-  margin-bottom: 0;
-  font-size: $font-size-xl;
-  line-height: $heading-line-height-sm;
+.trainer-profile__training--power {
+  background-color: $brand-tertiary;
 }
 
-.img-text__text {
+.trainer-profile__training--isaqb {
+  background-color: $brand-primary;
+}
+
+.trainer-profile__training--socreatory {
+  background-color: $brand-secondary;
+}
+
+.trainer-profile__text {
   @extend %body-font-regular;
 
   margin-top: $spacer-sm;
