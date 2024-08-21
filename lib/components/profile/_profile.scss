@@ -106,12 +106,8 @@
   @extend %monospace-font-regular;
 
   display: inline-block;
-
-  padding: 2px $spacer-2xs;
-
+  padding: 2px $spacer-xs;
   font-size: $font-size-sm;
-  text-wrap: nowrap;
-
   border-radius: 1rem;
 }
 
