@@ -72,12 +72,13 @@ description: Description
                 <button type="submit" class="btn btn--xsmall">Filtern</button>
             </form>
         </auto-submit-form>
-        <ul class="legend__list">
-            <li class="legend__item legend__item--socreatory">Socreatory Training</li>
-            <li class="legend__item legend__item--isaqb">iSAQB Trainings</li>
-            <li class="legend__item legend__item--power">Powerworkshop</li>
+        <ul class="filters__list">
+            <li class="filters__item filters__item--active">Alle</li>
+            <li class="filters__item filters__item--socreatory">Socreatory Training</li>
+            <li class="filters__item filters__item--isaqb">iSAQB Trainings</li>
+            <li class="filters__item filters__item--power">Powerworkshop</li>
         </ul>
-        <ul class="cards m-t-sm">
+        <ul class="cards m-t-lg">
             <li class="card card--isaqb">
                 <div class="card__body ">
                     <div class="card__body__top">

@@ -1,13 +1,9 @@
 .filters__list {
-  @include for-tablet-landscape-up {
-    flex-direction: row;
-    gap: $spacer-xl;
-  }
-
   display: flex;
-  flex-direction: column;
-  gap: $spacer-base;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: $spacer-sm;
+  column-gap: $spacer-lg;
 
   padding: 0;
 
@@ -17,18 +13,13 @@
 .filters__item {
   @extend %monospace-font-regular;
 
-  @include for-tablet-landscape-up {
-    display: inline;
-    padding-bottom: 0;
-    text-align: left;
-  }
+  cursor: pointer;
 
   position: relative;
 
   display: block;
 
-  font-size: $font-size-md;
-  text-align: center;
+  font-size: $font-size-sm;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -51,46 +42,28 @@
   text-underline-offset: $spacer-2xs;
 }
 
-.filters__item--inactive,
-.filters__item--inactive:hover {
-  color: $brand-inactive;
-  text-decoration: none;
-}
-
-.filters__link--isaqb,
-.filters__link--power {
-  @include for-tablet-landscape-up {
-    margin-left: $spacer-md;
-  }
-
-  margin-left: 0;
-}
-
-.filters__link--isaqb::before,
-.filters__link--power::before {
-  @include for-tablet-landscape-up {
-    top: 2px;
-  }
-
+.filters__item--isaqb::before,
+.filters__item--power::before,
+.filters__item--socreatory::before {
   content: "";
 
   position: absolute;
-  top: 0;
 
-  display: inline-block;
-
-  width: 1rem;
-  height: 1rem;
+  width: $spacer-sm;
+  height: $spacer-sm;
   margin-left: -$spacer-md;
 
-  background: $brand-primary;
   border-radius: 1rem;
 }
 
-.filters__link--isaqb::before {
+.filters__item--isaqb::before {
   background: $brand-primary;
 }
 
-.filters__link--power::before {
+.filters__item--power::before {
   background: $brand-tertiary;
+}
+
+.filters__item--socreatory::before {
+  background: $brand-secondary;
 }

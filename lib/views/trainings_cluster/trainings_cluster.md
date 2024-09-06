@@ -46,13 +46,14 @@ description: Training Cluster Page
             </ul>
         </div>
         <h1 class="header__heading header__heading--centered">Unsere Trainings zu Architekturdokumentation</h1>
-        <p class="header_intro">
-            Die Dokumentation von Softwarearchitektur ist von entscheidender Bedeutung, um komplexe Softwaresysteme klar
+        <div class="header_intro">
+            <p>Die Dokumentation von Softwarearchitektur ist von entscheidender Bedeutung, um komplexe Softwaresysteme klar
             zu verstehen und zu kommunizieren. Durch gezieltes Training können Softwarearchitekten lernen, diese Dokumentation mit
-            Freude zu erstellen und anzuwenden. Indem sie Techniken wie Diagrammerstellung, klare Beschreibungen und strukturiertes
-            Denken beherrschen, können sie nicht nur ihre eigenen Entwürfe besser dokumentieren, sondern auch effektiver mit
-            anderen Entwicklern kommunizieren und so zu erfolgreichen Softwareprojekten beitragen.
-        </p>
+            Freude zu erstellen und anzuwenden.</p>
+            <p>Die Dokumentation von Softwarearchitektur ist von entscheidender Bedeutung, um komplexe Softwaresysteme klar
+            zu verstehen und zu kommunizieren. Durch gezieltes Training können Softwarearchitekten lernen, diese Dokumentation mit
+            Freude zu erstellen und anzuwenden.</p>
+        </div>
     </div>
 </header>
 
@@ -60,9 +61,9 @@ description: Training Cluster Page
     <section class="container container--xl container-vertical-spacing-xl">
         <h2 class="section__title--normal">Trainingsangebot</h2>
         <ul class="legend__list">
-            <li class="legend__item legend__item--socreatory">Socreatory Training</li>
-            <li class="legend__item legend__item--isaqb">iSAQB Trainings</li>
-            <li class="legend__item legend__item--power">Powerworkshop</li>
+            <li class="filters__item filters__item--socreatory">Socreatory Training</li>
+            <li class="filters__item filters__item--isaqb">iSAQB Trainings</li>
+            <li class="filters__item filters__item--power">Powerworkshop</li>
         </ul>
         <ul class="cards m-t-sm">
             <li class="card card--isaqb">

@@ -56,7 +56,10 @@
 }
 
 .header_intro {
-  margin-bottom: 0;
+  @extend %container--md;
+
+  align-self: center;
+  text-align: center;
 }
 
 .header__date {
