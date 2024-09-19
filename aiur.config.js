@@ -2,6 +2,9 @@ module.exports = {
   title: "Software Creators' Masterclass Style Guide",
   language: "en",
   description: "Styleguide Software Creators' Masterclass",
+  meta: {
+    robots: "noindex",
+  },
 
   pages: {
     "": "./lib/documentation/README.md",

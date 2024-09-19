@@ -4,7 +4,7 @@
   "version": "6.3.4",
   "scripts": {
     "aiur": "aiur -t ./dist",
-    "aiur:watch": "aiur -t ./dist --watch --liveserve 0.0.0.0:4001",
+    "aiur:watch": "aiur -t ./dist --watch --serve 0.0.0.0:4001",
     "compile": "faucet --fingerprint --compact",
     "compile:watch": "faucet --watch",
     "start": "npm-run-all --parallel compile:watch aiur:watch",
@@ -14,7 +14,8 @@
     "test": "npm run eslint && npm run stylelint"
   },
   "devDependencies": {
-    "aiur": "^0.10.0",
+    "aiur": "^0.11.0",
+    "donny": "^0.3.0",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
