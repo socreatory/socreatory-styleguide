@@ -124,49 +124,47 @@ description: Description
         </section>
 
         <section class="section">
-            <div class="section__1col markdown">
-                <h2 class="header__heading header__heading--centered">
-                    Unsere Trainingsmodelle:<br />
-                    Alles hat seine Vorteile
-                </h2>
-                <div class="spacer__xl"></div>
-                <h3>Öffentliche Trainings</h3>
-                <div class="textcolumns">
-                    <div class="textcolumn">
-                        <h3 class="textcolumn__heading">Networking und Austausch</h3>
-                        <p class="textcolumn__text">
-                            Bei unseren öffentlichen Trainings finden Teilnehmer:innen aus vielen verschiedenen Branchen zusammen und tauschen sich zu ihren Herausforderungen aus. Und das nicht nur in
-                            den Pausen: Unsere Trainer:innen sind praktizierende Consultants und lassen ihre langjährige Projekterfahrung in die Trainings einfließen. Mit kleinen Gruppen (max. 12
-                            Personen) schaffen wir eine vertraute Lernumgebung und geben diesem Austausch den nötigen Raum.
-                        </p>
-                    </div>
-                    <div class="textcolumn">
-                        <h3 class="textcolumn__heading">Mehr Flexibilität</h3>
-                        <p class="textcolumn__text">
-                            Manchmal ist es einfach zu kompliziert einen gemeinsamen Termin zu finden. Und oft ist es schwierig, das ganze Team für drei Tage am Stück zu entbehren. Da unsere
-                            öffentlichen Trainings regelmäßig stattfinden, kannst Du Dein Team ganz flexibel an verschiedenen Terminen teilnehmen lassen. Sind im gewünschten Termin noch ausreichend
-                            Plätze vorhanden, ist auch die »Nachbuchung« weiterer Teilnehmer:innen kein Problem.
-                        </p>
-                    </div>
+            <h2 class="header__heading header__heading--centered">
+                Unsere Trainingsmodelle:<br />
+                Alles hat seine Vorteile
+            </h2>
+            <div class="spacer__xl"></div>
+            <h3>Öffentliche Trainings</h3>
+            <div class="textcolumns">
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Networking und Austausch</h3>
+                    <p class="textcolumn__text">
+                        Bei unseren öffentlichen Trainings finden Teilnehmer:innen aus vielen verschiedenen Branchen zusammen und tauschen sich zu ihren Herausforderungen aus. Und das nicht nur in
+                        den Pausen: Unsere Trainer:innen sind praktizierende Consultants und lassen ihre langjährige Projekterfahrung in die Trainings einfließen. Mit kleinen Gruppen (max. 12
+                        Personen) schaffen wir eine vertraute Lernumgebung und geben diesem Austausch den nötigen Raum.
+                    </p>
                 </div>
-                <div class="spacer__xl"></div>
-                <h3>Geschlossene Trainings</h3>
-                <div class="textcolumns">
-                    <div class="textcolumn">
-                        <h3 class="textcolumn__heading">Wunschtermine</h3>
-                        <p class="textcolumn__text">
-                            Unser öffentliches Trainingsangebot passt nicht zu Deinem Terminkalender? Dann finden wir sicher eine individuelle Lösung. Durch kleine Gruppen, flexible Belegung und
-                            Online-Durchführung können wir (fast) jeden Terminwunsch erfüllen.
-                        </p>
-                    </div>
-                    <div class="textcolumn">
-                        <h3 class="textcolumn__heading">Inhouse-Schulungen</h3>
-                        <p class="textcolumn__text">
-                            Ein gemeinsames Trainingserlebnis steigert nicht nur das technologische Know-how, sondern auch den Zusammenhalt in der Abteilung. Ab 8 Teilnehmenden kommen wir ohne
-                            zusätzlichen Aufpreis zu Euch ins Unternehmen, aber auch für kleinere Teams machen wir Dir ein passendes Angebot. Doch nicht nur das: Wir legen für Euch auch eine komplette
-                            Trainingsinitiative auf. Das ist vor allem sinnvoll, wenn Du in großem Umfang Mitarbeiter:innen weiterbilden willst. Lass’ uns gerne darüber sprechen!
-                        </p>
-                    </div>
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Mehr Flexibilität</h3>
+                    <p class="textcolumn__text">
+                        Manchmal ist es einfach zu kompliziert einen gemeinsamen Termin zu finden. Und oft ist es schwierig, das ganze Team für drei Tage am Stück zu entbehren. Da unsere
+                        öffentlichen Trainings regelmäßig stattfinden, kannst Du Dein Team ganz flexibel an verschiedenen Terminen teilnehmen lassen. Sind im gewünschten Termin noch ausreichend
+                        Plätze vorhanden, ist auch die »Nachbuchung« weiterer Teilnehmer:innen kein Problem.
+                    </p>
+                </div>
+            </div>
+            <div class="spacer__xl"></div>
+            <h3>Geschlossene Trainings</h3>
+            <div class="textcolumns">
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Wunschtermine</h3>
+                    <p class="textcolumn__text">
+                        Unser öffentliches Trainingsangebot passt nicht zu Deinem Terminkalender? Dann finden wir sicher eine individuelle Lösung. Durch kleine Gruppen, flexible Belegung und
+                        Online-Durchführung können wir (fast) jeden Terminwunsch erfüllen.
+                    </p>
+                </div>
+                <div class="textcolumn">
+                    <h3 class="textcolumn__heading">Inhouse-Schulungen</h3>
+                    <p class="textcolumn__text">
+                        Ein gemeinsames Trainingserlebnis steigert nicht nur das technologische Know-how, sondern auch den Zusammenhalt in der Abteilung. Ab 8 Teilnehmenden kommen wir ohne
+                        zusätzlichen Aufpreis zu Euch ins Unternehmen, aber auch für kleinere Teams machen wir Dir ein passendes Angebot. Doch nicht nur das: Wir legen für Euch auch eine komplette
+                        Trainingsinitiative auf. Das ist vor allem sinnvoll, wenn Du in großem Umfang Mitarbeiter:innen weiterbilden willst. Lass’ uns gerne darüber sprechen!
+                    </p>
                 </div>
             </div>
         </section>

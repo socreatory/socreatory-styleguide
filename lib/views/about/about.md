@@ -48,28 +48,26 @@ description: Description
     <div class="container__centered">
         <section class="section">
             <h2 class="section__title--small"><span aria-hidden>-- </span>Zwei Anbieter, eine Academy</h2>
-            <h3 class="heading">Zusammen, um Wissen zu teilen.</h3>
+            <h3>Zusammen, um Wissen zu teilen.</h3>
             <div class="article__logos">
                 <img class="article__logo" src="/snippet/images/logos/embarc_logo.svg" />
                 <img class="article__logo" src="/snippet/images/logos/innoq_logo.svg" />
             </div>
-            <div class="article markdown">
-                <p>
-                    Wir sind ausnahmslos Expert:innen, die Ihr Wissen täglich in der Praxis anwenden. Wir sind erfahrene Trainer:innen, die die international anerkannten Standards nicht nur
-                    weitergeben, sondern aktiv mitgestalten. Wir sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben. Wir sind embarc und
-                    INNOQ. Zusammen sind wir socreatory.
-                </p>
-                <p>
-                    Als zwei der der führenden Trainings-Anbieter für Softwarearchitektur sind wir seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB). Viele
-                    von uns sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach
-                    aktuellstem Stand.
-                </p>
-                <p>
-                    Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare
-                    Zertifizierungslevel nach den iSAQB-Standards umfasst.
-                </p>
-                <a href="#" class="btn btn-type--primary ">Unsere Trainer:innen</a>
-            </div>
+            <p>
+                Wir sind ausnahmslos Expert:innen, die Ihr Wissen täglich in der Praxis anwenden. Wir sind erfahrene Trainer:innen, die die international anerkannten Standards nicht nur
+                weitergeben, sondern aktiv mitgestalten. Wir sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben. Wir sind embarc und
+                INNOQ. Zusammen sind wir socreatory.
+            </p>
+            <p>
+                Als zwei der der führenden Trainings-Anbieter für Softwarearchitektur sind wir seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB). Viele
+                von uns sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach
+                aktuellstem Stand.
+            </p>
+            <p>
+                Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare
+                Zertifizierungslevel nach den iSAQB-Standards umfasst.
+            </p>
+            <a href="#" class="btn btn-type--primary ">Unsere Trainer:innen</a>
         </section>
 
         <section class="section">

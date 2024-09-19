@@ -55,26 +55,24 @@ description: Description
 <main>
     <div class="container container--md container-vertical-spacing-lg">
         <h2 class="section__title--normal">Mit unserem Modulbaukasten zum Advanced Level</h2>
-        <div class="article markdown">
-            <p>Als Softwarearchitekt:in bist Du es gewohnt, Dich mit komplexen Systemen zu beschäftigen. Trotzdem
-                möchten wir es Dir so einfach wie möglich machen. Mit unserem Modulbaukasten stellst Du Dir mit
-                wenigen Klicks ein Trainingsprogramm zusammen, das ideal ineinandergreift und alle Voraussetzungen
-                für Deine Teilnahme an der Prüfung zum <a
-                    href="https://www.isaqb.org/de/zertifizierungen/zertifizierungen-uebersicht/cpsa-advanced-level/"
-                    target="_blank">Certified Professional for Software Architecture – Advanced Level (CPSA-A)</a>
-                erfüllt.
+        <p>Als Softwarearchitekt:in bist Du es gewohnt, Dich mit komplexen Systemen zu beschäftigen. Trotzdem
+            möchten wir es Dir so einfach wie möglich machen. Mit unserem Modulbaukasten stellst Du Dir mit
+            wenigen Klicks ein Trainingsprogramm zusammen, das ideal ineinandergreift und alle Voraussetzungen
+            für Deine Teilnahme an der Prüfung zum <a
+                href="https://www.isaqb.org/de/zertifizierungen/zertifizierungen-uebersicht/cpsa-advanced-level/"
+                target="_blank">Certified Professional for Software Architecture – Advanced Level (CPSA-A)</a>
+            erfüllt.
+        </p>
+        <p>Du siehst auf einen Blick, wie viele Credit Points Du mit Deiner Auswahl erreichst, welche
+            Themenbereiche Du bereits belegt hast und welche Module noch dazu passen könnten. Selbstverständlich
+            kannst Du die Trainingseinheiten frei kombinieren und Deine eigenen Schwerpunkte setzen. Du hast
+            keine Muße, Dir sämtliche Modulbeschreibungen einzeln durchzulesen? Nutze einfach unsere
+            Empfehlungen, um Dich zu orientieren. Sie basieren auf den Erfahrungswerten unserer Trainer:innen
+            und die müssen es ja wissen.</p>
+        <div class="achtung-box">
+            <p>Um die Prüfung antreten zu können, werden <strong>insgesamt min. 70 Punkte</strong> sowie
+                <strong>min. 10 Punkte</strong> in jedem Schwerpunkt benötigt
             </p>
-            <p>Du siehst auf einen Blick, wie viele Credit Points Du mit Deiner Auswahl erreichst, welche
-                Themenbereiche Du bereits belegt hast und welche Module noch dazu passen könnten. Selbstverständlich
-                kannst Du die Trainingseinheiten frei kombinieren und Deine eigenen Schwerpunkte setzen. Du hast
-                keine Muße, Dir sämtliche Modulbeschreibungen einzeln durchzulesen? Nutze einfach unsere
-                Empfehlungen, um Dich zu orientieren. Sie basieren auf den Erfahrungswerten unserer Trainer:innen
-                und die müssen es ja wissen.</p>
-            <div class="achtung-box">
-                <p>Um die Prüfung antreten zu können, werden <strong>insgesamt min. 70 Punkte</strong> sowie
-                    <strong>min. 10 Punkte</strong> in jedem Schwerpunkt benötigt
-                </p>
-            </div>
         </div>
     </div>
     <div class="container container--xl container--centered container-vertical-spacing-lg">

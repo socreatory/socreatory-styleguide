@@ -43,9 +43,15 @@ p {
   white-space: break-spaces;
 }
 
-// Bilder innerhalb von Markdown einfärben
-.article.markdown img {
-  mix-blend-mode: multiply;
+.markdown-text--medium {
+  > * {
+    margin-bottom: 0;
+    font-size: $font-size-md;
+  }
+
+  > * + * {
+    margin-top: $spacer-xs;
+  }
 }
 
 // Komponente zweispaltig Text&Text
@@ -79,6 +85,13 @@ p {
 
   display: grid;
   gap: $spacer-base;
+
+  p {
+    @extend %body-font-bold;
+
+    margin-bottom: 0;
+    font-size: $font-size-lg;
+  }
 }
 
 .texttable__cell {
@@ -110,27 +123,4 @@ p {
   display: block;
   width: 10rem;
   margin: 1rem auto;
-}
-
-// Markdown Listen und Text
-.markdown {
-  &.texttable {
-    p {
-      @extend %body-font-bold;
-
-      margin-bottom: 0;
-      font-size: $font-size-lg;
-    }
-  }
-}
-
-.markdown-text--medium {
-  > * {
-    margin-bottom: 0;
-    font-size: $font-size-md;
-  }
-
-  > * + * {
-    margin-top: $spacer-xs;
-  }
 }

@@ -45,7 +45,7 @@ description: Description
 
 <main>
     <div class="container__centered">
-        <section class="section section--narrow">
+        <section class="section">
             <h2 class="paragraph__h2">EU-DSGVO konforme Datenschutzerklärung</h2>
             <h2 class="paragraph__h2">Datenschutzerklärung, BLINDTEXT</h2>
             <p>(Stand: 29. Dezember 2020)</p>
@@ -68,7 +68,7 @@ description: Description
             </p>
         </section>
 
-        <section class="section section--narrow">
+        <section class="section">
             <h2 class="paragraph__h2">Anwendungsbereich der Datenschutzerklärung</h2>
             <p>
                 Unter der Verarbeitung personenbezogener Daten versteht der Gesetzgeber Tätigkeiten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder
@@ -77,7 +77,7 @@ description: Description
             </p>
         </section>
 
-        <section class="section section--narrow">
+        <section class="section">
             <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
             <p>
                 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist
@@ -85,7 +85,7 @@ description: Description
             </p>
         </section>
 
-        <section class="section section--narrow">
+        <section class="section">
             <h2 class="paragraph__h2">Welche personenbezogenen Daten verarbeiten wir?</h2>
             <p>
                 Ihre personenbezogenen Daten werden von uns erhoben, wenn Sie mit uns, z.B. als Interessent oder Kunde, in Kontakt treten. Dies kann beispielsweise geschehen, indem Sie sich für unsere

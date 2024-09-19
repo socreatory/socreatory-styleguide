@@ -74,58 +74,46 @@ description: Show Training Detail iSAQB
             <a href="#booking" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
-                <h3 class="heading">Evolution und Verbesserung von Software&shy;architekturen – systematisch und
+                <h3>Evolution und Verbesserung von Software&shy;architekturen – systematisch und
                     nachhaltig</h3>
-                <div class="article markdown">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi
-                        non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem
-                        illum!
-                    </p>
-                    <img class="article__image"
-                        src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg"
-                        alt="Dr. Lars Hupel im Einsatz" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem
-                            ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt
-                        et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia
-                        aliquam eos nam.
-                    </p>
-                </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi
+                    non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem
+                    illum!
+                </p>
+                <img class="article__image"
+                    src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg"
+                    alt="Dr. Lars Hupel im Einsatz" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem
+                        ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt
+                    et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia
+                    aliquam eos nam.
+                </p>
             </section>
 
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Agenda</h2>
-                <div class="article markdown">
-                    <ul>
-                        <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-                            atque?</li>
-                        <li>
-                            Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
-                            veniam, numquam architecto voluptate.
-                        </li>
-                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                    </ul>
-                    <ol>
-                        <li>Lorem, ipsum dolor</li>
-                        <li>Lorem reiciendis error fugit</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    </ol>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Teilnehmer:innen Bewertung</h2>
-                <div class="stars" style="--rating: 3.5;"
-                    aria-label="Die Bewertung dieses Trainings beträgt 4 von möglichen 5."></div>
-                <p class="stars__rating">(14 Bewertungen)</p>
-                <p><strong>92%</strong> aller Teilnehmer:innen würden dieses Training weiterempfehlen</p>
+                <ul>
+                    <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                        atque?</li>
+                    <li>
+                        Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
+                        veniam, numquam architecto voluptate.
+                    </li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+                </ul>
+                <ol>
+                    <li>Lorem, ipsum dolor</li>
+                    <li>Lorem reiciendis error fugit</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ol>
             </section>
 
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Ihr Nutzen</h2>
-                <div class="texttable markdown">
+                <div class="texttable">
                     <p class="texttable__cell">
                         Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei
                         Moderni&shy;sierung&shy;svor&shy;haben gewachsener Systeme als auch beim Design neuer
@@ -140,17 +128,15 @@ description: Show Training Detail iSAQB
             </section>
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Zielgruppe</h2>
-                <div class="section__1col markdown">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim,
                         ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa?
                         Ipsum dolorem dolor pariatur provident esse?
                     </p>
-                </div>
             </section>
             <section class="section">
                 <h2 class="section__title--small"><span aria-hidden>-- </span>Lernziele</h2>
-                <div class="texttable markdown">
+                <div class="texttable">
                     <p class="texttable__cell">Motivation: Schnelle IT als Wettbewerbsfaktor</p>
                     <p class="texttable__cell">Gesetz von Conway: Software-Architekturen und Organisation</p>
                     <p class="texttable__cell">Microservices und Self-contained Systems</p>

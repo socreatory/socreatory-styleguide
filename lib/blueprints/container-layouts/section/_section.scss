@@ -1,6 +1,14 @@
 // Main
 .section {
-  margin-bottom: $spacer-2xl;
+  margin-bottom: $spacer-xl;
+
+  > * {
+    margin-bottom: 0;
+  }
+
+  > * + * {
+    margin-top: $spacer-md;
+  }
 }
 
 .section--home {
@@ -9,10 +17,6 @@
   }
 
   padding-bottom: 0;
-}
-
-.section--narrow {
-  margin-bottom: $spacer-xl;
 }
 
 .section--supernarrow {

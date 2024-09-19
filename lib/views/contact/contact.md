@@ -46,15 +46,12 @@ description: Description
 <main>
     <div class="container__centered">
         <section class="section">
-            <div class="section__1col markdown">
-                <p>
-                    Du hast Fragen zu unseren Leistungen oder bist auf der Suche nach einer individuellen Unterstützung? Für Fragen oder Wünsche nutze den direkten Kontakt über unser Kontaktformular.
-                    Wir melden uns bei dir!
-                </p>
-            </div>
+            <p>
+                Du hast Fragen zu unseren Leistungen oder bist auf der Suche nach einer individuellen Unterstützung? Für Fragen oder Wünsche nutze den direkten Kontakt über unser Kontaktformular.
+                Wir melden uns bei dir!
+            </p>
         </section>
-    </div>
-    <div class="container__centered">
+
         <section class="section">
             <h2 class="paragraph__h2">Deine Nachricht an uns</h2>
             <form class="form" id="new_contact_form" novalidate="novalidate" action="/contact_forms" accept-charset="UTF-8" method="post">

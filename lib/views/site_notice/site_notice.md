@@ -45,27 +45,27 @@ description: Description
 
 <main>
     <div class="container__centered">
-        <section class="section section--narrow">
-            <h2 class="paragraph__h2 markdown">Angaben gemäß § 5 TMG</h2>
-            <p class="markdown">
+        <section class="section">
+            <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
+            <p>
                 <strong>socreatory GbR</strong><br />
                 HR B XXXXX, Amtsgericht XXXXXX<br />
                 USt-IdNr. DE XXX XXX XXX<br />
                 Geschäftsführung: Susi und Strolch
             </p>
-            <p class="markdown">Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
-            <p class="markdown">
+            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
+            <p>
                 Krischerstraße 100<br />
                 40789 Monheim am Rhein
             </p>
-            <p class="markdown">
+            <p>
                 Telefon +49 2173 3366 0<br />
                 Fax +49 2173 3366 222
             </p>
-            <p class="markdown">E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
+            <p>E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
         </section>
 
-        <section class="section section--narrow">
+        <section class="section">
             <h2 class="paragraph__h2">Datenschutz</h2>
             <p>
                 Grundsätzlich gilt für die socreatory GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum
