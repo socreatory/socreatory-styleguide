@@ -23,7 +23,7 @@ scroll-nav + * {
     grid-template-areas:
       "logo nav login"
       "x x profile";
-    grid-template-columns: 10rem auto 15rem; // magic numbers
+    grid-template-columns: 10rem auto auto; // magic numbers
     grid-template-rows: auto;
 
     padding: 0 $spacer-sm;
@@ -83,7 +83,6 @@ scroll-nav + * {
 
 .navigation-main {
   @include for-tablet-landscape-up {
-    gap: $spacer-2xl;
     justify-content: space-between;
     width: auto;
     padding-bottom: 0;
