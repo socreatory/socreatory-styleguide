@@ -19,7 +19,7 @@ description: Event stripe
         </span>
     </li>
     <li class="event-stripe">
-        <h3 class="event-stripe__title"><a href="#">Ein tolles Training mit einem schönen langen Titel 123</a></h3>
+        <h3 class="event-stripe__title"><a class="card__link" href="#">Ein tolles Training mit einem schönen langen Titel 123</a></h3>
         <p class="event-stripe__subtitle">iSAQB® ARC</p>
         <div class="pills pills--sm">
             <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--sm">20

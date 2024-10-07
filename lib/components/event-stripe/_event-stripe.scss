@@ -43,9 +43,9 @@
   }
 
   .pills {
-    grid-column: 2;
-    grid-row: 2;
-    padding-left: $spacer-sm;
+    grid-column: 3;
+    grid-row: 1;
+    // align-self: start;
   }
 }
 
@@ -59,7 +59,7 @@
 
 .event-stripe__title {
   display: block;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-column-start: 1;
   grid-row: 1;
 
@@ -83,6 +83,7 @@
 
     &:hover {
       text-decoration: underline;
+      text-decoration-color: $brand-text;
       text-decoration-thickness: $spacer-3xs;
       text-underline-offset: $spacer-3xs;
     }
@@ -146,7 +147,7 @@
     width: $spacer-lg;
     height: $spacer-lg;
 
-    border: 1px solid $brand-sand;
+    border: 1px solid $brand-gray-2;
   }
 }
 
