@@ -9,6 +9,11 @@
   font-size: $font-size-sm;
 }
 
+.pills--sm {
+  gap: $spacer-2xs;
+  font-size: $font-size-xs;
+}
+
 .pill {
   display: flex;
   flex-wrap: nowrap;
@@ -39,6 +44,12 @@
   font-size: 2rem;
 
   border-radius: $spacer-xl;
+}
+
+.pill__number--sm {
+  min-width: 1.5rem;
+  padding: 0.1rem 0;
+  letter-spacing: 0.03rem;
 }
 
 .pill__number--zero {

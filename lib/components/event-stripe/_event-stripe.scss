@@ -18,15 +18,20 @@
 }
 
 .event-stripe {
+  @include for-tablet-landscape-up {
+    padding: $spacer-xs $spacer-sm;
+  }
+
   position: relative;
 
   display: grid;
-  grid-column-gap: $spacer-xs;
-  grid-template-columns: $spacer-lg 2fr 1fr;
+  grid-column-gap: $spacer-sm;
+  grid-row-gap: $spacer-2xs;
+  grid-template-columns: auto 1fr auto;
   grid-template-rows: auto;
 
   width: 100%;
-  padding: $spacer-xs $spacer-sm;
+  padding: $spacer-xs $spacer-3xs $spacer-xs $spacer-sm;
 
   background-color: $brand-white-1;
   border-left: 5px solid $brand-secondary;
@@ -37,13 +42,9 @@
     margin-bottom: 0;
   }
 
-  .avatar {
-    grid-column: 1;
-    grid-row: 2/4;
-    align-self: center;
-
-    width: $spacer-lg;
-    height: $spacer-lg;
+  .pills {
+    grid-column: 2;
+    grid-row: 2;
   }
 }
 
@@ -57,10 +58,9 @@
 
 .event-stripe__title {
   display: block;
-  grid-column: 1/4;
+  grid-column-end: 4;
+  grid-column-start: 1;
   grid-row: 1;
-
-  margin-bottom: $spacer-2xs;
 
   font-size: $font-size-base;
   line-height: $heading-line-height-sm;
@@ -88,13 +88,74 @@
   }
 }
 
+.event-stripe__subtitle {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+
+  font-size: $font-size-sm;
+  line-height: $heading-line-height-sm;
+}
+
+.event-stripe__label {
+  @extend %heading-font-bold;
+
+  display: inline-block;
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: center;
+
+  margin-bottom: 0;
+  padding: $spacer-2xs;
+
+  font-size: $font-size-sm;
+  line-height: 1;
+  text-transform: uppercase;
+
+  background-color: $brand-tertiary;
+}
+
+.event-stripe__body {
+  display: inline-grid;
+  grid-column-end: 4;
+  grid-column-gap: $spacer-xs;
+  grid-column-start: 1;
+  grid-row: auto;
+  grid-row-gap: $spacer-2xs;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 2;
+
+  padding: $spacer-2xs 0;
+}
+
+.event-stripe__avatar {
+  display: flex;
+  grid-column: 1;
+  grid-row: 1/3;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: $spacer-3xs;
+  align-items: baseline;
+  justify-content: baseline;
+
+  .avatar {
+    @include for-tablet-landscape-up {
+      width: $spacer-lg;
+      height: $spacer-lg;
+    }
+
+    display: inline-block;
+    align-self: flex-end;
+    width: $spacer-base;
+    height: $spacer-base;
+  }
+}
+
 .event-stripe__date {
   @extend %heading-font-bold;
 
   grid-column: 2;
-  grid-row: 2;
-  align-self: center;
-
+  grid-row: 1;
   font-size: $font-size-md;
   line-height: $heading-line-height-sm;
 }
@@ -102,8 +163,7 @@
 .event-stripe__location {
   display: block;
   grid-column: 2;
-  grid-row: 3;
-  align-self: center;
+  grid-row: 2;
 
   font-size: $font-size-md;
   line-height: $heading-line-height-sm;
@@ -114,10 +174,9 @@
 
   display: flex;
   grid-column: 3;
-  grid-row: 2/4;
+  grid-row: auto;
   gap: $spacer-2xs;
   align-items: flex-end;
-  align-self: end;
   justify-self: end;
 
   margin-bottom: 0;

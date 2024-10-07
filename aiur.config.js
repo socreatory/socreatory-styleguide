@@ -78,6 +78,7 @@ module.exports = {
         announcement: "./lib/components/announcement/announcement.md",
         breadcrumb: "./lib/components/breadcrumb/breadcrumb.md",
         cards: "./lib/components/cards/cards.md",
+        event_stripe: "./lib/components/event-stripe/event-stripe.md",
         filter_dropdown: "./lib/components/filter-dropdown/filter-dropdown.md",
         offer_box: "./lib/components/offer-box/offer-box.md",
         quote: "./lib/components/quote/quote.md",

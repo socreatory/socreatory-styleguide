@@ -205,42 +205,61 @@ description: Homepage
                 <h2 class="section__title--normal">Early Birds</h2>
                 <ul class="event-stripe__list">
                     <li class="event-stripe event-stripe--isaqb">
-                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">12. - 14.3.2022</div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training mit einem schönen langen Titel</a></h3>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">12. - 14.3.2022</div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
+                        </div>
                         <span class="event_stripe__earlybird">
-                             Rabatt bis 9.April
-                            <img class="event-stripe__earlybird__image"
-                                src="/snippet/images/illustrations/iconearlybird.png" />
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
                     </li>
                     <li class="event-stripe">
-                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training mit einem schönen langen Titel 123</a></h3>
+                        <p class="event-stripe__subtitle">iSAQB® ARC</p>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">
+                                <time datetime="2024-03-12">12.</time> -
+                                <time datetime="2024-03-14">14.3.2024</time>
+                            </div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
                         </div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
-                         <span class="event_stripe__earlybird">
-                             Rabatt bis 9.April
-                            <img class="event-stripe__earlybird__image"
-                                src="/snippet/images/illustrations/iconearlybird.png" />
+                        <div class="pills pills--sm">
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--sm">20
+                            </div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--sm">—
+                            </div>
+                            <div class="pill"><span class="pill__label">K</span><span
+                                    class="pill__number pill__number--sm">10
+                            </div>
+                        </div>
+                        <span class="event_stripe__earlybird">
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
                     </li>
                     <li class="event-stripe event-stripe--power">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">12. - 14.3.2022</div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
                         </div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">In Wursthausen mit Hans Wurst</span>
                         <span class="event_stripe__earlybird">
-                             Rabatt bis 9.April
-                            <img class="event-stripe__earlybird__image"
-                                src="/snippet/images/illustrations/iconearlybird.png" />
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
                         </span>
                     </li>
                 </ul>
@@ -250,31 +269,62 @@ description: Homepage
                 <h2 class="section__title--normal">Nächste Termine</h2>
                 <ul class="event-stripe__list">
                     <li class="event-stripe event-stripe--isaqb">
-                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training mit einem schönen langen Titel</a></h3>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">12. - 14.3.2022</div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
                         </div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event_stripe__earlybird">
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                     <li class="event-stripe">
-                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
+                        <h3 class="event-stripe__title"><a href="#">Ein tolles Training mit einem schönen langen Titel 123</a></h3>
+                        <p class="event-stripe__subtitle">iSAQB® ARC</p>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">
+                                <time datetime="2024-03-12">12.</time> -
+                                <time datetime="2024-03-14">14.3.2024</time>
+                            </div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
                         </div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <div class="pills pills--sm">
+                            <div class="pill"><span class="pill__label">T</span><span class="pill__number pill__number--sm">20
+                            </div>
+                            <div class="pill"><span class="pill__label">M</span><span class="pill__number pill__number--sm">—
+                            </div>
+                            <div class="pill"><span class="pill__label">K</span><span
+                                    class="pill__number pill__number--sm">10
+                            </div>
+                        </div>
+                        <span class="event_stripe__earlybird">
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                     <li class="event-stripe event-stripe--power">
                         <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>
-                        <div class="event-stripe__date">
-                            <time datetime="2024-03-12">12.</time> -
-                            <time datetime="2024-03-14">14.3.2024</time>
+                        <div class="event-stripe__body">
+                            <div class="event-stripe__date">12. - 14.3.2022</div>
+                            <div class="event-stripe__avatar">
+                                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                            </div>
+                            <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
                         </div>
-                        <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                        <span class="event-stripe__location">Wursthotel Wurststr.100 40000 Wursthausen</span>
+                        <span class="event_stripe__earlybird">
+                            Rabatt bis 9.April
+                            <img class="event-stripe__earlybird__image" src="/snippet/images/illustrations/iconearlybird.png" />
+                        </span>
                     </li>
                 </ul>
                 <a href="#" class="btn btn--cta">Alle Early Birds</a>
