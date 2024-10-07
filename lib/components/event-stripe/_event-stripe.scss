@@ -45,6 +45,7 @@
   .pills {
     grid-column: 2;
     grid-row: 2;
+    padding-left: $spacer-sm;
   }
 }
 
@@ -117,7 +118,7 @@
 
 .event-stripe__body {
   display: inline-grid;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-column-gap: $spacer-xs;
   grid-column-start: 1;
   grid-row: auto;
@@ -139,15 +140,13 @@
   justify-content: baseline;
 
   .avatar {
-    @include for-tablet-landscape-up {
-      width: $spacer-lg;
-      height: $spacer-lg;
-    }
-
     display: inline-block;
     align-self: flex-end;
-    width: $spacer-base;
-    height: $spacer-base;
+
+    width: $spacer-lg;
+    height: $spacer-lg;
+
+    border: 1px solid $brand-sand;
   }
 }
 
