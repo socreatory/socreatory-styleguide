@@ -430,6 +430,20 @@ description: Homepage
                     Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
             </div>
         </div>
+        <div class="container--2-col m-t-lg">
+            <div class="textcolumn">
+                <h3 class="textcolumn__heading">
+                    Alle Vorteile immer zur Hand – lade dir unser Angebot herunter!
+                </h3>
+                <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
+            </div>
+            <div class="textcolumn">
+                <h3 class="textcolumn__heading">
+                    Unser aktueller Schulungskatalog
+                </h3>
+                <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
+            </div>
+        </div>
     </section>
     <div class="stripe stripe--white-1">
         <section class="container container--xl container-vertical-spacing-2xl">

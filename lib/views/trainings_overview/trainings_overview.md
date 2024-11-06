@@ -52,6 +52,12 @@ description: Description
             <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
             <span class="hero__logos__caption">akkreditierter Partner</span>
         </div>
+        <div class="m-t-sm">
+            <h3 class="textcolumn__heading">
+                Unser aktueller Schulungskatalog
+            </h3>
+            <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
+        </div>
     </div>
     <div class="hero_grid-wrapper">
         <img class="hero__image" src="/snippet/images/illustrations/Schulunguebersicht.png" alt="" />
