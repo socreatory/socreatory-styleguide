@@ -39,6 +39,11 @@ p {
   }
 }
 
+.paragraph--highligthed {
+  background-color: $brand-tertiary-light;
+  padding: $spacer-xs;
+}
+
 .paragraph__pre {
   white-space: break-spaces;
 }

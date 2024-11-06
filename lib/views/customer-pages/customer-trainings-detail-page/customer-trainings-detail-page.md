@@ -112,6 +112,7 @@ description: Customer Trainings Detail Page
                     </span>
                 </li>
             </ul>
+            <p class="paragraph--highligthed paragraph--medium"> Dieser Zeitplan ist unverbindlich und kann sich noch ändern. </p>
         </div>
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Wichtige Links</h2>
