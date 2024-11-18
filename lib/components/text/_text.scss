@@ -49,6 +49,7 @@ p {
   &::before {
     content: asset-url("icons/info.svg");
     display: inline-block;
+    padding-right: $spacer-2xs;
     vertical-align: middle;
   }
 }
