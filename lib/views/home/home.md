@@ -330,7 +330,29 @@ description: Homepage
                 <a href="#" class="btn btn--cta">Alle Early Birds</a>
             </div>
         </div>
-        <div class="teaser m-t-2xl">
+    </section>
+    <div class="stripe stripe--white-1">
+        <section class="container container--xl container-vertical-spacing-2xl">
+            <div class="teaser">
+                <div class="teaser__column">
+                    <img class="" src="/snippet/images/socreatory-katalog-2025.webp" alt="">
+                </div>
+                <div class="teaser__column">
+                    <h2 class="section__title--normal">Der Katalog!!</h2>
+                    <p class="teaser__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                        quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    </p>
+                    <a href="#" class="btn btn--cta">Mehr über uns</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="container container--xl container-vertical-spacing-xl">
+        <div class="teaser">
             <div class="teaser__column">
                 <h2 class="section__title--normal">Deine Trainer:innen</h2>
                 <p class="teaser__text">
@@ -378,7 +400,7 @@ description: Homepage
             </blockquote>
         </section>
     </div>
-    <section class="container container--xl container-vertical-spacing-2xl container--centered">
+    <section class="container container--xl container-vertical-spacing-xl container--centered">
         <h2 class="section__title--normal">Unsere Kunden</h2>
         <div class="custommer-logo-grid">
             <a href="#" class="customer-logo customer-logo--businessdecision"><img
@@ -399,7 +421,7 @@ description: Homepage
         </div>
     </section>
     <img class="eyecatcher" itemprop="photo" src="/snippet/images/eyecatcher.webp" alt="Eyecatcher" />
-    <section class="container container--xl container-vertical-spacing-2xl">
+    <section class="container container--xl container-vertical-spacing-xl">
         <h2 class="section__title--normal">Du brauchst noch mehr Argumente?</h2>
         <div class="textcolumns">
             <div class="textcolumn">
@@ -430,26 +452,18 @@ description: Homepage
                     Zudem profitierst du von Early Bird-Preisen und großer Planungssicherheit.</p>
             </div>
         </div>
-        <div class="container--2-col m-t-lg">
-            <div class="textcolumn">
-                <h3 class="textcolumn__heading">
-                    Alle Vorteile immer zur Hand – lade dir unser Angebot herunter!
-                </h3>
-                <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
-            </div>
-            <div class="textcolumn">
-                <h3 class="textcolumn__heading">
-                    Unser aktueller Schulungskatalog
-                </h3>
-                <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
-            </div>
+        <div class="m-t-lg">
+            <h3 class="textcolumn__heading">
+                Alle Vorteile immer zur Hand – lade dir unser Angebot herunter!
+            </h3>
+            <a href="#" class="btn btn--cta m-t-sm">PDF herunterladen</a>
         </div>
     </section>
     <div class="stripe stripe--white-1">
         <section class="container container--xl container-vertical-spacing-2xl">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="" src="/snippet/images/ueber_uns.jpg" alt="">
+                    <img class="" src="/snippet/images/ueber_uns.webp" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>
