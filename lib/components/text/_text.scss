@@ -39,13 +39,18 @@ p {
   }
 }
 
-.paragraph--highligthed {
-  background-color: $brand-tertiary-light;
-  padding: $spacer-xs;
-}
-
 .paragraph__pre {
   white-space: break-spaces;
+}
+
+.info-text {
+  @extend %body-font-bold;
+
+  &::before {
+    content: asset-url("icons/info.svg");
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 .markdown-text--medium {

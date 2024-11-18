@@ -13,4 +13,6 @@ _add_
 <span class="icon icon--link--primary" role="presentation"></span>
 
 <span class="icon icon--idea" role="presentation"></span>
+
+<span class="icon icon--info" role="presentation"></span>
 ```

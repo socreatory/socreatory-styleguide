@@ -35,6 +35,10 @@
   @include icon-before("icons/light-bulb-shine.svg", $brand-black, 2rem);
 }
 
+.icon--info {
+  @include icon-before("icons/info.svg", $brand-black, 1.2rem);
+}
+
 .icon--linkedin {
   @include icon-before("icons/social-linkedin.svg", $brand-black, 1.5rem);
 }

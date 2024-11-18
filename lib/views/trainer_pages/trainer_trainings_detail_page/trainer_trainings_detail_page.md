@@ -275,7 +275,7 @@ description: Backend-View for Trainers shows details of a specific training
                 <turbo-frame>
                     <a href="#">Hinzufügen</a>
                 </turbo-frame>
-                <div class="m-t-sm">
+                <div class="m-t-sm form__field--horizontal">
                     <input type="checkbox" id="horns" name="Zeitplan" />
                     <label for="Zeitplan">Haken setzen, wenn der Zeitplan verbindlich ist</label>
                 </div>
