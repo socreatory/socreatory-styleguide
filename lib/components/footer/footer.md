@@ -13,9 +13,9 @@ description: Footer
                 <h2 class="footer__headline">Folge uns auf</h2>
                 <ul class="social-media-bar">
                     <li class="social-media-bar__item">
-                        <a href="#" class="social-media-bar__link" title="Twitter">
-                            <span class="icon icon--twitter icon--brand-primary"></span>
-                            <span class="sr-only">Twitter</span>
+                        <a href="#" class="social-media-bar__link" title="Yotube">
+                            <span class="icon icon--youtube icon--brand-primary"></span>
+                            <span class="sr-only">Youtubr</span>
                         </a>
                     </li>
                     <li class="social-media-bar__item">
