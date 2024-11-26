@@ -31,55 +31,122 @@ description: Description
     </nav>
 </scroll-nav>
 
-<header class="header">
-    <div class="header__wrapper">
+<header class="hero">
+    <div class="hero_grid-wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Über uns</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
-        <h1 class="header__heading header__heading--centered">Wir setzen Maßstäbe in der Softwarearchitektur. Daran kannst du uns messen.</h1>
+        <h1 class="hero__heading m-t-lg">Wir setzen Maßstäbe in der <span class="marker-highlight">Softwarearchitektur</span>. Daran kannst du uns messen.</h1>
+        <p class="hero__text">
+           Socreatory – kurz für Software Creator’s Academy – drückt aus, wonach wir streben: Einen Ort für Entwickler:innen und Architekt:innen bieten, an dem ihr das für euch passende Weiterbildungsangebot findet.
+        </p>
+        <div class="hero__isaqb__wrapper">
+            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
+            <span class="hero__logos__caption">akkreditierter Partner</span>
+        </div>
+        <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
+    </div>
+
+    <div class="hero_grid-wrapper">
+        <img class="hero__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        <div class="hero__logos">
+            <span class="hero__logos__caption"> Eine Kooperation von</span>
+            <div class="hero__logos__wrapper">
+                <a href="#"><img class="hero__logo" src="/snippet/images/logos/embarc_logo.svg" /></a>
+                <a href="#"><img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg" /></a>
+            </div>
+        </div>
     </div>
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section">
-            <h2 class="section__title--small"><span aria-hidden>-- </span>Zwei Anbieter, eine Academy</h2>
-            <h3>Zusammen, um Wissen zu teilen.</h3>
-            <div class="article__logos">
-                <img class="article__logo" src="/snippet/images/logos/embarc_logo.svg" />
-                <img class="article__logo" src="/snippet/images/logos/innoq_logo.svg" />
+    <section class="container container--xl container-vertical-spacing-xl">
+        <p>Bei uns finden Softwarearchikt:innen, Entwickler:innen und Produktmanager:innen eine Weiterbildung, die sie tatsächlich weiter bringt – dank eines breiten, abwechslungsreichen Trainingsportfolios, einem Trainer:innen-Team, das jede Menge Praxiserfahrung mitbringt und und das gewonnene Wissen weitergeben kann, und uns – dem Team hinter den Kulissen, das seit 2022 nach dem besten Kundenerlebnis strebt.</p>
+        <p>Wir, das sind Claudia, Lisa, Christin und Petra. 👋</p>
+        <div class="teaser">
+            <div class="teaser__column">
+                <img class="" src="/snippet/images/ueber_uns.webp" alt="">
+                <small class="m-t-2xs">Claudia und Lisa</small>
             </div>
-            <p>
-                Wir sind ausnahmslos Expert:innen, die Ihr Wissen täglich in der Praxis anwenden. Wir sind erfahrene Trainer:innen, die die international anerkannten Standards nicht nur
-                weitergeben, sondern aktiv mitgestalten. Wir sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben. Wir sind embarc und
-                INNOQ. Zusammen sind wir socreatory.
-            </p>
-            <p>
-                Als zwei der der führenden Trainings-Anbieter für Softwarearchitektur sind wir seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB). Viele
-                von uns sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach
-                aktuellstem Stand.
-            </p>
-            <p>
-                Mit der Software Creators Academy haben wir unsere Kompetenzen gebündelt und eine einzigartige Trainingsplattform geschaffen, die alle Module und jedes verfügbare
-                Zertifizierungslevel nach den iSAQB-Standards umfasst.
-            </p>
-            <a href="#" class="btn btn-type--primary ">Unsere Trainer:innen</a>
-        </section>
-
-        <section class="section">
-            <h2 class="section__title--small"><span aria-hidden>-- </span>Unsere Philosophie</h2>
-            <div class="quote">
-                <blockquote class="quote__blockquote">
-                    Ein Gesellschaftsspiel lernt man am besten von Menschen, die es schon oft gespielt haben. Die interessantesten Insider-Tipps bekommt man nicht in Stadtführern, sondern von
-                    Einheimischen. Und die Standards der Softwarearchitektur lernt man idealerweise von denen, die die Standards mitentwickeln und definieren.
-                </blockquote>
+            <div class="teaser__column">
+                <img class="" src="/snippet/images/socreatory-team.webp" alt="">
+                <small class="m-t-2xs">Claudia und Lisa</small>
             </div>
+        </div>
+    </section>
+    <div class="stripe stripe--primary-light">
+        <section class="container container--md container-vertical-spacing-xl">
+            <h2 class="section__title--normal">Unsere Philosophie</h2>
+            <blockquote class="testimonial" itemscope itemtype="http://schema.org/Person">
+                <p class="testimonial__text">
+                    Ein Gesellschaftsspiel lernt man am besten von Menschen, die es schon oft gespielt haben. Die interessantesten Insider-Tipps bekommt man nicht in Stadtführern, sondern von Einheimischen. Und die Standards der Softwarearchitektur lernt man idealerweise von denen, die die Standards mitentwickeln und definieren.
+                </p>
+                <footer class="testimonial__author">
+                    <img class="avatar" itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
+                        alt="" />
+                    <span class="testimonial__author__name" itemprop="name">Lisa Maria Schäfer</span>
+                    <span class="testimonial__author__role" itemprop="jobTitle">Produktmanagerin</span>
+                    <span class="testimonial__author__company" itemprop="jobTitle">socreatory</span>
+                </footer>
+            </blockquote>
         </section>
     </div>
+    <section class="container container--xl container-vertical-spacing-xl">
+        <h2 class="section__title--normal">socreatory in Zahlen</h2>
+        <div class="tile-grid--3-col">
+            <p><span class="text-xxl">4</span><br>Mitarbeiterinnen</p>
+            <p><span class="text-xxl">40</span><br> Trainer:innen</p>
+            <p><span class="text-xxl">>1.700</span><br> iSAQB-Teilnehmer:innen</p>
+            <p><span class="text-xxl">>80</span><br> öffentliche Trainingstermine</p>
+            <p><span class="text-xxl">97% </span><br>unserer CPSA-F-Teilnehmer:innen bestehen die Prüfung beim ersten Versuch.</p>
+        </div>
+        <h2 class="section__title--normal m-t-lg">Zwei Anbieter, eine Academy</h2>
+        <p>Zusammen, um Wissen zu teilen.</p>
+        <p>Unsere Trainer:innen sind ausnahmslos Expert:innen, die ihr Wissen täglich in der Praxis anwenden. Sie geben die international anerkannten Standards nicht nur weiter, sondern gestalten sie aktiv mit. Sie sind Fachautor:innen, Speaker, IT-Profis, die ihre Expertise und ihre Skills am liebsten praxisnah weitergeben.</p>
+
+        <p>Als zwei der führenden Trainings-Anbieter für Softwarearchitektur sind die Gründungsunternehmen embarc GmbH und INNOQ GmbH seit Jahren engagiert im International Software Architecture Qualification Board (kurz iSAQB®). Viele ihrer Mitarbeiter:innen sind als Kurator:innen mitverantwortlich für die hohe Qualität der Lehrpläne, sind unabhängige Prüfer:innen, leiten Arbeitsgruppen, formulieren Lernziele und -methoden nach aktuellstem Stand.</p>
+
+        <p>Mit der Software Creators’ Academy haben sie ihre Kompetenzen gebündelt und 2022 eine einzigartige Trainingsplattform geschaffen, die alle relevanten Module und jedes verfügbare Zertifizierungslevel nach den iSAQB®-Standards umfasst. Seitdem hat sich das Programm der Academy stetig um mehr relevante Trainingsthemen und -formate erweitert.</p>
+    </section>
+    <div class="stripe stripe--primary-light">
+        <section class="container container--md container-vertical-spacing-xl">
+            <blockquote class="testimonial" itemscope itemtype="http://schema.org/Person">
+                <p class="testimonial__text">
+                    "Bei Socreatory stehen wir für erstklassige IT-Trainings, die nicht nur Wissen vermitteln, sondern Unternehmen befähigen, ihre Fachkräfte optimal weiterzubilden. Unser Ziel ist es, Ihr zuverlässiger Partner auf dem Weg zur Meisterung der Herausforderungen der modernen Arbeitswelt zu sein."
+                </p>
+                <footer class="testimonial__author">
+                    <img class="avatar" itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
+                        alt="" />
+                    <span class="testimonial__author__name" itemprop="name">Lisa Maria Schäfer</span>
+                    <span class="testimonial__author__role" itemprop="jobTitle">Produktmanagerin</span>
+                    <span class="testimonial__author__company" itemprop="jobTitle">socreatory</span>
+                </footer>
+            </blockquote>
+        </section>
+    </div>
+    <section class="container container--xl container-vertical-spacing-xl">
+        <div class="teaser">
+            <div class="teaser__column">
+                <h2 class="section__title--normal">Deine Trainer:innen</h2>
+                <p class="teaser__text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                    quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                </p>
+                <a href="#" class="btn btn--cta">Alle Trainer:innen ansehen</a>
+            </div>
+            <div class="teaser__column">
+                <a href="#">
+                    <img class="" src="/snippet/images/trainerinnenkachel.webp" />
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer>

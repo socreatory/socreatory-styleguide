@@ -66,43 +66,6 @@ turbo-frame {
   grid-area: edit;
 }
 
-.tile-grid--sm,
-.tile-grid--md {
-  display: grid;
-  grid-column-gap: $spacer-md;
-  grid-row-gap: $spacer-lg;
-  width: 100%;
-}
-
-.tile-grid--sm {
-  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
-}
-
-.tile-grid--md {
-  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
-}
-
-.tile-grid__wrapper {
-  > * + * {
-    margin-top: $spacer-sm;
-  }
-
-  > * {
-    margin-bottom: 0; // TODO Refactor
-  }
-
-  > a {
-    display: block;
-    margin-top: $spacer-xs;
-  }
-
-  turbo-frame {
-    turbo-frame {
-      margin-top: $spacer-sm;
-    }
-  }
-}
-
 .resource-list {
   margin-bottom: 0;
   padding-left: 1rem;

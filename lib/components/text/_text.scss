@@ -39,6 +39,13 @@ p {
   }
 }
 
+.text-xxl {
+  @extend %body-font-bold;
+
+  font-size: $font-size-xxxl;
+  line-height: 1;
+}
+
 .paragraph__pre {
   white-space: break-spaces;
 }
