@@ -127,26 +127,6 @@ description: Description
             </blockquote>
         </section>
     </div>
-    <section class="container container--xl container-vertical-spacing-xl">
-        <div class="teaser">
-            <div class="teaser__column">
-                <h2 class="section__title--normal">Deine Trainer:innen</h2>
-                <p class="teaser__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-                    quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                </p>
-                <a href="#" class="btn btn--cta">Alle Trainer:innen ansehen</a>
-            </div>
-            <div class="teaser__column">
-                <a href="#">
-                    <img class="" src="/snippet/images/trainerinnenkachel.webp" />
-                </a>
-            </div>
-        </div>
-    </section>
 </main>
 
 <footer>
