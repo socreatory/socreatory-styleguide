@@ -21,6 +21,7 @@
 }
 
 .tile-grid--3-col {
+  grid-column-gap: $spacer-base;
   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 
   p {
