@@ -46,14 +46,14 @@
     margin-bottom: 0; // TODO Refactor
   }
 
-  > a {
-    display: block;
-    margin-top: $spacer-xs;
-  }
-
   turbo-frame {
     turbo-frame {
       margin-top: $spacer-sm;
+    }
+
+    > a {
+      display: block;
+      margin-top: $spacer-xs;
     }
   }
 }
