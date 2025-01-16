@@ -33,6 +33,7 @@
   flex-grow: 1;
 
   padding: $spacer-2xs;
+  border: none;
 
   font-size: $font-size-base;
   color: $brand-text;
@@ -44,7 +45,6 @@
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 14px 10px;
-  border: none;
 }
 
 auto-submit-form {

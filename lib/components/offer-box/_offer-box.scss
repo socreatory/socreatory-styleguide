@@ -27,9 +27,9 @@
 
   margin-bottom: $spacer-lg;
   padding: $spacer-sm;
+  border: 10px solid $brand-secondary;
 
   background-color: $brand-secondary-light;
-  border: 10px solid $brand-secondary;
 
   > * {
     margin-bottom: 0;

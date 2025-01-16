@@ -25,11 +25,11 @@
       grid-area: hex;
 
       padding: 0 $spacer-3xs $spacer-3xs;
+      border-radius: 0 0 $spacer-3xs $spacer-3xs;
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
       background-color: #f2f2f2;
-      border-radius: 0 0 $spacer-3xs $spacer-3xs;
     }
   }
 }
@@ -41,7 +41,6 @@ my-color {
 
   min-width: 8rem;
   margin: 0.125rem;
-
   border-radius: $spacer-3xs $spacer-3xs 0.5rem 0.5rem;
 
   @each $blue, $hex in $brand-blues {

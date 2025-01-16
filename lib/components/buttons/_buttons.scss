@@ -6,11 +6,12 @@
 
   display: inline-block;
 
+  border: 0;
+
   text-decoration: none;
   white-space: nowrap;
 
   background: none;
-  border: 0;
 
   &:focus {
     outline: none;
@@ -41,9 +42,9 @@
 }
 
 .btn-type--primary {
+  border: $spacer-3xs solid $brand-text;
   color: $brand-background;
   background-color: $brand-text;
-  border: $spacer-3xs solid $brand-text;
 
   &:hover,
   &:focus {
@@ -53,9 +54,9 @@
 }
 
 .btn-type--secondary {
+  border: $spacer-3xs solid $brand-text;
   color: $brand-text;
   background-color: transparent;
-  border: $spacer-3xs solid $brand-text;
 
   &:hover,
   &:focus {
@@ -105,8 +106,8 @@
 }
 
 .btn-state--disabled {
-  background-color: $brand-gray-1;
   border-color: $brand-gray-1;
+  background-color: $brand-gray-1;
 }
 
 .btn-anchor {

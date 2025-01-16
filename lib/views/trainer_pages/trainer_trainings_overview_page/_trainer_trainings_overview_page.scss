@@ -137,13 +137,13 @@ turbo-frame {
     height: $spacer-base;
     margin-right: $spacer-sm;
     padding: 1.25rem;
+    border-radius: 50%;
 
     font-size: $font-size-base;
     line-height: 1;
     color: $brand-white;
 
     background-color: $brand-text;
-    border-radius: 50%;
   }
 }
 
