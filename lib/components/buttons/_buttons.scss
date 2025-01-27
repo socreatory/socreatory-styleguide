@@ -41,6 +41,12 @@
   transition: all 0.15s ease-out;
 }
 
+.btn-link {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 .btn-type--primary {
   border: $spacer-3xs solid $brand-text;
   color: $brand-background;

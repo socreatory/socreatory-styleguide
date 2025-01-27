@@ -28,7 +28,6 @@ module.exports = {
         customer_trainings_overview_page: "./lib/views/customer-pages/customer-trainings-overview-page/customer-trainings-overview-page.md",
         customer_trainings_detail_page: "./lib/views/customer-pages/customer-trainings-detail-page/customer-trainings-detail-page.md",
         home: "./lib/views/home/home.md",
-        home_test: "./lib/views/home/home_test.md",
         isaqb: "./lib/views/isaqb/isaqb.md",
         login_page: "./lib/views/login_page/login_page.md",
         login_page_success: "./lib/views/login_page_success/login_page_success.md",

@@ -7,31 +7,95 @@ See [All available alert styles](https://styleguide.socreatory.com/molecules/ale
 
 ```html
 <scroll-nav>
-    <nav class="navbar-wrapper">
+    <div class="navbar-wrapper">
         <div class="announcement">
             <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
         </div>
-        <div class="navbar">
-            <a href="#" class="navbar__brand-link">
-                <img class="navbar__logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
+        <nav class="main-navigation" aria-label="Webseite Navigation">
+            <a href="#" class="brand-link">
+                <img class="brand-logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
             </a>
-            <a href="#" class="navigation-login">Login</a>
-            <input type="checkbox" id="navbar__checkbox" />
-            <div class="navigation-main">
-                <ul role="list" aria-label="Seitennavigation" class="navbar__items">
-                    <li><a href="#" class="navbar__item">Trainings</a></li>
-                    <li><a href="#" class="navbar__item">Trainer:innen</a></li>
-                    <li><a href="#" class="navbar__item">Preise</a></li>
-                    <li><a href="#" class="navbar__item">iSAQB</a></li>
+            <menu-toggle hidden show-if="(max-width: 66rem)">
+                <button class="burgertime" aria-controls="main-navigation" aria-expanded="true" aria-label="Toggle navigation"></button>
+            </menu-toggle>
+            <div class="navigations menu-toggle-target" id="main-navigation">
+                <ul class="navigation-links" role="list" aria-label="Seitennavigation">
+                    <li class="navigation-link">
+                        <a href="#">Trainings</a>
+                    </li>
+                    <li class="navigation-link">
+                        <details name="navigation-detail">
+                            <summary>Themen</summary>
+                            <ul class="navigation-links--sub" role="list" aria-label="Magazin Untermenü">
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li class="navigation-link">
+                        <a href="#">Trainer:innen</a>
+                    </li>
+                    <li class="navigation-link">
+                        <details name="navigation-detail">
+                            <summary>Leistungen</summary>
+                            <ul class="navigation-links--sub" role="list" aria-label="Magazin Untermenü">
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                                <li class="navigation-link--sub">
+                                    <a href="#">Strategie- und Technologieberatung</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li class="navigation-link">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="navigation-link">
+                        <a href="#">Kontakt</a>
+                    </li>
                 </ul>
                 <ul class="navigation-meta" role="list" aria-label="Verfügbare Sprachen">
-                    <li><a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" class="navigation-meta__item">DE</a></li>
-                    <li><a lang="en" href="#" title="Switch to English" aria-label="Switch to English" aria-current="true" class="navigation-meta__item">EN</a></li>
+                    <li>
+                        <a lang="de" href="#" title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" aria-current="true">de</a>
+                    </li>
+                    <li>
+                        <a lang="en" href="#" title="Switch to English" aria-label="Switch to English">en</a>
+                    </li>
                 </ul>
+                <details class="navigation-profile" name="navigation-detail">
+                    <summary>Profil</summary>
+                    <ul class="navigation-profile-links" role="list" aria-label="Magazin Untermenü">
+                        <li class="navigation-profile-link">
+                            <a href="#">Profil verwalten</a>
+                        </li>
+                        <li class="navigation-profile-link">
+                            <a href="#">Trainings</a>
+                        </li>
+                        <li class="navigation-profile-link">
+                            <a href="#">logout</a>
+                        </li>
+                    </ul>
+                </details>
             </div>
-            <label class="navbar__burger" for="navbar__checkbox"></label>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </scroll-nav>
 
 <header class="header">
