@@ -351,20 +351,35 @@ scroll-nav:defined {
   }
 }
 
-.burgertime {
-  cursor: pointer;
-
-  width: 36px;
-  margin: $spacer-xs;
-  border: none;
-
-  background: transparent;
-}
-
 menu-toggle {
   grid-area: menu;
   align-self: center;
   justify-self: end;
+}
+
+.menu-toggle-target[hidden],
+details:not([open]) > ul {
+  height: 0;
+  opacity: 0;
+}
+
+.menu-toggle-target,
+details > ul {
+  height: calc-size(auto, size);
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}
+
+.burgertime {
+  cursor: pointer;
+
+  display: block;
+
+  width: 60px;
+  margin: $spacer-xs;
+  border: none;
+
+  background: transparent;
 }
 
 .burgertime::before,
@@ -394,17 +409,4 @@ menu-toggle {
   &::after {
     transform: translateY(-10px) rotate(-45deg);
   }
-}
-
-.menu-toggle-target,
-details > ul {
-  height: calc-size(auto, size);
-  opacity: 1;
-  transition: 0.2s ease-in-out;
-}
-
-.menu-toggle-target[hidden],
-details:not([open]) > ul {
-  height: 0;
-  opacity: 0;
 }
