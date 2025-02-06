@@ -357,17 +357,23 @@ menu-toggle {
   justify-self: end;
 }
 
-.menu-toggle-target[hidden],
-details:not([open]) > ul {
-  height: 0;
-  opacity: 0;
-}
-
 .menu-toggle-target,
 details > ul {
-  height: calc-size(auto, size);
-  opacity: 1;
-  transition: 0.2s ease-in-out;
+  overflow: hidden;
+  height: calc-size(auto);
+  transition: height 0.2s ease-in-out;
+
+  transition-behavior: allow-discrete;
+
+  @starting-style {
+    height: 0;
+  }
+}
+
+.menu-toggle-target[hidden],
+details:not([open]) > ul {
+  display: none;
+  height: 0;
 }
 
 .burgertime {
