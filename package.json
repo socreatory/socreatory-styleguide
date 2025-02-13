@@ -1,7 +1,7 @@
 {
   "name": "socreatory-styleguide",
   "private": true,
-  "version": "7.0.5",
+  "version": "7.0.6",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --serve 0.0.0.0:4001",
@@ -20,7 +20,7 @@
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "faucet-pipeline-js": "^3.0.0",
-    "faucet-pipeline-sass": "1.8.0",
+    "faucet-pipeline-sass": "^1.9.1",
     "faucet-pipeline-static": "^2.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.1.0",

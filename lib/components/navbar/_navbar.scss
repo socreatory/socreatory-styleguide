@@ -368,6 +368,10 @@ details > ul {
   @starting-style {
     height: 0;
   }
+
+  @include for-navbar {
+    overflow: visible;
+  }
 }
 
 .menu-toggle-target[hidden],
