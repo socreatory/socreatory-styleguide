@@ -4,6 +4,12 @@
   }
 }
 
+@mixin for-navbar-mobile {
+  @media (width < 66rem) {
+    @content;
+  }
+}
+
 scroll-nav:defined {
   .navbar-wrapper {
     position: fixed;
@@ -132,7 +138,6 @@ scroll-nav:defined {
   color: $brand-text;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: $spacer-3xs;
   white-space: nowrap;
 
   a,
@@ -164,9 +169,11 @@ scroll-nav:defined {
   summary:hover,
   summary:focus {
     color: $brand-text;
-    text-decoration: underline;
+    text-decoration-color: $brand-text;
+    text-decoration-line: underline;
     text-decoration-thickness: $spacer-3xs;
     text-underline-offset: $spacer-2xs;
+    transition: all 0.1s ease-out;
   }
 }
 
@@ -194,7 +201,8 @@ scroll-nav:defined {
     &:hover,
     &:focus {
       color: $brand-text;
-      text-decoration: underline;
+      text-decoration-color: $brand-text;
+      text-decoration-line: underline;
       text-decoration-thickness: $spacer-3xs;
       text-underline-offset: $spacer-2xs;
     }
@@ -243,7 +251,8 @@ scroll-nav:defined {
     &:hover,
     &:focus {
       color: $brand-text;
-      text-decoration: underline;
+      text-decoration-color: $brand-text;
+      text-decoration-line: underline;
       text-decoration-thickness: $spacer-3xs;
       text-underline-offset: $spacer-2xs;
     }
@@ -310,7 +319,8 @@ scroll-nav:defined {
     &:hover,
     &:focus {
       color: $brand-text;
-      text-decoration: underline;
+      text-decoration-color: $brand-text;
+      text-decoration-line: underline;
       text-decoration-thickness: $spacer-3xs;
       text-underline-offset: $spacer-3xs;
     }
@@ -346,6 +356,7 @@ scroll-nav:defined {
   &:focus {
     color: $brand-text;
     text-decoration: underline;
+    text-decoration-color: $brand-text;
     text-decoration-thickness: $spacer-3xs;
     text-underline-offset: $spacer-3xs;
   }
@@ -355,23 +366,6 @@ menu-toggle {
   grid-area: menu;
   align-self: center;
   justify-self: end;
-}
-
-.menu-toggle-target,
-details > ul {
-  overflow: hidden;
-  height: calc-size(auto);
-  transition: height 0.2s ease-in-out;
-
-  transition-behavior: allow-discrete;
-
-  @starting-style {
-    height: 0;
-  }
-
-  @include for-navbar {
-    overflow: visible;
-  }
 }
 
 .menu-toggle-target[hidden],
