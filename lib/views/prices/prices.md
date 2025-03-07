@@ -169,7 +169,7 @@ description: Description
                     </p>
                 </div>
                 <div class="textcolumn">
-                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconearlybird.png" />
+                    <img class="textcolumn__img" src="/snippet/images/illustrations/iconearlybird2.png" />
                     <h3 class="textcolumn__heading">2. Unser Early Bird-Rabatt</h3>
                     <p class="textcolumn__text">
                         Frühzeitige Buchungen erleichtern Dir und uns die Planung. Eine verbindliche Buchung bis zu drei Monate vor Trainingsbeginn honorieren wir mit 10% Rabatt für jeden Platz.
