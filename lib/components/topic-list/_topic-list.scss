@@ -1,0 +1,34 @@
+.topic-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
+  gap: $spacer-sm;
+
+  width: 100%;
+  padding-left: 0;
+
+  list-style-type: none;
+
+  @include for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.topic-list__item {
+  a {
+    display: block;
+
+    padding: $spacer-sm;
+
+    font-size: $font-size-base;
+    line-height: $heading-line-height-sm;
+    text-decoration: none;
+
+    background-color: $brand-primary-light;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: $spacer-3xs;
+      text-underline-offset: $spacer-3xs;
+    }
+  }
+}

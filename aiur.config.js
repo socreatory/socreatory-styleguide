@@ -83,6 +83,7 @@ module.exports = {
         quote: "./lib/components/quote/quote.md",
         rating: "./lib/components/rating/rating.md",
         testimonial: "./lib/components/testimonial/testimonial.md",
+        topic_list: "./lib/components/topic-list/topic-list.md",
       },
     },
 

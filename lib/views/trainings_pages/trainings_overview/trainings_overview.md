@@ -124,8 +124,8 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--xl container-vertical-spacing-xl container--centered">
-        <auto-submit-form>
+    <section class="container container--xl container-vertical-spacing-xl">
+        <auto-submit-form class="align-center">
             <form class="filter-dropdown">
                 <label class="filter-dropdown-label" for="filter">Thema wählen:</label>
                 <select name="filter-dropdown" id="filter" class="filter-dropdown-select">
@@ -137,7 +137,7 @@ description: Description
                 <button type="submit" class="btn btn--xsmall">Filtern</button>
             </form>
         </auto-submit-form>
-        <ul class="filters__list">
+        <ul class="filters__list align-center">
             <li class="filters__item filters__item--active">Alle</li>
             <li class="filters__item filters__item--socreatory">Socreatory Training</li>
             <li class="filters__item filters__item--isaqb">iSAQB Trainings</li>
@@ -296,6 +296,18 @@ description: Description
                     </div>
                 </div>
             </li>
+        </ul>
+        <h2 class="section__title--normal m-t-xl">Unsere Themen in der Übersicht</h2>
+        <ul class="topic-list">
+            <li class="topic-list__item"><a href="#">Security</a></li>
+            <li class="topic-list__item"><a href="#">Umgang mit Legagcy</a></li>
+            <li class="topic-list__item"><a href="#">Softwarearchitektur Grundlagen</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
         </ul>
         <div class="teaser m-t-2xl">
             <div class="teaser__column">
