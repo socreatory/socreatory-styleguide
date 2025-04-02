@@ -18,7 +18,7 @@
     "donny": "^0.3.0",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-prettier": "^5.2.6",
     "faucet-pipeline-js": "^3.0.0",
     "faucet-pipeline-sass": "^1.9.1",
     "faucet-pipeline-static": "^2.0.0",
