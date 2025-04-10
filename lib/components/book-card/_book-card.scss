@@ -1,0 +1,49 @@
+.book-card__list {
+  width: 100%;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.book-card {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "title"
+    "text";
+  grid-template-columns: 1fr;
+  grid-template-rows: calc(15rem + $spacer-base) auto auto;
+
+  padding: $spacer-base $spacer-sm;
+
+  background-color: $brand-white-1;
+}
+
+.book-card__img {
+  grid-area: img;
+  align-self: end;
+  justify-self: center;
+
+  width: auto;
+  max-height: 15rem;
+  margin-bottom: $spacer-base;
+}
+
+.book-card__title {
+  @extend %heading-font-bold;
+
+  grid-area: title;
+  font-size: $font-size-base;
+  line-height: $heading-line-height;
+}
+
+.book-card__text {
+  @extend %body-font-regular;
+
+  grid-area: text;
+
+  margin-top: $spacer-2xs;
+  margin-bottom: 0;
+
+  font-size: $font-size-md;
+  line-height: $paragraph-line-height;
+}

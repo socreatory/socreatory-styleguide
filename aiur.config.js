@@ -22,6 +22,8 @@ module.exports = {
       file: "./lib/documentation/VIEWS.md",
       children: {
         about_us: "./lib/views/about/about.md",
+        books_index: "./lib/views/books/books_index.md",
+        books_detail: "./lib/views/books/books_detail.md",
         contact: "./lib/views/contact/contact.md",
         customer_profile_page: "./lib/views/customer-pages/customer-profile-page/customer-profile-page.md",
         customer_profile_edit_page: "./lib/views/customer-pages/customer-profile-edit-page/customer-profile-edit-page.md",

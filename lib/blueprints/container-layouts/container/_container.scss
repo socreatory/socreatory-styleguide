@@ -71,6 +71,35 @@
   padding-bottom: $spacer-base;
 }
 
+// Spacing only bottom
+.container-bottom-spacing-2xl,
+%container-bottom-spacing-2xl {
+  @include for-tablet-landscape-up {
+    padding-bottom: $spacer-2xl;
+  }
+
+  padding-bottom: $spacer-xl;
+}
+
+.container-bottom-spacing-xl,
+%container-bottom-spacing-xl {
+  @include for-tablet-landscape-up {
+    padding-bottom: $spacer-xl;
+  }
+
+  padding-bottom: $spacer-lg;
+}
+
+.container-bottom-spacing-lg,
+%container-bottom-spacing-lg {
+  @include for-tablet-landscape-up {
+    padding-bottom: $spacer-lg;
+  }
+
+  padding-bottom: $spacer-base;
+}
+
+// 2-col
 .container--2-col,
 %container--2-col {
   @include for-desktop-up {

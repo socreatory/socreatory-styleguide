@@ -1,7 +1,8 @@
-title: Customer Trainings Detail Page
-description: Customer Trainings Detail Page
+title: Books Index Page
+description: Books Index Page
 
 ```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <scroll-nav>
     <div class="navbar-wrapper">
         <div class="announcement">
@@ -94,134 +95,70 @@ description: Customer Trainings Detail Page
     </div>
 </scroll-nav>
 
-<header class="header-color--highlighted-1">
+<header class="header">
     <div class="header__wrapper">
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
-                        href="#"> Trainingsname</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span><a href="#">Books</a></li>
             </ul>
         </div>
-        <h1 class="header__heading">Ich bin eine Headline</h1>
-        <p class="header__subheading">Ich bin eine Subheadline</p>
-        <p class="header__date">1.1. bis 12.2. 2024</p>
-        <div class="header__logogrid">
-            <div class="logogrid__left">
-                <div class="pills">
-                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">20</div>
-                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">—</div>
-                    <div class="pill"><span class="pill__label">Pill</span><span class="pill__number">10</div>
-                </div>
-            </div>
-            <div class="logogrid__right">
-                <div class="header__logos">
-                    <img class="header__logo" src="/snippet/images/logos/embarc_logo.svg">
-                    <img class="header__logo" src="/snippet/images/logos/innoq_logo.svg">
-                </div>
-            </div>
+        <h1 class="header__heading header__heading--centered">Fachinfos und Bücher</h1>
+        <div class="header_intro">
+            <p>Ein Introtext Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte.</p>
         </div>
     </div>
 </header>
-<main class="container container--xl container-vertical-spacing-lg">
-    <h2 class="section__title--sub">Vorab-Checkliste</h2>
-    <ol class="tile-grid--sm tile-grid-gap--base training-checklist">
-        <li class="training-checklist__item">
-            <div class="training-checklist__item__wrapper">
-                <div class="training-checklist__item__body">
-                    <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                    <p class="training-checklist__item__caption">Wichtiger Hinweis-Text</p>
-                    <a href="#" class="training-checklist__item__link">Link</a>
-                </div>
-            </div>
-        </li>
-        <li class="training-checklist__item">
-            <div class="training-checklist__item__wrapper">
-                <div class="training-checklist__item__body">
-                    <h3 class="training-checklist__item__title">Mach den Technick-Check</h3>
-                    <p>Wichtiger Hinweis-Text</p>
-                    <ul>
-                        <li>Node</li>
-                        <li>Git</li>
-                        <li>kaffee</li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-    </ol>
-    <section class="tile-grid--sm tile-grid-gap--base m-t-lg">
-        <div class="tile-grid__wrapper">
-            <h2 class="section__title--sub">Zeitplan</h2>
-            <ul class="tuple-list">
-                <li class="tuple-list__entry">
-                    <span class="tuple-list__label">MO 22.12.</span>
-                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                        <small>kurze Pausen ca. jede Stunde</small>
-                    </span>
-                </li>
-                <li class="tuple-list__entry">
-                    <span class="tuple-list__label">DI 14.9</span>
-                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                        <small>kurze Pausen ca. jede Stunde</small>
-                    </span>
-                </li>
-                <li class="tuple-list__entry">
-                    <span class="tuple-list__label">Mi 15.9.</span>
-                    <span class="tuple-list__value">9 — 13 Uhr und 14 — 17:30 Uhr <br />
-                        <small>kurze Pausen ca. jede Stunde</small>
-                    </span>
-                </li>
-            </ul>
-            <p class="info-text"> Dieser Zeitplan ist unverbindlich und kann sich noch ändern. </p>
-        </div>
-        <div class="tile-grid__wrapper">
-            <h2 class="section__title--sub">Wichtige Links</h2>
-            <ul class="resource-list">
-                <li>
-                    <div class="resource-list__item">
-                        <a href="#">Wichtiger Link</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="resource-list__item">
-                        <a href="#">Wichtiger Link</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="resource-list__item">
-                        <a href="#">Wichtiger Link</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="resource-list__item">
-                        <a href="#">Wichtiger Link</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="tile-grid__wrapper">
-            <h2 class="section__title--sub">Hinweise</h2>
-            <div class="markdown-text--medium">
-                <p>Hier steht ein Freitext, der weitere Hinweise enthält, die man ausfüllen kann. Oder auch nicht.</p>
-            </div>
-        </div>
-        <div class="tile-grid__wrapper">
-            <h2 class="section__title--sub">Zoom Link</h2>
-            <a href="">Linkslinkrechts</a>
-        </div>
-    </section>
-    <h2 class="section__title--sub m-t-lg">Deiner Trainer:innen</h2>
-    <ul class="profiles">
-        <li class="profile">
-            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">
-            <h3 class="profile__name"><a href="#" class="profile__link">Arne Landwehr</a></h3>
-            <p class="profile__focus">Java & Flexible Architekturen</p>
-        <li class="profile">
-            <img class="profile__image" src="/snippet/images/profiles/Arne_Landwehr.jpg">
-            <h3 class="profile__name"><a href="#" class="profile__link">Arne Landwehr</a></h3>
-            <p class="profile__focus">Java & Flexible Architekturen</p>
-    </ul>
+
+<main>
+    <div class="container container--xl container-bottom-spacing-xl">
+        <ul class="book-card__list tile-grid--sm tile-grid-gap--sm">
+            <li class="book-card">
+                <img class="book-card__img" src="/snippet/images/example-quadrat.webp" alt="Beispielbild" />
+                <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <img class="book-card__img" src="/snippet/images/example-hochformat.webp" alt="Beispielbild" />
+                <h2 class="book-card__title">Ein lustiger Titel</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <img class="book-card__img" src="/snippet/images/example-querformat.webp" alt="Beispielbild" />
+                <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <h2 class="book-card__title">Ein lustiger Titel</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <img class="book-card__img" src="/snippet/images/example-quadrat.webp" alt="Beispielbild" />
+                <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <h2 class="book-card__title">Ein lustiger Titel</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+
+            <li class="book-card">
+                <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+            <li class="book-card">
+                <h2 class="book-card__title">Ein lustiger Titel</h2>
+                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+            </li>
+        </ul>
+    </div>
 </main>
+
 <footer>
     <div class="footer__top">
         <div class="footer__top__content">

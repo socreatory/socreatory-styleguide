@@ -241,7 +241,7 @@ description: Training Cluster Page
             </li>
         </ul>
         <h2 class="section__title--normal m-t-xl">Deine Trainer:innen</h2>
-        <div class="tile-grid--md">
+        <div class="tile-grid--md tile-grid-gap--base">
             <div class="trainer-profile">
                 <a href="#"><img class="trainer-profile__image"
                         src="/snippet/images/profiles/Kim_Duggen.jpg" /></a>

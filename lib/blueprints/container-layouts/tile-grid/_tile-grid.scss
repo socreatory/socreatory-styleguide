@@ -1,12 +1,12 @@
 .tile-grid--sm,
 .tile-grid--md {
   display: grid;
-  grid-column-gap: $spacer-sm;
+  grid-column-gap: $spacer-base;
   grid-row-gap: $spacer-base;
   width: 100%;
 
   @include for-tablet-landscape-up {
-    grid-column-gap: $spacer-md;
+    grid-column-gap: $spacer-lg;
     grid-row-gap: $spacer-lg;
   }
 }
@@ -17,6 +17,16 @@
 
 .tile-grid--md {
   grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+}
+
+.tile-grid-gap--sm {
+  grid-column-gap: $spacer-sm;
+  grid-row-gap: $spacer-sm;
+}
+
+.tile-grid-gap--base {
+  grid-column-gap: $spacer-base;
+  grid-row-gap: $spacer-base;
 }
 
 .tile-grid--3-col {

@@ -172,7 +172,7 @@ description: Backend-View for Trainers shows details of a specific training
             data-disable-with="Kopieren">
     </form>
 
-    <section class="tile-grid--sm m-t-xl">
+    <section class="tile-grid--sm tile-grid-gap--base m-t-xl">
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Zeitplan</h2>
             <turbo-frame>
