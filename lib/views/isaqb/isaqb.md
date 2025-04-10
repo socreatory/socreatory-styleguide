@@ -109,18 +109,17 @@ description: Description
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section section--home">
-            <h2 class="section__title--normal">Das iSAQB und was wir dazu beitragen</h2>
-            <p>
-                Im <em>International Software Architecture Qualification Board</em>, kurz iSAQB, haben sich Expert:innen aus der Industrie, aus Beratungsunternehmen und aus der Wissenschaft
-                zusammengeschlossen. Viele Menschen, die in der Softwarearchitektur Rang und Namen haben. Und alle mit einem Ziel: eine fundierte Aus- und Weiterbildung – weltweit anerkannt,
-                standardisiert, zertifiziert und immer auf dem neuesten Stand. Wir sind stolz darauf, dass viele von uns federführend als Kurator:innen im iSAQB die Lehrpläne und Prüfungsaufgaben
-                mitentwickeln.
-            </p>
-        </section>
-
-        <section class="section">
+    <section class="container container--md container-vertical-spacing-xl">
+        <h2 class="section__title--normal">Das iSAQB und was wir dazu beitragen</h2>
+        <p>
+            Im <em>International Software Architecture Qualification Board</em>, kurz iSAQB, haben sich Expert:innen aus der Industrie, aus Beratungsunternehmen und aus der Wissenschaft
+            zusammengeschlossen. Viele Menschen, die in der Softwarearchitektur Rang und Namen haben. Und alle mit einem Ziel: eine fundierte Aus- und Weiterbildung – weltweit anerkannt,
+            standardisiert, zertifiziert und immer auf dem neuesten Stand. Wir sind stolz darauf, dass viele von uns federführend als Kurator:innen im iSAQB die Lehrpläne und Prüfungsaufgaben
+            mitentwickeln.
+        </p>
+    </section>
+    <div class="stripe stripe--white-1">
+        <section class="container container--md container-vertical-spacing-xl">
             <h2 class="section__title--normal">Die Ausbildung nach iSAQB – Ein kleiner Wegweiser</h2>
             <p>
                 Die Berufsbezeichnung »Softwarearchitekt:in« ist nicht geschützt, die Rolle in jedem Unternehmen anders interpretiert und gelebt. Umso wichtiger ist es, eine Richtung vorzugeben –
@@ -129,58 +128,58 @@ description: Description
             </p>
             <p>Das iSAQB® CPSA-Programm (Certified Professional for Software Architecture) besteht aus zwei Ausbildungsstufen, eine dritte Stufe ist geplant:</p>
         </section>
-
-        <section class="section">
-            <div class="textcolumns">
-                <div class="textcolumn">
-                    <h3 class="textcolumn__heading">CPSA-F <br />Foundation Level</h3>
-                    <p class="textcolumn__text">
-                        Mit dieser Zertifizierung belegst Du, dass Du die Grundlagen der Softwarearchitektur und alle notwendigen Werkzeuge beherrschst: Du kannst eigenständig die Architektur eines
-                        Systems entwerfen, es dokumentieren, seine Qualität sichern und es bewerten.
-                    </p>
-                </div>
-                <div class="textcolumn">
-                    <h3 class="textcolumn__heading">CPSA-A <br />Advanced Level</h3>
-                    <p class="textcolumn__text">
-                        Die Zertifizierung für Fortgeschrittene belegt eine hohe Sachkenntnis. Sie ist modular aufgebaut und teilt sich in drei Kompetenzbereiche: Methodik, Technologie und
-                        Kommunikation. Du kannst anspruchsvolle Aufgaben lösen, technische Verantwortung übernehmen und Deine Architektur verständlich und überzeugend kommunizieren.
-                    </p>
-                </div>
-                <div class="textcolumn">
-                    <h3 class="textcolumn__heading">CPSA-E <br />Expert Level</h3>
-                    <p class="textcolumn__text">
-                        Der Expert Level ist als weitere und höchste Zertifizierungsstufe in der Planung. An der Entwicklung dieser neuen Stufe arbeiten auch unsere Expert:innen mit.
-                    </p>
-                </div>
+    </div>
+    <section class="container container--md container-vertical-spacing-xl">
+        <div class="textcolumns">
+            <div class="textcolumn">
+                <h3 class="textcolumn__heading">CPSA-F <br />Foundation Level</h3>
+                <p class="textcolumn__text">
+                    Mit dieser Zertifizierung belegst Du, dass Du die Grundlagen der Softwarearchitektur und alle notwendigen Werkzeuge beherrschst: Du kannst eigenständig die Architektur eines
+                    Systems entwerfen, es dokumentieren, seine Qualität sichern und es bewerten.
+                </p>
             </div>
-        </section>
-
-        <section class="section">
+            <div class="textcolumn">
+                <h3 class="textcolumn__heading">CPSA-A <br />Advanced Level</h3>
+                <p class="textcolumn__text">
+                    Die Zertifizierung für Fortgeschrittene belegt eine hohe Sachkenntnis. Sie ist modular aufgebaut und teilt sich in drei Kompetenzbereiche: Methodik, Technologie und
+                    Kommunikation. Du kannst anspruchsvolle Aufgaben lösen, technische Verantwortung übernehmen und Deine Architektur verständlich und überzeugend kommunizieren.
+                </p>
+            </div>
+            <div class="textcolumn">
+                <h3 class="textcolumn__heading">CPSA-E <br />Expert Level</h3>
+                <p class="textcolumn__text">
+                    Der Expert Level ist als weitere und höchste Zertifizierungsstufe in der Planung. An der Entwicklung dieser neuen Stufe arbeiten auch unsere Expert:innen mit.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="stripe stripe--white-1">
+        <section class="container container--md container-vertical-spacing-xl">
             <p>Mehr Details findest Du unter <a href="https://isaqb.org">isaqb.org</a></p>
             <a href="#" class="btn btn-type--primary ">Zu den Ausbildungsmodulen</a>
         </section>
-
-        <section class="section">
-            <h2 class="section__title--normal">Das Credit Points System</h2>
-            <h3 class="section__title--sub">17 Advanced Module, 3 Themenbereiche, 70 Credit Points.</h3>
-            <p>Die Credit Points sind die Grundvoraussetzung für Deine Teilnahme an der Prüfung zum Certified Professional for Software Architecture - Advanced Level (CPSA‑A®).</p>
+    </div>
+    <section class="container container--md container-vertical-spacing-xl">
+        <h2 class="section__title--normal">Das Credit Points System</h2>
+        <h3 class="section__title--sub">17 Advanced Module, 3 Themenbereiche, 70 Credit Points.</h3>
+        <p>Die Credit Points sind die Grundvoraussetzung für Deine Teilnahme an der Prüfung zum Certified Professional for Software Architecture - Advanced Level (CPSA‑A®).</p>
+        <p>
+            Als Faustregel für die Berechnung gilt: Jeder Trainingstag wird mit 10 Credit Points bewertet. Für ein Training erhält man jedoch maximal 30 Credit Points, selbst wenn es länger
+            als drei Tage dauert. Einmal erworbene Credit Points sind dann unbegrenzt gültig.
+        </p>
+        <p>
+            Insgesamt benötigst Du mindestens 70 Credit Points, allerdings müssen alle drei Kompetenzbereiche mit mindestens zehn Credit Points abgedeckt sein. So kannst Du beispielsweise bei
+            der Wahl Deiner Module den Schwerpunkt auf Methodik setzen, solltest aber unbedingt auch Module aus den Bereichen Technologie und Kommunikation belegen.
+        </p>
+        <div class="achtung-box">
             <p>
-                Als Faustregel für die Berechnung gilt: Jeder Trainingstag wird mit 10 Credit Points bewertet. Für ein Training erhält man jedoch maximal 30 Credit Points, selbst wenn es länger
-                als drei Tage dauert. Einmal erworbene Credit Points sind dann unbegrenzt gültig.
+                <strong>Übrigens:</strong> Da wir vom iSAQB akkreditierte Trainingsprovider sind, bekommst du auf <strong>alle</strong> von uns hier angebotenen iSAQB-Module auch Credit Points
+                angerechnet.
             </p>
-            <p>
-                Insgesamt benötigst Du mindestens 70 Credit Points, allerdings müssen alle drei Kompetenzbereiche mit mindestens zehn Credit Points abgedeckt sein. So kannst Du beispielsweise bei
-                der Wahl Deiner Module den Schwerpunkt auf Methodik setzen, solltest aber unbedingt auch Module aus den Bereichen Technologie und Kommunikation belegen.
-            </p>
-            <div class="achtung-box">
-                <p>
-                    <strong>Übrigens:</strong> Da wir vom iSAQB akkreditierte Trainingsprovider sind, bekommst du auf <strong>alle</strong> von uns hier angebotenen iSAQB-Module auch Credit Points
-                    angerechnet.
-                </p>
-            </div>
-        </section>
-
-        <section class="section">
+        </div>
+    </section>
+    <div class="stripe stripe--white-1">
+        <section class="container container--md container-vertical-spacing-xl">
             <h2 class="section__title--normal">FAQ</h2>
             <div class="text-text">
                 <h3 class="text-text__headline">Was brauche ich, um mich für das Advanced-Level zertifizieren zu lassen?</h3>
@@ -228,14 +227,13 @@ description: Description
                 </div>
             </div>
         </section>
-
-        <section class="section">
-            <p>
-                Auf folgenden Seiten findest Du weitere <a href="https://www.isaqb.org/de/fragen-antworten/" target="_blank">FAQs</a> sowie alle
-                <a href="https://www.isaqb.org/de/downloads/" target="_blank">Downloads</a> des iSAQB.
-            </p>
-        </section>
     </div>
+    <section class="container container--md container-vertical-spacing-xl">
+        <p>
+            Auf folgenden Seiten findest Du weitere <a href="https://www.isaqb.org/de/fragen-antworten/" target="_blank">FAQs</a> sowie alle
+            <a href="https://www.isaqb.org/de/downloads/" target="_blank">Downloads</a> des iSAQB.
+        </p>
+    </section>
 </main>
 
 <footer>

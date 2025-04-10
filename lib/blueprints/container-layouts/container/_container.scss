@@ -91,20 +91,3 @@
     margin-top: $spacer-base;
   }
 }
-
-// Deprecated Class TODO Replace everywhere
-.container__fullwidth {
-  @include for-tablet-landscape-up {
-    padding: 0 $spacer-base;
-  }
-
-  max-width: $desktop-xl;
-  margin: 0 auto;
-  padding: 0 $spacer-xs;
-}
-
-.container__centered {
-  max-width: $tablet-landscape;
-  margin: 0 auto;
-  padding: 0 $spacer-md;
-}

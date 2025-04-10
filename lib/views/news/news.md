@@ -109,22 +109,20 @@ description: Description
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section">
-            <div class="news__block">
-                <div class="news__item">
-                    <time class="news__newsdate" datetime="23-02-14"> 14.02.2023 </time>
-                    <h2 class="news__newsheadline"><a href="#"> socreatory weiß wo es langgeht </a></h2>
-                </div>
-                <div class="news__item">
-                    <time class="news__newsdate" datetime="23-02-14">
-                        <span>14.02.2023</span>
-                    </time>
-                    <h2 class="news__newsheadline"><a href="#"> Das ganze Leben ist ein Quiz – und wir sind nur die Kanidaten </a></h2>
-                </div>
+    <section class="container container--md container-vertical-spacing-lg">
+        <div class="news__block">
+            <div class="news__item">
+                <time class="news__newsdate" datetime="23-02-14"> 14.02.2023 </time>
+                <h2 class="news__newsheadline"><a href="#"> socreatory weiß wo es langgeht </a></h2>
             </div>
-        </section>
-    </div>
+            <div class="news__item">
+                <time class="news__newsdate" datetime="23-02-14">
+                    <span>14.02.2023</span>
+                </time>
+                <h2 class="news__newsheadline"><a href="#"> Das ganze Leben ist ein Quiz – und wir sind nur die Kanidaten </a></h2>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer>

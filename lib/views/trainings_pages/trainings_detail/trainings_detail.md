@@ -114,130 +114,117 @@ description: Show Training Detail
     <div class="layout-main-with-sidebar">
         <div class="layout-main-with-sidebar__main">
             <a href="#booking" class="btn btn-type--secondary  btn-anchor">Termine und Buchung</a>
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
-                <h3>Evolution und Verbesserung von Software&shy;architekturen – systematisch und
-                    nachhaltig</h3>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi
-                    non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem
-                    illum!
+
+            <h2 class="section__title--small"><span aria-hidden>-- </span>Beschreibung</h2>
+            <h3>Evolution und Verbesserung von Software&shy;architekturen – systematisch und
+                nachhaltig</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloribus laborum nisi
+                non, <a href="#">lorem ipsum</a> cupiditate quo accusantium doloremque saepe quidem
+                illum!
+            </p>
+            <img class="article__image"
+                src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg"
+                alt="Dr. Lars Hupel im Einsatz" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem
+                    ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt
+                et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia
+                aliquam eos nam.
+            </p>
+
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Agenda</h2>
+            <ul>
+                <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                    atque?</li>
+                <li>
+                    Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
+                    veniam, numquam architecto voluptate.
+                </li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+            </ul>
+            <ol>
+                <li>Lorem, ipsum dolor</li>
+                <li>Lorem reiciendis error fugit</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Ihr Nutzen</h2>
+            <div class="texttable">
+                <p class="texttable__cell">
+                    Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei
+                    Moderni&shy;sierung&shy;svor&shy;haben gewachsener Systeme als auch beim Design neuer
+                    Systeme auf der
+                    »grünen Wiese«
                 </p>
-                <img class="article__image"
-                    src="https://www.innoq.com/de/trainings/blockchain-verteilter-konsens/lars-hupel.jpg"
-                    alt="Dr. Lars Hupel im Einsatz" />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid, <strong>lorem
-                        ipsum</strong> reiciendis error fugit dicta tempora necessitatibus maiores nesciunt
-                    et, porro ipsa incidunt <em>lorem ipsum</em> asperiores perspiciatis, dolor explicabo quia
-                    aliquam eos nam.
+                <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen
+                    bis zur konti&shy;nuier&shy;lichen Auslieferung</p>
+                <p class="texttable__cell">Anwendbar in allen Auf&shy;gabenfeldern der Softwarearchitektur
+                    unabhängig von Technologien und Sprachen</p>
+            </div>
+
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Zielgruppe</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim,
+                ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa?
+                Ipsum dolorem dolor pariatur provident esse?
+            </p>
+
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Lernziele</h2>
+            <div class="texttable">
+                <p class="texttable__cell">Motivation: Schnelle IT als Wettbewerbsfaktor</p>
+                <p class="texttable__cell">Gesetz von Conway: Software-Architekturen und Organisation</p>
+                <p class="texttable__cell">Microservices und Self-contained Systems</p>
+                <p class="texttable__cell">Domain-driven Design für Modularisierung: Bounded Context und Context
+                    Maps</p>
+                <p class="texttable__cell">Selbstorganisation und Architektur: Mikro- und Makro-Architekturen
                 </p>
-            </section>
+                <p class="texttable__cell">Kommunikation: REST und Messaging</p>
+                <p class="texttable__cell">Event-driven Front-End-Integration</p>
+                <p class="texttable__cell">Datenreplikation</p>
+                <p class="texttable__cell">Verteilte Sicherheitsmechanismen</p>
+                <p class="texttable__cell">Moderne Infrastrukturen mit IaaS, PaaS und Container</p>
+                <p class="texttable__cell">Continuous Delivery, Delivery Pipelines und Software-Architektur</p>
+                <p class="texttable__cell">Metriken und Logging</p>
+                <p class="texttable__cell">Ausblick: Konsistenzmodelle und Resilience</p>
+            </div>
 
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Agenda</h2>
-                <ul>
-                    <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-                        atque?</li>
-                    <li>
-                        Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
-                        veniam, numquam architecto voluptate.
-                    </li>
-                    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-                </ul>
-                <ol>
-                    <li>Lorem, ipsum dolor</li>
-                    <li>Lorem reiciendis error fugit</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ol>
-            </section>
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
+            <div class="trainer-profile">
+                <a href="#"><img class="trainer-profile__image"
+                        src="/snippet/images/profiles/kim_Duggen.jpg" /></a>
+                <div class="trainer-profile__content">
+                    <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
+                    <p class="profile__company">embarc</p>
+                    <p class="profile__role">Rolle</p>
+                    <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich
+                        New Work, Selbstorganisation
+                        und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
+                        als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
+                </div>
+            </div>
 
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Ihr Nutzen</h2>
-                <div class="texttable">
-                    <p class="texttable__cell">
-                        Die Kenntnis flexibler Architektur&shy;modelle ist essenziell bei
-                        Moderni&shy;sierung&shy;svor&shy;haben gewachsener Systeme als auch beim Design neuer
-                        Systeme auf der
-                        »grünen Wiese«
-                    </p>
-                    <p class="texttable__cell">»Full-Stack«-&shy;Architektur&shy;kompetenz: vom iterativen Entwerfen
-                        bis zur konti&shy;nuier&shy;lichen Auslieferung</p>
-                    <p class="texttable__cell">Anwendbar in allen Auf&shy;gabenfeldern der Softwarearchitektur
-                        unabhängig von Technologien und Sprachen</p>
-                </div>
-            </section>
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Zielgruppe</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, magnam corrupti, enim,
-                    ratione id quisquam quas explicabo magni maxime commodi facilis? Illum, in ipsa?
-                    Ipsum dolorem dolor pariatur provident esse?
-                </p>
-            </section>
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Lernziele</h2>
-                <div class="texttable">
-                    <p class="texttable__cell">Motivation: Schnelle IT als Wettbewerbsfaktor</p>
-                    <p class="texttable__cell">Gesetz von Conway: Software-Architekturen und Organisation</p>
-                    <p class="texttable__cell">Microservices und Self-contained Systems</p>
-                    <p class="texttable__cell">Domain-driven Design für Modularisierung: Bounded Context und Context
-                        Maps</p>
-                    <p class="texttable__cell">Selbstorganisation und Architektur: Mikro- und Makro-Architekturen
-                    </p>
-                    <p class="texttable__cell">Kommunikation: REST und Messaging</p>
-                    <p class="texttable__cell">Event-driven Front-End-Integration</p>
-                    <p class="texttable__cell">Datenreplikation</p>
-                    <p class="texttable__cell">Verteilte Sicherheitsmechanismen</p>
-                    <p class="texttable__cell">Moderne Infrastrukturen mit IaaS, PaaS und Container</p>
-                    <p class="texttable__cell">Continuous Delivery, Delivery Pipelines und Software-Architektur</p>
-                    <p class="texttable__cell">Metriken und Logging</p>
-                    <p class="texttable__cell">Ausblick: Konsistenzmodelle und Resilience</p>
-                </div>
-            </section>
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Unsere Kund:innen sagen</h2>
+            <div class="quote">
+                <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nostrum possimus corrupti amet.«</blockquote>
+                <div class="quote__name">Alexander Trapp</div>
+                <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
+            </div>
 
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Ihre Trainer:innen</h2>
-                <div class="trainer-profile">
-                    <a href="#"><img class="trainer-profile__image"
-                            src="/snippet/images/profiles/kim_Duggen.jpg" /></a>
-                    <div class="trainer-profile__content">
-                        <h3 class="trainer-profile__heading"><a href="#" class="heading__link">Kim Nena Duggen</a></h3>
-                        <p class="profile__company">embarc</p>
-                        <p class="profile__role">Rolle</p>
-                        <p class="trainer-profile__text">Kim Nena Duggen ist als Organisationsentwicklerin im Bereich
-                            New Work, Selbstorganisation
-                            und (IT-)Strategie in ihrem Element. Erfahrungen im Prozessmanagement und ihr Einsatz
-                            als Trainerin im Bereich EAM, RE, Soft Skills, New Work sind ihr Fundament.</p>
-                    </div>
+            <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
+            <div class="img-text">
+                <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg" />
+                <div class="img-text__content">
+                    <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
+                    <p class="img-text__text">Grundlage für das Seminar ist das Buch »Vorgehensmuster für
+                        Softwarearchitektur: Kombinierbare
+                        Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) deines Trainers Stefan Toth.
+                        Das
+                        Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
                 </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Unsere Kund:innen sagen</h2>
-                <div class="quote">
-                    <blockquote class="quote__blockquote">»Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Nostrum possimus corrupti amet.«</blockquote>
-                    <div class="quote__name">Alexander Trapp</div>
-                    <div class="quote__role">Developer IoT & Cloud bei GIB mbH</div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section__title--small"><span aria-hidden>-- </span>Fachinfos und Bücher von Michael Plöd</h2>
-                <div class="img-text">
-                    <img class="img-text__image" src="https://m.media-amazon.com/images/I/51J0mwxcCWL.jpg" />
-                    <div class="img-text__content">
-                        <h3 class="img-text__heading">Vorgehensmuster für Softwarearchitektur</h3>
-                        <p class="img-text__text">Grundlage für das Seminar ist das Buch »Vorgehensmuster für
-                            Softwarearchitektur: Kombinierbare
-                            Praktiken in Zeiten von Agile und Lean« (Hanser Verlag, 2019) deines Trainers Stefan Toth.
-                            Das
-                            Buch ist für jeden Teilnehmer im Seminarpreis enthalten (Gebundene Ausgabe und eBook).</p>
-                    </div>
-                </div>
-            </section>
+            </div>
         </div>
         <div id="booking" class="layout-main-with-sidebar__sidebar sidebar">
             <div class="layout-main-with-sidebar__sidebar">

@@ -108,71 +108,63 @@ description: Description
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section">
-            <h2 class="paragraph__h2">EU-DSGVO konforme Datenschutzerklärung</h2>
-            <h2 class="paragraph__h2">Datenschutzerklärung, BLINDTEXT</h2>
-            <p>(Stand: 29. Dezember 2020)</p>
-            <p>Uns (im Folgenden: „socreatory“, „wir“) ist der Datenschutz sehr wichtig.</p>
-            <p>
-                Als Verantwortlicher i.S.d. geltenden Datenschutzgesetze ergreifen wir alle nach geltendem Datenschutzrecht erforderlichen Maßnahmen, um den Schutz Ihrer personenbezogenen Daten zu
-                gewährleisten.
-            </p>
-            <p>
-                Bei allen Fragen bezüglich der Datenverarbeitung bei INNOQ (sowohl innoQ Deutschland GmbH als auch innoQ Schweiz GmbH) und die Wahrnehmung Ihrer Rechte können Sie sich auch kostenlos
-                an unseren Datenschutzbeauftragten wenden.
-            </p>
-            <p>
-                INNOQ<br />
-                Datenschutzbeauftragter<br />
-                2B Advice GmbH Joseph Schumpeter Allee 25<br />
-                53227 Bonn<br />
-                Tel: +49 (228) 926165 120<br />
-                innoq@2b-advice.com
-            </p>
-        </section>
+    <section class="container container--md container-vertical-spacing-xl">
+        <h2 class="paragraph__h2">EU-DSGVO konforme Datenschutzerklärung</h2>
+        <h2 class="paragraph__h2">Datenschutzerklärung, BLINDTEXT</h2>
+        <p>(Stand: 29. Dezember 2020)</p>
+        <p>Uns (im Folgenden: „socreatory“, „wir“) ist der Datenschutz sehr wichtig.</p>
+        <p>
+            Als Verantwortlicher i.S.d. geltenden Datenschutzgesetze ergreifen wir alle nach geltendem Datenschutzrecht erforderlichen Maßnahmen, um den Schutz Ihrer personenbezogenen Daten zu
+            gewährleisten.
+        </p>
+        <p>
+            Bei allen Fragen bezüglich der Datenverarbeitung bei INNOQ (sowohl innoQ Deutschland GmbH als auch innoQ Schweiz GmbH) und die Wahrnehmung Ihrer Rechte können Sie sich auch kostenlos
+            an unseren Datenschutzbeauftragten wenden.
+        </p>
+        <p>
+            INNOQ<br />
+            Datenschutzbeauftragter<br />
+            2B Advice GmbH Joseph Schumpeter Allee 25<br />
+            53227 Bonn<br />
+            Tel: +49 (228) 926165 120<br />
+            innoq@2b-advice.com
+        </p>
 
-        <section class="section">
-            <h2 class="paragraph__h2">Anwendungsbereich der Datenschutzerklärung</h2>
-            <p>
-                Unter der Verarbeitung personenbezogener Daten versteht der Gesetzgeber Tätigkeiten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder
-                Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung,
-                die Einschränkung, das Löschen oder die Vernichtung personenbezogener Daten.
-            </p>
-        </section>
+        <h2 class="paragraph__h2">Anwendungsbereich der Datenschutzerklärung</h2>
+        <p>
+            Unter der Verarbeitung personenbezogener Daten versteht der Gesetzgeber Tätigkeiten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder
+            Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung,
+            die Einschränkung, das Löschen oder die Vernichtung personenbezogener Daten.
+        </p>
 
-        <section class="section">
-            <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
-            <p>
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist
-                <a href="mailto:info@socreatory.com">info@socreatory.com</a>.
-            </p>
-        </section>
+        <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
+        <p>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist
+            <a href="mailto:info@socreatory.com">info@socreatory.com</a>.
+        </p>
 
-        <section class="section">
-            <h2 class="paragraph__h2">Welche personenbezogenen Daten verarbeiten wir?</h2>
-            <p>
-                Ihre personenbezogenen Daten werden von uns erhoben, wenn Sie mit uns, z.B. als Interessent oder Kunde, in Kontakt treten. Dies kann beispielsweise geschehen, indem Sie sich für unsere
-                Produkte interessieren, sich für unsere Online-Dienste registrieren, sich über unsere Kommunikationskanäle an uns wenden, oder wenn Sie im Rahmen bestehender Geschäftsbeziehungen
-                unsere Produkte oder Dienstleistungen nutzen.
-            </p>
-            <h3 class="paragraph__h3">Sensible Daten</h3>
-            <p>
-                Sensible Daten, also besondere Kategorien personenbezogener Daten wie z.B. Informationen zur Gesundheit, politische Meinungen, Religions- oder Gewerkschaftszugehörigkeit, werden über
-                diesen Weg nicht erhoben.
-            </p>
-            <h3 class="paragraph__h3">Nutzung von Cookies</h3>
-            <h4 class="paragraph__h4">Cookies</h4>
-            <p>
-                Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot
-                nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
-            </p>
-            <p>
-                Die meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät
-                gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.
-            </p>
-        </section>
-    </div>
+        <h2 class="paragraph__h2">Welche personenbezogenen Daten verarbeiten wir?</h2>
+        <p>
+            Ihre personenbezogenen Daten werden von uns erhoben, wenn Sie mit uns, z.B. als Interessent oder Kunde, in Kontakt treten. Dies kann beispielsweise geschehen, indem Sie sich für unsere
+            Produkte interessieren, sich für unsere Online-Dienste registrieren, sich über unsere Kommunikationskanäle an uns wenden, oder wenn Sie im Rahmen bestehender Geschäftsbeziehungen
+            unsere Produkte oder Dienstleistungen nutzen.
+        </p>
+        <h3 class="paragraph__h3">Sensible Daten</h3>
+        <p>
+            Sensible Daten, also besondere Kategorien personenbezogener Daten wie z.B. Informationen zur Gesundheit, politische Meinungen, Religions- oder Gewerkschaftszugehörigkeit, werden über
+            diesen Weg nicht erhoben.
+        </p>
+        <h3 class="paragraph__h3">Nutzung von Cookies</h3>
+        <h4 class="paragraph__h4">Cookies</h4>
+        <p>
+            Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot
+            nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
+        </p>
+        <p>
+            Die meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät
+            gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.
+        </p>
+    </section>
 </main>
 <footer>
     <div class="footer__top">

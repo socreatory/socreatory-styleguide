@@ -107,45 +107,39 @@ description: Description
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section">
-            <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
-            <p>
-                <strong>socreatory GbR</strong><br />
-                HR B XXXXX, Amtsgericht XXXXXX<br />
-                USt-IdNr. DE XXX XXX XXX<br />
-                Geschäftsführung: Susi und Strolch
-            </p>
-            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
-            <p>
-                Krischerstraße 100<br />
-                40789 Monheim am Rhein
-            </p>
-            <p>
-                Telefon +49 2173 3366 0<br />
-                Fax +49 2173 3366 222
-            </p>
-            <p>E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
-        </section>
+    <section class="container container--md container-vertical-spacing-lg">
+        <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
+        <p>
+            <strong>socreatory GbR</strong><br />
+            HR B XXXXX, Amtsgericht XXXXXX<br />
+            USt-IdNr. DE XXX XXX XXX<br />
+            Geschäftsführung: Susi und Strolch
+        </p>
+        <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DEXXXXXXX</p>
+        <p>
+            Krischerstraße 100<br />
+            40789 Monheim am Rhein
+        </p>
+        <p>
+            Telefon +49 2173 3366 0<br />
+            Fax +49 2173 3366 222
+        </p>
+        <p>E-Mail <a href="mailto:info@socreatory.com">info@socreatory.com</a></p>
 
-        <section class="section">
-            <h2 class="paragraph__h2">Datenschutz</h2>
-            <p>
-                Grundsätzlich gilt für die socreatory GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum
-                Datenschutz für uns selbstverständlich. Darüber hinaus ist es uns wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.
-            </p>
-            <p>Wir sichern Ihnen zu, dass Ihre Angaben entsprechend den geltenden deutschen datenschutzrechtlichen Bestimmungen vertraulich behandelt werden.</p>
-            <p>Mehr dazu finden Sie in unseren <a href="#">Datenschutzhinweisen.</a></p>
-        </section>
+        <h2 class="paragraph__h2">Datenschutz</h2>
+        <p>
+            Grundsätzlich gilt für die socreatory GbR, dass der Schutz Ihrer Privatsphäre für uns von höchster Bedeutung ist. Deshalb ist das Einhalten der gesetzlichen Bestimmungen zum
+            Datenschutz für uns selbstverständlich. Darüber hinaus ist es uns wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.
+        </p>
+        <p>Wir sichern Ihnen zu, dass Ihre Angaben entsprechend den geltenden deutschen datenschutzrechtlichen Bestimmungen vertraulich behandelt werden.</p>
+        <p>Mehr dazu finden Sie in unseren <a href="#">Datenschutzhinweisen.</a></p>
 
-        <section class="section">
-            <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
-            <p>
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist
-                <a href="mailto:info@socreatory.com">info@socreatory.com</a>.
-            </p>
-        </section>
-    </div>
+        <h2 class="paragraph__h2">EU-Streitschlichtung</h2>
+        <p>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse ist
+            <a href="mailto:info@socreatory.com">info@socreatory.com</a>.
+        </p>
+    </section>
 </main>
 <footer>
     <div class="footer__top">

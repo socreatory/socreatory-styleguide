@@ -110,33 +110,31 @@ description: Description
 </header>
 
 <main>
-    <div class="container__centered">
-        <section class="section">
-            <div class="news__detail">
-                <figure>
-                    <img
-                        src="https://res.cloudinary.com/socreatory/image/upload/c_limit,f_auto,q_auto,w_auto:100:1690/v1/production/pinhwn4z5q36a284dfvmqyk2yoex"
-                        alt="Was auf dem Bild zu sehen ist"
-                    />
-                    <figcaption>Dies und das</figcaption>
-                </figure>
-                <p>
-                    Lorem iipsum dolor sit amet consectetur. Id faucibus vitae in consectetur ornare. Quis nunc volutpat sit in mi in. Arcu leo metus fermentum orci nisl pellentesque mattis. Magnis
-                    faucibus molestie tellus molestie hendrerit nibh bibendum potenti. Ligula elementum orci ut pellentesque suspendisse dui egestas. Tellus nec enim cursus ut. Sapien massa sem hac
-                    tortor morbi amet morbi bibendum. Nibh pellentesque volutpat vestibulum sapien nunc facilisi egestas venenatis rutrum. Nulla ut diam praesent dui. Gravida ornare sem tincidunt
-                    tortor facilisis metus. Vitae placerat quis duis vel cursus. Mauris velit pharetra cum elit adipiscing mauris elementum sapien mi.
-                </p>
-                <p>
-                    Justo sociis amet bibendum urna arcu viverra hendrerit. Adipiscing dui tellus enim morbi. Purus diam viverra tincidunt non. Turpis pretium platea cursus tortor nulla aliquam.
-                    Fermentum mattis tortor scelerisque nec nec etiam cursus vulputate. Mi sit et quis cursus nunc quam a varius. Suscipit vivamus augue sit pharetra sit enim eget viverra habitant.
-                    Nec pulvinar nunc orci leo orci adipiscing. Dolor pulvinar non elementum urna in quis duis ut ac. Commodo lacus interdum et pharetra ac. Eget nisl tortor turpis et morbi magna
-                    neque. Id vitae nec placerat laoreet in integer. Velit a venenatis egestas arcu dolor pulvinar faucibus nulla. Vestibulum est purus fringilla sit vestibulum feugiat. Aliquet ut
-                    molestie.
-                </p>
-            </div>
-            <a class="btn btn-type--primary " href="#">Zur News Übersicht</a>
-        </section>
-    </div>
+    <section class="container container--md container-vertical-spacing-xl">
+        <div class="news__detail">
+            <figure>
+                <img
+                    src="https://res.cloudinary.com/socreatory/image/upload/c_limit,f_auto,q_auto,w_auto:100:1690/v1/production/pinhwn4z5q36a284dfvmqyk2yoex"
+                    alt="Was auf dem Bild zu sehen ist"
+                />
+                <figcaption>Dies und das</figcaption>
+            </figure>
+            <p>
+                Lorem iipsum dolor sit amet consectetur. Id faucibus vitae in consectetur ornare. Quis nunc volutpat sit in mi in. Arcu leo metus fermentum orci nisl pellentesque mattis. Magnis
+                faucibus molestie tellus molestie hendrerit nibh bibendum potenti. Ligula elementum orci ut pellentesque suspendisse dui egestas. Tellus nec enim cursus ut. Sapien massa sem hac
+                tortor morbi amet morbi bibendum. Nibh pellentesque volutpat vestibulum sapien nunc facilisi egestas venenatis rutrum. Nulla ut diam praesent dui. Gravida ornare sem tincidunt
+                tortor facilisis metus. Vitae placerat quis duis vel cursus. Mauris velit pharetra cum elit adipiscing mauris elementum sapien mi.
+            </p>
+            <p>
+                Justo sociis amet bibendum urna arcu viverra hendrerit. Adipiscing dui tellus enim morbi. Purus diam viverra tincidunt non. Turpis pretium platea cursus tortor nulla aliquam.
+                Fermentum mattis tortor scelerisque nec nec etiam cursus vulputate. Mi sit et quis cursus nunc quam a varius. Suscipit vivamus augue sit pharetra sit enim eget viverra habitant.
+                Nec pulvinar nunc orci leo orci adipiscing. Dolor pulvinar non elementum urna in quis duis ut ac. Commodo lacus interdum et pharetra ac. Eget nisl tortor turpis et morbi magna
+                neque. Id vitae nec placerat laoreet in integer. Velit a venenatis egestas arcu dolor pulvinar faucibus nulla. Vestibulum est purus fringilla sit vestibulum feugiat. Aliquet ut
+                molestie.
+            </p>
+        </div>
+        <a class="btn btn-type--primary " href="#">Zur News Übersicht</a>
+    </section>
 </main>
 
 <footer>
