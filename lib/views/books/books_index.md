@@ -116,44 +116,60 @@ description: Books Index Page
             <li class="book-card">
                 <img class="book-card__img" src="/snippet/images/example-quadrat.webp" alt="Beispielbild" />
                 <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <img class="book-card__img" src="/snippet/images/example-hochformat.webp" alt="Beispielbild" />
                 <h2 class="book-card__title">Ein lustiger Titel</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <img class="book-card__img" src="/snippet/images/example-querformat.webp" alt="Beispielbild" />
                 <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <h2 class="book-card__title">Ein lustiger Titel</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <img class="book-card__img" src="/snippet/images/example-quadrat.webp" alt="Beispielbild" />
                 <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <h2 class="book-card__title">Ein lustiger Titel</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
 
             <li class="book-card">
                 <h2 class="book-card__title">Wir schreiben hier einen lustigen Titel hin, der etwas länger ist</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
             <li class="book-card">
                 <h2 class="book-card__title">Ein lustiger Titel</h2>
-                <p class="book-card__text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren <a href="#" target="_blank">Zum Beitrag</a></p>
+                <div class="book-card__text">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem  <a href="#" target="_blank">Zum Beitrag</a></p>
+                </div>
             </li>
         </ul>
     </div>

@@ -45,6 +45,8 @@
   margin-top: $spacer-xs;
   margin-bottom: 0;
 
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height;
+  p {
+    font-size: $font-size-md;
+    line-height: $paragraph-line-height;
+  }
 }
