@@ -17,6 +17,14 @@
 .layout-main-with-sidebar__main {
   overflow: auto;
   grid-area: main;
+
+  > * + * {
+    margin-top: $spacer-md;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
 }
 
 .layout-main-with-sidebar__sidebar {
