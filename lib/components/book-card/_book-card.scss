@@ -41,12 +41,15 @@
   @extend %body-font-regular;
 
   grid-area: text;
-
   margin-top: $spacer-xs;
   margin-bottom: 0;
 
   p {
     font-size: $font-size-md;
     line-height: $paragraph-line-height;
+
+    a {
+      display: inline-block;
+    }
   }
 }
