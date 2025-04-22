@@ -12,6 +12,7 @@
     "text";
   grid-template-columns: 1fr;
   grid-template-rows: calc(15rem + $spacer-base) auto auto;
+  align-content: baseline;
 
   padding: $spacer-base $spacer-sm;
 
@@ -41,7 +42,7 @@
 
   grid-area: text;
 
-  margin-top: $spacer-2xs;
+  margin-top: $spacer-xs;
   margin-bottom: 0;
 
   font-size: $font-size-md;
