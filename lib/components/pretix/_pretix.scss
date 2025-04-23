@@ -45,9 +45,7 @@
 
 // Termin Location
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-location {
-  display: inline;
-  padding: 0;
-  font-size: $font-size-base;
+  display: none;
 }
 
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
