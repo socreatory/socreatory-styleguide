@@ -3,6 +3,8 @@
 @use "../../fundamentals/colors";
 @use "../../fundamentals/typography";
 
+@import url("https://pretix.eu/socreatory/widget/v1.css");
+
 .pretix-widget-wrapper {
   width: 100%;
   margin-bottom: spacers.$spacer-lg;
