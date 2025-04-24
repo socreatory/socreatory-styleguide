@@ -1,28 +1,33 @@
-// Footer
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../../blueprints/container-layouts/container/container";
+@use "../lists/lists";
+
 .footer__top {
   @extend %container-vertical-spacing-xl;
 
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 }
 
 .footer__bottom {
-  padding: $spacer-md 0;
-  background-color: $brand-primary;
+  padding: spacers.$spacer-md 0;
+  background-color: colors.$brand-primary;
 }
 
 .footer__top__content {
-  max-width: $desktop-xl;
+  max-width: breakpoints.$desktop-xl;
   margin: 0 auto;
-  padding: 0 $spacer-xs;
+  padding: 0 spacers.$spacer-xs;
 
-  /* stylelint-disable-next-line order/order */
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     display: grid;
-    grid-column-gap: $spacer-2xl;
+    grid-column-gap: spacers.$spacer-2xl;
     grid-template-areas: "left right";
     grid-template-columns: 2fr 1fr;
 
-    padding: 0 $spacer-base;
+    padding: 0 spacers.$spacer-base;
   }
 }
 
@@ -34,48 +39,47 @@
 
   .footer__headline,
   .footer__linkarea {
-    margin-top: $spacer-lg;
+    margin-top: spacers.$spacer-lg;
   }
 
   .social-media-bar {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 }
 
 .footer__top__content__left {
   grid-area: left;
-  margin-top: $spacer-base;
+  margin-top: spacers.$spacer-base;
 
   > * + * {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 
   > * {
     margin-bottom: 0;
   }
 
-  /* stylelint-disable-next-line order/order */
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     margin-top: 0;
   }
 }
 
 .footer__bottom__content {
-  @include for-tablet-landscape-up {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 $spacer-base;
-  }
-
   display: flex;
   flex-direction: column;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
   align-items: center;
   justify-content: center;
 
-  max-width: $desktop-xl;
+  max-width: breakpoints.$desktop-xl;
   margin: 0 auto;
-  padding: 0 $spacer-xs;
+  padding: 0 spacers.$spacer-xs;
+
+  @include breakpoints.for-tablet-landscape-up {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 spacers.$spacer-base;
+  }
 }
 
 .footer__logo {
@@ -84,7 +88,7 @@
 
 .footer__linkarea {
   display: flex;
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
 }
 
 .footer__links {
@@ -92,17 +96,17 @@
 }
 
 .footer__link a {
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
   line-height: 2;
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 .footer__link a:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .footer__company,
@@ -110,6 +114,6 @@
   @extend %monospace-font-regular;
 
   display: block;
-  font-size: $font-size-xs;
-  color: $brand-text;
+  font-size: typography.$font-size-xs;
+  color: colors.$brand-text;
 }

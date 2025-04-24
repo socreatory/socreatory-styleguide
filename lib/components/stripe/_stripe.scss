@@ -1,28 +1,33 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .stripe {
   overflow: hidden;
   width: 100%;
 }
 
 .stripe--primary {
-  background-color: $brand-primary;
+  background-color: colors.$brand-primary;
 }
 
 .stripe--primary-light {
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 }
 
 .stripe--secondary {
-  background-color: $brand-secondary;
+  background-color: colors.$brand-secondary;
 }
 
 .stripe--secondary-light {
-  background-color: $brand-secondary-light;
+  background-color: colors.$brand-secondary-light;
 }
 
 .stripe--white-1 {
-  background-color: $brand-white-1;
+  background-color: colors.$brand-white-1;
 }
 
 .stripe--black {
-  background-color: $brand-gray;
+  background-color: colors.$brand-gray;
 }

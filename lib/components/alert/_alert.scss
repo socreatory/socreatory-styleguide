@@ -1,3 +1,9 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../buttons/buttons";
+
 .alert {
   @extend %heading-font-regular;
 
@@ -6,21 +12,21 @@
   justify-content: space-between;
 
   width: 100%;
-  padding: $spacer-xs;
+  padding: spacers.$spacer-xs;
 
-  font-size: $font-size-base;
-  color: $brand-text;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-text;
 
   &--info {
-    background-color: $brand-primary-light;
+    background-color: colors.$brand-primary-light;
   }
 
   &--warn {
-    background-color: $brand-tertiary-light;
+    background-color: colors.$brand-tertiary-light;
   }
 
   &--error {
-    background-color: $brand-error;
+    background-color: colors.$brand-error;
   }
 }
 
@@ -35,8 +41,8 @@
   background-color: transparent;
 }
 
-@include for-tablet-landscape-up {
+@include breakpoints.for-tablet-landscape-up {
   .alert {
-    padding: $spacer-sm;
+    padding: spacers.$spacer-sm;
   }
 }

@@ -1,13 +1,16 @@
+@use "../../../fundamentals/spacers";
+@use "../../../fundamentals/breakpoints";
+
 .tile-grid--sm,
 .tile-grid--md {
   display: grid;
-  grid-column-gap: $spacer-base;
-  grid-row-gap: $spacer-base;
+  grid-column-gap: spacers.$spacer-base;
+  grid-row-gap: spacers.$spacer-base;
   width: 100%;
 
-  @include for-tablet-landscape-up {
-    grid-column-gap: $spacer-lg;
-    grid-row-gap: $spacer-lg;
+  @include breakpoints.for-tablet-landscape-up {
+    grid-column-gap: spacers.$spacer-lg;
+    grid-row-gap: spacers.$spacer-lg;
   }
 }
 
@@ -20,26 +23,26 @@
 }
 
 .tile-grid-gap--sm {
-  grid-column-gap: $spacer-sm;
-  grid-row-gap: $spacer-sm;
+  grid-column-gap: spacers.$spacer-sm;
+  grid-row-gap: spacers.$spacer-sm;
 }
 
 .tile-grid-gap--base {
-  grid-column-gap: $spacer-base;
-  grid-row-gap: $spacer-base;
+  grid-column-gap: spacers.$spacer-base;
+  grid-row-gap: spacers.$spacer-base;
 }
 
 .tile-grid--3-col {
   display: grid;
-  grid-column-gap: $spacer-lg;
-  grid-row-gap: $spacer-base;
+  grid-column-gap: spacers.$spacer-lg;
+  grid-row-gap: spacers.$spacer-base;
   grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
 
   width: 100%;
 
-  @include for-tablet-landscape-up {
-    grid-column-gap: $spacer-2xl;
-    grid-row-gap: $spacer-lg;
+  @include breakpoints.for-tablet-landscape-up {
+    grid-column-gap: spacers.$spacer-2xl;
+    grid-row-gap: spacers.$spacer-lg;
   }
 
   p {
@@ -49,7 +52,7 @@
 
 .tile-grid__wrapper {
   > * + * {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
   }
 
   > * {
@@ -58,12 +61,12 @@
 
   turbo-frame {
     turbo-frame {
-      margin-top: $spacer-sm;
+      margin-top: spacers.$spacer-sm;
     }
 
     > a {
       display: block;
-      margin-top: $spacer-xs;
+      margin-top: spacers.$spacer-xs;
     }
   }
 }

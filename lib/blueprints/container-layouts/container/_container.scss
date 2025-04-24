@@ -1,36 +1,39 @@
+@use "../../../fundamentals/spacers";
+@use "../../../fundamentals/breakpoints";
+
 .container,
 %container {
-  @include for-tablet-landscape-up {
-    align-items: flex-start;
-    padding-right: $spacer-md;
-    padding-left: $spacer-md;
-  }
-
   display: flex;
   flex-direction: column;
 
   width: 100%;
   margin: 0 auto;
-  padding-right: $spacer-xs;
-  padding-left: $spacer-xs;
+  padding-right: spacers.$spacer-xs;
+  padding-left: spacers.$spacer-xs;
 
   > * + * {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 
   > * {
     margin-bottom: 0;
   }
+
+  @include breakpoints.for-tablet-landscape-up {
+    align-items: flex-start;
+    padding-right: spacers.$spacer-md;
+    padding-left: spacers.$spacer-md;
+  }
 }
 
 .container--xl,
 %container--xl {
-  max-width: $desktop-xl;
+  max-width: breakpoints.$desktop-xl;
 }
 
 .container--md,
 %container--md {
-  max-width: $tablet-landscape;
+  max-width: breakpoints.$tablet-landscape;
 }
 
 .container--centered {
@@ -40,83 +43,83 @@
 // Vertical Spacing
 .container-vertical-spacing-2xl,
 %container-vertical-spacing-2xl {
-  @include for-tablet-landscape-up {
-    padding-top: $spacer-2xl;
-    padding-bottom: $spacer-2xl;
-  }
+  padding-top: spacers.$spacer-xl;
+  padding-bottom: spacers.$spacer-xl;
 
-  padding-top: $spacer-xl;
-  padding-bottom: $spacer-xl;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-top: spacers.$spacer-2xl;
+    padding-bottom: spacers.$spacer-2xl;
+  }
 }
 
 .container-vertical-spacing-xl,
 %container-vertical-spacing-xl {
-  @include for-tablet-landscape-up {
-    padding-top: $spacer-xl;
-    padding-bottom: $spacer-xl;
-  }
+  padding-top: spacers.$spacer-lg;
+  padding-bottom: spacers.$spacer-lg;
 
-  padding-top: $spacer-lg;
-  padding-bottom: $spacer-lg;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-top: spacers.$spacer-xl;
+    padding-bottom: spacers.$spacer-xl;
+  }
 }
 
 .container-vertical-spacing-lg,
 %container-vertical-spacing-lg {
-  @include for-tablet-landscape-up {
-    padding-top: $spacer-lg;
-    padding-bottom: $spacer-lg;
-  }
+  padding-top: spacers.$spacer-base;
+  padding-bottom: spacers.$spacer-base;
 
-  padding-top: $spacer-base;
-  padding-bottom: $spacer-base;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-top: spacers.$spacer-lg;
+    padding-bottom: spacers.$spacer-lg;
+  }
 }
 
 // Spacing only bottom
 .container-bottom-spacing-2xl,
 %container-bottom-spacing-2xl {
-  @include for-tablet-landscape-up {
-    padding-bottom: $spacer-2xl;
-  }
+  padding-bottom: spacers.$spacer-xl;
 
-  padding-bottom: $spacer-xl;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-bottom: spacers.$spacer-2xl;
+  }
 }
 
 .container-bottom-spacing-xl,
 %container-bottom-spacing-xl {
-  @include for-tablet-landscape-up {
-    padding-bottom: $spacer-xl;
-  }
+  padding-bottom: spacers.$spacer-lg;
 
-  padding-bottom: $spacer-lg;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-bottom: spacers.$spacer-xl;
+  }
 }
 
 .container-bottom-spacing-lg,
 %container-bottom-spacing-lg {
-  @include for-tablet-landscape-up {
-    padding-bottom: $spacer-lg;
-  }
+  padding-bottom: spacers.$spacer-base;
 
-  padding-bottom: $spacer-base;
+  @include breakpoints.for-tablet-landscape-up {
+    padding-bottom: spacers.$spacer-lg;
+  }
 }
 
 // 2-col
 .container--2-col,
 %container--2-col {
-  @include for-desktop-up {
+  width: 100%;
+
+  > * + * {
+    margin-top: spacers.$spacer-base;
+  }
+
+  @include breakpoints.for-desktop-up {
     display: grid;
     grid-template-areas: "left right";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: $spacer-base;
+    gap: spacers.$spacer-base;
 
     > div {
       margin-top: 0;
     }
-  }
-
-  width: 100%;
-
-  > * + * {
-    margin-top: $spacer-base;
   }
 }

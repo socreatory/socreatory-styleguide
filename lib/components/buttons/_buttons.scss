@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 %base-button {
   cursor: pointer;
   user-select: none;
@@ -28,15 +33,15 @@
   @extend %base-button;
 
   width: auto;
-  padding: $spacer-xs $spacer-sm;
+  padding: spacers.$spacer-xs spacers.$spacer-sm;
 
-  font-size: $font-size-sm;
-  color: $brand-text;
+  font-size: typography.$font-size-sm;
+  color: colors.$brand-text;
   text-align: center;
   text-transform: uppercase;
   text-wrap: none;
   letter-spacing: 0.12rem;
-  word-spacing: $spacer-3xs;
+  word-spacing: spacers.$spacer-3xs;
 
   transition: all 0.15s ease-out;
 }
@@ -48,93 +53,91 @@
 }
 
 .btn-type--primary {
-  border: $spacer-3xs solid $brand-text;
-  color: $brand-background;
-  background-color: $brand-text;
+  border: spacers.$spacer-3xs solid colors.$brand-text;
+  color: colors.$brand-background;
+  background-color: colors.$brand-text;
 
   &:hover,
   &:focus {
-    color: $brand-text;
-    background-color: $brand-primary;
+    color: colors.$brand-text;
+    background-color: colors.$brand-primary;
   }
 }
 
 .btn-type--secondary {
-  border: $spacer-3xs solid $brand-text;
-  color: $brand-text;
+  border: spacers.$spacer-3xs solid colors.$brand-text;
+  color: colors.$brand-text;
   background-color: transparent;
 
   &:hover,
   &:focus {
-    background-color: $brand-secondary;
+    background-color: colors.$brand-secondary;
   }
 }
 
 .btn--cta {
-  color: $brand-text;
-  background-color: $brand-primary;
+  color: colors.$brand-text;
+  background-color: colors.$brand-primary;
 
   &:hover,
   &:focus {
-    color: $brand-background;
-    background-color: $brand-text;
+    color: colors.$brand-background;
+    background-color: colors.$brand-text;
   }
 }
 
 .btn--form {
   @extend %base-button;
 
-  padding: $spacer-3xs $spacer-2xs;
-  font-size: $font-size-md;
+  padding: spacers.$spacer-3xs spacers.$spacer-2xs;
+  font-size: typography.$font-size-md;
   text-decoration: none;
 }
 
 .btn--form--secondary {
-  color: $brand-text;
-  background-color: $brand-primary;
+  color: colors.$brand-text;
+  background-color: colors.$brand-primary;
 
   &:hover,
   &:focus {
-    color: $brand-background;
-    background-color: $brand-text;
+    color: colors.$brand-background;
+    background-color: colors.$brand-text;
   }
 }
 
 .btn--form--black {
-  color: $brand-white;
-  background-color: $brand-text;
+  color: colors.$brand-white;
+  background-color: colors.$brand-text;
 
   &:hover,
   &:focus {
-    color: $brand-background;
-    background-color: $brand-text;
+    color: colors.$brand-background;
+    background-color: colors.$brand-text;
   }
 }
 
 .btn-state--disabled {
-  border-color: $brand-gray-1;
-  background-color: $brand-gray-1;
+  border-color: colors.$brand-gray-1;
+  background-color: colors.$brand-gray-1;
 }
 
 .btn-anchor {
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     display: none;
   }
-
-  margin: $spacer-md 0 $spacer-base 0;
 }
 
 .btn--icon {
   @extend %base-button;
 
-  padding: $spacer-2xs;
-  background-color: $brand-primary;
+  padding: spacers.$spacer-2xs;
+  background-color: colors.$brand-primary;
 }
 
 // Button sizes
 .btn--lg {
-  padding: $spacer-sm $spacer-base;
-  font-size: $font-size-md;
+  padding: spacers.$spacer-sm spacers.$spacer-base;
+  font-size: typography.$font-size-md;
 }
 
 .button-group {

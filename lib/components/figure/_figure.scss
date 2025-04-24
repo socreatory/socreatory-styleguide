@@ -1,5 +1,10 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 figcaption {
   @extend %monospace-font-regular;
 
-  margin-bottom: $spacer-xl;
+  margin-bottom: spacers.$spacer-xl;
 }

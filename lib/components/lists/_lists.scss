@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 // helpers
 %list-unstyled {
   margin-bottom: 0;
@@ -9,7 +14,7 @@
 // Komponente Lists
 .unordered-list {
   padding-left: 1rem;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .unordered-list__item {
@@ -18,7 +23,7 @@
 
 .ordered-list {
   padding-left: 1.5rem;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .ordered-list__item {
@@ -27,7 +32,7 @@
 
 .ordered-list__item::marker,
 .unordered-list__item::marker {
-  color: $brand-secondary;
+  color: colors.$brand-secondary;
 }
 
 .unordered-list__item::marker {
@@ -37,37 +42,37 @@
 dt {
   @extend %heading-font-bold;
 
-  margin-top: $spacer-xs;
-  font-size: $font-size-base;
-  line-height: $heading-line-height;
-  color: $brand-primary;
+  margin-top: spacers.$spacer-xs;
+  font-size: typography.$font-size-base;
+  line-height: typography.$heading-line-height;
+  color: colors.$brand-primary;
 }
 
 dd {
   @extend %body-font-regular;
 
   margin: 0;
-  font-size: $font-size-base;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-base;
+  line-height: typography.$heading-line-height;
 }
 
 ul:not([class]) {
   padding-left: 1rem;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 
   li {
     padding-left: 1rem;
 
-    &::marker {
+    &::before {
       content: "—";
-      color: $brand-secondary;
+      color: colors.$brand-secondary;
     }
   }
 }
 
 ol:not([class]) {
   padding-left: 1.5rem;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 
   li {
     padding-left: 0.5rem;
@@ -77,19 +82,19 @@ ol:not([class]) {
 ul:not([class]),
 ol:not([class]) {
   > * + * {
-    margin-top: $spacer-2xs;
+    margin-top: spacers.$spacer-2xs;
   }
 
   a:not([class]) {
-    color: $brand-text;
-    text-decoration-color: $brand-primary;
-    text-decoration-thickness: $spacer-3xs;
-    text-underline-offset: $spacer-3xs;
+    color: colors.$brand-text;
+    text-decoration-color: colors.$brand-primary;
+    text-decoration-thickness: spacers.$spacer-3xs;
+    text-underline-offset: spacers.$spacer-3xs;
 
     transition: all 0.1s ease-out;
   }
 
   :hover {
-    text-decoration-color: $brand-primary-light;
+    text-decoration-color: colors.$brand-primary-light;
   }
 }

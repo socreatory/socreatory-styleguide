@@ -1,8 +1,15 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../lists/lists";
+@use "../link/link";
+
 .social-media-bar {
   @extend %list-unstyled;
 
   display: grid;
-  grid-gap: $spacer-sm;
+  grid-gap: spacers.$spacer-sm;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-content: center;
 }

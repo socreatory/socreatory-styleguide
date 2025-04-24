@@ -107,7 +107,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-lg">
+    <section class="container container--md container-bottom-spacing-lg">
         <h2 class="paragraph__h2">Angaben gemäß § 5 TMG</h2>
         <p>
             <strong>socreatory GbR</strong><br />

@@ -1,4 +1,6 @@
+@use "../../fundamentals/spacers";
+
 .login-page {
   min-height: 70vh;
-  margin-bottom: $spacer-lg;
+  margin-bottom: spacers.$spacer-lg;
 }

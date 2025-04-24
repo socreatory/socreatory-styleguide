@@ -1,82 +1,87 @@
-.hero {
-  @include for-tablet-landscape-up {
-    grid-template-columns: 1.3fr 1fr;
-    gap: $spacer-sm;
-    padding: $spacer-xl $spacer-base 0 $spacer-base;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
 
+.hero {
   display: grid;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
 
   width: 100%;
-  max-width: $desktop-xl;
+  max-width: breakpoints.$desktop-xl;
   margin-right: auto;
   margin-left: auto;
-  padding: $spacer-lg $spacer-xs $spacer-base $spacer-xs;
+  padding: spacers.$spacer-lg spacers.$spacer-xs spacers.$spacer-base spacers.$spacer-xs;
+
+  @include breakpoints.for-tablet-landscape-up {
+    grid-template-columns: 1.3fr 1fr;
+    gap: spacers.$spacer-sm;
+    padding: spacers.$spacer-xl spacers.$spacer-base 0 spacers.$spacer-base;
+  }
 }
 
 .hero_grid-wrapper {
-  @include for-tablet-landscape-up {
-    align-items: flex-start;
-  }
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   .btn {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 
   .breadcrumb {
     align-self: flex-start;
   }
+
+  @include breakpoints.for-tablet-landscape-up {
+    align-items: flex-start;
+  }
 }
 
 .hero__heading {
-  @include for-tablet-portrait-up {
-    font-size: $font-size-xxxl;
-  }
-
-  @include for-breakpoint-phone-up {
-    font-size: $font-size-xxl;
-  }
-
   margin-bottom: 0; // TODO
-  font-size: $font-size-xl;
-  line-height: $heading-line-height-sm;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height-sm;
+
+  @include breakpoints.for-tablet-portrait-up {
+    font-size: typography.$font-size-xxxl;
+  }
+
+  @include breakpoints.for-breakpoint-phone-up {
+    font-size: typography.$font-size-xxl;
+  }
 }
 
 .hero__text {
-  margin-top: $spacer-md;
+  margin-top: spacers.$spacer-md;
   margin-bottom: 0;
 }
 
 .hero__image {
-  @include for-tablet-landscape-up {
+  display: none;
+
+  @include breakpoints.for-tablet-landscape-up {
     display: block;
     align-self: flex-end;
     width: 100%;
   }
 
-  @include for-desktop-up {
+  @include breakpoints.for-desktop-up {
     width: 80%;
   }
-
-  display: none;
 }
 
 .hero__logos {
-  @include for-tablet-landscape-up {
-    align-self: flex-end;
-    margin-top: $spacer-md;
-  }
-
   display: flex;
   flex-wrap: wrap;
-  gap: $spacer-sm $spacer-md;
+  gap: spacers.$spacer-sm spacers.$spacer-md;
   align-items: flex-end;
+
+  @include breakpoints.for-tablet-landscape-up {
+    align-self: flex-end;
+    margin-top: spacers.$spacer-md;
+  }
 }
 
 .hero__logos__caption {
@@ -86,30 +91,30 @@
 .hero__logos__wrapper {
   display: flex;
   flex-direction: row;
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
 }
 
 .hero__logo {
-  @include for-tablet-landscape-up {
-    height: 2.5rem;
-  }
-
   display: block;
   height: 2rem;
+
+  @include breakpoints.for-tablet-landscape-up {
+    height: 2.5rem;
+  }
 }
 
 .hero__isaqb {
-  @include for-tablet-landscape-up {
-    height: 4rem;
-  }
-
   display: inline-block;
   height: 3rem;
-  margin-top: $spacer-sm;
+  margin-top: spacers.$spacer-sm;
+
+  @include breakpoints.for-tablet-landscape-up {
+    height: 4rem;
+  }
 }
 
 .hero__isaqb__wrapper {
   display: flex;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
   align-items: center;
 }

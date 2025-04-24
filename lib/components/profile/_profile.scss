@@ -1,35 +1,39 @@
-// Trainer Profiles
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .profiles {
-  @include for-tablet-portrait-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: spacers.$spacer-base;
+  padding: 0;
+
+  @include breakpoints.for-tablet-portrait-up {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  @include for-desktop-up {
+  @include breakpoints.for-desktop-up {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $spacer-base;
-  padding: 0;
 }
 
 .profile__name {
   @extend %body-font-bold;
 
   margin-bottom: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .profile__company,
 .profile__role,
 .profile__focus {
   margin-bottom: 0;
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }
 
 // Trainer Overview
@@ -39,16 +43,16 @@
 }
 
 .profile__link {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 .profile__link:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .profile__link::after {
@@ -63,42 +67,42 @@
 
 // Trainerprofil zweispaltig Bild&Text
 .trainer-profile {
-  @include for-breakpoint-phone-up {
-    grid-gap: $spacer-lg;
+  display: grid;
+  grid-gap: spacers.$spacer-2xs;
+  grid-template-columns: 1fr;
+
+  @include breakpoints.for-breakpoint-phone-up {
+    grid-gap: spacers.$spacer-lg;
     grid-template-columns: 1fr 2fr;
   }
-
-  display: grid;
-  grid-gap: $spacer-2xs;
-  grid-template-columns: 1fr;
 }
 
 .trainer-profile__heading {
-  margin-bottom: $spacer-sm;
-  font-size: $font-size-xl;
+  margin-bottom: spacers.$spacer-sm;
+  font-size: typography.$font-size-xl;
 }
 
 .trainer-profile__link {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 .trainer-profile__link:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .trainer-profile__trainings {
-  margin-top: $spacer-sm;
+  margin-top: spacers.$spacer-sm;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 
   > * + * {
-    margin-top: $spacer-2xs;
+    margin-top: spacers.$spacer-2xs;
   }
 }
 
@@ -106,28 +110,28 @@
   @extend %monospace-font-regular;
 
   display: inline-block;
-  padding: 2px $spacer-xs;
+  padding: 2px spacers.$spacer-xs;
   border-radius: 1rem;
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
 }
 
 .trainer-profile__training--power {
-  background-color: $brand-tertiary;
+  background-color: colors.$brand-tertiary;
 }
 
 .trainer-profile__training--isaqb {
-  background-color: $brand-primary;
+  background-color: colors.$brand-primary;
 }
 
 .trainer-profile__training--socreatory {
-  background-color: $brand-secondary;
+  background-color: colors.$brand-secondary;
 }
 
 .trainer-profile__text {
   @extend %body-font-regular;
 
-  margin-top: $spacer-sm;
+  margin-top: spacers.$spacer-sm;
   margin-bottom: 0;
-  font-size: $font-size-base;
-  line-height: $paragraph-line-height;
+  font-size: typography.$font-size-base;
+  line-height: typography.$paragraph-line-height;
 }

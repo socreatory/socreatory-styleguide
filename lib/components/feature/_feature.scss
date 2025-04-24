@@ -1,19 +1,23 @@
-// Feature Trainer:in
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .features {
-  @include for-breakpoint-phone-up {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  @include for-desktop-xl-up {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   display: grid;
   grid-template-columns: 1fr;
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
 
-  margin-bottom: $spacer-lg;
+  margin-bottom: spacers.$spacer-lg;
   padding-left: 0;
+
+  @include breakpoints.for-breakpoint-phone-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include breakpoints.for-desktop-xl-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .feature {
@@ -37,16 +41,16 @@
 }
 
 .feature__link {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
-  text-decoration-color: $brand-primary;
+  text-decoration-color: colors.$brand-primary;
 }
 
 .feature__link:hover {
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .feature__link::after {
@@ -71,26 +75,26 @@
 }
 
 .feature__title {
-  margin: $spacer-xs 0 0 0;
-  font-size: $font-size-xl;
-  line-height: $heading-line-height;
+  margin: spacers.$spacer-xs 0 0 0;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height;
 }
 
 .feature__text {
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }
 
 .feature__label {
   @extend %body-font-bold;
 
-  margin: $spacer-3xs 0 0;
-  font-size: $font-size-md;
+  margin: spacers.$spacer-3xs 0 0;
+  font-size: typography.$font-size-md;
 }
 
 .feature__training {
   @extend %body-font-regular;
 
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }
 
 .feature__location {
@@ -98,5 +102,5 @@
 
   margin: 0;
   padding: 0;
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }

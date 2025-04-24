@@ -109,7 +109,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-xl">
+    <section class="container container--md container-bottom-spacing-xl">
         <p>
             Für Dich ist ein Training eine wichtige Investition in Deine technologische Wettbewerbsfähigkeit. Wir investieren sehr viel Zeit und Leidenschaft in eine
             Softwarearchitektur-Ausbildung auf höchstem Niveau. Umso wichtiger ist ein Preismodell, dass für beide Seiten fair und nachvollziehbar ist und bestenfalls auch noch flexibel

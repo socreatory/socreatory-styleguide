@@ -1,4 +1,8 @@
-// Rating
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .stars {
   --percent: calc(var(--rating) / 5 * 100%);
 
@@ -8,12 +12,12 @@
   display: inline-block;
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: $font-size-xl;
-  line-height: $heading-line-height-sm;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height-sm;
 
   &::before {
     content: "★★★★★";
-    background: linear-gradient(90deg, $brand-secondary var(--percent), $brand-text var(--percent));
+    background: linear-gradient(90deg, colors.$brand-secondary var(--percent), colors.$brand-text var(--percent));
     background-clip: text;
 
     -webkit-text-fill-color: transparent;
@@ -24,6 +28,6 @@
   @extend %monospace-font-regular;
 
   display: inline-block;
-  margin-left: $spacer-sm;
-  font-size: $font-size-md;
+  margin-left: spacers.$spacer-sm;
+  font-size: typography.$font-size-md;
 }

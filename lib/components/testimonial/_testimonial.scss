@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .avatar {
   display: block;
   width: 8rem;
@@ -8,7 +13,7 @@
 .testimonial {
   display: flex;
   flex-direction: column;
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
   margin: 0;
 }
 
@@ -16,8 +21,8 @@
   @extend %body-font-italic;
 
   margin: 0;
-  font-size: $font-size-lg;
-  line-height: $paragraph-line-height;
+  font-size: typography.$font-size-lg;
+  line-height: typography.$paragraph-line-height;
   text-align: center;
 
   &:lang(de) {
@@ -50,7 +55,7 @@
   margin: 0;
 
   :nth-child(2) {
-    margin-top: $spacer-xs;
+    margin-top: spacers.$spacer-xs;
   }
 }
 
@@ -58,7 +63,7 @@
 .testimonial__author__role,
 .testimonial__author__company {
   display: block;
-  line-height: $paragraph-line-height-sm;
+  line-height: typography.$paragraph-line-height-sm;
 }
 
 .testimonial__author__name {

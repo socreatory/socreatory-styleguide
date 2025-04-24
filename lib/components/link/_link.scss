@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .link-unstyled,
 %link-unstyled {
   border-bottom: 0;
@@ -12,26 +17,26 @@
 
 p a,
 a:not([class]) {
-  color: $brand-text;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  color: colors.$brand-text;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 
   transition: all 0.1s ease-out;
 
   &:hover {
-    text-decoration-color: $brand-primary-light;
+    text-decoration-color: colors.$brand-primary-light;
   }
 }
 
 .heading__link {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 .heading__link:hover {
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }

@@ -1,7 +1,13 @@
+@use "../../../fundamentals/spacers";
+@use "../../../fundamentals/breakpoints";
+@use "../../../fundamentals/colors";
+@use "../../../fundamentals/typography";
+@use "../../../blueprints/container-layouts/container/container";
+
 .trainer-trainings-overview-page {
   @extend %container;
 
-  margin-bottom: $spacer-lg;
+  margin-bottom: spacers.$spacer-lg;
 
   .section__title--sub {
     margin-bottom: 0;
@@ -20,11 +26,11 @@ turbo-frame {
   list-style-type: none;
 
   > * + * {
-    @include for-tablet-portrait-up {
-      margin-top: $spacer-md;
-    }
+    margin-top: spacers.$spacer-sm;
 
-    margin-top: $spacer-sm;
+    @include breakpoints.for-tablet-portrait-up {
+      margin-top: spacers.$spacer-md;
+    }
   }
 }
 
@@ -33,7 +39,7 @@ turbo-frame {
 
   display: block;
   grid-area: label;
-  color: $brand-text;
+  color: colors.$brand-text;
   text-transform: uppercase;
 }
 
@@ -42,8 +48,8 @@ turbo-frame {
 
   display: block;
   grid-area: value;
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height-sm;
+  font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height-sm;
 }
 
 .tuple-list__entry {
@@ -51,7 +57,7 @@ turbo-frame {
   grid-template-areas: "label value edit";
   grid-template-columns: 16% auto auto;
   grid-template-rows: auto;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
   align-items: baseline;
 
   .form--spacing-sm {
@@ -69,10 +75,10 @@ turbo-frame {
 .resource-list {
   margin-bottom: 0;
   padding-left: 1rem;
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 
   > * + * {
-    margin-top: $spacer-xs;
+    margin-top: spacers.$spacer-xs;
   }
 
   li {
@@ -80,7 +86,7 @@ turbo-frame {
 
     &::marker {
       content: "—";
-      color: $brand-secondary;
+      color: colors.$brand-secondary;
     }
   }
 }
@@ -88,21 +94,17 @@ turbo-frame {
 .resource-list__item {
   display: flex;
   flex-direction: row;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
   align-items: baseline;
   justify-content: space-between;
 }
 
 .training-checklist {
-  @include for-tablet-portrait-up {
-    grid-row-gap: $spacer-lg;
-  }
-
   counter-reset: counter;
 
   display: grid;
-  grid-column-gap: $spacer-md;
-  grid-row-gap: $spacer-md;
+  grid-column-gap: spacers.$spacer-md;
+  grid-row-gap: spacers.$spacer-md;
   grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
 
   width: 100%;
@@ -110,21 +112,25 @@ turbo-frame {
   padding: 0;
 
   list-style: none;
+
+  @include breakpoints.for-tablet-portrait-up {
+    grid-row-gap: spacers.$spacer-lg;
+  }
 }
 
 .training-checklist__frame {
   width: 100%;
 
   > * + * {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
   }
 }
 
 .training-checklist__item {
   counter-increment: counter;
   display: flex;
-  padding: $spacer-xs;
-  border: 2px solid $brand-sand;
+  padding: spacers.$spacer-xs;
+  border: 2px solid colors.$brand-sand;
 
   &::before {
     content: counter(counter);
@@ -133,70 +139,70 @@ turbo-frame {
     align-items: center;
     justify-content: center;
 
-    width: $spacer-base;
-    height: $spacer-base;
-    margin-right: $spacer-sm;
+    width: spacers.$spacer-base;
+    height: spacers.$spacer-base;
+    margin-right: spacers.$spacer-sm;
     padding: 1.25rem;
     border-radius: 50%;
 
-    font-size: $font-size-base;
+    font-size: typography.$font-size-base;
     line-height: 1;
-    color: $brand-white;
+    color: colors.$brand-white;
 
-    background-color: $brand-text;
+    background-color: colors.$brand-text;
   }
 }
 
 .training-checklist__item__wrapper {
   display: flex;
   flex-direction: column;
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
   justify-content: space-between;
 
-  margin-top: $spacer-2xs;
+  margin-top: spacers.$spacer-2xs;
 }
 
 .training-checklist__item__title {
   @extend %heading-font-regular;
 
   margin-bottom: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .training-checklist__item__body {
   p {
-    margin-top: $spacer-2xs;
+    margin-top: spacers.$spacer-2xs;
     margin-bottom: 0;
-    font-size: $font-size-md;
+    font-size: typography.$font-size-md;
   }
 
   a {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
 
-    color: $brand-text;
-    text-decoration-color: $brand-primary;
-    text-decoration-thickness: $spacer-3xs;
-    text-underline-offset: $spacer-3xs;
+    color: colors.$brand-text;
+    text-decoration-color: colors.$brand-primary;
+    text-decoration-thickness: spacers.$spacer-3xs;
+    text-underline-offset: spacers.$spacer-3xs;
 
     transition: all 0.1s ease-out;
 
     &:hover {
-      text-decoration-color: $brand-primary-light;
+      text-decoration-color: colors.$brand-primary-light;
     }
   }
 
   ul {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
     margin-bottom: 0;
     padding-left: 1rem;
-    font-size: $font-size-md;
+    font-size: typography.$font-size-md;
 
     li {
       padding-left: 1rem;
 
       &::marker {
         content: "—";
-        color: $brand-secondary;
+        color: colors.$brand-secondary;
       }
     }
   }

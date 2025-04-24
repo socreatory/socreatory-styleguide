@@ -109,7 +109,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-xl">
+    <section class="container container--md container-bottom-spacing-xl">
         <ul class="event-stripe__list">
             <li class="event-stripe event-stripe--isaqb">
                 <h3 class="event-stripe__title"><a href="#">Ein tolles Training</a></h3>

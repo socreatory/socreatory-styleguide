@@ -12,8 +12,8 @@ Adapted from: [freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-8
     $breakpoint-phone: 35rem; /* 560px */
     $tablet-portrait: 40rem;
     $tablet-landscape: 60rem;
-    $desktop: 75rem;
-    $desktop-xl: 90rem;
+    breakpoints.$desktop: 75rem;
+    breakpoints.$desktop-xl: 90rem;
 
 ## Mixins
 
@@ -21,28 +21,28 @@ There are three Mixins provided. We follow the mobile first principle and start 
 
 ### Phone and greater
 
-    @include breakpoints.for-breakpoint-phone-up {
+    @include breakpoints.breakpoints.for-breakpoint-phone-up {
       // Add selectors here
 
 }
 
 ### Tablet portrait and greater
 
-    @include breakpoints.for-tablet-portrait-up {
+    @include breakpoints.breakpoints.for-tablet-portrait-up {
       // Add selectors here
 
 }
 
 ### Tablet landscape and greater
 
-    @include breakpoints.for-tablet-landscape-up {
+    @include breakpoints.breakpoints.for-tablet-landscape-up {
       // Add selectors here
 
 }
 
 ### Desktop size and greater
 
-    @include breakpoints.for-desktop-up {
+    @include breakpoints.breakpoints.for-desktop-up {
       // Add selectors here
 
 }

@@ -108,7 +108,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-xl">
+    <section class="container container--md container-bottom-spacing-xl">
         <h2 class="paragraph__h2">EU-DSGVO konforme Datenschutzerklärung</h2>
         <h2 class="paragraph__h2">Datenschutzerklärung, BLINDTEXT</h2>
         <p>(Stand: 29. Dezember 2020)</p>

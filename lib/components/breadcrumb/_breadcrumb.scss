@@ -1,41 +1,43 @@
-// Breadcrumb
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../lists/lists";
 
-/* Style the list */
 .breadcrumb {
-  @include for-tablet-portrait-up {
+  display: none;
+
+  @include breakpoints.for-tablet-portrait-up {
     display: block;
   }
-
-  display: none;
 }
 
 .breadcrumb__list {
   @extend %list-unstyled;
 }
 
-/* Display list items side by side */
 .breadcrumb__item {
   @extend %monospace-font-regular;
 
   display: inline;
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
 }
 
 .breadcrumb__arrow {
-  padding: 0 $spacer-xs 0 $spacer-2xs;
-  color: $brand-text;
+  padding: 0 spacers.$spacer-xs 0 spacers.$spacer-2xs;
+  color: colors.$brand-text;
 }
 
 /* Add a color to all links inside the list */
 .breadcrumb__item a {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 /* Add a color on mouse-over */
 .breadcrumb__item a:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-2xs;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-2xs;
 }

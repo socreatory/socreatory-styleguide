@@ -1,18 +1,23 @@
-// TODO: Refactor
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../../blueprints/container-layouts/container/container";
+
 .header {
-  background-color: $brand-white;
+  background-color: colors.$brand-white;
 }
 
 .header-color--highlighted-1 {
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 }
 
 .header-color--highlighted-2 {
-  background-color: $brand-secondary-light;
+  background-color: colors.$brand-secondary-light;
 }
 
 .header-color--highlighted-3 {
-  background-color: $brand-tertiary-light;
+  background-color: colors.$brand-tertiary-light;
 }
 
 .header__wrapper {
@@ -27,21 +32,21 @@
 }
 
 .header__heading {
-  @include for-tablet-portrait-up {
-    margin-top: $spacer-xl;
-  }
+  font-size: typography.$font-size-xxl;
+  line-height: typography.$heading-line-height;
 
-  font-size: $font-size-xxl;
-  line-height: $heading-line-height;
+  @include breakpoints.for-tablet-portrait-up {
+    margin-top: spacers.$spacer-xl;
+  }
 }
 
 .header__heading--medium {
-  @include for-tablet-portrait-up {
-    margin-top: $spacer-lg;
-  }
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height;
 
-  font-size: $font-size-xl;
-  line-height: $heading-line-height;
+  @include breakpoints.for-tablet-portrait-up {
+    margin-top: spacers.$spacer-lg;
+  }
 }
 
 .header__heading--centered {
@@ -65,34 +70,34 @@
 .header__date {
   @extend %heading-font-bold;
 
-  font-size: $font-size-xl;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height;
 }
 
 .header__image {
-  @include for-tablet-portrait-up {
-    max-width: 30%;
-  }
-
   display: block;
   align-self: center;
   max-width: 50%;
+
+  @include breakpoints.for-tablet-portrait-up {
+    max-width: 30%;
+  }
 }
 
 .header__logogrid {
-  @include for-tablet-landscape-up {
+  display: flex;
+  flex-direction: column;
+  gap: spacers.$spacer-md;
+
+  width: 100%;
+  margin-top: spacers.$spacer-xl;
+
+  @include breakpoints.for-tablet-landscape-up {
     flex-direction: row;
-    gap: $spacer-base;
+    gap: spacers.$spacer-base;
     align-items: baseline;
     justify-content: space-between;
   }
-
-  display: flex;
-  flex-direction: column;
-  gap: $spacer-md;
-
-  width: 100%;
-  margin-top: $spacer-xl;
 }
 
 .logogrid__left {
@@ -105,5 +110,5 @@
 
 .header__logo {
   height: 1.5rem;
-  margin-right: $spacer-base * 0.7;
+  margin-right: spacers.$spacer-base * 0.7;
 }

@@ -1,17 +1,21 @@
-// Form
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
   > * + * {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
   }
 }
 
 .form--spacing-sm {
   > * + * {
-    margin-top: $spacer-xs;
+    margin-top: spacers.$spacer-xs;
   }
 
   > * {
@@ -24,7 +28,7 @@
   width: 100%;
 
   > * + * {
-    margin-top: $spacer-2xs;
+    margin-top: spacers.$spacer-2xs;
   }
 }
 
@@ -37,7 +41,7 @@
 .form__field--horizontal {
   display: flex;
   flex-direction: row;
-  gap: $spacer-2xs;
+  gap: spacers.$spacer-2xs;
   align-items: center;
 
   input[type="checkbox"] {
@@ -48,7 +52,7 @@
 }
 
 .form__field--is-invalid {
-  color: $brand-error;
+  color: colors.$brand-error;
 }
 
 .field__size--full {
@@ -56,11 +60,11 @@
 }
 
 .field__size--half {
-  @include for-tablet-portrait-up {
+  width: 100%;
+
+  @include breakpoints.for-tablet-portrait-up {
     width: 47%;
   }
-
-  width: 100%;
 }
 
 .form__field--invisible {
@@ -79,24 +83,24 @@ label {
   @extend %body-font-regular;
 
   width: 100%;
-  padding: $spacer-xs;
+  padding: spacers.$spacer-xs;
   border: 0;
-  border-bottom: solid 0.2rem $brand-text;
+  border-bottom: solid 0.2rem colors.$brand-text;
 
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 
-  background-color: $brand-background-dark;
+  background-color: colors.$brand-background-dark;
 
   transition: all 0.15s ease-out;
 }
 
 .form__input--small {
-  padding: $spacer-3xs;
-  font-size: $font-size-md;
+  padding: spacers.$spacer-3xs;
+  font-size: typography.$font-size-md;
 }
 
 .form__input:focus {
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
   outline: none;
 }
 
@@ -115,9 +119,9 @@ input[type="radio"] {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
 
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 
   form {
     display: flex;
@@ -128,9 +132,9 @@ input[type="radio"] {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
 }
 
 select {
-  background-color: $brand-background-dark;
+  background-color: colors.$brand-background-dark;
 }

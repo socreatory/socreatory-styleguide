@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 sup,
 sub {
   position: relative;
@@ -10,14 +15,14 @@ sub {
 }
 
 p {
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
   hyphens: auto;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
 .paragraph--medium {
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }
 
 .marker-highlight {
@@ -35,14 +40,14 @@ p {
     width: 100%;
     height: 27%;
 
-    background-color: $brand-secondary;
+    background-color: colors.$brand-secondary;
   }
 }
 
 .text-xxl {
   @extend %body-font-bold;
 
-  font-size: $font-size-xxxl;
+  font-size: typography.$font-size-xxxl;
   line-height: 1;
 }
 
@@ -56,7 +61,7 @@ p {
   &::before {
     content: asset-url("icons/info.svg");
     display: inline-block;
-    padding-right: $spacer-2xs;
+    padding-right: spacers.$spacer-2xs;
     vertical-align: middle;
   }
 }
@@ -64,51 +69,51 @@ p {
 .markdown-text--medium {
   > * {
     margin-bottom: 0;
-    font-size: $font-size-md;
+    font-size: typography.$font-size-md;
   }
 
   > * + * {
-    margin-top: $spacer-xs;
+    margin-top: spacers.$spacer-xs;
   }
 }
 
 // Komponente zweispaltig Text&Text
 .text-text {
-  @include for-tablet-landscape-up {
-    grid-gap: $spacer-md;
-    grid-template-columns: 1fr 2fr;
-  }
-
   display: grid;
   grid-gap: 0;
   grid-template-columns: 1fr;
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
+
+  @include breakpoints.for-tablet-landscape-up {
+    grid-gap: spacers.$spacer-md;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .text-text__headline {
-  @include for-tablet-landscape-up {
+  margin-top: 0.15rem;
+  padding-top: spacers.$spacer-base;
+  font-size: typography.$font-size-lg;
+
+  @include breakpoints.for-tablet-landscape-up {
     padding-top: 0;
   }
-
-  margin-top: 0.15rem;
-  padding-top: $spacer-base;
-  font-size: $font-size-lg;
 }
 
 // Komponente Schlagworttabelle (Ihr Nutzen)
 .texttable {
-  @include for-tablet-portrait-up {
-    grid-template-columns: 1fr 1fr;
-  }
-
   display: grid;
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
 
   p {
     @extend %body-font-bold;
 
     margin-bottom: 0;
-    font-size: $font-size-lg;
+    font-size: typography.$font-size-lg;
+  }
+
+  @include breakpoints.for-tablet-portrait-up {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -116,25 +121,25 @@ p {
   @extend %body-font-bold;
 
   margin-bottom: 0;
-  font-size: $font-size-lg;
+  font-size: typography.$font-size-lg;
 }
 
 // Komponente 4-Bereiche
 .textcolumns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
-  gap: $spacer-base;
+  gap: spacers.$spacer-base;
 }
 
 .textcolumn__heading {
   @extend %body-font-bold;
 
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .textcolumn__text {
   margin-bottom: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .textcolumn__img {

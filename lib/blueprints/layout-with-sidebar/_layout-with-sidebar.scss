@@ -1,25 +1,28 @@
-// Grid
-.layout-main-with-sidebar {
-  @include for-tablet-landscape-up {
-    grid-template-areas: "main sidebar";
-    grid-template-columns: 2fr 1fr;
-    gap: 6.25rem;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
 
+.layout-main-with-sidebar {
   display: grid;
   grid-template-areas:
     "main"
     "sidebar";
   grid-template-columns: 1fr;
   gap: 0;
+
+  @include breakpoints.for-tablet-landscape-up {
+    grid-template-areas: "main sidebar";
+    grid-template-columns: 2fr 1fr;
+    gap: 6.25rem;
+  }
 }
 
 .layout-main-with-sidebar__main {
   overflow: auto;
   grid-area: main;
+  margin-bottom: spacers.$spacer-xl;
 
   > * + * {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 
   > * {
@@ -30,4 +33,12 @@
 .layout-main-with-sidebar__sidebar {
   overflow: hidden;
   grid-area: sidebar;
+
+  > * + * {
+    margin-top: spacers.$spacer-md;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
 }

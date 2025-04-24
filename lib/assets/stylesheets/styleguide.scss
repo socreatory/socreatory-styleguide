@@ -1,5 +1,5 @@
-@import "../../fundamentals/colors";
-@import "../../fundamentals/spacers";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/spacers";
 
 @mixin color-definition($color-name, $hex) {
   &.#{$color-name} {
@@ -11,7 +11,7 @@
       display: block;
       grid-area: name;
 
-      padding: $spacer-3xs;
+      padding: spacers.$spacer-3xs;
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
@@ -24,8 +24,8 @@
       display: block;
       grid-area: hex;
 
-      padding: 0 $spacer-3xs $spacer-3xs;
-      border-radius: 0 0 $spacer-3xs $spacer-3xs;
+      padding: 0 spacers.$spacer-3xs spacers.$spacer-3xs;
+      border-radius: 0 0 spacers.$spacer-3xs spacers.$spacer-3xs;
 
       text-align: center;
       /* stylelint-disable-next-line color-no-hex */
@@ -41,44 +41,44 @@ my-color {
 
   min-width: 8rem;
   margin: 0.125rem;
-  border-radius: $spacer-3xs $spacer-3xs 0.5rem 0.5rem;
+  border-radius: spacers.$spacer-3xs spacers.$spacer-3xs 0.5rem 0.5rem;
 
-  @each $blue, $hex in $brand-blues {
+  @each $blue, $hex in colors.$brand-blues {
     @include color-definition($blue, $hex);
   }
 
-  @each $red, $hex in $brand-reds {
+  @each $red, $hex in colors.$brand-reds {
     @include color-definition($red, $hex);
   }
 
-  @each $green, $hex in $brand-greens {
+  @each $green, $hex in colors.$brand-greens {
     @include color-definition($green, $hex);
   }
 
-  @each $yellow, $hex in $brand-yellows {
+  @each $yellow, $hex in colors.$brand-yellows {
     @include color-definition($yellow, $hex);
   }
 
-  @each $gray, $hex in $brand-grays {
+  @each $gray, $hex in colors.$brand-grays {
     @include color-definition($gray, $hex);
   }
 
-  @each $gray, $hex in $brand-blacks {
+  @each $gray, $hex in colors.$brand-blacks {
     @include color-definition($gray, $hex);
   }
 
-  @each $gray, $hex in $brand-whites {
+  @each $gray, $hex in colors.$brand-whites {
     @include color-definition($gray, $hex);
   }
 
-  @each $gray, $hex in $brand-sands {
+  @each $gray, $hex in colors.$brand-sands {
     @include color-definition($gray, $hex);
   }
 }
 
 .brand-cmyk {
   grid-area: cmyk;
-  padding: 0 $spacer-3xs $spacer-3xs;
+  padding: 0 spacers.$spacer-3xs spacers.$spacer-3xs;
   text-align: center;
   /* stylelint-disable-next-line color-no-hex */
   background-color: #f2f2f2;
@@ -92,23 +92,23 @@ my-color {
 // Code for swatching spacer variables
 dl.spacers {
   dt {
-    margin-top: $spacer-md;
+    margin-top: spacers.$spacer-md;
   }
 
   dd {
     width: 100%;
     margin: 0;
-    background-color: $brand-primary;
+    background-color: colors.$brand-primary;
   }
 }
 
 :root {
-  --spacer-xxs: #{$spacer-2xs};
-  --spacer-xs: #{$spacer-xs};
-  --spacer-sm: #{$spacer-sm};
-  --spacer-md: #{$spacer-md};
-  --spacer-base: #{$spacer-base};
-  --spacer-lg: #{$spacer-lg};
-  --spacer-xl: #{$spacer-xl};
-  --spacer-xxl: #{$spacer-2xl};
+  --spacer-xxs: #{spacers.$spacer-2xs};
+  --spacer-xs: #{spacers.$spacer-xs};
+  --spacer-sm: #{spacers.$spacer-sm};
+  --spacer-md: #{spacers.$spacer-md};
+  --spacer-base: #{spacers.$spacer-base};
+  --spacer-lg: #{spacers.$spacer-lg};
+  --spacer-xl: #{spacers.$spacer-xl};
+  --spacer-xxl: #{spacers.$spacer-2xl};
 }

@@ -1,18 +1,22 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .announcement {
   width: 100%;
-  padding: $spacer-sm;
+  padding: spacers.$spacer-sm;
 
-  color: $brand-background;
+  color: colors.$brand-background;
   text-align: center;
 
-  background-color: $brand-text;
+  background-color: colors.$brand-text;
 
   &__text {
     margin: 0;
-    font-size: $font-size-sm;
+    font-size: typography.$font-size-sm;
   }
 
   &__link {
-    color: $brand-background;
+    color: colors.$brand-background;
   }
 }

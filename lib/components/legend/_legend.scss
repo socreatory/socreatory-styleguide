@@ -1,13 +1,18 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .legend__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: $spacer-sm;
-  column-gap: $spacer-lg;
+  row-gap: spacers.$spacer-sm;
+  column-gap: spacers.$spacer-lg;
   align-self: flex-end;
 
   padding: 0;
-  padding-left: $spacer-md;
+  padding-left: spacers.$spacer-md;
 
   list-style: none;
 }
@@ -19,7 +24,7 @@
 
   display: block;
 
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -31,20 +36,20 @@
 
   position: absolute;
 
-  width: $spacer-sm;
-  height: $spacer-sm;
-  margin-left: -$spacer-md;
+  width: spacers.$spacer-sm;
+  height: spacers.$spacer-sm;
+  margin-left: -(spacers.$spacer-md);
   border-radius: 1rem;
 }
 
 .legend__item--isaqb::before {
-  background: $brand-primary;
+  background: colors.$brand-primary;
 }
 
 .legend__item--power::before {
-  background: $brand-tertiary;
+  background: colors.$brand-tertiary;
 }
 
 .legend__item--socreatory::before {
-  background: $brand-secondary;
+  background: colors.$brand-secondary;
 }

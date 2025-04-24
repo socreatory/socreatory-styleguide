@@ -1,27 +1,33 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../../blueprints/container-layouts/container/container";
+
 .filter-dropdown {
   @extend %container--md;
-
-  @include for-tablet-landscape-up {
-    flex-direction: row;
-    gap: $spacer-sm;
-    align-items: center;
-  }
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
   justify-content: baseline;
 
   margin: 0 auto;
+
+  @include breakpoints.for-tablet-landscape-up {
+    flex-direction: row;
+    gap: spacers.$spacer-sm;
+    align-items: center;
+  }
 }
 
 .filter-dropdown-label {
   @extend %heading-font-bold;
 
   display: flex;
-  font-size: $font-size-base;
-  color: $brand-text;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-text;
 }
 
 .filter-dropdown-select {
@@ -32,15 +38,15 @@
   display: inline-block;
   flex-grow: 1;
 
-  padding: $spacer-2xs;
+  padding: spacers.$spacer-2xs;
   border: none;
 
-  font-size: $font-size-base;
-  color: $brand-text;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-text;
   text-align: center;
 
   appearance: none;
-  background-color: $brand-white-1;
+  background-color: colors.$brand-white-1;
   background-image: asset-url("icons/chevron-down.svg");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -62,7 +68,7 @@ auto-submit-form.enhanced {
 .filter-dropdown-group {
   display: flex;
   flex-wrap: wrap;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
   justify-content: center;
 }
 

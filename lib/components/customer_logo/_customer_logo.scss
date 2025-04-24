@@ -1,21 +1,26 @@
-.custommer-logo-grid {
-  @include for-tablet-portrait-up {
-    row-gap: $spacer-xl;
-    column-gap: $spacer-2xl;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
 
+.custommer-logo-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: $spacer-lg;
+  gap: spacers.$spacer-lg;
   align-items: center;
   justify-content: space-evenly;
 
   width: 100%;
+
+  @include breakpoints.for-tablet-portrait-up {
+    row-gap: spacers.$spacer-xl;
+    column-gap: spacers.$spacer-2xl;
+  }
 }
 
 .container .custommer-logo-grid {
-  @include for-tablet-landscape-up {
-    margin-top: $spacer-xl;
+  @include breakpoints.for-tablet-landscape-up {
+    margin-top: spacers.$spacer-xl;
   }
 }
 
@@ -25,21 +30,21 @@
 
 .customer-logo--provinzial,
 .customer-logo--businessdecision {
-  @include for-tablet-landscape-up {
+  width: 12rem;
+
+  @include breakpoints.for-tablet-landscape-up {
     width: 14rem;
   }
-
-  width: 12rem;
 }
 
 .customer-logo--idealo,
 .customer-logo--ituc,
 .customer-logo--iteratec {
-  @include for-tablet-landscape-up {
+  width: 7rem;
+
+  @include breakpoints.for-tablet-landscape-up {
     width: 8rem;
   }
-
-  width: 7rem;
 }
 
 .customer-logo--ituc {
@@ -47,11 +52,11 @@
 }
 
 .customer-logo--enbw {
-  @include for-tablet-landscape-up {
+  width: 8rem;
+
+  @include breakpoints.for-tablet-landscape-up {
     width: 9rem;
   }
-
-  width: 8rem;
 }
 
 .customer-logo--tracetronic {

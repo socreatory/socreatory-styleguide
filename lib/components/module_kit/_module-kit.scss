@@ -1,24 +1,29 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .modulekitsticky {
   position: sticky;
   z-index: 2;
   top: 0;
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 }
 
 .modulekitheader {
-  @include for-tablet-landscape-up {
-    flex-direction: row;
-    gap: $spacer-lg;
-    justify-content: space-between;
-
-    max-width: $tablet-landscape;
-    margin-top: $spacer-sm;
-  }
-
   display: flex;
   flex-direction: column;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
   align-items: center;
+
+  @include breakpoints.for-tablet-landscape-up {
+    flex-direction: row;
+    gap: spacers.$spacer-lg;
+    justify-content: space-between;
+
+    max-width: breakpoints.$tablet-landscape;
+    margin-top: spacers.$spacer-sm;
+  }
 }
 
 .modulekitheader__center {
@@ -35,46 +40,46 @@
   margin: 0;
   padding: 0;
 
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
   text-align: center;
 }
 
 .modulekitgrid {
-  @include for-tablet-portrait-up {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @include for-desktop-up {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr;
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
 
   width: 100%;
   padding-left: 0;
+
+  @include breakpoints.for-tablet-portrait-up {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include breakpoints.for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .modulekitcard {
   position: relative;
 
   min-height: 11rem;
-  padding: $spacer-sm;
+  padding: spacers.$spacer-sm;
 
   list-style: none;
 
-  background-color: $brand-background-dark;
+  background-color: colors.$brand-background-dark;
 
   transition: all 250ms ease;
 }
 
 .modulekitcard:hover {
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 
   .pill__number--zero {
-    background-color: $brand-primary;
+    background-color: colors.$brand-primary;
   }
 
   .modulekitcard__overlay,
@@ -85,20 +90,20 @@
   }
 
   .modulekitcard__zuwenigpunkte {
-    background-color: $brand-primary;
+    background-color: colors.$brand-primary;
   }
 }
 
 .modulekitcard--active {
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 
   .pill__number--zero {
-    background-color: $brand-primary;
+    background-color: colors.$brand-primary;
   }
 }
 
 .modulekitcard--disabled {
-  background-color: rgba($brand-background-dark, 0.4);
+  background-color: rgba(colors.$brand-background-dark, 0.4);
 
   .modulekitcard__title,
   .modulekitcard__subtitle,
@@ -136,33 +141,33 @@
 
 .modulekitcard__body__footer {
   .pills {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
   }
 }
 
 .modulekitcard__title {
-  font-size: $font-size-lg;
-  color: $brand-text;
+  font-size: typography.$font-size-lg;
+  color: colors.$brand-text;
   text-transform: uppercase;
 }
 
 .modulekitcard__subtitle {
   @extend %body-font-regular;
 
-  margin-top: $spacer-2xs;
+  margin-top: spacers.$spacer-2xs;
   margin-bottom: 0;
 
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height-sm;
-  color: $brand-text;
+  font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height-sm;
+  color: colors.$brand-text;
   text-align: left;
 }
 
 .modulekitcard__overlay {
   position: absolute;
   z-index: 1;
-  top: $spacer-xs * 1.2;
-  right: $spacer-xs * 1.2;
+  top: spacers.$spacer-xs * 1.2;
+  right: spacers.$spacer-xs * 1.2;
 
   opacity: 0;
 
@@ -188,27 +193,27 @@
 
   position: absolute;
   z-index: 1;
-  right: $spacer-sm;
-  bottom: $spacer-sm;
+  right: spacers.$spacer-sm;
+  bottom: spacers.$spacer-sm;
 
   display: inline-block;
 
   margin-bottom: 0;
   padding: 0.2rem 0.6rem;
-  border-radius: $spacer-sm;
+  border-radius: spacers.$spacer-sm;
 
-  font-size: $font-size-sm;
-  color: $brand-text;
+  font-size: typography.$font-size-sm;
+  color: colors.$brand-text;
   text-align: center;
   letter-spacing: -0.1;
 
-  background-color: $brand-sand;
+  background-color: colors.$brand-sand;
 
   transition: all 250ms ease;
 }
 
 .modulekitkombis__heading {
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
   text-align: center;
 }
 
@@ -216,7 +221,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
   justify-content: center;
 
   padding: 0;
@@ -231,12 +236,12 @@
 
   display: block;
 
-  padding: $spacer-3xs $spacer-xs;
-  border: 1px solid $brand-sand;
+  padding: spacers.$spacer-3xs spacers.$spacer-xs;
+  border: 1px solid colors.$brand-sand;
   border-radius: 2rem;
 
-  font-size: $font-size-md;
-  color: $brand-text;
+  font-size: typography.$font-size-md;
+  color: colors.$brand-text;
   text-align: center;
   text-decoration: none;
   list-style-type: none;
@@ -245,6 +250,6 @@
 }
 
 .modulekitkombis__pill:hover {
-  border: 1px solid $brand-primary-light;
-  background-color: $brand-primary-light;
+  border: 1px solid colors.$brand-primary-light;
+  background-color: colors.$brand-primary-light;
 }

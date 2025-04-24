@@ -1,6 +1,11 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .status {
   display: inline-block;
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
   line-height: 1;
   white-space: nowrap;
 
@@ -11,27 +16,27 @@
 
     width: 11px;
     height: 11px;
-    margin-right: $spacer-3xs;
+    margin-right: spacers.$spacer-3xs;
     border-radius: 50%;
 
-    background-color: $brand-green;
+    background-color: colors.$brand-green;
   }
 }
 
 .status--green {
   &::before {
-    background-color: $brand-green;
+    background-color: colors.$brand-green;
   }
 }
 
 .status--red {
   &::before {
-    background-color: $brand-red;
+    background-color: colors.$brand-red;
   }
 }
 
 .status--yellow {
   &::before {
-    background-color: $brand-yellow;
+    background-color: colors.$brand-yellow;
   }
 }

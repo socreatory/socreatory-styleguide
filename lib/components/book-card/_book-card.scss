@@ -1,3 +1,7 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .book-card__list {
   width: 100%;
   padding-left: 0;
@@ -11,12 +15,12 @@
     "title"
     "text";
   grid-template-columns: 1fr;
-  grid-template-rows: calc(15rem + $spacer-base) auto auto;
+  grid-template-rows: calc(15rem + spacers.$spacer-base) auto auto;
   align-content: start;
 
-  padding: $spacer-base $spacer-sm;
+  padding: spacers.$spacer-base spacers.$spacer-sm;
 
-  background-color: $brand-white-1;
+  background-color: colors.$brand-white-1;
 }
 
 .book-card__img {
@@ -26,27 +30,27 @@
 
   width: auto;
   max-height: 15rem;
-  margin-bottom: $spacer-base;
+  margin-bottom: spacers.$spacer-base;
 }
 
 .book-card__title {
   @extend %heading-font-bold;
 
   grid-area: title;
-  font-size: $font-size-base;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-base;
+  line-height: typography.$heading-line-height;
 }
 
 .book-card__text {
   @extend %body-font-regular;
 
   grid-area: text;
-  margin-top: $spacer-xs;
+  margin-top: spacers.$spacer-xs;
   margin-bottom: 0;
 
   p {
-    font-size: $font-size-md;
-    line-height: $paragraph-line-height;
+    font-size: typography.$font-size-md;
+    line-height: typography.$paragraph-line-height;
 
     a {
       display: inline-block;

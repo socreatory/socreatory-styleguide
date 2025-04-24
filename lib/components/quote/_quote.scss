@@ -1,32 +1,37 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .quote--center {
-  @include for-tablet-landscape-up {
+  max-width: 100%;
+  padding: 0 spacers.$spacer-md;
+
+  @include breakpoints.for-tablet-landscape-up {
     max-width: 70%;
     margin: auto;
   }
-
-  max-width: 100%;
-  padding: 0 $spacer-md;
 }
 
 .quote__blockquote {
   @extend %body-font-bold;
 
-  margin: 0 0 $spacer-base;
-  font-size: $font-size-xl;
-  line-height: $paragraph-line-height;
+  margin: 0 0 spacers.$spacer-base;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$paragraph-line-height;
   hyphens: auto;
 }
 
 .quote__name {
   @extend %body-font-bold;
 
-  margin-bottom: $spacer-xs;
-  font-size: $font-size-base;
+  margin-bottom: spacers.$spacer-xs;
+  font-size: typography.$font-size-base;
 }
 
 .quote__role {
   @extend %monospace-font-regular;
 
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height;
+  font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height;
 }

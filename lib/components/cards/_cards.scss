@@ -1,27 +1,32 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .cards {
-  @include for-tablet-landscape-up {
-    grid-template-columns: 1fr 1fr;
-    gap: $spacer-md;
-  }
-
-  @include for-desktop-xl-up {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: 1fr;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
   align-content: stretch;
 
   width: 100%;
   padding-left: 0;
 
   list-style-type: none;
+
+  @include breakpoints.for-tablet-landscape-up {
+    grid-template-columns: 1fr 1fr;
+    gap: spacers.$spacer-md;
+  }
+
+  @include breakpoints.for-desktop-xl-up {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .cards--centered {
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
@@ -29,17 +34,17 @@
 
 .card {
   position: relative;
-  border-left: 10px solid $brand-secondary;
-  background-color: $brand-white-1;
+  border-left: 10px solid colors.$brand-secondary;
+  background-color: colors.$brand-white-1;
   transition: all 250ms ease;
 }
 
 .card--isaqb {
-  border-left: 10px solid $brand-primary;
+  border-left: 10px solid colors.$brand-primary;
 }
 
 .card--power {
-  border-left: 10px solid $brand-tertiary;
+  border-left: 10px solid colors.$brand-tertiary;
 }
 
 .card__body {
@@ -49,7 +54,7 @@
 
   height: auto;
   min-height: 14rem;
-  padding: $spacer-xs;
+  padding: spacers.$spacer-xs;
 }
 
 .card__body__bottom {
@@ -60,21 +65,21 @@
 }
 
 .card__title {
-  margin-bottom: $spacer-sm;
-  font-size: $font-size-lg;
-  line-height: $heading-line-height-sm;
+  margin-bottom: spacers.$spacer-sm;
+  font-size: typography.$font-size-lg;
+  line-height: typography.$heading-line-height-sm;
   hyphens: auto;
 }
 
 .card__link {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 }
 
 .card__link:hover {
   text-decoration: underline;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .card__link::after {
@@ -88,29 +93,29 @@
 }
 
 .card__text {
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height-sm;
+  font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height-sm;
 }
 
 .card__label {
   margin-bottom: 0;
-  font-size: $font-size-md;
-  line-height: $heading-line-height-sm;
+  font-size: typography.$font-size-md;
+  line-height: typography.$heading-line-height-sm;
 }
 
 .card__price {
   @extend %body-font-bold;
 
   margin-bottom: 0;
-  font-size: $font-size-base;
-  line-height: $heading-line-height-sm;
+  font-size: typography.$font-size-base;
+  line-height: typography.$heading-line-height-sm;
 }
 
 .card__details {
-  margin-top: $spacer-sm;
+  margin-top: spacers.$spacer-sm;
 
   > * + * {
-    margin-top: $spacer-xs;
+    margin-top: spacers.$spacer-xs;
   }
 }
 
@@ -118,7 +123,7 @@
   @extend %heading-font-bold;
 
   margin-bottom: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .card__details__link {
@@ -126,39 +131,39 @@
 
   display: block;
 
-  font-size: $font-size-base;
-  color: $brand-text;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-2xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-2xs;
 
   transition: all 0.1s ease-out;
 
   &:hover {
-    text-decoration-color: $brand-primary-light;
+    text-decoration-color: colors.$brand-primary-light;
   }
 }
 
 .card__details__caption {
   margin-bottom: 0;
-  font-size: $font-size-md;
+  font-size: typography.$font-size-md;
 }
 
 .card__appendix {
   display: flex;
   flex-direction: row;
-  gap: $spacer-xs;
+  gap: spacers.$spacer-xs;
   align-items: center;
 
-  margin-top: $spacer-3xs;
-  padding: $spacer-xs;
+  margin-top: spacers.$spacer-3xs;
+  padding: spacers.$spacer-xs;
 
-  background-color: $brand-primary-light;
+  background-color: colors.$brand-primary-light;
 }
 
 .card__appendix__text {
   margin-bottom: 0;
-  font-size: $font-size-sm;
-  line-height: $paragraph-line-height-sm;
+  font-size: typography.$font-size-sm;
+  line-height: typography.$paragraph-line-height-sm;
 }

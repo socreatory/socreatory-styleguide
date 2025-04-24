@@ -1,4 +1,8 @@
-// Fundamental styles go here
+@use "spacers";
+@use "breakpoints";
+@use "colors";
+@use "typography";
+
 * {
   margin-top: 0;
 
@@ -27,9 +31,9 @@ body {
   min-height: 100vh;
   margin: 0;
 
-  color: $brand-text;
+  color: colors.$brand-text;
 
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 }
 
 main {
@@ -42,6 +46,6 @@ video {
 }
 
 ::selection {
-  color: $brand-text;
-  background: $brand-secondary;
+  color: colors.$brand-text;
+  background: colors.$brand-secondary;
 }

@@ -1,8 +1,10 @@
-.eyecatcher {
-  @include for-desktop-up {
-    display: block;
-  }
+@use "../../fundamentals/breakpoints";
 
+.eyecatcher {
   display: none;
   width: 100%;
+
+  @include breakpoints.for-desktop-up {
+    display: block;
+  }
 }

@@ -1,8 +1,11 @@
+@use "../../../fundamentals/spacers";
+@use "../../../blueprints/container-layouts/container/container";
+
 .customer-profile-page {
   @extend %container;
   @extend %container--md;
 
   align-items: center;
   min-height: 70vh;
-  margin-bottom: $spacer-lg;
+  margin-bottom: spacers.$spacer-lg;
 }

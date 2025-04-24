@@ -108,7 +108,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-lg">
+    <section class="container container--md container-bottom-spacing-lg">
         <p>
             Du hast Fragen zu unseren Leistungen oder bist auf der Suche nach einer individuellen Unterstützung? Für Fragen oder Wünsche nutze den direkten Kontakt über unser Kontaktformular.
             Wir melden uns bei dir!

@@ -117,7 +117,7 @@ description: Training Cluster Page
 </header>
 
 <main>
-    <section class="container container--xl container-vertical-spacing-xl">
+    <section class="container container--xl container-bottom-spacing-xl">
         <h2 class="section__title--normal">Trainingsangebot</h2>
         <ul class="legend__list">
             <li class="filters__item filters__item--socreatory">Socreatory Training</li>

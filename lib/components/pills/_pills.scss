@@ -1,23 +1,28 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .pills {
   @extend %monospace-font-regular;
 
   display: flex;
   flex-wrap: nowrap;
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
   align-items: center;
 
-  font-size: $font-size-sm;
+  font-size: typography.$font-size-sm;
 }
 
 .pills--sm {
-  gap: $spacer-2xs;
-  font-size: $font-size-xs;
+  gap: spacers.$spacer-2xs;
+  font-size: typography.$font-size-xs;
 }
 
 .pill {
   display: flex;
   flex-wrap: nowrap;
-  gap: $spacer-3xs;
+  gap: spacers.$spacer-3xs;
   align-items: center;
 }
 
@@ -26,12 +31,12 @@
 
   min-width: 1.85rem;
   padding: 0.2rem 0;
-  border-radius: $spacer-sm;
+  border-radius: spacers.$spacer-sm;
 
   text-align: center;
   letter-spacing: 0.0875rem;
 
-  background-color: $brand-primary;
+  background-color: colors.$brand-primary;
 }
 
 .pill__number--big {
@@ -40,7 +45,7 @@
   justify-content: center;
 
   min-width: 5rem;
-  border-radius: $spacer-xl;
+  border-radius: spacers.$spacer-xl;
 
   font-size: 2rem;
 }
@@ -52,6 +57,6 @@
 }
 
 .pill__number--zero {
-  background-color: $brand-sand;
+  background-color: colors.$brand-sand;
   transition: all 250ms ease;
 }

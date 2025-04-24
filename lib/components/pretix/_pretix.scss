@@ -1,6 +1,11 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .pretix-widget-wrapper {
   width: 100%;
-  margin-bottom: $spacer-lg;
+  margin-bottom: spacers.$spacer-lg;
 }
 
 .pretix-widget {
@@ -12,7 +17,7 @@
 .pretix-widget-event-list-entry {
   display: inline-block;
   width: 100%;
-  margin-bottom: $spacer-sm;
+  margin-bottom: spacers.$spacer-sm;
   padding: 0;
 
   &:last-child {
@@ -30,13 +35,13 @@
   @extend %body-font-bold;
 
   padding: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 // Termin Datum
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
   padding: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
 }
 
 .pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
@@ -55,7 +60,7 @@
 
   text-align: left;
 
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 }
 
 // Link Jetzt buchen
@@ -67,36 +72,36 @@
 
   display: inline-block;
 
-  margin: 0 0 $spacer-sm;
+  margin: 0 0 spacers.$spacer-sm;
   padding: 0;
 
-  font-size: $font-size-base;
-  color: $brand-text;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
   letter-spacing: 0;
 
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 
   transition: all 0.1s ease-out;
 }
 
 /* stylelint-disable-next-line */
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span:hover {
-  text-decoration-color: $brand-primary-light;
+  text-decoration-color: colors.$brand-primary-light;
 }
 
 // Termin Hover ausschalten
 .pretix-widget a:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
 }
 
 .pretix-widget .pretix-widget-event-list-entry:hover,
 .pretix-widget .pretix-widget-event-list-entry:active,
 .pretix-widget .pretix-widget-event-list-entry:focus {
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 }
 
 // // // // Part2
@@ -105,8 +110,8 @@
   @extend %heading-font-bold;
 
   padding: 0;
-  font-size: $font-size-lg;
-  line-height: $paragraph-line-height-sm;
+  font-size: typography.$font-size-lg;
+  line-height: typography.$paragraph-line-height-sm;
   text-align: left;
 }
 
@@ -122,13 +127,13 @@
   @extend %heading-font-bold;
 
   padding: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
   text-align: left;
 }
 
 .pretix-widget-item-title-and-description {
   display: block;
-  margin-bottom: -$spacer-2xs * 0.7;
+  margin-bottom: -(spacers.$spacer-2xs * 0.7);
   padding: 0;
 }
 
@@ -136,9 +141,9 @@
 .pretix-widget .pretix-widget-event-details {
   @extend %heading-font-regular;
 
-  margin-bottom: $spacer-base;
+  margin-bottom: spacers.$spacer-base;
   padding: 0;
-  font-size: $font-size-base;
+  font-size: typography.$font-size-base;
   text-align: left;
 }
 
@@ -148,10 +153,10 @@
   display: grid;
   grid-template-columns: 5fr 1fr;
   row-gap: 0;
-  column-gap: $spacer-md;
+  column-gap: spacers.$spacer-md;
   justify-content: space-between;
 
-  margin-bottom: $spacer-sm;
+  margin-bottom: spacers.$spacer-sm;
 }
 
 .pretix-widget .pretix-widget-item-info-col {
@@ -182,9 +187,9 @@
 // Preis
 .pretix-widget-pricebox {
   width: 100%;
-  margin-top: $spacer-2xs;
-  font-size: $font-size-lg;
-  line-height: $heading-line-height-sm;
+  margin-top: spacers.$spacer-2xs;
+  font-size: typography.$font-size-lg;
+  line-height: typography.$heading-line-height-sm;
 }
 
 .pretix-widget-pricebox span {
@@ -196,22 +201,22 @@
 
 // Preis ungültig
 .pretix-widget del.pretix-widget-pricebox-original-price {
-  margin-left: $spacer-sm;
-  font-size: $font-size-base;
-  color: $brand-gray-1;
+  margin-left: spacers.$spacer-sm;
+  font-size: typography.$font-size-base;
+  color: colors.$brand-gray-1;
 }
 
 // Preis gültig
 .pretix-widget ins.pretix-widget-pricebox-new-price {
   @extend %heading-font-regular;
 
-  font-size: $font-size-lg;
+  font-size: typography.$font-size-lg;
 }
 
 // MwSt.
 .pretix-widget .pretix-widget-pricebox-tax {
-  margin-top: $spacer-2xs;
-  font-size: $font-size-sm;
+  margin-top: spacers.$spacer-2xs;
+  font-size: typography.$font-size-sm;
 }
 
 .pretix-widget .pretix-widget-item-availability-col {
@@ -232,12 +237,12 @@
 .pretix-widget .pretix-widget-item-description p,
 .pretix-widget-item-meta small {
   margin: 0;
-  font-size: $font-size-sm;
-  line-height: $paragraph-line-height;
+  font-size: typography.$font-size-sm;
+  line-height: typography.$paragraph-line-height;
 }
 
 .pretix-widget .pretix-widget-item-meta {
-  margin-top: -$spacer-xs;
+  margin-top: -(spacers.$spacer-xs);
 }
 
 // Input Feld
@@ -251,15 +256,15 @@
   height: 4rem;
   margin: 0;
 
-  font-size: $font-size-lg;
-  color: $brand-text;
+  font-size: typography.$font-size-lg;
+  color: colors.$brand-text;
   text-align: center;
 
-  background-color: $brand-background-dark;
+  background-color: colors.$brand-background-dark;
 
   /* stylelint-disable-next-line */
   border: none;
-  border-bottom: solid 0.2rem $brand-text;
+  border-bottom: solid 0.2rem colors.$brand-text;
   border-radius: 0;
 
   box-shadow: none;
@@ -271,7 +276,7 @@
 .pretix-widget input[type="number"]::placeholder,
 .pretix-widget-alert-box input[type="text"]::placeholder,
 .pretix-widget-alert-box input[type="number"]::placeholder {
-  color: $brand-text;
+  color: colors.$brand-text;
 }
 
 .pretix-widget input[type="text"]:focus,
@@ -282,8 +287,8 @@
 .pretix-widget input[type="number"]:active,
 .pretix-widget-alert-box input[type="text"]:active,
 .pretix-widget-alert-box input[type="number"]:active {
-  border-bottom: solid 0.2rem $brand-text;
-  background-color: $brand-background;
+  border-bottom: solid 0.2rem colors.$brand-text;
+  background-color: colors.$brand-background;
   box-shadow: none;
 }
 
@@ -291,13 +296,13 @@
 input[type="checkbox"] {
   width: 2.5rem;
   height: 2.5rem;
-  margin-top: $spacer-2xs;
-  border: solid 0.2rem $brand-text;
+  margin-top: spacers.$spacer-2xs;
+  border: solid 0.2rem colors.$brand-text;
 
   vertical-align: middle;
 
   appearance: none;
-  background-color: $brand-background-dark;
+  background-color: colors.$brand-background-dark;
   background-image: none;
   background-position: center center;
   background-size: 2.5rem 2.5rem;
@@ -322,20 +327,20 @@ input[type="checkbox"]:checked {
   display: block;
 
   width: 100%;
-  margin-top: $spacer-md;
+  margin-top: spacers.$spacer-md;
   padding: 1rem 2rem;
-  border: $spacer-3xs solid $brand-text;
+  border: spacers.$spacer-3xs solid colors.$brand-text;
   border-radius: 0;
 
-  font-size: $font-size-sm;
-  color: $brand-background;
+  font-size: typography.$font-size-sm;
+  color: colors.$brand-background;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: $spacer-3xs;
+  word-spacing: spacers.$spacer-3xs;
 
-  background-color: $brand-text;
+  background-color: colors.$brand-text;
 
   transition: all 0.15s ease-out;
 }
@@ -346,33 +351,33 @@ input[type="checkbox"]:checked {
 
   width: 100%;
   margin-left: 0;
-  border: $spacer-3xs solid $brand-gray;
+  border: spacers.$spacer-3xs solid colors.$brand-gray;
 
-  background-color: $brand-gray;
+  background-color: colors.$brand-gray;
 }
 
 // Loading Icon
 .pretix-widget-primary-color {
-  fill: $brand-secondary;
+  fill: colors.$brand-secondary;
 }
 
 .pretix-widget .pretix-widget-loading {
   width: 100%;
-  background: $brand-background;
+  background: colors.$brand-background;
 }
 
 // Link
 .link-attribution {
-  font-size: $font-size-xs;
+  font-size: typography.$font-size-xs;
   text-decoration: none;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: $spacer-2xs;
+  text-underline-offset: spacers.$spacer-2xs;
 }
 
 .link-attribution:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: $spacer-2xs;
+  text-underline-offset: spacers.$spacer-2xs;
 }
 
 .pretix-widget .pretix-widget-attribution {
@@ -388,23 +393,23 @@ input[type="checkbox"]:checked {
   @extend %monospace-font-regular;
 
   display: inline-block;
-  margin-bottom: $spacer-base;
-  font-size: $font-size-sm;
+  margin-bottom: spacers.$spacer-base;
+  font-size: typography.$font-size-sm;
 }
 
 .pretix-widget-event-list-back a,
 .pretix-widget-back a {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-align: left;
   text-decoration: none;
 }
 
 .pretix-widget-event-list-back a:hover,
 .pretix-widget-back a:hover {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
   text-decoration-thickness: 0.2rem;
-  text-underline-offset: $spacer-2xs;
+  text-underline-offset: spacers.$spacer-2xs;
 }
 
 .pretix-widget-alert-holder .pretix-widget-alert-box {
@@ -420,20 +425,20 @@ input[type="checkbox"]:checked {
   display: block;
 
   width: 100%;
-  margin-top: $spacer-md;
+  margin-top: spacers.$spacer-md;
   padding: 1rem 2rem;
-  border: $spacer-3xs solid $brand-text;
+  border: spacers.$spacer-3xs solid colors.$brand-text;
   border-radius: 0;
 
-  font-size: $font-size-sm;
-  color: $brand-background;
+  font-size: typography.$font-size-sm;
+  color: colors.$brand-background;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
-  word-spacing: $spacer-3xs;
+  word-spacing: spacers.$spacer-3xs;
 
-  background-color: $brand-text;
+  background-color: colors.$brand-text;
 
   transition: all 0.15s ease-out;
 }
@@ -446,24 +451,24 @@ input[type="checkbox"]:checked {
 .pretix-widget input[type="button"]:focus,
 .pretix-widget-alert-box button:focus,
 .pretix-widget-alert-box input[type="button"]:focus {
-  border: $spacer-3xs solid $brand-gray;
-  color: $brand-background;
-  background-color: $brand-gray;
+  border: spacers.$spacer-3xs solid colors.$brand-gray;
+  color: colors.$brand-background;
+  background-color: colors.$brand-gray;
 }
 
 // Warenkorb Hinweis
 .pretix-widget .pretix-widget-info-message {
-  margin-bottom: $spacer-md;
-  padding: $spacer-md $spacer-xs $spacer-sm $spacer-xs;
-  border: solid $spacer-3xs $brand-secondary;
+  margin-bottom: spacers.$spacer-md;
+  padding: spacers.$spacer-md spacers.$spacer-xs spacers.$spacer-sm spacers.$spacer-xs;
+  border: solid spacers.$spacer-3xs colors.$brand-secondary;
 
-  color: $brand-text;
+  color: colors.$brand-text;
 
-  background-color: $brand-background;
+  background-color: colors.$brand-background;
 }
 
 .pretix-widget .pretix-widget-resume-button {
-  margin: 0 0 $spacer-sm;
+  margin: 0 0 spacers.$spacer-sm;
 }
 
 // Resize Obersver

@@ -1,20 +1,22 @@
-// Logos in Artikel
-.article__logos {
-  @include for-breakpoint-phone-up {
-    justify-content: flex-start;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
 
+.article__logos {
   display: flex;
   justify-content: space-between;
-  margin-bottom: $spacer-lg * 0.875;
+  margin-bottom: spacers.$spacer-lg * 0.875;
+
+  @include breakpoints.for-breakpoint-phone-up {
+    justify-content: flex-start;
+  }
 }
 
 .article__logo {
-  @include for-breakpoint-phone-up {
-    justify-content: flex-start;
-    margin-right: $spacer-lg;
-  }
-
   max-height: 2.5rem;
   margin-right: 0;
+
+  @include breakpoints.for-breakpoint-phone-up {
+    justify-content: flex-start;
+    margin-right: spacers.$spacer-lg;
+  }
 }

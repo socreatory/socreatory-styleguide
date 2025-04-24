@@ -1,14 +1,19 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 .topic-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
 
   width: 100%;
   padding-left: 0;
 
   list-style-type: none;
 
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -17,18 +22,18 @@
   a {
     display: block;
 
-    padding: $spacer-sm;
+    padding: spacers.$spacer-sm;
 
-    font-size: $font-size-base;
-    line-height: $heading-line-height-sm;
+    font-size: typography.$font-size-base;
+    line-height: typography.$heading-line-height-sm;
     text-decoration: none;
 
-    background-color: $brand-primary-light;
+    background-color: colors.$brand-primary-light;
 
     &:hover {
       text-decoration: underline;
-      text-decoration-thickness: $spacer-3xs;
-      text-underline-offset: $spacer-3xs;
+      text-decoration-thickness: spacers.$spacer-3xs;
+      text-underline-offset: spacers.$spacer-3xs;
     }
   }
 }

@@ -1,3 +1,8 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+
 h1,
 h2,
 h3,
@@ -8,21 +13,19 @@ h6 {
 
   margin: 0;
   margin-bottom: 0;
-  line-height: $heading-line-height;
+  line-height: typography.$heading-line-height;
 }
 
 h3 {
-  font-size: $font-size-xl;
+  font-size: typography.$font-size-xl;
 }
 
 .section__title--small,
 %section__title--small {
   @extend %monospace-font-regular;
 
-  margin-bottom: $spacer-md;
-
-  font-size: $font-size-xs;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-xs;
+  line-height: typography.$heading-line-height;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
 }
@@ -30,21 +33,19 @@ h3 {
 .section__title--normal {
   @extend %heading-font-bold;
 
-  margin-bottom: $spacer-md;
-  font-size: $font-size-xl;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-xl;
+  line-height: typography.$heading-line-height;
 }
 
 .section__title--sub {
   @extend %heading-font-bold;
 
-  margin-bottom: $spacer-md;
-  font-size: $font-size-lg;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-lg;
+  line-height: typography.$heading-line-height;
 }
 
 .section__title--bigcentered {
-  font-size: $font-size-xxl;
-  line-height: $heading-line-height;
+  font-size: typography.$font-size-xxl;
+  line-height: typography.$heading-line-height;
   text-align: center;
 }

@@ -228,22 +228,17 @@ description: Show Training Detail Powerworkshop
         </div>
 
         <div id="booking" class="layout-main-with-sidebar__sidebar">
-            <div>
-                <h3>Online-Termine</h3>
-                <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list,"></pretix-widget>
-                <h3>Vor-Ort-Termine</h3>
-                <pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
-                <p><a href="https://pretix.eu/socreatory/" class="link-attribution"
-                        target="_blank">Event-Ticketing-Software von pretix<a>
-                            <p>
-            </div>
-
-            <div>
-                <h3>Inhouse Schulung</h3>
-                <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür
-                    unser Anfrage-Formular.</p>
-                <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
-            </div>
+            <h3>Online-Termine</h3>
+            <pretix-widget event="https://pretix.eu/socreatory/adoc--online/" style="list,"></pretix-widget>
+            <h3>Vor-Ort-Termine</h3>
+            <pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
+            <p><a href="https://pretix.eu/socreatory/" class="link-attribution"
+                    target="_blank">Event-Ticketing-Software von pretix<a>
+            <p>
+            <h3>Inhouse Schulung</h3>
+            <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür
+                unser Anfrage-Formular.</p>
+            <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
         </div>
     </div>
 </main>

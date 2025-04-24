@@ -1,15 +1,19 @@
-// News
-.news__item {
-  @include for-breakpoint-phone-up {
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
 
+.news__item {
   display: flex;
   flex-direction: column;
   gap: 0;
   margin-bottom: 3rem;
+
+  @include breakpoints.for-breakpoint-phone-up {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
 }
 
 .news__newsdate {
@@ -19,8 +23,8 @@
   margin: 0;
   padding: 0;
 
-  font-size: $font-size-xl;
-  color: $brand-text;
+  font-size: typography.$font-size-xl;
+  color: colors.$brand-text;
 }
 
 .news__newsheadline {
@@ -28,23 +32,23 @@
 
   margin: 0;
   padding: 0;
-  font-size: $font-size-xl;
+  font-size: typography.$font-size-xl;
 }
 
 .news__newsheadline a {
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: underline;
-  text-decoration-color: $brand-primary;
-  text-decoration-thickness: $spacer-3xs;
-  text-underline-offset: $spacer-3xs;
+  text-decoration-color: colors.$brand-primary;
+  text-decoration-thickness: spacers.$spacer-3xs;
+  text-underline-offset: spacers.$spacer-3xs;
 }
 
 .news__newsheadline a:hover {
-  text-decoration-color: $brand-primary-light;
+  text-decoration-color: colors.$brand-primary-light;
 }
 
 .news__detail {
-  margin-bottom: $spacer-xl;
+  margin-bottom: spacers.$spacer-xl;
 }
 
 .news__newsdetaildate {

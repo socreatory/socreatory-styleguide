@@ -110,7 +110,7 @@ description: Description
 </header>
 
 <main>
-    <section class="container container--md container-vertical-spacing-xl">
+    <section class="container container--md container-bottom-spacing-xl">
         <div class="news__detail">
             <figure>
                 <img

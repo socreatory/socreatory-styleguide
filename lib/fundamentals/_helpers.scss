@@ -1,3 +1,8 @@
+@use "spacers";
+@use "breakpoints";
+@use "colors";
+@use "typography";
+
 // Only visible to screen reader
 @mixin visually-hidden() {
   /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
@@ -23,23 +28,23 @@
 
 /* stylelint-disable declaration-no-important */
 .m-t-2xs {
-  margin-top: $spacer-2xs !important;
+  margin-top: spacers.$spacer-2xs !important;
 }
 
 .m-t-sm {
-  margin-top: $spacer-sm !important;
+  margin-top: spacers.$spacer-sm !important;
 }
 
 .m-t-lg {
-  margin-top: $spacer-lg !important;
+  margin-top: spacers.$spacer-lg !important;
 }
 
 .m-t-xl {
-  margin-top: $spacer-xl !important;
+  margin-top: spacers.$spacer-xl !important;
 }
 
 .m-t-2xl {
-  margin-top: $spacer-2xl !important;
+  margin-top: spacers.$spacer-2xl !important;
 }
 
 .flex-center {
@@ -48,5 +53,5 @@
 }
 
 .gap-1 {
-  gap: $spacer-sm;
+  gap: spacers.$spacer-sm;
 }

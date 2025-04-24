@@ -1,18 +1,22 @@
-// Komponente Teaser (2spalter auf Home)
-.teaser {
-  @include for-tablet-landscape-up {
-    flex-direction: row;
-    row-gap: $spacer-md;
-    column-gap: $spacer-2xl;
-  }
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
 
+.teaser {
   display: flex;
   flex-direction: column;
-  gap: $spacer-md;
+  gap: spacers.$spacer-md;
+
+  @include breakpoints.for-tablet-landscape-up {
+    flex-direction: row;
+    row-gap: spacers.$spacer-md;
+    column-gap: spacers.$spacer-2xl;
+  }
 }
 
 .teaser--reverse {
-  @include for-tablet-landscape-up {
+  @include breakpoints.for-tablet-landscape-up {
     flex-direction: row-reverse;
   }
 }
@@ -31,16 +35,16 @@
   }
 
   > * + * {
-    margin-top: $spacer-sm;
+    margin-top: spacers.$spacer-sm;
   }
 }
 
 .teaser__image {
-  @include for-tablet-portrait-up {
-    width: 20rem;
-  }
-
   display: block;
   width: 15rem;
   margin: 0 auto;
+
+  @include breakpoints.for-tablet-portrait-up {
+    width: 20rem;
+  }
 }

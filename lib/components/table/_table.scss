@@ -1,9 +1,11 @@
+@use "../../fundamentals/spacers";
+@use "../../fundamentals/breakpoints";
+@use "../../fundamentals/colors";
+@use "../../fundamentals/typography";
+@use "../lists/lists";
+
 .table,
 .table-backend {
-  @include for-breakpoint-phone-down {
-    display: block;
-  }
-
   overflow-x: auto;
   border-collapse: collapse;
 
@@ -17,26 +19,26 @@
   tfoot {
     @extend %heading-font-regular;
 
-    @include for-tablet-portrait-up {
-      font-size: $font-size-sm;
-    }
-
-    font-size: $font-size-md;
-    line-height: $heading-line-height;
-    color: $brand-text;
+    font-size: typography.$font-size-md;
+    line-height: typography.$heading-line-height;
+    color: colors.$brand-text;
 
     th {
-      padding: 0 $spacer-xs $spacer-xs;
+      padding: 0 spacers.$spacer-xs spacers.$spacer-xs;
       text-align: left;
+    }
+
+    @include breakpoints.for-tablet-portrait-up {
+      font-size: typography.$font-size-sm;
     }
   }
 
   tbody {
     tr {
-      border-bottom: 1px solid $brand-gray-2;
+      border-bottom: 1px solid colors.$brand-gray-2;
 
       &:nth-child(odd) {
-        background-color: $brand-white-1;
+        background-color: colors.$brand-white-1;
       }
     }
   }
@@ -44,28 +46,32 @@
   td {
     @extend %heading-font-regular;
 
-    @include for-tablet-portrait-up {
-      font-size: $font-size-sm;
-    }
-
-    padding: $spacer-xs;
-    font-size: $font-size-md;
-    line-height: $heading-line-height;
+    padding: spacers.$spacer-xs;
+    font-size: typography.$font-size-md;
+    line-height: typography.$heading-line-height;
     vertical-align: top;
+
+    @include breakpoints.for-tablet-portrait-up {
+      font-size: typography.$font-size-sm;
+    }
+  }
+
+  @include breakpoints.for-breakpoint-phone-down {
+    display: block;
   }
 }
 
 .table__link {
   @extend %heading-font-bold;
 
-  color: $brand-text;
+  color: colors.$brand-text;
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: $brand-text;
+    text-decoration-color: colors.$brand-text;
     text-decoration-thickness: 3px;
-    text-underline-offset: $spacer-3xs;
+    text-underline-offset: spacers.$spacer-3xs;
   }
 }
 
@@ -73,6 +79,6 @@
   @extend %list-unstyled;
 
   > * + * {
-    margin-top: $spacer-3xs;
+    margin-top: spacers.$spacer-3xs;
   }
 }
