@@ -57,14 +57,17 @@ dd {
 }
 
 ul:not([class]) {
-  padding-left: 1rem;
+  @extend %list-unstyled;
+
+  position: relative;
+  padding-left: 1.5rem;
   font-size: typography.$font-size-base;
 
   li {
-    padding-left: 1rem;
-
     &::before {
       content: "—";
+      position: absolute;
+      left: 0;
       color: colors.$brand-secondary;
     }
   }
@@ -85,16 +88,18 @@ ol:not([class]) {
     margin-top: spacers.$spacer-2xs;
   }
 
-  a:not([class]) {
-    color: colors.$brand-text;
-    text-decoration-color: colors.$brand-primary;
-    text-decoration-thickness: spacers.$spacer-3xs;
-    text-underline-offset: spacers.$spacer-3xs;
+  li {
+    a:not([class]) {
+      color: colors.$brand-text;
+      text-decoration-color: colors.$brand-primary;
+      text-decoration-thickness: spacers.$spacer-3xs;
+      text-underline-offset: spacers.$spacer-3xs;
 
-    transition: all 0.1s ease-out;
-  }
+      transition: all 0.1s ease-out;
 
-  :hover {
-    text-decoration-color: colors.$brand-primary-light;
+      &:hover {
+        text-decoration-color: colors.$brand-primary-light;
+      }
+    }
   }
 }
