@@ -33,12 +33,17 @@
 .layout-main-with-sidebar__sidebar {
   overflow: hidden;
   grid-area: sidebar;
+  margin-bottom: spacers.$spacer-xl;
 
   > * + * {
     margin-top: spacers.$spacer-md;
   }
 
   > * {
+    margin-bottom: 0;
+  }
+
+  @include breakpoints.for-tablet-landscape-up {
     margin-bottom: 0;
   }
 }
