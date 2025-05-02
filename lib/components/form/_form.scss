@@ -23,6 +23,16 @@
   }
 }
 
+.form--spacing-xs {
+  > * + * {
+    margin-top: spacers.$spacer-2xs;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
+}
+
 .form__field {
   display: inline-block;
   width: 100%;
@@ -137,4 +147,10 @@ input[type="radio"] {
 
 select {
   background-color: colors.$brand-background-dark;
+}
+
+.attendendance-form {
+  display: flex;
+  flex-direction: row;
+  gap: spacers.$spacer-xs;
 }
