@@ -88,9 +88,11 @@
 
 .btn--form {
   @extend %base-button;
+  @extend %heading-font-bold;
 
   padding: spacers.$spacer-3xs spacers.$spacer-2xs;
-  font-size: typography.$font-size-md;
+  font-size: typography.$font-size-sm;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
