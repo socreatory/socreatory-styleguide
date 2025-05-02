@@ -24,6 +24,10 @@
 }
 
 .event-stripe__wrapper {
+  > * + * {
+    margin-top: spacers.$spacer-xs;
+  }
+
   .event-stripe {
     @include breakpoints.for-desktop-up {
       min-height: 8.5rem;
