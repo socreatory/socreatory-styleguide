@@ -4,9 +4,13 @@
 @use "../../fundamentals/typography";
 @use "../lists/lists";
 
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
 .table,
 .table-backend {
-  overflow-x: auto;
   border-collapse: collapse;
 
   width: 100%;
