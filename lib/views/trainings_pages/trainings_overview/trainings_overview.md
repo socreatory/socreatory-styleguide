@@ -299,15 +299,66 @@ description: Description
         </ul>
         <h2 class="section__title--normal m-t-xl">Unsere Themen in der Übersicht</h2>
         <ul class="topic-list">
-            <li class="topic-list__item"><a href="#">Security</a></li>
-            <li class="topic-list__item"><a href="#">Umgang mit Legagcy</a></li>
-            <li class="topic-list__item"><a href="#">Softwarearchitektur Grundlagen</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
-            <li class="topic-list__item"><a href="#">Ein langes lustiges Thema 111</a></li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Archotekturdokumentation
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Data & AI
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Doman-Driven Design
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Softwarearchitektur: Grundlagen
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+
+                    Security
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Security
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Security
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Security
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Security
+                    </a>
+                </li>
+            <li class="topic-list__item">
+                <a href="#">
+                    <img class="" src="/snippet/images/illustrations/iconfernglas.svg" />
+                    Security
+                    </a>
+                </li>
         </ul>
         <div class="teaser m-t-2xl">
             <div class="teaser__column">

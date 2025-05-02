@@ -5,7 +5,7 @@
 
 .topic-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
+  grid-template-columns: 1fr;
   gap: spacers.$spacer-sm;
 
   width: 100%;
@@ -15,12 +15,27 @@
 
   @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
+    gap: spacers.$spacer-md;
+  }
+
+  @include breakpoints.for-desktop-up {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .topic-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: colors.$brand-white-1;
+
   a {
-    display: block;
+    @extend %heading-font-bold;
+
+    display: flex;
+    flex-direction: column;
+    gap: spacers.$spacer-sm;
+    align-items: center;
 
     padding: spacers.$spacer-sm;
 
@@ -28,12 +43,15 @@
     line-height: typography.$heading-line-height-sm;
     text-decoration: none;
 
-    background-color: colors.$brand-primary-light;
-
     &:hover {
       text-decoration: underline;
       text-decoration-thickness: spacers.$spacer-3xs;
       text-underline-offset: spacers.$spacer-3xs;
+    }
+
+    img {
+      width: 40px;
+      height: auto;
     }
   }
 }
