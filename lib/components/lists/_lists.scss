@@ -11,34 +11,6 @@
   list-style-type: none;
 }
 
-// Komponente Lists
-.unordered-list {
-  padding-left: 1rem;
-  font-size: typography.$font-size-base;
-}
-
-.unordered-list__item {
-  padding-left: 1rem;
-}
-
-.ordered-list {
-  padding-left: 1.5rem;
-  font-size: typography.$font-size-base;
-}
-
-.ordered-list__item {
-  padding-left: 0.5rem;
-}
-
-.ordered-list__item::marker,
-.unordered-list__item::marker {
-  color: colors.$brand-secondary;
-}
-
-.unordered-list__item::marker {
-  content: "—";
-}
-
 dt {
   @extend %heading-font-bold;
 
@@ -57,15 +29,13 @@ dd {
 }
 
 ul:not([class]) {
-  @extend %list-unstyled;
-
   position: relative;
   padding-left: 1.5rem;
   font-size: typography.$font-size-base;
+  list-style-type: disc;
 
   li {
     &::before {
-      content: "—";
       position: absolute;
       left: 0;
       color: colors.$brand-secondary;

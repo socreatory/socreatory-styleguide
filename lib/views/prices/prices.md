@@ -134,15 +134,15 @@ description: Description
         </div>
 
         <h2 class="section__title--normal">Was Du dafür bekommst</h2>
-        <ul class="unordered-list">
-            <li class="unordered-list__item">
+        <ul>
+            <li>
                 Viele unserer Trainer:innen haben Fachbücher veröffentlicht; zahlreiche iSAQB-Module basieren auf den Buchpublikationen unserer Expert:innen oder werden direkt in den
                 Lehrplänen aufgegriffen. Die Teilnehmer erhalten das empfohlene Fachbuch pünktlich zum Training direkt zugesandt (Einband & E-Book).
             </li>
-            <li class="unordered-list__item">
+            <li>
                 Alle Teilnehmenden des Advanced Level Programms erhalten ein unbegrenzt gültiges iSAQB-Zertifikat, das die erreichten Credit Points bescheinigt.
             </li>
-            <li class="unordered-list__item">Die Übungsergebnisse und Trainingsunterlagen stellen wir im Anschluss zur Verfügung.</li>
+            <li>Die Übungsergebnisse und Trainingsunterlagen stellen wir im Anschluss zur Verfügung.</li>
         </ul>
 
         <h2 class="section__title--normal">So sparst Du</h2>
