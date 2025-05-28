@@ -99,7 +99,7 @@ label {
 
   font-size: typography.$font-size-base;
 
-  background-color: colors.$brand-background-dark;
+  background-color: transparent;
 
   transition: all 0.15s ease-out;
 }
@@ -151,6 +151,6 @@ select {
 
 .attendendance-form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: spacers.$spacer-xs;
 }
