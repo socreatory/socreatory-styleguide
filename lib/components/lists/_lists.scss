@@ -14,10 +14,13 @@
 dt {
   @extend %heading-font-bold;
 
-  margin-top: spacers.$spacer-xs;
   font-size: typography.$font-size-base;
   line-height: typography.$heading-line-height;
   color: colors.$brand-primary;
+}
+
+dt:not(:first-of-type) {
+  margin-top: spacers.$spacer-xs;
 }
 
 dd {

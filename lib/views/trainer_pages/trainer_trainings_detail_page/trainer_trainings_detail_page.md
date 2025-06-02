@@ -109,6 +109,46 @@ description: Backend-View for Trainers shows details of a specific training
 </header>
 
 <main class="trainer-trainings-overview-page">
+    <section class="container container-vertical-spacing-sm stripe stripe--white-1">
+        <dl>
+            <dt>Anbieter</dt>
+            <dd>INNOQ</dd>
+
+            <dt>Ort</dt>
+            <dd>
+                Musterhotel
+                Musterstrasse 1
+                33333 Musterort
+            </dd>
+
+            <dt>Trainer:innen</dt>
+            <dd><a href="/de/trainers/johannes-seitz">Johannes Seitz</a></dd>
+
+            <dt>Sprache</dt>
+            <dd>de</dd>
+
+            <dt>Preise</dt>
+            <dd>
+                <ul>
+                <li>
+                    <span>2.950,00 €</span>
+                    <span>Early Bird Ticket (inkl. Prüfung)</span>
+                    <span>02.03.2025</span>
+                </li>
+                <li>
+                    <span>3.250,00 €</span>
+                    <span>Ticket (inkl. Prüfung)</span>
+                </li>
+                </ul>
+            </dd>
+
+            <dt>Plätze</dt>
+            <dd>12 / 12</dd>
+
+            <dt>Aktiv</dt>
+            <dd>✅</dd>
+        </dl>
+    </section>
     <h2 class="section__title--sub">Teilnehmer:innen</h2>
     <table class="table">
         <thead>

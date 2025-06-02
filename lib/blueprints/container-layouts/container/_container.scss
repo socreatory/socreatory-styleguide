@@ -74,6 +74,12 @@
   }
 }
 
+.container-vertical-spacing-sm,
+%container-vertical-spacing-sm {
+  padding-top: spacers.$spacer-sm;
+  padding-bottom: spacers.$spacer-sm;
+}
+
 // Spacing only bottom
 .container-bottom-spacing-2xl,
 %container-bottom-spacing-2xl {
