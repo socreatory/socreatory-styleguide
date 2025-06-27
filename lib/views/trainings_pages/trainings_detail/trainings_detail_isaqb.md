@@ -2,7 +2,7 @@ title: Training Detail iSAQB
 description: Show Training Detail iSAQB
 
 ```html
-<script type="text/javascript" src="https://pretix.eu/widget/v1.de.js" async></script>
+<script type="text/javascript" src="https://pretix.eu/widget/v2.de.js" async></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <scroll-nav>
     <div class="navbar-wrapper">
@@ -245,49 +245,20 @@ description: Show Training Detail iSAQB
             </div>
         </div>
         <div id="booking" class="layout-main-with-sidebar__sidebar">
-            <h3>Termine</h3>
-            <!-- Pretix Widget -->
-            <div class="pretix-widget-wrapper" event="https://pretix.eu/socreatory/adoc/">
-                <div class="pretix-widget pretix-widget-mobile">
-                    <div data-v-b329ee4c="" tabindex="-1" class="resize-observer"><object aria-hidden="true"
-                            tabindex="-1" type="text/html" data="about:blank"></object></div>
-                    <div class="pretix-widget-loading" style="display: none;">
-                        <svg width="128" height="128" viewBox="0 0 1792 1792"
-                            xmlns="http://www.w3.org/2000/svg"></svg>
-                    </div>
-                    <!---->
-                    <!---->
-                    <div class="pretix-widget-event-list">
-                        <!---->
-                        <!---->
-                        <!----><a
-                            class="pretix-widget-event-list-entry pretix-widget-event-availability-green pretix-widget-event-availability-ok">
-                            <div class="pretix-widget-event-list-entry-name">ADOC - Stefan Zörner</div>
-                            <div class="pretix-widget-event-list-entry-date">26.–27. Juli 2021 09:30</div>
-                            <div class="pretix-widget-event-list-entry-location">Online</div>
-                            <div class="pretix-widget-event-list-entry-availability"><span>Jetzt buchen</span>
-                            </div>
-                        </a><a
-                            class="pretix-widget-event-list-entry pretix-widget-event-availability-green pretix-widget-event-availability-ok">
-                            <div class="pretix-widget-event-list-entry-name">ADOC</div>
-                            <div class="pretix-widget-event-list-entry-date">3.–4. November 2021 09:30</div>
-                            <div class="pretix-widget-event-list-entry-location">Online</div>
-                            <div class="pretix-widget-event-list-entry-availability"><span>Jetzt buchen</span>
-                            </div>
-                        </a>
-                    </div>
-                    <!---->
-                    <!---->
-                    <div class="pretix-widget-clear"></div>
-                    <div class="pretix-widget-attribution"><a href="https://pretix.eu" target="_blank"
-                            rel="noopener">Event-Ticketing-Software von pretix</a></div>
-                </div>
-            </div>
-            <h3>Inhouse Training</h3>
-            <p>Du kannst diese Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür
+            <h3>Online-Termine</h3>
+            <pretix-widget event="https://pretix.eu/socreatory/agila--online/" style="list,"></pretix-widget>
+            <h3>Vor-Ort-Termine</h3>
+            <pretix-widget event="https://pretix.eu/socreatory/adoc--praesenz/" style="list,"></pretix-widget>
+            <p><a href="https://pretix.eu/socreatory/" class="link-attribution"
+                    target="_blank">Event-Ticketing-Software von pretix<a>
+            <p>
+            <h3>Inhouse Schulung</h3>
+            <p>Du kannst dieses Training auch als inhouse-Training exklusiv bei Dir buchen. Bitte nutze dafür
                 unser Anfrage-Formular.</p>
             <a href="#" class="btn btn-type--secondary ">Jetzt anfragen</a>
         </div>
+
+
     </div>
 </main>
 <aside class="container container--xl container-bottom-spacing-xl">

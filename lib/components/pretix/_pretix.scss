@@ -3,33 +3,42 @@
 @use "../../fundamentals/colors";
 @use "../../fundamentals/typography";
 
-@import url("https://pretix.eu/socreatory/widget/v1.css");
+@import url("https://pretix.eu/socreatory/widget/v2.css");
+
+:root {
+  /* stylelint-disable color-no-hex */
+  --tertiary: #ffd80a;
+  --primary: #2ae78b;
+  --red: #ff5107;
+}
 
 .pretix-widget-wrapper {
   width: 100%;
-  margin-bottom: spacers.$spacer-lg;
 }
 
 .pretix-widget {
+  margin: 0;
   padding: 0;
   border: 0;
 }
 
-//  Termin Wrapper
-.pretix-widget-event-list-entry {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: spacers.$spacer-sm;
+.pretix-widget .pretix-widget-event-list {
   padding: 0;
 
-  &:last-child {
-    margin-bottom: 0;
+  > * + * {
+    margin-top: spacers.$spacer-md;
   }
 }
 
-// Einzelner Termin
-.pretix-widget .pretix-widget-event-list {
+//  Termin Wrapper
+.pretix-widget .pretix-widget-event-list-entry {
+  display: inline-block;
+  width: 100%;
   padding: 0;
+
+  > * + * {
+    margin-top: spacers.$spacer-xs;
+  }
 }
 
 // Termin Name
@@ -38,16 +47,14 @@
 
   padding: 0;
   font-size: typography.$font-size-base;
+  line-height: typography.$heading-line-height;
 }
 
 // Termin Datum
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
   padding: 0;
-  font-size: typography.$font-size-base;
-}
-
-.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
-  width: 100%;
+  font-size: typography.$font-size-md;
+  line-height: typography.$heading-line-height;
 }
 
 // Termin Location
@@ -56,57 +63,62 @@
 }
 
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
-  margin-top: 0;
   padding: 0;
   border: 0;
-
   text-align: left;
-
-  background-color: colors.$brand-background;
+  background-color: transparent;
 }
 
 // Link Jetzt buchen
 /* stylelint-disable-next-line */
 .pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span {
-  @extend %heading-font-regular;
+  @extend %heading-font-bold;
 
   cursor: pointer;
 
   display: inline-block;
 
-  margin: 0 0 spacers.$spacer-sm;
-  padding: 0;
+  padding: spacers.$spacer-2xs spacers.$spacer-xs;
+  border: none;
+  border-radius: 0;
 
-  font-size: typography.$font-size-base;
+  font-size: typography.$font-size-md;
   color: colors.$brand-text;
-  text-decoration: underline;
-  text-decoration-color: colors.$brand-primary;
-  text-decoration-thickness: spacers.$spacer-3xs;
-  text-underline-offset: spacers.$spacer-3xs;
-  letter-spacing: 0;
-
-  background-color: colors.$brand-background;
 
   transition: all 0.1s ease-out;
+
+  &::before {
+    width: 0;
+  }
+
+  &:hover {
+    color: colors.$brand-white;
+    background-color: colors.$brand-text;
+  }
 }
 
-/* stylelint-disable-next-line */
-.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span:hover {
-  text-decoration-color: colors.$brand-primary-light;
+.pretix-widget .pretix-widget-event-availability-orange,
+.pretix-widget .pretix-widget-day-availability-orange {
+  --status-bg-color: var(--tertiary);
 }
 
-// Termin Hover ausschalten
-.pretix-widget a:hover {
-  color: colors.$brand-text;
+.pretix-widget .pretix-widget-event-availability-green,
+.pretix-widget .pretix-widget-day-availability-green {
+  --status-bg-color: var(--primary);
+}
+
+.pretix-widget .pretix-widget-event-availability-red,
+.pretix-widget .pretix-widget-day-availability-red {
+  --status-bg-color: var(--red);
 }
 
 .pretix-widget .pretix-widget-event-list-entry:hover,
 .pretix-widget .pretix-widget-event-list-entry:active,
 .pretix-widget .pretix-widget-event-list-entry:focus {
-  background-color: colors.$brand-background;
+  background-color: transparent;
+  outline: none;
 }
 
-// // // // Part2
 // Training Titel
 .pretix-widget .pretix-widget-event-header {
   @extend %heading-font-bold;
@@ -370,7 +382,11 @@ input[type="checkbox"]:checked {
 
 // Link
 .link-attribution {
+  display: block;
+
   font-size: typography.$font-size-xs;
+  line-height: typography.$heading-line-height;
+  color: colors.$brand-text;
   text-decoration: none;
   text-decoration-thickness: 0.2rem;
   text-underline-offset: spacers.$spacer-2xs;
