@@ -228,6 +228,7 @@ description: Show Training Detail
             </div>
         </div>
         <div id="booking" class="layout-main-with-sidebar__sidebar">
+            <pretix-widget event="https://pretix.eu/socreatory/web-security--online/" style="list,"></pretix-widget>
             <h3>Online-Termine</h3>
             <pretix-widget event="https://pretix.eu/socreatory/foundation--online/" style="list,"></pretix-widget>
             <h3 class="m-t-lg">Vor-Ort-Termine</h3>
