@@ -16,7 +16,7 @@
   "devDependencies": {
     "aiur": "^0.11.0",
     "donny": "^0.3.0",
-    "eslint": "^9.0.0",
+    "eslint": "^9.30.1",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "faucet-pipeline-js": "^3.0.0",
