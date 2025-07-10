@@ -170,20 +170,6 @@
   text-align: left;
 }
 
-// .pretix-widget .pretix-widget-event-list .pretix-widget-event-header {
-//   display: none;
-// }
-
-// .pretix-widget-item {
-//   position: relative;
-// }
-
-// .pretix-widget-item-title-and-description {
-//   display: block;
-//   margin-bottom: -(spacers.$spacer-2xs * 0.7);
-//   padding: 0;
-// }
-
 // Training Datum
 .pretix-widget .pretix-widget-event-details {
   @extend %heading-font-regular;
@@ -322,10 +308,6 @@
   font-size: typography.$font-size-sm;
 }
 
-// .pretix-widget .pretix-widget-item-meta {
-//   margin-top: -(spacers.$spacer-xs);
-// }
-
 // Input Feld
 .pretix-widget input[type="text"],
 .pretix-widget input[type="number"],
@@ -336,18 +318,15 @@
   width: 100%;
   height: 2rem;
   margin: 0;
+  border: none;
+  border-bottom: solid 0.2rem colors.$brand-text;
+  border-radius: 0;
 
   font-size: typography.$font-size-lg;
   color: colors.$brand-text;
   text-align: left;
 
   background-color: colors.$brand-background-dark;
-
-  /* stylelint-disable-next-line */
-  border: none;
-  border-bottom: solid 0.2rem colors.$brand-text;
-  border-radius: 0;
-
   box-shadow: none;
 
   transition: all 0.15s ease-out;
@@ -523,21 +502,6 @@ input[type="checkbox"]:checked {
 
   background-color: colors.$brand-text;
   outline: none;
-}
-
-// Warenkorb Hinweis
-.pretix-widget .pretix-widget-info-message {
-  margin-bottom: spacers.$spacer-md;
-  padding: spacers.$spacer-md spacers.$spacer-xs spacers.$spacer-sm spacers.$spacer-xs;
-  border: solid spacers.$spacer-3xs colors.$brand-secondary;
-
-  color: colors.$brand-text;
-
-  background-color: colors.$brand-background;
-}
-
-.pretix-widget .pretix-widget-resume-button {
-  margin: 0 0 spacers.$spacer-sm;
 }
 
 // Resize Obersver

@@ -212,3 +212,31 @@ turbo-frame {
   display: flex;
   justify-content: flex-end;
 }
+
+.message-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.message-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: spacers.$spacer-2xs;
+
+  padding: spacers.$spacer-xs;
+  border: 2px solid colors.$brand-sand;
+}
+
+.message-list__item__title {
+  @extend %heading-font-bold;
+
+  font-size: typography.$font-size-base;
+}
+
+.message-list__item__text {
+  @extend %body-font-regular;
+
+  margin-bottom: 0;
+  font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height;
+}

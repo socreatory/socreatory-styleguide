@@ -149,6 +149,22 @@ description: Customer Trainings Detail Page
             </div>
         </li>
     </ol>
+    <h2 class='section__title--sub'>Nachrichten</h2>
+    <ul class='message-list tile-grid--sm tile-grid-gap--base'>
+        <li class='message-list__item'>
+            <h3 class='message-list__item__title'>Dein Gutscheincode für deine iSAQB® CPSA-F®-Prüfung</h3>
+            <p class='message-list__item__text'>Mit diesem Code kannst du dir unter <a href="https://www.certible.com/de/Anmeldung">https://www.certible.com/de/Anmeldung</a> deinen iSAQB® CPSA-F®-Prüfungstermin buchen: <b>[CODE]</b></p>
+        </li>
+        <li class='message-list__item'>
+            <h3 class='message-list__item__title'>Deine Begleitlektüre zum Training</h3>
+            <p class='message-list__item__text'>Hier bekommst du dein kostenloses Buch zum Training: https://leanpub.com/redeem/[TOKEN].
+                Viel Spaß beim Stöbern!</p>
+        </li>
+        <li class='message-list__item'>
+            <h3 class='message-list__item__title'>CPSA-F® Voucher</h3>
+            <p class='message-list__item__text'>Dies ist eine lustige Nachricht</p>
+        </li>
+    </ul>
     <section class="tile-grid--sm tile-grid-gap--base m-t-lg">
         <div class="tile-grid__wrapper">
             <h2 class="section__title--sub">Zeitplan</h2>
