@@ -109,46 +109,6 @@ description: Backend-View for Trainers shows details of a specific training
 </header>
 
 <main class="trainer-trainings-overview-page">
-    <section class="container container-vertical-spacing-sm stripe stripe--white-1">
-        <dl>
-            <dt>Anbieter</dt>
-            <dd>INNOQ</dd>
-
-            <dt>Ort</dt>
-            <dd>
-                Musterhotel
-                Musterstrasse 1
-                33333 Musterort
-            </dd>
-
-            <dt>Trainer:innen</dt>
-            <dd><a href="/de/trainers/johannes-seitz">Johannes Seitz</a></dd>
-
-            <dt>Sprache</dt>
-            <dd>de</dd>
-
-            <dt>Preise</dt>
-            <dd>
-                <ul>
-                <li>
-                    <span>2.950,00 €</span>
-                    <span>Early Bird Ticket (inkl. Prüfung)</span>
-                    <span>02.03.2025</span>
-                </li>
-                <li>
-                    <span>3.250,00 €</span>
-                    <span>Ticket (inkl. Prüfung)</span>
-                </li>
-                </ul>
-            </dd>
-
-            <dt>Plätze</dt>
-            <dd>12 / 12</dd>
-
-            <dt>Aktiv</dt>
-            <dd>✅</dd>
-        </dl>
-    </section>
     <h2 class="section__title--sub">Teilnehmer:innen</h2>
     <table class="table">
         <thead>
@@ -158,6 +118,7 @@ description: Backend-View for Trainers shows details of a specific training
                 <th>Email</th>
                 <th>Datum der Anmeldung</th>
                 <th>Bereits besucht</th>
+                <th>Nachricht</th>
             </tr>
         </thead>
         <tbody>
@@ -173,6 +134,51 @@ description: Backend-View for Trainers shows details of a specific training
                         <li>Training 1</li>
                     </ul>
                 </td>
+                <td>
+                    <turbo-frame>
+                        <ul class="attendee-message-list">
+                            <li class="attendee-message-list__item">
+                                <b>CPSA-F® Voucher</b>
+                                <p>CODE</p>
+                                <b>14.07.2025</b>
+                                <div class='form-control'>
+                                    <a class="btn--form btn--form--secondary" href="#">Bearbeiten</a>
+                                    <form class="button_to" method="post" action="#">
+                                        <input type="hidden" name="_method" value="delete" autocomplete="off" />
+                                        <button class="btn--form btn--form--black" type="submit">Löschen</button>
+                                        <input type="hidden" name="authenticity_token" value="HQAeqPf1D2khd4yAf-427kKNSDIcDS_khZjsJxbWNNXpzqI1o-sZbLOhMXZvtV6YgGVmHRAoxBzkIQ3E_22myQ" autocomplete="off" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="attendee-message-list__item">
+                                <b>CPSA-F® Voucher</b>
+                                <p>CODE</p>
+                                <b>14.07.2025</b>
+                                <div class='form-control'>
+                                    <a class="btn--form btn--form--secondary" href="#">Bearbeiten</a>
+                                    <form class="button_to" method="post" action="#">
+                                        <input type="hidden" name="_method" value="delete" autocomplete="off" />
+                                        <button class="btn--form btn--form--black" type="submit">Löschen</button>
+                                        <input type="hidden" name="authenticity_token" value="HQAeqPf1D2khd4yAf-427kKNSDIcDS_khZjsJxbWNNXpzqI1o-sZbLOhMXZvtV6YgGVmHRAoxBzkIQ3E_22myQ" autocomplete="off" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="attendee-message-list__item">
+                                <b>CPSA-F® Voucher</b>
+                                <p>CODE</p>
+                                <b>14.07.2025</b>
+                                <div class='form-control'>
+                                    <a class="btn--form btn--form--secondary" href="#">Bearbeiten</a>
+                                    <form class="button_to" method="post" action="#">
+                                        <input type="hidden" name="_method" value="delete" autocomplete="off" />
+                                        <button class="btn--form btn--form--black" type="submit">Löschen</button>
+                                        <input type="hidden" name="authenticity_token" value="HQAeqPf1D2khd4yAf-427kKNSDIcDS_khZjsJxbWNNXpzqI1o-sZbLOhMXZvtV6YgGVmHRAoxBzkIQ3E_22myQ" autocomplete="off" />
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </turbo-frame>
+                </td>
             </tr>
             <tr>
                 <td>2</td>
@@ -180,6 +186,7 @@ description: Backend-View for Trainers shows details of a specific training
                 <td>hans.wurst@example.com</td>
                 <td>1.1.2022</td>
                 <td>TRAINING</td>
+                <td></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -187,6 +194,7 @@ description: Backend-View for Trainers shows details of a specific training
                 <td>hans.wurst@example.com</td>
                 <td>1.1.2022</td>
                 <td>TRAINING</td>
+                <td></td>
             </tr>
         </tbody>
     </table>
