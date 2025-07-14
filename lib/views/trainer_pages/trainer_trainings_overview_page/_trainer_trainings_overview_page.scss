@@ -242,21 +242,23 @@ turbo-frame {
 }
 
 .attendee-message-list {
-  padding-left: 0;
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: spacers.$spacer-sm;
+
+  padding-left: 0;
+
+  list-style: none;
 }
 
 .attendee-message-list__item {
   display: flex;
   flex-direction: column;
-  font-size: typography.$font-size-sm;
   gap: spacers.$spacer-2xs;
+  font-size: typography.$font-size-sm;
 
   p {
-    font-size: typography.$font-size-sm;
     margin-bottom: 0;
+    font-size: typography.$font-size-sm;
   }
 }
