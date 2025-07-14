@@ -91,7 +91,9 @@
   @extend %heading-font-bold;
 
   padding: spacers.$spacer-3xs spacers.$spacer-2xs;
+
   font-size: typography.$font-size-sm;
+  line-height: initial;
   text-decoration: none;
   text-transform: uppercase;
 }
