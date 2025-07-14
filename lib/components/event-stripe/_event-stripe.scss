@@ -138,6 +138,10 @@
   background-color: colors.$brand-tertiary;
 }
 
+.event-stripe__label--waitlist {
+  background-color: colors.$brand-gray-2;
+}
+
 .event-stripe__label--cancelled {
   background-color: colors.$brand-gray-2;
 }
