@@ -53,17 +53,6 @@
   background-size: 14px 10px;
 }
 
-auto-submit-form {
-  display: block;
-  width: 100%;
-}
-
-auto-submit-form.enhanced {
-  [type="submit"] {
-    display: none;
-  }
-}
-
 // For multiple filters
 .filter-dropdown-group {
   display: flex;

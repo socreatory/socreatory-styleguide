@@ -1,0 +1,10 @@
+auto-submit-form {
+  display: block;
+  width: 100%;
+
+  &.is-enhanced {
+    [type="submit"] {
+      display: none;
+    }
+  }
+}
