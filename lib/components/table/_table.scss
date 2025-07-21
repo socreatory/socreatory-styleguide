@@ -52,7 +52,7 @@
 
     padding: spacers.$spacer-xs;
     font-size: typography.$font-size-md;
-    line-height: typography.$heading-line-height;
+    line-height: typography.$paragraph-line-height;
     vertical-align: top;
 
     @include breakpoints.for-tablet-portrait-up {
@@ -62,7 +62,7 @@
     ul {
       margin-bottom: 0;
       font-size: typography.$font-size-md;
-      line-height: typography.$heading-line-height;
+      line-height: typography.$paragraph-line-height;
 
       @include breakpoints.for-tablet-portrait-up {
         font-size: typography.$font-size-sm;
