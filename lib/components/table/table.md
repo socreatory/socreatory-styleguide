@@ -10,6 +10,7 @@ description: Table
                     <th>Art</th>
                     <th>Anmeldungen</th>
                     <th>Status</th>
+                    <th>Listen</th>
                 </tr>
             </thead>
             <tbody>
@@ -19,6 +20,16 @@ description: Table
                     <td>online</td>
                     <td>7</td>
                     <td><span class="status status--green">findet online statt</span></td>
+                    <td>
+                        <ul>
+                            <li>
+                                Listenelement 1
+                            </li>
+                            <li>
+                                Listenelement 2
+                            </li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
                     <td><a href="#" class="table__link">TRAINING</a></td>
