@@ -63,6 +63,9 @@
       margin-bottom: 0;
       font-size: typography.$font-size-md;
       line-height: typography.$heading-line-height;
+
+      @include breakpoints.for-tablet-portrait-up {
+        font-size: typography.$font-size-sm;
     }
   }
 
