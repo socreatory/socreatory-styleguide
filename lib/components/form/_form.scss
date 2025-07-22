@@ -6,17 +6,12 @@
 .form {
   display: flex;
   flex-wrap: wrap;
+  gap: spacers.$spacer-sm;
   justify-content: space-between;
-
-  > * + * {
-    margin-top: spacers.$spacer-sm;
-  }
 }
 
 .form--spacing-sm {
-  > * + * {
-    margin-top: spacers.$spacer-xs;
-  }
+  gap: spacers.$spacer-xs;
 
   > * {
     margin-bottom: 0;
@@ -24,9 +19,7 @@
 }
 
 .form--spacing-xs {
-  > * + * {
-    margin-top: spacers.$spacer-2xs;
-  }
+  gap: spacers.$spacer-2xs;
 
   > * {
     margin-bottom: 0;

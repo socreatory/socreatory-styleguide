@@ -198,7 +198,7 @@ description: Backend-View for Trainers shows details of a specific training
             </tr>
         </tbody>
     </table>
-    <form class="form--spacing-sm" id="new_copy_event_info" novalidate="novalidate"
+    <form class="form form--spacing-sm" id="new_copy_event_info" novalidate="novalidate"
         action="/admin/copy_event_info?locale=de" accept-charset="UTF-8" method="post">
         <input type="hidden" name="authenticity_token"
             value="9dtszcFXzhXlpjqaiEmwLFyflpErfZplvh6UWItNkb2GyVhl4dCc6LVV09NbEv5P7LQTnwMM4oBLUrAymZSSQg"
@@ -268,7 +268,7 @@ description: Backend-View for Trainers shows details of a specific training
                         </turbo-frame>
                     </li>
                 </ul>
-                <form class="form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
+                <form class="form form--spacing-sm" id="edit_checklist_item_1" novalidate="novalidate"
                     action="/admin/events/77135c78eded/checklist_items/1?locale=de" accept-charset="UTF-8"
                     method="post">
                     <div class="form__field--sm">
