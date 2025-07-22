@@ -28,13 +28,25 @@
     color: colors.$brand-text;
 
     th {
-      padding: 0 spacers.$spacer-xs spacers.$spacer-xs;
+      padding: spacers.$spacer-xs;
       text-align: left;
+      vertical-align: top;
     }
 
     @include breakpoints.for-tablet-portrait-up {
       font-size: typography.$font-size-sm;
     }
+  }
+
+  .table-sortable-link {
+    @extend %heading-font-bold;
+
+    display: flex;
+    gap: spacers.$spacer-3xs;
+    align-items: center;
+
+    color: colors.$brand-text;
+    text-decoration: none;
   }
 
   tbody {

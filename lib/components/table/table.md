@@ -5,7 +5,13 @@ description: Table
         <table class="table">
             <thead>
                 <tr>
-                    <th>Name</th>
+                    <th>
+                        <a class="table-sortable-link" href="#"><span>eingetragen am</span>
+                            <svg fill="none" height="15" stroke="currentColor" viewBox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                            </svg>
+                        </a>
+                    </th>
                     <th>Datum</th>
                     <th>Art</th>
                     <th>Anmeldungen</th>
