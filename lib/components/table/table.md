@@ -2,7 +2,7 @@ title: Table
 description: Table
 
 ```html
-        <table class="table">
+        <table class="table table--striped">
             <thead>
                 <tr>
                     <th>

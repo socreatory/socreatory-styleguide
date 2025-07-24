@@ -9,6 +9,14 @@
   width: 100%;
 }
 
+.table--striped {
+  tbody {
+    tr:nth-child(odd) {
+      background-color: colors.$brand-white-1;
+    }
+  }
+}
+
 .table,
 .table-backend {
   border-collapse: collapse;
@@ -52,10 +60,6 @@
   tbody {
     tr {
       border-bottom: 1px solid colors.$brand-gray-2;
-
-      &:nth-child(odd) {
-        background-color: colors.$brand-white-1;
-      }
     }
   }
 
