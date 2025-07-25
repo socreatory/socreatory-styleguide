@@ -28,6 +28,16 @@ scroll-nav:defined {
   background-color: colors.$brand-secondary;
 }
 
+.navbar-wrapper--admin {
+  /* stylelint-disable-next-line color-no-hex */
+  background-color: colors.$brand-green-light;
+
+  .navigation-meta,
+  .navigation-login {
+    background-color: transparent;
+  }
+}
+
 .scroll-down {
   transform: translateY(calc(-100%));
 }

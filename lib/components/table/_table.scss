@@ -112,3 +112,25 @@
     margin-top: spacers.$spacer-3xs;
   }
 }
+
+.table-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.table-green {
+  /* stylelint-disable-next-line color-no-hex */
+  background-color: #dfffe9;
+}
+
+.table-red {
+  /* stylelint-disable-next-line color-no-hex */
+  background-color: #ffdccd;
+}
+
+.table-yellow {
+  /* stylelint-disable-next-line color-no-hex */
+  background-color: #fff0a4;
+}

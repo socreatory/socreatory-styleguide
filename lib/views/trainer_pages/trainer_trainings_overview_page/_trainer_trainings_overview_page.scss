@@ -262,3 +262,14 @@ turbo-frame {
     font-size: typography.$font-size-sm;
   }
 }
+
+.label--info {
+  @extend %heading-font-bold;
+
+  margin-bottom: 0;
+  padding: spacers.$spacer-2xs;
+
+  font-size: typography.$font-size-sm;
+  line-height: 1;
+  text-transform: uppercase;
+}
