@@ -24,6 +24,8 @@
   flex-wrap: nowrap;
   gap: spacers.$spacer-3xs;
   align-items: center;
+
+  color: colors.$brand-text;
 }
 
 .pill__number {

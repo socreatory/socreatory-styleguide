@@ -76,7 +76,7 @@
 }
 
 .modulekitcard:hover {
-  background-color: colors.$brand-primary-light;
+  border: 3px solid colors.$brand-primary;
 
   .pill__number--zero {
     background-color: colors.$brand-primary;
