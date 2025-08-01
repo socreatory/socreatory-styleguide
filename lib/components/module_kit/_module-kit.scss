@@ -16,6 +16,8 @@
   gap: spacers.$spacer-md;
   align-items: center;
 
+  padding: 0 spacers.$spacer-sm spacers.$spacer-sm spacers.$spacer-sm;
+
   @include breakpoints.for-tablet-landscape-up {
     flex-direction: row;
     gap: spacers.$spacer-lg;
@@ -65,10 +67,9 @@
 .modulekitcard {
   position: relative;
 
-  border: 3px solid transparent;
-
   min-height: 11rem;
   padding: spacers.$spacer-sm;
+  border: 3px solid transparent;
 
   list-style: none;
 
@@ -105,12 +106,12 @@
 }
 
 .modulekitcard--disabled {
-  background-color: rgba(colors.$brand-background-dark, 0.4);
+  background-color: rgba(colors.$brand-background-dark, 0.5);
 
   .modulekitcard__title,
   .modulekitcard__subtitle,
   .pills {
-    opacity: 0.2;
+    opacity: 0.5;
   }
 }
 
