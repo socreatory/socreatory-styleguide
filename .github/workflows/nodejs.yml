@@ -59,7 +59,7 @@ jobs:
       - name: Add robots.txt
         run: cp lib/robots.txt dist/robots.txt
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist
       - name: Deploy to GitHub Pages
