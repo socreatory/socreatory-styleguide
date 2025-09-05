@@ -19,12 +19,12 @@ scroll-nav:defined {
   .navbar-wrapper {
     position: fixed;
     z-index: 5;
-    width: 100%;
     transition: all 300ms ease;
   }
 }
 
 .navbar-wrapper {
+  width: 100%;
   background-color: colors.$brand-secondary;
 }
 
