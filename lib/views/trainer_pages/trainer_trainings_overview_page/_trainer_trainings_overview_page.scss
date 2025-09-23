@@ -233,7 +233,7 @@ turbo-frame {
   font-size: typography.$font-size-base;
 }
 
-.message-list__item__text {
+.message-list__item__text p {
   @extend %body-font-regular;
 
   margin-bottom: 0;
