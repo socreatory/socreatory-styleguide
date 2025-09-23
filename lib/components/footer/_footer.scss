@@ -23,9 +23,9 @@
 
   @include breakpoints.for-tablet-landscape-up {
     display: grid;
-    grid-column-gap: spacers.$spacer-2xl;
     grid-template-areas: "left right";
     grid-template-columns: 2fr 1fr;
+    column-gap: spacers.$spacer-2xl;
 
     padding: 0 spacers.$spacer-base;
   }

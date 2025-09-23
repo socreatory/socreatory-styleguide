@@ -39,10 +39,10 @@
   position: relative;
 
   display: grid;
-  grid-column-gap: spacers.$spacer-sm;
-  grid-row-gap: spacers.$spacer-xs;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: 3;
+  row-gap: spacers.$spacer-xs;
+  column-gap: spacers.$spacer-sm;
 
   width: 100%;
   padding: spacers.$spacer-xs spacers.$spacer-2xs spacers.$spacer-xs spacers.$spacer-sm;
@@ -149,13 +149,13 @@
 .event-stripe__body {
   display: inline-grid;
   grid-column-end: 3;
-  grid-column-gap: spacers.$spacer-xs;
   grid-column-start: 1;
   grid-row-end: 5;
-  grid-row-gap: spacers.$spacer-2xs;
   grid-row-start: 3;
   grid-template-columns: 1fr;
   grid-template-rows: 2;
+  row-gap: spacers.$spacer-2xs;
+  column-gap: spacers.$spacer-xs;
   align-items: center;
 
   @include breakpoints.for-tablet-portrait-up {

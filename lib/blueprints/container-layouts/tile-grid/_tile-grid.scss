@@ -4,13 +4,13 @@
 .tile-grid--sm,
 .tile-grid--md {
   display: grid;
-  grid-column-gap: spacers.$spacer-base;
-  grid-row-gap: spacers.$spacer-base;
+  row-gap: spacers.$spacer-base;
+  column-gap: spacers.$spacer-base;
   width: 100%;
 
   @include breakpoints.for-tablet-landscape-up {
-    grid-column-gap: spacers.$spacer-lg;
-    grid-row-gap: spacers.$spacer-lg;
+    row-gap: spacers.$spacer-lg;
+    column-gap: spacers.$spacer-lg;
   }
 }
 
@@ -23,26 +23,26 @@
 }
 
 .tile-grid-gap--sm {
-  grid-column-gap: spacers.$spacer-sm;
-  grid-row-gap: spacers.$spacer-sm;
+  row-gap: spacers.$spacer-sm;
+  column-gap: spacers.$spacer-sm;
 }
 
 .tile-grid-gap--base {
-  grid-column-gap: spacers.$spacer-base;
-  grid-row-gap: spacers.$spacer-base;
+  row-gap: spacers.$spacer-base;
+  column-gap: spacers.$spacer-base;
 }
 
 .tile-grid--3-col {
   display: grid;
-  grid-column-gap: spacers.$spacer-lg;
-  grid-row-gap: spacers.$spacer-base;
   grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+  row-gap: spacers.$spacer-base;
+  column-gap: spacers.$spacer-lg;
 
   width: 100%;
 
   @include breakpoints.for-tablet-landscape-up {
-    grid-column-gap: spacers.$spacer-2xl;
-    grid-row-gap: spacers.$spacer-lg;
+    row-gap: spacers.$spacer-lg;
+    column-gap: spacers.$spacer-2xl;
   }
 
   p {

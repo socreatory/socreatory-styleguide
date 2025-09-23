@@ -17,7 +17,6 @@ sub {
 p {
   font-size: typography.$font-size-base;
   hyphens: auto;
-  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
@@ -80,13 +79,13 @@ p {
 // Komponente zweispaltig Text&Text
 .text-text {
   display: grid;
-  grid-gap: 0;
   grid-template-columns: 1fr;
+  gap: 0;
   gap: spacers.$spacer-base;
 
   @include breakpoints.for-tablet-landscape-up {
-    grid-gap: spacers.$spacer-md;
     grid-template-columns: 1fr 2fr;
+    gap: spacers.$spacer-md;
   }
 }
 

@@ -5,12 +5,12 @@
 
 .img-text {
   display: grid;
-  grid-gap: spacers.$spacer-2xs;
   grid-template-columns: 1fr;
+  gap: spacers.$spacer-2xs;
 
   @include breakpoints.for-breakpoint-phone-up {
-    grid-gap: spacers.$spacer-lg;
     grid-template-columns: 1fr 2fr;
+    gap: spacers.$spacer-lg;
   }
 }
 

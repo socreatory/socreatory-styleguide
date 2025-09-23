@@ -9,8 +9,8 @@
   @extend %list-unstyled;
 
   display: grid;
-  grid-gap: spacers.$spacer-sm;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: spacers.$spacer-sm;
   align-content: center;
 }
 

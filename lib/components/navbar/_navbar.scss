@@ -57,10 +57,10 @@ scroll-nav:defined {
   width: 100%;
 
   @include for-navbar {
-    grid-column-gap: spacers.$spacer-xs;
     grid-template-areas: "logo nav";
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    column-gap: spacers.$spacer-xs;
 
     max-width: breakpoints.$desktop-xl;
     margin: 0 auto;
