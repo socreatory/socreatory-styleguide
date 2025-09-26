@@ -2,8 +2,7 @@
 @use "../../fundamentals/breakpoints";
 @use "../../fundamentals/colors";
 @use "../../fundamentals/typography";
-
-@import url("https://pretix.eu/socreatory/widget/v2.css");
+@use "./pretix_import";
 
 :root {
   /* stylelint-disable color-no-hex */

@@ -1,0 +1,1938 @@
+// source: https://pretix.eu/socreatory/widget/v2.css
+/* stylelint-disable*/
+:root {
+  --pretix-brand-primary: #000;
+  --pretix-brand-success: #2ee68a;
+  --pretix-brand-info: #5f9cd4;
+  --pretix-brand-warning: #ffb419;
+  --pretix-brand-danger: #c44f4f;
+  --pretix-link-contrast-color: #000;
+  --pretix-link-hover-contrast-color: black;
+  --pretix-brand-primary-lighten-5: #0d0d0d;
+  --pretix-brand-primary-lighten-20: #333;
+  --pretix-brand-primary-lighten-30: #4d4d4d;
+  --pretix-brand-primary-lighten-40: #666;
+  --pretix-brand-primary-lighten-48: #7a7a7a;
+  --pretix-brand-primary-lighten-50: gray;
+  --pretix-brand-primary-lighten-53: #878787;
+  --pretix-brand-primary-lighten-55: #8c8c8c;
+  --pretix-brand-primary-darken-5: black;
+  --pretix-brand-primary-darken-10: black;
+  --pretix-brand-primary-darken-15: black;
+  --pretix-brand-primary-darken-17: black;
+  --pretix-brand-primary-darken-20: black;
+  --pretix-brand-primary-darken-30: black;
+  --pretix-brand-primary-tint-90: #e6e6e6;
+  --pretix-brand-primary-shade-25: black;
+  --pretix-brand-primary-shade-42: black;
+  --pretix-brand-primary-lighten-28-saturate-20: #563939;
+  --pretix-brand-primary-lighten-23-saturate-2: #3c3939;
+  --pretix-brand-success-lighten-10: #5ceba4;
+  --pretix-brand-success-lighten-20: #89f1bd;
+  --pretix-brand-success-lighten-30: #b7f6d7;
+  --pretix-brand-success-lighten-35: #cdf9e3;
+  --pretix-brand-success-lighten-38: #dbfbeb;
+  --pretix-brand-success-lighten-40: #e4fcf0;
+  --pretix-brand-success-lighten-48: white;
+  --pretix-brand-success-lighten-50: white;
+  --pretix-brand-success-darken-5: #1be07d;
+  --pretix-brand-success-darken-10: #18c971;
+  --pretix-brand-success-darken-12: #17c06b;
+  --pretix-brand-success-darken-15: #15b264;
+  --pretix-brand-success-darken-17: #14a95f;
+  --pretix-brand-success-darken-20: #139b57;
+  --pretix-brand-success-darken-30: #0d6e3e;
+  --pretix-brand-success-tint-50: #97f3c5;
+  --pretix-brand-success-tint-85: #e0fbed;
+  --pretix-brand-success-shade-25: #23ad68;
+  --pretix-brand-success-shade-42: #1b8550;
+  --pretix-brand-info-lighten-23: #bbd5ed;
+  --pretix-brand-info-lighten-25: #c3daef;
+  --pretix-brand-info-lighten-30: #d8e7f4;
+  --pretix-brand-info-lighten-33: #e4eef8;
+  --pretix-brand-info-darken-5: #4b90cf;
+  --pretix-brand-info-darken-10: #3783c9;
+  --pretix-brand-info-darken-17: #2f71ae;
+  --pretix-brand-info-darken-20: #2b69a2;
+  --pretix-brand-info-darken-30: #214f79;
+  --pretix-brand-info-tint-85: #e7f0f9;
+  --pretix-brand-info-shade-25: #47759f;
+  --pretix-brand-info-shade-42: #375a7b;
+  --pretix-brand-warning-lighten-12: #ffc856;
+  --pretix-brand-warning-lighten-31: #ffe8b7;
+  --pretix-brand-warning-lighten-35: #fec;
+  --pretix-brand-warning-lighten-40: #fff7e5;
+  --pretix-brand-warning-lighten-41: #fff8ea;
+  --pretix-brand-warning-lighten-43: #fffcf4;
+  --pretix-brand-warning-darken-5: #ffac00;
+  --pretix-brand-warning-darken-10: #e59a00;
+  --pretix-brand-warning-darken-15: #cc8900;
+  --pretix-brand-warning-darken-17: #c18200;
+  --pretix-brand-warning-darken-20: #b27800;
+  --pretix-brand-warning-darken-25: #996700;
+  --pretix-brand-warning-darken-30: #7f5600;
+  --pretix-brand-warning-darken-35: #640;
+  --pretix-brand-warning-tint-50: #ffda8c;
+  --pretix-brand-warning-tint-85: #fff4dd;
+  --pretix-brand-warning-shade-25: #bf8713;
+  --pretix-brand-warning-shade-42: #94680f;
+  --pretix-brand-warning-transparent-60: rgb(255 180 25 / 40%);
+  --pretix-brand-danger-lighten-5: #ca6262;
+  --pretix-brand-danger-lighten-15: #d78888;
+  --pretix-brand-danger-lighten-25: #e4aeae;
+  --pretix-brand-danger-lighten-30: #eac2c2;
+  --pretix-brand-danger-lighten-33: #eecdcd;
+  --pretix-brand-danger-lighten-43: #fbf3f3;
+  --pretix-brand-danger-lighten-45: #fefbfb;
+  --pretix-brand-danger-darken-5: #bb3f3f;
+  --pretix-brand-danger-darken-10: #a83838;
+  --pretix-brand-danger-darken-15: #953232;
+  --pretix-brand-danger-darken-17: #8d2f2f;
+  --pretix-brand-danger-darken-20: #822b2b;
+  --pretix-brand-danger-darken-30: #5b1f1f;
+  --pretix-brand-danger-tint-50: #e2a7a7;
+  --pretix-brand-danger-tint-85: #f6e5e5;
+  --pretix-brand-danger-shade-25: #933b3b;
+  --pretix-brand-danger-shade-42: #722e2e;
+  --pretix-border-radius-base: 0;
+  --pretix-border-radius-large: 0;
+  --pretix-border-radius-small: 0;
+}
+
+.pretix-widget-hidden {
+  display: none;
+}
+
+.pretix-widget a,
+.pretix-widget-alert-box a {
+  color: var(--pretix-brand-primary);
+  text-decoration: underline;
+}
+
+.pretix-widget a:hover,
+.pretix-widget a:focus,
+.pretix-widget-alert-box a:hover,
+.pretix-widget-alert-box a:focus {
+  color: var(--pretix-brand-primary-darken-15);
+  text-decoration: underline;
+}
+
+.pretix-widget a:focus,
+.pretix-widget-alert-box a:focus {
+  z-index: 999;
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget img,
+.pretix-widget-alert-box img {
+  border: 0;
+}
+
+.pretix-widget b,
+.pretix-widget strong,
+.pretix-widget-alert-box b,
+.pretix-widget-alert-box strong {
+  font-weight: bold;
+}
+
+.pretix-widget h3,
+.pretix-widget-alert-box h3 {
+  padding: 0 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pretix-widget button,
+.pretix-widget input[type="button"],
+.pretix-widget a.pretix-widget-button,
+.pretix-widget-alert-box button,
+.pretix-widget-alert-box input[type="button"],
+.pretix-widget-alert-box a.pretix-widget-button {
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+
+  overflow: visible;
+  display: inline-block;
+
+  margin-bottom: 0;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-color: var(--pretix-brand-primary-darken-5);
+  border-radius: var(--pretix-border-radius-base);
+
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  background-color: var(--pretix-brand-primary);
+  background-image: none;
+}
+
+.pretix-widget button:focus,
+.pretix-widget button.focus,
+.pretix-widget input[type="button"]:focus,
+.pretix-widget input[type="button"].focus,
+.pretix-widget a.pretix-widget-button:focus,
+.pretix-widget a.pretix-widget-button.focus,
+.pretix-widget-alert-box button:focus,
+.pretix-widget-alert-box button.focus,
+.pretix-widget-alert-box input[type="button"]:focus,
+.pretix-widget-alert-box input[type="button"].focus,
+.pretix-widget-alert-box a.pretix-widget-button:focus,
+.pretix-widget-alert-box a.pretix-widget-button.focus {
+  border-color: var(--pretix-brand-primary-darken-30);
+  color: #fff;
+  background-color: var(--pretix-brand-primary-darken-10);
+}
+
+.pretix-widget button:hover,
+.pretix-widget input[type="button"]:hover,
+.pretix-widget a.pretix-widget-button:hover,
+.pretix-widget-alert-box button:hover,
+.pretix-widget-alert-box input[type="button"]:hover,
+.pretix-widget-alert-box a.pretix-widget-button:hover {
+  border-color: var(--pretix-brand-primary-darken-17);
+  color: #fff;
+  background-color: var(--pretix-brand-primary-darken-10);
+}
+
+.pretix-widget button:active,
+.pretix-widget button.active,
+.open > .pretix-widget button.dropdown-toggle,
+.pretix-widget input[type="button"]:active,
+.pretix-widget input[type="button"].active,
+.open > .pretix-widget input[type="button"].dropdown-toggle,
+.pretix-widget a.pretix-widget-button:active,
+.pretix-widget a.pretix-widget-button.active,
+.open > .pretix-widget a.pretix-widget-button.dropdown-toggle,
+.pretix-widget-alert-box button:active,
+.pretix-widget-alert-box button.active,
+.open > .pretix-widget-alert-box button.dropdown-toggle,
+.pretix-widget-alert-box input[type="button"]:active,
+.pretix-widget-alert-box input[type="button"].active,
+.open > .pretix-widget-alert-box input[type="button"].dropdown-toggle,
+.pretix-widget-alert-box a.pretix-widget-button:active,
+.pretix-widget-alert-box a.pretix-widget-button.active,
+.open > .pretix-widget-alert-box a.pretix-widget-button.dropdown-toggle {
+  border-color: var(--pretix-brand-primary-darken-17);
+  color: #fff;
+  background-color: var(--pretix-brand-primary-darken-10);
+  background-image: none;
+}
+
+.pretix-widget button:active:hover,
+.pretix-widget button:active:focus,
+.pretix-widget button:active.focus,
+.pretix-widget button.active:hover,
+.pretix-widget button.active:focus,
+.pretix-widget button.active.focus,
+.open > .pretix-widget button.dropdown-toggle:hover,
+.open > .pretix-widget button.dropdown-toggle:focus,
+.open > .pretix-widget button.dropdown-toggle.focus,
+.pretix-widget input[type="button"]:active:hover,
+.pretix-widget input[type="button"]:active:focus,
+.pretix-widget input[type="button"]:active.focus,
+.pretix-widget input[type="button"].active:hover,
+.pretix-widget input[type="button"].active:focus,
+.pretix-widget input[type="button"].active.focus,
+.open > .pretix-widget input[type="button"].dropdown-toggle:hover,
+.open > .pretix-widget input[type="button"].dropdown-toggle:focus,
+.open > .pretix-widget input[type="button"].dropdown-toggle.focus,
+.pretix-widget a.pretix-widget-button:active:hover,
+.pretix-widget a.pretix-widget-button:active:focus,
+.pretix-widget a.pretix-widget-button:active.focus,
+.pretix-widget a.pretix-widget-button.active:hover,
+.pretix-widget a.pretix-widget-button.active:focus,
+.pretix-widget a.pretix-widget-button.active.focus,
+.open > .pretix-widget a.pretix-widget-button.dropdown-toggle:hover,
+.open > .pretix-widget a.pretix-widget-button.dropdown-toggle:focus,
+.open > .pretix-widget a.pretix-widget-button.dropdown-toggle.focus,
+.pretix-widget-alert-box button:active:hover,
+.pretix-widget-alert-box button:active:focus,
+.pretix-widget-alert-box button:active.focus,
+.pretix-widget-alert-box button.active:hover,
+.pretix-widget-alert-box button.active:focus,
+.pretix-widget-alert-box button.active.focus,
+.open > .pretix-widget-alert-box button.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box button.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box button.dropdown-toggle.focus,
+.pretix-widget-alert-box input[type="button"]:active:hover,
+.pretix-widget-alert-box input[type="button"]:active:focus,
+.pretix-widget-alert-box input[type="button"]:active.focus,
+.pretix-widget-alert-box input[type="button"].active:hover,
+.pretix-widget-alert-box input[type="button"].active:focus,
+.pretix-widget-alert-box input[type="button"].active.focus,
+.open > .pretix-widget-alert-box input[type="button"].dropdown-toggle:hover,
+.open > .pretix-widget-alert-box input[type="button"].dropdown-toggle:focus,
+.open > .pretix-widget-alert-box input[type="button"].dropdown-toggle.focus,
+.pretix-widget-alert-box a.pretix-widget-button:active:hover,
+.pretix-widget-alert-box a.pretix-widget-button:active:focus,
+.pretix-widget-alert-box a.pretix-widget-button:active.focus,
+.pretix-widget-alert-box a.pretix-widget-button.active:hover,
+.pretix-widget-alert-box a.pretix-widget-button.active:focus,
+.pretix-widget-alert-box a.pretix-widget-button.active.focus,
+.open > .pretix-widget-alert-box a.pretix-widget-button.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box a.pretix-widget-button.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box a.pretix-widget-button.dropdown-toggle.focus {
+  border-color: var(--pretix-brand-primary-darken-17);
+  color: #fff;
+  background-color: var(--pretix-brand-primary-darken-17);
+}
+
+.pretix-widget button.disabled:hover,
+.pretix-widget button.disabled:focus,
+.pretix-widget button.disabled.focus,
+.pretix-widget button[disabled]:hover,
+.pretix-widget button[disabled]:focus,
+.pretix-widget button[disabled].focus,
+fieldset[disabled] .pretix-widget button:hover,
+fieldset[disabled] .pretix-widget button:focus,
+fieldset[disabled] .pretix-widget button.focus,
+.pretix-widget input[type="button"].disabled:hover,
+.pretix-widget input[type="button"].disabled:focus,
+.pretix-widget input[type="button"].disabled.focus,
+.pretix-widget input[type="button"][disabled]:hover,
+.pretix-widget input[type="button"][disabled]:focus,
+.pretix-widget input[type="button"][disabled].focus,
+fieldset[disabled] .pretix-widget input[type="button"]:hover,
+fieldset[disabled] .pretix-widget input[type="button"]:focus,
+fieldset[disabled] .pretix-widget input[type="button"].focus,
+.pretix-widget a.pretix-widget-button.disabled:hover,
+.pretix-widget a.pretix-widget-button.disabled:focus,
+.pretix-widget a.pretix-widget-button.disabled.focus,
+.pretix-widget a.pretix-widget-button[disabled]:hover,
+.pretix-widget a.pretix-widget-button[disabled]:focus,
+.pretix-widget a.pretix-widget-button[disabled].focus,
+fieldset[disabled] .pretix-widget a.pretix-widget-button:hover,
+fieldset[disabled] .pretix-widget a.pretix-widget-button:focus,
+fieldset[disabled] .pretix-widget a.pretix-widget-button.focus,
+.pretix-widget-alert-box button.disabled:hover,
+.pretix-widget-alert-box button.disabled:focus,
+.pretix-widget-alert-box button.disabled.focus,
+.pretix-widget-alert-box button[disabled]:hover,
+.pretix-widget-alert-box button[disabled]:focus,
+.pretix-widget-alert-box button[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box button:hover,
+fieldset[disabled] .pretix-widget-alert-box button:focus,
+fieldset[disabled] .pretix-widget-alert-box button.focus,
+.pretix-widget-alert-box input[type="button"].disabled:hover,
+.pretix-widget-alert-box input[type="button"].disabled:focus,
+.pretix-widget-alert-box input[type="button"].disabled.focus,
+.pretix-widget-alert-box input[type="button"][disabled]:hover,
+.pretix-widget-alert-box input[type="button"][disabled]:focus,
+.pretix-widget-alert-box input[type="button"][disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"]:hover,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"]:focus,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"].focus,
+.pretix-widget-alert-box a.pretix-widget-button.disabled:hover,
+.pretix-widget-alert-box a.pretix-widget-button.disabled:focus,
+.pretix-widget-alert-box a.pretix-widget-button.disabled.focus,
+.pretix-widget-alert-box a.pretix-widget-button[disabled]:hover,
+.pretix-widget-alert-box a.pretix-widget-button[disabled]:focus,
+.pretix-widget-alert-box a.pretix-widget-button[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button:hover,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button:focus,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button.focus {
+  border-color: var(--pretix-brand-primary-darken-5);
+  background-color: var(--pretix-brand-primary);
+}
+
+.pretix-widget button .badge,
+.pretix-widget input[type="button"] .badge,
+.pretix-widget a.pretix-widget-button .badge,
+.pretix-widget-alert-box button .badge,
+.pretix-widget-alert-box input[type="button"] .badge,
+.pretix-widget-alert-box a.pretix-widget-button .badge {
+  color: var(--pretix-brand-primary);
+  background-color: #fff;
+}
+
+.pretix-widget button:focus,
+.pretix-widget button.focus,
+.pretix-widget button:active:focus,
+.pretix-widget button:active.focus,
+.pretix-widget button.active:focus,
+.pretix-widget button.active.focus,
+.pretix-widget input[type="button"]:focus,
+.pretix-widget input[type="button"].focus,
+.pretix-widget input[type="button"]:active:focus,
+.pretix-widget input[type="button"]:active.focus,
+.pretix-widget input[type="button"].active:focus,
+.pretix-widget input[type="button"].active.focus,
+.pretix-widget a.pretix-widget-button:focus,
+.pretix-widget a.pretix-widget-button.focus,
+.pretix-widget a.pretix-widget-button:active:focus,
+.pretix-widget a.pretix-widget-button:active.focus,
+.pretix-widget a.pretix-widget-button.active:focus,
+.pretix-widget a.pretix-widget-button.active.focus,
+.pretix-widget-alert-box button:focus,
+.pretix-widget-alert-box button.focus,
+.pretix-widget-alert-box button:active:focus,
+.pretix-widget-alert-box button:active.focus,
+.pretix-widget-alert-box button.active:focus,
+.pretix-widget-alert-box button.active.focus,
+.pretix-widget-alert-box input[type="button"]:focus,
+.pretix-widget-alert-box input[type="button"].focus,
+.pretix-widget-alert-box input[type="button"]:active:focus,
+.pretix-widget-alert-box input[type="button"]:active.focus,
+.pretix-widget-alert-box input[type="button"].active:focus,
+.pretix-widget-alert-box input[type="button"].active.focus,
+.pretix-widget-alert-box a.pretix-widget-button:focus,
+.pretix-widget-alert-box a.pretix-widget-button.focus,
+.pretix-widget-alert-box a.pretix-widget-button:active:focus,
+.pretix-widget-alert-box a.pretix-widget-button:active.focus,
+.pretix-widget-alert-box a.pretix-widget-button.active:focus,
+.pretix-widget-alert-box a.pretix-widget-button.active.focus {
+  z-index: 999;
+
+  text-decoration: none;
+
+  outline: 5px auto -webkit-focus-ring-color;
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget button.disabled,
+.pretix-widget button[disabled],
+fieldset[disabled] .pretix-widget button,
+.pretix-widget input[type="button"].disabled,
+.pretix-widget input[type="button"][disabled],
+fieldset[disabled] .pretix-widget input[type="button"],
+.pretix-widget a.pretix-widget-button.disabled,
+.pretix-widget a.pretix-widget-button[disabled],
+fieldset[disabled] .pretix-widget a.pretix-widget-button,
+.pretix-widget-alert-box button.disabled,
+.pretix-widget-alert-box button[disabled],
+fieldset[disabled] .pretix-widget-alert-box button,
+.pretix-widget-alert-box input[type="button"].disabled,
+.pretix-widget-alert-box input[type="button"][disabled],
+fieldset[disabled] .pretix-widget-alert-box input[type="button"],
+.pretix-widget-alert-box a.pretix-widget-button.disabled,
+.pretix-widget-alert-box a.pretix-widget-button[disabled],
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+
+.pretix-widget button.pretix-widget-btn-default,
+.pretix-widget input[type="button"].pretix-widget-btn-default,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default,
+.pretix-widget-alert-box button.pretix-widget-btn-default,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default {
+  border-color: #949494;
+  color: #333;
+  background-color: #fff;
+}
+
+.pretix-widget button.pretix-widget-btn-default:focus,
+.pretix-widget button.pretix-widget-btn-default.focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default:focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default.focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default:focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default.focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.focus {
+  border-color: #545454;
+  color: #333;
+  background-color: #e6e6e6;
+}
+
+.pretix-widget button.pretix-widget-btn-default:hover,
+.pretix-widget input[type="button"].pretix-widget-btn-default:hover,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:hover,
+.pretix-widget-alert-box button.pretix-widget-btn-default:hover,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:hover,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:hover {
+  border-color: #757575;
+  color: #333;
+  background-color: #e6e6e6;
+}
+
+.pretix-widget button.pretix-widget-btn-default:active,
+.pretix-widget button.pretix-widget-btn-default.active,
+.open > .pretix-widget button.pretix-widget-btn-default.dropdown-toggle,
+.pretix-widget input[type="button"].pretix-widget-btn-default:active,
+.pretix-widget input[type="button"].pretix-widget-btn-default.active,
+.open > .pretix-widget input[type="button"].pretix-widget-btn-default.dropdown-toggle,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:active,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.active,
+.open > .pretix-widget a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle,
+.pretix-widget-alert-box button.pretix-widget-btn-default:active,
+.pretix-widget-alert-box button.pretix-widget-btn-default.active,
+.open > .pretix-widget-alert-box button.pretix-widget-btn-default.dropdown-toggle,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:active,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.active,
+.open > .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.dropdown-toggle,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:active,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.active,
+.open > .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle {
+  border-color: #757575;
+  color: #333;
+  background-color: #e6e6e6;
+  background-image: none;
+}
+
+.pretix-widget button.pretix-widget-btn-default:active:hover,
+.pretix-widget button.pretix-widget-btn-default:active:focus,
+.pretix-widget button.pretix-widget-btn-default:active.focus,
+.pretix-widget button.pretix-widget-btn-default.active:hover,
+.pretix-widget button.pretix-widget-btn-default.active:focus,
+.pretix-widget button.pretix-widget-btn-default.active.focus,
+.open > .pretix-widget button.pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget button.pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget button.pretix-widget-btn-default.dropdown-toggle.focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default:active:hover,
+.pretix-widget input[type="button"].pretix-widget-btn-default:active:focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default:active.focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default.active:hover,
+.pretix-widget input[type="button"].pretix-widget-btn-default.active:focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default.active.focus,
+.open > .pretix-widget input[type="button"].pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget input[type="button"].pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget input[type="button"].pretix-widget-btn-default.dropdown-toggle.focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:active:hover,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:active:focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default:active.focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.active:hover,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.active:focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.active.focus,
+.open > .pretix-widget a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle.focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default:active:hover,
+.pretix-widget-alert-box button.pretix-widget-btn-default:active:focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default:active.focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default.active:hover,
+.pretix-widget-alert-box button.pretix-widget-btn-default.active:focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default.active.focus,
+.open > .pretix-widget-alert-box button.pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box button.pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box button.pretix-widget-btn-default.dropdown-toggle.focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:active:hover,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:active:focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:active.focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.active:hover,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.active:focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.active.focus,
+.open > .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.dropdown-toggle.focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:active:hover,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:active:focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:active.focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.active:hover,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.active:focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.active.focus,
+.open > .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.dropdown-toggle.focus {
+  border-color: #757575;
+  color: #333;
+  background-color: #757575;
+}
+
+.pretix-widget button.pretix-widget-btn-default.disabled:hover,
+.pretix-widget button.pretix-widget-btn-default.disabled:focus,
+.pretix-widget button.pretix-widget-btn-default.disabled.focus,
+.pretix-widget button.pretix-widget-btn-default[disabled]:hover,
+.pretix-widget button.pretix-widget-btn-default[disabled]:focus,
+.pretix-widget button.pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget button.pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget button.pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget button.pretix-widget-btn-default.focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default.disabled:hover,
+.pretix-widget input[type="button"].pretix-widget-btn-default.disabled:focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default.disabled.focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default[disabled]:hover,
+.pretix-widget input[type="button"].pretix-widget-btn-default[disabled]:focus,
+.pretix-widget input[type="button"].pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget input[type="button"].pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget input[type="button"].pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget input[type="button"].pretix-widget-btn-default.focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.disabled:hover,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.disabled:focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default.disabled.focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default[disabled]:hover,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default[disabled]:focus,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget a.pretix-widget-button.pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget a.pretix-widget-button.pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget a.pretix-widget-button.pretix-widget-btn-default.focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default.disabled:hover,
+.pretix-widget-alert-box button.pretix-widget-btn-default.disabled:focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default.disabled.focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default[disabled]:hover,
+.pretix-widget-alert-box button.pretix-widget-btn-default[disabled]:focus,
+.pretix-widget-alert-box button.pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box button.pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget-alert-box button.pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget-alert-box button.pretix-widget-btn-default.focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.disabled:hover,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.disabled:focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.disabled.focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default[disabled]:hover,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default[disabled]:focus,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget-alert-box input[type="button"].pretix-widget-btn-default.focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.disabled:hover,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.disabled:focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.disabled.focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default[disabled]:hover,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default[disabled]:focus,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:hover,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default:focus,
+fieldset[disabled] .pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default.focus {
+  border-color: #949494;
+  background-color: #fff;
+}
+
+.pretix-widget button.pretix-widget-btn-default .badge,
+.pretix-widget input[type="button"].pretix-widget-btn-default .badge,
+.pretix-widget a.pretix-widget-button.pretix-widget-btn-default .badge,
+.pretix-widget-alert-box button.pretix-widget-btn-default .badge,
+.pretix-widget-alert-box input[type="button"].pretix-widget-btn-default .badge,
+.pretix-widget-alert-box a.pretix-widget-button.pretix-widget-btn-default .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox {
+  cursor: pointer;
+
+  position: relative;
+
+  box-sizing: border-box;
+  min-height: 32px;
+  padding: 6px 24px;
+  border-color: #949494;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--pretix-border-radius-base);
+
+  color: #333;
+
+  background-color: #fff;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:focus,
+.pretix-widget label.pretix-widget-btn-checkbox.focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.focus {
+  border-color: #545454;
+  color: #333;
+  background-color: #e6e6e6;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:hover,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:hover {
+  border-color: #757575;
+  color: #333;
+  background-color: #e6e6e6;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:active,
+.pretix-widget label.pretix-widget-btn-checkbox.active,
+.open > .pretix-widget label.pretix-widget-btn-checkbox.dropdown-toggle,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:active,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.active,
+.open > .pretix-widget-alert-box label.pretix-widget-btn-checkbox.dropdown-toggle {
+  border-color: #757575;
+  color: #333;
+  background-color: #e6e6e6;
+  background-image: none;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:active:hover,
+.pretix-widget label.pretix-widget-btn-checkbox:active:focus,
+.pretix-widget label.pretix-widget-btn-checkbox:active.focus,
+.pretix-widget label.pretix-widget-btn-checkbox.active:hover,
+.pretix-widget label.pretix-widget-btn-checkbox.active:focus,
+.pretix-widget label.pretix-widget-btn-checkbox.active.focus,
+.open > .pretix-widget label.pretix-widget-btn-checkbox.dropdown-toggle:hover,
+.open > .pretix-widget label.pretix-widget-btn-checkbox.dropdown-toggle:focus,
+.open > .pretix-widget label.pretix-widget-btn-checkbox.dropdown-toggle.focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:active:hover,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:active:focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:active.focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.active:hover,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.active:focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.active.focus,
+.open > .pretix-widget-alert-box label.pretix-widget-btn-checkbox.dropdown-toggle:hover,
+.open > .pretix-widget-alert-box label.pretix-widget-btn-checkbox.dropdown-toggle:focus,
+.open > .pretix-widget-alert-box label.pretix-widget-btn-checkbox.dropdown-toggle.focus {
+  border-color: #757575;
+  color: #333;
+  background-color: #757575;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox.disabled:hover,
+.pretix-widget label.pretix-widget-btn-checkbox.disabled:focus,
+.pretix-widget label.pretix-widget-btn-checkbox.disabled.focus,
+.pretix-widget label.pretix-widget-btn-checkbox[disabled]:hover,
+.pretix-widget label.pretix-widget-btn-checkbox[disabled]:focus,
+.pretix-widget label.pretix-widget-btn-checkbox[disabled].focus,
+fieldset[disabled] .pretix-widget label.pretix-widget-btn-checkbox:hover,
+fieldset[disabled] .pretix-widget label.pretix-widget-btn-checkbox:focus,
+fieldset[disabled] .pretix-widget label.pretix-widget-btn-checkbox.focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.disabled:hover,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.disabled:focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox.disabled.focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox[disabled]:hover,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox[disabled]:focus,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox[disabled].focus,
+fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox:hover,
+fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox:focus,
+fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.focus {
+  border-color: #949494;
+  background-color: #fff;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox .badge,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox input,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox input {
+  position: absolute;
+  left: 10px;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:has(input:checked),
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:has(input:checked) {
+  border-color: #adadad;
+  background-color: #e6e6e6;
+}
+
+.pretix-widget label.pretix-widget-btn-checkbox:focus-within,
+.pretix-widget-alert-box label.pretix-widget-btn-checkbox:focus-within {
+  z-index: 999;
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget .pretix-widget-icon-cart,
+.pretix-widget-alert-box .pretix-widget-icon-cart {
+  display: inline-block;
+
+  width: 1em;
+  height: 1em;
+
+  vertical-align: text-bottom;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.267 6.756c0-.312-.202-.563-.453-.563-.252 0-.454.251-.454.563 0 .312.202.563.454.563.251 0 .453-.251.453-.563Zm3.174 0c0-.312-.202-.563-.454-.563-.251 0-.453.251-.453.563 0 .312.202.563.453.563.252 0 .454-.251.454-.563Zm.453-4.785c0-.154-.103-.282-.227-.282H1.413c-.035-.211-.039-.563-.28-.563H.227c-.124 0-.227.128-.227.282 0 .153.103.281.227.281h.722l.627 3.62c-.049.127-.216.466-.216.603 0 .153.103.281.227.281h3.627c.124 0 .227-.128.227-.281 0-.154-.103-.282-.227-.282H1.955c.036-.088.085-.18.085-.281 0-.102-.032-.212-.046-.308l3.698-.537c.117-.018.202-.141.202-.281V1.971Z' transform='matrix(2.52069 0 0 2.02994 -.035 -.523)'/%3E%3C/svg%3E%0A");
+
+  fill: #333;
+}
+
+.pretix-widget input:checked + .pretix-widget-icon-cart,
+.pretix-widget-alert-box input:checked + .pretix-widget-icon-cart {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.534 3.097a.317.317 0 0 1-.067.197L3.56 4.42a.207.207 0 0 1-.16.084.207.207 0 0 1-.159-.084l-.907-1.126a.317.317 0 0 1-.067-.197c0-.154.103-.282.227-.282.06 0 .117.031.159.084l.521.642V2.252c0-.154.102-.281.226-.281.124 0 .227.127.227.281v1.289l.521-.642a.205.205 0 0 1 .159-.084c.124 0 .227.128.227.282ZM2.267 6.756c0-.312-.202-.563-.453-.563-.252 0-.454.251-.454.563 0 .312.202.563.454.563.251 0 .453-.251.453-.563Zm3.174 0c0-.312-.202-.563-.454-.563-.251 0-.453.251-.453.563 0 .312.202.563.453.563.252 0 .454-.251.454-.563Zm.453-4.785c0-.154-.103-.282-.227-.282H1.413c-.035-.211-.039-.563-.28-.563H.227c-.124 0-.227.128-.227.282 0 .153.103.281.227.281h.722l.627 3.62c-.049.127-.216.466-.216.603 0 .153.103.281.227.281h3.627c.124 0 .227-.128.227-.281 0-.154-.103-.282-.227-.282H1.955c.036-.088.085-.18.085-.281 0-.102-.032-.212-.046-.308l3.698-.537c.117-.018.202-.141.202-.281V1.971Z' transform='matrix(2.52069 0 0 2.02994 -.035 -.523)'/%3E%3C/svg%3E%0A");
+}
+
+.pretix-widget input[type="text"],
+.pretix-widget input[type="number"],
+.pretix-widget select,
+.pretix-widget-alert-box input[type="text"],
+.pretix-widget-alert-box input[type="number"],
+.pretix-widget-alert-box select {
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid #949494;
+  border-radius: var(--pretix-border-radius-base);
+
+  line-height: normal;
+  color: #555;
+
+  background-color: #fff;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 7.5%);
+
+  transition:
+    border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+}
+
+.pretix-widget input[type="text"]::placeholder,
+.pretix-widget input[type="number"]::placeholder,
+.pretix-widget select::placeholder,
+.pretix-widget-alert-box input[type="text"]::placeholder,
+.pretix-widget-alert-box input[type="number"]::placeholder,
+.pretix-widget-alert-box select::placeholder {
+  color: #b3b3b3;
+  opacity: 1;
+}
+
+.pretix-widget input[type="text"]:input-placeholder,
+.pretix-widget input[type="number"]:input-placeholder,
+.pretix-widget select:input-placeholder,
+.pretix-widget-alert-box input[type="text"]:input-placeholder,
+.pretix-widget-alert-box input[type="number"]:input-placeholder,
+.pretix-widget-alert-box select:input-placeholder {
+  color: #b3b3b3;
+}
+
+.pretix-widget input[type="text"]::input-placeholder,
+.pretix-widget input[type="number"]::input-placeholder,
+.pretix-widget select::input-placeholder,
+.pretix-widget-alert-box input[type="text"]::input-placeholder,
+.pretix-widget-alert-box input[type="number"]::input-placeholder,
+.pretix-widget-alert-box select::input-placeholder {
+  color: #b3b3b3;
+}
+
+.pretix-widget input[type="text"]:focus,
+.pretix-widget input[type="number"]:focus,
+.pretix-widget select:focus,
+.pretix-widget-alert-box input[type="text"]:focus,
+.pretix-widget-alert-box input[type="number"]:focus,
+.pretix-widget-alert-box select:focus {
+  z-index: 999;
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget input[type="number"],
+.pretix-widget-alert-box input[type="number"] {
+  padding-right: 0;
+}
+
+.pretix-widget input[type="checkbox"],
+.pretix-widget input[type="radio"],
+.pretix-widget-alert-box input[type="checkbox"],
+.pretix-widget-alert-box input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.pretix-widget input[type="checkbox"]:focus,
+.pretix-widget input[type="radio"]:focus,
+.pretix-widget-alert-box input[type="checkbox"]:focus,
+.pretix-widget-alert-box input[type="radio"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.pretix-widget-use-custom-spinners input[type="number"] {
+  padding-right: 12px;
+  appearance: textfield;
+}
+
+.pretix-widget-use-custom-spinners input[type="number"]::-webkit-outer-spin-button,
+.pretix-widget-use-custom-spinners input[type="number"]::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.pretix-widget {
+  position: relative;
+
+  min-height: 208px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: var(--pretix-border-radius-base);
+}
+
+.pretix-widget .pretix-widget-resume-button {
+  margin-left: 10px;
+}
+
+.pretix-widget .pretix-widget-clickable {
+  cursor: pointer;
+}
+
+.pretix-widget .pretix-widget-info-message {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid var(--pretix-brand-info);
+  border-radius: var(--pretix-border-radius-base);
+
+  color: var(--pretix-brand-info-darken-20);
+  text-align: left;
+
+  background-color: white;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-info-message {
+  flex-direction: column;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-resume-button {
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.pretix-widget .pretix-widget-error-message {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid var(--pretix-brand-danger);
+  border-radius: var(--pretix-border-radius-base);
+
+  color: var(--pretix-brand-danger-darken-5);
+  text-align: center;
+
+  background-color: white;
+}
+
+.pretix-widget .pretix-widget-error-action {
+  padding: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+
+  background: rgb(255 255 255 / 80%);
+}
+
+@keyframes pretix-widget-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pretix-widget-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pretix-widget-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pretix-widget .pretix-widget-loading svg {
+  position: absolute;
+  position: sticky;
+  position: sticky;
+  top: 50%;
+  top: min(50vh, 50%);
+
+  margin: 40px;
+  margin-top: -64px;
+
+  animation: pretix-widget-spin 6s linear infinite;
+}
+
+.pretix-widget .pretix-widget-item-row,
+.pretix-widget .pretix-widget-category {
+  clear: both;
+}
+
+.pretix-widget .pretix-widget-item-title {
+  font-weight: bold;
+}
+
+.pretix-widget .pretix-widget-item-row {
+  padding: 10px 0;
+}
+
+.pretix-widget .pretix-widget-category {
+  margin: 10px 0;
+}
+
+.pretix-widget .pretix-widget-category-description {
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-category-name {
+  margin: 10px 0 0;
+}
+
+.pretix-widget .pretix-widget-item-info-col {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-item-price-col,
+.pretix-widget .pretix-widget-item-availability-col {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-item-description p,
+.pretix-widget .pretix-widget-item-meta {
+  margin: 0;
+}
+
+.pretix-widget .pretix-widget-item-price-col {
+  text-align: right;
+}
+
+.pretix-widget del.pretix-widget-pricebox-original-price {
+  color: #737373;
+}
+
+.pretix-widget ins.pretix-widget-pricebox-new-price {
+  font-size: 120%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pretix-widget .pretix-widget-clear {
+  clear: both;
+}
+
+.pretix-widget .pretix-widget-category-description p {
+  margin: 0 0 10px;
+}
+
+.pretix-widget .pretix-widget-pricebox-tax {
+  display: block;
+}
+
+.pretix-widget .pretix-widget-item-count-group {
+  display: flex;
+}
+
+.pretix-widget .pretix-widget-item-count-group input {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.pretix-widget .pretix-widget-item-count-group button span {
+  line-height: 0.5;
+  vertical-align: 25%;
+}
+
+.pretix-widget .pretix-widget-item-count-dec {
+  z-index: 2;
+  width: 2.5em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pretix-widget .pretix-widget-item-count-inc {
+  width: 2.5em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.pretix-widget .pretix-widget-item-count-multiple {
+  display: block;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-pricebox-price-input {
+  display: inline;
+  box-sizing: border-box;
+  width: 100px;
+  text-align: right;
+}
+
+.pretix-widget .pretix-widget-item-count-single-label {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-attribution {
+  padding: 10px 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-item-picture-link {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.pretix-widget .pretix-widget-item-picture {
+  max-width: 100%;
+}
+
+.pretix-widget .pretix-widget-action {
+  box-sizing: border-box;
+  width: 25%;
+  margin-left: 75%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-action button {
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-voucher-text {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-voucher-headline {
+  margin: 10px 0 0;
+}
+
+.pretix-widget .pretix-widget-voucher-input-wrap {
+  float: left;
+  box-sizing: border-box;
+  width: 75%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-voucher input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-voucher-button-wrap {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-voucher button {
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-seating-waitinglist {
+  margin: 15px 0;
+}
+
+.pretix-widget .pretix-widget-seating-waitinglist-text {
+  float: left;
+  box-sizing: border-box;
+  width: 75%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-seating-waitinglist-button-wrap {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-seating-waitinglist-button {
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-item-with-picture .pretix-widget-main-item-row .pretix-widget-item-title-and-description {
+  margin-left: 70px;
+}
+
+.pretix-widget .pretix-widget-item-availability-col {
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-item-availability-col .pretix-widget-collapse-indicator {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  border: 1px solid #949494;
+  border-radius: var(--pretix-border-radius-base);
+
+  color: #555;
+
+  background-color: #fff;
+}
+
+.pretix-widget .pretix-widget-item-availability-col .pretix-widget-collapse-indicator::before {
+  content: "";
+
+  display: inline-block;
+
+  width: 14px;
+  height: 14px;
+
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg' xml:space='preserve'%3E%3Cpath fill='url-friendly-colour(var(--pretix-brand-primary))' d='M6.395 4.151a.268.268 0 0 0-.177.077l-.386.386a.259.259 0 0 0-.077.177c.002.067.029.13.077.179l3.033 3.031-3.033 3.032a.255.255 0 0 0-.077.177.253.253 0 0 0 .077.178l.386.385a.268.268 0 0 0 .177.077.27.27 0 0 0 .178-.077l3.595-3.595a.259.259 0 0 0 .077-.177.255.255 0 0 0-.077-.176L6.573 4.228a.257.257 0 0 0-.178-.077Z'/%3E%3C/svg%3E");
+
+  transition: transform 0.5s;
+}
+
+.pretix-widget .pretix-widget-item-availability-col .pretix-widget-collapse-indicator[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.pretix-widget .pretix-widget-availability-gone {
+  font-weight: bold;
+  color: var(--pretix-brand-danger);
+  text-transform: uppercase;
+}
+
+.pretix-widget .pretix-widget-availability-unavailable {
+  color: var(--pretix-brand-danger);
+}
+
+.pretix-widget .pretix-widget-item-variations {
+  overflow: hidden;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.pretix-widget .pretix-widget-event-header {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-event-details {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-event-location {
+  display: none;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-event-description {
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-event-list-back {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-event-list-back a {
+  display: block;
+}
+
+.pretix-widget .pretix-widget-back {
+  display: block;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-back a {
+  display: block;
+}
+
+.pretix-widget .pretix-widget-event-list {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.pretix-widget .pretix-widget-event-list-entry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 5px 0;
+
+  color: #222;
+}
+
+.pretix-widget .pretix-widget-event-list-entry:has(.pretix-widget-event-list-entry-availability) {
+  text-decoration: none;
+}
+
+.pretix-widget .pretix-widget-event-list-entry:hover,
+.pretix-widget .pretix-widget-event-list-entry:active,
+.pretix-widget .pretix-widget-event-list-entry:focus {
+  text-decoration: none;
+  background: #eee;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5px;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-location {
+  display: none;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 5px;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 7px 5px 3px;
+  text-align: right;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span {
+  position: relative;
+
+  display: inline;
+
+  padding: 6px 6px 4px 17px;
+  border: 1px solid var(--status-border-color, #000);
+  border-radius: 4px;
+
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--status-text-color, #000);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+
+  background-color: var(--status-bg-color, #fff);
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability span::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 11px;
+  height: 100%;
+
+  background: var(--status-border-color, #000);
+}
+
+.pretix-widget .pretix-widget-event-availability-orange,
+.pretix-widget .pretix-widget-day-availability-orange {
+  --status-bg-color: var(--pretix-brand-warning-tint-85);
+  --status-text-color: var(--pretix-brand-warning-shade-42);
+  --status-border-color: var(--pretix-brand-warning);
+}
+
+.pretix-widget .pretix-widget-event-availability-none,
+.pretix-widget .pretix-widget-day-availability-none {
+  --status-bg-color: var(--pretix-brand-primary-tint-90);
+  --status-text-color: var(--pretix-brand-primary-shade-42);
+  --status-border-color: var(--pretix-brand-primary);
+}
+
+.pretix-widget .pretix-widget-event-availability-green,
+.pretix-widget .pretix-widget-day-availability-green {
+  --status-bg-color: var(--pretix-brand-success-tint-85);
+  --status-text-color: var(--pretix-brand-success-shade-25);
+  --status-border-color: var(--pretix-brand-success);
+}
+
+.pretix-widget .pretix-widget-event-availability-red,
+.pretix-widget .pretix-widget-day-availability-red {
+  --status-bg-color: var(--pretix-brand-danger-tint-85);
+  --status-text-color: var(--pretix-brand-danger-shade-42);
+  --status-border-color: var(--pretix-brand-danger);
+}
+
+.pretix-widget .pretix-widget-event-list .pretix-widget-event-availability-low .pretix-widget-event-list-entry-availability span::before,
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-availability-low.pretix-widget-event-calendar-event::before {
+  background: linear-gradient(to bottom, var(--pretix-brand-warning) 1em, var(--status-border-color) 2.5em);
+}
+
+.pretix-widget .pretix-widget-event-calendar {
+  padding-top: 10px;
+  word-break: break-word;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table {
+  display: flex;
+  flex-direction: row;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-week-col {
+  flex: 1;
+  margin: 0;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-week-col:first-child {
+  margin-left: 0;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-week-col:last-child {
+  margin-right: 0;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-week-col:nth-child(even) {
+  background-color: rgb(128 128 128 / 5%);
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-week-col .pretix-widget-event-calendar-events {
+  margin: 4px;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head {
+  display: flex;
+  flex-direction: row;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head strong {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-next-month,
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-previous-month {
+  display: block;
+  width: 25%;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-next-month {
+  text-align: right;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-event {
+  cursor: pointer;
+
+  position: relative;
+
+  display: block;
+
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 17px;
+  border: 1px solid var(--status-border-color, #000);
+  border-radius: 4px;
+
+  color: var(--status-text-color, #000);
+  text-decoration: none;
+
+  background-color: var(--status-bg-color, #fff);
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-event::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 11px;
+  height: 100%;
+
+  background: var(--status-border-color, #000);
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-event:last-child {
+  margin-bottom: 0;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table th,
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table td {
+  width: 14.285714285714286%;
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table th {
+  border-bottom-width: 2px;
+  color: #737373;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table td:has(.pretix-widget-event-calendar-day):nth-child(even) {
+  background: rgb(128 128 128 / 5%);
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-day {
+  padding: 5px 5px 1em;
+  font-size: 86%;
+  font-weight: bold;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-calendar-day {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd;
+
+  font-size: 100%;
+  color: #737373;
+
+  background-color: #fff;
+}
+
+.pretix-widget .pretix-widget-seating-link-wrapper {
+  margin: 15px 0 10px;
+  padding: 0 15px;
+}
+
+.pretix-widget .pretix-widget-seating-link {
+  display: block;
+  width: 100%;
+}
+
+.pretix-widget-event-list-filter-form {
+  margin-bottom: 15px;
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-fieldset {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-fieldset > legend {
+  position: absolute;
+
+  overflow: hidden;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  clip: rect(0, 0, 0, 0);
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-field {
+  display: block;
+  width: 100%;
+  margin: 0 15px 0 0;
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-field select {
+  display: block;
+  width: 100%;
+}
+
+.pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-field:last-child {
+  margin: 0;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-fieldset {
+  display: block;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-filter-form .pretix-widget-event-list-filter-field {
+  display: block;
+  margin: 0 0 5px;
+}
+
+@keyframes pretix-widget-bounce-in {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pretix-widget-visibility-hidden {
+  visibility: hidden;
+}
+
+.pretix-widget-shake-once {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  animation: pretix-widget-shake 0.2s;
+}
+
+@keyframes pretix-widget-shake {
+  0% {
+    transform: skewX(0deg);
+  }
+
+  20% {
+    transform: skewX(-5deg);
+  }
+
+  40% {
+    transform: skewX(5deg);
+  }
+
+  60% {
+    transform: skewX(-5deg);
+  }
+
+  80% {
+    transform: skewX(5deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+.pretix-widget-alert-holder,
+.pretix-widget-frame-holder,
+.pretix-widget-lightbox-holder {
+  overflow: visible;
+  margin: auto;
+  border: none;
+  background: transparent;
+}
+
+.pretix-widget-alert-holder::backdrop,
+.pretix-widget-frame-holder::backdrop,
+.pretix-widget-lightbox-holder::backdrop {
+  background: rgb(255 255 255 / 80%);
+}
+
+.pretix-widget-alert-holder:focus,
+.pretix-widget-frame-holder:focus,
+.pretix-widget-lightbox-holder:focus {
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget-frame-isloading:focus {
+  outline: none;
+}
+
+.pretix-widget-frame-isloading:focus svg {
+  border-radius: 100%;
+  outline: 2px solid var(--pretix-brand-primary);
+}
+
+.pretix-widget-frame-loading p,
+.pretix-widget-lightbox-loading p {
+  width: 256px;
+  margin: 0 auto;
+  color: var(--pretix-brand-danger);
+  text-align: center;
+}
+
+.pretix-widget-frame-loading svg,
+.pretix-widget-lightbox-loading svg {
+  margin: 40px;
+  animation: pretix-widget-spin 6s linear infinite;
+}
+
+.pretix-widget-frame-close,
+.pretix-widget-lightbox-close {
+  position: absolute;
+  z-index: 2;
+  top: -12px;
+  right: -12px;
+}
+
+.pretix-widget-frame-close button,
+.pretix-widget-lightbox-close button {
+  cursor: pointer;
+
+  display: inline-block;
+
+  width: 24px;
+  height: 24px;
+  padding: 4px 0;
+  border: none;
+  border-radius: 12px;
+
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+  background: none;
+  background: var(--pretix-brand-primary);
+}
+
+.pretix-widget-frame-close button:focus,
+.pretix-widget-lightbox-close button:focus {
+  outline: 2px solid var(--pretix-brand-primary);
+  outline-offset: 2px;
+}
+
+.pretix-widget-frame-close svg,
+.pretix-widget-lightbox-close svg {
+  display: inline-block;
+  border: none;
+}
+
+.pretix-widget-frame-inner,
+.pretix-widget-lightbox-inner,
+.pretix-widget-alert-box {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+
+  background: white;
+  box-shadow:
+    0 4px 18px 0 rgb(0 0 0 / 10%),
+    0 6px 20px 0 rgb(0 0 0 / 9%);
+}
+
+.pretix-widget-alert-holder .bounce-enter-active {
+  animation: pretix-widget-bounce-in 0.5s;
+}
+
+.pretix-widget-alert-holder .bounce-leave-active {
+  animation: pretix-widget-bounce-in 0.5s reverse;
+}
+
+.pretix-widget-alert-holder .pretix-widget-alert-box {
+  padding: 42px 20px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pretix-widget-alert-holder .pretix-widget-alert-box p:first-child {
+  margin-top: 0;
+}
+
+.pretix-widget-alert-holder .pretix-widget-alert-box p:last-child {
+  margin-bottom: 0;
+}
+
+.pretix-widget-alert-holder .pretix-widget-alert-icon {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+
+  width: 64px;
+  margin-left: -32px;
+}
+
+.pretix-widget-frame-inner {
+  width: 80vw;
+  max-width: 1080px;
+  height: 80vh;
+}
+
+.pretix-widget-frame-inner iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.pretix-widget-lightbox-inner {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.pretix-widget-lightbox-isloading .pretix-widget-lightbox-inner {
+  visibility: hidden;
+}
+
+.pretix-widget-lightbox-image {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.pretix-widget-lightbox-image img {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: scale-down;
+}
+
+.pretix-widget-lightbox-image figcaption {
+  margin: 0.5em 0 0;
+}
+
+.pretix-widget-primary-color {
+  fill: var(--pretix-brand-primary);
+}
+
+.pretix-widget-event-list-load-more {
+  text-align: center;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-week-table {
+  display: block;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-week-table .pretix-widget-event-week-col {
+  flex: 1;
+  margin: 10px 0;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-info-col {
+  float: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-info-col::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-price-col,
+.pretix-widget.pretix-widget-mobile .pretix-widget-item-availability-col {
+  width: 50%;
+  min-width: 140px;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-action {
+  width: 100%;
+  margin-left: 0;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-voucher-input-wrap {
+  float: none;
+  width: 100%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-voucher-button-wrap {
+  float: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
+  width: 100%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-location {
+  width: 100%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
+  width: 50%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-availability {
+  width: 50%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-events {
+  display: none;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-week-table .pretix-widget-event-calendar-events {
+  display: block;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events .pretix-widget-event-calendar-day {
+  cursor: pointer;
+
+  padding-bottom: 5px;
+  border: 1px solid var(--status-border-color, inherit);
+  border-top-width: 11px;
+  border-radius: var(--pretix-border-radius-base);
+
+  color: var(--status-text-color, #000);
+
+  background: var(--status-bg-color, #fff);
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-head {
+  display: block;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-head strong {
+  display: block;
+  width: 100%;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-next-month,
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-previous-month {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (width <= 800px) {
+  .pretix-widget-frame-inner {
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+  }
+}
+
+@media (width <= 480px) {
+  .pretix-widget-alert-holder,
+  .pretix-widget-frame-holder:not(.pretix-widget-frame-isloading),
+  .pretix-widget-lightbox-holder:not(.pretix-widget-lightbox-isloading) {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pretix-widget-frame-inner,
+  .pretix-widget-lightbox-inner,
+  .pretix-widget-alert-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0 0;
+    border-radius: 0;
+
+    background: var(--pretix-brand-primary);
+    box-shadow: none;
+  }
+
+  .pretix-widget-frame-close,
+  .pretix-widget-lightbox-close {
+    top: 8px;
+    right: 12px;
+  }
+
+  .pretix-widget-frame-close button,
+  .pretix-widget-lightbox-close button {
+    background-color: #fff;
+  }
+
+  .pretix-widget-frame-close button path,
+  .pretix-widget-lightbox-close button path {
+    fill: var(--pretix-brand-primary) !important;
+  }
+
+  .pretix-widget-frame-close button:focus,
+  .pretix-widget-lightbox-close button:focus {
+    outline-color: #fff;
+  }
+}
