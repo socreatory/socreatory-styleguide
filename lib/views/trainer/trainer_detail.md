@@ -108,7 +108,7 @@ description: Description
         </div>
         <section class="container container--md">
             <div class="trainer-profile">
-                <img class="trainer-profile__image" src="/snippet/images/profiles/Michael_Plöd.jpg">
+                <img class="trainer-profile__image" src="/snippet/images/profiles/michael.jpg">
                 <div class="trainer-profile_content">
                     <h1 class="trainer-profile__heading">Michael Plöd</h1>
                     <p class="profile__company">INNOQ</p>

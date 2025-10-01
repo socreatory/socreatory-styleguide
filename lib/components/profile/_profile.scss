@@ -71,7 +71,7 @@
   grid-template-columns: 1fr;
   gap: spacers.$spacer-2xs;
 
-  @include breakpoints.for-breakpoint-phone-up {
+  @include breakpoints.for-tablet-portrait-up {
     grid-template-columns: 1fr 2fr;
     gap: spacers.$spacer-lg;
   }
