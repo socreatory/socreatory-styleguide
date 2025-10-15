@@ -117,51 +117,42 @@ description: Description
         <h2 class="section__title--small"><span aria-hidden>-- </span>Trainer:innen im Feature</h2>
         <ul class="features">
             <li class="feature">
-                <div class="feature__body">
-                    <div class="feature__top">
-                        <img class="feature__image" src="/snippet/images/profiles/Stefan_Toth.jpg"></img>
-                        <h3 class="feature__title"><a href="#" class="feature__link">Stefan Toth</a></h3>
-                        <p class="feature__text">Domain Driven Design</p>
-                    </div>
-                    <div class="feature__bottom">
-                        <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                            <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
-                            <p class="feature__location">München ist ein langer Name<br>
-                            3.–5. August 2021</p>
-                        </div>
-                    </div>
+                <div class="feature__top">
+                    <img class="feature__image" src="/snippet/images/profiles/Stefan_Toth.jpg"></img>
+                    <h3 class="feature__title"><a href="#" class="feature__link">Stefan Toth</a></h3>
+                    <p class="feature__text">Domain Driven Design</p>
+                </div>
+                <div class="feature__bottom">
+                    <p class="feature__label">Nächstes Training</p>
+                    <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
+                    <p class="feature__location">München ist ein langer Name<br>
+                    3.–5. August 2021</p>
                 </div>
             </li>
             <li class="feature">
-                <div class="feature__body">
-                    <div class="feature__top">
-                        <img class="feature__image" src="/snippet/images/profiles/Kim_Duggen.jpg"></img>
-                        <h3 class="feature__title"><a href="#" class="feature__link">Kim Nena Duggen</a></h3>
-                        <p class="feature__text">Domain Driven Design</p>
-                    </div>
-                    <div class="feature__bottom">
-                        <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                            <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
-                            <p class="feature__location">München ist ein langer Name<br>
-                            3.–5. August 2021</p>
-                        </div>
-                    </div>
+                <div class="feature__top">
+                    <img class="feature__image" src="/snippet/images/profiles/Kim_Duggen.jpg"></img>
+                    <h3 class="feature__title"><a href="#" class="feature__link">Kim Nena Duggen</a></h3>
+                    <p class="feature__text">Domain Driven Design</p>
+                </div>
+                <div class="feature__bottom">
+                    <p class="feature__label">Nächstes Training</p>
+                    <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel blabla bla bla bla</a></p>
+                    <p class="feature__location">München ist ein langer Name<br>
+                    3.–5. August 2021</p>
                 </div>
             </li>
             <li class="feature">
-                <div class="feature__body">
-                    <div class="feature__top">
-                        <img class="feature__image" src="/snippet/images/profiles/Joachim_Praetorius.jpg"></img>
-                        <h3 class="feature__title"><a href="#" class="feature__link">Joachim Praetorius</a></h3>
-                        <p class="feature__text">Domain Driven Design</p>
-                    </div>
-                    <div class="feature__bottom">
-                        <div class="achtung-box achtung-box--narrow"><p class="feature__label">Nächstes Training</p>
-                            <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
-                            <p class="feature__location">München ist ein langer Name<br>
-                            3.–5. August 2021</p>
-                        </div>
-                    </div>
+                <div class="feature__top">
+                    <img class="feature__image" src="/snippet/images/profiles/Joachim_Praetorius.jpg"></img>
+                    <h3 class="feature__title"><a href="#" class="feature__link">Joachim Praetorius</a></h3>
+                    <p class="feature__text">Domain Driven Design</p>
+                </div>
+                <div class="feature__bottom">
+                    <p class="feature__label">Nächstes Training</p>
+                    <p class="feature__training"><a class="feature__link" href="#">AGILA Seminar mit langem Titel</a></p>
+                    <p class="feature__location">München ist ein langer Name<br>
+                    3.–5. August 2021</p>
                 </div>
             </li>
         </ul>
