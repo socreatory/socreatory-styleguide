@@ -15,35 +15,23 @@
   }
 }
 
-scroll-nav:defined {
-  .navbar-wrapper {
-    position: fixed;
-    z-index: 5;
-    transition: all 300ms ease;
-  }
-}
-
 .navbar-wrapper {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+
   width: 100%;
+
   background-color: colors.$brand-secondary;
 }
 
 .navbar-wrapper--admin {
-  /* stylelint-disable-next-line color-no-hex */
   background-color: colors.$brand-green-light;
 
   .navigation-meta,
   .navigation-login {
     background-color: transparent;
   }
-}
-
-.scroll-down {
-  transform: translateY(calc(-100%));
-}
-
-.scroll-up {
-  transform: translateY(0);
 }
 
 .main-navigation {
