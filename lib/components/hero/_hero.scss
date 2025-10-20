@@ -5,9 +5,9 @@
 
 .hero {
   display: grid;
-  gap: spacers.$spacer-base;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  gap: spacers.$spacer-base;
 
   width: 100%;
   max-width: breakpoints.$desktop-xl;
@@ -18,8 +18,9 @@
   @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 4;
-    column-gap: spacers.$spacer-lg;
     row-gap: spacers.$spacer-md;
+    column-gap: spacers.$spacer-lg;
+
     padding: spacers.$spacer-xl spacers.$spacer-base 0 spacers.$spacer-base;
   }
 
@@ -29,7 +30,7 @@
     @include breakpoints.for-tablet-landscape-up {
       grid-column-end: 2;
       grid-column-start: 1;
-      grid-row: 4;
+      grid-row: 3;
     }
   }
 }
@@ -40,11 +41,12 @@
   line-height: typography.$heading-line-height-sm;
 
   @include breakpoints.for-desktop-up {
-    font-size: typography.$font-size-xxxl;
     grid-column-end: 2;
     grid-column-start: 1;
     grid-row-end: 2;
     grid-row-start: 1;
+
+    font-size: typography.$font-size-xxxl;
   }
 
   @include breakpoints.for-tablet-landscape-up {
@@ -56,7 +58,6 @@
 }
 
 .hero__text {
-  margin-bottom: 0;
   font-size: typography.$font-size-lg;
   line-height: typography.$paragraph-line-height;
 
@@ -68,23 +69,28 @@
 }
 
 .hero__image {
-  width: 60%;
+  display: block;
   justify-self: center;
+  width: 60%;
 
   @include breakpoints.for-tablet-landscape-up {
-    display: block;
-    width: 100%;
-
     grid-column-end: 3;
     grid-column-start: 2;
     grid-row-end: 3;
     grid-row-start: 2;
     align-self: end;
     justify-self: end;
+
+    width: 100%;
   }
 
   @include breakpoints.for-desktop-up {
     width: 80%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -99,8 +105,8 @@
     grid-column-start: 2;
     grid-row-end: 4;
     grid-row-start: 3;
-    justify-self: end;
     align-self: start;
+    justify-self: end;
   }
 }
 
@@ -140,6 +146,7 @@
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 2;
     grid-column-start: 1;
-    grid-row: 3;
+    grid-row-end: 3;
+    grid-row-start: 2;
   }
 }

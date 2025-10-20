@@ -95,7 +95,7 @@ description: Homepage
 <header class="hero">
         <h1 class="hero__heading">Unsere Mission: <span class="marker-highlight">Softwarearchitektur</span> von den
             Besten lernen!</h1>
-        <img class="hero__image" src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="" />
+        <div class="hero__image"><img src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="" /></div>
         <div class="hero__logos">
             <span class="hero__logos__caption"> Eine Kooperation von</span>
             <div class="hero__logos__wrapper">
@@ -103,15 +103,14 @@ description: Homepage
                 <a href="#"><img class="hero__logo" src="/snippet/images/logos/innoq_logo.svg" /></a>
             </div>
         </div>
-        <p class="hero__text">
-            Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen. Wir sind Expert:innen, die
-            nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung an euch
-            weitergeben können. Wir sind Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben
-            haben. Willkommen bei socreatory, der Software Creator’s Academy.
-        </p>
-        <div class="hero__isaqb__wrapper">
-            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
-            <span class="hero__logos__caption">akkreditierter Partner</span>
+        <div class="hero__text">
+            <p> Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen. Wir sind Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung an euch
+            weitergeben können. Wir sind Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben.</p>
+            <p>Willkommen bei socreatory, der Software Creators’ Academy.</p>
+            <div class="hero__isaqb__wrapper">
+                <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
+                <span class="hero__logos__caption">akkreditierter Partner</span>
+            </div>
         </div>
         <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
 </header>
