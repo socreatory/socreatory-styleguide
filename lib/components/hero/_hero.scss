@@ -26,6 +26,7 @@
 
   .btn {
     justify-self: baseline;
+    align-self: baseline;
 
     @include breakpoints.for-tablet-landscape-up {
       grid-column-end: 2;
@@ -58,8 +59,15 @@
 }
 
 .hero__text {
-  font-size: typography.$font-size-lg;
-  line-height: typography.$paragraph-line-height;
+  display: flex;
+  flex-direction: column;
+  gap: spacers.$spacer-sm;
+
+  p {
+    margin-bottom: 0;
+    font-size: typography.$font-size-lg;
+    line-height: typography.$paragraph-line-height;
+  }
 
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 2;
@@ -142,11 +150,4 @@
   display: flex;
   gap: spacers.$spacer-xs;
   align-items: center;
-
-  @include breakpoints.for-tablet-landscape-up {
-    grid-column-end: 2;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    grid-row-start: 2;
-  }
 }

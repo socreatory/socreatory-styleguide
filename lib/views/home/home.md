@@ -95,7 +95,11 @@ description: Homepage
 <header class="hero">
         <h1 class="hero__heading">Unsere Mission: <span class="marker-highlight">Softwarearchitektur</span> von den
             Besten lernen!</h1>
-        <div class="hero__image"><img src="/snippet/images/illustrations/Lernenvondenbesten.png" alt="" /></div>
+
+        <picture class="hero__image">
+            <source sizes='' srcset='https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_320/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 320w, https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_480/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 480w, https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_560/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 560w, https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_720/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 720w, https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_960/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 960w, https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_avif,g_auto,q_auto,w_1056/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT 1056w' type='image/avif'>
+            <img alt='Vier illustrierte Menschen, mit übergroßen Armen und Händen sitzen gemeinsam an einem Tisch vor ihren Laptops. Über ihnen ist eine Art Mind-Map-Modell zu sehen.' class='' decoding='sync' height='729' loading='eager' src='https://res.cloudinary.com/socreatory/image/upload/ar_1020:729,c_fill,f_png,g_auto,w_320/v1/static_assets/illustrations/socreatory-lernenvondenbesten?_a=BACAGSGT' width='1020'>
+        </picture>
         <div class="hero__logos">
             <span class="hero__logos__caption"> Eine Kooperation von</span>
             <div class="hero__logos__wrapper">
