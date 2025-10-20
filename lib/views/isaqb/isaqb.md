@@ -101,7 +101,9 @@ description: Description
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> iSAQB</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/Ausbildungnachisaqb.png" alt="" />
+        <div class="header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">International anerkannte Weiterbildung für Menschen, die an Software arbeiten</h1>
     </div>
 </header>

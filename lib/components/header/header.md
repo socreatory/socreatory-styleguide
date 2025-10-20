@@ -78,10 +78,8 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
-                        href="#">Homr</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
-                    Breadcrumb</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#">Homr</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Breadcrumb</li>
             </ul>
         </div>
         <h1 class="header__heading">Ich bin eine Headline</h1>
@@ -109,10 +107,8 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a
-                        href="#">Homr</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
-                    Breadcrumb</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> <a href="#">Homr</a></li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Breadcrumb</li>
             </ul>
         </div>
         <h1 class="header__heading">Ich bin eine Headline</h1>
@@ -140,11 +136,12 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
-                    Breadcrumb</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Breadcrumb</li>
             </ul>
         </div>
-        <img class=" header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        <div class=" header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">Ich bin eine Headline</h1>
     </div>
 </header>
@@ -156,11 +153,12 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
-                    Breadcrumb</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Breadcrumb</li>
             </ul>
         </div>
-        <img class=" header__image" src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        <div class=" header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">Ich bin eine Headline</h1>
     </div>
 </header>
@@ -174,8 +172,7 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>
-                    Kontakt</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Kontakt</li>
             </ul>
         </div>
         <h1 class="header__heading header__heading--centered">Nimm Kontakt zu uns auf</h1>
@@ -191,9 +188,7 @@ description: Header
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li class="breadcrumb__item"><a href="#">Home</a></li>
-                <li class="breadcrumb__item"><span class="breadcrumb__arrow"
-                        aria-label="Pfeil nach rechts">›</span>Meine
-                    Trainings</li>
+                <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span>Meine Trainings</li>
             </ul>
         </div>
         <h1>Meine Trainings</h1>

@@ -101,7 +101,9 @@ description: Description
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> News</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/news.png" alt="" />
+        <div class="header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">Unsere News</h1>
     </div>
 </header>

@@ -99,7 +99,9 @@ description: This view shows how the login page should look like
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Login</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/socreatory-navigator.svg" alt="" />
+        <div class="header__image">
+            <img src="/snippet/images/illustrations/socreatory-navigator.svg" alt="" />
+        </div>
         <h1 class="header__heading--medium header__heading--centered">socreatory Navigator Login</h1>
     </div>
 </header>

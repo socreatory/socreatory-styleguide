@@ -100,7 +100,9 @@ description: Description
                 <li class="breadcrumb__item"><span class="breadcrumb__arrow" aria-label="Pfeil nach rechts">›</span> Trainer:innen</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/Trainer_innen.png" width="308" height="197" alt="">
+        <div class="header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">Deine Trainer:innen</h1>
     </div>
 </header>

@@ -104,7 +104,9 @@ description: Description
                     Ausbildungsweg</li>
             </ul>
         </div>
-        <img class="header__image" src="/snippet/images/illustrations/Ausbildungsweg.png" alt="">
+        <div class="header__image">
+            <img src="/snippet/images/illustrations/Wersindwir.png" alt="" />
+        </div>
         <h1 class="header__heading header__heading--centered">Bau Dir Deinen Ausbildungsweg</h1>
     </div>
 </header>
