@@ -77,7 +77,6 @@
 }
 
 .hero__image {
-  display: block;
   justify-self: center;
   width: 60%;
 
@@ -97,6 +96,7 @@
   }
 
   img {
+    display: block;
     width: 100%;
     height: auto;
   }
