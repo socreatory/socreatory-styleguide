@@ -1,7 +1,7 @@
 {
   "name": "socreatory-styleguide",
   "private": true,
-  "version": "7.5.5",
+  "version": "7.5.6",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --serve 0.0.0.0:4001",
