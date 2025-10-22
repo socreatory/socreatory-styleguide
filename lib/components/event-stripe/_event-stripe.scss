@@ -174,12 +174,13 @@
   justify-content: baseline;
 
   .avatar {
-    display: block;
     align-self: flex-end;
-
     width: spacers.$spacer-lg;
     height: spacers.$spacer-lg;
-    border: 1px solid colors.$brand-gray-2;
+
+    img {
+      border: 1px solid colors.$brand-gray-2;
+    }
   }
 
   @include breakpoints.for-tablet-portrait-up {

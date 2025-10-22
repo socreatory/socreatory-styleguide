@@ -147,8 +147,10 @@ description: Description
                     Ein Gesellschaftsspiel lernt man am besten von Menschen, die es schon oft gespielt haben. Die interessantesten Insider-Tipps bekommt man nicht in Stadtführern, sondern von Einheimischen. Und die Standards der Softwarearchitektur lernt man idealerweise von denen, die die Standards mitentwickeln und definieren.
                 </p>
                 <footer class="testimonial__author">
-                    <img class="avatar" itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
+                    <picture class="avatar">
+                        <img itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
                         alt="" />
+                    </picture>
                     <span class="testimonial__author__name" itemprop="name">Lisa Maria Schäfer</span>
                     <span class="testimonial__author__role" itemprop="jobTitle">Produktmanagerin</span>
                     <span class="testimonial__author__company" itemprop="jobTitle">socreatory</span>
@@ -180,8 +182,10 @@ description: Description
                     "Bei Socreatory stehen wir für erstklassige IT-Trainings, die nicht nur Wissen vermitteln, sondern Unternehmen befähigen, ihre Fachkräfte optimal weiterzubilden. Unser Ziel ist es, Ihr zuverlässiger Partner auf dem Weg zur Meisterung der Herausforderungen der modernen Arbeitswelt zu sein."
                 </p>
                 <footer class="testimonial__author">
-                    <img class="avatar" itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
+                    <picture class="avatar">
+                        <img itemprop="photo" src="/snippet/images/profiles/Lisa_Maria_Moritz.jpg"
                         alt="" />
+                    </picture>
                     <span class="testimonial__author__name" itemprop="name">Lisa Maria Schäfer</span>
                     <span class="testimonial__author__role" itemprop="jobTitle">Produktmanagerin</span>
                     <span class="testimonial__author__company" itemprop="jobTitle">socreatory</span>

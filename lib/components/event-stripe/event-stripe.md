@@ -8,8 +8,12 @@ description: Event stripe
         <div class="event-stripe__body">
             <div class="event-stripe__date">12. - 14.3.2022</div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -37,9 +41,15 @@ description: Event stripe
                 <time datetime="2024-03-14">14.3.2024</time>
             </div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -53,7 +63,9 @@ description: Event stripe
         <div class="event-stripe__body">
             <div class="event-stripe__date">12. - 14.3.2022</div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -81,9 +93,15 @@ description: Event stripe
                 <time datetime="2024-03-14">14.3.2024</time>
             </div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -102,8 +120,12 @@ description: Event stripe
         <div class="event-stripe__body">
             <div class="event-stripe__date">12. - 14.3.2022</div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -131,9 +153,15 @@ description: Event stripe
                 <time datetime="2024-03-14">14.3.2024</time>
             </div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -147,7 +175,9 @@ description: Event stripe
         <div class="event-stripe__body">
             <div class="event-stripe__date">12. - 14.3.2022</div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>
@@ -175,9 +205,15 @@ description: Event stripe
                 <time datetime="2024-03-14">14.3.2024</time>
             </div>
             <div class="event-stripe__avatar">
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
-                <img class="avatar" src="/snippet/images/illustrations/avatar-dummy.svg" />
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
+                <picture class="avatar">
+                    <img  src="/snippet/images/illustrations/avatar-dummy.svg" />
+                </picture>
             </div>
             <span class="event-stripe__location">In Wursthausen mit Hans Wurst und Wurst Hans</span>
         </div>

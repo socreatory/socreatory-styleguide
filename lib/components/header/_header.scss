@@ -78,12 +78,6 @@
   align-self: center;
   max-width: 50%;
 
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
   @include breakpoints.for-tablet-portrait-up {
     max-width: 30%;
   }

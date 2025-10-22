@@ -10,7 +10,9 @@ description: testimonial
         unmittelbar angewendet und in einem unterhaltsamen Rahmen vertieft!
     </p>
     <footer class="testimonial__author">
-        <img class="avatar" itemprop="photo" src="/snippet/images/profiles/testimonial-daniel-wochnik.jpg" alt="Portrait von Daniel Wochnik" />
+        <picture class="avatar">
+            <img itemprop="photo" src="/snippet/images/profiles/testimonial-daniel-wochnik.jpg" alt="Portrait von Daniel Wochnik" />
+        </picture>
         <span class="testimonial__author__name" itemprop="name">Daniel Wochnik</span>
         <span class="testimonial__author__role" itemprop="jobTitle">Senior Managing Consultant</span>
         <span class="testimonial__author__company" itemprop="jobTitle">atra.consulting</span>

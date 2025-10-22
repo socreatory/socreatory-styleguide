@@ -386,7 +386,7 @@ description: Homepage
         <section class="container container--xl container-vertical-spacing-2xl">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="" src="/snippet/images/socreatory-katalog-2025.webp" alt="">
+                    <img src="https://res.cloudinary.com/socreatory/image/upload/ar_835:568,c_fill,f_png,g_auto,q_auto,w_320/v1/static_assets/images/socreatory-katalog-2026?_a=BACAGSGT" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Der Katalog!!</h2>
@@ -416,9 +416,7 @@ description: Homepage
                 <a href="#" class="btn btn--cta">Alle Trainer:innen ansehen</a>
             </div>
             <div class="teaser__column">
-                <a href="#">
-                    <img class="" src="/snippet/images/trainerinnenkachel.webp" />
-                </a>
+                <img src="https://res.cloudinary.com/socreatory/image/upload/ar_1000:1000,c_fill,f_png,g_auto,q_auto,w_320/v1/static_assets/images/socreatory-trainerinnen?_a=BACAGSGT" />
             </div>
         </div>
     </section>
@@ -442,8 +440,10 @@ description: Homepage
                     angewendet und in einem unterhaltsamen Rahmen vertieft!
                 </p>
                 <footer class="testimonial__author">
-                    <img class="avatar" itemprop="photo" src="/snippet/images/profiles/testimonial-daniel-wochnik.jpg"
+                    <picture class="avatar">
+                        <img itemprop="photo" src="/snippet/images/profiles/testimonial-daniel-wochnik.jpg"
                         alt="Portrait von Daniel Wochnik" />
+                    </picture>
                     <span class="testimonial__author__name" itemprop="name">Daniel Wochnik</span>
                     <span class="testimonial__author__role" itemprop="jobTitle">Senior Managing Consultant</span>
                     <span class="testimonial__author__company" itemprop="jobTitle">atra.consulting</span>
@@ -514,7 +514,7 @@ description: Homepage
         <section class="container container--xl container-vertical-spacing-2xl">
             <div class="teaser">
                 <div class="teaser__column">
-                    <img class="" src="/snippet/images/ueber_uns.webp" alt="">
+                    <img class="" src="https://res.cloudinary.com/socreatory/image/upload/ar_835:568,c_fill,f_png,g_auto,q_auto,w_320/v1/static_assets/images/socreatory-team-claudia-lisa-petra-verena?_a=BACAGSGT" alt="">
                 </div>
                 <div class="teaser__column">
                     <h2 class="section__title--normal">Wer sind wir?</h2>

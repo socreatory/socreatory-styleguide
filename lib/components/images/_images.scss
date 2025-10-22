@@ -1,7 +1,13 @@
 @use "../../fundamentals/breakpoints";
 
+picture {
+  display: block;
+}
+
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .eyecatcher {
@@ -10,5 +16,14 @@ img {
 
   @include breakpoints.for-desktop-up {
     display: block;
+  }
+}
+
+.avatar {
+  width: 8rem;
+  height: auto;
+
+  img {
+    border-radius: 100%;
   }
 }
