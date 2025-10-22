@@ -16,9 +16,11 @@
 }
 
 .navbar-wrapper {
-  position: sticky;
-  z-index: 5;
-  top: 0;
+  @include for-navbar {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+  }
 
   width: 100%;
 
@@ -370,9 +372,28 @@ menu-toggle {
   grid-area: menu;
   align-self: center;
   justify-self: end;
+
+  &:not(:defined) {
+    display: none;
+  }
+
+  @include for-navbar {
+    display: none;
+  }
 }
 
-.menu-toggle-target[hidden],
+.menu-toggle-target {
+  @include for-navbar-mobile {
+    display: none;
+    height: 0;
+
+    &.is-open {
+      display: block;
+      height: auto;
+    }
+  }
+}
+
 details:not([open]) > ul {
   display: none;
   height: 0;

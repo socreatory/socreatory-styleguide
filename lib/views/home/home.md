@@ -3,16 +3,16 @@ description: Homepage
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="announcement">
+    <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
+</div>
 <div class="navbar-wrapper">
-    <div class="announcement">
-        <p class="announcement__text">🔥 It‘s H.O.T. <a class="announcement__link" href="/de/topics/data-mesh-workshop/">Get ice cream for free</a></p>
-    </div>
     <nav class="main-navigation" aria-label="Webseite Navigation">
         <a href="#" class="brand-link">
             <img class="brand-logo" src="/snippet/images/logos/soc_logo.svg" alt="Software Creators Academy Logo" />
         </a>
-        <menu-toggle hidden show-if="(max-width: 66rem)">
-            <button class="burgertime" aria-controls="main-navigation" aria-expanded="true" aria-label="Toggle navigation"></button>
+        <menu-toggle>
+            <button class="burgertime" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation"></button>
         </menu-toggle>
         <div class="navigations menu-toggle-target" id="main-navigation">
             <ul class="navigation-links" role="list" aria-label="Seitennavigation">
@@ -118,7 +118,6 @@ description: Homepage
         </div>
         <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
 </header>
-
 <main>
     <section class="container container--xl container-vertical-spacing-xl">
         <h2 class="section__title--normal">Beliebte Schulungen</h2>

@@ -1,5 +1,9 @@
 @use "../../fundamentals/breakpoints";
 
+img {
+  display: block;
+}
+
 .eyecatcher {
   display: none;
   width: 100%;

@@ -2,6 +2,12 @@
 @use "../../fundamentals/colors";
 @use "../../fundamentals/typography";
 
+@mixin for-navbar {
+  @media (width >= 66rem) {
+    @content;
+  }
+}
+
 .announcement {
   width: 100%;
   padding: spacers.$spacer-sm;
