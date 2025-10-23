@@ -23,7 +23,6 @@
   }
 
   width: 100%;
-
   background-color: colors.$brand-secondary;
 }
 
@@ -72,6 +71,7 @@
 }
 
 .brand-logo {
+  width: auto;
   height: 2rem; // magic number
 }
 
