@@ -94,8 +94,7 @@
   display: flex;
   flex-direction: column;
   gap: spacers.$spacer-sm;
-  align-self: center;
-  justify-self: center;
+  align-items: center;
 
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 3;
@@ -130,6 +129,7 @@
   flex-wrap: wrap;
   gap: spacers.$spacer-sm spacers.$spacer-md;
   align-items: flex-end;
+  justify-content: center;
   justify-self: center;
 
   @include breakpoints.for-tablet-landscape-up {
