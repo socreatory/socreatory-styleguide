@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: spacers.$spacer-base;
+  gap: spacers.$spacer-md;
 
   width: 100%;
   max-width: breakpoints.$desktop-xl;
@@ -46,12 +46,8 @@
     justify-self: center;
 
     @include breakpoints.for-tablet-landscape-up {
-      grid-column-end: 3;
+      grid-column-end: 2;
       grid-column-start: 1;
-      grid-row: 5;
-    }
-
-    @include breakpoints.for-desktop-xl-up {
       grid-row: 4;
       align-self: baseline;
       justify-self: baseline;
@@ -63,12 +59,15 @@
   margin-bottom: 0; // TODO
   font-size: typography.$font-size-xxl;
   line-height: typography.$heading-line-height-sm;
+  text-align: center;
 
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 3;
     grid-column-start: 1;
     grid-row: 2;
+
     font-size: typography.$font-size-xxxl;
+    text-align: left;
   }
 }
 
@@ -86,8 +85,24 @@
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 2;
     grid-column-start: 1;
+    grid-row-end: 4;
+    grid-row-start: 3;
+  }
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: spacers.$spacer-sm;
+  align-self: center;
+  justify-self: center;
+
+  @include breakpoints.for-tablet-landscape-up {
+    grid-column-end: 3;
+    grid-column-start: 2;
     grid-row-end: 5;
     grid-row-start: 3;
+    align-self: start;
   }
 }
 

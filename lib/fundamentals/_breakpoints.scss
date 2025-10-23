@@ -5,6 +5,7 @@ $breakpoint-phone: 35rem; /* 560px */
 $tablet-portrait: 40rem;
 $tablet-landscape: 60rem;
 $desktop: 75rem;
+$desktop-lg: 81.5rem;
 $desktop-xl: 90rem;
 
 @mixin for-breakpoint-phone-up {
@@ -33,6 +34,12 @@ $desktop-xl: 90rem;
 
 @mixin for-desktop-up {
   @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin for-desktop-lg-up {
+  @media (min-width: $desktop-lg) {
     @content;
   }
 }
