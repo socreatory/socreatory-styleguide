@@ -17,21 +17,44 @@
 
   @include breakpoints.for-tablet-landscape-up {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 4;
+    grid-template-rows: auto;
     row-gap: spacers.$spacer-md;
     column-gap: spacers.$spacer-lg;
 
     padding: spacers.$spacer-xl spacers.$spacer-base 0 spacers.$spacer-base;
   }
 
-  .btn {
-    justify-self: baseline;
-    align-self: baseline;
+  @include breakpoints.for-desktop-xl-up {
+    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-rows: auto;
+    row-gap: spacers.$spacer-md;
+    column-gap: spacers.$spacer-lg;
 
+    padding: spacers.$spacer-xl spacers.$spacer-base 0 spacers.$spacer-base;
+  }
+
+  .breadcrumb {
     @include breakpoints.for-tablet-landscape-up {
       grid-column-end: 2;
       grid-column-start: 1;
-      grid-row: 3;
+      grid-row: 1;
+    }
+  }
+
+  .btn {
+    align-self: baseline;
+    justify-self: center;
+
+    @include breakpoints.for-tablet-landscape-up {
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row: 5;
+    }
+
+    @include breakpoints.for-desktop-xl-up {
+      grid-row: 4;
+      align-self: baseline;
+      justify-self: baseline;
     }
   }
 }
@@ -41,20 +64,11 @@
   font-size: typography.$font-size-xxl;
   line-height: typography.$heading-line-height-sm;
 
-  @include breakpoints.for-desktop-up {
-    grid-column-end: 2;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-row-start: 1;
-
-    font-size: typography.$font-size-xxxl;
-  }
-
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 3;
     grid-column-start: 1;
-    grid-row-end: 2;
-    grid-row-start: 1;
+    grid-row: 2;
+    font-size: typography.$font-size-xxxl;
   }
 }
 
@@ -72,33 +86,27 @@
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 2;
     grid-column-start: 1;
-    grid-row: 2;
+    grid-row-end: 5;
+    grid-row-start: 3;
   }
 }
 
 .hero__image {
   justify-self: center;
-  width: 60%;
+  width: 17rem;
+
+  @include breakpoints.for-tablet-portrait-up {
+    width: 25rem;
+  }
 
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 3;
     grid-column-start: 2;
-    grid-row-end: 3;
-    grid-row-start: 2;
-    align-self: end;
-    justify-self: end;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
 
     width: 100%;
-  }
-
-  @include breakpoints.for-desktop-up {
-    width: 80%;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
   }
 }
 
@@ -107,12 +115,12 @@
   flex-wrap: wrap;
   gap: spacers.$spacer-sm spacers.$spacer-md;
   align-items: flex-end;
+  justify-self: center;
 
   @include breakpoints.for-tablet-landscape-up {
     grid-column-end: 3;
     grid-column-start: 2;
-    grid-row-end: 4;
-    grid-row-start: 3;
+    grid-row: 4;
     align-self: start;
     justify-self: end;
   }
@@ -122,17 +130,11 @@
   line-height: 1;
 }
 
-.hero__logos__wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: spacers.$spacer-sm;
-}
-
 .hero__logo {
   display: block;
-  height: 2rem;
+  height: 1.8rem;
 
-  @include breakpoints.for-tablet-landscape-up {
+  @include breakpoints.for-desktop-up {
     height: 2.5rem;
   }
 }
@@ -141,7 +143,7 @@
   display: inline-block;
   height: 3rem;
 
-  @include breakpoints.for-tablet-landscape-up {
+  @include breakpoints.for-desktop-up {
     height: 4rem;
   }
 }
@@ -150,4 +152,9 @@
   display: flex;
   gap: spacers.$spacer-xs;
   align-items: center;
+  align-self: center;
+
+  @include breakpoints.for-tablet-landscape-up {
+    align-self: start;
+  }
 }

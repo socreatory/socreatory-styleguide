@@ -3,13 +3,6 @@
 @use "../../fundamentals/colors";
 @use "../../fundamentals/typography";
 
-.avatar {
-  display: block;
-  width: 8rem;
-  height: auto;
-  border-radius: 100%;
-}
-
 .testimonial {
   display: flex;
   flex-direction: column;

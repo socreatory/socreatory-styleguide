@@ -113,7 +113,6 @@ description: Homepage
             <p>Willkommen bei socreatory, der Software Creators’ Academy.</p>
             <div class="hero__isaqb__wrapper">
                 <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
-                <span class="hero__logos__caption">akkreditierter Partner</span>
             </div>
         </div>
         <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>
