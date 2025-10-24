@@ -27,10 +27,12 @@
   grid-area: img;
   align-self: end;
   justify-self: center;
-
-  width: auto;
-  max-height: 15rem;
   margin-bottom: spacers.$spacer-base;
+
+  img {
+    width: auto;
+    max-height: 15rem;
+  }
 }
 
 .book-card__title {
