@@ -4,7 +4,8 @@
 @use "../../fundamentals/typography";
 
 // helpers
-%list-unstyled {
+%list-unstyled,
+.list-unstyled {
   margin-bottom: 0;
   padding: 0;
   list-style: none;
