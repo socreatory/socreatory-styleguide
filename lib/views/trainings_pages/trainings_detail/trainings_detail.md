@@ -147,6 +147,17 @@ description: Show Training Detail
                 <li>Lorem, ipsum dolor</li>
                 <li>Lorem reiciendis error fugit</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <ul>
+                        <li>Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,atque?</li>
+                        <li>
+                            Lorem reiciendis error fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Et distinctio voluptatem fugit est beatae nisi possimus ratione, obcaecati quod
+                            veniam, numquam architecto voluptate.
+                        </li>
+                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+                    </ul>
+                </li>
             </ol>
 
             <h2 class="section__title--small m-t-xl"><span aria-hidden>-- </span>Ihr Nutzen</h2>

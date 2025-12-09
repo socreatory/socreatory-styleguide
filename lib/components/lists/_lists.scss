@@ -33,27 +33,14 @@ dd {
 }
 
 ul:not([class]) {
-  position: relative;
-  padding-left: 1.5rem;
+  padding-left: 1.7rem;
   font-size: typography.$font-size-base;
   list-style-type: disc;
-
-  li {
-    &::before {
-      position: absolute;
-      left: 0;
-      color: colors.$brand-secondary;
-    }
-  }
 }
 
 ol:not([class]) {
-  padding-left: 1.5rem;
+  padding-left: 1.7rem;
   font-size: typography.$font-size-base;
-
-  li {
-    padding-left: 0.5rem;
-  }
 }
 
 ul:not([class]),
