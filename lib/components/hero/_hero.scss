@@ -148,24 +148,22 @@
 .hero__logo {
   display: block;
   height: 1.8rem;
+  width: auto;
 
   @include breakpoints.for-desktop-up {
     height: 2.5rem;
   }
 }
 
-.hero__isaqb {
+.hero__partner {
   display: inline-block;
-  height: 3rem;
-
-  @include breakpoints.for-desktop-up {
-    height: 4rem;
-  }
+  height: 4.5rem;
+  width: auto;
 }
 
-.hero__isaqb__wrapper {
+.hero__partner__wrapper {
   display: flex;
-  gap: spacers.$spacer-xs;
+  gap: spacers.$spacer-md;
   align-items: center;
   align-self: center;
 

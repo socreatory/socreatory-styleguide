@@ -110,8 +110,9 @@ description: Homepage
             <p> Für Menschen, die sich nicht nur weiterbilden, sondern auch weiterkommen wollen. Wir sind Expert:innen, die nicht nur Fachwissen, sondern auch ihre reiche Praxiserfahrung an euch
             weitergeben können. Wir sind Trainer:innen, die Fachbücher nicht nur gelesen, sondern selbst geschrieben haben.</p>
             <p>Willkommen bei socreatory, der Software Creators’ Academy.</p>
-            <div class="hero__isaqb__wrapper">
-                <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
+            <div class="hero__partner__wrapper">
+                <a href="#"><img class="hero__partner" src="/snippet/images/logos/isaqb.svg" /></a>
+                <a href="#"><img class="hero__partner" src="/snippet/images/logos/ireb.svg" /></a>
             </div>
         </div>
         <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>

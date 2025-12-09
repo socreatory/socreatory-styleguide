@@ -47,8 +47,8 @@ description: Hero header
         </p>
         <p>Willkommen bei socreatory, der Software Creators’ Academy.</p>
         <h2 class="textcolumn__heading">Zum Katalog</h2>
-        <div class="hero__isaqb__wrapper">
-            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
+        <div class="hero__partner__wrapper">
+            <a href="#"><img class="hero__partner" src="/snippet/images/logos/isaqb.svg" /></a>
         </div>
     </div>
     <a href="#" class="btn btn--cta btn--lg">Unsere Trainings</a>

@@ -105,8 +105,8 @@ description: Description
         <p class="hero__text">
             Hier findest Du unser komplettes Angebot. Wenn Du speziell an iSAQB®-Trainings interessiert bist, hilft Dir <a href="#">unser praktischer Modulbaukasten:</a> Mit wenigen Klicks stellst Du Dir dort Dein individuelles Trainingsprogramm zusammen.
         </p>
-        <div class="hero__isaqb__wrapper">
-            <a href="#"><img class="hero__isaqb" src="/snippet/images/logos/isaqb.svg" /></a>
+        <div class="hero__partner__wrapper">
+            <a href="#"><img class="hero__partner" src="/snippet/images/logos/isaqb.svg" /></a>
             <span class="hero__logos__caption">akkreditierter Partner</span>
         </div>
         <div class="m-t-sm">
