@@ -14,11 +14,12 @@
 }
 
 html {
+  interpolate-size: allow-keywords;
   font-size: 16px;
+
   -webkit-font-smoothing: antialiased;
 
   hyphenate-character: "-";
-  interpolate-size: allow-keywords;
 }
 
 body {

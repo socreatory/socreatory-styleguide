@@ -14,8 +14,8 @@
     background-color: currentcolor;
 
     mask-image: asset-url($svg-path);
-    mask-position: center;
     mask-repeat: no-repeat;
+    mask-position: center;
     mask-size: contain;
   }
 }
