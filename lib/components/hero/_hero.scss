@@ -147,8 +147,8 @@
 
 .hero__logo {
   display: block;
-  height: 1.8rem;
   width: auto;
+  height: 1.8rem;
 
   @include breakpoints.for-desktop-up {
     height: 2.5rem;
