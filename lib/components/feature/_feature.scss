@@ -29,12 +29,8 @@
 
 .feature__image {
   display: block;
-
   width: 100%;
-  height: 20rem;
-
-  object-fit: cover;
-  object-position: center;
+  height: auto;
 }
 
 .feature__link {

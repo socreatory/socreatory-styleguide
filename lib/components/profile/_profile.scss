@@ -25,6 +25,7 @@
 .profile__name {
   @extend %body-font-bold;
 
+  margin-top: spacers.$spacer-xs;
   margin-bottom: 0;
   font-size: typography.$font-size-base;
 }
