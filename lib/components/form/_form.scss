@@ -144,6 +144,17 @@ input[type="radio"] {
   gap: spacers.$spacer-xs;
 }
 
+.form-group--vertical {
+  display: flex;
+  flex-direction: column;
+  gap: spacers.$spacer-xs;
+
+  width: 100%;
+  padding: spacers.$spacer-2xs;
+
+  background-color: colors.$brand-yellow-light;
+}
+
 select {
   background-color: transparent;
 }
