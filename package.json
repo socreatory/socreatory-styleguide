@@ -1,7 +1,7 @@
 {
   "name": "socreatory-styleguide",
   "private": true,
-  "version": "7.5.19",
+  "version": "7.5.20",
   "scripts": {
     "aiur": "aiur -t ./dist",
     "aiur:watch": "aiur -t ./dist --watch --serve 0.0.0.0:4001",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "aiur": "^0.11.0",
     "donny": "^0.3.0",
-    "eslint": "^10.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "faucet-pipeline-js": "^3.0.0",
