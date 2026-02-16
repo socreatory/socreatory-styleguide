@@ -16,6 +16,7 @@ sub {
 
 p {
   font-size: typography.$font-size-base;
+  line-height: typography.$paragraph-line-height;
   hyphens: auto;
   overflow-wrap: break-word;
 }
