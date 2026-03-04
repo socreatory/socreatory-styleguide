@@ -63,7 +63,8 @@
     }
   }
 
-  td {
+  td,
+  td pre {
     @extend %heading-font-regular;
 
     padding: spacers.$spacer-xs;
@@ -83,6 +84,13 @@
       @include breakpoints.for-tablet-portrait-up {
         font-size: typography.$font-size-sm;
       }
+    }
+
+    pre {
+      width: 90ch;
+      margin-bottom: 0;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
     }
   }
 

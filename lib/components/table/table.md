@@ -43,11 +43,18 @@ description: Table
                     <td>online</td>
                     <td>0</td>
                     <td><span class="status status--red">abgesagt</span></td>
+                    <td>
+                        <pre>
+                        Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans.
+
+                        Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da
+                        </pre>
+                    </td>
                 </tr>
                 <tr>
                     <td><a href="#" class="table__link">TRAINING</a></td>
                     <td>1.1.2030 - 3.1.2030</td>
-                    <td>online</td>
+                    <td><online</td>
                     <td>0</td></td>
                     <td><span class="status status--yellow">wartet auf anmeldung</span></td>
                 </tr>
