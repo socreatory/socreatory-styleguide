@@ -1054,6 +1054,8 @@ fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.foc
   padding: 5px;
 
   text-align: center;
+  height: auto;
+  border: none;
 }
 
 .pretix-widget .pretix-widget-pricebox-price-input {
@@ -1063,10 +1065,9 @@ fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.foc
   text-align: right;
 }
 
-.pretix-widget .pretix-widget-item-count-single-label {
-  display: block;
-  width: 100%;
-  text-align: center;
+.pretix-widget-item-count-single-label .pretix-widget-btn-checkbox,
+.pretix-widget-availability-available {
+  display: none !important;
 }
 
 .pretix-widget .pretix-widget-attribution {
