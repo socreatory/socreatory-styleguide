@@ -1065,9 +1065,10 @@ fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.foc
   text-align: right;
 }
 
-.pretix-widget-item-count-single-label .pretix-widget-btn-checkbox,
-.pretix-widget-availability-available {
-  display: none !important;
+.pretix-widget-item-count-single-label {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .pretix-widget .pretix-widget-attribution {
