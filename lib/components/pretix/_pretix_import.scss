@@ -1167,12 +1167,14 @@ fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.foc
   padding: 6px 12px;
   border: none;
 
-  color: inherit;
+  color: 000;
 
-  background-color: inherit;
+  background-color: #2ee68a;
 
-  & :hover {
-    color: inherit;
+  & :hover,
+  & :focus,
+  & :active {
+    color: #fff;
   }
 }
 
