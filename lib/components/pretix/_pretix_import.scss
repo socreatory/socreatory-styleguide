@@ -1165,12 +1165,15 @@ fieldset[disabled] .pretix-widget-alert-box label.pretix-widget-btn-checkbox.foc
   width: 100%;
   height: 34px;
   padding: 6px 12px;
-  border: 1px solid #949494;
-  border-radius: var(--pretix-border-radius-base);
+  border: none;
 
-  color: #555;
+  color: inherit;
 
-  background-color: #fff;
+  background-color: inherit;
+
+  & :hover {
+    color: inherit;
+  }
 }
 
 .pretix-widget .pretix-widget-item-availability-col .pretix-widget-collapse-indicator::before {
