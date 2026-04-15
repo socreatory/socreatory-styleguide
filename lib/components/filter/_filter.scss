@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: spacers.$spacer-sm;
+  row-gap: spacers.$spacer-md;
   column-gap: spacers.$spacer-lg;
 
   padding: 0;
@@ -20,9 +20,9 @@
 
   cursor: pointer;
 
-  position: relative;
-
-  display: block;
+  display: flex;
+  gap: spacers.$spacer-2xs;
+  align-items: flex-start;
 
   font-size: typography.$font-size-sm;
   text-transform: uppercase;
@@ -52,11 +52,10 @@
 .filters__item--socreatory::before {
   content: "";
 
-  position: absolute;
+  flex: 0 0 auto;
 
   width: spacers.$spacer-sm;
   height: spacers.$spacer-sm;
-  margin-left: -(spacers.$spacer-md);
   border-radius: 1rem;
 }
 
