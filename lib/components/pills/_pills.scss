@@ -7,8 +7,9 @@
   @extend %monospace-font-regular;
 
   display: flex;
-  flex-wrap: nowrap;
-  gap: spacers.$spacer-sm;
+  flex-wrap: wrap;
+  row-gap: spacers.$spacer-3xs;
+  column-gap: spacers.$spacer-sm;
   align-items: center;
 
   font-size: typography.$font-size-sm;
