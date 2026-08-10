@@ -164,3 +164,20 @@ select {
   flex-direction: column;
   gap: spacers.$spacer-xs;
 }
+
+.form__hint {
+  font-size: typography.$font-size-md;
+}
+
+.form__error {
+  font-size: typography.$font-size-md;
+  color: colors.$brand-error;
+}
+
+.form__field--is-invalid {
+  color: colors.$brand-error;
+
+  .form__input {
+    border-color: colors.$brand-error;
+  }
+}
